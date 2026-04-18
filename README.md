@@ -35,6 +35,11 @@ npm run dev
 php artisan test
 ```
 
+## Deployment
+
+Production deployment instructions and server details are documented in
+[`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
+
 ## Versioning
 
 The project follows Semantic Versioning.

@@ -9,6 +9,7 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Added
 
 - Initialized project versioning with `VERSION` and this changelog.
+- Added production deployment runbook with server details and safety rules.
 
 ## [0.1.0] - 2026-04-18
 
