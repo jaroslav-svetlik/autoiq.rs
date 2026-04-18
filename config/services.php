@@ -40,6 +40,15 @@ return [
         'redirect' => env('FACEBOOK_REDIRECT_URI', env('APP_URL').'/nalog/facebook/povratak'),
     ],
 
+    'openai' => [
+        'key' => env('OPENAI_API_KEY'),
+        'image_model' => env('OPENAI_IMAGE_MODEL', 'gpt-image-1.5'),
+        'image_size' => env('OPENAI_IMAGE_SIZE', '1536x1024'),
+        'image_quality' => env('OPENAI_IMAGE_QUALITY', 'medium'),
+        'image_format' => env('OPENAI_IMAGE_FORMAT', 'webp'),
+        'timeout' => (int) env('OPENAI_IMAGE_TIMEOUT', 120),
+    ],
+
     'slack' => [
         'notifications' => [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),

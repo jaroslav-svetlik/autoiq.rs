@@ -233,3 +233,46 @@ php artisan about
 
 The environment must be `production`; local and test environments must not send
 analytics traffic.
+
+## Blog Cover Generation
+
+Blog cover images are generated with the OpenAI Images API through an Artisan
+command. Never commit or paste the API key into source files, docs, shell
+history, or chat logs. Store it only in the server `.env`:
+
+```bash
+OPENAI_API_KEY=...
+OPENAI_IMAGE_MODEL=gpt-image-1.5
+OPENAI_IMAGE_SIZE=1536x1024
+OPENAI_IMAGE_QUALITY=medium
+OPENAI_IMAGE_FORMAT=webp
+OPENAI_IMAGE_TIMEOUT=120
+```
+
+Preview the work without an API request:
+
+```bash
+php artisan blog:generate-covers --dry-run --limit=10
+```
+
+Generate missing or placeholder blog covers:
+
+```bash
+php artisan blog:generate-covers --limit=10
+```
+
+Generate one article by slug:
+
+```bash
+php artisan blog:generate-covers --slug=article-slug
+```
+
+Regenerate existing covers only when explicitly intended:
+
+```bash
+php artisan blog:generate-covers --slug=article-slug --force
+```
+
+Generated files are written to `storage/app/public/blog/generated` and served
+through Laravel's public storage link. Do not delete existing generated images
+during deploy; replace them only through the command when needed.

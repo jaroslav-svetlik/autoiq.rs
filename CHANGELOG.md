@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.13] - 2026-04-18
+
+### Added
+
+- Added an OpenAI-powered Artisan workflow for generating modern blog cover images without storing API keys in code.
+
 ## [0.1.12] - 2026-04-18
 
 ### Added
