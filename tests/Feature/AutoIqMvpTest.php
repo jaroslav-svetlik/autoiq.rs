@@ -1,0 +1,52 @@
+<?php
+
+namespace Tests\Feature;
+
+use App\Enums\FuelType;
+use App\Enums\TransmissionType;
+use App\Models\Listing;
+use App\Models\User;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Tests\TestCase;
+
+class AutoIqMvpTest extends TestCase
+{
+    use RefreshDatabase;
+
+    public function test_home_page_renders_serbian_mvp_content(): void
+    {
+        $response = $this->get(route('home'));
+
+        $response
+            ->assertOk()
+            ->assertSee('Analiziraj tržište')
+            ->assertSee('Najbolje ponude');
+    }
+
+    public function test_listing_creation_generates_slug_score_and_price_history(): void
+    {
+        $user = User::factory()->create();
+
+        $listing = Listing::query()->create([
+            'user_id' => $user->id,
+            'title' => 'BMW 320d test oglas',
+            'brand' => 'BMW',
+            'model' => '320d',
+            'year' => 2016,
+            'price' => 13_500,
+            'mileage' => 176_000,
+            'fuel_type' => FuelType::Diesel->value,
+            'transmission' => TransmissionType::Automatic->value,
+            'city' => 'Beograd',
+            'description' => 'Detaljan test opis vozila sa dovoljno karaktera za validaciju i observer obradu.',
+            'seller_type' => 'private',
+        ]);
+
+        $this->assertNotNull($listing->fresh()->slug);
+        $this->assertGreaterThanOrEqual(0, $listing->fresh()->autoiq_score);
+        $this->assertLessThanOrEqual(100, $listing->fresh()->autoiq_score);
+        $this->assertDatabaseHas('price_histories', [
+            'listing_id' => $listing->id,
+        ]);
+    }
+}
