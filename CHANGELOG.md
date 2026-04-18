@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.20] - 2026-04-18
+
+### Changed
+
+- Added file-version cache busting to local blog cover URLs so optimized images bypass stale CDN/browser cache entries.
+
 ## [0.1.19] - 2026-04-18
 
 ### Added

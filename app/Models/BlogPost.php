@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
 
 class BlogPost extends Model
 {
@@ -60,10 +61,16 @@ class BlogPost extends Model
         }
 
         $path = ltrim($this->cover_image_path, '/');
-
-        return str_starts_with($path, 'storage/')
+        $storagePath = str_starts_with($path, 'storage/') ? substr($path, strlen('storage/')) : $path;
+        $url = str_starts_with($path, 'storage/')
             ? '/'.$path
             : '/storage/'.$path;
+
+        if (Storage::disk('public')->exists($storagePath)) {
+            return $url.'?v='.Storage::disk('public')->lastModified($storagePath);
+        }
+
+        return $url;
     }
 
     public function readingTimeLabel(): string
