@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-04-18
+
+### Fixed
+
+- Fixed `/sitemap.xml` so the footer sitemap link returns valid XML in production.
+
 ## [0.1.2] - 2026-04-18
 
 ### Added
