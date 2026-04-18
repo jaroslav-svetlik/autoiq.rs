@@ -10,6 +10,10 @@ use RuntimeException;
 
 class BlogCoverImageGenerator
 {
+    public function __construct(
+        private readonly BlogCoverImageOptimizer $optimizer,
+    ) {}
+
     public function generate(
         BlogPost $post,
         ?string $model = null,
@@ -51,7 +55,11 @@ class BlogCoverImageGenerator
             throw new RuntimeException('OpenAI odgovor nije ispravan JSON.');
         }
 
-        $image = $this->imageBytesFromResponse($payload);
+        $image = $this->optimizer->optimize(
+            contents: $this->imageBytesFromResponse($payload),
+            format: $format,
+        )->contents;
+
         $path = 'blog/generated/'.$post->slug.'.'.$this->extensionFor($format);
 
         Storage::disk('public')->put($path, $image);

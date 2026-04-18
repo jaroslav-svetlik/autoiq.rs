@@ -247,6 +247,9 @@ OPENAI_IMAGE_SIZE=1536x1024
 OPENAI_IMAGE_QUALITY=medium
 OPENAI_IMAGE_FORMAT=webp
 OPENAI_IMAGE_TIMEOUT=120
+OPENAI_IMAGE_MAX_WIDTH=1280
+OPENAI_IMAGE_MAX_HEIGHT=854
+OPENAI_IMAGE_OPTIMIZATION_QUALITY=76
 ```
 
 Preview the work without an API request:
@@ -271,6 +274,19 @@ Regenerate existing covers only when explicitly intended:
 
 ```bash
 php artisan blog:generate-covers --slug=article-slug --force
+```
+
+Preview optimization of generated covers without changing files:
+
+```bash
+php artisan blog:optimize-covers --dry-run
+```
+
+Optimize existing generated covers in place. The command overwrites a file only
+when the optimized image is smaller; it does not delete generated images:
+
+```bash
+php artisan blog:optimize-covers
 ```
 
 Generated files are written to `storage/app/public/blog/generated` and served

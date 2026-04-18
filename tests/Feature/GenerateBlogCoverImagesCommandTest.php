@@ -21,12 +21,17 @@ class GenerateBlogCoverImagesCommandTest extends TestCase
             'services.openai.image_size' => '1536x1024',
             'services.openai.image_quality' => 'medium',
             'services.openai.image_format' => 'webp',
+            'services.openai.image_max_width' => 320,
+            'services.openai.image_max_height' => 214,
+            'services.openai.image_optimization_quality' => 60,
         ]);
+
+        $originalImage = $this->webpFixture(width: 640, height: 426, quality: 100);
 
         Http::fake([
             'api.openai.com/v1/images/generations' => Http::response([
                 'data' => [
-                    ['b64_json' => base64_encode('fake-webp-image')],
+                    ['b64_json' => base64_encode($originalImage)],
                 ],
             ]),
         ]);
@@ -49,7 +54,13 @@ class GenerateBlogCoverImagesCommandTest extends TestCase
         $this->assertSame('blog/generated/'.$post->slug.'.webp', $post->cover_image_path);
         $this->assertSame($post->title, $post->cover_image_alt);
         Storage::disk('public')->assertExists($post->cover_image_path);
-        $this->assertSame('fake-webp-image', Storage::disk('public')->get($post->cover_image_path));
+
+        $storedImage = Storage::disk('public')->get($post->cover_image_path);
+        $storedDimensions = getimagesizefromstring($storedImage);
+
+        $this->assertLessThan(strlen($originalImage), strlen($storedImage));
+        $this->assertSame(320, $storedDimensions[0]);
+        $this->assertSame(213, $storedDimensions[1]);
 
         Http::assertSent(function ($request) use ($post) {
             return $request->url() === 'https://api.openai.com/v1/images/generations'
@@ -119,5 +130,28 @@ class GenerateBlogCoverImagesCommandTest extends TestCase
 
         $this->assertSame('blog/generated/existing-cover-post.webp', $post->fresh()->cover_image_path);
         Http::assertNothingSent();
+    }
+
+    private function webpFixture(int $width, int $height, int $quality): string
+    {
+        $image = imagecreatetruecolor($width, $height);
+
+        for ($x = 0; $x < $width; $x++) {
+            for ($y = 0; $y < $height; $y++) {
+                $red = ($x * 7 + $y * 3) % 256;
+                $green = ($x * 5 + $y * 11) % 256;
+                $blue = ($x * 13 + $y * 17) % 256;
+                $color = imagecolorallocate($image, $red, $green, $blue);
+
+                imagesetpixel($image, $x, $y, $color);
+            }
+        }
+
+        ob_start();
+        imagewebp($image, null, $quality);
+        $contents = (string) ob_get_clean();
+        imagedestroy($image);
+
+        return $contents;
     }
 }

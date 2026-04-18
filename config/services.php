@@ -47,6 +47,9 @@ return [
         'image_quality' => env('OPENAI_IMAGE_QUALITY', 'medium'),
         'image_format' => env('OPENAI_IMAGE_FORMAT', 'webp'),
         'timeout' => (int) env('OPENAI_IMAGE_TIMEOUT', 120),
+        'image_max_width' => (int) env('OPENAI_IMAGE_MAX_WIDTH', 1280),
+        'image_max_height' => (int) env('OPENAI_IMAGE_MAX_HEIGHT', 854),
+        'image_optimization_quality' => (int) env('OPENAI_IMAGE_OPTIMIZATION_QUALITY', 76),
     ],
 
     'slack' => [

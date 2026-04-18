@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.19] - 2026-04-18
+
+### Added
+
+- Added automatic optimization for OpenAI-generated blog cover images and a safe `blog:optimize-covers` command for existing generated covers.
+
 ## [0.1.18] - 2026-04-18
 
 ### Added
