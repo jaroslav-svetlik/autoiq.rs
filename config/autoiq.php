@@ -92,6 +92,9 @@ return [
             'respectful_delay_ms' => (int) env('MOJAUTO_IMPORT_DELAY_MS', 1000),
         ],
     ],
+    'contact' => [
+        'recipient_email' => env('AUTOIQ_CONTACT_EMAIL', 'kontakt@autoiq.rs'),
+    ],
     'listing_equipment' => [
         'comfort' => [
             'label' => 'Komfor',

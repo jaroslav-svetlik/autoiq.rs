@@ -27,6 +27,7 @@ class SitemapController extends Controller
             route('home'),
             route('blog.index'),
             route('listings.index'),
+            route('contact'),
         ])
             ->merge(BlogPost::query()
                 ->published()

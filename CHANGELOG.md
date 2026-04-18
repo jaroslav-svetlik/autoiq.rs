@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.7] - 2026-04-18
+
+### Added
+
+- Added a Livewire contact page with loading state, disabled submit button, honeypot field, minimum-submit-time check, link spam guard, and rate limiting.
+- Added contact message email delivery, configurable contact recipient, navigation/footer links, and sitemap coverage.
+
 ## [0.1.6] - 2026-04-18
 
 ### Changed

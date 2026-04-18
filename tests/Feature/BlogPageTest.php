@@ -101,6 +101,7 @@ class BlogPageTest extends TestCase
             ->assertHeader('Content-Type', 'application/xml; charset=UTF-8')
             ->assertSee('<?xml version="1.0" encoding="UTF-8"?>', false)
             ->assertSee(route('blog.index'))
+            ->assertSee(route('contact'))
             ->assertSee(route('blog.show', $post));
     }
 }

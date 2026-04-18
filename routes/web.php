@@ -12,6 +12,7 @@ use App\Livewire\Pages\Auth\ResetPasswordPage;
 use App\Livewire\Pages\Auth\VerifyEmailPage;
 use App\Livewire\Pages\Blog\IndexPage as BlogIndexPage;
 use App\Livewire\Pages\Blog\ShowPage as BlogShowPage;
+use App\Livewire\Pages\ContactPage;
 use App\Livewire\Pages\Dealers\ShowPage as DealerShowPage;
 use App\Livewire\Pages\HomePage;
 use App\Livewire\Pages\Listings\FormPage as ListingFormPage;
@@ -26,6 +27,7 @@ Route::get('/blog/{blogPost}', BlogShowPage::class)->name('blog.show');
 Route::get('/oglasi', ListingIndexPage::class)->name('listings.index');
 Route::get('/auto/{listing}', ListingShowPage::class)->name('listings.show');
 Route::get('/dileri/{dealerProfile}', DealerShowPage::class)->name('dealers.show');
+Route::get('/kontakt', ContactPage::class)->name('contact');
 Route::get('/sitemap.xml', SitemapController::class)->name('sitemap');
 
 Route::middleware('guest')->group(function () {

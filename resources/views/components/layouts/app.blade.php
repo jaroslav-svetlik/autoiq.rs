@@ -70,6 +70,7 @@
                         <a href="{{ route('home') }}" wire:navigate class="btn-ghost {{ request()->routeIs('home') ? 'border border-white/10 bg-white/8 text-white' : '' }}">Početna</a>
                         <a href="{{ route('blog.index') }}" wire:navigate class="btn-ghost {{ request()->routeIs('blog.*') ? 'border border-white/10 bg-white/8 text-white' : '' }}">Blog</a>
                         <a href="{{ route('listings.index') }}" wire:navigate class="btn-ghost {{ request()->routeIs('listings.*') ? 'border border-white/10 bg-white/8 text-white' : '' }}">Oglasi</a>
+                        <a href="{{ route('contact') }}" wire:navigate class="btn-ghost {{ request()->routeIs('contact') ? 'border border-white/10 bg-white/8 text-white' : '' }}">Kontakt</a>
                         @auth
                             <a href="{{ route('listings.create') }}" wire:navigate class="btn-ghost {{ request()->routeIs('listings.create') ? 'border border-white/10 bg-white/8 text-white' : '' }}">Dodaj oglas</a>
                             <a href="{{ route('account.dashboard') }}" wire:navigate class="btn-ghost {{ request()->routeIs('account.*') ? 'border border-white/10 bg-white/8 text-white' : '' }}">
@@ -120,6 +121,7 @@
                     <div class="flex flex-wrap items-center gap-3">
                         <a href="{{ route('blog.index') }}" wire:navigate class="btn-ghost">Blog</a>
                         <a href="{{ route('listings.index') }}" wire:navigate class="btn-ghost">Tržište</a>
+                        <a href="{{ route('contact') }}" wire:navigate class="btn-ghost">Kontakt</a>
                         @auth
                             <a href="{{ route('account.dashboard') }}" wire:navigate class="btn-ghost">Profil</a>
                         @endauth
