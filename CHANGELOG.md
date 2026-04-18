@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.10] - 2026-04-18
+
+### Changed
+
+- Reorganized the header with a separate add-listing button, contact as the last primary navigation item, user account dropdown, and mobile menu.
+
 ## [0.1.9] - 2026-04-18
 
 ### Fixed

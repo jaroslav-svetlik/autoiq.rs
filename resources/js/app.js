@@ -2,6 +2,9 @@ import './bootstrap';
 
 document.addEventListener('livewire:navigated', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.querySelectorAll('details[data-nav-menu][open]').forEach((menu) => {
+        menu.removeAttribute('open');
+    });
 
     const pagePath = window.location.pathname + window.location.search;
 
