@@ -6,10 +6,17 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-04-18
+
 ### Added
 
 - Initialized project versioning with `VERSION` and this changelog.
 - Added production deployment runbook with server details and safety rules.
+
+### Changed
+
+- Refined visible UI, admin, and import copy so it speaks to end users instead of developers.
+- Replaced internal terms such as score, lightbox, admin role, draft, and import flow with clearer Serbian user-facing wording.
 
 ## [0.1.0] - 2026-04-18
 
