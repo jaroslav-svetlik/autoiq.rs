@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.18] - 2026-04-18
+
+### Added
+
+- Added reusable AutoIQ branded email templates for contact messages, email verification, and password reset emails.
+
 ## [0.1.17] - 2026-04-18
 
 ### Changed

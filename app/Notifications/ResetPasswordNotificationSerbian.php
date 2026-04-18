@@ -16,9 +16,18 @@ class ResetPasswordNotificationSerbian extends ResetPassword
 
         return (new MailMessage)
             ->subject('Reset lozinke za AutoIQ')
-            ->greeting('Zahtev za reset lozinke')
-            ->line('Primili smo zahtev za promenu lozinke na vašem AutoIQ nalogu.')
-            ->action('Postavi novu lozinku', $url)
-            ->line('Ako niste poslali zahtev, nije potrebno da preduzimate ništa.');
+            ->view('emails.branded-action', [
+                'title' => 'Reset lozinke',
+                'preheader' => 'Primili smo zahtev za promenu lozinke na vašem AutoIQ nalogu.',
+                'introLines' => [
+                    'Primili smo zahtev za promenu lozinke na vašem AutoIQ nalogu.',
+                    'Kliknite na dugme ispod i postavite novu lozinku. Link važi ograničeno vreme iz bezbednosnih razloga.',
+                ],
+                'ctaLabel' => 'Postavi novu lozinku',
+                'ctaUrl' => $url,
+                'outroLines' => [
+                    'Ako niste poslali zahtev, nije potrebno da preduzimate ništa.',
+                ],
+            ]);
     }
 }
