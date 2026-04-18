@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.16] - 2026-04-18
+
+### Added
+
+- Added global browser security headers to reduce phishing and content-injection risk ahead of Google Safe Browsing review.
+
 ## [0.1.15] - 2026-04-18
 
 ### Fixed
