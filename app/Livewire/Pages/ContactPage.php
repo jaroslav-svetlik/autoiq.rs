@@ -5,9 +5,11 @@ namespace App\Livewire\Pages;
 use App\Livewire\Concerns\ThrottlesRequests;
 use App\Mail\ContactMessageMail;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
+use Throwable;
 
 class ContactPage extends PageComponent
 {
@@ -56,12 +58,27 @@ class ContactPage extends PageComponent
             ]);
         }
 
-        Mail::to(config('autoiq.contact.recipient_email'))->send(new ContactMessageMail([
+        $messageData = [
             ...$validated,
             'submitted_at' => now()->format('d.m.Y. H:i'),
             'ip' => request()->ip(),
             'user_agent' => str((string) request()->userAgent())->limit(180)->toString(),
-        ]));
+        ];
+
+        try {
+            Mail::to(config('autoiq.contact.recipient_email'))->send(new ContactMessageMail($messageData));
+        } catch (Throwable $exception) {
+            Log::warning('Contact message email delivery failed.', [
+                'exception' => $exception::class,
+                'message' => $exception->getMessage(),
+                'recipient' => config('autoiq.contact.recipient_email'),
+                'topic' => $validated['topic'],
+            ]);
+
+            throw ValidationException::withMessages([
+                'email_delivery' => 'Trenutno ne možemo da pošaljemo poruku. Pokušajte ponovo malo kasnije ili nam pišite direktno na '.config('autoiq.contact.recipient_email').'.',
+            ]);
+        }
 
         session()->flash('status', 'Poruka je poslata. Javićemo vam se čim proverimo zahtev.');
         $this->resetForm();

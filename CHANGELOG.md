@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.9] - 2026-04-18
+
+### Fixed
+
+- Prevented contact form mail delivery failures from returning a 500 error and show a user-facing retry message instead.
+- Documented the expected AutoIQ sender address for mail configuration.
+
 ## [0.1.8] - 2026-04-18
 
 ### Changed

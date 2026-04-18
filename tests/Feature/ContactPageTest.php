@@ -7,6 +7,7 @@ use App\Mail\ContactMessageMail;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Livewire;
+use RuntimeException;
 use Tests\TestCase;
 
 class ContactPageTest extends TestCase
@@ -80,5 +81,32 @@ class ContactPageTest extends TestCase
             ->assertHasErrors(['rate_limit']);
 
         Mail::assertNothingSent();
+    }
+
+    public function test_contact_form_shows_validation_error_when_mail_delivery_fails(): void
+    {
+        config()->set('autoiq.contact.recipient_email', 'kontakt@autoiq.rs');
+
+        Mail::shouldReceive('to')
+            ->once()
+            ->with('kontakt@autoiq.rs')
+            ->andReturn(new class
+            {
+                public function send(ContactMessageMail $mail): void
+                {
+                    throw new RuntimeException('SMTP failed');
+                }
+            });
+
+        Livewire::test(ContactPage::class)
+            ->set('name', 'Milan Petrović')
+            ->set('email', 'milan@example.com')
+            ->set('topic', 'Tehnička podrška')
+            ->set('message', 'Potrebna mi je pomoć oko slanja kontakt poruke na platformi.')
+            ->set('formRenderedAt', (string) now()->subSeconds(5)->timestamp)
+            ->call('send')
+            ->assertHasErrors(['email_delivery'])
+            ->assertSet('name', 'Milan Petrović')
+            ->assertSee('Trenutno ne možemo da pošaljemo poruku.');
     }
 }

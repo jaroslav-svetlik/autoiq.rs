@@ -115,6 +115,8 @@ Confirm:
 - `.env` exists on the server and is not committed
 - `APP_ENV=production`
 - `APP_DEBUG=false`
+- `MAIL_FROM_ADDRESS` uses a sender domain verified with the configured mail provider
+- `AUTOIQ_CONTACT_EMAIL` points to the inbox that should receive contact form messages
 
 If `git status --short` shows unexpected modified files, stop and inspect them.
 Do not overwrite or delete them blindly.
@@ -187,6 +189,7 @@ Expected:
 - Laravel reports production environment.
 - migrations are applied.
 - HTTP response is successful.
+- contact form mail uses a verified sender address, for example `noreply@autoiq.rs`.
 - no production errors appear in app logs after a smoke test.
 
 If PHP-FPM or the web server needs a reload, first identify the exact service:

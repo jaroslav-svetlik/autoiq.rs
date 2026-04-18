@@ -82,6 +82,7 @@
                 </div>
 
                 @error('rate_limit') <p class="md:col-span-2 text-sm text-rose-300">{{ $message }}</p> @enderror
+                @error('email_delivery') <p class="md:col-span-2 text-sm text-rose-300">{{ $message }}</p> @enderror
 
                 <div class="md:col-span-2 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                     <p class="text-sm leading-7 text-slate-400">
