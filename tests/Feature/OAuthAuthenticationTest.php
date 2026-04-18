@@ -14,19 +14,19 @@ class OAuthAuthenticationTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_login_and_register_pages_show_google_and_facebook_options(): void
+    public function test_login_and_register_pages_show_google_option_only(): void
     {
         $this->get(route('login'))
             ->assertOk()
-            ->assertSee('Prijavite se preko Google')
-            ->assertSee('Prijavite se preko Facebook')
+            ->assertSee('Nastavi preko Google')
+            ->assertDontSee('Nastavi preko Facebook')
             ->assertSee(route('oauth.redirect', 'google'), false)
-            ->assertSee(route('oauth.redirect', 'facebook'), false);
+            ->assertDontSee(route('oauth.redirect', 'facebook'), false);
 
         $this->get(route('register'))
             ->assertOk()
-            ->assertSee('Nastavite registraciju preko Google')
-            ->assertSee('Nastavite registraciju preko Facebook');
+            ->assertSee('Nastavi preko Google')
+            ->assertDontSee('Nastavi preko Facebook');
     }
 
     public function test_oauth_redirect_uses_configured_provider(): void

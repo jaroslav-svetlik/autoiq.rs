@@ -10,16 +10,11 @@
             'accent' => 'from-[#4285f4] via-[#34a853] to-[#fbbc05]',
             'iconBorder' => 'border-white/12 bg-white',
         ],
-        'facebook' => [
-            'label' => 'Facebook',
-            'accent' => 'from-[#1877f2] via-[#3b82f6] to-cyan-300',
-            'iconBorder' => 'border-[#1877f2]/35 bg-[#1877f2]',
-        ],
     ];
 @endphp
 
 <div {{ $attributes->class('space-y-4') }}>
-    <div class="grid gap-3 sm:grid-cols-2">
+    <div class="grid gap-3">
         @foreach($providers as $provider => $data)
             <a
                 href="{{ route('oauth.redirect', $provider) }}"
@@ -36,10 +31,6 @@
                                 <path fill="#34A853" d="M12 22c2.7 0 4.96-.9 6.62-2.43l-3.24-2.51c-.9.6-2.04.95-3.38.95-2.6 0-4.8-1.76-5.59-4.12H3.07v2.59A10 10 0 0 0 12 22Z" />
                                 <path fill="#FBBC05" d="M6.41 13.89A6.03 6.03 0 0 1 6.1 12c0-.66.11-1.3.31-1.89V7.52H3.07A10 10 0 0 0 2 12c0 1.61.39 3.13 1.07 4.48l3.34-2.59Z" />
                                 <path fill="#EA4335" d="M12 5.99c1.47 0 2.78.5 3.82 1.49l2.87-2.87C16.95 2.99 14.7 2 12 2a10 10 0 0 0-8.93 5.52l3.34 2.59C7.2 7.75 9.4 5.99 12 5.99Z" />
-                            </svg>
-                        @else
-                            <svg class="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                <path d="M15.12 8.19h2.17V4.41A28.07 28.07 0 0 0 14.13 4c-3.13 0-5.27 1.97-5.27 5.59v3.33H5.41v4.22h3.45V24h4.23v-6.86h3.31l.53-4.22h-3.84V10c0-1.22.33-1.81 2.03-1.81Z" />
                             </svg>
                         @endif
                     </span>

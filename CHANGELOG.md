@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.6] - 2026-04-18
+
+### Changed
+
+- Removed the Facebook authentication button from login and registration pages, leaving Google as the only visible social sign-in option.
+
 ## [0.1.5] - 2026-04-18
 
 ### Changed
