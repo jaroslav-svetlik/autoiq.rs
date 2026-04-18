@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.17] - 2026-04-18
+
+### Changed
+
+- Reduced OAuth phishing-review surface by disabling unused Facebook OAuth routes and adding clearer AutoIQ.rs/Google-login safety copy.
+- Added noindex response headers for account routes while Google Safe Browsing review is pending.
+
 ## [0.1.16] - 2026-04-18
 
 ### Added

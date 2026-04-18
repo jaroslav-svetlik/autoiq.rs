@@ -52,6 +52,10 @@
         @endforeach
     </div>
 
+    <p class="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 text-xs leading-6 text-slate-400">
+        Google prijava vas vodi na <span class="font-semibold text-slate-200">accounts.google.com</span>. AutoIQ.rs ne vidi i ne čuva vašu Google lozinku.
+    </p>
+
     <div class="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
         <span class="h-px flex-1 bg-white/10"></span>
         <span>{{ $mode === 'register' ? 'ili unesite podatke' : 'ili koristite email' }}</span>

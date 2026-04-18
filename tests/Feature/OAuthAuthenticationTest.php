@@ -80,9 +80,9 @@ class OAuthAuthenticationTest extends TestCase
 
     public function test_oauth_callback_links_existing_user_by_email(): void
     {
-        config()->set('services.facebook.client_id', 'facebook-client');
-        config()->set('services.facebook.client_secret', 'facebook-secret');
-        config()->set('services.facebook.redirect', 'https://autoiq.test/nalog/facebook/povratak');
+        config()->set('services.google.client_id', 'google-client');
+        config()->set('services.google.client_secret', 'google-secret');
+        config()->set('services.google.redirect', 'https://autoiq.test/nalog/google/povratak');
 
         $existingUser = User::factory()->create([
             'email' => 'jelena@example.com',
@@ -90,18 +90,18 @@ class OAuthAuthenticationTest extends TestCase
         ]);
 
         $providerUser = $this->providerUser(
-            id: 'facebook-456',
+            id: 'google-456',
             name: 'Jelena Petrović',
             email: 'jelena@example.com',
-            avatar: 'https://graph.facebook.com/avatar.jpg',
+            avatar: 'https://lh3.googleusercontent.com/avatar.jpg',
         );
 
         $driver = Mockery::mock();
         $driver->shouldReceive('user')->once()->andReturn($providerUser);
 
-        Socialite::shouldReceive('driver')->once()->with('facebook')->andReturn($driver);
+        Socialite::shouldReceive('driver')->once()->with('google')->andReturn($driver);
 
-        $this->get(route('oauth.callback', 'facebook'))
+        $this->get(route('oauth.callback', 'google'))
             ->assertRedirect(route('account.dashboard'));
 
         $this->assertAuthenticatedAs($existingUser);
@@ -109,9 +109,15 @@ class OAuthAuthenticationTest extends TestCase
         $this->assertDatabaseCount('users', 1);
         $this->assertDatabaseHas('social_accounts', [
             'user_id' => $existingUser->id,
-            'provider' => 'facebook',
-            'provider_id' => 'facebook-456',
+            'provider' => 'google',
+            'provider_id' => 'google-456',
         ]);
+    }
+
+    public function test_facebook_oauth_routes_are_not_available(): void
+    {
+        $this->get('/nalog/facebook/preusmeri')->assertNotFound();
+        $this->get('/nalog/facebook/povratak')->assertNotFound();
     }
 
     public function test_unconfigured_provider_redirects_back_to_login(): void

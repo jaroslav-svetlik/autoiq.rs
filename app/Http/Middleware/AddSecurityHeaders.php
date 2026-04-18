@@ -33,6 +33,10 @@ class AddSecurityHeaders
             ]),
         ];
 
+        if ($request->is('nalog/*')) {
+            $headers['X-Robots-Tag'] = 'noindex, nofollow, noarchive';
+        }
+
         foreach ($headers as $name => $value) {
             if (! $response->headers->has($name)) {
                 $response->headers->set($name, $value);

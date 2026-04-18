@@ -34,10 +34,10 @@ Route::middleware('guest')->group(function () {
     Route::get('/nalog/prijava', LoginPage::class)->name('login');
     Route::get('/nalog/registracija', RegisterPage::class)->name('register');
     Route::get('/nalog/{provider}/preusmeri', [OAuthController::class, 'redirect'])
-        ->whereIn('provider', ['google', 'facebook'])
+        ->whereIn('provider', ['google'])
         ->name('oauth.redirect');
     Route::get('/nalog/{provider}/povratak', [OAuthController::class, 'callback'])
-        ->whereIn('provider', ['google', 'facebook'])
+        ->whereIn('provider', ['google'])
         ->name('oauth.callback');
     Route::get('/nalog/zaboravljena-lozinka', ForgotPasswordPage::class)->name('password.request');
     Route::get('/nalog/reset-lozinke/{token}', ResetPasswordPage::class)->name('password.reset');

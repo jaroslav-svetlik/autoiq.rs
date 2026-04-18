@@ -3,7 +3,7 @@
         <div class="mb-8">
             <div class="data-kicker">AutoIQ nalog</div>
             <h1 class="font-display mt-2 text-4xl font-bold text-white">Prijava</h1>
-            <p class="mt-3 text-sm leading-7 text-slate-300">Pristupite favoritima, alarmima, oglasima i tržišnim analizama bez napuštanja aplikacije.</p>
+            <p class="mt-3 text-sm leading-7 text-slate-300">Pristupate AutoIQ.rs nalogu za oglase, favorite i alarme. AutoIQ nikada ne traži vašu Google lozinku.</p>
         </div>
 
         <x-oauth-buttons mode="login" class="mb-6" />

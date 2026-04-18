@@ -127,7 +127,7 @@ class OAuthController extends Controller
 
     protected function isSupportedProvider(string $provider): bool
     {
-        return in_array($provider, ['google', 'facebook'], true);
+        return $provider === 'google';
     }
 
     protected function isConfigured(string $provider): bool
@@ -139,9 +139,6 @@ class OAuthController extends Controller
 
     protected function providerLabel(string $provider): string
     {
-        return match ($provider) {
-            'facebook' => 'Facebook',
-            default => 'Google',
-        };
+        return 'Google';
     }
 }

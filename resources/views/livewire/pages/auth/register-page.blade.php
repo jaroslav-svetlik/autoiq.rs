@@ -1,9 +1,9 @@
 <div class="mx-auto max-w-3xl">
     <div class="panel p-8 sm:p-10">
         <div class="mb-8">
-            <div class="data-kicker">Pokrenite nalog</div>
+            <div class="data-kicker">AutoIQ.rs nalog</div>
             <h1 class="font-display mt-2 text-4xl font-bold text-white">Registracija</h1>
-            <p class="mt-3 max-w-2xl text-sm leading-7 text-slate-300">Otvorite korisnički ili dilerski nalog i koristite AutoIQ za oglašavanje, praćenje cena i pametne alarme.</p>
+            <p class="mt-3 max-w-2xl text-sm leading-7 text-slate-300">Otvarate nalog za AutoIQ.rs. Ako nastavite preko Google-a, unos lozinke se radi samo na zvaničnoj Google strani.</p>
         </div>
 
         <x-oauth-buttons mode="register" class="mb-6" />
