@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.21] - 2026-04-18
+
+### Changed
+
+- Made blog cover optimization idempotent by skipping images that are already within the target dimensions and file-size threshold.
+
 ## [0.1.20] - 2026-04-18
 
 ### Changed

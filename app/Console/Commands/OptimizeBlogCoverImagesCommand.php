@@ -17,6 +17,7 @@ class OptimizeBlogCoverImagesCommand extends Command
         {--dry-run : Prikaži uštedu bez upisa optimizovanih fajlova}
         {--max-width= : Najveća širina optimizovane slike}
         {--max-height= : Najveća visina optimizovane slike}
+        {--max-kb= : Preskoči slike koje su već u dimenzijama i ispod ove veličine}
         {--quality= : Kvalitet izlazne WebP/JPEG slike od 1 do 100}';
 
     protected $description = 'Optimizuje postojeće OpenAI blog cover slike bez brisanja fajlova.';
@@ -39,6 +40,23 @@ class OptimizeBlogCoverImagesCommand extends Command
         foreach ($paths as $path) {
             try {
                 $original = Storage::disk('public')->get($path);
+
+                if ($this->isAlreadyOptimized($original)) {
+                    $dimensions = getimagesizefromstring($original);
+                    $bytes = strlen($original);
+                    $totalBefore += $bytes;
+                    $totalAfter += $bytes;
+                    $rows[] = [
+                        $path,
+                        $this->humanBytes($bytes),
+                        'bez promene',
+                        '0%',
+                        $dimensions[0].'x'.$dimensions[1],
+                    ];
+
+                    continue;
+                }
+
                 $result = $optimizer->optimize(
                     contents: $original,
                     format: $this->formatForPath($path),
@@ -130,6 +148,23 @@ class OptimizeBlogCoverImagesCommand extends Command
         $value = $this->option($key);
 
         return is_numeric($value) ? (int) $value : null;
+    }
+
+    private function isAlreadyOptimized(string $contents): bool
+    {
+        $dimensions = getimagesizefromstring($contents);
+
+        if (! is_array($dimensions)) {
+            return false;
+        }
+
+        $maxWidth = $this->optionInteger('max-width') ?? (int) config('services.openai.image_max_width', 1280);
+        $maxHeight = $this->optionInteger('max-height') ?? (int) config('services.openai.image_max_height', 854);
+        $maxKilobytes = $this->optionInteger('max-kb') ?? (int) config('services.openai.image_target_max_kb', 350);
+
+        return $dimensions[0] <= $maxWidth
+            && $dimensions[1] <= $maxHeight
+            && strlen($contents) <= $maxKilobytes * 1024;
     }
 
     private function humanBytes(int $bytes): string

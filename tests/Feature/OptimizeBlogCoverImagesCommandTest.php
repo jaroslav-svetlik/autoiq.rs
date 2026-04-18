@@ -47,6 +47,24 @@ class OptimizeBlogCoverImagesCommandTest extends TestCase
         $this->assertSame($originalImage, Storage::disk('public')->get($path));
     }
 
+    public function test_command_skips_covers_that_are_already_optimized(): void
+    {
+        Storage::fake('public');
+        $path = 'blog/generated/test-cover.webp';
+        $optimizedImage = $this->webpFixture(width: 320, height: 213, quality: 60);
+
+        Storage::disk('public')->put($path, $optimizedImage);
+
+        $this->artisan('blog:optimize-covers', [
+            '--max-width' => 320,
+            '--max-height' => 214,
+            '--max-kb' => 350,
+            '--quality' => 60,
+        ])->assertSuccessful();
+
+        $this->assertSame($optimizedImage, Storage::disk('public')->get($path));
+    }
+
     private function webpFixture(int $width, int $height, int $quality): string
     {
         $image = imagecreatetruecolor($width, $height);

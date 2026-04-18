@@ -49,6 +49,7 @@ return [
         'timeout' => (int) env('OPENAI_IMAGE_TIMEOUT', 120),
         'image_max_width' => (int) env('OPENAI_IMAGE_MAX_WIDTH', 1280),
         'image_max_height' => (int) env('OPENAI_IMAGE_MAX_HEIGHT', 854),
+        'image_target_max_kb' => (int) env('OPENAI_IMAGE_TARGET_MAX_KB', 350),
         'image_optimization_quality' => (int) env('OPENAI_IMAGE_OPTIMIZATION_QUALITY', 76),
     ],
 
