@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.12] - 2026-04-18
+
+### Added
+
+- Added five new idempotent comparison blog posts without duplicate slugs or titles.
+
 ## [0.1.11] - 2026-04-18
 
 ### Changed
