@@ -18,7 +18,8 @@ class HeaderNavigationTest extends TestCase
             ->assertSee('data-desktop-primary-nav', false)
             ->assertSee('data-header-add-listing', false)
             ->assertSee('data-mobile-menu', false)
-            ->assertSee('data-mobile-add-listing', false);
+            ->assertSee('data-mobile-add-listing', false)
+            ->assertDontSee('Otvori nalog');
 
         $html = $response->getContent();
         $desktopNav = $this->extractAttributeBlock($html, 'data-desktop-primary-nav');

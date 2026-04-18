@@ -130,7 +130,6 @@
                             </details>
                         @else
                             <a href="{{ route('login') }}" wire:navigate class="btn-ghost">Prijava</a>
-                            <a href="{{ route('register') }}" wire:navigate class="btn-primary">Otvori nalog</a>
                         @endauth
                     </div>
 
@@ -178,7 +177,6 @@
                             @else
                                 <div class="mt-4 grid gap-2 border-t border-white/8 pt-4">
                                     <a href="{{ route('login') }}" wire:navigate class="btn-secondary w-full">Prijava</a>
-                                    <a href="{{ route('register') }}" wire:navigate class="btn-primary w-full">Otvori nalog</a>
                                 </div>
                             @endauth
                         </div>

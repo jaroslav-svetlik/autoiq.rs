@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.11] - 2026-04-18
+
+### Changed
+
+- Removed the open-account button from the desktop and mobile header for signed-out visitors.
+
 ## [0.1.10] - 2026-04-18
 
 ### Changed
