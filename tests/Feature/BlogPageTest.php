@@ -82,6 +82,9 @@ class BlogPageTest extends TestCase
             ->assertSee('Ključne poruke')
             ->assertSee('Gledaj kilometražu i režim vožnje.')
             ->assertSee($related->title)
+            ->assertSee('property="og:image" content="'.url($post->coverImageUrl(absolute: true)).'"', false)
+            ->assertSee('"dateModified"', false)
+            ->assertSee('"BreadcrumbList"', false)
             ->assertSee('aspect-[3/2]', false)
             ->assertSee('object-contain', false);
     }
@@ -104,6 +107,16 @@ class BlogPageTest extends TestCase
             ->assertSee('<?xml version="1.0" encoding="UTF-8"?>', false)
             ->assertSee(route('blog.index'))
             ->assertSee(route('contact'))
-            ->assertSee(route('blog.show', $post));
+            ->assertSee(route('blog.show', $post))
+            ->assertSee('<lastmod>'.$post->updated_at->toAtomString().'</lastmod>', false)
+            ->assertHeaderMissing('Set-Cookie');
+    }
+
+    public function test_robots_txt_points_to_sitemap(): void
+    {
+        $this->assertStringContainsString(
+            'Sitemap: https://autoiq.rs/sitemap.xml',
+            file_get_contents(public_path('robots.txt')),
+        );
     }
 }

@@ -21,5 +21,10 @@ class BlogPostImageUrlTest extends TestCase
             '#^/storage/blog/generated/test-cover\.webp\?v=\d+$#',
             $post->coverImageUrl(),
         );
+
+        $this->assertMatchesRegularExpression(
+            '#^http://localhost/storage/blog/generated/test-cover\.webp\?v=\d+$#',
+            $post->coverImageUrl(absolute: true),
+        );
     }
 }

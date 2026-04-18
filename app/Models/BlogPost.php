@@ -50,7 +50,7 @@ class BlogPost extends Model
         return 'slug';
     }
 
-    public function coverImageUrl(): string
+    public function coverImageUrl(bool $absolute = false): string
     {
         if (! $this->cover_image_path) {
             return 'https://placehold.co/1600x900/0f172a/f8fafc?text='.urlencode($this->title);
@@ -67,10 +67,10 @@ class BlogPost extends Model
             : '/storage/'.$path;
 
         if (Storage::disk('public')->exists($storagePath)) {
-            return $url.'?v='.Storage::disk('public')->lastModified($storagePath);
+            $url .= '?v='.Storage::disk('public')->lastModified($storagePath);
         }
 
-        return $url;
+        return $absolute ? url($url) : $url;
     }
 
     public function readingTimeLabel(): string

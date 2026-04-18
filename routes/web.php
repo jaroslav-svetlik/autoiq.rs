@@ -18,8 +18,12 @@ use App\Livewire\Pages\HomePage;
 use App\Livewire\Pages\Listings\FormPage as ListingFormPage;
 use App\Livewire\Pages\Listings\IndexPage as ListingIndexPage;
 use App\Livewire\Pages\Listings\ShowPage as ListingShowPage;
+use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
+use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
+use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\Facades\Route;
+use Illuminate\View\Middleware\ShareErrorsFromSession;
 
 Route::get('/', HomePage::class)->name('home');
 Route::get('/blog', BlogIndexPage::class)->name('blog.index');
@@ -28,7 +32,14 @@ Route::get('/oglasi', ListingIndexPage::class)->name('listings.index');
 Route::get('/auto/{listing}', ListingShowPage::class)->name('listings.show');
 Route::get('/dileri/{dealerProfile}', DealerShowPage::class)->name('dealers.show');
 Route::get('/kontakt', ContactPage::class)->name('contact');
-Route::get('/sitemap.xml', SitemapController::class)->name('sitemap');
+Route::get('/sitemap.xml', SitemapController::class)
+    ->withoutMiddleware([
+        AddQueuedCookiesToResponse::class,
+        StartSession::class,
+        ShareErrorsFromSession::class,
+        PreventRequestForgery::class,
+    ])
+    ->name('sitemap');
 
 Route::middleware('guest')->group(function () {
     Route::get('/nalog/prijava', LoginPage::class)->name('login');

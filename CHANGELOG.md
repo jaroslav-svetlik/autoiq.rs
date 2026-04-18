@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.22] - 2026-04-18
+
+### Changed
+
+- Improved technical SEO for blog content with sitemap `lastmod` entries, robots sitemap discovery, absolute article image metadata, and blog breadcrumbs structured data.
+
 ## [0.1.21] - 2026-04-18
 
 ### Changed
