@@ -45,12 +45,14 @@
             </div>
         </div>
 
-        <div class="panel overflow-hidden">
-            <img
-                src="{{ $blogPost->coverImageUrl() }}"
-                alt="{{ $blogPost->cover_image_alt ?: $blogPost->title }}"
-                class="h-full max-h-[560px] w-full object-cover"
-            >
+        <div class="panel overflow-hidden bg-slate-950/70 p-2 sm:p-3">
+            <div class="aspect-[3/2] overflow-hidden rounded-[1.25rem] bg-slate-950">
+                <img
+                    src="{{ $blogPost->coverImageUrl() }}"
+                    alt="{{ $blogPost->cover_image_alt ?: $blogPost->title }}"
+                    class="h-full w-full object-contain"
+                >
+            </div>
         </div>
     </section>
 

@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.15] - 2026-04-18
+
+### Fixed
+
+- Fixed single blog article cover images so generated thumbnails are shown fully instead of being cropped.
+
 ## [0.1.14] - 2026-04-18
 
 ### Added

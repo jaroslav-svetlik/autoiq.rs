@@ -81,7 +81,9 @@ class BlogPageTest extends TestCase
             ->assertSee($post->title)
             ->assertSee('Ključne poruke')
             ->assertSee('Gledaj kilometražu i režim vožnje.')
-            ->assertSee($related->title);
+            ->assertSee($related->title)
+            ->assertSee('aspect-[3/2]', false)
+            ->assertSee('object-contain', false);
     }
 
     public function test_home_page_and_sitemap_include_blog_content(): void
