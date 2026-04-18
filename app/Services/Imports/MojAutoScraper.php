@@ -112,8 +112,8 @@ class MojAutoScraper
                 'equipment' => $equipmentRaw,
             ],
             notes: $status === 'partial'
-                ? 'Osnovni podaci su pronadjeni, ali nisu svi atributi dovoljni za automatsko kreiranje lokalnog draft oglasa.'
-                : 'Podaci su uspesno normalizovani za review/import tok.',
+                ? 'Osnovni podaci su pronađeni, ali nisu svi atributi dovoljni za automatsko kreiranje nacrta oglasa.'
+                : 'Podaci su uspešno pripremljeni za pregled i uvoz.',
         );
     }
 

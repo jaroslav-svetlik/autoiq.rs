@@ -2,8 +2,8 @@
     <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
             <div class="data-kicker">Moj nalog</div>
-            <h1 class="section-title mt-2">Kontrolna tabla korisnika</h1>
-            <p class="section-copy mt-3">Profil, moji oglasi, favoriti, alarmi i notifikacije na jednom mestu.</p>
+            <h1 class="section-title mt-2">Moj AutoIQ prostor</h1>
+            <p class="section-copy mt-3">Profil, moji oglasi, favoriti, alarmi i obaveštenja na jednom mestu.</p>
         </div>
         <a href="{{ route('listings.create') }}" wire:navigate class="btn-primary">Dodaj novi oglas</a>
     </div>
@@ -14,7 +14,7 @@
             'oglasi' => 'Moji oglasi',
             'favoriti' => 'Favoriti',
             'pretrage' => 'Sačuvane pretrage',
-            'notifikacije' => 'Notifikacije',
+            'obavestenja' => 'Obaveštenja',
         ] as $value => $label)
             <button
                 type="button"
@@ -22,7 +22,7 @@
                 class="tab-button {{ $tab === $value ? 'tab-button-active' : 'tab-button-inactive' }}"
             >
                 {{ $label }}
-                @if($value === 'notifikacije' && $user->unreadNotifications->count())
+                @if($value === 'obavestenja' && $user->unreadNotifications->count())
                     <span class="ml-2 rounded-full bg-amber-400 px-2 py-0.5 text-xs font-bold text-slate-950">{{ $user->unreadNotifications->count() }}</span>
                 @endif
             </button>
@@ -56,7 +56,7 @@
                     </select>
                 </div>
                 <div class="md:col-span-2">
-                    <label class="field-label">Bio</label>
+                    <label class="field-label">O meni</label>
                     <textarea wire:model.live="bio" class="textarea-shell w-full" placeholder="Kratak opis vaših interesovanja ili iskustva sa kupovinom/prodajom vozila."></textarea>
                 </div>
 
@@ -124,7 +124,7 @@
 
                     <div class="mt-5 flex flex-wrap gap-3">
                         <button type="button" wire:click="toggleSavedSearchFlag({{ $search->id }}, 'notify_new_matches')" class="btn-ghost {{ $search->notify_new_matches ? 'text-emerald-200' : 'text-slate-400' }}">
-                            Novi oglasi: {{ $search->notify_new_matches ? 'uključeno' : 'isključeno' }}
+                            Obaveštenja za nove oglase: {{ $search->notify_new_matches ? 'uključeno' : 'isključeno' }}
                         </button>
                         <button type="button" wire:click="toggleSavedSearchFlag({{ $search->id }}, 'notify_price_drops')" class="btn-ghost {{ $search->notify_price_drops ? 'text-cyan-200' : 'text-slate-400' }}">
                             Pad cene: {{ $search->notify_price_drops ? 'uključeno' : 'isključeno' }}
@@ -140,7 +140,7 @@
         </div>
     @endif
 
-    @if($tab === 'notifikacije')
+    @if($tab === 'obavestenja')
         <div class="space-y-4">
             <div class="flex justify-end">
                 <button type="button" wire:click="markAllNotificationsRead" class="btn-secondary">Označi sve kao pročitano</button>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
             @empty
-                <div class="panel p-8 text-slate-300">Trenutno nema notifikacija.</div>
+                <div class="panel p-8 text-slate-300">Trenutno nema obaveštenja.</div>
             @endforelse
         </div>
     @endif

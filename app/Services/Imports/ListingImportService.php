@@ -41,7 +41,7 @@ class ListingImportService
         if (! $record->isReadyForDraft()) {
             $record->forceFill([
                 'status' => 'review',
-                'notes' => trim(($record->notes ? $record->notes.' ' : '').'Nema dovoljno podataka za automatsko kreiranje lokalnog draft oglasa.'),
+                'notes' => trim(($record->notes ? $record->notes.' ' : '').'Nema dovoljno podataka za automatsko kreiranje nacrta oglasa.'),
             ])->save();
 
             return $record->fresh();
@@ -128,7 +128,7 @@ class ListingImportService
     {
         return $listing->status === ListingStatus::Published
             ? 'Kreiran je i objavljen lokalni oglas iz uvezenih podataka.'
-            : 'Kreiran je lokalni draft oglas za dalji pregled.';
+            : 'Kreiran je nacrt oglasa za dalji pregled.';
     }
 
     protected function syncListingImages(Listing $listing, ListingImport $record, ?string $title): void

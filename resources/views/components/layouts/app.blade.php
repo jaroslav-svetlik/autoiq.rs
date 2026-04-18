@@ -62,7 +62,7 @@
                         <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-300 via-amber-400 to-orange-500 text-base font-black text-slate-950 shadow-lg shadow-amber-500/20">AIQ</div>
                         <div>
                             <div class="font-display text-lg font-bold tracking-tight text-white">AutoIQ</div>
-                            <div class="text-xs uppercase tracking-[0.28em] text-slate-400">Smart car market Serbia</div>
+                            <div class="text-xs uppercase tracking-[0.28em] text-slate-400">Pametnije tržište vozila</div>
                         </div>
                     </a>
 
@@ -79,7 +79,7 @@
                                 @endif
                             </a>
                             @can('view admin dashboard')
-                                <a href="{{ route('admin.dashboard') }}" wire:navigate class="btn-ghost {{ request()->routeIs('admin.*') ? 'border border-white/10 bg-white/8 text-white' : '' }}">Admin</a>
+                                <a href="{{ route('admin.dashboard') }}" wire:navigate class="btn-ghost {{ request()->routeIs('admin.*') ? 'border border-white/10 bg-white/8 text-white' : '' }}">Upravljanje</a>
                             @endcan
                         @endauth
                     </nav>
@@ -115,7 +115,7 @@
                 <div class="container-frame flex flex-col gap-6 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
                     <div class="max-w-xl">
                         <div class="font-display text-lg font-semibold text-white">AutoIQ</div>
-                        <p class="mt-2 leading-7">Pametna platforma za kupovinu i prodaju automobila u Srbiji: oglasi, analiza cena, favoriti, alarmi i AutoIQ score.</p>
+                        <p class="mt-2 leading-7">Pametna platforma za kupovinu i prodaju automobila u Srbiji: oglasi, analiza cena, favoriti, alarmi i AutoIQ procena.</p>
                     </div>
                     <div class="flex flex-wrap items-center gap-3">
                         <a href="{{ route('blog.index') }}" wire:navigate class="btn-ghost">Blog</a>
@@ -123,7 +123,7 @@
                         @auth
                             <a href="{{ route('account.dashboard') }}" wire:navigate class="btn-ghost">Profil</a>
                         @endauth
-                        <a href="{{ route('sitemap') }}" class="btn-ghost">Sitemap</a>
+                        <a href="{{ route('sitemap') }}" class="btn-ghost">Mapa sajta</a>
                     </div>
                 </div>
             </footer>

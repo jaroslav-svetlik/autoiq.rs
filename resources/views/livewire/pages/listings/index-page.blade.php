@@ -1,7 +1,7 @@
 <div class="space-y-8">
     <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-            <div class="data-kicker">Real-time pretraga</div>
+            <div class="data-kicker">Pretraga uživo</div>
             <h1 class="section-title mt-2">Auto oglasi i analiza tržišta</h1>
             <p class="section-copy mt-3">Filtrirajte po budžetu, godištu, kilometraži, lokaciji i opremi, pa odmah vidite gde cena odstupa od proseka.</p>
         </div>
@@ -10,7 +10,7 @@
             @auth
                 <a href="{{ route('listings.create') }}" wire:navigate class="btn-primary">Dodaj oglas</a>
             @endauth
-            <button type="button" wire:click="clearFilters" class="btn-secondary">Reset filtera</button>
+            <button type="button" wire:click="clearFilters" class="btn-secondary">Poništi filtere</button>
         </div>
     </div>
 
@@ -24,7 +24,7 @@
 
                 <div class="space-y-4">
                     <div>
-                        <label class="field-label">Tekstualna pretraga</label>
+                        <label class="field-label">Pretražite oglase</label>
                         <input type="text" wire:model.live.debounce.350ms="search" class="input-shell w-full" placeholder="Audi A4, SUV, automatik...">
                     </div>
 
@@ -174,7 +174,7 @@
                 </div>
                     <div class="grid gap-3 sm:grid-cols-3">
                         <div class="panel-soft px-4 py-3 text-sm text-slate-300">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500">Sort</div>
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500">Redosled</div>
                         <div class="mt-1 font-semibold text-white">
                             {{
                                 match($sort) {
@@ -188,8 +188,8 @@
                         </div>
                     </div>
                     <div class="panel-soft px-4 py-3 text-sm text-slate-300">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500">AutoIQ fokus</div>
-                        <div class="mt-1 font-semibold text-white">Score 0–100</div>
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500">AutoIQ procena</div>
+                        <div class="mt-1 font-semibold text-white">Ocena 0-100</div>
                         </div>
                         <div class="panel-soft px-4 py-3 text-sm text-slate-300">
                             <div class="text-xs uppercase tracking-[0.18em] text-slate-500">Oprema</div>

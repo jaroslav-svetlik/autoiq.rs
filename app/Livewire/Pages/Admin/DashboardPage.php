@@ -62,7 +62,7 @@ class DashboardPage extends PageComponent
         $user = User::query()->findOrFail($userId);
 
         if ($user->id === auth()->id() && $role !== UserRole::Admin->value) {
-            session()->flash('status', 'Ne možete sebi skinuti administratorsku rolu.');
+            session()->flash('status', 'Ne možete ukloniti sopstveni upravljački pristup.');
 
             return;
         }
@@ -75,7 +75,7 @@ class DashboardPage extends PageComponent
 
         $user->syncPlatformRole($role);
 
-        session()->flash('status', "Rola za korisnika {$user->name} je ažurirana.");
+        session()->flash('status', "Nivo pristupa za korisnika {$user->name} je ažuriran.");
     }
 
     public function toggleBan(int $userId): void
@@ -85,7 +85,7 @@ class DashboardPage extends PageComponent
         $user = User::query()->findOrFail($userId);
 
         if ($user->id === auth()->id()) {
-            session()->flash('status', 'Ne možete banovati sopstveni nalog.');
+            session()->flash('status', 'Ne možete suspendovati sopstveni nalog.');
 
             return;
         }
@@ -163,17 +163,17 @@ class DashboardPage extends PageComponent
             && in_array($permission, ['view admin dashboard', 'manage roles'], true)
             && $role->hasPermissionTo($permission)
         ) {
-            session()->flash('status', 'Kritične admin dozvole ne mogu biti uklonjene sa admin role.');
+            session()->flash('status', 'Osnovne upravljačke dozvole ne mogu biti uklonjene sa glavnog nivoa pristupa.');
 
             return;
         }
 
         if ($role->hasPermissionTo($permission)) {
             $role->revokePermissionTo($permission);
-            session()->flash('status', 'Dozvola je uklonjena sa role.');
+            session()->flash('status', 'Dozvola je uklonjena sa izabranog nivoa pristupa.');
         } else {
             $role->givePermissionTo($permission);
-            session()->flash('status', 'Dozvola je dodeljena roli.');
+            session()->flash('status', 'Dozvola je dodeljena izabranom nivou pristupa.');
         }
     }
 
@@ -189,7 +189,7 @@ class DashboardPage extends PageComponent
 
     protected function title(): string
     {
-        return 'Admin panel | AutoIQ';
+        return 'Upravljanje platformom | AutoIQ';
     }
 
     protected function meta(): array

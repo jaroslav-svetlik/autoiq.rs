@@ -1047,7 +1047,7 @@ TEXT,
     <text x="28" y="28" fill="#e2e8f0" font-size="20" font-family="Manrope, Arial, sans-serif" font-weight="700" letter-spacing="4">{$badge}</text>
     <text x="0" y="126" fill="#ffffff" font-size="78" font-family="Space Grotesk, Arial, sans-serif" font-weight="700">{$title}</text>
     <text x="0" y="178" fill="#cbd5e1" font-size="28" font-family="Manrope, Arial, sans-serif">{$subtitle}</text>
-    <text x="0" y="512" fill="#f8fafc" fill-opacity="0.82" font-size="26" font-family="Manrope, Arial, sans-serif">AutoIQ demo listing gallery</text>
+    <text x="0" y="512" fill="#f8fafc" fill-opacity="0.82" font-size="26" font-family="Manrope, Arial, sans-serif">AutoIQ galerija vozila</text>
   </g>
 </svg>
 SVG;

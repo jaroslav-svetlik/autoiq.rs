@@ -241,7 +241,7 @@ class Listing extends Model
         return match (true) {
             $this->autoiq_score >= 75 => 'Dobra kupovina',
             $this->autoiq_score >= 50 => 'Realna cena',
-            default => 'Precijenjeno',
+            default => 'Precenjeno',
         };
     }
 

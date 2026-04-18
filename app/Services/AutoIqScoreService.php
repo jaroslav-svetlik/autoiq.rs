@@ -73,7 +73,7 @@ class AutoIqScoreService
         return match (true) {
             $score >= 75 => 'Dobra kupovina',
             $score >= 50 => 'Realna cena',
-            default => 'Precijenjeno',
+            default => 'Precenjeno',
         };
     }
 

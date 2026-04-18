@@ -130,7 +130,7 @@
                     @endif
 
                     <div class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent p-5">
-                        <div class="text-sm text-slate-300">Kliknite na fotografiju za lightbox i zum, ili koristite strelice na tastaturi.</div>
+                        <div class="text-sm text-slate-300">Kliknite na fotografiju za uvećani prikaz, ili koristite strelice na tastaturi.</div>
                     </div>
                 </div>
 
@@ -167,7 +167,7 @@
                         type="button"
                         x-on:click="closeLightbox()"
                         class="absolute inset-0 cursor-zoom-out"
-                        aria-label="Zatvori lightbox"
+                        aria-label="Zatvori uvećani prikaz"
                     ></button>
 
                     <div class="relative z-10 flex h-full w-full max-w-7xl flex-col gap-4">
@@ -189,7 +189,7 @@
                                     type="button"
                                     x-on:click="resetZoom()"
                                     class="btn-secondary"
-                                    aria-label="Vrati podrazumevani zum"
+                                    aria-label="Vrati početnu veličinu"
                                 >
                                     <span x-text="Math.round(zoom * 100) + '%'"></span>
                                 </button>
@@ -221,7 +221,7 @@
                                             x-on:click="setActive({{ $index }})"
                                             x-bind:class="active === {{ $index }} ? 'border-cyan-400/70 ring-2 ring-cyan-400/25' : 'border-white/10 opacity-70 hover:opacity-100'"
                                             class="relative h-20 w-20 shrink-0 overflow-hidden rounded-2xl border bg-slate-900 transition"
-                                            aria-label="Otvori fotografiju {{ $index + 1 }} u lightboxu"
+                                            aria-label="Otvori fotografiju {{ $index + 1 }} u uvećanom prikazu"
                                         >
                                             <img src="{{ $image['url'] }}" alt="{{ $image['alt'] }}" class="h-full w-full object-cover">
                                         </button>
@@ -238,7 +238,7 @@
                                         type="button"
                                         x-on:click.stop="previous()"
                                         class="absolute left-6 top-1/2 z-10 hidden h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-slate-950/80 text-2xl text-white transition hover:border-cyan-400/40 hover:text-cyan-200 md:flex"
-                                        aria-label="Prethodna fotografija u lightboxu"
+                                        aria-label="Prethodna fotografija u uvećanom prikazu"
                                     >
                                         ‹
                                     </button>
@@ -246,7 +246,7 @@
                                         type="button"
                                         x-on:click.stop="next()"
                                         class="absolute right-6 top-1/2 z-10 hidden h-14 w-14 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-slate-950/80 text-2xl text-white transition hover:border-cyan-400/40 hover:text-cyan-200 md:flex"
-                                        aria-label="Sledeća fotografija u lightboxu"
+                                        aria-label="Sledeća fotografija u uvećanom prikazu"
                                     >
                                         ›
                                     </button>
@@ -287,7 +287,7 @@
                     <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
                         <div class="stat-card">
                             <div class="metric-value">{{ $listing->autoiq_score }}</div>
-                            <div class="metric-label">AutoIQ score</div>
+                            <div class="metric-label">AutoIQ procena</div>
                         </div>
                         <div class="stat-card">
                             <div class="metric-value">{{ number_format($listing->market_average_price ?: $listing->price, 0, ',', '.') }} €</div>
@@ -342,7 +342,7 @@
                 <div class="flex items-center justify-between">
                     <div>
                         <div class="data-kicker">Istorija cene</div>
-                        <h2 class="font-display mt-2 text-3xl font-bold text-white">Mali trend grafikon</h2>
+                        <h2 class="font-display mt-2 text-3xl font-bold text-white">Kretanje cene kroz vreme</h2>
                     </div>
                     <div class="text-sm text-slate-400">Poslednje zabeležene promene</div>
                 </div>

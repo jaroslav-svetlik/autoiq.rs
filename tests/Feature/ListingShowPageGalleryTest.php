@@ -40,8 +40,8 @@ class ListingShowPageGalleryTest extends TestCase
             ->assertSee('Sledeća fotografija')
             ->assertSee('Uvećaj fotografiju')
             ->assertSee('Umanji fotografiju')
-            ->assertSee('Vrati podrazumevani zum')
-            ->assertSee('Zatvori lightbox')
+            ->assertSee('Vrati početnu veličinu')
+            ->assertSee('Zatvori uvećani prikaz')
             ->assertSee('Prikaži fotografiju 1')
             ->assertSee('Prikaži fotografiju 2');
     }

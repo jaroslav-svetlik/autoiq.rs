@@ -8,7 +8,7 @@
                     Pametniji auto oglasi. Manje nagađanja. Više sigurnosti u cenu.
                 </h1>
                 <p class="max-w-2xl text-lg leading-8 text-slate-300">
-                    AutoIQ kombinuje oglase, tržišne proseke i AutoIQ score da biste odmah videli da li je automobil dobra kupovina, realna cena ili precijenjen.
+                    AutoIQ kombinuje oglase, tržišne proseke i AutoIQ procenu da biste odmah videli da li je automobil dobra kupovina, realna cena ili precenjen.
                 </p>
             </div>
 
@@ -29,7 +29,7 @@
             <div class="grid gap-4 sm:grid-cols-3">
                 <div class="stat-card">
                     <div class="metric-value">{{ number_format(collect($insights['bestDeals'] ?? [])->count(), 0, ',', '.') }}+</div>
-                    <div class="metric-label">Najboljih ponuda izdvojeno po AutoIQ score-u</div>
+                    <div class="metric-label">Najboljih ponuda izdvojeno po AutoIQ proceni</div>
                 </div>
                 <div class="stat-card">
                     <div class="metric-value">{{ number_format(collect($insights['fallingPrices'] ?? [])->count(), 0, ',', '.') }}</div>
@@ -45,7 +45,7 @@
         <div class="panel overflow-hidden p-6 sm:p-8">
             <div class="flex items-center justify-between">
                 <div>
-                    <div class="data-kicker">AutoIQ pulse</div>
+                    <div class="data-kicker">Puls tržišta</div>
                     <h2 class="mt-2 font-display text-3xl font-bold text-white">Šta je sada vruće</h2>
                 </div>
                 <a href="{{ route('listings.index') }}" wire:navigate class="btn-secondary">Svi oglasi</a>
@@ -75,7 +75,7 @@
                         </button>
                     @endif
                 @empty
-                    <div class="panel-soft p-5 text-sm text-slate-300">Trend podaci će se prikazivati kako korisnici budu pretraživali tržište.</div>
+                    <div class="panel-soft p-5 text-sm text-slate-300">Popularni modeli će se prikazivati kada bude dovoljno pretraga.</div>
                 @endforelse
             </div>
         </div>
@@ -87,7 +87,7 @@
                 <div class="data-kicker">Najbolje ponude</div>
                 <h2 class="section-title mt-2">Automobili koji trenutno iskaču po vrednosti</h2>
             </div>
-            <p class="section-copy">Kombinacija niže cene od proseka, zdrave kilometraže i godišta daje visok AutoIQ score.</p>
+            <p class="section-copy">Kombinacija niže cene od proseka, zdrave kilometraže i godišta daje visoku AutoIQ procenu.</p>
         </div>
 
         <div class="grid gap-6 lg:grid-cols-3">
@@ -201,7 +201,7 @@
 
         <div class="space-y-6">
             <div>
-                <div class="data-kicker">Tržišni snapshot</div>
+                <div class="data-kicker">Pregled tržišta</div>
                 <h2 class="section-title mt-2">Prosečne cene po modelu i godištu</h2>
             </div>
 
@@ -209,7 +209,7 @@
                 <div class="grid grid-cols-[1.4fr_1fr_0.8fr] gap-4 border-b border-white/8 px-5 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
                     <span>Model</span>
                     <span>Prosek</span>
-                    <span>Uzork.</span>
+                    <span>Oglasa</span>
                 </div>
                 <div class="divide-y divide-white/6">
                     @forelse(($insights['marketSnapshots'] ?? []) as $snapshot)
@@ -230,7 +230,7 @@
             <div class="panel p-6">
                 <div class="data-kicker">Zašto AutoIQ?</div>
                 <ul class="mt-4 space-y-4 text-sm leading-7 text-slate-300">
-                    <li>AutoIQ score odmah govori da li oglas iskače iz tržišta.</li>
+                    <li>AutoIQ procena odmah govori da li oglas odskače od tržišta.</li>
                     <li>Istorija cena pomaže da prepoznate realan trenutak za kupovinu.</li>
                     <li>Favoriti i sačuvane pretrage rade kao alarm sistem za nove prilike.</li>
                 </ul>

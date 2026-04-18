@@ -25,7 +25,7 @@
         </div>
         <div class="stat-card">
             <div class="metric-value">{{ number_format($summary['admins'], 0, ',', '.') }}</div>
-            <div class="metric-label">Admin naloga</div>
+            <div class="metric-label">Upravljačkih naloga</div>
         </div>
         <div class="stat-card">
             <div class="metric-value">{{ number_format($summary['dealers'], 0, ',', '.') }}</div>
@@ -128,7 +128,7 @@
                 <select wire:model.live="userStatusFilter" class="input-shell w-full">
                     <option value="all">Svi statusi</option>
                     <option value="active">Aktivni</option>
-                    <option value="banned">Banjovani</option>
+                    <option value="banned">Suspendovani</option>
                 </select>
                 <div class="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-400">Prikazano: {{ $users->count() }}</div>
             </div>
@@ -201,7 +201,7 @@
                                 <div class="mt-1 text-sm text-slate-400">{{ $listing->user->name }} · {{ $listing->city }} · {{ number_format($listing->price, 0, ',', '.') }} €</div>
                                 <div class="mt-3 flex flex-wrap gap-2">
                                     <span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300">{{ $listing->status->label() }}</span>
-                                    <span class="rounded-full border border-cyan-300/20 bg-cyan-400/10 px-3 py-1 text-xs text-cyan-100">AutoIQ {{ $listing->autoiq_score }}</span>
+                                    <span class="rounded-full border border-cyan-300/20 bg-cyan-400/10 px-3 py-1 text-xs text-cyan-100">AutoIQ procena {{ $listing->autoiq_score }}</span>
                                     @if($listing->is_featured)
                                         <span class="rounded-full border border-amber-300/20 bg-amber-400/10 px-3 py-1 text-xs text-amber-100">Istaknut</span>
                                     @endif

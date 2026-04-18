@@ -2,7 +2,7 @@
     <div>
         <div class="data-kicker">Objava oglasa</div>
         <h1 class="section-title mt-2">{{ $listing ? 'Izmena postojećeg oglasa' : 'Dodavanje novog oglasa' }}</h1>
-        <p class="section-copy mt-3">Svi unosi prolaze proveru, a fotografije se otpremaju uz ograničenje broja, veličine i podržanih formata.</p>
+        <p class="section-copy mt-3">Unesite podatke o vozilu i dodajte fotografije u podržanom formatu, do 20 slika po oglasu.</p>
     </div>
 
     <form wire:submit="save" class="grid gap-8 lg:grid-cols-[1fr_320px]">
@@ -165,7 +165,7 @@
                             <div class="panel-soft overflow-hidden">
                                 <img src="{{ $image->temporaryUrl() }}" alt="Nova fotografija" class="aspect-[4/3] w-full object-cover">
                                 <div class="p-3">
-                                    <button type="button" wire:click="removeNewImage({{ $index }})" class="btn-ghost w-full text-amber-200 hover:text-amber-100">Ukloni iz otpreme</button>
+                                    <button type="button" wire:click="removeNewImage({{ $index }})" class="btn-ghost w-full text-amber-200 hover:text-amber-100">Ukloni pre slanja</button>
                                 </div>
                             </div>
                         @endforeach

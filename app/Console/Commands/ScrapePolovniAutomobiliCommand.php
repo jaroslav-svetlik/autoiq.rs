@@ -11,11 +11,11 @@ class ScrapePolovniAutomobiliCommand extends Command
 {
     protected $signature = 'imports:polovni-automobili
         {url : URL oglasa sa PolovniAutomobili}
-        {--html= : Putanja do lokalnog HTML snimka za parse test ili odobren export}
-        {--store-draft : Kreiraj lokalni draft oglas ako su podaci kompletni}
-        {--owner-email= : Email korisnika koji će biti vlasnik draft oglasa}';
+        {--html= : Putanja do lokalnog HTML snimka za proveru ili odobren izvoz}
+        {--store-draft : Kreiraj nacrt oglasa ako su podaci kompletni}
+        {--owner-email= : Email korisnika koji će biti vlasnik nacrta oglasa}';
 
-    protected $description = 'Kontrolisano parsira PolovniAutomobili oglas i upisuje rezultat u staging import tabelu.';
+    protected $description = 'Kontrolisano učitava PolovniAutomobili oglas i upisuje rezultat u evidenciju uvoza.';
 
     public function handle(
         PolovniAutomobiliScraper $scraper,
@@ -45,7 +45,7 @@ class ScrapePolovniAutomobiliCommand extends Command
         $this->table(['Polje', 'Vrednost'], [
             ['Status', $record->status],
             ['HTTP status', $record->http_status ?: '-'],
-            ['Challenge', $record->challenge_detected ? 'da' : 'ne'],
+            ['Blokada', $record->challenge_detected ? 'da' : 'ne'],
             ['Naslov', $record->title ?: '-'],
             ['Cena', $record->price ? number_format($record->price, 0, ',', '.').' €' : '-'],
             ['Grad', $record->city ?: '-'],
@@ -58,7 +58,7 @@ class ScrapePolovniAutomobiliCommand extends Command
                 ->first();
 
             if (! $owner) {
-                $this->error('Nije pronađen korisnik koji bi bio vlasnik draft oglasa.');
+                $this->error('Nije pronađen korisnik koji bi bio vlasnik nacrta oglasa.');
 
                 return self::FAILURE;
             }
@@ -66,17 +66,17 @@ class ScrapePolovniAutomobiliCommand extends Command
             $record = $imports->createDraftListing($record, $owner);
 
             $this->info($record->listing_id
-                ? 'Lokalni draft oglas je kreiran i povezan sa import zapisom.'
-                : 'Import zapis je sačuvan, ali nema dovoljno podataka za draft oglas.');
+                ? 'Nacrt oglasa je kreiran i povezan sa uvezenim zapisom.'
+                : 'Uvezeni zapis je sačuvan, ali nema dovoljno podataka za nacrt oglasa.');
         }
 
         if (in_array($record->status, ['blocked', 'failed', 'disabled'], true)) {
-            $this->warn('Import nije uspešno parsiran. Pogledaj status i napomenu iznad.');
+            $this->warn('Uvoz nije uspešno obrađen. Pogledajte status i napomenu iznad.');
 
             return self::FAILURE;
         }
 
-        $this->info('Import zapis je uspešno osvežen.');
+        $this->info('Uvezeni zapis je uspešno osvežen.');
 
         return self::SUCCESS;
     }

@@ -74,7 +74,7 @@
         <div class="panel-soft p-3">
             <div class="mb-2 flex items-center justify-between text-xs uppercase tracking-[0.18em] text-slate-500">
                 <span>Kretanje cene</span>
-                <span>{{ $listing->priceHistories->count() }} tačaka</span>
+                <span>{{ $listing->priceHistories->count() }} promena</span>
             </div>
             <svg viewBox="0 0 112 28" class="h-10 w-full">
                 <polyline

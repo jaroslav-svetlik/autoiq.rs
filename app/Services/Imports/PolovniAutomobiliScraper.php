@@ -108,8 +108,8 @@ class PolovniAutomobiliScraper
                 'structured_data' => $ld,
             ],
             notes: $status === 'partial'
-                ? 'Osnovni podaci su pronađeni, ali nisu svi obavezni atributi dovoljni za automatsko kreiranje lokalnog draft oglasa.'
-                : 'Podaci su uspešno normalizovani za review/import tok.',
+                ? 'Osnovni podaci su pronađeni, ali nisu svi obavezni atributi dovoljni za automatsko kreiranje nacrta oglasa.'
+                : 'Podaci su uspešno pripremljeni za pregled i uvoz.',
         );
     }
 

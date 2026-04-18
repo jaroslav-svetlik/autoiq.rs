@@ -41,10 +41,10 @@ return [
         UserRole::Admin->value => 'Administrator',
     ],
     'permissions' => [
-        'view admin dashboard' => 'Pristup admin panelu',
+        'view admin dashboard' => 'Pristup upravljanju platformom',
         'manage users' => 'Upravljanje korisnicima',
-        'ban users' => 'Banovanje korisnika',
-        'manage roles' => 'Upravljanje rolama i dozvolama',
+        'ban users' => 'Suspendovanje korisnika',
+        'manage roles' => 'Upravljanje nivoima pristupa i dozvolama',
         'moderate listings' => 'Moderacija oglasa',
         'feature listings' => 'Isticanje oglasa',
         'manage dealers' => 'Upravljanje dilerima',

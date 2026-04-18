@@ -27,6 +27,10 @@ class DashboardPage extends PageComponent
 
     public function mount(): void
     {
+        if ($this->tab === 'notifikacije') {
+            $this->tab = 'obavestenja';
+        }
+
         $user = auth()->user()->load('dealerProfile');
 
         $this->name = $user->name;

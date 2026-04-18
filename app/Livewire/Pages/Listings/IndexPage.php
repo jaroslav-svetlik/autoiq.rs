@@ -186,7 +186,7 @@ class IndexPage extends PageComponent
     {
         return [
             ...parent::meta(),
-            'description' => 'Pretražite auto oglase u Srbiji uz AutoIQ score, analizu cena i real-time filtere.',
+            'description' => 'Pretražite auto oglase u Srbiji uz AutoIQ procenu, analizu cena i filtere koji odmah osvežavaju rezultate.',
             'canonical' => route('listings.index', array_filter($this->filters(), fn ($value) => $this->hasFilterValue($value))),
         ];
     }
