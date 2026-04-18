@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.8] - 2026-04-18
+
+### Changed
+
+- Reworded contact page safety copy to speak to end users without exposing form protection details.
+
 ## [0.1.7] - 2026-04-18
 
 ### Added

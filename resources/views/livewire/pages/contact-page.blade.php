@@ -19,8 +19,8 @@
                     <p class="mt-3 text-sm leading-7 text-slate-300">Poruke pregledamo po prioritetu i odgovaramo na email koji ostavite u formi.</p>
                 </div>
                 <div class="panel-soft p-5">
-                    <div class="data-kicker">Zaštita</div>
-                    <p class="mt-3 text-sm leading-7 text-slate-300">Forma ima ograničenje pokušaja, skriveno polje za botove i proveru brzine slanja.</p>
+                    <div class="data-kicker">Sigurno slanje</div>
+                    <p class="mt-3 text-sm leading-7 text-slate-300">Navedite samo podatke potrebne za odgovor; lozinke, kartice i dokumenta nisu potrebni u prvom kontaktu.</p>
                 </div>
             </div>
         </div>
