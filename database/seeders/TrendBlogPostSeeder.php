@@ -22,12 +22,18 @@ class TrendBlogPostSeeder extends Seeder
 
             $path = 'blog/trendovi/'.$blogPost->slug.'-cover.svg';
 
-            Storage::disk('public')->put($path, $this->coverSvg($blogPost, $palette, $index));
+            if ($this->shouldWritePlaceholderCover($blogPost)) {
+                Storage::disk('public')->put($path, $this->coverSvg($blogPost, $palette, $index));
 
-            $blogPost->forceFill([
-                'cover_image_path' => $path,
-                'cover_image_alt' => $blogPost->title,
-            ])->saveQuietly();
+                $blogPost->forceFill([
+                    'cover_image_path' => $path,
+                    'cover_image_alt' => $blogPost->title,
+                ])->saveQuietly();
+            } elseif (! $blogPost->cover_image_alt) {
+                $blogPost->forceFill([
+                    'cover_image_alt' => $blogPost->title,
+                ])->saveQuietly();
+            }
         }
     }
 
@@ -344,7 +350,171 @@ TEXT,
                 'published_at' => now()->subMinutes(10),
                 'palette' => ['#141824', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Renault Clio 1.5 dCi: mali dizel koji traži dobru istoriju',
+                'slug' => 'polovni-renault-clio-15-dci-mali-dizel-koji-trazi-dobru-istoriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Clio 1.5 dCi može biti odličan štedljiv gradsko-prigradski auto, ali samo kada servisna istorija prati kilometražu i način vožnje.',
+                'content' => <<<'TEXT'
+Renault Clio 1.5 dCi je jedan od onih polovnjaka koji lako privuku kupca jer obećava malu potrošnju, pristupačnu registraciju i cenu koja deluje razumno. To može biti dobra kupovina za vozača koji svakodnevno prelazi dovoljno kilometara, ali nije svaki mali dizel automatski pametna odluka. Kod ovakvog auta presudno je kako je korišćen, ne samo koliko košta.
+
+Najveća prednost Clia sa 1.5 dCi motorom je ekonomičnost. Ako voziš prigradske relacije, otvoren put ili kombinaciju grada i dužih vožnji, potrošnja može biti vrlo prijatna. Problem nastaje kada je auto godinama korišćen samo na kratkim relacijama, sa hladnim motorom i bez redovnog održavanja. Tada dizel sistemi koji na papiru deluju štedljivo mogu postati prvi veći trošak.
+
+Pre kupovine proveri servisnu istoriju, intervale zamene ulja, stanje turbine, dizni, EGR-a i DPF-a ako ga konkretna verzija ima. Ne oslanjaj se samo na priču prodavca da auto malo troši. Dobro održavan dizel se vidi kroz račune, miran rad, normalan hladan start i ponašanje na probnoj vožnji. Ako nema dokumentacije, cenu treba gledati mnogo strože.
+
+Clio je mali auto, pa kupci često očekuju da je sve jeftino. To nije uvek tačno. Kvačilo, ubrizgavanje, turbo i izduvni sistemi mogu lako poništiti uštedu u potrošnji ako je primerak loš. Sa druge strane, uredan Clio može biti vrlo zahvalan za svakodnevnu vožnju, posebno ako ti ne treba veliki gepek i ako ne želiš skupe gume, veliku registraciju i komplikovan premium auto.
+
+Obavezno proveri i kabinu. Mali automobili često rade mnogo gradskih kilometara, dostava, firmi ili svakodnevnih kratkih vožnji. Volan, sedište, pedale, menjač i vrata mogu otkriti više od kilometraže u oglasu. Ako auto ima malo kilometara, a enterijer deluje potrošeno, traži dodatno objašnjenje.
+
+Clio 1.5 dCi ima smisla kada želiš mali štedljiv auto i kada možeš da potvrdiš njegovo održavanje. Ako voziš samo kratke gradske relacije, benzinac može biti mirniji izbor čak i kada troši više. Najbolji Clio nije najjeftiniji, nego onaj koji nema skrivenu cenu u prvim mesecima posle kupovine.
+TEXT,
+                'highlights' => [
+                    'Clio 1.5 dCi je najjači kada se koristi na dužim ili mešovitim relacijama.',
+                    'Servisna istorija i hladan start vrede više od obećanja o niskoj potrošnji.',
+                    'Za kratke gradske relacije benzinac može biti mirnija i jeftinija odluka.',
+                ],
+                'tags' => ['Renault Clio', '1.5 dCi', 'mali auto', 'dizel'],
+                'meta_title' => 'Polovni Renault Clio 1.5 dCi: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Renault Clio 1.5 dCi: potrošnja, servisna istorija, DPF, EGR, turbo i realni rizici.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(9),
+                'palette' => ['#111827', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvezen auto iz EU: šta proveriti pre kapare i odlaska na pregled',
+                'slug' => 'uvezen-auto-iz-eu-sta-proveriti-pre-kapare-i-odlaska-na-pregled',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Uvozni polovnjak može biti dobra prilika, ali kaparu ne treba davati dok ne proveriš poreklo, dokumentaciju, kilometražu i realan trošak registracije.',
+                'content' => <<<'TEXT'
+Uvezen auto iz EU često deluje kao najbolji put do bolje opreme, urednijih puteva i šireg izbora modela. To zaista može biti prednost, ali samo ako kupac proveri dokumentaciju pre nego što se zaleti na fotografije i opis oglasa. Kod uvoznih polovnjaka najskuplje greške se često dese pre pregleda, kada se kapara da prerano ili se ne razume šta tačno ulazi u cenu.
+
+Prvo proveri da li je auto već ocarinjen i registrovan ili se prodaje u postupku uvoza. Cena koja izgleda niža može biti nepotpuna ako kupac tek treba da plati dažbine, homologaciju, prevod dokumentacije, registraciju ili transport. U oglasu mora biti jasno šta je završeno, a šta tek čeka novog vlasnika. Ako prodavac izbegava precizan odgovor, to je signal za oprez.
+
+Drugi korak je istorija vozila. Traži servisnu dokumentaciju, broj šasije za proveru, prethodne račune i tragove oštećenja. Vozilo iz uvoza nije automatski bolje od domaćeg automobila. Dobar uvozni auto ima proverljivo poreklo, doslednu kilometražu i stanje koje se slaže sa dokumentacijom. Loš uvozni auto često ima lepe fotografije, ali slabu priču.
+
+Posebno obrati pažnju na kilometražu. Auto koji je vozio autoput može imati veću kilometražu i bolje stanje od automobila koji je radio kratke gradske relacije. Zato broj na satu ne sme biti jedini filter. Gledaj istrošenost enterijera, kočnica, guma, stakla, farova i volana. Ako sve izgleda sveže, ali dokumentacija ne postoji, oprez je opravdan.
+
+Kaparu daj tek kada znaš kome je daješ, šta dobijaš zauzvrat i pod kojim uslovima se vraća. Najbolje je da svaki dogovor bude pisan, sa jasnim opisom vozila, cenom, rokom i razlogom za eventualni povraćaj. Usmena obećanja su slaba zaštita kada se kasnije pojavi problem.
+
+Uvozni auto ima smisla kada dobijaš bolji primerak, ne samo bolju priču. Pre puta ili pregleda napravi listu pitanja, proveri troškove i ne preskači nezavisan pregled. Ako prodavac žuri kupca ili traži kaparu pre osnovnih informacija, verovatno postoji bolji oglas.
+TEXT,
+                'highlights' => [
+                    'Pre kapare mora biti jasno da li je auto ocarinjen, registrovan i šta ulazi u cenu.',
+                    'Broj šasije, servisna dokumentacija i tragovi oštećenja su obavezni deo provere.',
+                    'Uvozni auto nije automatski bolji od domaćeg ako poreklo nije proverljivo.',
+                ],
+                'tags' => ['uvoz automobila', 'EU polovnjak', 'kapara', 'dokumentacija'],
+                'meta_title' => 'Uvezen auto iz EU: šta proveriti pre kupovine',
+                'meta_description' => 'Praktičan vodič za proveru uvoznog polovnjaka iz EU: dokumentacija, kapara, kilometraža, carina, registracija i istorija vozila.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(8),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'DPF i EGR u gradu: kada dizel postaje loša računica',
+                'slug' => 'dpf-i-egr-u-gradu-kada-dizel-postaje-losa-racunica',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dizel može biti štedljiv na otvorenom putu, ali kratke gradske relacije često prave uslove u kojima DPF i EGR postaju skuplji od uštede.',
+                'content' => <<<'TEXT'
+Dizel polovnjak mnogim kupcima deluje kao sigurna računica jer troši manje goriva. Problem je što potrošnja nije cela slika. Moderni dizeli imaju sisteme koji traže pravi režim vožnje, a gradske relacije od nekoliko kilometara često su najgore okruženje za njih. DPF i EGR nisu problem sami po sebi, već postaju problem kada auto stalno radi hladan, kratko i bez dovoljno otvorenog puta.
+
+DPF filteru je potrebna temperatura i vreme da završi regeneraciju. Ako se auto svakodnevno vozi samo do posla, škole ili prodavnice, regeneracije se prekidaju, a filter se postepeno puni. Tada kupac koji je želeo malu potrošnju može dobiti lampicu na tabli, slabiji odziv motora i račun koji briše višemesečnu uštedu na gorivu.
+
+EGR ventil takođe trpi kada je vožnja stalno kratka i spora. Naslage, nepravilan rad i greške u sistemu mogu se pojaviti kod zapuštenih automobila ili vozila koja nisu dobijala redovan servis. Zato polovan dizel ne treba kupovati samo zato što je popularan model. Treba pitati gde je vožen, koliko često je išao na otvoren put i šta je servisirano.
+
+Ako prelaziš mnogo kilometara van grada, dizel i dalje može biti odličan izbor. Stabilna vožnja, duže relacije i redovno održavanje daju uslove u kojima dizel ima smisla. Ali ako je tvoja rutina hladan start, gužva, kratka relacija i parkiranje, benzinac ili hibrid često su mirnija odluka, čak i uz veću potrošnju.
+
+Pre kupovine obavezno uradi dijagnostiku i probnu vožnju. Ne gledaj samo da li nema lampica. Proveri parametre, istoriju grešaka, dim, rad motora, temperaturu i ponašanje pri ubrzanju. Ako prodavac kaže da je sve rešeno, traži račun. Kod dizela rečenica bez dokaza ne vredi mnogo.
+
+Najbolja računica je ona koja prati tvoje relacije. Dizel nije loš izbor, ali loš dizel za pogrešnog vozača jeste. Kada kupiš auto koji ne odgovara načinu vožnje, ne štediš gorivo, nego odlažeš trošak.
+TEXT,
+                'highlights' => [
+                    'DPF i EGR najviše trpe kada se dizel stalno vozi kratko i hladan.',
+                    'Dizel ima smisla za duže relacije i veću godišnju kilometražu.',
+                    'Dijagnostika i servisni računi su obavezni pre kupovine modernog dizela.',
+                ],
+                'tags' => ['DPF', 'EGR', 'dizel', 'gradska vožnja'],
+                'meta_title' => 'DPF i EGR u gradu: kada dizel nije dobra kupovina',
+                'meta_description' => 'Objašnjenje zašto moderni dizel može biti loša računica u gradskoj vožnji: DPF, EGR, kratke relacije, dijagnostika i troškovi.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(7),
+                'palette' => ['#1f2937', '#fb7185', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kilometraža nije dokaz: kako čitati stanje polovnog automobila',
+                'slug' => 'kilometraza-nije-dokaz-kako-citati-stanje-polovnog-automobila',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mala kilometraža u oglasu može biti prednost, ali i zamka. Stvarno stanje se vidi kroz tragove korišćenja, servisne račune i doslednost cele priče.',
+                'content' => <<<'TEXT'
+Kilometraža je jedan od prvih filtera koje kupci koriste, ali nije dokaz da je auto dobar. Vozilo sa manje kilometara može biti lošije od automobila koji je prešao više, ako je održavano lošije, voženo kratko, zapušteno ili popravljano samo kada kvar već postane očigledan. Zato broj na satu treba tretirati kao početak provere, ne kao zaključak.
+
+Prvi signal je enterijer. Volan, sedište vozača, pedale, ručica menjača, dugmići i bočni oslonci često pokazuju realan intenzitet korišćenja. Ako auto navodno ima malu kilometražu, a kabina izgleda umorno, traži objašnjenje. Nije svaki trag dokaz prevare, ali nesklad između priče i stanja mora smanjiti poverenje.
+
+Drugi signal je servisna istorija. Računi, servisna knjižica, elektronski zapisi i dosledni datumi mnogo vrede. Auto sa 210.000 kilometara i jasnim servisima može biti bolja kupovina od auta sa 130.000 kilometara bez ikakvog traga održavanja. Kupac ne plaća samo kilometre, već i način na koji su ti kilometri napravljeni.
+
+Treći signal je mehaničko stanje. Gume, kočnice, trap, kvačilo, menjač, motor i curenja pokazuju koliko ulaganja dolazi posle kupovine. Neki prodavci stave novu presvlaku, operu motor i naprave dobre fotografije, ali probna vožnja i pregled kod majstora brzo otkriju šta je stvarno.
+
+Posebno oprezno gledaj automobile sa veoma malo kilometara za svoje godište. Takvi primerci postoje, ali treba da imaju jaču dokumentaciju, ne slabiju. Ako je automobil star deset godina i navodno vožen malo, moraš razumeti gde je stajao, kako je održavan i zašto se sada prodaje.
+
+Kilometraža je važna, ali nije dovoljna. Najbolji polovnjak je onaj kod kog se broj na satu, stanje, dokumentacija i cena međusobno slažu. Ako se jedan deo priče ne uklapa, ne ignoriši ga zato što oglas izgleda povoljno.
+TEXT,
+                'highlights' => [
+                    'Mala kilometraža bez dokumentacije nije jači dokaz od dobrog stanja i računa.',
+                    'Enterijer često otkriva da li broj na satu ima smisla.',
+                    'Najbolji signal je doslednost između stanja, istorije, cene i priče prodavca.',
+                ],
+                'tags' => ['kilometraža', 'servisna istorija', 'provera vozila', 'oglasi'],
+                'meta_title' => 'Kilometraža nije dokaz: kako proveriti polovnjak',
+                'meta_description' => 'Kako proceniti polovan auto bez oslanjanja samo na kilometražu: enterijer, servisna istorija, stanje, probna vožnja i cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(6),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Električni polovnjak u Srbiji: kome ima smisla, a kome još ne',
+                'slug' => 'elektricni-polovnjak-u-srbiji-kome-ima-smisla-a-kome-jos-ne',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Polovan električni auto može biti odličan za kupca koji ima gde da puni i zna svoje relacije, ali nije univerzalna zamena za dizel ili benzinac.',
+                'content' => <<<'TEXT'
+Električni polovnjak sve češće ulazi u razmatranje, ali u Srbiji još nije kupovina za svakoga. Najvažnije pitanje nije samo koliko košta auto, već gde ga puniš, koliko dnevno voziš i da li možeš da živiš sa njegovim realnim dometom. Kupac koji ima kućno punjenje i predvidljive gradske relacije ima potpuno drugačiju računicu od kupca koji zavisi samo od javnih punjača.
+
+Najveća prednost električnog polovnjaka je jednostavnija svakodnevica kada se puni kod kuće. Nema klasičnog servisa motora, gradska vožnja mu prija i trošak energije može biti dobar ako se punjenje planira pametno. Za vozača koji dnevno prelazi poznatu rutu, ne vuče prikolicu i ne putuje često bez plana, električni auto može biti vrlo prijatan.
+
+Rizik je baterija, domet i infrastruktura. Pre kupovine treba proveriti stanje baterije, realan domet po godišnjem dobu, brzinu punjenja, dostupnost servisa i cenu eventualnih popravki. Deklarisani domet iz oglasa nije dovoljan. Važno je kako se auto ponaša pri tvojoj brzini, tvojoj temperaturi i tvojoj ruti.
+
+Ako živiš u zgradi bez sigurnog punjenja, kupovina može postati komplikovana. Javni punjači pomažu, ali ako se svaki dan oslanjaš na njih, električni auto gubi deo praktičnosti. Isto važi za vozače koji često idu na duža putovanja bez mnogo fleksibilnosti. Tada benzin, hibrid ili dobar dizel mogu biti mirniji izbor.
+
+Državne mere i subvencije mogu promeniti računicu, ali ih ne treba tretirati kao jedini razlog za kupovinu. Uvek proveri važeće uslove, dostupnost i rokove pre nego što uključiš subvenciju u budžet. Polovan električni auto treba da ima smisla i bez idealnog scenarija.
+
+Električni polovnjak je najbolji za kupca sa punjenjem kod kuće, jasnim dnevnim relacijama i realnim očekivanjima. Ako prvo moraš da rešavaš punjenje, domet i servisnu podršku, možda još nije pravi trenutak. Kao i kod svakog polovnjaka, pobediće konkretan primerak, ne tehnologija sama po sebi.
+TEXT,
+                'highlights' => [
+                    'Električni polovnjak najviše smisla ima uz kućno punjenje i predvidljive relacije.',
+                    'Pre kupovine proveri stanje baterije, realan domet, brzinu punjenja i servisnu podršku.',
+                    'Subvencije mogu pomoći, ali ne smeju biti jedini razlog za kupovinu.',
+                ],
+                'tags' => ['električni auto', 'EV', 'Srbija', 'punjenje'],
+                'meta_title' => 'Električni polovnjak u Srbiji: kome se isplati',
+                'meta_description' => 'Vodič za kupovinu polovnog električnog automobila u Srbiji: punjenje, baterija, realan domet, subvencije i svakodnevna upotreba.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(5),
+                'palette' => ['#111827', '#10b981', '#f8fafc'],
+            ],
         ];
+    }
+
+    protected function shouldWritePlaceholderCover(BlogPost $post): bool
+    {
+        $path = trim((string) $post->cover_image_path);
+
+        return $path === ''
+            || str_starts_with($path, 'blog/trendovi/')
+            || str_ends_with($path, '.svg');
     }
 
     protected function coverSvg(BlogPost $post, array $palette, int $index): string

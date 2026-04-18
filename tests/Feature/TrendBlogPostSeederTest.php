@@ -12,29 +12,60 @@ class TrendBlogPostSeederTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_trend_blog_post_seeder_creates_ten_idempotent_comparison_articles(): void
+    public function test_trend_blog_post_seeder_creates_idempotent_unique_article_catalog(): void
     {
         Storage::fake('public');
 
         $this->seed(TrendBlogPostSeeder::class);
         $this->seed(TrendBlogPostSeeder::class);
 
-        $posts = BlogPost::query()
-            ->where('category', 'Poređenje modela')
-            ->get();
+        $posts = BlogPost::query()->get();
 
-        $this->assertCount(10, $posts);
+        $this->assertCount(15, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
+        $this->assertCount(10, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
+        $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
+        $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
         $this->assertTrue($posts->contains('slug', 'golf-7-ili-audi-a3-sta-je-pametnija-kupovina-u-srbiji'));
         $this->assertTrue($posts->contains('slug', 'bmw-x3-audi-q5-ili-audi-q3-koji-premium-suv-ima-najvise-smisla'));
         $this->assertTrue($posts->contains('slug', 'volkswagen-tiguan-ili-skoda-kodiaq-koji-porodicni-suv-ima-vise-smisla'));
         $this->assertTrue($posts->contains('slug', 'toyota-corolla-hybrid-ili-hyundai-ioniq-koji-hibrid-je-mirnija-kupovina'));
+        $this->assertTrue($posts->contains('slug', 'polovni-renault-clio-15-dci-mali-dizel-koji-trazi-dobru-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'uvezen-auto-iz-eu-sta-proveriti-pre-kapare-i-odlaska-na-pregled'));
+        $this->assertTrue($posts->contains('slug', 'dpf-i-egr-u-gradu-kada-dizel-postaje-losa-racunica'));
+        $this->assertTrue($posts->contains('slug', 'kilometraza-nije-dokaz-kako-citati-stanje-polovnog-automobila'));
+        $this->assertTrue($posts->contains('slug', 'elektricni-polovnjak-u-srbiji-kome-ima-smisla-a-kome-jos-ne'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
             Storage::disk('public')->assertExists($post->cover_image_path);
         });
+    }
+
+    public function test_trend_blog_post_seeder_keeps_existing_generated_cover_images(): void
+    {
+        Storage::fake('public');
+
+        $generatedPath = 'blog/generated/golf-7-ili-audi-a3-sta-je-pametnija-kupovina-u-srbiji.webp';
+        Storage::disk('public')->put($generatedPath, 'existing generated image');
+
+        BlogPost::factory()->create([
+            'title' => 'Golf 7 ili Audi A3: šta je pametnija kupovina u Srbiji',
+            'cover_image_path' => $generatedPath,
+            'cover_image_alt' => 'Generated cover',
+        ]);
+
+        $this->seed(TrendBlogPostSeeder::class);
+
+        $post = BlogPost::query()
+            ->where('slug', 'golf-7-ili-audi-a3-sta-je-pametnija-kupovina-u-srbiji')
+            ->firstOrFail();
+
+        $this->assertSame($generatedPath, $post->cover_image_path);
+        $this->assertSame('Generated cover', $post->cover_image_alt);
+        Storage::disk('public')->assertExists($generatedPath);
     }
 }
