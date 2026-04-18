@@ -64,12 +64,22 @@ commands for generated production state.
 
 ## Local Preflight
 
+Every production change must be released through versioning first:
+
+1. Bump `VERSION`.
+2. Add a dated entry to `CHANGELOG.md`.
+3. Run local checks.
+4. Commit the release on `main`.
+5. Create and push an annotated `vX.Y.Z` tag.
+6. Deploy that pushed commit to production.
+
 Run this locally before deploying:
 
 ```bash
 git status --short --branch
 php artisan test
 npm run build
+git diff --check
 git push
 ```
 
@@ -77,6 +87,7 @@ Expected state before server deploy:
 
 - local branch is `main`
 - `main` is pushed to `origin/main`
+- the release tag is pushed to `origin`
 - tests pass
 - frontend build passes locally
 - no uncommitted local changes are required for production

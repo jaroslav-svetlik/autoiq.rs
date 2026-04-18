@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.5] - 2026-04-18
+
+### Changed
+
+- Restyled Google and Facebook authentication buttons to match the AutoIQ dark glass interface.
+- Documented the standard version bump, changelog, commit, tag, push, and deploy release procedure.
+
 ## [0.1.4] - 2026-04-18
 
 ### Added
