@@ -22,6 +22,7 @@ class User extends Authenticatable implements MustVerifyEmail
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory;
+
     use HasRoles;
     use Notifiable;
 
@@ -30,6 +31,7 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $fillable = [
         'name',
         'email',
+        'email_verified_at',
         'password',
         'role',
         'phone',
@@ -81,6 +83,11 @@ class User extends Authenticatable implements MustVerifyEmail
         return $this->hasMany(SavedSearch::class);
     }
 
+    public function socialAccounts(): HasMany
+    {
+        return $this->hasMany(SocialAccount::class);
+    }
+
     public function isAdmin(): bool
     {
         return $this->role === UserRole::Admin || $this->hasRole(UserRole::Admin->value);
@@ -105,7 +112,7 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function sendEmailVerificationNotification(): void
     {
-        $this->notify(new VerifyEmailNotificationSerbian());
+        $this->notify(new VerifyEmailNotificationSerbian);
     }
 
     public function sendPasswordResetNotification(#[\SensitiveParameter] $token): void

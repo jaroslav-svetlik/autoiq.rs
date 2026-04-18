@@ -6,6 +6,8 @@
             <p class="mt-3 max-w-2xl text-sm leading-7 text-slate-300">Otvorite korisnički ili dilerski nalog i koristite AutoIQ za oglašavanje, praćenje cena i pametne alarme.</p>
         </div>
 
+        <x-oauth-buttons mode="register" class="mb-6" />
+
         <form wire:submit="register" class="grid gap-6 md:grid-cols-2">
             <div>
                 <label class="field-label">Ime i prezime</label>

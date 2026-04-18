@@ -6,6 +6,14 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-04-18
+
+### Added
+
+- Added Google and Facebook login/register via Laravel Socialite.
+- Added social account linking for existing users by email and OAuth-based account creation for new users.
+- Added OAuth provider configuration placeholders and feature coverage for social authentication flows.
+
 ## [0.1.1] - 2026-04-18
 
 ### Added

@@ -6,6 +6,8 @@
             <p class="mt-3 text-sm leading-7 text-slate-300">Pristupite favoritima, alarmima, oglasima i tržišnim analizama bez napuštanja aplikacije.</p>
         </div>
 
+        <x-oauth-buttons mode="login" class="mb-6" />
+
         <form wire:submit="login" class="space-y-5">
             <div>
                 <label class="field-label" for="email">Email adresa</label>
