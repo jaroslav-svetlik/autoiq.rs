@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.24] - 2026-04-19
+
+### Added
+
+- Added branded AutoIQ `404` and `503` error pages with user-facing recovery actions and noindex metadata.
+
 ## [0.1.23] - 2026-04-19
 
 ### Added
