@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.23] - 2026-04-19
+
+### Added
+
+- Added five new non-duplicate blog articles across used-car buying, maintenance, market analysis, vehicle checks, and negotiation topics.
+
 ## [0.1.22] - 2026-04-18
 
 ### Changed
