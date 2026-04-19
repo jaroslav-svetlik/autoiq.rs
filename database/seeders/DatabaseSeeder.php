@@ -326,7 +326,7 @@ class DatabaseSeeder extends Seeder
                 'user_id' => $dealerProfileTwo->user_id,
                 'dealer_profile_id' => $dealerProfileTwo->id,
                 'title' => 'Mercedes-Benz C 220 d Avantgarde',
-                'brand' => 'Mercedes-Benz',
+                'brand' => 'Mercedes Benz',
                 'model' => 'C 220 d',
                 'year' => 2017,
                 'price' => 20_900,

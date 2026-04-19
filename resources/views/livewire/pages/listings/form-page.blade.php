@@ -62,7 +62,12 @@
 
                         <div>
                             <label class="field-label">Marka</label>
-                            <input type="text" wire:model.live="brand" class="input-shell w-full" placeholder="BMW">
+                            <select wire:model.live="brand" class="input-shell w-full">
+                                <option value="">Izaberite marku</option>
+                                @foreach($vehicleBrands as $vehicleBrand)
+                                    <option value="{{ $vehicleBrand }}">{{ $vehicleBrand }}</option>
+                                @endforeach
+                            </select>
                             @error('brand') <p class="mt-2 text-sm text-rose-300">{{ $message }}</p> @enderror
                         </div>
 

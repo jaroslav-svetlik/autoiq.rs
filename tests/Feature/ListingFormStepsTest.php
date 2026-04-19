@@ -36,6 +36,30 @@ class ListingFormStepsTest extends TestCase
             ]);
     }
 
+    public function test_listing_form_uses_prepared_vehicle_brand_dropdown(): void
+    {
+        $this->actingAs(User::factory()->create());
+
+        $this->get(route('listings.create'))
+            ->assertOk()
+            ->assertSee('Izaberite marku')
+            ->assertSeeHtml('<option value="BMW">BMW</option>')
+            ->assertSeeHtml('<option value="Mercedes Benz">Mercedes Benz</option>')
+            ->assertSeeHtml('<option value="Xiaomi">Xiaomi</option>')
+            ->assertSeeHtml('<option value="Škoda">Škoda</option>');
+    }
+
+    public function test_listing_form_rejects_brand_outside_prepared_list(): void
+    {
+        $this->actingAs(User::factory()->create());
+
+        $this->fillVehicleStep(Livewire::test(FormPage::class))
+            ->set('brand', 'Nepoznata Marka')
+            ->call('nextStep')
+            ->assertSet('currentStep', 1)
+            ->assertHasErrors(['brand']);
+    }
+
     public function test_user_can_move_through_steps_and_publish_listing(): void
     {
         $this->actingAs(User::factory()->create());

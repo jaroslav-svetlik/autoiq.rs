@@ -255,7 +255,7 @@ class FormPage extends PageComponent
     {
         return [
             'titleInput' => ['required', 'string', 'min:8', 'max:120'],
-            'brand' => ['required', 'string', 'max:60'],
+            'brand' => ['required', 'string', 'max:60', Rule::in($this->allowedVehicleBrands())],
             'model' => ['required', 'string', 'max:80'],
             'year' => ['required', 'integer', 'min:1990', 'max:'.now()->year],
             'price' => ['required', 'integer', 'min:500', 'max:500000'],
@@ -407,6 +407,18 @@ class FormPage extends PageComponent
         ];
     }
 
+    protected function allowedVehicleBrands(): array
+    {
+        $brands = config('autoiq.vehicle_brands');
+        $listingBrand = $this->listing?->brand;
+
+        if (filled($listingBrand) && ! in_array($listingBrand, $brands, true)) {
+            $brands[] = $listingBrand;
+        }
+
+        return $brands;
+    }
+
     protected function lastStep(): int
     {
         return max(array_keys($this->steps()));
@@ -436,6 +448,7 @@ class FormPage extends PageComponent
         return [
             'titleInput.required' => 'Naslov oglasa je obavezan.',
             'brand.required' => 'Unesite marku.',
+            'brand.in' => 'Izaberite marku iz ponuđene liste.',
             'model.required' => 'Unesite model.',
             'year.required' => 'Unesite godište.',
             'price.required' => 'Unesite cenu.',
@@ -474,6 +487,7 @@ class FormPage extends PageComponent
 
         return $this->page(view('livewire.pages.listings.form-page', [
             'cities' => config('autoiq.cities'),
+            'vehicleBrands' => $this->allowedVehicleBrands(),
             'fuelTypes' => config('autoiq.fuel_types'),
             'transmissionTypes' => config('autoiq.transmission_types'),
             'sellerTypes' => config('autoiq.seller_types'),

@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.32] - 2026-04-19
+
+### Changed
+
+- Replaced free-form vehicle brand entry in listing creation and editing with a prepared dropdown based on Polovni Automobili brand names.
+- Added validation that rejects vehicle brands outside the prepared list while preserving edit support for legacy listing brand values.
+
 ## [0.1.31] - 2026-04-19
 
 ### Changed
