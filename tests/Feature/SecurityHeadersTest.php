@@ -30,5 +30,8 @@ class SecurityHeadersTest extends TestCase
     public function test_livewire_uses_csp_safe_assets(): void
     {
         $this->assertTrue(config('livewire.csp_safe'));
+
+        $this->get(route('login'))
+            ->assertSee('/livewire.min.js?csp=1&id=', false);
     }
 }

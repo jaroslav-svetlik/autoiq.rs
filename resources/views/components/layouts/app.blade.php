@@ -215,6 +215,6 @@
             </footer>
         </div>
 
-        @livewireScripts
+        @livewireScripts(['url' => url(app('livewire')->getUriPrefix()).'/livewire.min.js?csp=1'])
     </body>
 </html>

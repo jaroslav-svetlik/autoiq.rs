@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.30] - 2026-04-19
+
+### Fixed
+
+- Added a Livewire script cache-busting URL so Cloudflare and browsers receive the CSP-safe frontend bundle immediately.
+
 ## [0.1.29] - 2026-04-19
 
 ### Fixed
