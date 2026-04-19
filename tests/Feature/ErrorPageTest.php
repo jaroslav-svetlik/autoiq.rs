@@ -7,6 +7,17 @@ use Tests\TestCase;
 
 class ErrorPageTest extends TestCase
 {
+    public function test_forbidden_page_uses_branded_403_view(): void
+    {
+        $this->get('/__errors/403')
+            ->assertForbidden()
+            ->assertSee('Pristup nije dozvoljen | AutoIQ')
+            ->assertSee('Ovaj zahtev nije dozvoljen')
+            ->assertSee('Pretraži oglase')
+            ->assertSee('Šta možete odmah')
+            ->assertSee('<meta name="robots" content="noindex,nofollow">', false);
+    }
+
     public function test_missing_page_uses_branded_404_view(): void
     {
         $this->get('/nepostojeca-auto-iq-strana')

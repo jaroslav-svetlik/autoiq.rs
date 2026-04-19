@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.26] - 2026-04-19
+
+### Added
+
+- Added a branded Laravel `403` page and documented the AApanel Nginx handoff for server-generated forbidden responses.
+
 ## [0.1.25] - 2026-04-19
 
 ### Added

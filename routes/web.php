@@ -40,6 +40,7 @@ Route::get('/sitemap.xml', SitemapController::class)
         PreventRequestForgery::class,
     ])
     ->name('sitemap');
+Route::get('/__errors/403', fn () => abort(403))->name('errors.forbidden');
 
 Route::middleware('guest')->group(function () {
     Route::get('/nalog/prijava', LoginPage::class)->name('login');

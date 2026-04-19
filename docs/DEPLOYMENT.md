@@ -206,6 +206,40 @@ sudo systemctl reload php8.3-fpm
 
 Do not restart or reload unknown services by guesswork.
 
+## AApanel Nginx Notes
+
+The production AApanel Nginx vhost for AutoIQ.rs lives at:
+
+```bash
+/www/server/panel/vhost/nginx/autoiq.rs.conf
+```
+
+The SSL server block must route Nginx-generated `403` responses back through
+Laravel so users see the branded AutoIQ error page instead of the default Nginx
+page:
+
+```nginx
+error_page 403 = /__errors/403;
+```
+
+After changing the vhost config, always make a timestamped backup first, then
+validate and reload Nginx:
+
+```bash
+sudo cp /www/server/panel/vhost/nginx/autoiq.rs.conf /www/server/panel/vhost/nginx/autoiq.rs.conf.bak-codex-YYYYMMDD-HHMMSS
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+Smoke test:
+
+```bash
+curl -I https://autoiq.rs/.well-known/test.php
+```
+
+Expected response is `403` with Laravel/AutoIQ branded HTML, not the default
+Nginx `403 Forbidden` page.
+
 ## Rollback Policy
 
 Preferred rollback is a new corrective commit pushed to `main`, followed by the
