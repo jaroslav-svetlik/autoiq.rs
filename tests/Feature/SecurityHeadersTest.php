@@ -8,7 +8,9 @@ class SecurityHeadersTest extends TestCase
 {
     public function test_public_pages_include_security_headers(): void
     {
-        $this->get(route('login'))
+        $response = $this->get(route('login'));
+
+        $response
             ->assertOk()
             ->assertHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains')
             ->assertHeader('X-Content-Type-Options', 'nosniff')
@@ -17,5 +19,16 @@ class SecurityHeadersTest extends TestCase
             ->assertHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=()')
             ->assertHeader('X-Robots-Tag', 'noindex, nofollow, noarchive')
             ->assertHeader('Content-Security-Policy');
+
+        $csp = $response->headers->get('Content-Security-Policy');
+
+        $this->assertStringContainsString('https://static.cloudflareinsights.com', $csp);
+        $this->assertStringContainsString('https://cloudflareinsights.com', $csp);
+        $this->assertStringNotContainsString("'unsafe-eval'", $csp);
+    }
+
+    public function test_livewire_uses_csp_safe_assets(): void
+    {
+        $this->assertTrue(config('livewire.csp_safe'));
     }
 }

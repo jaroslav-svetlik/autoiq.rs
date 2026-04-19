@@ -27,8 +27,8 @@ class AddSecurityHeaders
                 "img-src 'self' data: https:",
                 "font-src 'self' data: https://fonts.gstatic.com",
                 "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-                "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
-                "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com",
+                "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://static.cloudflareinsights.com",
+                "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://cloudflareinsights.com https://*.cloudflareinsights.com",
                 'upgrade-insecure-requests',
             ]),
         ];

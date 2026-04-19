@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.29] - 2026-04-19
+
+### Fixed
+
+- Switched Livewire to its CSP-safe frontend bundle and allowed Cloudflare Insights in the CSP so listing form actions work under production security headers.
+
 ## [0.1.28] - 2026-04-19
 
 ### Added
