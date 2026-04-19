@@ -34,4 +34,18 @@ class SecurityHeadersTest extends TestCase
         $this->get(route('login'))
             ->assertSee('/livewire.min.js?csp=1&id=', false);
     }
+
+    public function test_www_domain_redirects_to_apex_https_domain(): void
+    {
+        $this->get('https://www.autoiq.rs/oglasi?brand=BMW')
+            ->assertMovedPermanently()
+            ->assertRedirect('https://autoiq.rs/oglasi?brand=BMW')
+            ->assertHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+    }
+
+    public function test_apex_https_domain_does_not_redirect(): void
+    {
+        $this->get('https://autoiq.rs/nalog/prijava')
+            ->assertOk();
+    }
 }

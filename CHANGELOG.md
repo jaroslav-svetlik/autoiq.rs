@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.34] - 2026-04-19
+
+### Fixed
+
+- Added a permanent redirect from `www.autoiq.rs` to `https://autoiq.rs` so Google only sees the apex domain as canonical.
+
 ## [0.1.33] - 2026-04-19
 
 ### Changed
