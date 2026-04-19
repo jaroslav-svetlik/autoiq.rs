@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.31] - 2026-04-19
+
+### Changed
+
+- Split listing creation and editing into a focused four-step flow for vehicle details, equipment, photos, and seller contact data.
+- Added step-aware validation so users stay on the relevant step while completing required listing fields.
+
 ## [0.1.30] - 2026-04-19
 
 ### Fixed

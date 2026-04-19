@@ -8,8 +8,10 @@ use App\Livewire\Concerns\ThrottlesRequests;
 use App\Livewire\Pages\PageComponent;
 use App\Models\Listing;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
+use Illuminate\Validation\ValidationException;
 use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 use Livewire\WithFileUploads;
 
@@ -25,6 +27,8 @@ class FormPage extends PageComponent
     protected const MAX_SELLER_PHONES = 3;
 
     public ?Listing $listing = null;
+
+    public int $currentStep = 1;
 
     public string $titleInput = '';
 
@@ -92,9 +96,16 @@ class FormPage extends PageComponent
     {
         $this->throttle('listing-save', 10, 60);
 
-        $validated = $this->validate($this->rules(), $this->messages());
+        try {
+            $validated = $this->validate($this->rules(), $this->messages());
+        } catch (ValidationException $exception) {
+            $this->currentStep = $this->stepForValidationException($exception);
+
+            throw $exception;
+        }
 
         if ($validated['sellerType'] === SellerType::Dealer->value && ! auth()->user()?->isDealer()) {
+            $this->currentStep = 4;
             $this->addError('sellerType', 'Samo diler može objaviti oglas kao diler.');
 
             return;
@@ -128,6 +139,45 @@ class FormPage extends PageComponent
         session()->flash('status', $this->listing ? 'Oglas je uspešno ažuriran.' : 'Oglas je uspešno objavljen.');
 
         $this->redirectRoute('listings.show', $listing, navigate: true);
+    }
+
+    public function nextStep(): void
+    {
+        $this->clampCurrentStep();
+
+        $this->validate($this->rulesForStep($this->currentStep), $this->messages());
+
+        $this->currentStep = min($this->currentStep + 1, $this->lastStep());
+        $this->resetErrorBag();
+    }
+
+    public function previousStep(): void
+    {
+        $this->clampCurrentStep();
+
+        $this->currentStep = max($this->currentStep - 1, 1);
+        $this->resetErrorBag();
+    }
+
+    public function goToStep(int $step): void
+    {
+        $this->clampCurrentStep();
+
+        $step = max(1, min($step, $this->lastStep()));
+
+        if ($step <= $this->currentStep) {
+            $this->currentStep = $step;
+            $this->resetErrorBag();
+
+            return;
+        }
+
+        while ($this->currentStep < $step) {
+            $this->validate($this->rulesForStep($this->currentStep), $this->messages());
+            $this->currentStep++;
+        }
+
+        $this->resetErrorBag();
     }
 
     public function updatedNewImages(): void
@@ -233,6 +283,68 @@ class FormPage extends PageComponent
         ];
     }
 
+    protected function rulesForStep(int $step): array
+    {
+        return Arr::only($this->rules(), $this->fieldsForStep($step));
+    }
+
+    protected function fieldsForStep(int $step): array
+    {
+        return match ($step) {
+            1 => [
+                'titleInput',
+                'brand',
+                'model',
+                'year',
+                'price',
+                'mileage',
+                'fuelType',
+                'transmission',
+                'city',
+                'description',
+            ],
+            2 => [
+                'equipment',
+                'equipment.*',
+            ],
+            3 => [
+                'newImages',
+                'newImages.*',
+            ],
+            4 => [
+                'sellerType',
+                'sellerName',
+                'sellerPhones',
+                'sellerPhones.*',
+            ],
+            default => [],
+        };
+    }
+
+    protected function stepForValidationException(ValidationException $exception): int
+    {
+        $field = array_key_first($exception->errors());
+
+        if (! $field) {
+            return $this->currentStep;
+        }
+
+        $fieldRoot = str($field)->before('.')->toString();
+
+        foreach (array_keys($this->steps()) as $step) {
+            $roots = collect($this->fieldsForStep($step))
+                ->map(fn (string $field) => str($field)->before('.')->before('*')->rtrim('.')->toString())
+                ->filter()
+                ->unique();
+
+            if ($roots->contains($fieldRoot)) {
+                return $step;
+            }
+        }
+
+        return $this->currentStep;
+    }
+
     protected function fillDefaultSellerContact(): void
     {
         $user = auth()->user()?->loadMissing('dealerProfile');
@@ -267,6 +379,42 @@ class FormPage extends PageComponent
             ],
             'newImages.*' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:'.self::MAX_IMAGE_SIZE_KB],
         ];
+    }
+
+    protected function steps(): array
+    {
+        return [
+            1 => [
+                'kicker' => 'Korak 1',
+                'title' => 'Vozilo',
+                'summary' => 'Osnovni podaci',
+            ],
+            2 => [
+                'kicker' => 'Korak 2',
+                'title' => 'Oprema',
+                'summary' => count($this->equipment).' odabranih stavki',
+            ],
+            3 => [
+                'kicker' => 'Korak 3',
+                'title' => 'Fotografije',
+                'summary' => $this->totalImageCount().'/'.self::MAX_IMAGES.' fotografija',
+            ],
+            4 => [
+                'kicker' => 'Korak 4',
+                'title' => 'Prodavac',
+                'summary' => $this->sellerName ?: 'Kontakt podaci',
+            ],
+        ];
+    }
+
+    protected function lastStep(): int
+    {
+        return max(array_keys($this->steps()));
+    }
+
+    protected function clampCurrentStep(): void
+    {
+        $this->currentStep = max(1, min($this->currentStep, $this->lastStep()));
     }
 
     protected function totalImageCount(): int
@@ -322,12 +470,15 @@ class FormPage extends PageComponent
 
     public function render(): View
     {
+        $this->clampCurrentStep();
+
         return $this->page(view('livewire.pages.listings.form-page', [
             'cities' => config('autoiq.cities'),
             'fuelTypes' => config('autoiq.fuel_types'),
             'transmissionTypes' => config('autoiq.transmission_types'),
             'sellerTypes' => config('autoiq.seller_types'),
             'equipmentCatalog' => Listing::equipmentCatalog(),
+            'steps' => $this->steps(),
         ]));
     }
 }
