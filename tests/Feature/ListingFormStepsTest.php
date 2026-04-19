@@ -44,9 +44,40 @@ class ListingFormStepsTest extends TestCase
             ->assertOk()
             ->assertSee('Izaberite marku')
             ->assertSeeHtml('<option value="BMW">BMW</option>')
+            ->assertSeeHtml('<option value="Buick">Buick</option>')
             ->assertSeeHtml('<option value="Mercedes Benz">Mercedes Benz</option>')
             ->assertSeeHtml('<option value="Xiaomi">Xiaomi</option>')
             ->assertSeeHtml('<option value="Škoda">Škoda</option>');
+    }
+
+    public function test_listing_form_uses_prepared_model_dropdown_for_selected_brand(): void
+    {
+        $this->actingAs(User::factory()->create());
+
+        Livewire::test(FormPage::class)
+            ->assertSee('Prvo izaberite marku')
+            ->set('brand', 'BMW')
+            ->assertSee('Izaberite model')
+            ->assertSeeHtml('<option value="Serija 3">Serija 3</option>')
+            ->assertSeeHtml('<option value="320d">320d</option>')
+            ->assertSeeHtml('<option value="X5">X5</option>');
+    }
+
+    public function test_vehicle_catalog_has_model_choices_for_every_prepared_brand(): void
+    {
+        $brands = config('vehicle_catalog.brands');
+        $modelsByBrand = config('vehicle_catalog.models');
+
+        $this->assertSame([], array_diff($brands, array_keys($modelsByBrand)));
+
+        foreach ($brands as $brand) {
+            if ($brand === 'Ostalo') {
+                continue;
+            }
+
+            $this->assertNotEmpty($modelsByBrand[$brand], "Brand {$brand} has no prepared models.");
+            $this->assertContains('Ostalo', $modelsByBrand[$brand], "Brand {$brand} has no fallback model option.");
+        }
     }
 
     public function test_listing_form_rejects_brand_outside_prepared_list(): void
@@ -58,6 +89,45 @@ class ListingFormStepsTest extends TestCase
             ->call('nextStep')
             ->assertSet('currentStep', 1)
             ->assertHasErrors(['brand']);
+    }
+
+    public function test_listing_form_rejects_model_outside_selected_brand_list(): void
+    {
+        $this->actingAs(User::factory()->create());
+
+        $this->fillVehicleStep(Livewire::test(FormPage::class))
+            ->set('model', 'A4')
+            ->call('nextStep')
+            ->assertSet('currentStep', 1)
+            ->assertHasErrors(['model']);
+    }
+
+    public function test_listing_form_clears_model_when_brand_changes(): void
+    {
+        $this->actingAs(User::factory()->create());
+
+        Livewire::test(FormPage::class)
+            ->set('brand', 'BMW')
+            ->set('model', '320d')
+            ->set('brand', 'Audi')
+            ->assertSet('model', '');
+    }
+
+    public function test_listing_edit_keeps_legacy_brand_and_model_values_available(): void
+    {
+        $user = User::factory()->create();
+        $listing = Listing::factory()->for($user)->create([
+            'brand' => 'Legacy Motors',
+            'model' => 'Roadster X',
+        ]);
+
+        $this->actingAs($user);
+
+        Livewire::test(FormPage::class, ['listing' => $listing])
+            ->assertSet('brand', 'Legacy Motors')
+            ->assertSet('model', 'Roadster X')
+            ->assertSeeHtml('<option value="Legacy Motors">Legacy Motors</option>')
+            ->assertSeeHtml('<option value="Roadster X">Roadster X</option>');
     }
 
     public function test_user_can_move_through_steps_and_publish_listing(): void

@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.33] - 2026-04-19
+
+### Changed
+
+- Added dependent vehicle model dropdowns for listing creation and editing based on Polovni Automobili brand/model filter data.
+- Updated listing vehicle validation so models must match the selected brand while preserving edit support for legacy values.
+
 ## [0.1.32] - 2026-04-19
 
 ### Changed

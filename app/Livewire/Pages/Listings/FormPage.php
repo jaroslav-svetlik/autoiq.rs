@@ -180,6 +180,16 @@ class FormPage extends PageComponent
         $this->resetErrorBag();
     }
 
+    public function updatedBrand(): void
+    {
+        if (filled($this->model) && ! in_array($this->model, $this->allowedVehicleModels(), true)) {
+            $this->model = '';
+        }
+
+        $this->resetErrorBag('brand');
+        $this->resetErrorBag('model');
+    }
+
     public function updatedNewImages(): void
     {
         $this->validate($this->imageRules(), $this->messages());
@@ -256,7 +266,7 @@ class FormPage extends PageComponent
         return [
             'titleInput' => ['required', 'string', 'min:8', 'max:120'],
             'brand' => ['required', 'string', 'max:60', Rule::in($this->allowedVehicleBrands())],
-            'model' => ['required', 'string', 'max:80'],
+            'model' => ['required', 'string', 'max:80', Rule::in($this->allowedVehicleModels())],
             'year' => ['required', 'integer', 'min:1990', 'max:'.now()->year],
             'price' => ['required', 'integer', 'min:500', 'max:500000'],
             'mileage' => ['required', 'integer', 'min:0', 'max:1000000'],
@@ -409,7 +419,7 @@ class FormPage extends PageComponent
 
     protected function allowedVehicleBrands(): array
     {
-        $brands = config('autoiq.vehicle_brands');
+        $brands = config('vehicle_catalog.brands');
         $listingBrand = $this->listing?->brand;
 
         if (filled($listingBrand) && ! in_array($listingBrand, $brands, true)) {
@@ -417,6 +427,25 @@ class FormPage extends PageComponent
         }
 
         return $brands;
+    }
+
+    protected function allowedVehicleModels(): array
+    {
+        $models = config("vehicle_catalog.models.{$this->brand}", []);
+
+        if ($this->brand === 'Ostalo' && $models === []) {
+            $models = ['Ostalo'];
+        }
+
+        if (
+            filled($this->listing?->model)
+            && $this->brand === $this->listing?->brand
+            && ! in_array($this->listing->model, $models, true)
+        ) {
+            $models[] = $this->listing->model;
+        }
+
+        return $models;
     }
 
     protected function lastStep(): int
@@ -450,6 +479,7 @@ class FormPage extends PageComponent
             'brand.required' => 'Unesite marku.',
             'brand.in' => 'Izaberite marku iz ponuđene liste.',
             'model.required' => 'Unesite model.',
+            'model.in' => 'Izaberite model iz ponuđene liste.',
             'year.required' => 'Unesite godište.',
             'price.required' => 'Unesite cenu.',
             'mileage.required' => 'Unesite kilometražu.',
@@ -488,6 +518,7 @@ class FormPage extends PageComponent
         return $this->page(view('livewire.pages.listings.form-page', [
             'cities' => config('autoiq.cities'),
             'vehicleBrands' => $this->allowedVehicleBrands(),
+            'vehicleModels' => $this->allowedVehicleModels(),
             'fuelTypes' => config('autoiq.fuel_types'),
             'transmissionTypes' => config('autoiq.transmission_types'),
             'sellerTypes' => config('autoiq.seller_types'),
