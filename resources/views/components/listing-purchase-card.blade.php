@@ -1,5 +1,13 @@
 @props(['listing'])
 
+@php
+    $sellerPhones = $listing->sellerContactPhones();
+    $sellerPhoneLinks = $sellerPhones->map(fn (string $phone) => [
+        'label' => $phone,
+        'href' => 'tel:'.preg_replace('/[^0-9+]/', '', $phone),
+    ]);
+@endphp
+
 <div {{ $attributes->class('space-y-5') }}>
     <div>
         <div class="data-kicker">Brza odluka</div>
@@ -14,6 +22,22 @@
                 <span class="text-sm text-slate-400">{{ $listing->marketDifferenceLabel() }} u odnosu na prosečnu cenu</span>
             </div>
         </div>
+    </div>
+
+    <div class="panel-soft p-4">
+        <div class="text-xs uppercase tracking-[0.18em] text-slate-500">Kontakt prodavca</div>
+        <div class="mt-2 text-lg font-semibold text-white">{{ $listing->sellerContactName() }}</div>
+        @if($sellerPhoneLinks->isNotEmpty())
+            <div class="mt-3 flex flex-col gap-2">
+                @foreach($sellerPhoneLinks as $phone)
+                    <a href="{{ $phone['href'] }}" class="text-sm font-semibold text-cyan-200 transition hover:text-cyan-100">
+                        {{ $phone['label'] }}
+                    </a>
+                @endforeach
+            </div>
+        @else
+            <div class="mt-3 text-sm text-slate-400">Telefon nije unet.</div>
+        @endif
     </div>
 
     <div class="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">

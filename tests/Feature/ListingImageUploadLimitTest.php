@@ -8,6 +8,7 @@ use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
+use Livewire\Features\SupportTesting\Testable;
 use Livewire\Livewire;
 use Tests\TestCase;
 
@@ -76,7 +77,7 @@ class ListingImageUploadLimitTest extends TestCase
         $this->assertSame(19, $listing->fresh()->images()->count());
     }
 
-    protected function fillForm(\Livewire\Features\SupportTesting\Testable $component): \Livewire\Features\SupportTesting\Testable
+    protected function fillForm(Testable $component): Testable
     {
         return $component
             ->set('titleInput', 'BMW 320d xDrive M paket, prvi vlasnik')
@@ -89,6 +90,8 @@ class ListingImageUploadLimitTest extends TestCase
             ->set('transmission', 'automatic')
             ->set('city', 'Beograd')
             ->set('description', 'Detaljan opis vozila sa servisnom istorijom, opremom i svim bitnim informacijama za kupca.')
-            ->set('sellerType', 'private');
+            ->set('sellerType', 'private')
+            ->set('sellerName', 'Milan Petrović')
+            ->set('sellerPhones', ['+381 64 123 456']);
     }
 }

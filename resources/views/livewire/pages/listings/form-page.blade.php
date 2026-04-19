@@ -172,6 +172,44 @@
                     </div>
                 @endif
             </div>
+
+            <div class="panel p-6 sm:p-8">
+                <div>
+                    <div class="data-kicker">Poslednji korak</div>
+                    <h2 class="font-display mt-2 text-2xl font-bold text-white">Podaci prodavca</h2>
+                    <p class="mt-3 text-sm leading-7 text-slate-300">Unesite ime i telefone koji treba da budu prikazani kupcima za ovaj oglas.</p>
+                </div>
+
+                <div class="mt-6 grid gap-6 md:grid-cols-2">
+                    <div>
+                        <label class="field-label">Ime i prezime prodavca</label>
+                        <input type="text" wire:model.live="sellerName" class="input-shell w-full" placeholder="Milan Petrović">
+                        @error('sellerName') <p class="mt-2 text-sm text-rose-300">{{ $message }}</p> @enderror
+                    </div>
+
+                    <div class="space-y-4">
+                        @foreach($sellerPhones as $index => $phone)
+                            <div wire:key="seller-phone-{{ $index }}" class="flex items-start gap-3">
+                                <div class="min-w-0 flex-1">
+                                    <label class="field-label">Telefon {{ $index + 1 }}</label>
+                                    <input type="text" wire:model.live="sellerPhones.{{ $index }}" class="input-shell w-full" placeholder="+381 6x xxx xxxx">
+                                    @error("sellerPhones.{$index}") <p class="mt-2 text-sm text-rose-300">{{ $message }}</p> @enderror
+                                </div>
+
+                                @if(count($sellerPhones) > 1)
+                                    <button type="button" wire:click="removeSellerPhone({{ $index }})" class="btn-ghost mt-7 shrink-0 text-rose-200 hover:text-rose-100">Ukloni</button>
+                                @endif
+                            </div>
+                        @endforeach
+
+                        @error('sellerPhones') <p class="text-sm text-rose-300">{{ $message }}</p> @enderror
+
+                        @if(count($sellerPhones) < 3)
+                            <button type="button" wire:click="addSellerPhone" class="btn-secondary">Dodaj broj</button>
+                        @endif
+                    </div>
+                </div>
+            </div>
         </div>
 
         <aside class="space-y-4">

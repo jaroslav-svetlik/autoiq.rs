@@ -7,7 +7,6 @@ use App\Enums\SellerType;
 use App\Livewire\Concerns\ThrottlesRequests;
 use App\Livewire\Pages\PageComponent;
 use App\Models\Listing;
-use App\Models\ListingImage;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
@@ -20,21 +19,41 @@ class FormPage extends PageComponent
     use WithFileUploads;
 
     protected const MAX_IMAGES = 20;
+
     protected const MAX_IMAGE_SIZE_KB = 1024;
 
+    protected const MAX_SELLER_PHONES = 3;
+
     public ?Listing $listing = null;
+
     public string $titleInput = '';
+
     public string $brand = '';
+
     public string $model = '';
+
     public string $year = '';
+
     public string $price = '';
+
     public string $mileage = '';
+
     public string $fuelType = '';
+
     public string $transmission = '';
+
     public string $city = '';
+
     public string $description = '';
+
     public string $sellerType = 'private';
+
+    public string $sellerName = '';
+
+    public array $sellerPhones = [''];
+
     public array $equipment = [];
+
     public array $newImages = [];
 
     public function mount(?Listing $listing = null): void
@@ -45,7 +64,7 @@ class FormPage extends PageComponent
                 403,
             );
 
-            $this->listing = $listing->load('images', 'equipmentItems');
+            $this->listing = $listing->load('images', 'equipmentItems', 'dealerProfile', 'user');
             $this->titleInput = $listing->title;
             $this->brand = $listing->brand;
             $this->model = $listing->model;
@@ -57,9 +76,15 @@ class FormPage extends PageComponent
             $this->city = $listing->city;
             $this->description = $listing->description;
             $this->sellerType = $listing->seller_type?->value ?? 'private';
+            $this->sellerName = $listing->sellerContactName();
+            $this->sellerPhones = $listing->sellerContactPhones()->all() ?: [''];
             $this->equipment = $listing->equipmentKeys()->all();
-        } elseif (auth()->user()?->isDealer()) {
-            $this->sellerType = SellerType::Dealer->value;
+        } else {
+            $this->fillDefaultSellerContact();
+
+            if (auth()->user()?->isDealer()) {
+                $this->sellerType = SellerType::Dealer->value;
+            }
         }
     }
 
@@ -75,7 +100,7 @@ class FormPage extends PageComponent
             return;
         }
 
-        $listing = $this->listing ?? new Listing();
+        $listing = $this->listing ?? new Listing;
 
         $listing->fill([
             'user_id' => auth()->id(),
@@ -90,6 +115,8 @@ class FormPage extends PageComponent
             'city' => $validated['city'],
             'description' => $validated['description'],
             'seller_type' => $validated['sellerType'],
+            'seller_name' => trim($validated['sellerName']),
+            'seller_phones' => $this->normalizeSellerPhones($validated['sellerPhones'] ?? []),
             'status' => $listing->status ?? ListingStatus::Published,
         ]);
 
@@ -130,6 +157,27 @@ class FormPage extends PageComponent
         $this->resetErrorBag('newImages');
     }
 
+    public function addSellerPhone(): void
+    {
+        if (count($this->sellerPhones) >= self::MAX_SELLER_PHONES) {
+            return;
+        }
+
+        $this->sellerPhones[] = '';
+    }
+
+    public function removeSellerPhone(int $index): void
+    {
+        unset($this->sellerPhones[$index]);
+        $this->sellerPhones = array_values($this->sellerPhones);
+
+        if ($this->sellerPhones === []) {
+            $this->sellerPhones = [''];
+        }
+
+        $this->resetErrorBag('sellerPhones');
+    }
+
     protected function storeImages(Listing $listing): void
     {
         $sortOrder = (int) $listing->images()->max('sort_order') + 1;
@@ -167,10 +215,42 @@ class FormPage extends PageComponent
             'city' => ['required', 'string', 'max:80'],
             'description' => ['required', 'string', 'min:30', 'max:5000'],
             'sellerType' => ['required', 'in:private,dealer'],
+            'sellerName' => ['required', 'string', 'min:2', 'max:120'],
+            'sellerPhones' => [
+                'required',
+                'array',
+                'max:'.self::MAX_SELLER_PHONES,
+                function (string $attribute, mixed $value, \Closure $fail): void {
+                    if ($this->normalizeSellerPhones((array) $value) === []) {
+                        $fail('Unesite bar jedan broj telefona prodavca.');
+                    }
+                },
+            ],
+            'sellerPhones.*' => ['nullable', 'string', 'max:30', 'regex:/^[0-9+()\/.\-\s]+$/'],
             'equipment' => ['nullable', 'array'],
             'equipment.*' => ['string', Rule::in(array_keys(Listing::equipmentKeyMap()))],
             ...$this->imageRules(),
         ];
+    }
+
+    protected function fillDefaultSellerContact(): void
+    {
+        $user = auth()->user()?->loadMissing('dealerProfile');
+        $dealerProfile = $user?->isDealer() ? $user->dealerProfile : null;
+        $phone = $dealerProfile?->phone ?: $user?->phone;
+
+        $this->sellerName = $dealerProfile?->company_name ?: (string) $user?->name;
+        $this->sellerPhones = filled($phone) ? [(string) $phone] : [''];
+    }
+
+    protected function normalizeSellerPhones(array $phones): array
+    {
+        return collect($phones)
+            ->map(fn (mixed $phone) => preg_replace('/\s+/', ' ', trim((string) $phone)))
+            ->filter()
+            ->unique()
+            ->values()
+            ->all();
     }
 
     protected function imageRules(): array
@@ -181,7 +261,7 @@ class FormPage extends PageComponent
                 'array',
                 function (string $attribute, mixed $value, \Closure $fail): void {
                     if ($this->totalImageCount() > self::MAX_IMAGES) {
-                        $fail("Možete imati najviše ".self::MAX_IMAGES." slika po oglasu.");
+                        $fail('Možete imati najviše '.self::MAX_IMAGES.' slika po oglasu.');
                     }
                 },
             ],
@@ -213,6 +293,12 @@ class FormPage extends PageComponent
             'price.required' => 'Unesite cenu.',
             'mileage.required' => 'Unesite kilometražu.',
             'description.min' => 'Opis treba da sadrži makar 30 karaktera.',
+            'sellerName.required' => 'Unesite ime i prezime prodavca.',
+            'sellerName.min' => 'Ime prodavca treba da ima makar 2 karaktera.',
+            'sellerPhones.array' => 'Telefoni prodavca moraju biti u ispravnom formatu.',
+            'sellerPhones.max' => 'Možete uneti najviše '.self::MAX_SELLER_PHONES.' broja telefona.',
+            'sellerPhones.*.max' => 'Broj telefona može imati najviše 30 karaktera.',
+            'sellerPhones.*.regex' => 'Broj telefona može sadržati cifre, razmake i znakove +, -, /, . i zagrade.',
             'equipment.*.in' => 'Izabrana stavka opreme nije dostupna.',
             'newImages.array' => 'Otpremanje fotografija mora biti u ispravnom formatu.',
             'newImages.*.image' => 'Svaki fajl mora biti slika.',

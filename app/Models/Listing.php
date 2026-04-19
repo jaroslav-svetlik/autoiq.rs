@@ -40,6 +40,8 @@ class Listing extends Model
         'city',
         'description',
         'seller_type',
+        'seller_name',
+        'seller_phones',
         'status',
         'autoiq_score',
         'views_count',
@@ -56,6 +58,7 @@ class Listing extends Model
             'fuel_type' => FuelType::class,
             'transmission' => TransmissionType::class,
             'seller_type' => SellerType::class,
+            'seller_phones' => 'array',
             'status' => ListingStatus::class,
             'is_featured' => 'boolean',
             'featured_until' => 'datetime',
@@ -234,6 +237,44 @@ class Listing extends Model
         $image = $this->images->sortBy('sort_order')->first();
 
         return $image?->url() ?? 'https://placehold.co/960x640/0f172a/f8fafc?text='.urlencode($this->brand.' '.$this->model);
+    }
+
+    public function sellerContactName(): string
+    {
+        $sellerName = trim((string) $this->seller_name);
+
+        if ($sellerName !== '') {
+            return $sellerName;
+        }
+
+        if ($this->seller_type === SellerType::Dealer && filled($this->dealerProfile?->company_name)) {
+            return $this->dealerProfile->company_name;
+        }
+
+        return $this->user?->name ?: 'Prodavac';
+    }
+
+    public function sellerContactPhones(): Collection
+    {
+        $phones = collect($this->seller_phones ?? [])
+            ->map(fn (mixed $phone) => preg_replace('/\s+/', ' ', trim((string) $phone)))
+            ->filter()
+            ->unique()
+            ->values();
+
+        if ($phones->isNotEmpty()) {
+            return $phones;
+        }
+
+        if ($this->seller_type === SellerType::Dealer && filled($this->dealerProfile?->phone)) {
+            return collect([$this->dealerProfile->phone]);
+        }
+
+        if (filled($this->user?->phone)) {
+            return collect([$this->user->phone]);
+        }
+
+        return collect();
     }
 
     public function scoreLabel(): string

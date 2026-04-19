@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.28] - 2026-04-19
+
+### Added
+
+- Added per-listing seller contact details with custom seller name and multiple phone numbers during listing creation and editing.
+
 ## [0.1.27] - 2026-04-19
 
 ### Changed
