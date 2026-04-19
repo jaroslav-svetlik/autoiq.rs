@@ -216,10 +216,38 @@ The production AApanel Nginx vhost for AutoIQ.rs lives at:
 
 The SSL server block must route Nginx-generated `403` responses back through
 Laravel so users see the branded AutoIQ error page instead of the default Nginx
-page:
+page. Because the server has global `fastcgi_intercept_errors on`, use a named
+internal FastCGI location and disable interception there to avoid a 403 loop:
 
 ```nginx
-error_page 403 = /__errors/403;
+error_page 403 = @laravel_forbidden;
+
+location @laravel_forbidden {
+    internal;
+    fastcgi_intercept_errors off;
+    fastcgi_pass unix:/tmp/php-cgi-84.sock;
+    fastcgi_index index.php;
+    fastcgi_param SCRIPT_FILENAME $document_root/index.php;
+    fastcgi_param QUERY_STRING "";
+    fastcgi_param REQUEST_METHOD GET;
+    fastcgi_param CONTENT_TYPE $content_type;
+    fastcgi_param CONTENT_LENGTH $content_length;
+    fastcgi_param SCRIPT_NAME /index.php;
+    fastcgi_param REQUEST_URI /__errors/403;
+    fastcgi_param DOCUMENT_URI /__errors/403;
+    fastcgi_param DOCUMENT_ROOT $document_root;
+    fastcgi_param SERVER_PROTOCOL $server_protocol;
+    fastcgi_param REQUEST_SCHEME $scheme;
+    fastcgi_param HTTPS $https if_not_empty;
+    fastcgi_param GATEWAY_INTERFACE CGI/1.1;
+    fastcgi_param SERVER_SOFTWARE nginx/$nginx_version;
+    fastcgi_param REMOTE_ADDR $remote_addr;
+    fastcgi_param REMOTE_PORT $remote_port;
+    fastcgi_param SERVER_ADDR $server_addr;
+    fastcgi_param SERVER_PORT $server_port;
+    fastcgi_param SERVER_NAME $server_name;
+    fastcgi_param REDIRECT_STATUS 200;
+}
 ```
 
 After changing the vhost config, always make a timestamped backup first, then

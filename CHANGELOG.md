@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.27] - 2026-04-19
+
+### Changed
+
+- Corrected the AApanel Nginx 403 handoff documentation to match the production named FastCGI location setup.
+
 ## [0.1.26] - 2026-04-19
 
 ### Added
