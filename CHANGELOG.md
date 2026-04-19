@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.25] - 2026-04-19
+
+### Added
+
+- Added a Ford Kuga vs Nissan Qashqai 2022-2023 comparison blog post with buying guidance for hybrid and compact SUV shoppers.
+
 ## [0.1.24] - 2026-04-19
 
 ### Added
