@@ -693,6 +693,161 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Hyundai Tucson 2021-2023: šta proveriti kod hibrida i dizela',
+                'slug' => 'polovni-hyundai-tucson-2021-2023-sta-proveriti-kod-hibrida-i-dizela',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tucson novije generacije deluje kao sigurna porodična kupovina, ali razlika između benzinca, dizela, hibrida i plug-in hibrida menja celu računicu.',
+                'content' => <<<'TEXT'
+Hyundai Tucson iz 2021, 2022. i 2023. godine često deluje kao odličan polovnjak za porodicu: moderan je, prostran, dobro opremljen i ima širok izbor pogona. Upravo zato kupac ne treba da ga posmatra kao jedan model sa jednom računicom. Benzinac, dizel, hibrid i plug-in hibrid mogu izgledati slično na oglasu, ali imaju različite prednosti, troškove i rizike.
+
+Ako gledaš 1.6 T-GDi benzinac, fokus je na servisnoj istoriji, hladnom startu, radu turbine i realnoj potrošnji. To je logičan izbor za vozače koji ne prelaze ogromnu kilometražu i ne žele dizel komplikacije u gradu. Kod polovnog primerka posebno proveri da li su servisi rađeni na vreme, jer turbo benzinac ne voli produžene intervale i jeftino održavanje.
+
+Dizel Tucson ima smisla za vozača koji često ide otvorenim putem i prelazi veću godišnju kilometražu. Ako auto većinu vremena provodi u gradu, računica se brzo menja. DPF, EGR i kratke relacije mogu pretvoriti dobru potrošnju u skupe posete servisu. Zato kod dizela obavezno proveri način prethodne vožnje, ne samo broj kilometara.
+
+Hibrid i plug-in hibrid traže drugačiju proveru. Kod običnog hibrida gledaj stanje baterije, kočnice, trap i da li se sistem ponaša mirno u stani-kreni vožnji. Kod plug-in hibrida proveri kablove, punjenje, realan električni domet i navike prethodnog vlasnika. PHEV ima najviše smisla ako ga stvarno puniš kod kuće ili na poslu; bez punjenja postaje skuplji i teži benzinac.
+
+Tucson ume da bude bogato opremljen, ali oprema nije zamena za stanje. Panoramski krov, veliki ekrani, asistencije i automatski menjač treba proveriti jednako ozbiljno kao motor. Ako je automobil uvezen, traži VIN izveštaj, račune i dokaz o kilometraži. Noviji SUV sa lepim ekranom i dobrim fotografijama ne mora biti uredan primerak.
+
+Najbolji Tucson je onaj čiji pogon odgovara tvojoj rutini. Benzinac za mešovitu vožnju i jednostavniju kupovinu, dizel za duge relacije, hibrid za grad i prigradsku vožnju, PHEV samo ako imaš naviku punjenja. Kada se pogon, istorija i cena poklope, Tucson može biti vrlo dobra porodična kupovina.
+TEXT,
+                'highlights' => [
+                    'Benzinac, dizel, hibrid i PHEV Tucson nemaju istu računicu ni iste rizike.',
+                    'PHEV ima smisla samo ako se redovno puni; bez punjenja gubi glavnu prednost.',
+                    'Kod uvoza proveri VIN, servisnu istoriju, bateriju kod hibrida i rad asistencija.',
+                ],
+                'tags' => ['Hyundai Tucson', 'SUV', 'hibrid', 'dizel', 'PHEV'],
+                'meta_title' => 'Polovni Hyundai Tucson 2021-2023: vodič za kupovinu',
+                'meta_description' => 'Kako kupiti polovni Hyundai Tucson 2021-2023: benzinac, dizel, hibrid, PHEV, servisna istorija, baterija i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#2dd4bf', '#f8fafc'],
+            ],
+            [
+                'title' => 'Mazda CX-5 ili Toyota RAV4: koji SUV je mirnija kupovina',
+                'slug' => 'mazda-cx-5-ili-toyota-rav4-koji-suv-je-mirnija-kupovina',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'CX-5 i RAV4 privlače kupce koji ne žele premium troškove, ali žele ozbiljan SUV. Razlika je u pogonu, potrošnji, prostoru i osećaju u vožnji.',
+                'content' => <<<'TEXT'
+Mazda CX-5 i Toyota RAV4 često se porede kada kupac želi ozbiljan porodični SUV, ali ne želi da ulazi u premium troškove BMW-a, Audija ili Mercedesa. Oba modela imaju jak ugled, dobar osećaj kvaliteta i relativno dobru kasniju prodaju. Ipak, kupuju se iz različitih razloga i ne treba ih birati samo po ceni ili godištu.
+
+Mazda CX-5 je bolja za vozača koji ceni osećaj u vožnji, dobar enterijer i klasičniji karakter automobila. Benzinske verzije su često zanimljive kupcima koji žele da izbegnu dizel rizike, ali treba prihvatiti da potrošnja može biti viša nego kod hibridne Toyote. Kod Mazde proveri servisnu istoriju, koroziju na donjim delovima kod uvoznih primeraka, trap, gume i stanje automatskog menjača ako ga ima.
+
+Toyota RAV4 je racionalnija kada želiš hibridnu svakodnevicu, mirniju gradsku vožnju i niži rizik od dizel komplikacija. Hibridni pogon je glavna prednost, ali ne znači da auto ne treba pregledati. Proveri stanje baterije, kočnice, trap, servisne zapise i da li je auto bio porodično vozilo, rent-a-car ili službeni automobil sa mnogo kratkih vožnji.
+
+Po prostoru su oba modela ozbiljna, ali RAV4 često deluje praktičnije za porodicu kojoj su gepek i zadnja klupa prioritet. CX-5 uzvraća boljim osećajem u kabini i vožnji. Ako često putuješ autoputem, probaj oba modela na bržoj vožnji, jer buka, sedišta i menjač mogu presuditi više od brojeva iz kataloga.
+
+Cena polovnog RAV4 hibrida često je visoka zato što Toyota dobro drži vrednost. To ne znači da je svaki primerak vredan tražene cene. Mazda može ponuditi bolji odnos opreme i cene, ali samo ako je stanje dobro. Kod oba modela jeftin primerak obično traži objašnjenje, posebno ako je uvezen i nema jasnu dokumentaciju.
+
+RAV4 je mirnija kupovina za vozača koji želi hibridnu pouzdanost, praktičnost i jaku kasniju prodaju. CX-5 je bolja ako želiš više vozačkog karaktera, lepši enterijer i spreman si da prihvatiš drugačiju potrošnju. Najpametnija odluka nije model sa boljim ugledom, nego primerak sa manje nepoznanica.
+TEXT,
+                'highlights' => [
+                    'RAV4 ima prednost za kupce koji žele hibridnu svakodnevicu i jaku kasniju prodaju.',
+                    'CX-5 ima smisla ako želiš bolji osećaj u vožnji i često bolji odnos opreme i cene.',
+                    'Kod oba modela proveri istoriju, trap, gume, automatik i realnu upotrebu prethodnog vlasnika.',
+                ],
+                'tags' => ['Mazda CX-5', 'Toyota RAV4', 'porodični SUV', 'hibrid'],
+                'meta_title' => 'Mazda CX-5 ili Toyota RAV4: koji polovni SUV kupiti',
+                'meta_description' => 'Poređenje polovnih Mazda CX-5 i Toyota RAV4 SUV modela: hibrid, benzinac, prostor, potrošnja, održavanje i realna vrednost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Peugeot 2008 ili Renault Captur: mali crossover za grad i porodicu',
+                'slug' => 'peugeot-2008-ili-renault-captur-mali-crossover-za-grad-i-porodicu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Peugeot 2008 i Renault Captur ciljaju isti deo tržišta, ali razlika u kabini, motorima i praktičnosti može promeniti odluku.',
+                'content' => <<<'TEXT'
+Peugeot 2008 i Renault Captur su čest izbor za kupce koji žele povišenu poziciju sedenja, moderan izgled i auto koji nije prevelik za grad. Oba modela nude više praktičnosti od klasičnog malog hečbeka, ali nisu zamena za veliki porodični SUV. Zato ih treba gledati kroz svakodnevicu: parking, dečje sedište, potrošnju, gepek i servisnu mrežu.
+
+Peugeot 2008 privlači kupce dizajnom, enterijerom i modernim i-Cockpit rasporedom. Nekome će taj volan i instrument tabla savršeno odgovarati, a nekome nikako. Pre kupovine obavezno sedi, podesi volan i sedište i proveri da li jasno vidiš instrumente. Kod polovnih primeraka proveri 1.2 PureTech motor, servisni ritam, stanje kaiša gde je primenljivo, turbinu i eventualne greške elektronike.
+
+Renault Captur je često praktičniji i mekši izbor. Ima dobar ulazak, solidan gepek za klasu i kabinu koja je manje specifična od Peugeotovog rasporeda. Kod Captura proveri servisnu istoriju, rad menjača, stanje elektronike, trap i da li je auto imao mnogo gradske vožnje. Ako gledaš E-Tech hibrid, obavezno proveri ponašanje pogona u sporoj vožnji i servisne zapise.
+
+Za gradsku vožnju oba modela imaju smisla, ali ne kupuj crossover samo zato što izgleda veće. Proveri zadnju klupu, širinu vrata, ISOFIX, prag gepeka i preglednost. Ako porodica često putuje, možda će već kompaktni SUV biti bolja opcija. Ako auto najviše služi za grad, 2008 i Captur su taman dovoljno veliki bez svakodnevnog nerviranja oko parkinga.
+
+Troškovi mogu biti vrlo različiti. Peugeot može držati cenu zbog dizajna i novijeg utiska, dok Captur često dobija poene na praktičnosti i dostupnosti primeraka. Kod oba modela, oprema ne sme da sakrije slab servisni trag. Automatska klima, veliki ekran i lepe felne vrede malo ako motor, menjač ili elektronika traže ulaganja odmah posle kupovine.
+
+Peugeot 2008 je bolji za kupca kome odgovara kabina, želi upečatljiv izgled i nalazi primerak sa dokazanim održavanjem. Renault Captur je mirniji izbor za svakodnevicu, posebno ako tražiš praktičnost i jednostavniji raspored komandi. Presudi probna vožnja i pregled, ne fotografije iz oglasa.
+TEXT,
+                'highlights' => [
+                    'Kod Peugeota 2008 obavezno proveri da li ti odgovara i-Cockpit položaj za volanom.',
+                    'Captur često dobija poene na praktičnosti, ulasku i svakodnevnoj upotrebi.',
+                    'Kod oba modela proveri servisni ritam, elektroniku, trap i realnu gradsku potrošnju.',
+                ],
+                'tags' => ['Peugeot 2008', 'Renault Captur', 'mali crossover', 'grad'],
+                'meta_title' => 'Peugeot 2008 ili Renault Captur: polovni crossover',
+                'meta_description' => 'Poređenje polovnih Peugeot 2008 i Renault Captur modela: grad, porodica, motori, elektronika, gepek i praktičnost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Pregled kod majstora pre kupovine: šta tražiti da ne promakne',
+                'slug' => 'pregled-kod-majstora-pre-kupovine-sta-traziti-da-ne-promakne',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Pregled polovnog auta nije samo dizalica i dijagnostika. Dobar pregled mora da poveže stanje, istoriju, probnu vožnju i realna ulaganja.',
+                'content' => <<<'TEXT'
+Pregled kod majstora pre kupovine je jedan od najboljih načina da izbegneš skup promašaj, ali samo ako znaš šta tražiš. Mnogi kupci odvezu auto na brz pogled, čuju da "deluje dobro" i završe sa računom koji nisu planirali. Dobar pregled mora biti strukturisan: dokumentacija, karoserija, mehanika, dijagnostika, probna vožnja i procena ulaganja.
+
+Prvo proveri papire i identitet vozila. VIN na dokumentima mora da se slaže sa vozilom, servisna istorija treba da ima logiku, a kilometraža mora da prati stanje enterijera. Ako već tu postoje rupe, majstorov pregled ne treba da služi da opravda kupovinu, već da potvrdi da li uopšte ima smisla nastaviti.
+
+Drugo, karoserija govori mnogo. Traži merenje laka, proveru zazora, nosača, podova, pragova i tragova nestručne popravke. Auto koji je bio udaren ne mora biti loš ako je popravljen kako treba, ali moraš znati šta plaćaš. Najveći problem je kada prodavac tvrdi da je auto bez oštećenja, a pregled pokaže drugačiju priču.
+
+Treće, mehanika se ne proverava samo na leru. Hladan start, curenja, rad menjača, kvačilo, trap, kočnice, gume, klima i temperatura motora moraju biti deo pregleda. Kod dizela dodaj DPF, EGR, turbinu i dizne. Kod hibrida proveri bateriju i ponašanje sistema. Kod automatika traži probu hladnog i toplog rada.
+
+Dijagnostika je važna, ali nije čarobna. Greške mogu biti obrisane, a neki problemi se ne vide bez probne vožnje. Zato pregled mora da uključi vožnju po gradu, usporavanje, ubrzavanje, skretanje, neravnine i parkiranje. Zvukovi, vibracije i trzaji često se pojave tek kada auto izađe iz dvorišta prodavca.
+
+Na kraju traži listu ulaganja u novcu. Nije dovoljno da majstor kaže da "ima sitnica". Gume, veliki servis, kočnice, amortizeri, curenja i greške na dijagnostici treba pretvoriti u okviran iznos. Tek tada znaš da li cena ima smisla i koliko prostora imaš za pregovor.
+TEXT,
+                'highlights' => [
+                    'Dobar pregled spaja dokumentaciju, karoseriju, mehaniku, dijagnostiku i probnu vožnju.',
+                    'Dijagnostika nije dovoljna ako nema hladnog starta i realne probne vožnje.',
+                    'Najvažniji rezultat pregleda je lista ulaganja izražena u novcu.',
+                ],
+                'tags' => ['pregled vozila', 'majstor', 'dijagnostika', 'provera vozila'],
+                'meta_title' => 'Pregled kod majstora pre kupovine polovnog auta',
+                'meta_description' => 'Šta tražiti na pregledu kod majstora pre kupovine polovnog automobila: VIN, karoserija, dijagnostika, probna vožnja i ulaganja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Gume na polovnom automobilu: skriveni trošak koji menja cenu',
+                'slug' => 'gume-na-polovnom-automobilu-skriveni-trosak-koji-menja-cenu',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Gume često deluju kao sitnica u oglasu, ali set dobrih guma može ozbiljno promeniti realnu cenu polovnog automobila.',
+                'content' => <<<'TEXT'
+Gume su jedan od najlakše zanemarenih troškova kod kupovine polovnog automobila. Kupac gleda kilometražu, opremu, motor i cenu, a onda tek posle kupovine shvati da treba odmah da plati četiri nove gume. Kod većih felni, SUV modela i premium dimenzija taj trošak može ozbiljno promeniti računicu.
+
+Prvo proveri dimenziju guma. Nije isto kupiti set za mali gradski auto i set za SUV sa 19 ili 20 inča. Ako auto ima atraktivne felne, cena guma često raste. To ne znači da takav auto treba izbegavati, ali taj trošak mora biti deo pregovora. Oglas sa lepim felnama nije povoljan ako te odmah čeka skup set pneumatika.
+
+Drugo, proveri DOT, dubinu šare i ravnomerno trošenje. Stara guma sa dovoljno šare može biti loša zbog starosti, tvrdoće ili pukotina. Neravnomerno trošenje može ukazivati na problem sa trapom, geometrijom ili amortizerima. Ako su prednje i zadnje gume različitog stanja, pitaj zašto i gledaj širu sliku automobila.
+
+Treće, sezona menja računicu. Ako kupuješ auto pred zimu sa lošim zimskim gumama, trošak dolazi odmah. Ako prodavac kaže da ima "još jedan set", proveri dimenziju, stanje, felne i starost. Dva seta starih ili loših guma nisu bonus, već problem koji je samo podeljen na više točkova.
+
+Gume takođe govore o prethodnom vlasniku. Kvalitetan i odgovarajući set često pokazuje da auto nije održavan samo minimalno. Najjeftinije gume, pogrešne dimenzije ili istrošen set na skupom automobilu mogu biti signal da je vlasnik štedeo i na drugim stvarima. To nije dokaz kvara, ali jeste razlog za oprez.
+
+Pre ponude proveri realnu cenu guma za tu dimenziju i dodaj montažu, balansiranje i eventualnu geometriju trapa. Ako ulaganje dolazi odmah, koristi ga kao konkretan argument u pregovoru. Gume nisu kozmetika. One direktno utiču na bezbednost, kočenje, potrošnju i stvarnu cenu automobila.
+TEXT,
+                'highlights' => [
+                    'Dimenzija guma može značajno promeniti realan trošak kupovine polovnjaka.',
+                    'DOT, dubina šare i neravnomerno trošenje često otkrivaju više od samog oglasa.',
+                    'Ako gume traže zamenu odmah, taj iznos mora ući u pregovor o ceni.',
+                ],
+                'tags' => ['gume', 'troškovi', 'pregovaranje', 'održavanje'],
+                'meta_title' => 'Gume na polovnom automobilu: skriveni trošak',
+                'meta_description' => 'Kako gume menjaju realnu cenu polovnog automobila: DOT, dimenzija, zimske i letnje gume, trošenje, trap i pregovaranje.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f43f5e', '#f8fafc'],
+            ],
         ];
     }
 

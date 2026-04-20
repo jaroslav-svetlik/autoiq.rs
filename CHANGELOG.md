@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.35] - 2026-04-20
+
+### Added
+
+- Added five non-duplicate blog articles across Hyundai Tucson buying guidance, SUV and crossover comparisons, pre-purchase inspection, and tire cost checks.
+
 ## [0.1.34] - 2026-04-19
 
 ### Fixed
