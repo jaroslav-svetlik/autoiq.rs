@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.36] - 2026-04-21
+
+### Added
+
+- Added five non-duplicate blog articles covering Volkswagen ID.3, first-car buying, LPG costs, bodywork inspection, and Renault Austral vs Kia Sportage.
+
 ## [0.1.35] - 2026-04-20
 
 ### Added

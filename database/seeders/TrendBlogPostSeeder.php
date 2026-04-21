@@ -848,6 +848,161 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#f43f5e', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Volkswagen ID.3: električni kompakt za grad i punjenje kod kuće',
+                'slug' => 'polovni-volkswagen-id3-elektricni-kompakt-za-grad-i-punjenje-kod-kuce',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'ID.3 može biti vrlo zanimljiv električni polovnjak, ali samo ako ti način punjenja, domet i stanje baterije stvarno odgovaraju.',
+                'content' => <<<'TEXT'
+Volkswagen ID.3 je jedan od prvih električnih modela koji sve češće ulazi u pretragu polovnih automobila kod kupaca koji žele moderan kompakt, tihu vožnju i niže troškove gradske upotrebe. Na papiru deluje jednostavno: nema klasičan motor, nema menjač kao dizel ili benzinac i troši manje po kilometru. U praksi, električni polovnjak traži drugačiju proveru i drugačiju računicu.
+
+Prvo pitanje nije cena automobila, nego punjenje. ID.3 ima najviše smisla ako imaš sigurno mesto za punjenje kod kuće, u garaži ili na poslu. Ako se oslanjaš samo na javne punjače, svakodnevica može postati komplikovanija nego što izgleda u oglasu. Pre kupovine izračunaj koliko često voziš, gde puniš i koliko ti zaista treba dometa zimi, leti i na autoputu.
+
+Drugo, proveri bateriju i istoriju korišćenja. Kod električnog auta kilometraža nije jedini trag stanja. Važno je kako je auto punjen, da li je često korišćeno brzo punjenje, kakav je realan domet i da li servis može očitati stanje baterije. Ako prodavac ne zna da objasni osnovne stvari oko punjenja i dometa, pregled mora biti još ozbiljniji.
+
+Treće, ne zaboravi klasičan deo automobila. Električni pogon ne znači da su gume, trap, kočnice, klima, elektronika i karoserija nebitni. ID.3 je relativno težak za kompakt, pa gume i trap mogu pokazati kako je vožen. Kočnice se kod električnih auta često manje koriste zbog rekuperacije, ali ih zato treba proveriti zbog korozije, neravnomernog trošenja i stajanja.
+
+Enterijer i softver su poseban deo provere. Proveri ekran, komande, rad klime, grejanje, asistencije, aplikaciju ako se koristi i da li su ažuriranja urađena. Električni auto može mehanički delovati jednostavno, ali loš softverski ili elektronski problem može biti naporan za rešavanje, posebno ako nemaš servisnu podršku koja poznaje model.
+
+ID.3 je dobar izbor za vozača koji već ima rutinu pogodnu za električni auto: grad, prigradske relacije, kućno punjenje i realna očekivanja o dometu. Nije idealan ako često ideš na duga neplanirana putovanja, nemaš gde da puniš ili kupuješ samo zato što je električni auto postao jeftiniji kao polovnjak. Najbolji ID.3 nije najjeftiniji u oglasima, nego onaj sa jasnom istorijom, dobrom baterijom i načinom upotrebe koji se uklapa u tvoj život.
+TEXT,
+                'highlights' => [
+                    'ID.3 ima najviše smisla ako možeš redovno da puniš kod kuće ili na poslu.',
+                    'Kod električnog polovnjaka proveri stanje baterije, realan domet i istoriju punjenja.',
+                    'Ne preskači gume, trap, kočnice, softver i elektroniku samo zato što auto nema klasičan motor.',
+                ],
+                'tags' => ['Volkswagen ID.3', 'električni auto', 'baterija', 'punjenje'],
+                'meta_title' => 'Polovni Volkswagen ID.3: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volkswagen ID.3: punjenje kod kuće, stanje baterije, realan domet, softver, gume i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Prvi auto za novog vozača: kako izabrati bez skupih početničkih grešaka',
+                'slug' => 'prvi-auto-za-novog-vozaca-kako-izabrati-bez-skupih-pocetnickih-gresaka',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Prvi auto ne treba da impresionira komšiluk, nego da bude pregledan, razumljiv za održavanje i dovoljno jeftin da greška ne boli previše.',
+                'content' => <<<'TEXT'
+Kupovina prvog automobila je često emotivna odluka. Novi vozač želi auto koji lepo izgleda, ima dobru opremu i ne deluje kao kompromis. Problem je što prvi auto obično trpi najviše početničkih grešaka: loše parkiranje, naglo kočenje, zaboravljene sitnice, gradske relacije i učenje kroz svakodnevicu. Zato prvi kriterijum ne treba da bude prestiž, nego jednostavnost.
+
+Najbolji prvi auto je onaj koji je pregledan, relativno jeftin za održavanje i dovoljno čest na tržištu da delovi nisu problem. Mali gradski auto ili jednostavan kompakt često imaju više smisla od starog premium modela. Stariji BMW, Audi ili Mercedes može delovati privlačno u oglasu, ali osiguranje, gume, trap, menjač i neplanirani kvarovi brzo pokažu zašto je cena pala.
+
+Motor treba birati prema realnoj vožnji. Ako će auto uglavnom voziti grad, kratke relacije i male godišnje kilometraže, jednostavniji benzinac je često mirniji izbor od dizela. Dizel može trošiti manje, ali DPF, EGR i kratke relacije nisu prijatelji početničkog budžeta. Prvi auto treba da oprašta, ne da traži posebnu rutinu.
+
+Bezbednost je važna, ali ne samo kroz broj zvezdica iz testa. Proveri gume, kočnice, svetla, brisače, sedišta, pojaseve, vazdušne jastuke, stanje karoserije i da li auto vuče u stranu. Auto koji je bio loše popravljan posle sudara nije dobra škola, čak i ako je lep na fotografijama. Za novog vozača stabilan i ispravan automobil vredi više od opreme.
+
+Troškovi posle kupovine moraju biti deo budžeta. Prvi servis, registracija, osiguranje, gume, akumulator i sitne popravke često dođu odmah. Ako sav novac ode na kupovinu, svaka lampica postaje stres. Bolje je kupiti skromniji auto i ostaviti rezervu nego uzeti skuplji primerak koji već prvog meseca traži ulaganja.
+
+Prvi auto ne mora biti dosadan, ali mora biti razuman. Biraj primerak sa jasnom istorijom, jednostavnom mehanikom i stanjem koje majstor može da potvrdi. Ako novi vozač nauči da kupuje po stanju, a ne po znaku na haubi, svaka sledeća kupovina biće bolja.
+TEXT,
+                'highlights' => [
+                    'Prvi auto treba da bude jednostavan, pregledan i jeftin za održavanje.',
+                    'Za gradsku vožnju i male kilometraže benzinac je često mirniji izbor od dizela.',
+                    'U budžet odmah uračunaj servis, registraciju, gume, osiguranje i početna ulaganja.',
+                ],
+                'tags' => ['prvi auto', 'nov vozač', 'kupovina polovnjaka', 'budžet'],
+                'meta_title' => 'Prvi auto za novog vozača: kako pametno izabrati',
+                'meta_description' => 'Kako izabrati prvi polovni auto za novog vozača: budžet, benzinac ili dizel, bezbednost, održavanje i početničke greške.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa plinom: kada se isplati, a kada je rizik veći od uštede',
+                'slug' => 'auto-sa-plinom-kada-se-isplati-a-kada-je-rizik-veci-od-ustede',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Plin može smanjiti trošak vožnje, ali samo ako je sistem ugrađen kvalitetno, održavan redovno i odgovara motoru koji kupuješ.',
+                'content' => <<<'TEXT'
+Auto sa plinom često deluje kao prečica do jeftinije vožnje. Ako prelaziš mnogo kilometara, razlika u ceni goriva može biti značajna, posebno kod benzinskih motora koji dobro podnose LPG. Ali polovan auto sa plinom nije automatski dobra kupovina. Ušteda postoji samo ako je sistem ugrađen kvalitetno, održavan redovno i ako motor nije već platio cenu loše instalacije.
+
+Prvo proveri dokumentaciju plinskog uređaja. Ugradnja mora biti upisana i tehnički ispravna, boca mora imati važeći atest, a servisni računi treba da pokažu da su filteri i podešavanja rađeni na vreme. Ako prodavac kaže da "sve radi" ali nema papire, rizik prelazi na kupca. Kod plina je papirologija deo tehničkog stanja, ne formalnost.
+
+Drugo, proveri kako motor radi na oba goriva. Auto mora mirno paliti, lepo raditi na benzinu i plinu, bez trzanja, gašenja, lampica i čudnog mirisa. Ako motor loše radi na benzinu, plin neće rešiti problem. Naprotiv, može ga sakriti dok ne postane skuplji. Probna vožnja treba da uključi hladan start, prebacivanje goriva i vožnju pod opterećenjem.
+
+Treće, nije svaki motor jednako dobar za plin. Neki motori odlično podnose LPG, dok drugi traže dodatnu pažnju, češću kontrolu ventila ili jednostavno nisu idealan izbor. Pre kupovine proveri iskustva za konkretan motor, ne samo za model automobila. Isti model može imati više različitih motora i potpuno različitu plinsku računicu.
+
+Trošak nije samo gorivo. Plinski sistem traži servis, filtere, eventualne dizne, isparivač, podešavanje i periodične kontrole. Tu su i ograničenja oko rezervnog točka, zapremine gepeka, parkiranja u nekim garažama i dodatnog tehničkog dela pri registraciji. Ako voziš malo kilometara, ušteda može biti manja nego što očekuješ.
+
+Auto sa plinom ima smisla za vozača koji prelazi dovoljno kilometara, kupuje poznat motor i dobija uredan sistem sa papirima. Nema smisla ako kupuješ najjeftiniji primerak bez istorije, sa lampicom motora i pričom da je "samo sitno podešavanje". Dobar LPG sistem štedi novac. Loš LPG sistem samo pomera kvar u budućnost.
+TEXT,
+                'highlights' => [
+                    'Plin ima smisla samo uz urednu dokumentaciju, atest i servisnu istoriju sistema.',
+                    'Motor mora pravilno raditi i na benzinu i na plinu, bez trzanja i lampica.',
+                    'Pre kupovine proveri da li konkretan motor dobro podnosi LPG, ne samo model automobila.',
+                ],
+                'tags' => ['plin', 'LPG', 'troškovi goriva', 'održavanje'],
+                'meta_title' => 'Auto sa plinom: kada se LPG isplati kao polovnjak',
+                'meta_description' => 'Vodič za kupovinu polovnog auta sa plinom: atest, LPG servis, rad motora, potrošnja, skriveni troškovi i rizici.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#fb923c', '#f8fafc'],
+            ],
+            [
+                'title' => 'Šta proveriti kod karoserije: zazori, lak i tragovi loše popravke',
+                'slug' => 'sta-proveriti-kod-karoserije-zazori-lak-i-tragovi-lose-popravke',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Karoserija često otkriva istoriju koju oglas prećuti. Zazori, nijansa laka i tragovi popravke mogu promeniti celu cenu automobila.',
+                'content' => <<<'TEXT'
+Karoserija polovnog automobila nije samo pitanje estetike. Ogrebotina na braniku može biti sitnica, ali loše popravljena havarija može značiti problem sa bezbednošću, geometrijom, prodajnom vrednošću i kasnijim kvarovima. Zato karoseriju treba gledati hladno, na dnevnom svetlu i bez žurbe.
+
+Prvo proveri zazore između panela. Vrata, hauba, krila, branik i gepek treba da stoje ravnomerno. Ako je jedna strana šira, druga uža, ili panel deluje kao da "beži", moguće je da je auto popravljan. To ne znači automatski da treba odustati, ali znači da prodavac mora imati objašnjenje i da pregled treba nastaviti detaljnije.
+
+Drugo, gledaj nijansu laka iz više uglova. Razlika u boji između vrata i krila, narandžina kora, prašina u laku, tragovi poliranja ili previše sjajan jedan panel često ukazuju na farbanje. Farban panel nije problem ako znaš zašto je farban. Problem je kada se auto prodaje kao potpuno originalan, a karoserija priča drugačije.
+
+Treće, proveri unutrašnje ivice. Otvori vrata, pogledaj pragove, šrafove, nosače, unutrašnju stranu haube i gepeka. Tragovi skidanja šrafova, svež silikon, neravnomerni varovi ili nedostajuće nalepnice mogu pokazati da je rađena ozbiljnija popravka. Posebno pazi na prednji koš, nosače farova i delove oko hladnjaka.
+
+Merenje debljine laka pomaže, ali nije dovoljno samo po sebi. Uređaj može pokazati farbanje, git ili originalan lak, ali broj treba tumačiti uz pregled celog auta. Ako jedan panel ima mnogo veću vrednost, pitaj za razlog. Ako više panela ima sumnjive vrednosti, obavezno uključi majstora ili limara pre kapare.
+
+Dobar polovan auto može imati farban branik, popravljenu ogrebotinu ili zamenjen far. To nije drama ako je cena realna i popravka kvalitetna. Ono što treba izbegavati jeste auto sa nejasnom istorijom, lošim zazorima, tragovima ozbiljnog udara i prodavcem koji umanjuje svaku primedbu. Karoserija ne govori sve, ali često prva pokaže da li priča iz oglasa drži vodu.
+TEXT,
+                'highlights' => [
+                    'Neravni zazori i različita nijansa laka često otkrivaju prethodne popravke.',
+                    'Pregledaj šrafove, pragove, nosače, unutrašnje ivice i tragove silikona ili varenja.',
+                    'Farban panel nije uvek problem, ali mora biti objašnjen i uračunat u cenu.',
+                ],
+                'tags' => ['karoserija', 'lak', 'zazori', 'provera polovnjaka'],
+                'meta_title' => 'Šta proveriti kod karoserije polovnog automobila',
+                'meta_description' => 'Kako proveriti karoseriju polovnog auta: zazori, nijansa laka, merenje laka, šrafovi, nosači, tragovi havarije i pregovaranje.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Renault Austral ili Kia Sportage: noviji porodični SUV bez premium cene',
+                'slug' => 'renault-austral-ili-kia-sportage-noviji-porodicni-suv-bez-premium-cene',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Austral i Sportage su zanimljivi kupcima koji žele moderan porodični SUV, ali ne žele premium znak ni premium trošak.',
+                'content' => <<<'TEXT'
+Renault Austral i Kia Sportage često ulaze u razmatranje kod kupaca koji žele noviji porodični SUV, modernu kabinu, dosta opreme i pogon koji ima smisla za svakodnevicu. Oba modela nude više savremenog utiska nego stariji SUV polovnjaci, ali kupovina ne sme da se svede na ekran, dizajn i broj asistencija. Kod novijih polovnjaka je još važnije proveriti poreklo, garanciju i servisnu istoriju.
+
+Renault Austral je zanimljiv kupcima koji žele francuski pristup udobnosti, moderan enterijer i hibridnu tehnologiju. Kabina deluje digitalno i sveže, a vožnja može biti vrlo prijatna za grad i porodicu. Kod polovnog Australa proveri rad multimedije, asistencije, hibridni sistem ako ga ima, servisne zapise i da li je auto još u fabričkoj garanciji ili ima produženo pokriće.
+
+Kia Sportage je jača kada kupac želi praktičnost, poznat porodični paket i dobru garancijsku priču kod uredno održavanih primeraka. Sportage često nudi dosta opreme, dobar prostor i širok izbor pogona. Kod polovnog primerka proveri da li su servisi rađeni u skladu sa uslovima garancije, stanje menjača, trap, gume i elektroniku. Duga garancija znači mnogo samo ako dokumentacija prati pravila.
+
+Po prostoru su oba modela ozbiljna, ali probaj ih sa stvarima koje stvarno koristiš: dečje sedište, kolica, putne torbe, sedište vozača podešeno za tebe. Na papiru su razlike male, ali u svakodnevici ulazak, gepek, preglednost i raspored komandi mogu presuditi. Nemoj kupiti SUV samo zato što deluje veće na fotografijama.
+
+Kod motora i hibrida najvažnije je da pogon odgovara tvojoj vožnji. Ako voziš uglavnom grad i prigradske relacije, hibrid može imati smisla. Ako često ideš autoputem, proveri buku, potrošnju i ponašanje pri većim brzinama. Automatski menjači, sistemi pomoći i digitalna oprema moraju se testirati u probnoj vožnji, ne samo upaliti u mestu.
+
+Austral je bolji izbor ako ti se dopada udobniji, moderniji i malo drugačiji karakter, uz uslov da je istorija jasna. Sportage je mirniji izbor ako dobijaš urednu garancijsku dokumentaciju, praktičnost i proverljiv servisni trag. Kod oba modela, najbolja kupovina je primerak koji ima manje nepoznanica, ne onaj sa najdužim spiskom opreme.
+TEXT,
+                'highlights' => [
+                    'Austral nudi moderan enterijer i hibridni karakter, ali traži proveru softvera i asistencija.',
+                    'Sportage ima prednost kada su garancijska dokumentacija, praktičnost i servisni trag jasni.',
+                    'Kod novijih SUV polovnjaka obavezno proveri poreklo, garanciju, menjač, elektroniku i realnu upotrebu.',
+                ],
+                'tags' => ['Renault Austral', 'Kia Sportage', 'porodični SUV', 'hibrid'],
+                'meta_title' => 'Renault Austral ili Kia Sportage: koji SUV kupiti',
+                'meta_description' => 'Poređenje polovnih Renault Austral i Kia Sportage SUV modela: hibrid, garancija, prostor, oprema, elektronika i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#34d399', '#f8fafc'],
+            ],
         ];
     }
 
