@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.37] - 2026-04-21
+
+### Changed
+
+- Restyled Livewire pagination with AutoIQ colors, Serbian labels, and responsive controls for listing and blog pages.
+
 ## [0.1.36] - 2026-04-21
 
 ### Added
