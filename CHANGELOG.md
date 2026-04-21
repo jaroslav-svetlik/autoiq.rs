@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.38] - 2026-04-21
+
+### Changed
+
+- Switched pagination accents from cyan to the AutoIQ amber brand color.
+
 ## [0.1.37] - 2026-04-21
 
 ### Changed
