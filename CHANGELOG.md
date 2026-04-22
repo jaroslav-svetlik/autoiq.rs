@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.39] - 2026-04-22
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering cars under 5,000 EUR, Kia Ceed vs Hyundai i30, Toyota Auris Hybrid, financing choices, and post-purchase major service costs.
+
 ## [0.1.38] - 2026-04-21
 
 ### Changed

@@ -1003,6 +1003,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#34d399', '#f8fafc'],
             ],
+            [
+                'title' => 'Auto do 5.000 evra: kako izabrati bez skrivene investicije',
+                'slug' => 'auto-do-5000-evra-kako-izabrati-bez-skrivene-investicije',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Budžet od 5.000 evra može kupiti dobar svakodnevni auto, ali samo ako se odmah uračunaju servis, gume, registracija i realna ulaganja.',
+                'content' => <<<'TEXT'
+Kupovina polovnog auta do 5.000 evra traži drugačiji način razmišljanja od kupovine novijeg automobila. U ovom budžetu najvažnije nije pronaći najmlađi auto ili najjači motor, nego primerak koji ima najmanje nepoznanica. Svaki euro koji ode na atraktivan izgled, a ne na stanje, lako se vrati kao servisni račun.
+
+Prvo odvoji budžet za kupovinu od budžeta za prva ulaganja. Ako ukupno imaš 5.000 evra, nije pametno sve dati prodavcu. Registracija, prvi servis, ulje, filteri, gume, akumulator, kočnice ili sitna elektronika često dođu odmah. Mnogo je mirnije kupiti auto za 4.300 evra i imati rezervu nego dati 5.000 evra za primerak koji već prvog meseca traži novac.
+
+Drugo, u ovom rangu jednostavnost pobeđuje prestiž. Stariji premium model može izgledati bolje na fotografijama, ali gume, trap, menjač, turbina i elektronika obično ne znaju da je auto kupljen jeftino. Jednostavan benzinac, dobro održavan kompakt ili gradski auto često su bolji izbor od starog luksuznog automobila bez istorije.
+
+Treće, kilometraža ne sme biti jedini kriterijum. Auto sa više kilometara i urednim računima može biti bolja kupovina od automobila sa navodno malom kilometražom i praznom pričom. Gledaj stanje enterijera, hladan start, probnu vožnju, trap, gume, kočnice i dokumentaciju. Ako se sve slaže, kilometraža je samo deo slike.
+
+Najskuplja jeftina kupovina je auto koji deluje povoljno zato što skriva ulaganja. Zato svaki oglas do 5.000 evra treba gledati kroz pitanje: koliko me ovaj auto realno košta kada ga dovedem u normalno stanje? Tek tada cena iz oglasa postaje upotrebljiva informacija.
+TEXT,
+                'highlights' => [
+                    'Ne troši ceo budžet na cenu iz oglasa; ostavi novac za prvi servis, gume i registraciju.',
+                    'Jednostavan i uredan auto često je bolji od starog premium modela bez istorije.',
+                    'Realna cena je kupovna cena plus ulaganja koja dolaze odmah posle preuzimanja.',
+                ],
+                'tags' => ['auto do 5000 evra', 'budžet', 'kupovina polovnjaka', 'troškovi'],
+                'meta_title' => 'Auto do 5.000 evra: kako izabrati pametno',
+                'meta_description' => 'Vodič za kupovinu polovnog auta do 5.000 evra: budžet, prvi servis, gume, registracija, kilometraža i skrivena ulaganja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kia Ceed ili Hyundai i30: kompakt bez nemačke premije',
+                'slug' => 'kia-ceed-ili-hyundai-i30-kompakt-bez-nemacke-premije',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ceed i i30 često nude dobru opremu, razumnu cenu i korejsku pouzdanost, ali presuđuju motor, servisna istorija i realno stanje primerka.',
+                'content' => <<<'TEXT'
+Kia Ceed i Hyundai i30 su logičan izbor za kupce koji žele kompakt za svakodnevicu, ali ne žele da plate premiju za Golf, Audi ili BMW. Ova dva modela često dele sličnu tehničku logiku, nude dobru opremu i imaju reputaciju racionalnih polovnjaka. To ih čini zanimljivim, ali ne znači da treba kupovati bez provere.
+
+Kia Ceed često privlači kupce zbog garancijske priče, solidne opreme i dobrog odnosa cene i stanja. Ako je automobil još u garanciji ili ima urednu servisnu istoriju, to može biti velika prednost. Međutim, garancija vredi samo ako su servisi rađeni po pravilima. Preskočeni intervali, nejasni računi ili servis van propisanog režima mogu promeniti celu računicu.
+
+Hyundai i30 je vrlo sličan po nameni: praktičan kompakt, dovoljno udoban za porodicu i jednostavan za svakodnevnu upotrebu. Kod polovnog i30 proveri stanje motora, menjača, kvačila, trapa i elektronike. Ako gledaš dizel, važe ista pravila kao kod svakog modernog dizela: DPF, EGR i način prethodne vožnje moraju biti deo pregleda.
+
+Razlika između Ceed-a i i30 često je manja od razlike između dva konkretna primerka. Jedan može imati bolju opremu, drugi jasniju istoriju. Jedan može izgledati bolje na fotografijama, drugi može biti tehnički uredniji. Zato nemoj birati samo model, nego auto koji ima manje nepoznanica.
+
+Ceed i i30 su dobri kada želiš razuman kompakt bez preplaćivanja znaka. Najbolji izbor je primerak sa jasnim servisima, normalnom kilometražom za godište i stanjem koje se vidi na probnoj vožnji. Ako je cena sumnjivo niska, razlog moraš pronaći pre kapare.
+TEXT,
+                'highlights' => [
+                    'Ceed i i30 imaju smisla ako želiš racionalan kompakt bez premium cene.',
+                    'Garancijska priča vredi samo ako servisna istorija prati propisana pravila.',
+                    'Presudi konkretan primerak, ne mala razlika između dva slična modela.',
+                ],
+                'tags' => ['Kia Ceed', 'Hyundai i30', 'kompakt', 'poređenje'],
+                'meta_title' => 'Kia Ceed ili Hyundai i30: koji polovni kompakt kupiti',
+                'meta_description' => 'Poređenje polovnih Kia Ceed i Hyundai i30 modela: oprema, garancija, motori, dizel rizici, servisna istorija i realna vrednost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Toyota Auris Hybrid: miran hibrid za grad ili preskupa reputacija',
+                'slug' => 'polovni-toyota-auris-hybrid-miran-hibrid-za-grad-ili-preskupa-reputacija',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Auris Hybrid može biti odličan gradski polovnjak, ali dobra reputacija ne sme da zameni proveru baterije, kočnica, servisa i realne cene.',
+                'content' => <<<'TEXT'
+Toyota Auris Hybrid je jedan od polovnjaka koje kupci često gledaju kada žele nisku potrošnju u gradu, automatski osećaj vožnje i manje dizel rizika. Njegova reputacija nije slučajna, ali upravo zbog te reputacije tržište ponekad traži cenu koju konkretan primerak ne zaslužuje.
+
+Najveća prednost Aurisa Hybrid je gradska svakodnevica. Hibridni sistem dobro podnosi stani-kreni vožnju, nema klasičan manuelni menjač i često troši manje od benzinca slične veličine. Za kupca koji većinu vremena vozi grad i prigradske relacije, to može biti vrlo mirna kupovina.
+
+Ipak, hibrid ne znači da pregled može biti površan. Proveri stanje baterije, rad sistema, servisne zapise, kočnice, trap, gume i elektroniku. Hibridi često manje troše kočnice zbog regeneracije, ali to ne znači da diskovi i čeljusti ne mogu biti zapušteni. Automobil koji je dugo stajao ili radio kratke intenzivne relacije takođe može imati svoje tragove.
+
+Cena je ključna. Auris Hybrid često drži vrednost bolje od prosečnog kompakta, ali kupac ne treba da plati reputaciju umesto stanja. Ako je primerak skuplji od konkurencije, mora imati jasnu istoriju, uredan enterijer, dobru bateriju i realnu kilometražu. Ako toga nema, bolje je porediti ga sa Corollom Hybrid, Yarisom Hybrid ili dobrim benzincem.
+
+Auris Hybrid je odličan za vozača koji želi miran gradski auto i razume hibridnu računicu. Nije idealan ako očekuje najnižu kupovnu cenu ili često vozi autoput velikom brzinom. Najbolji Auris je onaj kod kog se reputacija, dokumentacija i stanje poklope.
+TEXT,
+                'highlights' => [
+                    'Auris Hybrid je najjači u gradu i prigradskoj vožnji.',
+                    'Pre kupovine proveri bateriju, kočnice, servisne zapise i realnu namenu prethodnog korišćenja.',
+                    'Toyota reputacija ne opravdava svaku cenu ako konkretan primerak nema jasnu istoriju.',
+                ],
+                'tags' => ['Toyota Auris Hybrid', 'hibrid', 'gradski auto', 'Toyota'],
+                'meta_title' => 'Polovni Toyota Auris Hybrid: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Toyota Auris Hybrid modela: baterija, gradska potrošnja, kočnice, servisna istorija, cena i realna isplativost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kredit, keš ili zamena staro za novo: kako računati stvarnu cenu auta',
+                'slug' => 'kredit-kes-ili-zamena-staro-za-novo-kako-racunati-stvarnu-cenu-auta',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Način plaćanja može promeniti realnu cenu automobila. Nije isto platiti keš, finansirati kreditom ili dati stari auto u zamenu.',
+                'content' => <<<'TEXT'
+Kupci često gledaju samo cenu iz oglasa, ali stvarna cena automobila zavisi i od načina plaćanja. Keš, kredit i zamena staro za novo ne nose isti trošak, isti rizik ni isti prostor za pregovor. Zato pre poziva prodavcu treba znati koliko auto stvarno košta u tvom scenariju.
+
+Keš daje najviše kontrole. Kupac zna koliko ima, može brže da reaguje i često ima jači pregovarački položaj. Mana je što sav novac odlazi odmah, pa je opasno potrošiti ceo budžet na kupovinu. I kod keš kupovine mora ostati rezerva za servis, registraciju, gume i neplanirane popravke.
+
+Kredit može pomoći da kupiš bolji ili noviji auto, ali mesečna rata nije cela priča. Treba uračunati kamatu, obradu, osiguranje, obavezne uslove finansiranja i koliko će auto vredeti kada kredit još traje. Najgora varijanta je kupovina automobila koji brzo gubi vrednost dok rata ostaje ista.
+
+Zamena staro za novo deluje praktično jer rešava prodaju starog automobila, ali uvek proveri koliko stvarno dobijaš za svoje vozilo. Diler često uračuna komfor, rizik i dalju prodaju u ponuđenu cenu. To nije nužno loše, ali moraš znati razliku između tržišne vrednosti starog auta i iznosa koji dobijaš u zameni.
+
+Najbolja odluka nije uvek najniža cena iz oglasa. Najbolja odluka je ukupna računica: koliko plaćaš sada, koliko plaćaš kroz vreme, koliko ulažeš posle kupovine i koliko lako možeš izaći iz auta ako se plan promeni. Auto se kupuje jednom, ali trošak živi svakog meseca.
+TEXT,
+                'highlights' => [
+                    'Keš daje pregovaračku snagu, ali ne sme pojesti rezervu za prva ulaganja.',
+                    'Kod kredita računaj kamatu, uslove finansiranja i vrednost auta kroz vreme.',
+                    'Zamena staro za novo je praktična samo ako razumeš stvarnu vrednost svog starog auta.',
+                ],
+                'tags' => ['finansiranje', 'kredit za auto', 'keš', 'staro za novo'],
+                'meta_title' => 'Kredit, keš ili zamena: stvarna cena polovnog auta',
+                'meta_description' => 'Kako računati stvarnu cenu polovnog automobila kroz keš kupovinu, kredit, zamenu staro za novo, kamatu, ulaganja i pregovaranje.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Veliki servis posle kupovine: šta mora u budžet pre prvog kilometra',
+                'slug' => 'veliki-servis-posle-kupovine-sta-mora-u-budzet-pre-prvog-kilometra',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Polovan auto često nije završen trošak danom kupovine. Veliki servis, tečnosti, kočnice i gume mogu odmah promeniti realnu cenu.',
+                'content' => <<<'TEXT'
+Kupovina polovnog automobila ne završava se potpisom ugovora. Za mnoge kupce pravi trošak počinje odmah posle preuzimanja, kada se postavi pitanje šta mora da se uradi pre mirne vožnje. Veliki servis je najčešća stavka, ali nije jedina.
+
+Prvo proveri da li postoji dokaz kada je veliki servis rađen. Ako nema računa, nalepnice ili jasnog zapisa, tretiraj ga kao da nije urađen. Priča prodavca može biti tačna, ali kupac ne treba da rizikuje motor zbog rečenice bez dokaza. Kaiš, španeri, pumpa vode ili lanac kod određenih motora nisu stavke koje se odlažu ako istorija nije jasna.
+
+Drugo, uradi osnovne tečnosti i filtere ako ne znaš kada su menjani. Ulje u motoru, filteri, rashladna tečnost, kočiona tečnost i ulje u menjaču kod automatika mogu biti važniji od kozmetike. Auto koji je spolja lep, a servisno nejasan, treba budžet za dovođenje u poznato stanje.
+
+Treće, proveri gume, kočnice, akumulator i trap. To su stvari koje direktno utiču na bezbednost i često se vide tek kada auto uđe u svakodnevnu upotrebu. Ako su gume stare, diskovi potrošeni ili akumulator slab, to nije sitnica nego deo realne cene kupovine.
+
+Najbolje je pre kupovine napraviti listu ulaganja i pitati majstora za okvirne cene. Tada znaš da li je oglas stvarno povoljan ili samo prebacuje trošak na novog vlasnika. Polovan auto koji je malo skuplji, ali servisno jasan, često je jeftiniji od jeftinog auta koji odmah traži veliki servis.
+TEXT,
+                'highlights' => [
+                    'Ako nema dokaza o velikom servisu, računaj ga kao obavezno ulaganje.',
+                    'Tečnosti, filteri, kočnice, gume i akumulator ulaze u realnu cenu kupovine.',
+                    'Povoljan oglas nije povoljan ako samo prebacuje početna ulaganja na kupca.',
+                ],
+                'tags' => ['veliki servis', 'održavanje', 'troškovi', 'kupovina polovnjaka'],
+                'meta_title' => 'Veliki servis posle kupovine polovnog auta',
+                'meta_description' => 'Šta uračunati posle kupovine polovnog automobila: veliki servis, ulje, filteri, kočnice, gume, akumulator i realna cena oglasa.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#fb7185', '#f8fafc'],
+            ],
         ];
     }
 

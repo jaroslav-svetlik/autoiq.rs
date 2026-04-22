@@ -21,11 +21,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(31, $posts);
+        $this->assertCount(36, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(14, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(15, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
@@ -56,6 +56,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'auto-sa-plinom-kada-se-isplati-a-kada-je-rizik-veci-od-ustede'));
         $this->assertTrue($posts->contains('slug', 'sta-proveriti-kod-karoserije-zazori-lak-i-tragovi-lose-popravke'));
         $this->assertTrue($posts->contains('slug', 'renault-austral-ili-kia-sportage-noviji-porodicni-suv-bez-premium-cene'));
+        $this->assertTrue($posts->contains('slug', 'auto-do-5000-evra-kako-izabrati-bez-skrivene-investicije'));
+        $this->assertTrue($posts->contains('slug', 'kia-ceed-ili-hyundai-i30-kompakt-bez-nemacke-premije'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-auris-hybrid-miran-hibrid-za-grad-ili-preskupa-reputacija'));
+        $this->assertTrue($posts->contains('slug', 'kredit-kes-ili-zamena-staro-za-novo-kako-racunati-stvarnu-cenu-auta'));
+        $this->assertTrue($posts->contains('slug', 'veliki-servis-posle-kupovine-sta-mora-u-budzet-pre-prvog-kilometra'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
