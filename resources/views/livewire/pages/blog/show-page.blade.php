@@ -66,6 +66,28 @@
                         @endif
                         <p class="text-base leading-8 text-slate-200 sm:text-lg">{{ $paragraph }}</p>
                     </div>
+
+                    @if($index === 1 && $contextualLinks->isNotEmpty())
+                        <nav aria-label="Povezani vodiči u tekstu" class="rounded-[1.75rem] border border-amber-300/20 bg-amber-300/[0.07] p-5 sm:p-6">
+                            <div class="data-kicker text-amber-200">Povezani vodiči</div>
+                            <h2 class="mt-2 font-display text-2xl font-bold text-white">Pročitaj pre sledećeg oglasa</h2>
+                            <div class="mt-5 grid gap-3">
+                                @foreach($contextualLinks as $link)
+                                    <a href="{{ $link['url'] }}" wire:navigate class="group rounded-2xl border border-white/10 bg-slate-950/40 p-4 transition hover:border-amber-300/35 hover:bg-slate-950/70">
+                                        <div class="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-amber-200">
+                                            @if($link['category'])
+                                                <span>{{ $link['category'] }}</span>
+                                            @endif
+                                            <span>·</span>
+                                            <span>Interni vodič</span>
+                                        </div>
+                                        <div class="mt-2 font-display text-xl font-bold leading-tight text-white transition group-hover:text-amber-100">{{ $link['title'] }}</div>
+                                        <p class="mt-2 line-clamp-2 text-sm leading-6 text-slate-300">{{ $link['description'] }}</p>
+                                    </a>
+                                @endforeach
+                            </div>
+                        </nav>
+                    @endif
                 @endforeach
             </div>
         </article>
@@ -83,16 +105,40 @@
             @endif
 
             <div class="panel p-6">
-                <div class="data-kicker">Sledeći korak</div>
-                <h2 class="mt-2 font-display text-3xl font-bold text-white">Pređi iz čitanja u analizu</h2>
+                <div class="data-kicker">Pretraga oglasa</div>
+                <h2 class="mt-2 font-display text-3xl font-bold text-white">Pređi iz čitanja u proveru tržišta</h2>
                 <p class="mt-3 text-sm leading-7 text-slate-300">
-                    Kada pročitaš vodič, odmah proveri aktuelne oglase i uporedi ih sa realnim tržišnim signalima na AutoIQ platformi.
+                    Ovi linkovi vode na povezane AutoIQ filtere kako bi tekst odmah mogao da se proveri kroz aktuelne oglase.
                 </p>
-                <div class="mt-5 flex flex-col gap-3">
-                    <a href="{{ route('listings.index') }}" wire:navigate class="btn-primary text-center">Pregledaj oglase</a>
-                    <a href="{{ route('home') }}" wire:navigate class="btn-secondary text-center">Nazad na početnu</a>
-                </div>
+                @if($marketLinks->isNotEmpty())
+                    <div class="mt-5 space-y-3">
+                        @foreach($marketLinks as $index => $link)
+                            <a href="{{ $link['url'] }}" wire:navigate class="{{ $index === 0 ? 'btn-primary' : 'btn-secondary' }} block text-center">
+                                {{ $link['label'] }}
+                            </a>
+                            <p class="-mt-1 text-xs leading-6 text-slate-400">{{ $link['description'] }}</p>
+                        @endforeach
+                    </div>
+                @else
+                    <div class="mt-5 flex flex-col gap-3">
+                        <a href="{{ route('listings.index') }}" wire:navigate class="btn-primary text-center">Pregledaj oglase</a>
+                        <a href="{{ route('home') }}" wire:navigate class="btn-secondary text-center">Nazad na početnu</a>
+                    </div>
+                @endif
             </div>
+
+            @if($blogPost->category)
+                <div class="panel p-6">
+                    <div class="data-kicker">Tema</div>
+                    <h2 class="mt-2 font-display text-2xl font-bold text-white">{{ $blogPost->category }}</h2>
+                    <p class="mt-3 text-sm leading-7 text-slate-300">
+                        Svi tekstovi iz ove teme čuvaju kontekst na jednom mestu i pomažu da porediš slične odluke pre kupovine ili prodaje.
+                    </p>
+                    <a href="{{ route('blog.index', ['tema' => $blogPost->category]) }}" wire:navigate class="btn-secondary mt-5 block text-center">
+                        Otvori celu temu
+                    </a>
+                </div>
+            @endif
         </aside>
     </section>
 

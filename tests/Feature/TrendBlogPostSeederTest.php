@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Models\BlogPost;
+use App\Services\BlogSeoLinkService;
 use Database\Seeders\TrendBlogPostSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Storage;
@@ -95,5 +96,26 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertSame($generatedPath, $post->cover_image_path);
         $this->assertSame('Generated cover', $post->cover_image_alt);
         Storage::disk('public')->assertExists($generatedPath);
+    }
+
+    public function test_seeded_trend_blog_posts_have_internal_seo_link_targets(): void
+    {
+        Storage::fake('public');
+
+        $this->seed(TrendBlogPostSeeder::class);
+
+        $seoLinks = app(BlogSeoLinkService::class);
+
+        BlogPost::query()->get()->each(function (BlogPost $post) use ($seoLinks) {
+            $this->assertTrue(
+                $seoLinks->contextualBlogLinks($post)->isNotEmpty(),
+                'Expected contextual blog links for '.$post->slug,
+            );
+
+            $this->assertTrue(
+                $seoLinks->marketLinks($post)->isNotEmpty(),
+                'Expected market CTA links for '.$post->slug,
+            );
+        });
     }
 }

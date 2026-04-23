@@ -4,11 +4,19 @@ namespace App\Livewire\Pages\Blog;
 
 use App\Livewire\Pages\PageComponent;
 use App\Models\BlogPost;
+use App\Services\BlogSeoLinkService;
 use Illuminate\Contracts\View\View;
 
 class ShowPage extends PageComponent
 {
     public BlogPost $blogPost;
+
+    protected BlogSeoLinkService $seoLinks;
+
+    public function boot(BlogSeoLinkService $seoLinks): void
+    {
+        $this->seoLinks = $seoLinks;
+    }
 
     public function mount(BlogPost $blogPost): void
     {
@@ -37,10 +45,12 @@ class ShowPage extends PageComponent
     {
         $articleUrl = route('blog.show', $this->blogPost);
         $blogUrl = route('blog.index');
+        $relatedPosts = $this->seoLinks->relatedPosts($this->blogPost, 3);
 
         return [[
             '@context' => 'https://schema.org',
             '@type' => 'BlogPosting',
+            'url' => $articleUrl,
             'headline' => $this->blogPost->title,
             'description' => $this->blogPost->excerptText(),
             'image' => [$this->blogPost->coverImageUrl(absolute: true)],
@@ -53,7 +63,32 @@ class ShowPage extends PageComponent
             ],
             'articleSection' => $this->blogPost->category,
             'keywords' => implode(', ', $this->blogPost->tags ?? []),
-            'mainEntityOfPage' => $articleUrl,
+            'wordCount' => str_word_count(strip_tags((string) $this->blogPost->content)),
+            'about' => collect([$this->blogPost->category, ...($this->blogPost->tags ?? [])])
+                ->filter()
+                ->unique()
+                ->map(fn (string $topic) => [
+                    '@type' => 'Thing',
+                    'name' => $topic,
+                ])
+                ->values()
+                ->all(),
+            'mentions' => $relatedPosts
+                ->map(fn (BlogPost $post) => [
+                    '@type' => 'CreativeWork',
+                    'name' => $post->title,
+                    'url' => route('blog.show', $post),
+                ])
+                ->all(),
+            'mainEntityOfPage' => [
+                '@type' => 'WebPage',
+                '@id' => $articleUrl,
+            ],
+            'isPartOf' => [
+                '@type' => 'Blog',
+                'name' => 'AutoIQ Blog',
+                'url' => $blogUrl,
+            ],
             'publisher' => [
                 '@type' => 'Organization',
                 'name' => 'AutoIQ',
@@ -87,25 +122,10 @@ class ShowPage extends PageComponent
 
     public function render(): View
     {
-        $relatedPosts = BlogPost::query()
-            ->published()
-            ->whereKeyNot($this->blogPost->id)
-            ->where('category', $this->blogPost->category)
-            ->latest('published_at')
-            ->limit(3)
-            ->get();
-
-        if ($relatedPosts->isEmpty()) {
-            $relatedPosts = BlogPost::query()
-                ->published()
-                ->whereKeyNot($this->blogPost->id)
-                ->latest('published_at')
-                ->limit(3)
-                ->get();
-        }
-
         return $this->page(view('livewire.pages.blog.show-page', [
-            'relatedPosts' => $relatedPosts,
+            'contextualLinks' => $this->seoLinks->contextualBlogLinks($this->blogPost, 3),
+            'marketLinks' => $this->seoLinks->marketLinks($this->blogPost, 3),
+            'relatedPosts' => $this->seoLinks->relatedPosts($this->blogPost, 3),
         ]));
     }
 }

@@ -89,6 +89,40 @@ class BlogPageTest extends TestCase
             ->assertSee('object-contain', false);
     }
 
+    public function test_blog_show_page_renders_contextual_links_market_ctas_and_article_topics(): void
+    {
+        $post = BlogPost::factory()->create([
+            'title' => 'Golf 7 dizel automatik: kako proveriti realnu cenu',
+            'category' => 'Poređenje modela',
+            'content' => "Prvi pasus o Golfu.\n\nDrugi pasus o ceni.\n\nTreći pasus o menjaču.",
+            'tags' => ['Golf 7', 'Volkswagen', 'dizel', 'automatik'],
+            'published_at' => now()->subDays(2),
+        ]);
+
+        $related = BlogPost::factory()->create([
+            'title' => 'Audi A3 ili Golf 7: šta je pametnija kupovina',
+            'category' => 'Poređenje modela',
+            'tags' => ['Golf 7', 'Audi A3'],
+            'published_at' => now()->subDay(),
+        ]);
+
+        $response = $this->get(route('blog.show', $post));
+
+        $response
+            ->assertOk()
+            ->assertSee('Povezani vodiči')
+            ->assertSee($related->title)
+            ->assertSee(route('blog.show', $related), false)
+            ->assertSee('Pretraga oglasa')
+            ->assertSee('Pogledaj Volkswagen Golf 7 oglase')
+            ->assertSee('brand=Volkswagen', false)
+            ->assertSee('model=Golf%207', false)
+            ->assertSee('Otvori celu temu')
+            ->assertSee('"about"', false)
+            ->assertSee('"mentions"', false)
+            ->assertSee('"isPartOf"', false);
+    }
+
     public function test_home_page_and_sitemap_include_blog_content(): void
     {
         $post = BlogPost::factory()->create([

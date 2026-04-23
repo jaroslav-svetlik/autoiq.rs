@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.41] - 2026-04-23
+
+### Added
+
+- Added SEO-focused internal linking for blog articles, including contextual related guides, market search CTAs, topic links, and richer article structured data.
+
 ## [0.1.40] - 2026-04-23
 
 ### Added
