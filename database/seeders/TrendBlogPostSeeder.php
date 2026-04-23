@@ -1148,6 +1148,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f2937', '#fb7185', '#f8fafc'],
             ],
+            [
+                'title' => 'Škoda Fabia ili Opel Corsa: mali auto za grad bez velikog rizika',
+                'slug' => 'skoda-fabia-ili-opel-corsa-mali-auto-za-grad-bez-velikog-rizika',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Fabia i Corsa su česti izbori za prvi auto, gradsku vožnju i niže troškove. Razlika je manje u marki, a više u motoru, stanju i servisnoj istoriji.',
+                'content' => <<<'TEXT'
+Škoda Fabia i Opel Corsa često ulaze u isti uži izbor kada kupac traži mali auto za grad, prigradske relacije ili prvi automobil za novog vozača. Oba modela imaju smisla jer su jednostavna za parkiranje, troše razumno i ne traže budžet velikog porodičnog auta. Ipak, na tržištu polovnjaka mali auto ne znači automatski mali rizik.
+
+Fabia je često racionalniji izbor za kupce koji žele praktičnost. Kabina je obično upotrebljiva, prtljažnik je dobar za klasu, a delovi su dostupni. Kod benzinskih motora proveri hladan start, potrošnju ulja, servisne intervale i stanje kvačila. Ako je auto radio kratke gradske vožnje, kočnice, trap i akumulator mogu biti veći trošak nego što se vidi u oglasu.
+
+Corsa je dobra alternativa kada želiš kompaktniji osećaj i često povoljniju cenu. Važno je proveriti konkretan motor, menjač i elektroniku, jer razlike između primeraka mogu biti velike. Corsa koja izgleda lepo spolja, ali ima nejasnu istoriju ili dugo nije ozbiljno servisirana, brzo može izgubiti prednost niže kupovne cene.
+
+Kod oba modela najvažnije je da ne kupuješ samo kilometražu. Gradski automobili često imaju manje kilometara, ali više hladnih startova, ivičnjaka, kratkih relacija i sitnih oštećenja. Probna vožnja treba da uključi neravnine, kočenje, skretanje punim uglom i proveru svih električnih potrošača.
+
+Fabia je bolja ako ti treba malo više praktičnosti i lakše poređenje velikog broja oglasa. Corsa ima smisla ako dobijaš bolju cenu, jasniju istoriju ili očuvaniji primerak. Najbolji izbor nije model sa boljom reputacijom, nego auto kod kog se cena, stanje i prva ulaganja uklapaju u realan budžet.
+TEXT,
+                'highlights' => [
+                    'Fabia obično nudi više praktičnosti, ali stanje konkretnog primerka presuđuje.',
+                    'Corsa može biti povoljnija, ali samo ako su motor, menjač i servisna istorija jasni.',
+                    'Kod gradskih automobila mala kilometraža ne znači manje habanja.',
+                ],
+                'tags' => ['Škoda Fabia', 'Opel Corsa', 'gradski auto', 'prvi auto'],
+                'meta_title' => 'Škoda Fabia ili Opel Corsa: koji mali polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Škoda Fabia i Opel Corsa modela: gradska vožnja, prvi auto, motori, kilometraža, održavanje i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Audi Q3: kompaktni premium SUV koji traži hladnu glavu',
+                'slug' => 'polovni-audi-q3-kompaktni-premium-suv-koji-trazi-hladnu-glavu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Audi Q3 privlači kupce premium znakom i SUV formom, ali isplativost zavisi od porekla, menjača, pogona, opreme i realne cene održavanja.',
+                'content' => <<<'TEXT'
+Audi Q3 je jedan od onih polovnjaka koji lako privuče kupca pre nego što računica postane potpuno jasna. Ima premium znak, višu poziciju sedenja, kompaktnu veličinu i dovoljno praktičnosti za svakodnevicu. Upravo zato se često prodaje po ceni koja od kupca traži hladnu glavu, a ne samo dobar prvi utisak.
+
+Prvo proveri poreklo i servisnu istoriju. Q3 koji je uredno održavan može biti vrlo prijatan auto, ali primerak sa nejasnim uvozom, preskočenim servisima ili velikom kilometražom bez dokaza može biti skup za vraćanje u dobro stanje. Posebno proveri račune, intervale, kilometražu kroz vreme i da li se stanje enterijera slaže sa pričom prodavca.
+
+Drugo, menjač i pogon moraju biti deo pregleda. Automatski menjači traže servisnu istoriju, miran rad i probnu vožnju u različitim režimima. Ako auto ima quattro pogon, proveri servis pogonskog sklopa i ponašanje pri skretanju. Dodatna oprema je dobra samo kada radi; svaki kvar na elektronici ili asistencijama kod premium auta lako postane ozbiljan trošak.
+
+Treće, uporedi cenu sa realnim alternativama. Za isti novac ponekad možeš dobiti mlađi porodični SUV bez premium znaka, bolju garancijsku priču ili znatno manju kilometražu. Q3 ima smisla kada želiš premium osećaj u kompaktnom pakovanju, ali nema smisla platiti zapušten primerak samo zato što nosi poznat znak.
+
+Najbolji polovni Q3 je onaj koji nema mnogo nepoznanica. Ako je istorija jasna, menjač uredan, oprema proverena i cena u skladu sa tržištem, može biti dobra kupovina. Ako prodavac izbegava dokumentaciju ili cena deluje predobra, bolje je nastaviti poređenje nego kasnije finansirati tuđe odlaganje servisa.
+TEXT,
+                'highlights' => [
+                    'Q3 ima smisla samo kada premium cena prati jasnu istoriju i dobro stanje.',
+                    'Automatski menjač, quattro pogon i elektronika moraju se proveriti u probnoj vožnji.',
+                    'Uporedi ga sa mlađim ne-premium SUV modelima pre nego što platiš znak.',
+                ],
+                'tags' => ['Audi Q3', 'premium SUV', 'quattro', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Audi Q3: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Audi Q3 modela: poreklo, servisna istorija, automatski menjač, quattro pogon, oprema i cena održavanja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Automobil sa malom kilometražom: kada je prednost, a kada crvena zastavica',
+                'slug' => 'automobil-sa-malom-kilometrazom-kada-je-prednost-a-kada-crvena-zastavica',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mala kilometraža može biti velika prednost, ali samo kada je potvrđena dokumentacijom, stanjem i logikom korišćenja. Bez toga lako postaje zamka.',
+                'content' => <<<'TEXT'
+Mala kilometraža je jedan od najjačih mamaca u oglasima za polovne automobile. Kupci prirodno žele auto koji je manje vožen, manje haban i potencijalno bliži fabričkom stanju. Problem je što broj kilometara sam po sebi ne dokazuje skoro ništa ako ga ne prate dokumentacija i realno stanje.
+
+Prava prednost postoji kada se kilometraža može pratiti kroz servise, račune, tehničke preglede, uvozne dokumente i stanje automobila. Ako je auto star deset godina i ima malo kilometara, mora postojati objašnjenje: drugi auto u porodici, sezonsko korišćenje, lokalna vožnja ili jasna istorija vlasništva. Bez toga, mala kilometraža je samo tvrdnja.
+
+Crvena zastavica se pojavljuje kada se broj ne slaže sa automobilom. Izlizani volan, sedište, ručica menjača, pedale, ogrebotine u kabini i umoran trap ne moraju dokazati vraćanje kilometraže, ali traže dodatna pitanja. Isto važi i za servisnu knjižicu koja počinje kasno, nema račune ili ima velike rupe između intervala.
+
+Mala kilometraža ne znači automatski manje ulaganja. Auto koji je dugo stajao može imati stare gume, slab akumulator, zapekle kočnice, probleme sa gumama, tečnostima ili dihtunzima. Kratke gradske relacije takođe habaju motor drugačije od otvorenog puta. Zato pregled mora uključiti način korišćenja, ne samo ukupan broj.
+
+Najbolje je gledati kilometražu kao jedan deo slagalice. Ako se broj, dokumentacija, stanje i priča prodavca poklapaju, mala kilometraža je ozbiljna prednost. Ako se bilo koji deo ne uklapa, nemoj plaćati premiju za broj koji ne možeš proveriti. Dobar polovnjak se kupuje stanjem, ne obećanjem.
+TEXT,
+                'highlights' => [
+                    'Mala kilometraža vredi samo kada je prati proverljiva istorija.',
+                    'Enterijer, trap, gume i servisni zapisi moraju se slagati sa brojem kilometara.',
+                    'Auto koji je malo vožen može tražiti ulaganja ako je dugo stajao.',
+                ],
+                'tags' => ['mala kilometraža', 'provera kilometraže', 'servisna istorija', 'provera vozila'],
+                'meta_title' => 'Auto sa malom kilometražom: prednost ili rizik',
+                'meta_description' => 'Kako proveriti automobil sa malom kilometražom: servisna istorija, stanje enterijera, tehnički tragovi, stajanje i realna vrednost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#34d399', '#f8fafc'],
+            ],
+            [
+                'title' => 'Benzinac, dizel ili hibrid do 10.000 evra: šta ima najviše smisla',
+                'slug' => 'benzinac-dizel-ili-hibrid-do-10000-evra-sta-ima-najvise-smisla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Budžet do 10.000 evra otvara mnogo izbora, ali pravi pogon zavisi od rute, kilometraže, servisa i toga koliko dugo planiraš da zadržiš auto.',
+                'content' => <<<'TEXT'
+Do 10.000 evra kupac može birati između solidnih benzinaca, dizelaša i sve većeg broja hibrida. To je dovoljno novca da se kupi upotrebljiv porodični auto, kompakt ili manji SUV, ali i dovoljno novca da pogrešan izbor pogona postane skup. Najvažnije pitanje nije koji motor je najbolji, nego koji motor odgovara tvojoj vožnji.
+
+Benzinac ima najviše smisla za kupce koji voze grad, kraće relacije i umerenu godišnju kilometražu. Jednostavniji benzinski motori mogu biti mirniji za održavanje od dizela, posebno ako ne prelaziš mnogo kilometara. Treba proveriti potrošnju ulja, lanac ili kaiš, turbo kod manjih modernih motora i redovnost servisa.
+
+Dizel ima smisla ako često voziš otvoren put, prelaziš veću kilometražu i motor redovno radi dovoljno dugo da sistemi izduva funkcionišu kako treba. Ako se dizel koristi uglavnom po gradu, DPF, EGR, turbina i dizne lako promene celu računicu. Niska potrošnja nije dovoljna ako servisni rizik ne odgovara načinu vožnje.
+
+Hibrid je zanimljiv ako voziš grad, želiš automatski osećaj i spreman si da proveriš bateriju, servisnu istoriju i realnu cenu. Dobar hibrid može biti vrlo miran polovnjak, ali tržište često traži veću cenu zbog reputacije. Zato uporedi ukupnu cenu sa dobrim benzincem, a ne samo potrošnju na papiru.
+
+Najbolji izbor do 10.000 evra je pogon koji prati tvoju svakodnevicu. Za grad i kraće relacije benzinac ili hibrid često imaju više smisla. Za autoput i veću kilometražu dizel može biti racionalan, ali samo ako je istorija jasna. Pogrešan motor može biti skuplji od skupljeg oglasa.
+TEXT,
+                'highlights' => [
+                    'Benzinac je često mirniji izbor za grad i manju godišnju kilometražu.',
+                    'Dizel se isplati tek kada način vožnje odgovara DPF, EGR i turbini.',
+                    'Hibrid ima smisla u gradu, ali cenu treba uporediti sa dobrim benzincem.',
+                ],
+                'tags' => ['benzinac', 'dizel', 'hibrid', 'auto do 10000 evra'],
+                'meta_title' => 'Benzinac, dizel ili hibrid do 10.000 evra',
+                'meta_description' => 'Kako izabrati pogon za polovan auto do 10.000 evra: benzinac, dizel, hibrid, gradska vožnja, autoput, potrošnja i servisni rizici.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kako prodati polovan auto brže: fotografije, cena i opis koji grade poverenje',
+                'slug' => 'kako-prodati-polovan-auto-brze-fotografije-cena-i-opis-koji-grade-poverenje',
+                'category' => 'Pregovaranje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dobar oglas ne služi samo da prikaže auto, već da smanji sumnju kupca. Fotografije, realna cena i jasan opis direktno utiču na broj poziva.',
+                'content' => <<<'TEXT'
+Prodaja polovnog automobila ne zavisi samo od toga koliko je auto dobar. Zavisi i od toga koliko oglas uliva poverenje. Kupci danas brzo porede desetine oglasa, preskaču nejasne fotografije i zovu prodavce koji odmah daju odgovore na glavna pitanja. Dobar oglas skraćuje put do ozbiljnog kupca.
+
+Fotografije su prvi filter. Auto slikaj po danu, čist, iz više uglova i bez prenaglašenih filtera. Prikaži spoljašnjost, enterijer, instrument tablu, gume, gepek, servisnu dokumentaciju i eventualna oštećenja. Ako sakriješ manu, kupac će je pronaći na licu mesta, a poverenje će nestati pre pregovora.
+
+Cena mora imati vezu sa tržištem. Pogledaj slične oglase po marki, modelu, godištu, motoru, opremi i kilometraži. Ako tražiš više od proseka, objasni zašto: servisna istorija, nove gume, veliki servis, prvi vlasnik ili posebna oprema. Ako je cena preniska, kupci će takođe sumnjati da nešto nije u redu.
+
+Opis treba da odgovori na pitanja pre poziva. Napiši koliko dugo je auto kod tebe, šta je skoro urađeno, šta treba uraditi, kakve su gume, kada ističe registracija, da li postoji servisna istorija i zašto se auto prodaje. Ne moraš pisati roman, ali izbegni prazne fraze kao što su "bez ulaganja" ako to ne možeš dokazati.
+
+Najbrže se prodaju automobili čiji oglasi deluju jasno i proverljivo. Realna cena privlači prave kupce, dobre fotografije smanjuju sumnju, a iskren opis štedi vreme. Cilj nije da se javi što više ljudi, nego da se jave kupci koji već razumeju šta gledaju i zašto cena ima smisla.
+TEXT,
+                'highlights' => [
+                    'Dobre fotografije treba da prikažu i prednosti i realno stanje auta.',
+                    'Cena mora biti objašnjiva kroz tržište, servisnu istoriju i opremu.',
+                    'Jasan opis smanjuje nepotrebne pozive i gradi poverenje pre pregleda.',
+                ],
+                'tags' => ['prodaja automobila', 'auto oglas', 'fotografije auta', 'cena polovnjaka'],
+                'meta_title' => 'Kako prodati polovan auto brže i pametnije',
+                'meta_description' => 'Saveti za prodaju polovnog automobila: dobre fotografije, realna cena, opis oglasa, servisna dokumentacija i poverenje kupca.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
         ];
     }
 

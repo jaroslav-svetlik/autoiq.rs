@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.40] - 2026-04-23
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Škoda Fabia vs Opel Corsa, Audi Q3 buying checks, low-mileage verification, fuel choice under 10,000 EUR, and faster used-car selling guidance.
+
 ## [0.1.39] - 2026-04-22
 
 ### Added
