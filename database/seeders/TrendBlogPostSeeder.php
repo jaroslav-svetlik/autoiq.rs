@@ -1293,6 +1293,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
             ],
+            [
+                'title' => 'Mazda 3 ili Honda Civic: benzinac za vozača koji ne želi dizel rizik',
+                'slug' => 'mazda-3-ili-honda-civic-benzinac-za-vozaca-koji-ne-zeli-dizel-rizik',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mazda 3 i Honda Civic su čest izbor za kupce koji žele benzinski kompakt sa manje dizel komplikacija, ali presuđuju motor, stanje i istorija održavanja.',
+                'content' => <<<'TEXT'
+Mazda 3 i Honda Civic često privlače istu publiku: vozače koji žele kompaktan automobil sa dobrim osećajem u vožnji, razumnom potrošnjom i manje dizel nepoznanica. Oba modela imaju reputaciju solidnih benzinaca, ali na tržištu polovnjaka reputacija je samo početak. Pravi izbor zavisi od konkretnog motora, servisa i toga šta kupac realno očekuje od automobila.
+
+Mazda 3 obično privlači kupce koji traže direktniji osećaj za volanom i nešto drugačiji karakter od prosečnog kompakta. Kod benzinskih motora proveri potrošnju ulja, stanje kvačila, tragove gradske vožnje i redovnost servisa. Ako je automobil bio lepo održavan, Mazda 3 može biti vrlo mirna kupovina. Ako je servis preskakan i auto vožen bez pažnje, premium utisak iz kabine ne znači mnogo.
+
+Honda Civic često nudi više prostora i jaču reputaciju kada kupac traži dugoročniji odnos sa autom. Civic ima smisla kada je istorija jasna i kada stanje enterijera, motora i trapa prati kilometražu. Kao i kod svakog traženog modela, cena zna da ode iznad proseka samo zbog imena. To vredi platiti samo kada konkretan primerak zaista izgleda bolje od tržišta, a ne kada samo deluje poznato.
+
+Kod oba modela benzinac ima smisla ako voziš grad, kraće relacije ili umerenu godišnju kilometražu. To ne znači da pregled može biti površan. Hladan start, probna vožnja, trap, kočnice, gume i računi vrede više od fotografija i listi opreme. Kod kompakta se razlika između dobrog i prosečnog primerka često otkrije tek na detaljnom pregledu.
+
+Mazda 3 je bolji izbor ako želiš dinamičniji karakter i primerak sa urednom istorijom. Civic ima više smisla ako prioritet daješ praktičnosti i reputaciji koja lakše drži cenu. U oba slučaja, najbolji benzinac je onaj koji kupuješ kroz stanje i servisne tragove, a ne kroz mit o pouzdanosti.
+TEXT,
+                'highlights' => [
+                    'Mazda 3 i Honda Civic imaju smisla kada želiš benzinac bez dizel rizika.',
+                    'Reputacija ne vredi bez jasne servisne istorije i dobrog stanja konkretnog primerka.',
+                    'Probna vožnja, hladan start i računi vrede više od opreme na papiru.',
+                ],
+                'tags' => ['Mazda 3', 'Honda Civic', 'benzinac', 'kompakt'],
+                'meta_title' => 'Mazda 3 ili Honda Civic: koji benzinac kupiti',
+                'meta_description' => 'Poređenje polovnih Mazda 3 i Honda Civic modela: benzinci, servisna istorija, stanje, gradska vožnja i realna isplativost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni BMW X1: kompaktni premium SUV koji lako sakrije skupe sitnice',
+                'slug' => 'polovni-bmw-x1-kompaktni-premium-suv-koji-lako-sakrije-skupe-sitnice',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'BMW X1 izgleda kao razuman ulaz u premium SUV svet, ali dobar primerak traži pažljivu proveru menjača, trapa, servisa i stvarne cene održavanja.',
+                'content' => <<<'TEXT'
+BMW X1 je često prvi premium SUV koji kupac ozbiljno razmatra jer deluje dostupnije od većih modela, a i dalje nosi poznat znak i povišenu poziciju sedenja. Upravo zato lako ulazi u uži izbor ljudi koji žele “nešto jače”, ali ne žele cenu X3 ili X5. Problem je što ni kompaktni premium SUV ne zna da je kupljen jeftinije.
+
+Prvo proveri servisnu istoriju i način prethodnog korišćenja. X1 koji je redovno servisiran može biti logična kupovina za vozača koji želi premium osećaj u svakodnevici. Ali primerak sa nejasnim računima, uvezen bez tragova ili sa umornim enterijerom često skriva trošak koji će brzo poništiti nižu kupovnu cenu. Posebno obrati pažnju na tragove habanja koji ne prate oglašenu kilometražu.
+
+Drugo, trap, menjač i pogon moraju biti deo pregleda. X1 nije auto kod kog treba improvizovati sa “to ćemo posle”. Neravnine, puno skretanje, kočenje i probna vožnja pri višim brzinama otkrivaju više nego lista opreme. Ako auto ima automatski menjač ili pogon na sve točkove, servisni trag i ponašanje u vožnji su obavezni deo odluke.
+
+Treće, uporedi ga sa racionalnijim alternativama. Za cenu prosečnog X1 ponekad možeš dobiti mlađi Tucson, Qashqai ili Kuga sa manje premium imidža, ali sa manjim servisnim rizikom. X1 ima smisla samo ako ti premium kvalitet zaista nešto donosi i ako primerak koji kupuješ nema mnogo nepoznanica.
+
+Najbolji polovni X1 nije onaj sa najdužom listom opreme, već onaj sa najjasnijom dokumentacijom. Ako servisna istorija, menjač, trap i opšti utisak drže priču na okupu, BMW X1 može biti pametna kupovina. Ako sve zavisi od obećanja prodavca, cena je verovatno samo mamac.
+TEXT,
+                'highlights' => [
+                    'BMW X1 ima smisla samo kada premium osećaj prati jasna dokumentacija i dobro stanje.',
+                    'Trap, menjač i eventualni AWD sistem moraju biti provereni u vožnji.',
+                    'Uporedi X1 sa mlađim ne-premium SUV modelima pre nego što platiš znak.',
+                ],
+                'tags' => ['BMW X1', 'premium SUV', 'automatik', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni BMW X1: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog BMW X1 modela: servisna istorija, trap, menjač, premium SUV troškovi i realna cena primerka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto koji je dugo stajao: kako prepoznati skriven problem pre kupovine',
+                'slug' => 'auto-koji-je-dugo-stajao-kako-prepoznati-skriven-problem-pre-kupovine',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Automobil sa malo vožnje i dugim stajanjem može delovati primamljivo, ali stajanje često donosi troškove koje oglas ne pokazuje odmah.',
+                'content' => <<<'TEXT'
+Kupci često pomisle da je auto koji je malo vožen i dugo stajao automatski bolja kupovina. U praksi, dug period stajanja može doneti čitav niz problema koji se ne vide odmah na fotografijama. Oglas može zvučati idealno, ali mehanika ne voli neaktivnost jednako kao ni loše održavanje.
+
+Prvi znak je stanje guma, kočnica i akumulatora. Gume mogu imati dobar dezen, a ipak biti stare i tvrde. Diskovi i pločice mogu zarđati ili izgubiti radnu površinu. Akumulator često oslabi upravo na autima koji retko voze. To nisu ogromne stavke svaka za sebe, ali zajedno menjaju realnu cenu kupovine.
+
+Drugi problem su tečnosti, zaptivke i gumeni delovi. Auto koji dugo stoji može početi da pokazuje curenja tek kada se vrati u svakodnevnu vožnju. Creva, dihtunzi, amortizeri i sitni gumeni elementi stare i kada se ne vozi mnogo. Zato auto koji deluje “kao nov” po kilometraži ne mora biti jeftin za dovođenje u pouzdano stanje.
+
+Treće, obrati pažnju na priču prodavca. Dugo stajanje mora imati objašnjenje koje ima smisla: sezonska vožnja, drugi auto u kući, nasledstvo ili specifičan način korišćenja. Ako priča zvuči nejasno, a servisni trag je tanak, kupac ne dobija povlasticu male kilometraže nego preuzima rizik neaktivnosti.
+
+Najpametnije je pregledati auto koji je dugo stajao kao da kupuješ vozilo sa posebnim tipom habanja. Dobar primerak postoji, ali mora proći pregled kočnica, guma, tečnosti, akumulatora i tragova curenja. Tek tada mala kilometraža postaje prednost, umesto skupog iznenađenja.
+TEXT,
+                'highlights' => [
+                    'Dugo stajanje najčešće se prvo vidi na gumama, kočnicama i akumulatoru.',
+                    'Tečnosti, dihtunzi i gumeni delovi mogu praviti trošak i kod malo voženog auta.',
+                    'Priča prodavca o dugom stajanju mora imati logiku i servisni trag.',
+                ],
+                'tags' => ['auto koji je stajao', 'provera vozila', 'mala kilometraža', 'kupovina polovnjaka'],
+                'meta_title' => 'Auto koji je dugo stajao: šta proveriti',
+                'meta_description' => 'Kako proveriti automobil koji je dugo stajao: gume, kočnice, akumulator, tečnosti, zaptivke i rizici male kilometraže.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Najbolji automatik do 8.000 evra: kako gledati cenu bez skupog kvara',
+                'slug' => 'najbolji-automatik-do-8000-evra-kako-gledati-cenu-bez-skupog-kvara',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Budžet do 8.000 evra otvara dosta automatika, ali prava kupovina zavisi više od istorije menjača nego od same opreme ili godišta.',
+                'content' => <<<'TEXT'
+Automatik do 8.000 evra zvuči kao odlična kombinacija komfora i razumnog budžeta, ali upravo u tom rangu kupac mora biti posebno oprezan. Menjač je jedna od najskupljih stavki na polovnom automobilu, a oglas retko daje dovoljno informacija da bi se stanje razumelo bez pregleda. Zato prvo treba gledati istoriju, a tek onda opremu.
+
+Najveća greška je kupovina automatika samo zato što “lepo šalta” na kratkoj probnoj vožnji. Miran polazak jeste dobar znak, ali nije dovoljan. Potrebno je proveriti da li postoji servisni trag, da li je ulje menjano kada je trebalo, kako menjač radi hladan i zagrejan, i da li pri ubrzanju ili usporavanju postoje trzaji, odlaganja ili čudni zvuci.
+
+Drugo, u ovom budžetu stanje konkretnog primerka vredi više od imena modela. Neki automobili sa manje opreme, ali sa urednom istorijom menjača i motora, bolja su kupovina od lepšeg oglasa bez dokaza. Kupac treba da računa i na prva ulaganja posle kupovine, jer je automatik miran samo kada je ostatak auta servisno zdrav.
+
+Treće, poredi automatike sa ručnim menjačem istog modela. Ako je razlika u ceni mala, pitaj se zašto. Ponekad tržište već ugrađuje sumnju u menjač. Ponekad prodavac žuri. U oba slučaja, dobra kupovina nije ona koja samo deluje povoljno, nego ona kod koje se cena uklapa sa servisnim tragovima.
+
+Najbolji automatik do 8.000 evra nije jedan konkretan model, nego primerak sa jasnim tragom održavanja. Ako pregled pokaže stabilan menjač, zdrav motor i normalna početna ulaganja, automatik u ovom budžetu može imati smisla. Bez toga, komfor vrlo brzo postaje najskuplji deo oglasa.
+TEXT,
+                'highlights' => [
+                    'Istorija menjača i servis ulja važniji su od opreme i izgleda oglasa.',
+                    'Automatik treba proveriti hladan i zagrejan, ne samo na kratkoj vožnji.',
+                    'U budžetu do 8.000 evra prvi utisak često krije budući trošak.',
+                ],
+                'tags' => ['automatik', 'auto do 8000 evra', 'menjač', 'analiza tržišta'],
+                'meta_title' => 'Najbolji automatik do 8.000 evra: šta gledati',
+                'meta_description' => 'Kako birati polovan automatik do 8.000 evra: servis menjača, istorija ulja, probna vožnja, oprema i realna cena kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Toyota Yaris ili Honda Jazz: gradski auto koji lakše opravdava cenu',
+                'slug' => 'toyota-yaris-ili-honda-jazz-gradski-auto-koji-lakse-opravdava-cenu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Yaris i Jazz su racionalni gradski favoriti, ali kupac i dalje mora da bira između reputacije, prostora, potrošnje i realnog stanja polovnjaka.',
+                'content' => <<<'TEXT'
+Toyota Yaris i Honda Jazz često privlače kupce koji žele gradski auto bez velikih iznenađenja. Obe opcije deluju racionalno, ali racionalna kupovina ne znači automatski i laka kupovina. Kada su modeli traženi i dobro kotirani, tržište lako doda cenu samo na osnovu reputacije.
+
+Yaris ima smisla kada kupac traži manji, pregledan auto za grad i želi poznatu reputaciju Toyote. Hibridne verzije dodatno privlače pažnju zbog gradske potrošnje, ali to ne znači da svaki primerak vredi traženu cenu. Baterija, servisni trag, stanje kočnica i opšti utisak moraju potvrditi priču koju cena pokušava da proda.
+
+Jazz sa druge strane često nudi više praktičnosti nego što kupac očekuje od gradskog auta. Prostor, pristup kabini i fleksibilnost enterijera znaju da budu velika prednost. Ipak, kao i kod svakog racionalnog modela, dobar primerak nije isto što i svaki primerak na tržištu. Treba proveriti motor, trap, kočnice i da li stanje enterijera prati kilometražu.
+
+Razlika između Yarisa i Jazza često nije u tome koji je auto “bolji”, nego kome više odgovara. Yaris je logičan za vozača koji hoće jednostavan gradski ritam i jak tržišni ugled. Jazz je bolji za kupca koji želi više prostora i praktičnosti bez prelaska u veću klasu. Kod oba modela servisna istorija mora imati veću težinu od same reputacije.
+
+Najpametniji gradski auto je onaj koji najbolje uklapa cenu, stanje i tvoj način vožnje. Ako je Yaris preskup za ono što nudi, Jazz može imati više smisla. Ako Jazz nema jasan servisni trag, Toyota reputacija može biti mirnija opcija. U oba slučaja, tržište ne treba pratiti slepo, nego kroz konkretan primerak.
+TEXT,
+                'highlights' => [
+                    'Yaris i Jazz imaju smisla samo kada stanje opravdava reputaciju i cenu.',
+                    'Yaris je jači u gradskoj jednostavnosti, a Jazz u praktičnosti prostora.',
+                    'Kod oba modela servisna istorija mora imati veću težinu od imena modela.',
+                ],
+                'tags' => ['Toyota Yaris', 'Honda Jazz', 'gradski auto', 'poređenje'],
+                'meta_title' => 'Toyota Yaris ili Honda Jazz: koji gradski auto kupiti',
+                'meta_description' => 'Poređenje polovnih Toyota Yaris i Honda Jazz modela: gradska vožnja, praktičnost, servisna istorija, potrošnja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
         ];
     }
 

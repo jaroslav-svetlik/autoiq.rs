@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(41, $posts);
+        $this->assertCount(46, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(16, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(18, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
@@ -67,6 +67,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'automobil-sa-malom-kilometrazom-kada-je-prednost-a-kada-crvena-zastavica'));
         $this->assertTrue($posts->contains('slug', 'benzinac-dizel-ili-hibrid-do-10000-evra-sta-ima-najvise-smisla'));
         $this->assertTrue($posts->contains('slug', 'kako-prodati-polovan-auto-brze-fotografije-cena-i-opis-koji-grade-poverenje'));
+        $this->assertTrue($posts->contains('slug', 'mazda-3-ili-honda-civic-benzinac-za-vozaca-koji-ne-zeli-dizel-rizik'));
+        $this->assertTrue($posts->contains('slug', 'polovni-bmw-x1-kompaktni-premium-suv-koji-lako-sakrije-skupe-sitnice'));
+        $this->assertTrue($posts->contains('slug', 'auto-koji-je-dugo-stajao-kako-prepoznati-skriven-problem-pre-kupovine'));
+        $this->assertTrue($posts->contains('slug', 'najbolji-automatik-do-8000-evra-kako-gledati-cenu-bez-skupog-kvara'));
+        $this->assertTrue($posts->contains('slug', 'toyota-yaris-ili-honda-jazz-gradski-auto-koji-lakse-opravdava-cenu'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

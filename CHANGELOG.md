@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.42] - 2026-04-24
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Mazda 3 vs Honda Civic, BMW X1 buying checks, long-stored cars, used automatics under 8,000 EUR, and Toyota Yaris vs Honda Jazz.
+
 ## [0.1.41] - 2026-04-23
 
 ### Added
