@@ -1438,6 +1438,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
             ],
+            [
+                'title' => 'Ford Kuga ili Hyundai Tucson: porodični SUV koji lakše opravdava cenu',
+                'slug' => 'ford-kuga-ili-hyundai-tucson-porodicni-suv-koji-lakse-opravdava-cenu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kuga i Tucson deluju kao sličan izbor za porodicu, ali razlika u motoru, opremi, kilometraži i servisnoj istoriji lako promeni koja ponuda stvarno ima smisla.',
+                'content' => <<<'TEXT'
+Ford Kuga i Hyundai Tucson često završavaju u istoj pretrazi kada kupac traži porodični SUV bez premium cene. Na papiru nude sličnu priču: višu poziciju sedenja, dovoljno prostora, dobar osećaj na otvorenom putu i praktičnost za svakodnevicu. U stvarnosti, razlika između dobre i prosečne kupovine mnogo više zavisi od konkretnog motora, menjača i istorije održavanja nego od same značke na haubi.
+
+Kuga ima smisla za kupca koji želi nešto čvršći osećaj u vožnji i ne smeta mu da bira pažljivo između većih razlika među primercima. Kod nje je važno da proveriš servisnu istoriju, stanje trapa, menjača i to kako je auto korišćen. SUV koji je mnogo vremena proveo po gradu, preko ivičnjaka i sa zanemarenim redovnim servisima može vrlo brzo izgubiti svaku početnu uštedu.
+
+Tucson je često logičan izbor kada kupac traži mirniji porodični auto, mlađe godište za isti novac ili bogatiju opremu. Ipak, ni kod Tucsona ne treba kupovati samo utisak iz kabine. Proveri da li stanje enterijera prati kilometražu, kako se auto ponaša na lošem asfaltu i da li dokumentacija potvrđuje priču prodavca. Lep ekran i uredne fotografije ne znače mnogo ako servisni trag nije potpun.
+
+Kod oba modela motor mora da prati način vožnje. Dizel ima smisla za otvoren put i veću godišnju kilometražu, dok benzinac ili hibridna varijanta često imaju više logike za grad i mešovitu vožnju. Ako planiraš porodične rute, godišnji odmor i duže relacije, proveri i realan gepek, zadnju klupu i koliko će prva ulaganja posle kupovine promeniti računicu.
+
+Najbolja kupovina između Kuge i Tucsona nije nužno jeftiniji auto. To je primerak kod kog cena, stanje i servisna istorija drže istu priču. Ako je Kuga bolje održavana od prosečnog Tucsona, ona je bolja kupovina. Ako Tucson nudi mlađe godište, uredniju dokumentaciju i manje nepoznanica, mirniji je izbor za porodični budžet.
+TEXT,
+                'highlights' => [
+                    'Kuga i Tucson treba porediti kroz konkretan motor, menjač i servisnu istoriju, ne samo kroz opremu.',
+                    'Porodični SUV nema smisla ako prva ulaganja posle kupovine pojedu razliku u ceni.',
+                    'Najmirniji izbor je primerak sa manje nepoznanica, a ne model sa boljim marketingom.',
+                ],
+                'tags' => ['Ford Kuga', 'Hyundai Tucson', 'porodični SUV', 'poređenje'],
+                'meta_title' => 'Ford Kuga ili Hyundai Tucson: koji polovni SUV kupiti',
+                'meta_description' => 'Poređenje polovnih Ford Kuga i Hyundai Tucson modela: porodični SUV, motori, održavanje, oprema, kilometraža i realna vrednost oglasa.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Toyota RAV4 ili Kia Sportage: SUV za porodicu kada tražiš mirniji račun',
+                'slug' => 'toyota-rav4-ili-kia-sportage-suv-za-porodicu-kada-trazis-mirniji-racun',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'RAV4 i Sportage su česti izbori za porodicu, ali stvarna isplativost zavisi od pogona, godišta, servisnih tragova i toga koliko tržište traži samo zbog reputacije.',
+                'content' => <<<'TEXT'
+Toyota RAV4 i Kia Sportage privlače kupce koji žele SUV za porodicu, duži put i svakodnevicu, ali bez ulaska u premium troškove. Oba modela imaju dobru reputaciju, oba drže cenu bolje od proseka i oba mogu delovati kao sigurna kupovina. Upravo zbog toga ih treba gledati hladne glave, jer reputacija lako podigne cenu više nego što podigne stvarnu vrednost konkretnog primerka.
+
+RAV4 ima snažan tržišni ugled i često uliva više poverenja kupcu koji želi mirniji dugoročni odnos sa autom. To, međutim, ne znači da svaki oglas vredi traženu cenu. Kod RAV4 proveri servisnu istoriju, stanje hibridnog sistema ako je hibrid, tragove terenske ili gradske eksploatacije i da li stanje enterijera prati kilometražu. Auto sa Toyota značkom nije automatski dobra kupovina ako su tragovi održavanja tanki.
+
+Sportage je često racionalnija alternativa kada kupac želi više opreme ili mlađe godište za isti novac. To može biti velika prednost, ali samo ako elektronika, trap, motor i menjač ne skrivaju trošak koji će se pojaviti odmah posle kupovine. Kod popularnih porodičnih SUV modela oprema lako skrene pažnju sa važnijih pitanja: šta je rađeno, kada i koliko ulaganja sledi.
+
+U porodičnoj upotrebi važni su detalji koje oglas retko naglašava. Proveri pristup zadnjoj klupi, širinu otvora gepeka, preglednost, stanje klima sistema i realnu potrošnju u uslovima u kojima ćeš voziti. Ako planiraš mnogo grada, hibridna opcija može imati smisla. Ako su relacije duže, dizel ili benzinac možda nude bolji odnos cene i budućih troškova, u zavisnosti od istorije primerka.
+
+RAV4 je bolji izbor kada dobijaš proverenu istoriju i smireniju reputaciju koja nije naduvana samo cenom. Sportage ima više smisla kada za isti novac nudi mlađi, očuvaniji i dokumentovaniji primerak. Između ova dva SUV-a ne pobedi model koji je popularniji, nego onaj koji ostavlja manje otvorenih pitanja posle pregleda.
+TEXT,
+                'highlights' => [
+                    'RAV4 reputacija ima smisla samo kada istorija i stanje opravdavaju višu cenu.',
+                    'Sportage često nudi bolji odnos godišta i opreme, ali samo uz proverenu mehaniku i elektroniku.',
+                    'Porodični SUV treba meriti kroz realnu upotrebu, ne samo kroz izgled i ugled modela.',
+                ],
+                'tags' => ['Toyota RAV4', 'Kia Sportage', 'SUV', 'porodica'],
+                'meta_title' => 'Toyota RAV4 ili Kia Sportage: koji SUV za porodicu',
+                'meta_description' => 'Poređenje polovnih Toyota RAV4 i Kia Sportage modela: porodica, hibrid ili benzinac, oprema, servisna istorija i realna cena SUV oglasa.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Peugeot 3008: crossover koji traži proveru elektronike i servisa',
+                'slug' => 'polovni-peugeot-3008-crossover-koji-trazi-proveru-elektronike-i-servisa',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Peugeot 3008 često deluje kao moderan i poželjan polovnjak, ali dobra kupovina zavisi od istorije održavanja, stanja elektronike i toga kako je auto korišćen.',
+                'content' => <<<'TEXT'
+Peugeot 3008 je jedan od onih polovnjaka koji lako osvoje kupca na prvi pogled. Dizajn kabine, oprema i crossover forma često deluju modernije od proseka tržišta. Problem je što privlačan oglas nije isto što i mirna kupovina. Kod 3008 najvažnije je da se ispod dobrog utiska nalazi uredna dokumentacija i jasan servisni trag.
+
+Prvo proveri elektroniku i svu opremu koju oglas ističe kao prednost. Veliki ekran, kamere, senzori, asistencije, digitalna tabla i klima moraju raditi bez grešaka i improvizacija. Kod automobila koji prodaje tehnologiju kao deo identiteta, neispravna oprema nije sitnica nego direktan trošak. Zato pregled ne sme stati na motoru i karoseriji.
+
+Drugo, servisna istorija mora biti dosledna. Ako 3008 ima dizel motor, proveri DPF, EGR, turbinu i način vožnje prethodnog vlasnika. Ako je benzinac, fokus prebaci na redovnost održavanja, potrošnju ulja, hladan start i tragove gradske eksploatacije. Kod automatika traži dokaz o održavanju menjača, a ne samo priču da radi mirno.
+
+Treće, pogledaj koliko cena zaista ima smisla u odnosu na alternativne modele. 3008 često drži dobru cenu jer izgleda atraktivno i ostavlja moderniji utisak od mnogih konkurenata. To je opravdano samo kada konkretan primerak nema rupe u dokumentaciji, ne krije sitne elektronske kvarove i ne traži velika početna ulaganja odmah po kupovini.
+
+Najbolji polovni 3008 je onaj kod kog sve što deluje moderno radi i na papiru i u vožnji. Ako je istorija jasna, elektronika uredna, menjač miran i cena u skladu sa tržištem, 3008 može biti vrlo dobra kupovina. Ako oglas prodaje samo utisak, a odgovori na pitanja ostaju magloviti, bolji je hladan korak unazad nego skupa improvizacija posle kupovine.
+TEXT,
+                'highlights' => [
+                    'Kod Peugeot 3008 modela elektronika i oprema moraju se proveriti jednako ozbiljno kao motor i trap.',
+                    'Servisna istorija je važnija od modernog izgleda kabine i bogate liste opreme.',
+                    'Atraktivan crossover nema smisla ako odmah traži ulaganja koja oglas skriva.',
+                ],
+                'tags' => ['Peugeot 3008', 'crossover', 'elektronika', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Peugeot 3008: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Peugeot 3008 modela: elektronika, servisna istorija, automatski menjač, dizel i benzin rizici i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Službeni auto na oglasu: kada je dobra kupovina, a kada samo lepa priča',
+                'slug' => 'sluzbeni-auto-na-oglasu-kada-je-dobra-kupovina-a-kada-samo-lepa-prica',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Službeni automobili često imaju uredniju servisnu evidenciju od proseka, ali mogu skrivati intenzivnu eksploataciju koju kupac mora da pročita iza kilometraže i fotografija.',
+                'content' => <<<'TEXT'
+Službeni auto na oglasu često zvuči kao dobra vest. Kupac očekuje redovne servise, urednu dokumentaciju i ozbiljniji odnos prema održavanju nego kod prosečnog privatnog vlasnika. To zaista može biti prednost, ali samo ako razumeš i drugu stranu takvog automobila: službena vozila često prelaze mnogo kilometara, koriste ih različiti vozači i retko imaju nežan svakodnevni režim.
+
+Prva stvar koju treba proveriti jeste servisna evidencija. Ako je automobil bio deo firme, trebalo bi da postoji jasniji trag o održavanju nego kod prosečnog privatnog auta. Računi, intervali, tehnički pregledi i servisni unosi moraju imati kontinuitet. Kada takav trag postoji, službeni auto može imati više smisla nego privatni oglas sa malom kilometražom i slabom dokumentacijom.
+
+Druga stvar je tip korišćenja. Auto koji je radio duge relacije na otvorenom putu može biti manje rizičan od gradskog automobila sa malom kilometražom i mnogo hladnih startova. Ali službeni auto koji je menjao vozače, prelazio ivičnjake, nosio teret i retko dobijao pažnju između servisa može biti umorniji nego što brojke govore. Zato trap, enterijer, kvačilo, menjač i tragovi habanja moraju da se slažu sa pričom.
+
+Treće, ne dozvoli da uredna flotna priča zameni pregled. Službeni auto nije automatski bolji auto, već samo auto kod kog neki delovi istorije mogu biti jasniji. Pregled karoserije, probna vožnja, dijagnostika i provera svih potrošača i dalje su obavezni. Kupac ne kupuje servisni PDF, nego konkretan polovnjak koji mora da radi bez iznenađenja.
+
+Najbolja kupovina među službenim automobilima je primerak koji kombinuje urednu dokumentaciju sa stanjem koje to potvrđuje. Ako je trag održavanja jak, a automobil ne pokazuje znake preteranog habanja, službeni auto može biti odlična prilika. Ako je priča o floti jedina prednost, a stanje ne prati papirologiju, onda je to samo lep marketinški okvir za prosečan oglas.
+TEXT,
+                'highlights' => [
+                    'Službeni auto može biti prednost samo kada servisna evidencija stvarno postoji i ima kontinuitet.',
+                    'Mnogo različitih vozača i intenzivna eksploatacija često ostavljaju trag koji kilometraža ne pokazuje odmah.',
+                    'Flotna istorija ne menja obavezu pregleda trapa, menjača, enterijera i karoserije.',
+                ],
+                'tags' => ['službeni auto', 'servisna istorija', 'kilometraža', 'provera vozila'],
+                'meta_title' => 'Službeni auto na oglasu: prednost ili rizik',
+                'meta_description' => 'Kako proveriti službeni auto na oglasu: servisna istorija, flotna eksploatacija, kilometraža, trap, enterijer i realna vrednost ponude.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto do 7.000 evra za grad i put: zašto dobar benzinac često pobeđuje',
+                'slug' => 'auto-do-7000-evra-za-grad-i-put-zasto-dobar-benzinac-cesto-pobeduje',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'U budžetu do 7.000 evra mnogi jure dizel zbog potrošnje, ali dobar benzinac često nudi mirniju kupovinu kada se vozi i grad i otvoren put.',
+                'content' => <<<'TEXT'
+Budžet do 7.000 evra otvara veliki broj polovnjaka, ali i veliki broj pogrešnih pretpostavki. Mnogi kupci po automatizmu traže dizel jer žele manju potrošnju i osećaj da kupuju „isplativiji“ auto. U praksi, u ovom cenovnom rangu dobar benzinac često bude mirnija i pametnija kupovina, posebno kada se auto vozi i po gradu i na otvorenom putu.
+
+Razlog je jednostavan: kod jeftinijih polovnjaka stanje i istorija znače više od same vrste goriva. Dizel može biti sjajan izbor za vozača koji prelazi mnogo kilometara i vozi duge relacije, ali u budžetu do 7.000 evra vrlo često dolazi sa većim brojem kilometara, umornijim DPF-om, EGR-om, turbinom i skupim stvarima koje se ne vide na prvoj fotografiji. Niska potrošnja tada postaje najskuplji argument iz oglasa.
+
+Dobar benzinac u ovom budžetu često nudi jednostavniju mehaniku, manje rizika od gradske vožnje i lakšu računicu za kupca koji ne prelazi ekstremnu kilometražu. To ne znači da pregled može biti opušten. Potrošnja ulja, lanac ili kaiš, hladan start, trap, kočnice i servisni trag i dalje su presudni. Ali broj potencijalno skupih dizel nepoznanica obično je manji.
+
+Ako auto koristiš za posao po gradu, vikendom za put i povremeno za dužu rutu, benzinac često bolje prati takav ritam. Dizel se isplati tek kada stvarno radi ono za šta je napravljen. Kupac treba da sabere godišnju kilometražu, režim vožnje i očekivana ulaganja, umesto da slepo prati potrošnju na papiru ili reputaciju određenog motora.
+
+Najbolji auto do 7.000 evra nije onaj koji najmanje troši na oglasu, nego onaj koji posle kupovine traži najmanje neplaniranih ulaganja. Zato dobar benzinac u ovom rangu često pobeđuje dizel. Nije glamurozniji, ali zna da bude racionalniji izbor za stvarni život i realan budžet.
+TEXT,
+                'highlights' => [
+                    'U budžetu do 7.000 evra stanje automobila često je važnije od same vrste goriva.',
+                    'Dobar benzinac je često mirnija kupovina za mešovitu vožnju nego umoran dizel sa velikom kilometražom.',
+                    'Potrošnja goriva nema smisla kao argument ako posle kupovine sledi skup servisni niz.',
+                ],
+                'tags' => ['auto do 7000 evra', 'benzinac', 'gradska vožnja', 'analiza tržišta'],
+                'meta_title' => 'Auto do 7.000 evra: zašto benzinac često ima više smisla',
+                'meta_description' => 'Kako izabrati polovan auto do 7.000 evra za grad i put: benzinac ili dizel, kilometraža, održavanje, DPF rizici i realna cena kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
         ];
     }
 

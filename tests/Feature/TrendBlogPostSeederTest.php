@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(46, $posts);
+        $this->assertCount(51, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(18, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(20, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
@@ -72,6 +72,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'auto-koji-je-dugo-stajao-kako-prepoznati-skriven-problem-pre-kupovine'));
         $this->assertTrue($posts->contains('slug', 'najbolji-automatik-do-8000-evra-kako-gledati-cenu-bez-skupog-kvara'));
         $this->assertTrue($posts->contains('slug', 'toyota-yaris-ili-honda-jazz-gradski-auto-koji-lakse-opravdava-cenu'));
+        $this->assertTrue($posts->contains('slug', 'ford-kuga-ili-hyundai-tucson-porodicni-suv-koji-lakse-opravdava-cenu'));
+        $this->assertTrue($posts->contains('slug', 'toyota-rav4-ili-kia-sportage-suv-za-porodicu-kada-trazis-mirniji-racun'));
+        $this->assertTrue($posts->contains('slug', 'polovni-peugeot-3008-crossover-koji-trazi-proveru-elektronike-i-servisa'));
+        $this->assertTrue($posts->contains('slug', 'sluzbeni-auto-na-oglasu-kada-je-dobra-kupovina-a-kada-samo-lepa-prica'));
+        $this->assertTrue($posts->contains('slug', 'auto-do-7000-evra-za-grad-i-put-zasto-dobar-benzinac-cesto-pobeduje'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

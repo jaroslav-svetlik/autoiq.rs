@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.43] - 2026-04-25
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Kuga vs Tucson, RAV4 vs Sportage, used Peugeot 3008 checks, fleet-car evaluation, and used-car value up to 7,000 EUR.
+
 ## [0.1.42] - 2026-04-24
 
 ### Added
