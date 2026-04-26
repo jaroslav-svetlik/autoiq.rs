@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(51, $posts);
+        $this->assertCount(56, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(20, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(22, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
@@ -77,6 +77,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-peugeot-3008-crossover-koji-trazi-proveru-elektronike-i-servisa'));
         $this->assertTrue($posts->contains('slug', 'sluzbeni-auto-na-oglasu-kada-je-dobra-kupovina-a-kada-samo-lepa-prica'));
         $this->assertTrue($posts->contains('slug', 'auto-do-7000-evra-za-grad-i-put-zasto-dobar-benzinac-cesto-pobeduje'));
+        $this->assertTrue($posts->contains('slug', 'toyota-corolla-ili-skoda-octavia-porodicni-kompakt-kada-trziste-trazi-previse'));
+        $this->assertTrue($posts->contains('slug', 'audi-a3-ili-mazda-3-kompakt-za-kupca-koji-ne-zeli-skupo-iznenadenje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-qashqai-kada-crossover-reputacija-stvarno-ima-smisla'));
+        $this->assertTrue($posts->contains('slug', 'jedan-vlasnik-u-oglasu-kada-znaci-vise-a-kada-ne-menja-nista'));
+        $this->assertTrue($posts->contains('slug', 'dizel-za-autoput-do-9000-evra-kada-racunica-stvarno-pije-vodu'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

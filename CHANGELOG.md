@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.44] - 2026-04-26
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Corolla vs Octavia, Audi A3 vs Mazda 3, used Nissan Qashqai checks, one-owner listing signals, and diesel value for highway use up to 9,000 EUR.
+
 ## [0.1.43] - 2026-04-25
 
 ### Added

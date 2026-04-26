@@ -1583,6 +1583,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f2937', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Toyota Corolla ili Škoda Octavia: porodični kompakt kada tržište traži previše',
+                'slug' => 'toyota-corolla-ili-skoda-octavia-porodicni-kompakt-kada-trziste-trazi-previse',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Corolla i Octavia imaju jaku reputaciju i često skuplje oglase od proseka. Dobra kupovina zavisi od motora, istorije i toga da li cena prati stvarno stanje.',
+                'content' => <<<'TEXT'
+Toyota Corolla i Škoda Octavia spadaju među najracionalnije izbore kada kupac traži porodični kompakt koji može da služi i za grad i za put. Upravo zbog te reputacije tržište im često daje višu cenu nego što kupac očekuje. Zato pravo pitanje nije koji model je poznatiji kao dobar polovnjak, nego kada konkretan oglas zaista opravdava premiju.
+
+Corolla ima smisla za kupca koji traži smireniju kupovinu i automobil koji deluje kao dugoročno manje stresan izbor. Posebno je privlačna kada je istorija održavanja jasna, enterijer odgovara kilometraži i nema tragova improvizovanih popravki. Problem nastaje kada se reputacija Toyote koristi kao izgovor da se traži više novca za prosečan primerak bez dovoljno dokaza.
+
+Octavia je često praktičnija za porodicu koja želi više prostora, veći gepek i širok izbor motora i opreme. Ipak, veliki broj oglasa ne znači i veliki broj dobrih primeraka. Kod Octavie treba pažljivo proveriti način prethodnog korišćenja, servisnu istoriju, stanje trapa i logiku same cene. Posebno kod dizela nije dovoljno da auto lepo izgleda na fotografijama ako su DPF, EGR ili menjač ostavljeni sledećem vlasniku.
+
+Kupac koji poredi Corollu i Octaviju mora prvo da odredi način vožnje. Za grad, kraće relacije i mirniji tempo Corolla često ima više smisla. Za mnogo prostora, duži put i lakše poređenje velikog broja oglasa Octavia može biti racionalniji izbor. U oba slučaja presuđuje primerak, ne fama oko modela.
+
+Najskuplja greška kod oba automobila je plaćanje reputacije umesto stanja. Ako Corolla traži premiju, mora ponuditi proverljivu istoriju i manje nepoznanica. Ako Octavia deluje povoljnije, mora dokazati da niža cena ne skriva veća početna ulaganja. Najbolja kupovina nije auto sa jačim ugledom, nego onaj koji ostavlja najmanje otvorenih pitanja posle pregleda.
+TEXT,
+                'highlights' => [
+                    'Corolla i Octavia često nose reputacionu premiju koju treba proveriti kroz stvarno stanje.',
+                    'Corolla je mirniji izbor za kupca koji traži manje stresa, dok Octavia često nudi više praktičnosti.',
+                    'Kod oba modela cenu treba meriti kroz dokumentaciju, trap, menjač i servisne tragove.',
+                ],
+                'tags' => ['Toyota Corolla', 'Škoda Octavia', 'porodični kompakt', 'poređenje'],
+                'meta_title' => 'Toyota Corolla ili Škoda Octavia: koji kompakt kupiti',
+                'meta_description' => 'Poređenje polovnih Toyota Corolla i Škoda Octavia modela: porodični kompakt, cena, dizel rizici, servisna istorija i stvarna isplativost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Audi A3 ili Mazda 3: kompakt za kupca koji ne želi skupo iznenađenje',
+                'slug' => 'audi-a3-ili-mazda-3-kompakt-za-kupca-koji-ne-zeli-skupo-iznenadenje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Audi A3 privlači premium utiskom, Mazda 3 vozačkim karakterom, ali kod polovnjaka razliku prave istorija, motor i koliko je prethodni vlasnik štedeo na održavanju.',
+                'content' => <<<'TEXT'
+Audi A3 i Mazda 3 privlače kupca koji želi kompaktan automobil iznad proseka, ali ne želi da uđe u priču sa velikim SUV-om ili starijom premium limuzinom. Na papiru oba modela nude dovoljno kvaliteta da deluju kao pametna kupovina. U praksi se razlika najviše vidi u tome šta kupac zapravo plaća: premium osećaj, vozački karakter ili nečije preskočeno održavanje.
+
+Audi A3 ima smisla kada kupac želi bolji enterijer, jači premium utisak i model koji tržište lako razume. Međutim, kod polovnog A3 taj utisak vredi samo ako primerak ima jasnu servisnu istoriju, uredan menjač i stanje enterijera koje prati kilometražu. Auto koji izgleda luksuznije od konkurencije lako sakrije i skuplju listu sitnica koje će novi vlasnik morati da finansira.
+
+Mazda 3 često privlači kupca koji želi drugačiji karakter i manje oslanjanja na sam premium znak. Dobar benzinac u Mazdi 3 može biti vrlo mirna kupovina, ali samo ako je održavanje bilo uredno i ako nema tragova gradske vožnje, loših popravki ili zanemarenog trapa. Reputacija dobrog vozačkog auta ne znači da je svaki oglas automatski vredan tražene cene.
+
+Kod oba modela način vožnje odlučuje više nego priča prodavca. Ako voziš grad i umerenu godišnju kilometražu, benzinac često ima više smisla. Ako porediš dizelaše, pregled DPF-a, EGR-a, turbine i servisnih intervala mora biti deo odluke. Premium izgled ili dobra oprema ne rešavaju lošu servisnu priču.
+
+Audi A3 je racionalan kada dobijaš zaista bolji primerak, a ne samo skuplji znak. Mazda 3 ima više smisla kada tražiš pošten benzinac sa manje premium nepoznanica. Najpametniji kompakt između ova dva modela je onaj koji kupuješ kroz dokumentaciju i stanje, a ne kroz reputaciju koju oglas pokušava da unovči.
+TEXT,
+                'highlights' => [
+                    'Audi A3 ima smisla samo kada premium cena prati jasnu istoriju i uredan menjač.',
+                    'Mazda 3 može biti mirnija kupovina ako je benzinac održavan bez preskakanja servisa.',
+                    'Kod oba modela reputacija ne sme biti zamena za pregled i proveru mehanike.',
+                ],
+                'tags' => ['Audi A3', 'Mazda 3', 'kompakt', 'poređenje'],
+                'meta_title' => 'Audi A3 ili Mazda 3: koji kompakt polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Audi A3 i Mazda 3 modela: premium utisak, benzinac ili dizel, servisna istorija, menjač i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Nissan Qashqai: kada crossover reputacija stvarno ima smisla',
+                'slug' => 'polovni-nissan-qashqai-kada-crossover-reputacija-stvarno-ima-smisla',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Qashqai je godinama jedan od omiljenih crossover modela, ali dobra kupovina zavisi od istorije, menjača, trapa i toga da li cena prati konkretan primerak.',
+                'content' => <<<'TEXT'
+Nissan Qashqai je jedan od modela koji su toliko prisutni na tržištu da kupcu lako deluje kao sigurna kupovina. Mnogo oglasa, prepoznatljivo ime i crossover forma stvaraju utisak da je dovoljno samo izabrati godište i budžet. U praksi, polovni Qashqai ima smisla tek kada se reputacija potvrdi konkretnim stanjem i istorijom održavanja.
+
+Prvo proveri kako je automobil korišćen. Qashqai često kupuju porodice i vozači koji žele više visine za gradsku i prigradsku vožnju. To može značiti praktičnu upotrebu, ali i mnogo ivičnjaka, kratkih relacija i umoran trap. Pregled preko lošeg asfalta, puno skretanje i kočenje na probnoj vožnji često otkriju više od same liste opreme.
+
+Drugo, motor i menjač moraju imati jasan servisni trag. Ako je dizel, gledaj DPF, EGR, turbinu i koliko se auto uklapa u tvoj režim vožnje. Ako je benzinac, fokus prebaci na redovnost servisa, hladan start i stanje kvačila ili automatika. Qashqai koji je samo „lep na slikama“ lako postaje skup kada iza lepog krosovera ostanu neodržavane mehaničke stavke.
+
+Treće, uporedi cenu sa drugim crossover modelima i sa običnim kompaktnim automobilima. Nekad Qashqai opravdava razliku kroz praktičnost i preglednost. Nekad kupac samo plaća to što je model popularan. Ako isti novac donosi mlađi i dokumentovaniji automobil druge klase, onda crossover reputacija sama po sebi nije dovoljan argument.
+
+Najbolji polovni Qashqai je onaj koji nema mnogo nepoznanica. Ako servisna istorija postoji, trap je uredan, menjač radi kako treba i cena nije naduvana samo zbog imena modela, Qashqai može biti vrlo dobra kupovina. Ako sve zavisi od toga da veruješ prodavcu na reč, crossover forma ne menja računicu.
+TEXT,
+                'highlights' => [
+                    'Qashqai ima smisla samo kada popularnost modela prati realno dobro stanje konkretnog primerka.',
+                    'Trap, menjač i režim prethodne vožnje moraju biti deo pregleda, ne samo oprema i izgled.',
+                    'Crossover reputacija ne vredi ako cena beži od dokumentacije i servisnih tragova.',
+                ],
+                'tags' => ['Nissan Qashqai', 'crossover', 'kupovina polovnjaka', 'servisna istorija'],
+                'meta_title' => 'Polovni Nissan Qashqai: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Nissan Qashqai modela: crossover reputacija, trap, menjač, dizel ili benzinac i realna cena primerka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Jedan vlasnik u oglasu: kada znači više, a kada ne menja ništa',
+                'slug' => 'jedan-vlasnik-u-oglasu-kada-znaci-vise-a-kada-ne-menja-nista',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Oznaka „jedan vlasnik“ može biti ozbiljna prednost, ali samo kada je prate dokumentacija, stanje i logična istorija korišćenja. Sama po sebi ne garantuje dobru kupovinu.',
+                'content' => <<<'TEXT'
+Jedan vlasnik je jedna od onih fraza koja u oglasima odmah diže pažnju kupca. Zvuči kao dokaz urednog korišćenja, manjeg rizika i jasnije istorije. To zaista može biti prednost, ali nije automatska garancija dobrog polovnjaka. Kupac ne treba da plati više samo zato što je oglas napisao jednu lepu stvar koju još nije dokazao.
+
+Prava vrednost te informacije postoji kada se može povezati sa dokumentacijom. Ako je automobil zaista imao jednog vlasnika, trebalo bi da postoji jasan trag kroz saobraćajnu istoriju, račune, servisne intervale, tehničke preglede i dosledno stanje enterijera i karoserije. Kada se ti tragovi poklope, jedan vlasnik zaista nosi veću težinu.
+
+Problem nastaje kada kupac poveruje da jedan vlasnik automatski znači pažljivo održavanje. Jedan vlasnik može voziti odlično, ali može i godinama odlagati ulaganja, prelaziti ivičnjake, preskakati servis ili popravljati auto najjeftinije moguće. Auto sa više vlasnika i urednom dokumentacijom ponekad je bolja kupovina od vozila koje je ceo život bilo kod jedne osobe, ali bez jasnog traga šta je stvarno rađeno.
+
+Zato tu oznaku treba posmatrati kao signal za dodatna pitanja, ne kao dokaz. Pitaj koliko je dugo auto bio kod vlasnika, zašto se prodaje, gde je servisiran i šta je skoro urađeno. Pogledaj da li se stanje volana, sedišta, pedala i karoserije slaže sa oglašenom pričom. Tek tada jedan vlasnik dobija stvarnu vrednost.
+
+Najpametnije je da frazu „jedan vlasnik“ spustiš sa nivoa obećanja na nivo provere. Ako dokumentacija, servisni trag i stanje automobila potvrde oglas, to jeste ozbiljna prednost. Ako ne potvrde, onda je to samo marketinška rečenica koja ne menja stvarnu računicu kupovine.
+TEXT,
+                'highlights' => [
+                    'Jedan vlasnik vredi tek kada ga potvrde dokumentacija, stanje i logična servisna istorija.',
+                    'Jedan vlasnik ne znači automatski uredno održavanje niti manja početna ulaganja.',
+                    'Tu oznaku treba tretirati kao signal za proveru, a ne kao dokaz kvaliteta automobila.',
+                ],
+                'tags' => ['jedan vlasnik', 'provera vozila', 'servisna istorija', 'kupovina polovnjaka'],
+                'meta_title' => 'Jedan vlasnik u oglasu: prednost ili samo fraza',
+                'meta_description' => 'Šta zaista znači oznaka jedan vlasnik u oglasu: dokumentacija, servisna istorija, stanje vozila i koliko ta informacija vredi pri kupovini.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#34d399', '#f8fafc'],
+            ],
+            [
+                'title' => 'Dizel za autoput do 9.000 evra: kada računica stvarno pije vodu',
+                'slug' => 'dizel-za-autoput-do-9000-evra-kada-racunica-stvarno-pije-vodu',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dizel i autoput deluju kao logičan par, ali u budžetu do 9.000 evra isplativost zavisi od kilometraže, servisnih tragova i toga koliko je motor već odradio pre prodaje.',
+                'content' => <<<'TEXT'
+Dizel za autoput zvuči kao najlogičnija kupovina za vozača koji prelazi mnogo kilometara. U teoriji, niža potrošnja i mirniji rad na dužim relacijama daju mu jasnu prednost. U praksi, kada budžet stane oko 9.000 evra, kupac ulazi u zonu gde se dobra dizel računica lako pokvari ako motor, turbina, DPF ili menjač već traže sledeću investiciju.
+
+Prvo treba pošteno izračunati sopstvenu kilometražu. Ako zaista mnogo voziš otvoren put i autoput, dizel može imati smisla. Ako je autoput samo povremeni scenario, a ostatak vremena auto provodi u gradu, tada niža potrošnja nije dovoljna da opravda dizel rizike. U tom slučaju benzinac ili hibrid nekad ostavljaju mirniju ukupnu računicu.
+
+Drugo, u ovom budžetu istorija vozila je važnija od samog tipa goriva. Mnogo dizelaša do 9.000 evra već je prošlo ozbiljnu kilometražu, često veću nego što oglas odmah sugeriše. Zato kupac mora da proveri servisne intervale, stanje turbine, DPF-a, EGR-a, dizni i eventualnog automatika. Auto koji je na autoputu nekada štedeo gorivo ne znači mnogo ako sada troši budžet na zaostalo održavanje.
+
+Treće, dizel ima smisla samo kada kupuješ primerak koji može odmah da uđe u tvoj režim vožnje bez većih nepoznanica. Dobar autoputni auto mora biti stabilan, tih, mehanički dosledan i servisno jasan. Ako te niska potrošnja privlači više nego dokumentacija, vrlo lako ćeš kupiti račun koji samo čeka da bude ispostavljen.
+
+Najbolji dizel za autoput do 9.000 evra nije jedan model nego dobra kombinacija stanja, istorije i tvoje realne kilometraže. Kada se ta tri dela poklope, dizel zaista pije vodu. Kada ne, priča o uštedi na gorivu samo pokrije mnogo skuplju mehaničku istinu.
+TEXT,
+                'highlights' => [
+                    'Dizel do 9.000 evra ima smisla tek kada ga prati stvarno velika kilometraža i otvoren put.',
+                    'U ovom budžetu servisna istorija i stanje DPF-a, turbine i EGR-a vrede više od same potrošnje.',
+                    'Autoputna računica pada u vodu čim oglas skriva velika ulaganja posle kupovine.',
+                ],
+                'tags' => ['dizel', 'autoput', 'auto do 9000 evra', 'analiza tržišta'],
+                'meta_title' => 'Dizel za autoput do 9.000 evra: kada se isplati',
+                'meta_description' => 'Kako proceniti polovan dizel za autoput do 9.000 evra: kilometraža, DPF, EGR, turbina, servisna istorija i stvarna računica kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
         ];
     }
 
