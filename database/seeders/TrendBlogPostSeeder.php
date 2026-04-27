@@ -1728,6 +1728,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f2937', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Opel Astra ili Kia Ceed: kompakt za kupca koji želi manje iznenađenja',
+                'slug' => 'opel-astra-ili-kia-ceed-kompakt-za-kupca-koji-zeli-manje-iznenadenja',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Astra i Ceed su čest izbor za kupce koji žele racionalan kompakt bez premium cene, ali razliku prave motor, servisna istorija i to koliko je oglas pošten.',
+                'content' => <<<'TEXT'
+Opel Astra i Kia Ceed često ulaze u isti uži izbor kada kupac traži kompaktan automobil koji treba da bude dovoljno praktičan za svaki dan, a dovoljno razuman za budžet. Na papiru oba modela nude sličnu ideju: normalne troškove, dovoljno prostora i ogroman broj oglasa za poređenje. U praksi, razlika između dobre i prosečne kupovine mnogo više zavisi od konkretnog motora i servisne istorije nego od same oznake na gepeku.
+
+Astra često privlači kupce koji žele poznat i lako razumljiv polovnjak. Njena prednost je što se na tržištu lako upoređuje veliki broj primeraka, pa kupac brže vidi kada je cena prenaduvana. Problem nastaje kada se niža kupovna cena pogrešno protumači kao bolja kupovina. Ako su trap, menjač, dizel sistemi ili osnovno održavanje ostavljeni sledećem vlasniku, Astra brzo izgubi početnu prednost.
+
+Ceed ima smisla za kupca koji traži nešto mirniji utisak i često bolju kombinaciju godišta, opreme i reputacije za isti novac. Ipak, ni kod Ceeda ne treba kupovati priču o urednom autu bez papira. Trap, servisni trag, stanje kabine i logika kilometraže moraju da potvrde ono što oglas pokušava da proda. Kompakt koji izgleda lepo na slikama lako postane prosečan čim se probna vožnja pretvori u listu sitnih ulaganja.
+
+Način vožnje treba da presudi i ovde. Ako voziš uglavnom grad i umerenu kilometražu, benzinac često ima više smisla. Ako porediš dizelaše, moraš gledati DPF, EGR, turbinu i koliko je prethodni vlasnik vozio auto onako kako dizel traži. Kod oba modela dobra oprema ne rešava lošu servisnu istoriju.
+
+Najpametniji izbor između Astre i Ceeda nije model koji deluje popularnije, nego primerak koji ostavlja manje otvorenih pitanja. Astra je bolja kada dobijaš poštenu cenu i jasnu istoriju. Ceed ima smisla kada za isti novac nudi uredniji trag održavanja i mirniji ukupni utisak. Kupac ne treba da bira između dve reputacije, nego između dva konkretna oglasa.
+TEXT,
+                'highlights' => [
+                    'Astra i Ceed treba porediti kroz konkretan motor, servisnu istoriju i stanje, ne samo kroz cenu.',
+                    'Niži oglas ne znači bolju kupovinu ako trap, menjač ili dizel sistemi čekaju sledećeg vlasnika.',
+                    'Najmirniji kompakt je onaj koji posle pregleda ostavlja najmanje nepoznanica.',
+                ],
+                'tags' => ['Opel Astra', 'Kia Ceed', 'kompakt', 'poređenje'],
+                'meta_title' => 'Opel Astra ili Kia Ceed: koji kompakt polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Opel Astra i Kia Ceed modela: benzinac ili dizel, servisna istorija, kompaktni troškovi i realna isplativost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Hyundai Tucson ili Peugeot 3008: porodični crossover kada dizajn ne sme da odluči',
+                'slug' => 'hyundai-tucson-ili-peugeot-3008-porodicni-crossover-kada-dizajn-ne-sme-da-odluci',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tucson i 3008 privlače slične kupce, ali jedan oglas ne sme pobediti samo zato što lepše izgleda. Presuđuju istorija, motor, elektronika i realna cena održavanja.',
+                'content' => <<<'TEXT'
+Hyundai Tucson i Peugeot 3008 često stoje jedan pored drugog u pretragama kupaca koji žele porodični crossover sa više prostora, modernijom kabinom i osećajem da voze nešto više od običnog kompakta. Tu se lako napravi prva greška: dizajn i prvi utisak počnu da odlučuju pre nego što dokumentacija i probna vožnja dobiju glavnu reč.
+
+Tucson ima smisla za kupca koji želi smireniji porodični auto i primerak koji često deluje racionalnije na duži rok. Njegova prednost je što tržište obično lakše prihvata korektan porodični SUV bez mnogo teatralnosti. Ipak, ni Tucson nije dobar samo zato što izgleda uredno. Trap, menjač, stanje enterijera i doslednost servisne istorije moraju pokazati da oglas nije samo dobar paket fotografija.
+
+Peugeot 3008 češće osvaja kupca izgledom kabine i utiskom modernijeg automobila. To može biti realna prednost ako oprema zaista radi kako treba i ako je elektronika u skladu sa pričom prodavca. Problem je što kod ovakvog crossovera kvarovi na ekranima, kamerama, senzorima ili asistencijama nisu kozmetika nego trošak. Zato 3008 traži pažnju i na stvarima koje oglas retko prikazuje dovoljno jasno.
+
+Kod oba modela motor mora pratiti režim vožnje. Za duže relacije i više kilometara dizel može imati smisla, ali samo uz urednu istoriju DPF-a, EGR-a i menjača. Za gradsku i mešovitu vožnju benzinac ili drugačija konfiguracija često ostavljaju mirniji servisni trag. Crossover forma sama po sebi ne popravlja pogrešan izbor motora.
+
+Najbolji porodični crossover između Tucsona i 3008 nije onaj koji izgleda skuplje, nego onaj koji je servisno i tehnički dosledniji. Ako Tucson nudi jasniju istoriju i manje elektronskih nepoznanica, to je ozbiljna prednost. Ako 3008 ima urednu dokumentaciju, proverenu opremu i cenu koja ne kažnjava samo dizajn, onda njegov karakter ima smisla. Kupac treba da bira stabilniji oglas, ne lepši poster.
+TEXT,
+                'highlights' => [
+                    'Dizajn ne sme presuditi pre nego što istorija, elektronika i probna vožnja kažu glavnu reč.',
+                    'Tucson je racionalniji kada nudi jasniju dokumentaciju i manje nepoznanica.',
+                    'Kod 3008 elektronika i oprema moraju biti proverene jednako ozbiljno kao motor i trap.',
+                ],
+                'tags' => ['Hyundai Tucson', 'Peugeot 3008', 'crossover', 'poređenje'],
+                'meta_title' => 'Hyundai Tucson ili Peugeot 3008: koji crossover kupiti',
+                'meta_description' => 'Poređenje polovnih Hyundai Tucson i Peugeot 3008 modela: porodični crossover, dizajn, elektronika, motor, servisna istorija i cena održavanja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Hyundai i30: kompakt koji ima smisla samo uz urednu istoriju',
+                'slug' => 'polovni-hyundai-i30-kompakt-koji-ima-smisla-samo-uz-urednu-istoriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Hyundai i30 može biti vrlo racionalan polovnjak, ali samo kada cenu prati proverljiva servisna priča, poštena kilometraža i primerak bez sakrivenih početnih ulaganja.',
+                'content' => <<<'TEXT'
+Hyundai i30 je jedan od onih polovnjaka koji kupcu retko izaziva previše emocija, ali često ima vrlo smislen odgovor na pitanje šta zapravo treba kupiti. Upravo zato lako dobije etiketu sigurne kupovine. Problem je što nijedan kompakt nije siguran samo zato što ima mirnu reputaciju. Polovni i30 ima smisla tek kada konkretan primerak potvrdi priču kroz stanje i istoriju održavanja.
+
+Prvo proveri koliko je oglas pošten prema kilometraži i načinu korišćenja. i30 često kupuju vozači koji žele racionalan auto za grad, posao i porodicu, pa na tržištu ima i vrlo dobrih i vrlo umornih primeraka. Stanje volana, sedišta, pedala i trapa mora imati logiku u odnosu na broj koji piše u oglasu. Ako enterijer priča jednu priču, a kilometraža drugu, kupac treba da uspori.
+
+Drugo, motor i menjač traže jasan servisni trag. Kod benzinca proveri hladan start, potrošnju ulja i redovnost održavanja. Kod dizela gledaj DPF, EGR, turbinu i da li se način vožnje prethodnog vlasnika uklapa sa motorom koji kupuješ. Ako postoji automatik, servis menjača mora biti deo dokumentacije, ne samo deo obećanja.
+
+Treće, poenta i30 nije da bude najjeftiniji oglas u klasi, nego da za dati novac ostavi najmanje nepoznanica. Kupac koji juri samo nižu cenu lako će završiti sa kompaktnim autom koji izgleda racionalno, a traži niz sitnih ulaganja odmah po kupovini. Dobar i30 vredi malo više samo kada taj višak stvarno kupuje mir.
+
+Najbolji polovni i30 je onaj koji ne pokušava da glumi nešto što nije. Ako je dokumentacija jasna, stanje pošteno i cena u skladu sa tržištem, i30 može biti odlična svakodnevna kupovina. Ako oglas deluje previše dobar za ono što nudi, onda racionalni kompakt vrlo brzo postaje još jedan skup kompromis.
+TEXT,
+                'highlights' => [
+                    'Hyundai i30 ima smisla kada reputaciju prati proverljiva servisna istorija i pošteno stanje.',
+                    'Kilometraža mora imati logiku kroz enterijer, trap i način korišćenja vozila.',
+                    'Racionalan kompakt prestaje da bude racionalan čim prva ulaganja pojedu razliku u ceni.',
+                ],
+                'tags' => ['Hyundai i30', 'kompakt', 'kupovina polovnjaka', 'servisna istorija'],
+                'meta_title' => 'Polovni Hyundai i30: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Hyundai i30 modela: kilometraža, benzinac ili dizel, servisna istorija, menjač i realna cena primerka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Dilerska garancija u oglasu: koliko stvarno vredi kad kupuješ polovan auto',
+                'slug' => 'dilerska-garancija-u-oglasu-koliko-stvarno-vredi-kad-kupujes-polovan-auto',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Garancija iz oglasa može biti prava vrednost, ali samo ako kupac razume šta pokriva, koliko traje i šta sve ostaje van zaštite čim auto krene kući.',
+                'content' => <<<'TEXT'
+Dilerska garancija u oglasu zvuči kao ozbiljna prednost. Kupac dobija utisak da deo rizika ostaje kod prodavca i da polovan auto dolazi sa dodatnim slojem sigurnosti. To zaista može biti vredno, ali samo ako se pročita šta ta garancija zapravo znači. Mnogi oglasi koriste reč garancija mnogo šire nego što sam dokument zaista pokriva.
+
+Prva stvar koju treba proveriti jeste obim pokrića. Da li garancija važi samo za motor i menjač, da li uključuje elektriku, turbinu, DPF, hibridne komponente ili samo usko definisane kvarove? Kupac ne treba da pretpostavlja. Ono što nije jasno napisano, kao da nije ni obećano. Garancija vredi onoliko koliko je precizna i primenljiva u stvarnom kvaru.
+
+Drugo, važni su trajanje, uslovi i procedura. Nije isto da li garancija traje tri meseca, godinu dana ili određen broj kilometara. Nije isto ni da li kupac mora servisirati auto tačno gde prodavac kaže, u kom roku mora prijaviti problem i kako se odlučuje da li kvar zaista ulazi u pokriće. Ako je procedura nejasna ili komplikovana, marketinška vrednost garancije je veća od praktične.
+
+Treće, garancija ne menja obavezu pregleda pre kupovine. Kupac ne treba da preskoči trap, karoseriju, elektroniku i probnu vožnju samo zato što diler nudi zaštitu. Dilerska garancija može biti dodatni plus, ali ne treba da služi kao zamena za pregled koji bi otkrio loš primerak pre potpisa ugovora.
+
+Najviše vredi ona garancija koja je kratka, jasna i poštena, uz automobil koji je već dobar sam po sebi. Ako diler nudi uredan primerak, jasne uslove i konkretnu zaštitu za ključne sklopove, to jeste prednost. Ako se garancija koristi samo kao reč koja treba da umiri kupca bez stvarnog sadržaja, onda ne menja mnogo. Dobar polovan auto kupuje se pregledom, a garancija može biti samo dodatna mreža, ne glavni razlog kupovine.
+TEXT,
+                'highlights' => [
+                    'Dilerska garancija vredi samo kada je jasno napisano šta pokriva, a šta ne.',
+                    'Trajanje, uslovi servisa i procedura prijave kvara jednako su važni kao sama reč garancija.',
+                    'Garancija ne menja obavezu detaljnog pregleda pre kupovine polovnog automobila.',
+                ],
+                'tags' => ['dilerska garancija', 'provera vozila', 'polovan auto', 'kupovina'],
+                'meta_title' => 'Dilerska garancija u oglasu: koliko zaista vredi',
+                'meta_description' => 'Kako čitati dilersku garanciju kod polovnog auta: šta pokriva, koliko traje, koji su uslovi i zašto nije zamena za pregled vozila.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Hibrid za grad do 12.000 evra: kada viša cena još uvek ima smisla',
+                'slug' => 'hibrid-za-grad-do-12000-evra-kada-visa-cena-jos-uvek-ima-smisla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Gradski hibrid često košta više od uporedivog benzinca, ali ta razlika nekad kupuje mirniju svakodnevicu. Važno je znati kada premija ima smisla, a kada ne.',
+                'content' => <<<'TEXT'
+Hibrid za grad do 12.000 evra deluje kao vrlo racionalna ideja: automatik utisak, niža potrošnja u gradskoj vožnji i reputacija mirnijeg svakodnevnog auta. Problem je što tržište to zna i često traži više novca nego što kupac planira. Zato pravo pitanje nije da li je hibrid dobar, nego kada viša cena još uvek kupuje stvarnu vrednost, a kada samo prati trend.
+
+Prvo treba gledati kako se auto zaista koristi. Ako voziš grad, kratke relacije, stani-kreni ritam i ne prelaziš ogromnu kilometražu na autoputu, hibrid može imati vrlo smislen profil. U takvoj upotrebi razlika u odnosu na klasičan benzinac nije samo u potrošnji, nego i u osećaju lagodnije svakodnevice. Ako ti je vožnja pretežno otvoren put, priča postaje manje ubedljiva.
+
+Drugo, viša cena hibrida mora se meriti kroz stanje baterije, servisnu istoriju i konkretan model. Kupac ne treba da plaća reputaciju bez provere. Baterija, elektronika, trap i regularni servisi moraju biti deo iste priče. Hibrid koji izgleda kao pametna kupovina samo zato što je hibrid lako postane preskup benzinac sa dodatnim pitanjima.
+
+Treće, treba porediti hibrid sa dobrim benzincem, a ne sa najgorim primerkom u oglasima. Ako isti budžet donosi poštenog benzinca sa jasnom istorijom i manje godina, kupac mora hladno da sabere šta mu je važnije: niža gradska potrošnja ili ukupno manje nepoznanica. Viša cena hibrida ima smisla samo ako kupuje konkretan mir, ne samo ideju o modernijem pogonu.
+
+Najbolji hibrid za grad do 12.000 evra nije automatski onaj koji troši najmanje na papiru. To je primerak kod kog stanje, servisni trag i način vožnje kupca rade zajedno. Kada se te tri stvari poklope, viša cena još uvek ima smisla. Kada se ne poklope, hibrid postaje skupa etiketa na prosečnom polovnjaku.
+TEXT,
+                'highlights' => [
+                    'Hibrid za grad ima smisla tek kada stvarna upotreba opravdava višu početnu cenu.',
+                    'Baterija, elektronika i servisna istorija moraju potvrditi reputaciju modela.',
+                    'Premiju za hibrid treba meriti u odnosu na dobar benzinac, ne u odnosu na loše oglase.',
+                ],
+                'tags' => ['hibrid', 'grad', 'auto do 12000 evra', 'analiza tržišta'],
+                'meta_title' => 'Hibrid za grad do 12.000 evra: kada se isplati',
+                'meta_description' => 'Kako proceniti polovan hibrid za grad do 12.000 evra: baterija, servisna istorija, gradska vožnja, benzinac alternativa i stvarna isplativost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
         ];
     }
 

@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.45] - 2026-04-27
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Astra vs Ceed, Tucson vs Peugeot 3008, used Hyundai i30 checks, dealer warranty evaluation, and hybrid value for city driving up to 12,000 EUR.
+
 ## [0.1.44] - 2026-04-26
 
 ### Added
