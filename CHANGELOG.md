@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.48] - 2026-04-28
+
+### Changed
+
+- Refined the Audi A4 B8 vs BMW 320d F30 deep-comparison article excerpt so the intro reads naturally without meta commentary.
+
 ## [0.1.47] - 2026-04-28
 
 ### Added

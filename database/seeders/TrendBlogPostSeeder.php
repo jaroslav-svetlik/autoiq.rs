@@ -2023,7 +2023,7 @@ TEXT,
                 'slug' => 'audi-a4-b8-20-tdi-ili-bmw-320d-f30-detaljna-analiza-motora-menjaca-i-enterijera',
                 'category' => 'Poređenje modela',
                 'author_name' => 'AutoIQ redakcija',
-                'excerpt' => 'Ovo nije površno poređenje dve premium dizel limuzine. Gledamo kako se razlikuju 2.0 TDI i 320d motori, kakvi su automatski menjači, koliko enterijer stari i za koga je koji auto realno bolji izbor.',
+                'excerpt' => 'Gledamo kako se razlikuju 2.0 TDI i 320d motori, kakvi su automatski menjači, koliko enterijer stari i za koga je koji auto realno bolji izbor.',
                 'content' => <<<'TEXT'
 Kada kupac u Srbiji poredi Audi A4 B8 2.0 TDI i BMW 320d F30, obično misli da bira između dva statusno slična automobila i da presuđuju oprema, kilometraža i prvi utisak. To je previše plitak pristup. Kod ova dva modela razliku u ukupnoj kupovini mnogo više prave konkretan motor, tip menjača, stanje trapa i to koliko je prethodni vlasnik bio disciplinovan sa održavanjem.
 
