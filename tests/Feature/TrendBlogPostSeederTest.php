@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(61, $posts);
+        $this->assertCount(66, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(24, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(26, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
@@ -87,6 +87,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-hyundai-i30-kompakt-koji-ima-smisla-samo-uz-urednu-istoriju'));
         $this->assertTrue($posts->contains('slug', 'dilerska-garancija-u-oglasu-koliko-stvarno-vredi-kad-kupujes-polovan-auto'));
         $this->assertTrue($posts->contains('slug', 'hibrid-za-grad-do-12000-evra-kada-visa-cena-jos-uvek-ima-smisla'));
+        $this->assertTrue($posts->contains('slug', 'seat-leon-ili-ford-focus-kompakt-za-vozaca-koji-zeli-vise-od-proseka'));
+        $this->assertTrue($posts->contains('slug', 'volkswagen-passat-b8-ili-mazda-6-porodicna-limuzina-kada-kilometraza-odlucuje-vise-od-opreme'));
+        $this->assertTrue($posts->contains('slug', 'polovni-renault-captur-mali-crossover-koji-lako-sakrije-gradski-zivot'));
+        $this->assertTrue($posts->contains('slug', 'servisna-knjizica-u-oglasu-kada-je-dokaz-a-kada-samo-dobar-rekvizit'));
+        $this->assertTrue($posts->contains('slug', 'benzinac-za-grad-do-6000-evra-kako-kupiti-mirniji-auto-bez-dizel-stresa'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

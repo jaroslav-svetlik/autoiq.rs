@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.46] - 2026-04-28
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Seat Leon vs Ford Focus, Passat B8 vs Mazda 6, used Renault Captur checks, service-booklet verification, and city-friendly petrol value up to 6,000 EUR.
+
 ## [0.1.45] - 2026-04-27
 
 ### Added

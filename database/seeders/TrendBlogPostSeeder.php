@@ -1873,6 +1873,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f2937', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Seat Leon ili Ford Focus: kompakt za vozača koji želi više od proseka',
+                'slug' => 'seat-leon-ili-ford-focus-kompakt-za-vozaca-koji-zeli-vise-od-proseka',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Leon i Focus često privlače kupce koji traže bolji osećaj u vožnji od prosečnog kompakta, ali kod polovnjaka presuđuju motor, trap i uredno održavanje.',
+                'content' => <<<'TEXT'
+Seat Leon i Ford Focus često završavaju u istom užem izboru kada kupac ne želi samo racionalan kompakt, već automobil koji treba da pruži i malo više karaktera u svakodnevnoj vožnji. Na papiru oba modela nude dovoljno prostora, dovoljno motora i dovoljno oglasa da deluju kao sigurna teritorija. U praksi, dobra kupovina se ovde ne meri kroz reputaciju vozačkog auta, nego kroz stanje konkretnog primerka.
+
+Leon privlači kupca koji želi oštriji dizajn, poznatu VW mehaniku i utisak da vozi nešto skuplji auto nego što cena sugeriše. To može biti realna prednost kada su servisna istorija, stanje menjača i trag održavanja zaista čisti. Problem nastaje kada dobar vizuelni utisak pokrije umoran trap, preskočene servise ili motor koji je već ostavio najveći deo zdravlja kod prethodnog vlasnika.
+
+Focus često dobija poene kod vozača koji traže prirodniji osećaj na volanu i automobil koji deluje pošteno čim izađe na put. Ipak, ni ta reputacija nije dovoljno jaka da opravda slab trag održavanja. Focus koji lepo leži u krivini ne znači mnogo ako hladan start, kvačilo, menjač ili stanje trapa otkrivaju da se auto vozio više nego što oglas priznaje.
+
+Kod oba modela treba pošteno birati i motor. Za gradsku i mešovitu vožnju dobar benzinac često ostavlja mirniju računicu. Ako porediš dizelaše, DPF, EGR, turbina i način prethodne eksploatacije moraju biti deo pregleda. Oprema i sportski paket ne rešavaju skupe mehaničke nepoznanice koje dolaze posle kupovine.
+
+Najbolji kompakt između Leona i Focusa nije onaj koji izgleda zanimljivije, nego onaj koji ostavlja najmanje otvorenih pitanja posle probne vožnje i pregleda. Leon ima smisla kada dobijaš uredan primerak bez skrivene VW premije. Focus je bolji kada za isti novac nudi pošteniju istoriju i manje mehaničkih upitnika. Kupac ne treba da bira priču, nego stanje.
+TEXT,
+                'highlights' => [
+                    'Leon i Focus treba meriti kroz trap, menjač i servisnu istoriju, ne samo kroz vozačku reputaciju.',
+                    'Dobar benzinac često ima mirniju računicu od umornog dizela koji je ostavio skupa pitanja sledećem vlasniku.',
+                    'Najpametniji kompakt je onaj koji posle pregleda ostavlja najmanje nepoznanica.',
+                ],
+                'tags' => ['Seat Leon', 'Ford Focus', 'kompakt', 'poređenje'],
+                'meta_title' => 'Seat Leon ili Ford Focus: koji kompakt polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Seat Leon i Ford Focus modela: benzinac ili dizel, trap, menjač, servisna istorija i realna cena kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Volkswagen Passat B8 ili Mazda 6: porodična limuzina kada kilometraža odlučuje više od opreme',
+                'slug' => 'volkswagen-passat-b8-ili-mazda-6-porodicna-limuzina-kada-kilometraza-odlucuje-vise-od-opreme',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Passat B8 i Mazda 6 deluju kao odlični porodični izbori, ali kod polovnjaka razliku prave istorija, način korišćenja i koliko je kilometraža stvarno poštena.',
+                'content' => <<<'TEXT'
+Volkswagen Passat B8 i Mazda 6 privlače kupca koji želi ozbiljan porodični automobil bez ulaska u stariji premium segment. Obe opcije nude dovoljno prostora, dovoljno udobnosti i dovoljno tržišne prisutnosti da izgledaju kao razumna kupovina. Međutim, kod polovnjaka ove klase oprema i izgled lako zamagle ono što zaista odlučuje: kako je auto vožen i koliko je kilometraža realna.
+
+Passat B8 ima smisla za kupca koji želi tržišno razumljiv auto, lakšu dalju prodaju i veliki izbor oglasa za poređenje. Njegova slabost je upravo u toj popularnosti. Mnogo primeraka nosi visoku kilometražu, a lep paket opreme često služi da skrene pažnju sa činjenice da su menjač, DPF, EGR ili trap već duboko u fazi sledećeg velikog računa.
+
+Mazda 6 često privlači kupca koji želi elegantniji izgled i osećaj da vozi nešto ređi i karakterom zanimljiviji auto. To može biti odlična kupovina ako servisna istorija prati taj utisak i ako nema tragova zanemarenog održavanja, loših limarskih intervencija ili zapuštene mehanike. Ređa pojava na tržištu nije automatski prednost ako zbog toga imaš manje dobrih primeraka za poređenje.
+
+Kod oba modela kilometraža mora biti samo početak, ne zaključak. Enterijer, volan, sedišta, stanje trapa, hladan start i dokumentacija treba da potvrde priču oglasa. Porodična limuzina sa lepim ekranom i dobrom opremom ne vredi mnogo ako iza toga stoji umoran auto koji će tek kod novog vlasnika pokazati puni spisak ulaganja.
+
+Najpametniji izbor između Passata B8 i Mazde 6 nije model sa boljim paketom opreme, nego automobil čija istorija i stanje ostavljaju najmanje prostora za nagađanje. Passat je pravi izbor kada kilometraža i servisni trag imaju logiku. Mazda 6 ima smisla kada za traženi novac dobijaš uredan i proverljiv primerak, a ne samo lepšu alternativu na oglasu.
+TEXT,
+                'highlights' => [
+                    'Passat B8 i Mazda 6 treba kupovati kroz kilometražu koja se može proveriti, ne kroz opremu.',
+                    'Popularnost Passata donosi veći izbor, ali i više primeraka koji kriju skup servisni nastavak.',
+                    'Najmirnija porodična limuzina je ona sa istorijom koja potvrđuje stanje na pregledu.',
+                ],
+                'tags' => ['Volkswagen Passat B8', 'Mazda 6', 'porodična limuzina', 'poređenje'],
+                'meta_title' => 'Volkswagen Passat B8 ili Mazda 6: koju limuzinu kupiti',
+                'meta_description' => 'Poređenje polovnih Volkswagen Passat B8 i Mazda 6 modela: kilometraža, oprema, servisna istorija, menjač i realna porodična kupovina.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Renault Captur: mali crossover koji lako sakrije gradski život',
+                'slug' => 'polovni-renault-captur-mali-crossover-koji-lako-sakrije-gradski-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Captur deluje kao bezbedan izbor za grad i porodicu, ali polovan primerak traži proveru trapa, enterijera, elektronike i servisnog traga kratkih relacija.',
+                'content' => <<<'TEXT'
+Renault Captur je jedan od onih modela koji na oglasima brzo deluju kao laka odluka. Mali crossover format, povišeno sedenje i gradski karakter lako prodaju priču o praktičnom automobilu za svaki dan. Upravo zato kupac mora biti oprezan, jer Captur ume veoma dobro da sakrije koliko je gradski život zapravo ostavio traga na konkretnom primerku.
+
+Prvo gledaj tragove svakodnevne upotrebe. Captur je često služio za kratke relacije, ivičnjake, parkiranja u uskim ulicama i tempo koji više troši trap, kvačilo i enterijer nego što kilometraža sama pokazuje. Sedišta, volan, ručice vrata, felne i sitni limarski tragovi često govore više od uredno opranih fotografija na oglasu.
+
+Drugo, motor i elektronika moraju imati jasan servisni trag. Kod benzinca traži dokaz da osnovno održavanje nije preskakano. Kod dizela proveri da li način prethodne vožnje ima smisla za DPF i EGR. Kod oba tipa motora važno je i kako rade klima, multimedija, senzori, kamera i ostale gradske pogodnosti koje kupci kod Captura često uzimaju zdravo za gotovo.
+
+Treće, ne dozvoli da crossover forma automatski digne vrednost oglasa. Captur je smislen kada dobijaš pregledan gradski automobil sa urednom istorijom i bez većih nepoznanica. Ako isti budžet donosi mlađi kompakt ili poštenije održavan automobil druge klase, onda povišena karoserija sama po sebi nije dovoljna prednost.
+
+Najbolji polovni Captur je onaj kod kog se priča o praktičnom gradskom autu poklapa sa tragovima održavanja i realnim stanjem. Ako servis postoji, trap ne lupa, elektronika radi bez improvizacije i enterijer ne odaje teži život nego što oglas priznaje, Captur može biti vrlo dobra kupovina. Ako sve zavisi od prvog utiska, traži sledeći oglas.
+TEXT,
+                'highlights' => [
+                    'Captur često krije intenzivnu gradsku eksploataciju iza urednih fotografija i povišene karoserije.',
+                    'Trap, enterijer i sitna elektronika moraju potvrditi da je auto održavan, ne samo čist za slikanje.',
+                    'Mali crossover ima smisla samo kada stanje i servisni trag opravdaju cenu oglasa.',
+                ],
+                'tags' => ['Renault Captur', 'mali crossover', 'kupovina polovnjaka', 'gradska vožnja'],
+                'meta_title' => 'Polovni Renault Captur: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Renault Captur modela: gradska vožnja, trap, elektronika, servisna istorija i realna cena malog crossovera.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Servisna knjižica u oglasu: kada je dokaz, a kada samo dobar rekvizit',
+                'slug' => 'servisna-knjizica-u-oglasu-kada-je-dokaz-a-kada-samo-dobar-rekvizit',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Servisna knjižica može biti ozbiljan plus, ali samo ako pečati, intervali i stanje automobila pričaju istu priču. Sama knjižica ne potvrđuje dobru kupovinu.',
+                'content' => <<<'TEXT'
+Servisna knjižica je jedan od najčešćih argumenata u oglasima za polovne automobile. Prodavac je pokaže kao dokaz urednog održavanja, a kupac često odmah spusti gard. To je greška. Servisna knjižica može biti ozbiljna prednost, ali samo kada je deo šire i logične priče koju potvrđuju računi, stanje automobila i servisni intervali koji imaju smisla.
+
+Prvo gledaj kontinuitet. Ako knjižica ima pečate, proveri da li se kilometraža i datumi logično nadovezuju. Veliki skokovi, dugi periodi bez upisa ili pečati koji deluju kao da su dodati naknadno treba odmah da otvore dodatna pitanja. Knjižica koja lepo izgleda na fotografiji ne vredi mnogo ako njeni detalji ne mogu da izdrže osnovnu proveru.
+
+Drugo, knjižica mora da prati stanje auta. Ako oglas tvrdi da je održavanje bilo uredno, to bi trebalo da se vidi kroz hladan start, rad motora, stanje enterijera, trap i logiku opšteg habanja. Nema mnogo smisla da automobil ima besprekorne pečate, a da u vožnji deluje kao da servisni raspored nije viđen godinama.
+
+Treće, pitaj za račune i konkretne radove. Knjižica često potvrdi ritam odlazaka u servis, ali računi pokazuju šta je stvarno rađeno. Razlika između osnovnog servisa i ozbiljnijeg ulaganja nije mala, posebno kod polovnjaka sa većom kilometražom. Kupac mora znati da li kupuje automobil koji je održavan proaktivno ili samo dovoljno da zadrži dobar utisak na oglasu.
+
+Servisna knjižica treba da bude početak provere, ne njen kraj. Kada pečati, računi i stanje automobila pričaju istu priču, to jeste ozbiljan znak poverenja. Kada se ne poklope, knjižica postaje samo dobar rekvizit koji pokušava da zameni ono najvažnije: dokaz da je auto zaista održavan kako treba.
+TEXT,
+                'highlights' => [
+                    'Servisna knjižica vredi samo kada datumi, kilometraža i pečati imaju kontinuitet.',
+                    'Stanje automobila mora potvrditi knjižicu, inače pečati ostaju samo lep detalj iz oglasa.',
+                    'Računi i konkretni radovi često govore više od same servisne knjižice.',
+                ],
+                'tags' => ['servisna knjižica', 'provera vozila', 'servisna istorija', 'kupovina polovnjaka'],
+                'meta_title' => 'Servisna knjižica u oglasu: koliko zaista vredi',
+                'meta_description' => 'Kako proveriti servisnu knjižicu u oglasu: pečati, datumi, kilometraža, računi i stanje vozila koje mora potvrditi servisnu priču.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#34d399', '#f8fafc'],
+            ],
+            [
+                'title' => 'Benzinac za grad do 6.000 evra: kako kupiti mirniji auto bez dizel stresa',
+                'slug' => 'benzinac-za-grad-do-6000-evra-kako-kupiti-mirniji-auto-bez-dizel-stresa',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'U budžetu do 6.000 evra dobar benzinac za grad često ima više smisla od jeftinog dizela, ali samo kada kupac gleda stanje, servis i realna ulaganja posle kupovine.',
+                'content' => <<<'TEXT'
+Budžet do 6.000 evra često tera kupca da traži kompromis koji deluje razumno na papiru, ali ume da bude skup u praksi. U toj zoni mnogi automatski jure dizel zbog niže potrošnje, iako će se auto većinom voziti po gradu. Upravo tu dobar benzinac često postaje pametnija i mirnija kupovina, jer gradski režim vožnje manje kažnjava jednostavniju mehaniku nego umoran dizel sa većim brojem nepoznanica.
+
+Prva stvar je način vožnje. Ako je auto namenjen za posao po gradu, kratke relacije, parkiranje i povremeni izlazak na otvoren put, dizel najčešće ne dobija uslove u kojima može da opravda svoje prednosti. DPF, EGR i turbina ne zanima što oglas obećava malu potrošnju. Zanima ih kako je auto stvarno vožen i kako ćeš ga voziti posle kupovine.
+
+Druga stvar je stanje primerka. Dobar benzinac do 6.000 evra često ima smisla upravo zato što lista potencijalno skupih kvarova može biti kraća. To ne znači da pregled sme biti površan. Hladan start, trap, kvačilo, potrošnja ulja, trag održavanja i stanje enterijera i dalje odlučuju da li je oglas pošten. Mirniji motor nema vrednost ako je ostatak auta zapušten.
+
+Treća stvar je tržišna iluzija da je štedljiviji auto automatski isplativiji auto. U ovom budžetu isplativost mnogo više zavisi od toga koliko neplaniranih ulaganja čeka kupca u prvih šest do dvanaest meseci. Automobil koji troši litar više, ali traži manje servisa i manje rizika, često je realno bolji izbor od navodno štedljivijeg auta koji krije skupu listu problema.
+
+Najbolji benzinac za grad do 6.000 evra nije jedan model nego pošten primerak. Kada se poklope uredan servisni trag, razumno habanje i auto koji odgovara stvarnoj gradskoj vožnji, benzinac ume da bude najmirniji mogući izbor. Kupac u ovom budžetu ne treba da kupuje priču o potrošnji, nego auto koji će tražiti najmanje stresa posle kupovine.
+TEXT,
+                'highlights' => [
+                    'Dobar benzinac do 6.000 evra često je mirnija gradska kupovina od jeftinog dizela sa DPF rizikom.',
+                    'Stanje, hladan start i trag održavanja vrede više od papira sa niskom potrošnjom.',
+                    'Isplativost u ovom budžetu zavisi od ulaganja posle kupovine, ne samo od potrošnje goriva.',
+                ],
+                'tags' => ['benzinac', 'auto do 6000 evra', 'gradska vožnja', 'analiza tržišta'],
+                'meta_title' => 'Benzinac za grad do 6.000 evra: kako kupiti mirniji auto',
+                'meta_description' => 'Kako izabrati polovan benzinac za grad do 6.000 evra: gradska vožnja, dizel rizici, servisna istorija i realna računica kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
         ];
     }
 
