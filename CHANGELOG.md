@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.47] - 2026-04-28
+
+### Added
+
+- Added one deeper comparison article covering Audi A4 B8 2.0 TDI vs BMW 320d F30 with more detailed discussion of engine behavior, automatic gearboxes, interior wear, and ownership fit.
+
 ## [0.1.46] - 2026-04-28
 
 ### Added

@@ -2018,6 +2018,45 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f2937', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Audi A4 B8 2.0 TDI ili BMW 320d F30: detaljna analiza motora, menjača i enterijera',
+                'slug' => 'audi-a4-b8-20-tdi-ili-bmw-320d-f30-detaljna-analiza-motora-menjaca-i-enterijera',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ovo nije površno poređenje dve premium dizel limuzine. Gledamo kako se razlikuju 2.0 TDI i 320d motori, kakvi su automatski menjači, koliko enterijer stari i za koga je koji auto realno bolji izbor.',
+                'content' => <<<'TEXT'
+Kada kupac u Srbiji poredi Audi A4 B8 2.0 TDI i BMW 320d F30, obično misli da bira između dva statusno slična automobila i da presuđuju oprema, kilometraža i prvi utisak. To je previše plitak pristup. Kod ova dva modela razliku u ukupnoj kupovini mnogo više prave konkretan motor, tip menjača, stanje trapa i to koliko je prethodni vlasnik bio disciplinovan sa održavanjem.
+
+Ako priču spustimo na motor, Audi A4 B8 2.0 TDI najčešće privlači kupca koji želi mirniji i izolovaniji karakter. Dobar primerak deluje sabrano, tiše na autoputu i manje “nervozno” u svakodnevnoj vožnji. Međutim, kod ovog auta nije dovoljno da 2.0 TDI lepo vuče na test vožnji. Treba proveriti kako pali hladan, da li dimi pod opterećenjem, kakav je trag redovnih servisa i da li su DPF, EGR i zamajac ostavljeni sledećem vlasniku. Ako je u paru sa S tronic menjačem, istorija zamene ulja i ponašanje pri kretanju i promeni stepena prenosa postaju obavezna stavka, ne bonus proverica.
+
+BMW 320d F30 je slična priča samo sa drugačijim akcentima. On kupca često osvaja motorom koji deluje življe i automobilom koji je lakše “čitati” kroz volan i zadnju osovinu. Ali ta vozačka živost ne znači mnogo ako konkretan primerak dolazi iz priče sa zapuštenim servisima, lancem koji nikada nije ozbiljno proveravan kod rizičnijih ranijih verzija, ili automatikom koja lepo radi samo dok se ne zagreje. Kod F30 je zato važno razdvojiti ono što auto obećava u prvih pet minuta vožnje od onoga što će tražiti u prvih godinu dana vlasništva.
+
+Kad govorimo o menjačima, tu kupci često prave veliku grešku. Automatik kod oba modela može biti velika prednost, ali samo kada postoji dokaz da je održavanje stvarno rađeno. Na oglasima se još uvek prečesto prodaje priča da je menjač “bez ulaganja” samo zato što trenutno ne trza. To nije dovoljno. Kod Audija treba obratiti pažnju na ponašanje pri manevrisanju, kretanju uz blagi gas i promenama u nižim stepenima. Kod BMW-a automatik često ostavlja bolji prvi utisak, ali i dalje treba slušati kako radi hladan, da li ima zadrške pri spuštanju prenosa i da li postoji trag servisa menjača, a ne samo servis motora.
+
+Razlika u enterijeru je podjednako važna jer otkriva kako je auto zaista živeo. Audi A4 B8 često deluje čvršće sklopljeno i vizuelno konzervativnije. Kada je dobar, enterijer ostavlja utisak preciznosti i smirenosti, bez mnogo jeftinih detalja koji odaju godine. Ali ako je auto mnogo vožen, upravo će A4 pokazati habanje na komandama, vozačkom sedištu i centralnim površinama koje oglasne fotografije umeju lepo da sakriju.
+
+BMW F30 sa druge strane često deluje modernije i vozački “lakše”, ali enterijer treba gledati bez premijum romantike. Materijali mogu delovati odlično na prvi pogled, ali stanje volana, bočnih oslonaca sedišta, iDrive komandi i sitnih obloga oko tunela često tačno pokaže da li je kilometraža logična. Ako unutra vidiš više umora nego što bi auto sa te kilometraže smeo da ima, taj signal ne smeš ignorisati čak ni ako motor radi lepo.
+
+Na putu je razlika jasna. Audi A4 B8 je bolji za kupca koji hoće stabilan, tih i odrasliji autoputni osećaj bez potrebe da se automobil stalno “vozi”. BMW 320d F30 više odgovara onome kome je bitno da auto deluje lakše, agilnije i direktnije kada put postane krivudav ili kada jednostavno voli aktivniji osećaj za volanom. Ni jedno ni drugo nije automatski bolje; samo znači da kupac mora znati da li traži smiren premium dizel ili premium dizel koji i dalje pokušava da bude vozački zanimljiv.
+
+Troškovi posle kupovine su mesto gde se ova dva auta zaista razdvajaju u glavi racionalnog kupca. Ako uzmeš Audi zato što deluje urednije, a ispostavi se da S tronic nema dokaz o servisu i da su DPF i zamajac već na granici, početni mir brzo nestaje. Ako uzmeš BMW zato što lepše ide i bolje skreće, a u pozadini stoji zapušten trag održavanja ili primerak koji je vožen tvrđe nego što izgleda, računica takođe pada. Premium značke ne opraštaju nestrpljivu kupovinu.
+
+Zato je najpametniji zaključak sledeći: A4 B8 2.0 TDI ima više smisla za kupca koji želi sabraniji auto, tiši enterijer i manje vozačke teatralnosti, ali samo uz jasan dokaz da su motor i menjač održavani kako treba. BMW 320d F30 je bolji za kupca koji hoće življi auto i više uživanja u vožnji, ali samo ako je spreman da bude nemilosrdan prema proveri servisa, lanca kod ranijih primeraka i stvarnog stanja trapa i enterijera.
+
+Između ova dva modela ne bira se lepši oglas, nego uredniji primerak. Ako Audi ima pošten servisni trag, mirniji rad i enterijer koji potvrđuje kilometražu, to je često sigurniji izbor za duga putovanja i svakodnevni mir. Ako BMW ima jasnu istoriju, dobar automatik i manje tragova tvrde eksploatacije, može biti vozački zahvalniji i emotivno jača kupovina. U oba slučaja, motor, menjač i unutrašnjost moraju pričati istu priču. Ako ne pričaju, oglasi samo glume premium klasu.
+TEXT,
+                'highlights' => [
+                    'Kod A4 B8 i F30 presuđuju konkretan motor, tip menjača i trag održavanja, ne samo paket opreme.',
+                    'Audi obično nudi mirniji i tiši karakter, dok BMW češće daje življi osećaj za volanom i direktniji odgovor.',
+                    'Enterijer, hladan start i ponašanje automatika često otkriju više od same oglašene kilometraže.',
+                ],
+                'tags' => ['Audi A4 B8', 'BMW 320d F30', '2.0 TDI', 'detaljna analiza'],
+                'meta_title' => 'Audi A4 B8 2.0 TDI ili BMW 320d F30: detaljna analiza',
+                'meta_description' => 'Detaljno poređenje Audi A4 B8 2.0 TDI i BMW 320d F30 modela: motor, automatik, enterijer, trap, tipične slabosti i profil pravog kupca.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
         ];
     }
 
