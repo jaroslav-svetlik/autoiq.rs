@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.49] - 2026-04-29
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Superb vs Insignia, Toyota C-HR vs Nissan Juke, used Volvo XC60 checks, rental-fleet listing signals, and family automatic value up to 15,000 EUR.
+
 ## [0.1.48] - 2026-04-28
 
 ### Changed

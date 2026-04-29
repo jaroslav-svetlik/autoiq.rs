@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(67, $posts);
+        $this->assertCount(72, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(27, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(29, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
@@ -93,6 +93,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'servisna-knjizica-u-oglasu-kada-je-dokaz-a-kada-samo-dobar-rekvizit'));
         $this->assertTrue($posts->contains('slug', 'benzinac-za-grad-do-6000-evra-kako-kupiti-mirniji-auto-bez-dizel-stresa'));
         $this->assertTrue($posts->contains('slug', 'audi-a4-b8-20-tdi-ili-bmw-320d-f30-detaljna-analiza-motora-menjaca-i-enterijera'));
+        $this->assertTrue($posts->contains('slug', 'skoda-superb-ili-opel-insignia-velika-dizel-limuzina-kada-prostor-nije-dovoljan-argument'));
+        $this->assertTrue($posts->contains('slug', 'toyota-c-hr-ili-nissan-juke-gradski-crossover-kada-stil-ne-sme-da-sakrije-racunicu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volvo-xc60-porodicni-premium-suv-koji-trazi-uredan-servisni-trag'));
+        $this->assertTrue($posts->contains('slug', 'rent-a-car-auto-na-oglasu-kako-ga-prepoznati-pre-nego-sto-te-zavede-oprema'));
+        $this->assertTrue($posts->contains('slug', 'automatik-za-porodicu-do-15000-evra-kada-komfor-sakrije-servisni-rizik'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

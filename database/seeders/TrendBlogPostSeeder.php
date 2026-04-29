@@ -2057,6 +2057,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
             ],
+            [
+                'title' => 'Škoda Superb ili Opel Insignia: velika dizel limuzina kada prostor nije dovoljan argument',
+                'slug' => 'skoda-superb-ili-opel-insignia-velika-dizel-limuzina-kada-prostor-nije-dovoljan-argument',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Superb i Insignia deluju kao logičan izbor za kupca kome treba mnogo prostora za isti novac, ali kod polovnjaka presuđuju menjač, trap, istorija dizela i koliko je auto radio službeni posao.',
+                'content' => <<<'TEXT'
+Škoda Superb i Opel Insignia često završavaju u istoj pretrazi kada kupac želi veliki dizel automobil bez ulaska u stariji premium segment. Na papiru oba modela nude ono što većina porodica i vozača na otvorenom putu traži: mnogo mesta, ozbiljan gepek, dobar osećaj stabilnosti i dovoljno opreme da oglas deluje vrlo privlačno. Problem je što se kod polovnjaka ove klase prostor često preceni, a mehanika potceni.
+
+Superb obično privlači kupca koji želi racionalan automobil sa jakim utiskom praktičnosti. Mesta pozadi ima više nego kod mnogih skupljih limuzina, gepek rešava pola porodičnih dilema i tržište ga lako razume. Ali upravo zbog te reputacije kupac često zaboravi da proveri najskuplje tačke: DSG kada postoji, trag redovnog održavanja 2.0 TDI motora, stanje plivajućeg zamajca, DPF-a i prednjeg trapa. Ako je Superb dugo služio kao autoputni radnik ili flotni auto, njegova praktičnost ne znači mnogo ako servisna disciplina nije pratila tempo.
+
+Insignia sa druge strane često deluje kao povoljniji ulaz u istu ideju: velika limuzina ili karavan za manje novca od konkurencije. To može biti realna prednost, ali samo ako niža cena ne dolazi zajedno sa većim zaostatkom ulaganja. Kod Insignije posebno vredi gledati kako se automobil ponaša preko lošeg asfalta, kako radi hladan dizel, kakav je trag održavanja i da li enterijer otkriva više eksploatacije nego što kilometraža želi da prizna.
+
+Razlika u svakodnevnom utisku takođe nije zanemarljiva. Superb češće deluje prostranije i racionalnije organizovano, posebno za kupca koji često koristi zadnju klupu ili vozi porodicu na duži put. Insignia ume da deluje vizuelno atraktivnije i vozački kompaktnije, ali to ne menja činjenicu da oba automobila treba kupovati kroz stanje konkretnog primerka, a ne kroz katalog dimenzija.
+
+Najpametniji izbor između Superba i Insignije nije model koji nudi više kvadrata lima za isti novac, nego auto koji ima čišći servisni trag i manje otvorenih pitanja oko dizela, automatika i trapa. Ako Superb nudi urednu istoriju i poštenu kilometražu, njegov prostor zaista ima smisla. Ako Insignia za niži novac deluje mehanički svežije i manje umorno, upravo ona može biti bolja kupovina. Kod oba modela prostor je prednost tek kada ne krije skup račun posle kupovine.
+TEXT,
+                'highlights' => [
+                    'Kod Superba i Insignije prostor nije dovoljan argument ako istorija dizela i menjača nije jasna.',
+                    'DSG, plivajući zamajac, DPF i trap često vrede više pažnje od same liste opreme i veličine gepeka.',
+                    'Velika limuzina je dobra kupovina tek kada servisni trag prati način na koji je auto korišćen.',
+                ],
+                'tags' => ['Škoda Superb', 'Opel Insignia', 'dizel limuzina', 'poređenje'],
+                'meta_title' => 'Škoda Superb ili Opel Insignia: koju veliku dizel limuzinu kupiti',
+                'meta_description' => 'Poređenje polovnih Škoda Superb i Opel Insignia modela: prostor, 2.0 dizel, automatik, trap, flotna eksploatacija i realna isplativost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Toyota C-HR ili Nissan Juke: gradski crossover kada stil ne sme da sakrije računicu',
+                'slug' => 'toyota-c-hr-ili-nissan-juke-gradski-crossover-kada-stil-ne-sme-da-sakrije-racunicu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C-HR i Juke kupuju se očima mnogo češće nego razumom, ali kod polovnjaka presuđuju preglednost, zadnja klupa, motor i koliko dizajn prikriva praktične kompromise.',
+                'content' => <<<'TEXT'
+Toyota C-HR i Nissan Juke privlače kupca koji ne želi običan gradski automobil. Oba modela pokušavaju da prodaju više karaktera, višu poziciju sedenja i crossover utisak, ali uz format koji i dalje mora da živi sa gradom, parkingom i svakodnevnim obavezama. Kod polovnjaka je zato vrlo lako pogrešiti ako odluku donese samo dizajn.
+
+C-HR najčešće osvaja urednijim i ozbiljnijim utiskom, posebno kada se pojavi u hibridnoj ili dobro opremljenoj verziji. To zaista može biti prednost za gradsku vožnju, ali kupac ne sme zaboraviti da stilizovana karoserija donosi i određene kompromise: preglednost unazad, osećaj prostora pozadi i praktičnost prtljažnika nisu jednako dobri kao prvi utisak spolja. Ako se C-HR kupuje za porodicu, nije dovoljno da izgleda moderno, već mora dokazati da odgovara načinu života kupca.
+
+Juke je još ekstremniji primer automobila koji tržište često prodaje kroz izgled. On može biti vrlo smislen za vozača koji želi mali gradski auto sa crossover visinom i ne očekuje čuda od zadnje klupe. Međutim, kod polovnog Jukea kupac mora da proveri da li je gradska vožnja ostavila trag na trapu, enterijeru i osnovnom održavanju. Dizajn lako skrene pažnju sa toga da je auto realno služio teži gradski posao nego što kilometraža sama govori.
+
+Razlika između ova dva modela nije samo u tome koji lepše izgleda. C-HR češće ima smisla za kupca koji želi mirniji svakodnevni utisak i bolju reputaciju pogona, posebno ako se gleda hibrid. Juke više odgovara kupcu koji želi stil i kompaktnost, ali mora hladnije prihvatiti da praktičnost nije glavni razlog njegove popularnosti. U oba slučaja, motor, stanje enterijera i realna upotreba vrede više od same estetike.
+
+Najpametniji gradski crossover između C-HR i Jukea nije onaj koji se bolje fotografiše za oglas, nego onaj koji manje laže o svojim kompromisima. Ako C-HR za traženi novac nudi urednu istoriju i mirniju svakodnevnu vožnju, njegova skuplja reputacija može imati smisla. Ako Juke nudi pošteniji primerak i kupac tačno zna da ne kupuje porodični auto nego gradski stilizovani crossover, i on može biti dobra kupovina. Problem nastaje tek kada stil zameni proveru.
+TEXT,
+                'highlights' => [
+                    'C-HR i Juke često osvajaju dizajnom, ali preglednost, zadnja klupa i praktičnost ne smeju ostati sporedni.',
+                    'Kod polovnih gradskih crossovera stanje trapa i enterijera često otkrije teži gradski život nego što oglas pokazuje.',
+                    'Najbolji izbor je model čiji kompromisi odgovaraju stvarnoj upotrebi kupca, ne samo ukusu na fotografiji.',
+                ],
+                'tags' => ['Toyota C-HR', 'Nissan Juke', 'gradski crossover', 'poređenje'],
+                'meta_title' => 'Toyota C-HR ili Nissan Juke: koji gradski crossover kupiti',
+                'meta_description' => 'Poređenje polovnih Toyota C-HR i Nissan Juke modela: dizajn, praktičnost, zadnja klupa, gradska vožnja i realna računica kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#34d399', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Volvo XC60: porodični premium SUV koji traži uredan servisni trag',
+                'slug' => 'polovni-volvo-xc60-porodicni-premium-suv-koji-trazi-uredan-servisni-trag',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'XC60 lako deluje kao mirna premium kupovina za porodicu, ali dobar primerak zavisi od servisa, automatika, elektronike i toga koliko je prethodni vlasnik pratio skupe stavke na vreme.',
+                'content' => <<<'TEXT'
+Volvo XC60 je jedan od onih modela koji kupcu ulivaju poverenje već samim imenom. Deluje porodično, ozbiljno, bez potrebe da se dokazuje agresivnim dizajnom i često ostavlja utisak SUV-a koji je sazreo zajedno sa svojim kupcem. Upravo zato je opasno kupiti ga previše opušteno. Polovni XC60 je dobar samo kada njegova smirena reputacija prati stvarno uredan servisni trag.
+
+Prva stvar koju treba gledati jeste kako je automobil održavan, ne samo gde je servisiran. Premium SUV ove klase nije problem kada je vođen disciplinovano, ali brzo postaje skup kada su automatik, trap, pogon ili elektronika održavani po principu “dok radi, ne diraj”. Kupac ne treba da veruje samo pečatima, već da traži logiku u datumima, kilometrima i konkretnim radovima koji su rađeni.
+
+Drugo, probna vožnja kod XC60 mora da bude mirna, ali pažljiva. Obrati pažnju kako menjač radi pri blagom kretanju, kako auto reaguje preko lošeg asfalta, da li se čuju udarci iz trapa i da li elektronika i komforna oprema rade bez sitnih improvizacija. Kod ovakvog auta “sitnice” retko ostaju sitnice kada dođe vreme za račun.
+
+Treće, XC60 se često kupuje kao porodični kompromis između bezbednosti, komfora i premium osećaja. To ima smisla samo kada auto nije zapušten iza mirnog spoljnog utiska. Sedišta, volan, dugmad, gepek i stanje enterijera treba da potvrde način korišćenja i kilometražu. Ako unutrašnjost deluje umornije nego što oglas obećava, taj signal je obično važniji od lepog dizna ili dodatne opreme.
+
+Najbolji polovni XC60 je onaj koji ne pokušava da se proda samo kroz reputaciju marke. Ako servisna istorija postoji, automatik radi ubedljivo, trap je tih i enterijer prati priču o kilometraži, XC60 može biti vrlo zrela i smirena kupovina. Ako se sve svodi na to da “Volvo deluje sigurno”, onda kupac lako plati premium cenu za prosečan primerak koji tek posle kupovine pokaže pravi karakter troškova.
+TEXT,
+                'highlights' => [
+                    'XC60 ima smisla samo kada premium reputaciju potvrde uredan servisni trag i mehanički miran primerak.',
+                    'Automatik, trap i elektronika kod ovakvog SUV-a moraju se proveravati strože nego kod prosečnog oglasa.',
+                    'Porodični premium SUV nije dobra kupovina ako enterijer i komforna oprema već odaju zapušten život.',
+                ],
+                'tags' => ['Volvo XC60', 'premium SUV', 'kupovina polovnjaka', 'servisna istorija'],
+                'meta_title' => 'Polovni Volvo XC60: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volvo XC60 modela: automatik, trap, elektronika, servisna istorija i realna premium porodična kupovina.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Rent-a-car auto na oglasu: kako ga prepoznati pre nego što te zavede oprema',
+                'slug' => 'rent-a-car-auto-na-oglasu-kako-ga-prepoznati-pre-nego-sto-te-zavede-oprema',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Bivši rent-a-car auto često izgleda mlađe, opremljenije i privlačnije nego što je stvarno očuvan. Kupac mora naučiti kako da prepozna tragove takve eksploatacije pre kupovine.',
+                'content' => <<<'TEXT'
+Rent-a-car automobili umeju da izgledaju kao odlična prilika. Često su relativno mladi, imaju dobru opremu, uredno su oprani za oglas i deluju kao da nude više auta za manje novca. Problem je što takav primerak često nosi mnogo više različitih vozača, više kratkih relacija i manje emotivne pažnje nego auto koji je neko zaista vozio kao svoj.
+
+Prvi signal je kombinacija godišta, opreme i cene. Ako automobil izgleda previše atraktivno za ono što tržište inače traži, kupac treba da se zapita zašto. Rent-a-car primerci često imaju dobar vizuelni paket jer je upravo to bilo važno pri kupovini flote, ali stanje enterijera, volana, ručica i prtljažnika može vrlo brzo otkriti intenzivniju upotrebu nego što broj kilometara sugeriše.
+
+Drugi signal je način habanja. Sedišta na vozačevoj strani, ivice plastika, pragovi, felne i sitni limarski tragovi često više govore od servisnog pečata. Automobil može imati uredne osnovne servise, ali i dalje biti vožen hladan, parkiran grubo i korišćen bez mnogo obzira. Kupac zato mora povezati kako auto izgleda iznutra i spolja sa pričom koju prodavac nudi.
+
+Treći signal je dokumentacija. Ako je automobil zaista dolazio iz rent-a-car ili slične kratkoročne flote, trag u papirima, poreklu ili načinu prodaje obično postoji. Problem nije nužno to što je auto bio iznajmljivan, nego što kupac tu činjenicu ne uključi u procenu cene. Auto sa takvom istorijom mora biti mehanički ubedljiv i cenovno pošteniji da bi bio dobra kupovina.
+
+Najgora greška je kada dobra oprema uspava oprez. Kamera, automatik, navigacija i atraktivan paket mogu delovati kao poklon, ali ako je auto prošao mnogo vozača i mnogo grubih svakodnevica, ta oprema ne menja istoriju eksploatacije. Bivši rent-a-car primerak može biti korektan ako je stanje stvarno dobro i cena to priznaje. Ako ne priznaje, onda je to samo lep oglas sa skriveno težim životom.
+TEXT,
+                'highlights' => [
+                    'Rent-a-car primerci često nude dobru opremu i mlađe godište, ali to ne znači automatski mirniji život auta.',
+                    'Enterijer, pragovi, felne i sitni tragovi habanja često najbrže otkriju mnogo različitih vozača.',
+                    'Takva istorija mora biti uračunata u cenu, inače dobra oprema samo prikriva težu eksploataciju.',
+                ],
+                'tags' => ['rent-a-car', 'provera vozila', 'oprema', 'istorija korišćenja'],
+                'meta_title' => 'Rent-a-car auto na oglasu: kako ga prepoznati',
+                'meta_description' => 'Kako prepoznati bivši rent-a-car auto na oglasu: oprema, habanje enterijera, felne, dokumentacija i realna cena takvog primerka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Automatik za porodicu do 15.000 evra: kada komfor sakrije servisni rizik',
+                'slug' => 'automatik-za-porodicu-do-15000-evra-kada-komfor-sakrije-servisni-rizik',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Porodični automatik do 15.000 evra deluje kao idealan kompromis za grad i put, ali upravo u tom budžetu kupac lako potceni stanje menjača i preceni listu komfora.',
+                'content' => <<<'TEXT'
+Budžet do 15.000 evra danas otvara veliki broj porodičnih polovnjaka sa automatskim menjačem. Na prvi pogled to izgleda kao idealna sredina između komfora, praktičnosti i dovoljno modernog automobila za svaki dan. Problem je što kupci u toj zoni često prebrzo poveruju da je automatik samo dodatni plus, a ne ključni sklop koji mora biti pažljivije proveravan od pola liste opreme zajedno.
+
+Automatik za porodicu ima mnogo smisla kada auto zaista služi gradu, gužvi, putovanjima sa decom i svakodnevnom tempu u kom komfor nešto vredi. Ali baš zato treba odvojiti osećaj udobnosti od tehničke stvarnosti. Menjač koji trenutno deluje uglađeno ne znači mnogo ako nema trag zamene ulja, ako pri hladnom radu skriva trzaje ili ako je auto već odradio težak deo svog života kroz mnogo vuče, grada i stani-kreni režima.
+
+Druga česta greška je poređenje po opremi umesto po stanju. Kupac vidi panoramu, kameru, grejanje sedišta i električna vrata gepeka, pa zaboravi da upravo ti automobili često dolaze sa većom kilometražom ili složenijom mehanikom nego skromniji primerci. Kod porodičnog automatika do 15.000 evra nije poenta da auto ima sve, već da ono što ima radi bez velikih skrivenih računa.
+
+Treća stvar je profil kupovine. Ako porodici stvarno treba veći auto i automatik, nekad ima više smisla uzeti manje atraktivno opremljen, ali urednije održavan primerak. Automobil koji deluje “pun” na oglasu lako postane prazan argument kada prvi veći servis menjača, trapa ili elektronike dođe odmah po kupovini. U tom trenutku komfor više nije dobitak nego izvor nervoze.
+
+Najbolji porodični automatik do 15.000 evra nije onaj koji ostavlja najjači salonski utisak na oglasu, nego onaj kod kog menjač ima istoriju, trap mirno radi i ostatak auta ne krije zamor iza komforne opreme. Kada se to poklopi, automatik zaista vredi svaku dodatnu pažnju. Kada se ne poklopi, upravo komfor postaje najskuplji deo pogrešne kupovine.
+TEXT,
+                'highlights' => [
+                    'Porodični automatik do 15.000 evra treba kupovati kroz stanje menjača, ne kroz listu komforne opreme.',
+                    'Hladan rad, istorija zamene ulja i ponašanje pri blagom kretanju vrede više od prvog uglađenog utiska.',
+                    'Skromnije opremljen, ali urednije održavan automatik često je bolja kupovina od bogatog oglasa sa većim rizikom.',
+                ],
+                'tags' => ['automatik', 'porodica', 'auto do 15000 evra', 'analiza tržišta'],
+                'meta_title' => 'Automatik za porodicu do 15.000 evra: kada se isplati',
+                'meta_description' => 'Kako proceniti polovan automatik za porodicu do 15.000 evra: stanje menjača, komforna oprema, trap, kilometraža i realna servisna računica.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
         ];
     }
 
