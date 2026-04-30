@@ -2202,6 +2202,145 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f2937', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Mazda CX-30 ili Volkswagen T-Roc: kompaktni crossover kada osećaj za volanom menja računicu',
+                'slug' => 'mazda-cx-30-ili-volkswagen-t-roc-kompaktni-crossover-kada-osecaj-za-volanom-menja-racunicu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'CX-30 i T-Roc deluju kao sličan izbor za grad i porodicu, ali razliku često prave motor, enterijer i to koliko kupac zaista ceni vozački osećaj naspram lakše preprodaje.',
+                'content' => <<<'TEXT'
+Mazda CX-30 i Volkswagen T-Roc često završavaju u istoj pretrazi kupca koji želi kompaktni crossover sa modernim izgledom, višom pozicijom sedenja i dovoljno kvaliteta da auto ne deluje kao privremeni kompromis. Na papiru oba modela deluju kao logičan izbor za grad, put i porodičnu svakodnevicu. U praksi, razlika među njima često nastaje tek kada kupac shvati da ne bira samo karoserijski format, nego i karakter automobila.
+
+CX-30 obično više privlači vozača kome je stalo do osećaja za volanom, mirnijeg benzinskog karaktera i enterijera koji deluje zategnutije nego što klasa možda očekuje. To ume da bude ozbiljna prednost ako kupac planira da auto zadrži duže i želi svakodnevni osećaj da vozi nešto smisleno složeno. Problem nastaje kada tržište traži višu cenu samo zbog utiska, a konkretan primerak nema jasan servisni trag ili pokazuje više habanja nego što godine sugerišu.
+
+T-Roc je sa druge strane vrlo često lakše razumljiv kupcu koji gleda oglasnu logiku tržišta. Ime modela, dizajn i šira potražnja često mu pomažu kod dalje prodaje, a to nije zanemarljiva stavka. Ipak, upravo zbog te tržišne preglednosti kupac nekad plati previše za prosečan primerak, posebno ako ga vodi priča o bržoj prodaji, a ne stvarno stanje enterijera, trapa i načina na koji je motor održavan.
+
+Najbolji izbor između CX-30 i T-Roc nije onaj koji zvuči sigurnije u razgovoru sa drugim ljudima, nego onaj koji nudi pošteniji primerak za traženi novac. Ako Mazda nudi mirniji servisni trag i bolji vozački utisak bez skrivene premije, ima vrlo ozbiljan smisao. Ako T-Roc nudi jasniju istoriju, uredno stanje i realniju tržišnu likvidnost, on može biti racionalniji izbor. Kupac ne treba da bira samo klasu auta, nego i filozofiju vlasništva koja mu više odgovara.
+TEXT,
+                'highlights' => [
+                    'CX-30 i T-Roc se ne razlikuju samo dizajnom, već i kroz vozački karakter, enterijer i tržišnu logiku.',
+                    'Mazda češće osvaja vozača osećajem za volanom, dok T-Roc češće dobija poene zbog šire prepoznatljivosti na tržištu.',
+                    'Najbolji kompaktni crossover je onaj koji za traženi novac daje uredniji primerak, ne glasniji brend utisak.',
+                ],
+                'tags' => ['Mazda CX-30', 'Volkswagen T-Roc', 'kompaktni crossover', 'poređenje'],
+                'meta_title' => 'Mazda CX-30 ili Volkswagen T-Roc: koji crossover kupiti',
+                'meta_description' => 'Poređenje polovnih Mazda CX-30 i Volkswagen T-Roc modela: motor, enterijer, vozački osećaj, tržišna potražnja i realna isplativost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Peugeot 508 ili Renault Talisman: velika limuzina kada dizajn ne sme da vodi glavnu reč',
+                'slug' => 'peugeot-508-ili-renault-talisman-velika-limuzina-kada-dizajn-ne-sme-da-vodi-glavnu-rec',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => '508 i Talisman lako osvoje izgledom, ali kod polovnjaka razliku prave mehanika, elektronika, automatik i pitanje da li lepši auto zaista znači i mirniji auto.',
+                'content' => <<<'TEXT'
+Peugeot 508 i Renault Talisman često privlače kupca koji želi veliku modernu limuzinu bez klasične nemačke premije. Obe opcije nude mnogo stila, dobar osećaj dužine i ozbiljniji nastup na putu nego što njihov oglas često košta u poređenju sa poznatijim rivalima. Upravo zato kupac lako poveruje da pametno kupuje “više auta za manje para”. To može biti tačno, ali samo kada stanje konkretne mehanike prati dizajn.
+
+Kod 508 kupca često osvaja utisak modernijeg enterijera i oštrijeg spoljnog dizajna. To deluje kao prednost sve dok se ne zaboravi da elektronika, multimedija i komforna oprema na ovakvim automobilima ne služe samo da impresioniraju na oglasu, nego i da rade bez sitnih nerviranja. Ako je primerak održavan površno, upravo te “male” stvari postaju najuporniji razlog za nezadovoljstvo posle kupovine.
+
+Talisman obično igra na kartu prostranosti, udobnosti i lagodnijeg karaktera. To ume da bude vrlo smislen izbor za vozača koji više ceni mirnu vožnju nego marketinški atraktivan kokpit. Ipak, ni Talisman ne treba kupovati kroz utisak salona. Trap, automatik kada postoji, stanje enterijera i logika servisne istorije moraju potvrditi da automobil nije zapostavljen iza lepog spoljnog paketa.
+
+Najveća greška kod oba modela je kada dizajn zameni pregled. Velika limuzina može delovati mnogo skuplje nego što košta, ali to ne znači da će tako izgledati i prvi ozbiljan račun za održavanje ako je kupac preskočio proveru. Najbolji izbor između 508 i Talisman modela nije lepši auto, nego onaj koji posle probne vožnje i servisa ostavlja manje otvorenih pitanja.
+TEXT,
+                'highlights' => [
+                    '508 i Talisman lako osvoje dizajnom, ali kod polovnjaka dizajn ne sme da zameni proveru mehanike i elektronike.',
+                    'Komforna oprema i moderan enterijer vrede samo ako rade bez prikrivenih sitnih kvarova i improvizacija.',
+                    'Najbolja velika limuzina je ona koja posle pregleda ostavlja manje nepoznanica, ne jači prvi utisak.',
+                ],
+                'tags' => ['Peugeot 508', 'Renault Talisman', 'velika limuzina', 'poređenje'],
+                'meta_title' => 'Peugeot 508 ili Renault Talisman: koju limuzinu kupiti',
+                'meta_description' => 'Poređenje polovnih Peugeot 508 i Renault Talisman modela: dizajn, automatik, elektronika, enterijer i realna isplativost velike limuzine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mercedes GLA: kompaktni premium SUV koji lako sakrije gradsku eksploataciju',
+                'slug' => 'polovni-mercedes-gla-kompaktni-premium-suv-koji-lako-sakrije-gradsku-eksploataciju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'GLA deluje kao siguran premium izbor za grad, ali dobar primerak zavisi od menjača, trapa, istorije servisa i toga koliko je auto živeo samo na urbanim kratkim relacijama.',
+                'content' => <<<'TEXT'
+Mercedes GLA je model koji se na oglasima vrlo lako prodaje kroz ime marke, višu poziciju sedenja i utisak da kupac dobija “mali premium SUV” bez ulaska u veće i skuplje klase. To može biti tačno, ali upravo takvi automobili često žive veoma intenzivan gradski život. Kratke relacije, ivičnjaci, garaže, uska parkiranja i mnogo hladnih startova ostavljaju trag koji se na fotografijama retko vidi jasno.
+
+Kod polovnog GLA zato ne treba prvo gledati zvezdu na haubi, nego način na koji je primerak održavan. Menjač, trap, klima, multimedija i stanje enterijera moraju zajedno potvrditi da auto nije samo lepo očišćen za prodaju. Ako volan, vozačko sedište, prekidači i ivice pragova izgledaju umornije nego što bi kilometraža dozvoljavala, to je ozbiljan signal da je gradska eksploatacija bila teža nego što oglas priznaje.
+
+Drugi važan deo je profil kupca. GLA ima smisla za vozača koji zaista želi kompaktniji premium crossover za grad i put, ali ne treba od njega očekivati čuda sa prostorom ili robusnošću većeg SUV-a. Problem nastaje kada kupac plati premium cenu za ime i izgled, a zanemari da je auto možda već prošao veliki deo svog “lagodnog” života u uslovima koji najviše troše upravo ono što je skupo za održavanje.
+
+Najbolji polovni GLA je onaj koji izgleda premium, ali se ponaša pošteno na pregledu. Ako menjač radi glatko, trap je tih, elektronika ne pokazuje sitne frustracije i servisna istorija je logična, GLA može biti vrlo korektan gradski premium izbor. Ako se sve svodi na to da auto “deluje kao Mercedes”, onda kupac lako plati više za primerak koji tek posle kupovine otkrije koliko je grad već uzeo svoj deo.
+TEXT,
+                'highlights' => [
+                    'GLA se često kupuje kroz premium utisak, ali ga treba proveravati kao auto koji je verovatno živeo vrlo intenzivan gradski ritam.',
+                    'Menjač, trap i enterijer brzo pokažu da li kilometraža i priča oglasa zaista imaju logiku.',
+                    'Najgora kupovina je premium gradski SUV koji spolja izgleda sređeno, a mehanički već nosi gradsku iscrpljenost.',
+                ],
+                'tags' => ['Mercedes GLA', 'premium SUV', 'gradska vožnja', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mercedes GLA: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Mercedes GLA modela: menjač, trap, gradska eksploatacija, enterijer i realna premium računica.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Fotošopirane slike u oglasu: kako prepoznati da fotografije kriju više nego što pokazuju',
+                'slug' => 'fotosopirane-slike-u-oglasu-kako-prepoznati-da-fotografije-kriju-vise-nego-sto-pokazuju',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nisu problem samo loše slike oglasa. Problem su i one koje izgledaju predobro, jer često sakrivaju habanje, boju, limarske razlike i tragove realnog života automobila.',
+                'content' => <<<'TEXT'
+Kupac obično misli da je loša fotografija znak neozbiljnog oglasa, a dobra fotografija znak sigurnije kupovine. To je previše jednostavno. Danas su često veći problem upravo slike koje deluju previše čisto, previše ravnomerno osvetljeno i previše savršeno za realan polovan automobil. Kada oglas izgleda kao katalog, kupac mora pojačati oprez, ne spustiti ga.
+
+Prvi signal su nerealno jednaki tonovi boje i odsustvo svih sitnih nesavršenosti. Ako se na fotografijama ne vide mikrotragovi korišćenja, razlike u odsjaju između elemenata ili prirodna dubina materijala enterijera, moguće je da su fotografije agresivno obrađene. To ne znači automatski da je auto loš, ali znači da prodavac želi da oblikuje prvi utisak jače nego što bi stvarno stanje možda dozvolilo.
+
+Drugi signal su detalji koji su “izgubljeni” baš tamo gde bi kupac voleo da vidi više. Pragovi, donje ivice vrata, bočne strane sedišta, ivice volana, rubovi branika i spojevi limarije često ostanu u senci, zamućeni ili fotografisani iz ugla koji izgleda atraktivno, ali neinformativno. To je trenutak kada dobar oglas prestaje da bude koristan oglas.
+
+Treći signal je nesklad između priče i vizuala. Ako auto navodno ima dosta kilometara, ali enterijer na slikama izgleda kao da nikada nije korišćen, kupac mora tražiti dodatne fotografije i konkretan pregled. Obrada slike može ukloniti nijanse, ali ne može promeniti realno stanje automobila kada staneš pored njega. Zato je najskuplja greška verovati fotografiji više nego logici.
+
+Najpametniji kupac ne traži savršene slike nego poštene slike. Dobar oglas pokazuje i ono što je lepo i ono što je važno za procenu stanja. Kada fotografije izgledaju previše marketinški, to nije razlog za automatsko odbijanje, ali jeste razlog za dodatna pitanja i stroži pregled uživo. Auto se ne kupuje kroz filter.
+TEXT,
+                'highlights' => [
+                    'Previše savršene fotografije mogu biti veći problem od loših slika jer često prikrivaju realno habanje.',
+                    'Pragovi, rubovi sedišta, spojevi limarije i donji delovi vrata moraju se videti jasno ako je oglas pošten.',
+                    'Kupac ne treba da traži savršene fotografije nego fotografije koje daju informacije, ne samo utisak.',
+                ],
+                'tags' => ['fotografije oglasa', 'provera vozila', 'limarija', 'enterijer'],
+                'meta_title' => 'Fotošopirane slike u oglasu: kako ih prepoznati',
+                'meta_description' => 'Kako prepoznati obrađene i previše ulepšane fotografije oglasa: boja, limarija, enterijer, detalji habanja i logika prikaza automobila.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Karavan do 12.000 evra: kada ima više smisla od SUV-a i porodičnog automatika',
+                'slug' => 'karavan-do-12000-evra-kada-ima-vise-smisla-od-suv-a-i-porodicnog-automatika',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kupci često beže ka SUV-u ili automatiku čim budžet poraste, ali dobar karavan do 12.000 evra često nudi više prostora, manje mase i mirniju računicu od popularnijih alternativa.',
+                'content' => <<<'TEXT'
+Kada budžet poraste do oko 12.000 evra, mnogi kupci automatski krenu ka SUV-u ili porodičnom automatiku jer im tržište stalno ponavlja da je to “sledeći nivo” praktičnosti. U stvarnosti, dobar karavan u ovom budžetu često daje više stvarne korisnosti i manje skrivenih troškova od oba ta pravca. Problem je što karavan na oglasu ređe izgleda kao želja, a češće kao racionalna odluka. To ga čini potcenjenim.
+
+Prva prednost karavana je jednostavna: prostor koji služi, a ne samo izgleda veliko. Utovar, nizak prag gepeka, stabilnost na putu i niža masa u odnosu na SUV često daju bolju svakodnevicu porodici koja zaista koristi auto za put, stvari i logistiku. Kupac pritom često dobije više automobila za isti novac jer tržište snažnije nagrađuje crossover izgled nego stvarnu funkcionalnost.
+
+Druga prednost je mehanička računica. SUV i automatik neretko donose više mase, više očekivanja od opreme i često složeniji profil održavanja. To ne znači da su loši, već da kupac mora znati za šta plaća. Dobar karavan može ponuditi mirniji trap, nižu potrošnju, lakšu preglednost mehanike i manje razloga da se oseća kao da je kupio marketinški dodatak na točkovima.
+
+Treća stvar je psihologija kupovine. Karavan retko osvaja na prvu loptu, ali često pobeđuje posle šest meseci vlasništva kada se pokaže koliko malo drame unosi u svakodnevni život. Kupac koji bira kroz realnu upotrebu, a ne kroz trend, često upravo ovde napravi najpametniji potez. Nije glamurozan, ali ume da bude najbolji odnos korisnosti i troška u ovoj zoni budžeta.
+
+Najbolji karavan do 12.000 evra nije dosadna opcija, nego racionalna pobeda nad tržišnim klišeom. Ako porodici stvarno treba prostor, putna stabilnost i mirnija servisna logika, karavan često ima više smisla od SUV-a i skuplje automatske alternative. Problem je samo što to tržište ređe prodaje emocijom, a češće potvrđuje tek iskustvom.
+TEXT,
+                'highlights' => [
+                    'Karavan do 12.000 evra često nudi više stvarnog prostora i manje mase od SUV alternative za isti novac.',
+                    'Niža masa i jednostavnija mehanička računica često znače mirniju dugoročnu kupovinu od popularnijih trendova.',
+                    'Kupac koji bira kroz stvarnu porodičnu upotrebu često u karavanu dobije više smisla nego što oglas na prvi pogled sugeriše.',
+                ],
+                'tags' => ['karavan', 'auto do 12000 evra', 'porodica', 'analiza tržišta'],
+                'meta_title' => 'Karavan do 12.000 evra: kada ima više smisla od SUV-a',
+                'meta_description' => 'Zašto dobar polovni karavan do 12.000 evra često ima više smisla od SUV-a ili porodičnog automatika: prostor, masa, troškovi i praktičnost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#facc15', '#f8fafc'],
+            ],
         ];
     }
 

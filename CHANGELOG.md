@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.50] - 2026-04-30
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Mazda CX-30 vs Volkswagen T-Roc, Peugeot 508 vs Renault Talisman, used Mercedes GLA checks, overprocessed listing photos, and caravan value up to 12,000 EUR.
+
 ## [0.1.49] - 2026-04-29
 
 ### Added
