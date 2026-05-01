@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.52] - 2026-05-01
+
+### Changed
+
+- Shortened Livewire pagination for large result sets so desktop controls show fewer page links.
+
 ## [0.1.51] - 2026-05-01
 
 ### Added

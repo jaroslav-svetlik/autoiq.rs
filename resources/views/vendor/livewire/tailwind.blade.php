@@ -8,6 +8,53 @@ $scrollIntoViewJsSnippet = ($scrollTo !== false)
        (\$el.closest('{$scrollTo}') || document.querySelector('{$scrollTo}')).scrollIntoView()
     JS
     : '';
+
+$currentPage = $paginator->currentPage();
+$lastPage = $paginator->lastPage();
+$compactPages = $lastPage <= 7
+    ? range(1, $lastPage)
+    : [
+        1,
+        $currentPage - 1,
+        $currentPage,
+        $currentPage + 1,
+        ...($currentPage <= 2 ? [2, 3] : []),
+        ...($currentPage >= $lastPage - 1 ? [$lastPage - 2, $lastPage - 1] : []),
+        $lastPage,
+    ];
+
+$compactPages = array_values(array_unique(array_filter(
+    $compactPages,
+    fn ($page) => $page >= 1 && $page <= $lastPage,
+)));
+
+sort($compactPages);
+
+$compactPagination = [];
+$previousPage = null;
+
+foreach ($compactPages as $page) {
+    if ($previousPage !== null && $page - $previousPage > 1) {
+        if ($page - $previousPage === 2) {
+            $compactPagination[] = [
+                'type' => 'page',
+                'page' => $previousPage + 1,
+            ];
+        } else {
+            $compactPagination[] = [
+                'type' => 'gap',
+                'key' => "{$previousPage}-{$page}",
+            ];
+        }
+    }
+
+    $compactPagination[] = [
+        'type' => 'page',
+        'page' => $page,
+    ];
+
+    $previousPage = $page;
+}
 @endphp
 
 <div>
@@ -61,27 +108,23 @@ $scrollIntoViewJsSnippet = ($scrollTo !== false)
                         </button>
                     @endif
 
-                    @foreach ($elements as $element)
-                        @if (is_string($element))
-                            <span aria-disabled="true" class="inline-flex h-10 min-w-10 items-center justify-center rounded-xl px-3 text-sm font-semibold text-slate-500">
-                                {{ $element }}
+                    @foreach ($compactPagination as $entry)
+                        @if ($entry['type'] === 'gap')
+                            <span wire:key="paginator-{{ $paginator->getPageName() }}-gap{{ $entry['key'] }}" aria-disabled="true" class="inline-flex h-10 min-w-10 items-center justify-center rounded-xl px-3 text-sm font-semibold text-slate-500">
+                                ...
                             </span>
-                        @endif
-
-                        @if (is_array($element))
-                            @foreach ($element as $page => $url)
-                                <span wire:key="paginator-{{ $paginator->getPageName() }}-page{{ $page }}">
-                                    @if ($page == $paginator->currentPage())
-                                        <span aria-current="page" class="inline-flex h-10 min-w-10 items-center justify-center rounded-xl bg-amber-400 px-3 text-sm font-bold text-slate-950 shadow-[0_10px_28px_rgba(245,158,11,0.32)]">
-                                            {{ $page }}
-                                        </span>
-                                    @else
-                                        <button type="button" wire:click="gotoPage({{ $page }}, '{{ $paginator->getPageName() }}')" x-on:click="{{ $scrollIntoViewJsSnippet }}" wire:loading.attr="disabled" class="inline-flex h-10 min-w-10 items-center justify-center rounded-xl px-3 text-sm font-semibold text-slate-300 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-amber-300/30 disabled:cursor-not-allowed disabled:opacity-60" aria-label="Idi na stranu {{ $page }}">
-                                            {{ $page }}
-                                        </button>
-                                    @endif
-                                </span>
-                            @endforeach
+                        @else
+                            <span wire:key="paginator-{{ $paginator->getPageName() }}-page{{ $entry['page'] }}">
+                                @if ($entry['page'] == $paginator->currentPage())
+                                    <span aria-current="page" class="inline-flex h-10 min-w-10 items-center justify-center rounded-xl bg-amber-400 px-3 text-sm font-bold text-slate-950 shadow-[0_10px_28px_rgba(245,158,11,0.32)]">
+                                        {{ $entry['page'] }}
+                                    </span>
+                                @else
+                                    <button type="button" wire:click="gotoPage({{ $entry['page'] }}, '{{ $paginator->getPageName() }}')" x-on:click="{{ $scrollIntoViewJsSnippet }}" wire:loading.attr="disabled" class="inline-flex h-10 min-w-10 items-center justify-center rounded-xl px-3 text-sm font-semibold text-slate-300 transition hover:bg-white/10 hover:text-white focus:outline-none focus:ring-2 focus:ring-amber-300/30 disabled:cursor-not-allowed disabled:opacity-60" aria-label="Idi na stranu {{ $entry['page'] }}">
+                                        {{ $entry['page'] }}
+                                    </button>
+                                @endif
+                            </span>
                         @endif
                     @endforeach
 
