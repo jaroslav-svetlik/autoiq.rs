@@ -38,21 +38,11 @@ document.addEventListener('alpine:init', () => {
         },
 
         previous() {
-            if (!this.imageCount) {
-                return;
-            }
-
-            this.active = (this.active - 1 + this.imageCount) % this.imageCount;
-            this.resetZoom();
+            this.setActive(this.active - 1 + this.imageCount);
         },
 
         next() {
-            if (!this.imageCount) {
-                return;
-            }
-
-            this.active = (this.active + 1) % this.imageCount;
-            this.resetZoom();
+            this.setActive(this.active + 1);
         },
 
         previousWhenOpen() {
@@ -67,22 +57,28 @@ document.addEventListener('alpine:init', () => {
             }
         },
 
-        setActive(index) {
+        setActive(index, options = {}) {
             const nextIndex = Number(index);
+            const { scroll = true, behavior = 'smooth' } = options;
 
-            if (!Number.isInteger(nextIndex) || nextIndex < 0 || nextIndex >= this.imageCount) {
+            if (!this.imageCount || !Number.isInteger(nextIndex)) {
                 return;
             }
 
-            this.active = nextIndex;
+            this.active = (nextIndex + this.imageCount) % this.imageCount;
             this.resetZoom();
+
+            if (scroll) {
+                this.scrollActiveThumbnail(behavior);
+            }
         },
 
         openLightbox(index = this.active) {
-            this.setActive(index);
+            this.setActive(index, { scroll: false });
             this.lightboxOpen = true;
             this.zoom = 1;
             document.body.classList.add('overflow-hidden');
+            this.scrollActiveThumbnail('auto');
         },
 
         closeLightbox() {
@@ -101,6 +97,28 @@ document.addEventListener('alpine:init', () => {
 
         resetZoom() {
             this.zoom = 1;
+        },
+
+        scrollActiveThumbnail(behavior = 'smooth') {
+            const activeIndex = this.active;
+
+            this.$nextTick(() => {
+                window.requestAnimationFrame(() => {
+                    const thumbnails = document.querySelectorAll(`[data-gallery-thumbnail="${activeIndex}"]`);
+
+                    thumbnails.forEach((thumbnail) => {
+                        if (!thumbnail.getClientRects().length) {
+                            return;
+                        }
+
+                        thumbnail.scrollIntoView({
+                            behavior,
+                            block: 'nearest',
+                            inline: 'center',
+                        });
+                    });
+                });
+            });
         },
 
         handleWheel(event) {

@@ -93,6 +93,7 @@
                                     type="button"
                                     x-on:click="setActive({{ $index }})"
                                     x-bind:class="active === {{ $index }} ? 'border-cyan-400/70 ring-2 ring-cyan-400/20' : 'border-white/10 opacity-70 hover:opacity-100'"
+                                    data-gallery-thumbnail="{{ $index }}"
                                     class="group relative h-24 w-28 shrink-0 overflow-hidden rounded-2xl border bg-slate-950 transition"
                                     aria-label="Prikaži fotografiju {{ $index + 1 }}"
                                 >
@@ -172,6 +173,7 @@
                                                 type="button"
                                                 x-on:click="setActive({{ $index }})"
                                                 x-bind:class="active === {{ $index }} ? 'border-cyan-400/70 ring-2 ring-cyan-400/25' : 'border-white/10 opacity-70 hover:opacity-100'"
+                                                data-gallery-thumbnail="{{ $index }}"
                                                 class="relative h-20 w-20 shrink-0 overflow-hidden rounded-2xl border bg-slate-900 transition"
                                                 aria-label="Otvori fotografiju {{ $index + 1 }} u uvećanom prikazu"
                                             >

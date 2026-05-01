@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.55] - 2026-05-01
+
+### Fixed
+
+- Kept the selected listing gallery thumbnail in view when navigating images with arrows or keyboard controls.
+
 ## [0.1.54] - 2026-05-01
 
 ### Fixed
