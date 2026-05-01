@@ -2341,6 +2341,151 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f2937', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Honda CR-V ili Mazda CX-5: porodični benzinac kada miran posed vredi više od mode',
+                'slug' => 'honda-cr-v-ili-mazda-cx-5-porodicni-benzinac-kada-miran-posed-vredi-vise-od-mode',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Honda CR-V i Mazda CX-5 deluju kao sigurna kupovina, ali tek kroz motor, prostor, menjač i trošak održavanja vidi se kome koji SUV stvarno leži.',
+                'content' => <<<'TEXT'
+Honda CR-V i Mazda CX-5 često završe u istoj užoj selekciji kada se traži porodični SUV bez premijum cene i bez dizel komplikacija koje kupac ne želi da nosi narednih nekoliko godina. Na oglasima oba modela drže cenu, pa razlika u izboru retko dolazi iz same cifre. Mnogo više znači kakav stil vožnje kupac ima i koliko mu je bitno da auto bude tih, prostran i predvidiv na duži rok.
+
+CR-V uglavnom kupuju ljudi kojima je prioritet komfor i praktičnost. Zadnja klupa je prostranija, gepek je upotrebljiviji za porodična putovanja, a ergonomija je jednostavnija za svakodnevni život. Benzinski motori u Hondi nemaju sportski karakter, ali zato ostavljaju utisak automobila koji ne traži stalnu pažnju. Kada je istorija uredna, CR-V je često mirniji izbor za kupca koji želi da sipa gorivo, radi servise na vreme i ne razmišlja mnogo dalje od toga.
+
+Mazda CX-5 je na drugoj strani privlačnija vozaču. Upravljač je direktniji, položaj za volanom prirodniji, a enterijer deluje zategnutije i skuplje nego što klasa realno obećava. Skyactiv benzinski motori umeju da traže nešto više obrtaja da bi pokazali najbolju stranu, ali upravo tu deo kupaca dobija osećaj koji Honda nema. Ko uživa u vožnji i ne smeta mu tvrđi karakter na lošijem asfaltu, često će se lakše povezati sa Mazdom nego sa CR-V-om.
+
+Kod automatika je važno gledati tip upotrebe. Honda sa klasičnim automatikom ili CVT-om najviše prija vozaču koji traži glatkoću i rasterećenost u gradu. Mazda automatik ume da deluje prirodnije pri međuubrzanjima, ali u loše održavanim primercima može da otkrije nervozu pri hladnom radu ili kasnijem prebacivanju. Nijedan od ova dva SUV-a ne treba birati bez detaljnog pregleda servisne istorije, jer kupac lako poveruje reputaciji i propusti konkretan primerak koji je već ušao u skupu fazu održavanja.
+
+Zaključak je jednostavan: Honda CR-V više ima smisla za porodicu kojoj su prostor, tišina i rasterećen posed ispred vozačkog utiska, dok Mazda CX-5 više opravdava cenu kada kupac traži SUV koji ne deluje tromo i bezlično. Na istom budžetu često nije pitanje koji je model bolji, nego koji primerak ima uredniju istoriju i bolji mehanički trag.
+TEXT,
+                'highlights' => [
+                    'CR-V obično nudi više prostora i mirniji porodični karakter.',
+                    'CX-5 ostavlja bolji utisak za volanom i u kabini.',
+                    'Automatik i uredna istorija su važniji od same reputacije modela.',
+                ],
+                'tags' => ['Honda CR-V', 'Mazda CX-5', 'porodični SUV', 'benzinac'],
+                'meta_title' => 'Honda CR-V ili Mazda CX-5: koji porodični benzinac ima više smisla?',
+                'meta_description' => 'Detaljno poređenje Honda CR-V i Mazda CX-5 kroz prostor, benzinske motore, automatik, komfor i trošak poseda na polovnom tržištu Srbije.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#2563eb', '#e2e8f0'],
+            ],
+            [
+                'title' => 'Polovni Lexus CT 200h: gradski premium hibrid koji traži miran pregled baterije',
+                'slug' => 'polovni-lexus-ct-200h-gradski-premium-hibrid-koji-trazi-miran-pregled-baterije',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lexus CT 200h nudi premijum utisak i hibridnu mehaniku bez velike drame, ali baterija, trap i gradska eksploatacija traže hladnu proveru pre kupovine.',
+                'content' => <<<'TEXT'
+Lexus CT 200h je jedan od onih polovnjaka koji na papiru deluju gotovo idealno za grad: kompaktan, tih pri laganoj vožnji, sa hibridnom reputacijom i enterijerom koji deluje ozbiljnije od prosečnog kompakta. Upravo zbog toga mnogi kupci previše veruju priči o pouzdanosti i preskoče dublju proveru. Reputacija jeste jaka, ali ne popravlja loše održavan primerak.
+
+Najvažnija tačka pregleda je stanje hibridne baterije i trag kako je auto korišćen. CT 200h često živi tipičan gradski život: kratke relacije, ivičnjaci, česti hladni startovi i mnogo sitnih kontakata po karoseriji. To znači da dobar pregled ne sme da se završi samo na dijagnostici. Potrebno je proveriti kako se baterija ponaša u vožnji, kako radi ventilacija sistema, da li postoje neprirodna odstupanja u punjenju i pražnjenju i da li auto ostavlja utisak primerka koji je vožen pažljivo ili samo redovno paljen.
+
+Benzinski motor u kombinaciji sa hibridnim sklopom uglavnom je mirnija priča od mnogih malih turbobenzinaca, ali upravo zato kupac lako zanemari trap. CT 200h ume da sakrije umor na lošijem asfaltu dok ga ne oteraš na probnu vožnju preko neravnina i sitnih poprečnih udaraca. Tu se najbrže čuje da li automobil dolazi iz uredne eksploatacije ili je gradski život već pojeo dobar deo osećaja zategnutosti.
+
+Enterijer je kvalitetan, ali nije imun na tragove zanemarivanja. Izlizani volan, umoran naslon vozačevog sedišta i preterano polirane plastike često govore više od brojke na satu. Ako oglas prikazuje „malo vožen“ primerak, a kabina deluje potrošenije nego što kilometraža obećava, treba podići oprez i proveriti celu priču pre nego što cena počne da deluje primamljivo.
+
+Lexus CT 200h ima najviše smisla za kupca koji želi tih i kultivisan gradski auto, a spreman je da plati malo više za uredan primerak sa čistom istorijom. Najskuplja greška nije kupiti skuplji Lexus, nego jeftiniji Lexus koji na prvu izgleda mirno, a tek posle kupovine pokaže koliko gradska eksploatacija ume da ostavi račun.
+TEXT,
+                'highlights' => [
+                    'Hibridna baterija i način gradske upotrebe moraju da se proveravaju zajedno.',
+                    'Trap i enterijer brzo otkrivaju da li je primerak zaista negovan.',
+                    'Jeftiniji CT 200h lako postane skuplji izbor na srednji rok.',
+                ],
+                'tags' => ['Lexus CT 200h', 'hibrid', 'premium kompakt', 'polovni automobil'],
+                'meta_title' => 'Polovni Lexus CT 200h: šta proveriti pre kupovine?',
+                'meta_description' => 'AutoIQ vodič za Lexus CT 200h: baterija, trap, enterijer i gradska eksploatacija pre kupovine polovnog premium hibrida u Srbiji.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#14b8a6', '#f8fafc'],
+            ],
+            [
+                'title' => 'Oglas bez registarskih tablica: kada je sitnica, a kada ozbiljan signal za oprez',
+                'slug' => 'oglas-bez-registarskih-tablica-kada-je-sitnica-a-kada-ozbiljan-signal-za-oprez',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Zamagljene ili skinute tablice ne znače automatski problem, ali često govore koliko je prodavac spreman da sakrije trag vozila pre nego što ga vidiš uživo.',
+                'content' => <<<'TEXT'
+Mnogi oglasi dolaze sa prekrivenim ili potpuno skinutim registarskim tablicama i deo kupaca to prihvata kao normalnu pojavu. Nekada zaista jeste samo odluka prodavca da ne izlaže auto javno više nego što mora, ali često način na koji su tablice uklonjene govori koliko je pažnje uloženo da se sakrije kontekst vozila. Kada fotografije već na startu deluju zatvoreno i nedorečeno, kupac treba da uspori i postavi nekoliko dodatnih pitanja.
+
+Prva razlika je između uredno zamućene tablice i vozila koje je fotografisano bez tablica, sa praznim nosačima ili tragovima da je auto tek stigao i još nije ušao u normalnu upotrebu. Kod polovnjaka bez tablica treba odmah pitati da li je vozilo odjavljeno, tek uvezeno, vraćeno iz lizinga ili je možda dugo stajalo. Ovakve informacije same po sebi nisu problem, ali bez jasnog odgovora lako sakriju priču koju kupac čuje tek kad ode na lice mesta.
+
+Važno je i šta prati taj detalj. Ako su tablice uklonjene, a oglas nema jasan VIN, servisni trag, račun poslednjeg održavanja ili makar dosledne fotografije spolja i iznutra, dobijaš obrazac, a ne slučajnost. Prodavac koji krije previše sitnica uglavnom te tera da informacije skupljaš kap po kap, što retko prati stvarno dobar primerak.
+
+Na drugoj strani, privatni prodavac sa urednim opisom, normalnim fotografijama i spremnošću da pošalje dodatne informacije ne mora biti sumnjiv samo zato što je zamutio tablice. Tu je ključ komunikacija. Ako bez zatezanja dobiješ šasiju za proveru, detalje o vlasništvu i razlog zašto su tablice sklonjene, verovatno gledaš razumnu meru opreza, a ne pokušaj skrivanja.
+
+Zato tablice ne treba posmatrati kao dokaz nego kao signal. Same po sebi ne znače ni dobar ni loš auto, ali veoma dobro pokazuju koliko transparentno prodavac vodi priču. A na tržištu polovnjaka transparentnost je često bolji filter od lepog sjaja na slikama.
+TEXT,
+                'highlights' => [
+                    'Prekrivene tablice nisu problem ako ostatak oglasa ostaje jasan i proverljiv.',
+                    'Auto bez tablica traži dodatna pitanja o statusu vozila i poreklu.',
+                    'Nedostatak VIN-a i servisnog traga uz ovakav oglas podiže rizik.',
+                ],
+                'tags' => ['tablice', 'provera oglasa', 'VIN', 'polovni automobil'],
+                'meta_title' => 'Oglas bez tablica: kada treba da budeš oprezan?',
+                'meta_description' => 'Kako tumačiti oglas bez registarskih tablica, kada je to normalno, a kada signal za dodatnu proveru pre kupovine polovnog auta.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#f59e0b', '#e5e7eb'],
+            ],
+            [
+                'title' => 'Lanac ili kaiš: kako ta razlika menja trošak polovnog auta u prve dve godine',
+                'slug' => 'lanac-ili-kais-kako-ta-razlika-menja-trosak-polovnog-auta-u-prve-dve-godine',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kupci često misle da je lanac automatski mirniji od kaiša, ali tek kada se uračuna realan servis i rizik kvara vidi se koliko ta razlika menja budžet posle kupovine.',
+                'content' => <<<'TEXT'
+Kada kupac bira polovan automobil, razlika između lanca i kaiša često zvuči kao kratka tehnička stavka koju će usput precrtati. U praksi ta stavka ume ozbiljno da promeni računicu u prve dve godine poseda. Problem je što se oba pojma previše pojednostavljuju: kaiš se doživljava kao obavezan trošak, a lanac kao nešto što „nema servis“. Takav pogled vodi u pogrešne odluke.
+
+Kaiš je skuplja stavka unapred samo zato što je interval zamene poznatiji i lakše se planira. Ako kupiš auto bez jasnog dokaza kada je poslednji put urađen veliki servis, vrlo verovatno ćeš taj trošak morati odmah da uneseš u budžet. To nije prijatno, ali je makar predvidivo. Kupac zna da rešava kritičnu stavku i posle toga određeni period vozi rasterećenije.
+
+Lanac deluje prijatnije upravo zato što mnogo prodavaca voli da ga predstavi kao trajno rešenje. Međutim, lanac nije besplatan niti večan. Ako se automobil vozio sa lošim intervalima zamene ulja, sa hladnim startovima i bez dovoljno pažnje, lanac, zatezači i prateće komponente umeju da naprave račun koji će lako biti veći od uredno planirane zamene kaiša. Najveći problem je što se taj trošak ne vidi u oglasu, nego se čuje tek na hladnom paljenju, pri radu u leru ili kroz mehanički pregled.
+
+Zato kupac ne sme da gleda samo tip razvoda nego i dokaz održavanja. Auto sa kaišem i jasnim računima može biti mirnija kupovina od auta sa lancem kod kog niko ne zna kako je ulje menjano i kada je poslednji put motor stvarno pregledan. Isto važi i obrnuto: kvalitetan primerak sa lancem i urednim servisnim tragom često opravda to što nema neposredan veliki servis na horizontu.
+
+Prava pouka nije da je jedno rešenje bolje od drugog, nego da različito raspoređuju rizik. Kaiš češće donosi planiran trošak odmah posle kupovine, a lanac potencijalno veći, ali manje predvidiv račun ako je auto zanemarivan. Kupac koji to shvati na vreme lakše postavlja realan budžet i manje veruje marketingu u oglasu.
+TEXT,
+                'highlights' => [
+                    'Kaiš češće znači planiran i proverljiv trošak.',
+                    'Lanac nije garancija da motor nema skup servis na vidiku.',
+                    'Istorija održavanja je važnija od same tehničke etikete.',
+                ],
+                'tags' => ['lanac', 'kaiš', 'veliki servis', 'trošak održavanja'],
+                'meta_title' => 'Lanac ili kaiš: šta je povoljnije kod polovnog auta?',
+                'meta_description' => 'AutoIQ objašnjava kako lanac i kaiš menjaju trošak polovnog automobila u prve dve godine i zašto istorija održavanja odlučuje više od etikete.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'SUV do 13.000 evra: da li vredi juriti višu klasu ili kupiti mlađi kompakt',
+                'slug' => 'suv-do-13000-evra-da-li-vredi-juriti-visu-klasu-ili-kupiti-mladi-kompakt',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Na budžetu do 13.000 evra kupci često biraju između starijeg većeg SUV-a i mlađeg kompaktnog crossovera, a prava razlika se vidi tek kroz starost, servis i upotrebu.',
+                'content' => <<<'TEXT'
+Budžet do 13.000 evra otvara jednu od najzamršenijih zona polovnog tržišta: taman si dovoljno visoko da gledaš ozbiljnije SUV modele, ali i dalje nisi u prostoru gde možeš da biraš bez mnogo kompromisa. Zato kupci često upadnu u dilemu da li da uzmu stariji automobil više klase, sa više prostora i jačim imidžom, ili mlađi kompaktni crossover koji nudi manje auta za isti novac, ali i manji mehanički rizik.
+
+Stariji veći SUV privlači zato što na slikama izgleda kao „pravi auto za porodicu“. Dobijaš više prostora, jaču pojavu na putu i često bogatiju opremu. Problem je što se u tom cenovnom okviru često kupuje i više kilometara, stariji automatik, skuplji trap i šira lista potrošnih delova koji više nisu teorija nego realan trošak. Kupac lako zaboravi da ne plaća samo veličinu vozila, nego i veličinu njegovog računa kad dođe vreme za održavanje.
+
+Mlađi kompaktni crossover deluje kao manji zalogaj, ali često bolje odgovara stvarnoj svakodnevici većine ljudi u Srbiji. Lakše se vozi po gradu, jeftiniji je za gume, kočnice i sitnije intervencije, a obično donosi i noviju bezbednosnu i multimedijalnu opremu. Nedostatak je što kupac ponekad plaća više samo zato što je auto mlađi i traženiji, pa dobije manje širine i tišine nego kod starije više klase.
+
+Najvažnije je razumeti sopstveni profil vožnje. Ako porodica zaista često putuje puna, vuče mnogo prtljaga i želi komfor na otvorenom putu, stariji veći SUV može da ima smisla pod uslovom da servisni trag bude jak i da budžet ne stane na kupovnoj ceni. Ako je većina vožnje gradska, a putovanja povremena, mlađi kompakt često nudi zdraviju ukupnu računicu i manje iznenađenja.
+
+U toj zoni tržišta nema univerzalnog pobednika. Najskuplja greška je kupiti klasu koju budžet jedva pokriva, a potom nemati prostora da ispratiš njen nivo održavanja. Zato SUV do 13.000 evra ne treba birati po veličini auta, nego po veličini rizika koji realno možeš da nosiš.
+TEXT,
+                'highlights' => [
+                    'Veći SUV za isti novac obično znači više kilometara i skuplji servisni rizik.',
+                    'Mlađi kompaktni crossover često bolje odgovara gradskoj i mešovitoj upotrebi.',
+                    'Kupovna cena nije dovoljna bez rezervnog budžeta za prvu godinu poseda.',
+                ],
+                'tags' => ['SUV do 13000 evra', 'analiza tržišta', 'crossover', 'polovni automobil'],
+                'meta_title' => 'SUV do 13.000 evra: viša klasa ili mlađi kompakt?',
+                'meta_description' => 'Analiza AutoIQ za SUV do 13.000 evra: kada ima smisla stariji veći SUV, a kada je mlađi kompaktni crossover pametnija kupovina.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#06b6d4', '#f8fafc'],
+            ],
         ];
     }
 

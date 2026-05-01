@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.51] - 2026-05-01
+
+### Added
+
+- Added five non-duplicate SEO blog articles covering Honda CR-V vs Mazda CX-5, used Lexus CT 200h checks, listings without visible plates, chain versus timing belt costs, and SUV value up to 13,000 EUR.
+
 ## [0.1.50] - 2026-04-30
 
 ### Added

@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(77, $posts);
+        $this->assertCount(82, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(31, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(32, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());
@@ -103,6 +103,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-mercedes-gla-kompaktni-premium-suv-koji-lako-sakrije-gradsku-eksploataciju'));
         $this->assertTrue($posts->contains('slug', 'fotosopirane-slike-u-oglasu-kako-prepoznati-da-fotografije-kriju-vise-nego-sto-pokazuju'));
         $this->assertTrue($posts->contains('slug', 'karavan-do-12000-evra-kada-ima-vise-smisla-od-suv-a-i-porodicnog-automatika'));
+        $this->assertTrue($posts->contains('slug', 'honda-cr-v-ili-mazda-cx-5-porodicni-benzinac-kada-miran-posed-vredi-vise-od-mode'));
+        $this->assertTrue($posts->contains('slug', 'polovni-lexus-ct-200h-gradski-premium-hibrid-koji-trazi-miran-pregled-baterije'));
+        $this->assertTrue($posts->contains('slug', 'oglas-bez-registarskih-tablica-kada-je-sitnica-a-kada-ozbiljan-signal-za-oprez'));
+        $this->assertTrue($posts->contains('slug', 'lanac-ili-kais-kako-ta-razlika-menja-trosak-polovnog-auta-u-prve-dve-godine'));
+        $this->assertTrue($posts->contains('slug', 'suv-do-13000-evra-da-li-vredi-juriti-visu-klasu-ili-kupiti-mladi-kompakt'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
