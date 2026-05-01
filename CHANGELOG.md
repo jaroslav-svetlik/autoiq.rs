@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.56] - 2026-05-01
+
+### Fixed
+
+- Prevented listing gallery thumbnail auto-scroll from shifting the whole gallery section when wrapping from the last image back to the first.
+
 ## [0.1.55] - 2026-05-01
 
 ### Fixed

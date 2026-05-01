@@ -107,18 +107,46 @@ document.addEventListener('alpine:init', () => {
                     const thumbnails = document.querySelectorAll(`[data-gallery-thumbnail="${activeIndex}"]`);
 
                     thumbnails.forEach((thumbnail) => {
-                        if (!thumbnail.getClientRects().length) {
+                        const track = thumbnail.closest('[data-gallery-thumbnail-track]');
+
+                        if (!track || !thumbnail.getClientRects().length) {
                             return;
                         }
 
-                        thumbnail.scrollIntoView({
-                            behavior,
-                            block: 'nearest',
-                            inline: 'center',
-                        });
+                        this.scrollThumbnailIntoTrack(thumbnail, track, behavior);
                     });
                 });
             });
+        },
+
+        scrollThumbnailIntoTrack(thumbnail, track, behavior) {
+            const trackRect = track.getBoundingClientRect();
+            const thumbnailRect = thumbnail.getBoundingClientRect();
+            const nextPosition = { behavior };
+
+            if (track.scrollWidth > track.clientWidth) {
+                const centeredLeft = track.scrollLeft
+                    + thumbnailRect.left
+                    - trackRect.left
+                    - ((track.clientWidth - thumbnailRect.width) / 2);
+
+                nextPosition.left = this.clampScroll(centeredLeft, track.scrollWidth - track.clientWidth);
+            }
+
+            if (track.scrollHeight > track.clientHeight) {
+                const centeredTop = track.scrollTop
+                    + thumbnailRect.top
+                    - trackRect.top
+                    - ((track.clientHeight - thumbnailRect.height) / 2);
+
+                nextPosition.top = this.clampScroll(centeredTop, track.scrollHeight - track.clientHeight);
+            }
+
+            track.scrollTo(nextPosition);
+        },
+
+        clampScroll(value, max) {
+            return Math.min(Math.max(value, 0), Math.max(max, 0));
         },
 
         handleWheel(event) {

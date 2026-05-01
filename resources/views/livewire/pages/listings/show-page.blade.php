@@ -86,7 +86,7 @@
                 </div>
 
                 @if($galleryImages->count() > 1)
-                    <div class="overflow-x-auto p-3">
+                    <div class="overflow-x-auto p-3" data-gallery-thumbnail-track>
                         <div class="flex gap-3">
                             @foreach($galleryImages as $index => $image)
                                 <button
@@ -167,7 +167,7 @@
 
                             <div class="grid min-h-0 min-w-0 flex-1 gap-4 lg:grid-cols-[88px_minmax(0,1fr)]">
                                 @if($galleryImages->count() > 1)
-                                    <div class="order-2 flex h-20 min-w-0 shrink-0 gap-3 overflow-x-auto overflow-y-hidden lg:order-1 lg:h-full lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto">
+                                    <div class="order-2 flex h-20 min-w-0 shrink-0 gap-3 overflow-x-auto overflow-y-hidden lg:order-1 lg:h-full lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto" data-gallery-thumbnail-track>
                                         @foreach($galleryImages as $index => $image)
                                             <button
                                                 type="button"
