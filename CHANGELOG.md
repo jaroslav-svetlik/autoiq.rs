@@ -6,6 +6,16 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.53] - 2026-05-01
+
+### Fixed
+
+- Moved the listing gallery carousel state into a CSP-safe Alpine data provider so production sliders, counters, and lightbox controls work under the Livewire CSP bundle.
+
+### Changed
+
+- Added pointer cursors for clickable buttons across the interface while preserving disabled button cursors.
+
 ## [0.1.52] - 2026-05-01
 
 ### Changed

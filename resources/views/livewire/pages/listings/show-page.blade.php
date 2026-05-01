@@ -24,61 +24,12 @@
             <div
                 class="panel overflow-hidden"
                 data-gallery-carousel
-                x-data="{
-                    active: 0,
-                    lightboxOpen: false,
-                    zoom: 1,
-                    images: @js($galleryImages->all()),
-                    previous() {
-                        this.active = (this.active - 1 + this.images.length) % this.images.length;
-                        this.resetZoom();
-                    },
-                    next() {
-                        this.active = (this.active + 1) % this.images.length;
-                        this.resetZoom();
-                    },
-                    setActive(index) {
-                        this.active = index;
-                        this.resetZoom();
-                    },
-                    openLightbox(index = this.active) {
-                        this.active = index;
-                        this.lightboxOpen = true;
-                        this.zoom = 1;
-                        document.body.classList.add('overflow-hidden');
-                    },
-                    closeLightbox() {
-                        this.lightboxOpen = false;
-                        this.resetZoom();
-                        document.body.classList.remove('overflow-hidden');
-                    },
-                    zoomIn() {
-                        this.zoom = Math.min(this.zoom + 0.25, 3);
-                    },
-                    zoomOut() {
-                        this.zoom = Math.max(this.zoom - 0.25, 1);
-                    },
-                    resetZoom() {
-                        this.zoom = 1;
-                    },
-                    handleWheel(event) {
-                        if (! this.lightboxOpen) {
-                            return;
-                        }
-
-                        event.preventDefault();
-
-                        if (event.deltaY < 0) {
-                            this.zoomIn();
-                        } else {
-                            this.zoomOut();
-                        }
-                    },
-                }"
+                data-gallery-images='@json($galleryImages->all())'
+                x-data="listingGallery"
                 x-on:keydown.left.prevent="previous()"
                 x-on:keydown.right.prevent="next()"
-                x-on:keydown.left.window.prevent="if (lightboxOpen) previous()"
-                x-on:keydown.right.window.prevent="if (lightboxOpen) next()"
+                x-on:keydown.left.window.prevent="previousWhenOpen()"
+                x-on:keydown.right.window.prevent="nextWhenOpen()"
                 x-on:keydown.escape.window="closeLightbox()"
                 x-on:livewire:navigating.window="closeLightbox()"
                 tabindex="0"
@@ -93,8 +44,8 @@
                         <img
                             src="{{ $galleryImages->first()['url'] }}"
                             alt="{{ $galleryImages->first()['alt'] }}"
-                            x-bind:src="images[active].url"
-                            x-bind:alt="images[active].alt"
+                            x-bind:src="activeImage.url"
+                            x-bind:alt="activeImage.alt"
                             class="h-full w-full object-cover transition duration-300 hover:scale-[1.02]"
                         >
                     </button>
@@ -109,11 +60,11 @@
                     </div>
 
                     @if($galleryImages->count() > 1)
-                        <div class="absolute inset-x-0 top-1/2 flex -translate-y-1/2 items-center justify-between px-4">
+                        <div class="pointer-events-none absolute inset-x-0 top-1/2 flex -translate-y-1/2 items-center justify-between px-4">
                             <button
                                 type="button"
                                 x-on:click="previous()"
-                                class="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-slate-950/75 text-xl text-white transition hover:border-cyan-400/40 hover:text-cyan-200"
+                                class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-slate-950/75 text-xl text-white transition hover:border-cyan-400/40 hover:text-cyan-200"
                                 aria-label="Prethodna fotografija"
                             >
                                 ‹
@@ -121,7 +72,7 @@
                             <button
                                 type="button"
                                 x-on:click="next()"
-                                class="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-slate-950/75 text-xl text-white transition hover:border-cyan-400/40 hover:text-cyan-200"
+                                class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-slate-950/75 text-xl text-white transition hover:border-cyan-400/40 hover:text-cyan-200"
                                 aria-label="Sledeća fotografija"
                             >
                                 ›
@@ -191,7 +142,7 @@
                                     class="btn-secondary"
                                     aria-label="Vrati početnu veličinu"
                                 >
-                                    <span x-text="Math.round(zoom * 100) + '%'"></span>
+                                    <span x-text="zoomLabel"></span>
                                 </button>
                                 <button
                                     type="button"
@@ -255,9 +206,9 @@
                                 <img
                                     src="{{ $galleryImages->first()['url'] }}"
                                     alt="{{ $galleryImages->first()['alt'] }}"
-                                    x-bind:src="images[active].url"
-                                    x-bind:alt="images[active].alt"
-                                    x-bind:style="`transform: scale(${zoom});`"
+                                    x-bind:src="activeImage.url"
+                                    x-bind:alt="activeImage.alt"
+                                    x-bind:style="zoomStyle"
                                     class="max-h-full max-w-full object-contain transition duration-200 ease-out"
                                 >
                             </div>

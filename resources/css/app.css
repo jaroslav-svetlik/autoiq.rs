@@ -41,6 +41,11 @@
         @apply bg-amber-400/40 text-white;
     }
 
+    button:not(:disabled),
+    [role='button']:not([aria-disabled='true']) {
+        cursor: pointer;
+    }
+
     summary {
         list-style: none;
     }
