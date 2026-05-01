@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.54] - 2026-05-01
+
+### Fixed
+
+- Fixed listing gallery responsiveness on mobile and tablet by constraining grid widths and moving the lightbox out of the blurred panel container.
+
 ## [0.1.53] - 2026-05-01
 
 ### Fixed
