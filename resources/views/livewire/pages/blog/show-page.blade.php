@@ -1,7 +1,7 @@
 @php
-    $paragraphs = collect(preg_split('/\n\s*\n/', trim((string) $blogPost->content)))
-        ->filter(fn ($paragraph) => filled($paragraph))
-        ->values();
+    $blocks = $blogPost->contentBlocks();
+    $paragraphCount = 0;
+    $shownContextualLinks = false;
 @endphp
 
 <div class="space-y-12">
@@ -59,15 +59,32 @@
     <section class="grid gap-8 xl:grid-cols-[1fr_340px] xl:items-start">
         <article class="panel p-6 sm:p-8 lg:p-10">
             <div class="space-y-8">
-                @foreach($paragraphs as $index => $paragraph)
-                    <div class="space-y-4">
-                        @if($index === 0)
-                            <div class="data-kicker">Uvod</div>
+                @foreach($blocks as $index => $block)
+                    @if($block['type'] === 'heading')
+                        @if(($block['level'] ?? 2) === 3)
+                            <h3 class="font-display text-2xl font-bold leading-tight text-white">{{ $block['text'] }}</h3>
+                        @else
+                            <h2 class="font-display text-3xl font-bold leading-tight text-white">{{ $block['text'] }}</h2>
                         @endif
-                        <p class="text-base leading-8 text-slate-200 sm:text-lg">{{ $paragraph }}</p>
-                    </div>
+                    @elseif($block['type'] === 'faq')
+                        <details class="group rounded-[1.75rem] border border-cyan-300/20 bg-cyan-400/[0.06] p-5 sm:p-6">
+                            <summary class="cursor-pointer font-display text-xl font-bold leading-tight text-white marker:text-cyan-200">
+                                {{ $block['question'] }}
+                            </summary>
+                            <p class="mt-4 text-base leading-8 text-slate-200">{{ $block['answer'] }}</p>
+                        </details>
+                    @else
+                        @php($paragraphCount++)
+                        <div class="space-y-4">
+                            @if($paragraphCount === 1)
+                                <div class="data-kicker">Uvod</div>
+                            @endif
+                            <p class="text-base leading-8 text-slate-200 sm:text-lg">{{ $block['text'] }}</p>
+                        </div>
+                    @endif
 
-                    @if($index === 1 && $contextualLinks->isNotEmpty())
+                    @if(!$shownContextualLinks && $paragraphCount >= 2 && $contextualLinks->isNotEmpty())
+                        @php($shownContextualLinks = true)
                         <nav aria-label="Povezani vodiči u tekstu" class="rounded-[1.75rem] border border-amber-300/20 bg-amber-300/[0.07] p-5 sm:p-6">
                             <div class="data-kicker text-amber-200">Povezani vodiči</div>
                             <h2 class="mt-2 font-display text-2xl font-bold text-white">Pročitaj pre sledećeg oglasa</h2>
@@ -99,6 +116,22 @@
                     <div class="mt-5 space-y-3">
                         @foreach($blogPost->highlights as $highlight)
                             <div class="panel-soft p-4 text-sm leading-7 text-slate-200">{{ $highlight }}</div>
+                        @endforeach
+                    </div>
+                </div>
+            @endif
+
+            @if($topicHubPosts->isNotEmpty())
+                <div class="panel p-6">
+                    <div class="data-kicker">Glavni vodiči</div>
+                    <h2 class="mt-2 font-display text-2xl font-bold text-white">Poveži ovaj izbor sa širom računicom</h2>
+
+                    <div class="mt-5 space-y-3">
+                        @foreach($topicHubPosts as $post)
+                            <a href="{{ route('blog.show', $post) }}" wire:navigate class="group block rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition hover:border-cyan-300/35 hover:bg-white/[0.06]">
+                                <div class="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-200">{{ $post->category }}</div>
+                                <div class="mt-2 text-sm font-semibold leading-6 text-white transition group-hover:text-cyan-100">{{ $post->title }}</div>
+                            </a>
                         @endforeach
                     </div>
                 </div>

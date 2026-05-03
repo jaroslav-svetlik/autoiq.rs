@@ -26,6 +26,14 @@ class TrendBlogPostSeeder extends Seeder
                 $post,
             )->fresh();
 
+            if ($blogPost->slug !== $post['slug']) {
+                $blogPost->forceFill([
+                    'slug' => $post['slug'],
+                ])->saveQuietly();
+
+                $blogPost = $blogPost->fresh();
+            }
+
             $path = 'blog/trendovi/'.$blogPost->slug.'-cover.svg';
 
             if ($this->shouldWritePlaceholderCover($blogPost)) {
@@ -45,7 +53,7 @@ class TrendBlogPostSeeder extends Seeder
 
     protected function posts(): array
     {
-        return [
+        return array_merge($this->hubPosts(), [
             [
                 'title' => 'Golf 7 ili Audi A3: šta je pametnija kupovina u Srbiji',
                 'slug' => 'golf-7-ili-audi-a3-sta-je-pametnija-kupovina-u-srbiji',
@@ -55,15 +63,29 @@ class TrendBlogPostSeeder extends Seeder
                 'content' => <<<'TEXT'
 Golf 7 i Audi A3 često ulaze u isti uži izbor jer dele sličnu tehničku osnovu, imaju poznate motore i drže cenu bolje od većine kompaktnih automobila. Razlika je u tome šta kupac zaista želi da plati. Golf je racionalniji izbor kada tražiš jednostavniju kupovinu, više primeraka na tržištu i širi izbor delova. Audi A3 donosi bolji osećaj u kabini i jači premium imidž, ali svaki loš primerak taj imidž brzo pretvori u skuplje održavanje.
 
+## Golf 7 je sigurniji kada želiš lakše poređenje
+
 Kod Golfa 7 najviše smisla imaju automobili sa jasnom servisnom istorijom i realnom kilometražom. Zbog ogromne potražnje ima mnogo oglasa, ali upravo zato ima i velikih razlika između prosečnog i dobrog primerka. Dva Golfa istog godišta mogu delovati slično na fotografijama, a da jedan ima uredan servis menjača, kvačila i dizni, dok drugi samo čeka prvog vlasnika koji će platiti zaostala ulaganja.
+
+## Audi A3 traži strožu proveru premium troškova
 
 Audi A3 treba gledati strože. Kupci ga često biraju jer žele bolji enterijer, bolju izolaciju i osećaj skupljeg automobila, ali kod polovnog A3 taj osećaj vredi samo ako je auto održavan bez preskakanja. Posebno proveri automatski menjač, tragove gradske vožnje, stanje enterijera i da li kilometraža odgovara potrošenosti volana, sedišta i pedala.
 
+## Dizel, DSG i S tronic nisu detalji
+
 Ako kupuješ dizel, ne gledaj samo potrošnju. Kod oba modela treba proveriti DPF, EGR, turbinu i servisni ritam. Dizel ima najviše smisla za otvoren put i veću godišnju kilometražu. Ako uglavnom voziš grad, benzinac može biti mirnija odluka, čak i kada troši malo više, jer skupi dizel kvar lako pojede razliku u potrošnji.
+
+## Šta je pametnija kupovina u Srbiji
 
 Golf 7 je bolji izbor kada hoćeš najlikvidniji polovnjak, lakšu kasniju prodaju i više prostora za poređenje cena. Audi A3 je bolji kada želiš kompaktniji premium osećaj i spreman si da platiš bolji primerak, ne samo oznaku na haubi. Ako su cena, godište i kilometraža slični, prednost daj automobilu sa boljom dokumentacijom, a ne automobilu sa boljim znakom.
 
 Najpametnija kupovina je često dobar Golf umesto prosečnog Audija. Ali ako nađeš A3 sa proverljivom istorijom, korektnom kilometražom i bez tragova zapuštenog održavanja, razlika u ceni može imati smisla. U oba slučaja, pre pregleda napravi listu uporedivih oglasa i ne dozvoli da te oprema ili fotografije odvoje od realnog stanja automobila.
+
+FAQ: Da li je Golf 7 bolji od Audi A3 kao polovnjak?
+Golf 7 je često bolji racionalan izbor zbog većeg izbora, lakšeg poređenja cena i jeftinijeg održavanja. Audi A3 ima smisla kada je istorija održavanja jasna i kada premium cena prati stvarno stanje.
+
+FAQ: Šta proveriti kod Golf 7 ili Audi A3 dizela?
+Proveri DPF, EGR, turbinu, dizne, servisni ritam, hladan start i menjač. Kod DSG ili S tronic menjača posebno traži dokaz o servisu ulja i probnu vožnju u gradu.
 TEXT,
                 'highlights' => [
                     'Golf 7 je sigurniji izbor za likvidnost, dostupnost delova i lakše poređenje oglasa.',
@@ -520,15 +542,29 @@ TEXT,
                 'content' => <<<'TEXT'
 Toyota Yaris Hybrid je jedan od onih polovnjaka koji na papiru deluje skoro idealno za grad. Troši malo, nema klasičan manuelni menjač, dobro podnosi stani-kreni ritam i lak je za parkiranje. Upravo zato je tražen, a kod traženih modela kupac mora biti pažljiviji jer dobra reputacija često podigne cenu i slabijim primercima.
 
+## Zašto Yaris Hybrid ima smisla u gradu
+
 Najveća prednost Yarisa Hybrid je jednostavna svakodnevica. Hibridni sistem pomaže u gradskoj vožnji, automatski prenos je prijatan i auto ne traži dizel režim vožnje da bi ostao zdrav. Za vozača koji najviše prelazi kratke gradske relacije, to je često mirnija kupovina od malog dizela sa DPF-om i EGR-om.
+
+## Baterija, kočnice i servisna istorija
 
 Ipak, hibrid ne znači da nema provere. Pre kupovine treba proveriti stanje hibridne baterije, servisnu istoriju, rad klima uređaja, stanje kočnica i trap. Hibridi često manje troše klasične kočnice zbog regeneracije, ali to ne znači da diskovi, čeljusti i ležajevi ne mogu biti zapušteni. Auto koji je dugo stajao ili je vožen samo kratko takođe može imati svoje tragove.
 
+## Kilometraža i prethodna namena
+
 Posebno obrati pažnju na poreklo i realnu kilometražu. Yaris Hybrid je često radio kao gradski auto, službeno vozilo ili vozilo za dostavu u nekim tržištima. Takav primerak ne mora biti loš ako je održavan, ali kabina, sedišta, volan i vrata treba da odgovaraju priči prodavca. Ako oglas tvrdi da je auto malo vožen, stanje enterijera mora to da potvrdi.
+
+## Cena ne sme da se plati samo zbog oznake Hybrid
 
 Cena je često najveći izazov. Kupci ponekad plate previše samo zato što piše Hybrid i Toyota. Dobar Yaris vredi više od prosečnog malog automobila, ali samo ako istorija i stanje opravdavaju cenu. Ako je razlika u ceni velika, uporedi ga sa benzinskim Yarisom, Hondom Jazz ili drugim manjim gradskim modelima.
 
 Yaris Hybrid je najbolji za kupca koji želi mali, pouzdan i štedljiv gradski auto i spreman je da plati proverljiv primerak. Nije najbolji izbor za nekoga kome treba veliki gepek, česta otvorena putovanja ili najniža moguća kupovna cena. Kod ovog modela pametna kupovina je mirna istorija, ne samo mala potrošnja.
+
+FAQ: Koliko traje baterija kod Toyota Yaris Hybrid?
+Baterija može trajati dugo ako je auto pravilno korišćen i održavan, ali ne treba kupovati bez dijagnostike. Važnije je stanje konkretne baterije nego opšta reputacija Toyote.
+
+FAQ: Da li je Toyota Yaris Hybrid dobar za autoput?
+Može da vozi autoput, ali najviše smisla ima u gradu i mešovitoj vožnji. Ako često voziš duge brze relacije, obavezno proveri buku, potrošnju i komfor na probnoj vožnji.
 TEXT,
                 'highlights' => [
                     'Yaris Hybrid ima najviše smisla za gradsku vožnju i kratke relacije.',
@@ -536,8 +572,8 @@ TEXT,
                     'Dobra reputacija ne opravdava svaku cenu; uporedi stanje, ne samo oznaku Hybrid.',
                 ],
                 'tags' => ['Toyota Yaris Hybrid', 'hibrid', 'gradski auto', 'kupovina polovnjaka'],
-                'meta_title' => 'Polovni Toyota Yaris Hybrid: šta proveriti',
-                'meta_description' => 'Vodič za kupovinu polovnog Toyota Yaris Hybrid: baterija, gradska vožnja, servisna istorija, kočnice, cena i realna isplativost.',
+                'meta_title' => 'Polovni Toyota Yaris Hybrid: baterija i provera',
+                'meta_description' => 'Šta proveriti kod polovnog Toyota Yaris Hybrid: baterija, gradska vožnja, servisna istorija, kočnice, kilometraža i realna cena.',
                 'is_featured' => false,
                 'published_at' => now()->subMinutes(4),
                 'palette' => ['#0f172a', '#34d399', '#f8fafc'],
@@ -551,15 +587,29 @@ TEXT,
                 'content' => <<<'TEXT'
 Automatski menjač je mnogim kupcima postao poželjniji od manuelnog, posebno u gradu i na dužim relacijama. Udobniji je, lakši za vožnju i često čini automobil skupljim i privlačnijim. Ali kod polovnjaka automatik mora da se proverava strože, jer greške nisu uvek očigledne na fotografijama ili kratkom paljenju ispred zgrade.
 
+## Servis ulja i istorija menjača
+
 Prvo pitanje je servisna istorija menjača. Rečenica da je ulje "doživotno" ne znači mnogo kada kupuješ polovan auto sa godinama i kilometražom. Traži račun ili dokaz da je servis menjača rađen u preporučenom intervalu. Ako prodavac kaže da nema potrebe za servisom, to nije automatski dokaz problema, ali jeste razlog za dodatnu proveru.
+
+## Hladna i topla probna vožnja
 
 Probna vožnja mora biti hladna i topla. Hladan start često pokaže trzaje, kašnjenje pri ubacivanju u D ili R i nepravilan rad koji nestane kada se sistem zagreje. Tokom vožnje obrati pažnju na glatko menjanje brzina, proklizavanje, vibracije, udarce pri usporavanju i ponašanje u gužvi. Ne testira se samo ubrzanje, nego i normalna svakodnevna vožnja.
 
+## DSG, CVT i klasični automatik nisu isti rizik
+
 Različiti tipovi automatika imaju različite rizike. Klasični automatik, DSG, CVT i robotizovani menjači ne ponašaju se isto i ne koštaju isto za održavanje. Zato nije dovoljno da oglas kaže "automatik". Treba znati koji je tačno menjač u automobilu, šta je njegov tipičan problem i koliko košta servis u Srbiji.
+
+## Kada opterećenje menja računicu
 
 Ako auto vuče prikolicu, često se vozi u gradu ili ima mnogo snage, opterećenje menjača može biti veće. Isto važi za automobile koji su čipovani ili voženi agresivno. Menjač može raditi korektno na kratkoj vožnji, ali dijagnostika i pregled ulja mogu otkriti tragove koje prodavac ne pominje.
 
 Automatik nije razlog da odustaneš od dobrog auta. Naprotiv, dobar menjač može učiniti svakodnevnu vožnju mnogo prijatnijom. Ali ako nema dokaza o održavanju, ako probna vožnja pokazuje trzaje ili ako cena deluje predobro, računaj menjač kao ozbiljan rizik u pregovorima.
+
+FAQ: Kako proveriti automatski menjač pre kupovine?
+Proveri servis ulja, hladno ubacivanje u D i R, ponašanje u gužvi, usporavanje, ubrzavanje, dijagnostiku i eventualne trzaje ili kašnjenja pri promeni brzina.
+
+FAQ: Da li automatik bez servisne istorije treba kupiti?
+Samo ako cena ostavlja dovoljno prostora za detaljnu proveru i preventivni servis, a probna vožnja je potpuno uredna. Kod trzaja ili kašnjenja bolje je odustati.
 TEXT,
                 'highlights' => [
                     'Servisna istorija menjača je važnija od tvrdnje da je ulje doživotno.',
@@ -567,8 +617,8 @@ TEXT,
                     'Različiti automatici imaju različite rizike, pa proveri tačan tip menjača pre kupovine.',
                 ],
                 'tags' => ['automatski menjač', 'DSG', 'CVT', 'probna vožnja'],
-                'meta_title' => 'Automatski menjač kod polovnjaka: vodič za proveru',
-                'meta_description' => 'Kako proveriti automatski menjač pre kupovine polovnog automobila: servis ulja, probna vožnja, trzaji, DSG, CVT i troškovi.',
+                'meta_title' => 'Kako proveriti automatski menjač kod polovnjaka',
+                'meta_description' => 'Vodič za proveru automatskog menjača pre kupovine polovnog auta: servis ulja, hladna probna vožnja, trzaji, DSG, CVT i troškovi.',
                 'is_featured' => false,
                 'published_at' => now()->subMinutes(3),
                 'palette' => ['#111827', '#38bdf8', '#f8fafc'],
@@ -675,17 +725,33 @@ TEXT,
                 'content' => <<<'TEXT'
 Ford Kuga i Nissan Qashqai iz 2022. i 2023. često ulaze u isti uži izbor jer kupac želi noviji SUV, povišenu poziciju sedenja, dovoljno prostora za porodicu i motor koji neće praviti nervozu u gradu. Ipak, ovo nisu potpuno isti automobili. Kuga je veća, šira i bliža klasi porodičnog SUV-a za duže relacije, dok je Qashqai kompaktniji, lakši za grad i često jednostavniji za svakodnevno parkiranje.
 
+## Ford Kuga je jača kada prostor odlučuje
+
 Kuga ima prednost kada ti je prostor visoko na listi. Duže međuosovinsko rastojanje, veći osećaj automobila i klizna zadnja klupa čine je praktičnijom za porodicu koja često putuje, nosi kolica, torbe ili dečja sedišta. Kod polovnih primeraka 2022-2023 najviše pažnje zaslužuju hibridne verzije, posebno 2.5 FHEV i PHEV. Plug-in Kuga može biti odlična ako je prethodni vlasnik stvarno punio bateriju i ako ti imaš gde da puniš, ali nema smisla platiti PHEV cenu ako će auto stalno raditi kao težak benzinac.
+
+## Nissan Qashqai je lakši za grad
 
 Qashqai je bolji izbor ako ti treba kompaktniji SUV za grad i prigradsku vožnju. Treća generacija donela je moderniji enterijer, dobru bezbednosnu opremu i izbor između 1.3 mild hybrid motora i e-POWER pogona. e-POWER je posebno zanimljiv jer se vozi kao električni auto, ali se ne puni na utičnici. Benzinski motor uglavnom služi kao generator, a to znači mirniji osećaj u gradu i dobar odziv, ali kupac mora da razume da to nije plug-in hibrid i da nema isti električni domet kao Kuga PHEV.
 
+## Potrošnja zavisi od punjenja i relacija
+
 Kod poređenja potrošnje ne gledaj samo fabričke brojke. Kuga PHEV može biti izuzetno štedljiva ako se redovno puni i vozi kratke relacije, ali na autoputu i bez punjenja prednost se smanjuje. Kuga FHEV je jednostavnija za kupca koji ne želi kabl i punjenje. Qashqai e-POWER je prijatan za grad, ali na bržem otvorenom putu treba proveriti realnu potrošnju, buku i ponašanje sistema. Običan 1.3 mild hybrid Qashqai je najjednostavniji za razumevanje, ali nije tako poseban u vožnji kao e-POWER.
 
+## Bezbednost i oprema se proveravaju na konkretnom autu
+
 Bezbednost je jaka strana oba modela, ali proveri konkretan paket opreme. Qashqai treće generacije ima veoma dobre Euro NCAP rezultate iz 2021. godine, dok je aktuelna generacija Kuge ocenjena sa pet zvezdica u ranijem testu. Ipak, kod polovnjaka nije dovoljno da model ima dobar rezultat. Bitno je da konkretan auto nema ozbiljna oštećenja, da su radari i kamere ispravni i da posle eventualne popravke sistemi asistencije rade kako treba.
+
+## Šta proveriti kod uvoza iz EU
 
 Troškovi mogu prelomiti odluku. Kuga je veća i često skuplja za gume, osiguranje, potrošnju i eventualne hibridne provere. Qashqai je kompaktniji i lakši za svakodnevicu, ali e-POWER primerci mogu držati višu cenu zbog tehnologije i novijeg imidža. Ako kupuješ uvoz iz EU, obavezno proveri VIN, servisnu istoriju, stanje baterije kod hibrida, rad menjača ili električnog pogona, tragove oštećenja i da li oprema iz oglasa stvarno postoji na automobilu.
 
 Kuga je pametnija kupovina za porodicu kojoj prostor, gepek, udobnost i mogućnost plug-in vožnje stvarno znače. Qashqai je pametniji za kupca koji želi noviji, pregledan i lakši SUV za grad, uz moderan hibridni osećaj kod e-POWER verzije. Ako su oba automobila iste cene, nemoj birati po znački ili fotografijama. Biraj onaj primerak koji ima jasniju istoriju, manje nepoznanica i pogon koji odgovara tvojoj svakodnevici.
+
+FAQ: Da li je bolji Ford Kuga PHEV ili Nissan Qashqai e-POWER?
+Kuga PHEV je bolja ako imaš gde da puniš i često voziš kraće relacije. Qashqai e-POWER je jednostavniji ako želiš hibridni osećaj bez punjenja na utičnici.
+
+FAQ: Šta proveriti kod Ford Kuga ili Qashqai iz uvoza?
+Proveri VIN, servisnu istoriju, stanje hibridnog sistema, rad kamera i radara, tragove oštećenja, gume, kočnice i da li oprema iz oglasa stvarno postoji.
 TEXT,
                 'highlights' => [
                     'Kuga je bolji izbor za porodicu, duže relacije i kupce koji stvarno mogu da koriste PHEV punjenje.',
@@ -693,8 +759,8 @@ TEXT,
                     'Kod oba modela proveri VIN, servisnu istoriju, hibridni sistem, rad asistencija i tragove oštećenja pre kapare.',
                 ],
                 'tags' => ['Ford Kuga', 'Nissan Qashqai', 'SUV 2022', 'SUV 2023', 'hibrid'],
-                'meta_title' => 'Ford Kuga ili Nissan Qashqai 2022-2023: poređenje',
-                'meta_description' => 'Poređenje Ford Kuga i Nissan Qashqai 2022-2023 polovnjaka: prostor, PHEV, FHEV, e-POWER, potrošnja, oprema i šta proveriti pre kupovine.',
+                'meta_title' => 'Ford Kuga ili Nissan Qashqai 2022/2023: SUV vodič',
+                'meta_description' => 'Poređenje Ford Kuga i Nissan Qashqai 2022/2023 polovnjaka: prostor, PHEV, FHEV, e-POWER, potrošnja, oprema i provera.',
                 'is_featured' => false,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
@@ -786,8 +852,8 @@ TEXT,
                     'Kod oba modela proveri servisni ritam, elektroniku, trap i realnu gradsku potrošnju.',
                 ],
                 'tags' => ['Peugeot 2008', 'Renault Captur', 'mali crossover', 'grad'],
-                'meta_title' => 'Peugeot 2008 ili Renault Captur: polovni crossover',
-                'meta_description' => 'Poređenje polovnih Peugeot 2008 i Renault Captur modela: grad, porodica, motori, elektronika, gepek i praktičnost.',
+                'meta_title' => 'Peugeot 2008 ili Renault Captur: šta kupiti polovno',
+                'meta_description' => 'Poređenje polovnih Peugeot 2008 i Renault Captur modela: grad, porodica, motori, elektronika, gepek, potrošnja i praktičnost.',
                 'is_featured' => false,
                 'published_at' => now(),
                 'palette' => ['#111827', '#38bdf8', '#f8fafc'],
@@ -2868,6 +2934,211 @@ TEXT,
                 'is_featured' => false,
                 'published_at' => now(),
                 'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+        ]);
+    }
+
+    protected function hubPosts(): array
+    {
+        return [
+            [
+                'title' => 'Najbolji polovni automobili do 10.000 evra: kako izabrati bez skupe greške',
+                'slug' => 'najbolji-polovni-automobili-do-10000-evra',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Budžet do 10.000 evra traži hladnu selekciju: stanje, motor, održavanje i namena vrede više od opreme i marke.',
+                'content' => <<<'TEXT'
+Budžet do 10.000 evra u Srbiji može kupiti dobar gradski auto, kompakt, porodični karavan ili stariji SUV, ali ne može kupiti sve odjednom. Najveća greška je tražiti najviše opreme, najjači motor i najlepše fotografije, a tek posle gledati stanje. Kod polovnjaka u ovom budžetu bolja odluka je primerak sa urednom istorijom i manjim rizikom nego atraktivniji auto koji odmah traži velika ulaganja.
+
+## Šta prvo gledati kod auta do 10.000 evra
+
+Prvo odredi realnu namenu. Za gradsku vožnju često ima više smisla benzinac ili hibrid nego dizel sa DPF-om. Za otvoren put dizel može biti dobar, ali samo ako ima servisni trag i ako se vidi da nije ceo život proveo na kratkim relacijama. Za porodicu prostor i bezbedno stanje vrede više od kože, velikih felni i panorame.
+
+## Modeli koji najčešće imaju smisla
+
+U uži izbor često ulaze Volkswagen Golf 7, Audi A3, Škoda Octavia, Toyota Yaris Hybrid, Honda Jazz, Opel Astra, Renault Megane, Kia Ceed, Hyundai i30 i Fiat 500L. To ne znači da je svaki primerak dobra kupovina. Znači samo da za njih postoji dovoljno oglasa, delova, iskustava i servisne podrške da kupac može lakše da poredi.
+
+## Kada preskočiti povoljan oglas
+
+Preskoči oglas kada nema servisne istorije, kada kilometraža ne prati stanje enterijera, kada prodavac izbegava VIN, kada se automobil prodaje bez probne vožnje ili kada cena deluje prenisko u odnosu na slične primerke. Najjeftiniji auto do 10.000 evra često postane skuplji od urednog primerka čim se dodaju gume, veliki servis, kočnice, trap i prvi kvar.
+
+## Kako napraviti uži izbor
+
+Izaberi tri do pet modela koji odgovaraju tvojoj vožnji, zatim poredi samo primerke sa jasnom istorijom, realnom cenom i stanjem koje se može proveriti. Pre kapare proveri VIN, uradi probnu vožnju i pregled kod majstora. Ako auto ne može da prođe taj redosled, nije prava prilika.
+
+FAQ: Koji polovni auto do 10.000 evra je najbolji?
+Ne postoji jedan najbolji model. Za grad često pobeđuju manji benzinci i hibridi, za porodicu kompakti i karavani, a za duži put uredan dizel. Najbolji je primerak koji ima dokazivo stanje i odgovara tvojoj vožnji.
+
+FAQ: Da li kupiti dizel do 10.000 evra?
+Dizel ima smisla ako voziš duže relacije i ima servisnu istoriju. Za kratku gradsku vožnju često je rizičniji zbog DPF-a, EGR-a, turbine i skupljih kvarova.
+TEXT,
+                'highlights' => [
+                    'Do 10.000 evra prvo biraj stanje i namenu, pa tek onda marku i opremu.',
+                    'Dobar benzinac ili hibrid često je mirniji za grad od starijeg dizela.',
+                    'Pre kapare obavezno proveri VIN, servisnu istoriju, probnu vožnju i listu ulaganja.',
+                ],
+                'tags' => ['auto do 10000 evra', 'kupovina polovnjaka', 'budžet', 'polovni automobili'],
+                'meta_title' => 'Najbolji polovni automobili do 10.000 evra',
+                'meta_description' => 'Vodič za izbor polovnog auta do 10.000 evra u Srbiji: benzinac, dizel, hibrid, porodični auto, servisna istorija i šta proveriti.',
+                'is_featured' => false,
+                'published_at' => now()->subDays(2),
+                'palette' => ['#0f172a', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni automatik: šta kupiti i šta izbegavati pre probne vožnje',
+                'slug' => 'polovni-automatik-sta-kupiti-i-sta-izbegavati',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Automatik može biti odlična kupovina, ali samo kada tip menjača, servis ulja i probna vožnja ne ostavljaju nepoznanice.',
+                'content' => <<<'TEXT'
+Polovni automatik treba kupovati drugačije od manuelnog automobila. Kod manuelnog menjača kupac često brzo oseti kvačilo, sinhrone i osnovne probleme. Kod automatika kvar može biti skuplji, a simptomi se nekad pojave tek kada se menjač zagreje, kada se vozi u gužvi ili kada se auto parkira više puta zaredom.
+
+## Tip menjača menja rizik
+
+Nije dovoljno da oglas kaže automatik. Klasični automatik, DSG, CVT i robotizovani menjači ne koštaju isto, ne ponašaju se isto i nemaju iste slabosti. Pre odlaska na pregled saznaj koji je tačno menjač u tom modelu i koliko košta servis ulja ili popravka u Srbiji.
+
+## Servis ulja je ključan dokaz
+
+Prodavac može reći da je menjač odličan, ali račun za servis ulja vredi više od utiska. Kod mnogih polovnih automatika problem nije tehnologija, nego preskočeno održavanje. Ako nema dokaza o servisu, u cenu odmah uračunaj proveru i preventivni servis, a kod trzaja ili kašnjenja budi spreman da odustaneš.
+
+## Probna vožnja mora biti hladna i topla
+
+Menjač proveri kada je auto hladan, zatim posle gradske vožnje. Obrati pažnju na ubacivanje u D i R, trzaje pri kretanju, zadršku pri promeni brzina, vibracije, proklizavanje i ponašanje pri usporavanju. Krug oko parkinga nije dovoljna provera automatika.
+
+FAQ: Da li je DSG loš izbor kao polovnjak?
+DSG nije loš ako ima uredan servis i radi glatko, ali zapušten DSG može biti skup. Bitni su konkretan tip menjača, servisna istorija i probna vožnja, ne samo oznaka DSG.
+
+FAQ: Kada treba odustati od polovnog automatika?
+Odustani ako menjač trza, kasni pri ubacivanju u D ili R, proklizava, nema servisni trag ili prodavac ne dozvoljava ozbiljnu probnu vožnju i dijagnostiku.
+TEXT,
+                'highlights' => [
+                    'Kod automatika prvo saznaj tačan tip menjača, pa tek onda poredi cenu.',
+                    'Servis ulja i probna vožnja hladnog i toplog menjača su obavezni.',
+                    'Trzaji, kašnjenje i nejasna istorija menjaju cenu ili prekidaju kupovinu.',
+                ],
+                'tags' => ['automatik', 'automatski menjač', 'DSG', 'CVT', 'probna vožnja'],
+                'meta_title' => 'Polovni automatik: šta kupiti i šta izbegavati',
+                'meta_description' => 'Vodič za kupovinu polovnog automatika: DSG, CVT, klasični automatik, servis ulja, probna vožnja, trzaji i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now()->subDays(2)->addMinute(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni hibridi: Toyota, Honda i Hyundai koje vredi proveriti',
+                'slug' => 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Hibrid je odličan za grad kada baterija, servisna istorija i prethodna namena potvrđuju da reputacija nije jedini argument.',
+                'content' => <<<'TEXT'
+Polovni hibridi imaju sve više smisla za kupce koji voze grad, kratke relacije i gužvu. Toyota, Honda i Hyundai nude modele koji mogu biti štedljivi i mirni za svakodnevicu, ali hibrid nije auto bez provere. Baterija, kočnice, trap, klima, elektronika i istorija korišćenja i dalje odlučuju da li je kupovina dobra.
+
+## Toyota kao najpoznatiji izbor
+
+Toyota Yaris Hybrid, Auris Hybrid, Corolla Hybrid i RAV4 Hybrid imaju jak ugled i dobru kasniju prodaju. To je prednost, ali i razlog za višu cenu. Kod Toyote ne plaćaj reputaciju ako nema dokaza o servisu, dijagnostici hibridnog sistema i realnom stanju enterijera.
+
+## Honda i Hyundai kao racionalne alternative
+
+Honda Jazz Hybrid i Hyundai Ioniq mogu biti vrlo dobri izbori kada nude urednu istoriju i bolju cenu za stanje. Kod njih proveri bateriju, softver, kočnice i način prethodne vožnje. Posebno pazi na vozila koja su radila intenzivno u gradu, kao službena ili dostavna vozila.
+
+## Šta hibrid ne prašta
+
+Hibrid dobro podnosi grad, ali ne prašta zanemarivanje. Dugo stajanje, loša 12V baterija, zapuštene kočnice, slaba servisna istorija i nejasna kilometraža mogu napraviti trošak. Dijagnostika hibridnog sistema treba da bude deo pregleda, ne dodatak ako ostane vremena.
+
+FAQ: Da li treba brinuti zbog baterije kod polovnog hibrida?
+Baterija nije razlog za automatski strah, ali mora se proveriti dijagnostikom. Mnogo je važnije stanje konkretnog primerka nego opšta reputacija modela.
+
+FAQ: Da li je hibrid bolji od dizela za grad?
+Za kratke gradske relacije hibrid je često mirniji izbor od dizela jer nema iste DPF i EGR rizike. Za duge autoput relacije dobar dizel i dalje može imati bolju računicu.
+TEXT,
+                'highlights' => [
+                    'Hibrid ima najviše smisla za gradsku i mešovitu vožnju.',
+                    'Toyota ima najjaču reputaciju, ali stanje i dijagnostika odlučuju kupovinu.',
+                    'Kod svakog hibrida proveri bateriju, kočnice, 12V bateriju, trap i servisnu istoriju.',
+                ],
+                'tags' => ['polovni hibrid', 'Toyota Hybrid', 'Honda Hybrid', 'Hyundai Ioniq', 'baterija'],
+                'meta_title' => 'Polovni hibridi: Toyota, Honda i Hyundai vodič',
+                'meta_description' => 'Kako kupiti polovan hibrid: Toyota Yaris, Corolla, Honda Jazz, Hyundai Ioniq, baterija, dijagnostika, gradska vožnja i servis.',
+                'is_featured' => false,
+                'published_at' => now()->subDays(2)->addMinutes(2),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Porodični SUV polovnjaci: šta kupiti kada prostor nije jedini kriterijum',
+                'slug' => 'porodicni-suv-polovnjaci-sta-kupiti',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Porodični SUV treba da opravda prostor, troškove, pogon i bezbednost, a ne samo popularnu formu i višu poziciju sedenja.',
+                'content' => <<<'TEXT'
+Porodični SUV je danas najpopularniji odgovor na skoro svaku kupovinu, ali nije svaki SUV bolji porodični auto od kompakta, karavana ili monovolumena. Kupac često plati višu cenu, veće gume i veću potrošnju, a dobije gepek koji nije mnogo bolji od karavana. Zato SUV treba birati po stvarnoj upotrebi.
+
+## Kompaktni ili veći SUV
+
+Nissan Qashqai, Peugeot 3008, Hyundai Tucson, Ford Kuga, Volkswagen Tiguan, Škoda Kodiaq, Toyota RAV4 i Kia Sportage rešavaju različite probleme. Kompaktni SUV je bolji za grad i lakše parkiranje. Veći SUV ima smisla kada često putuješ, nosiš mnogo stvari ili stvarno koristiš zadnju klupu i gepek.
+
+## Troškovi koje oglasi često sakriju
+
+SUV trošak nisu samo gorivo i registracija. Veće gume, trap, kočnice, amortizeri, automatski menjač, pogon na sva četiri točka i hibridni sistemi mogu ozbiljno promeniti računicu. Ako je auto jeftiniji od sličnih primeraka, prvo proveri koji trošak čeka kupca posle prenosa.
+
+## Test porodične upotrebe
+
+Pre kapare ponesi dečje sedište, proveri ISOFIX, gepek, prag utovara, zadnju klupu, preglednost i parkiranje. Auto koji izgleda ozbiljno na fotografijama može biti nezgodan za tvoju rutinu. Porodični SUV treba da olakša dan, ne da samo izgleda kao logičan izbor.
+
+FAQ: Koji porodični SUV je najbolji polovan?
+Najbolji je onaj koji odgovara tvojoj rutini i ima urednu istoriju. Qashqai i 3008 su lakši za grad, Tucson i Kuga su jači porodični kompromisi, a Kodiaq i RAV4 imaju smisla kada prostor i mirnija istorija opravdavaju cenu.
+
+FAQ: Da li je SUV bolji od karavana za porodicu?
+Ne uvek. Karavan često nudi veći gepek, niže troškove i bolju potrošnju. SUV ima smisla ako ti zaista trebaju viši ulazak, lošiji putevi ili povišena pozicija sedenja.
+TEXT,
+                'highlights' => [
+                    'SUV kupuj zbog konkretne porodične upotrebe, ne samo zbog popularnosti.',
+                    'Veće gume, trap, pogon i automatik često su skriveni trošak polovnog SUV-a.',
+                    'Pre kupovine testiraj dečja sedišta, gepek, zadnju klupu i svakodnevno parkiranje.',
+                ],
+                'tags' => ['porodični SUV', 'Tiguan', 'Kodiaq', 'Qashqai', 'Tucson', 'Kuga'],
+                'meta_title' => 'Porodični SUV polovnjaci: šta kupiti',
+                'meta_description' => 'Vodič za izbor porodičnog polovnog SUV-a: Qashqai, 3008, Tucson, Kuga, Tiguan, Kodiaq, RAV4, troškovi, gepek i provera.',
+                'is_featured' => false,
+                'published_at' => now()->subDays(2)->addMinutes(3),
+                'palette' => ['#172033', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kako proveriti polovan auto pre kupovine: redosled koji štedi novac',
+                'slug' => 'kako-proveriti-polovan-auto-pre-kupovine',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dobra provera polovnog auta ima redosled: oglas, VIN, dokumentacija, hladan start, probna vožnja, majstor i tek onda kapara.',
+                'content' => <<<'TEXT'
+Polovan auto se ne proverava tek kada se dogovori cena. Provera počinje čitanjem oglasa i završava se tek kada se stanje, dokumentacija, probna vožnja i pregled kod majstora slože u jednu priču. Ako jedan deo odskače, kapara treba da sačeka.
+
+## Prvi filter je oglas
+
+Gledaj da li opis ima konkretne servise, VIN, jasne fotografije, realnu cenu i podatke koji se mogu proveriti. Oglas pun opštih fraza ne znači automatski problem, ali ne daje dovoljno poverenja. Ako prodavac izbegava pitanja pre gledanja auta, to je već signal.
+
+## Drugi filter su dokumenti i VIN
+
+VIN, servisna knjižica, računi, uvozna dokumentacija, tehnički pregledi i stanje enterijera moraju imati logiku. Kilometraža nije dokaz sama po sebi. Broj na satu treba da se poklopi sa volanom, sedištem, pedalama, gumama, servisima i pričom prodavca.
+
+## Treći filter je probna vožnja i majstor
+
+Probna vožnja treba da uključi hladan start, gradsku vožnju, ubrzanje, kočenje, neravnine, parkiranje i rad menjača. Posle toga majstor treba da proveri karoseriju, dijagnostiku, trap, kočnice, curenja, motor i okvirna ulaganja u novcu. Pregled bez liste troškova nije kompletan.
+
+FAQ: Šta prvo proveriti kod polovnog auta?
+Prvo proveri oglas, VIN, dokumentaciju i da li se kilometraža slaže sa stanjem. Tek zatim ima smisla ići na probnu vožnju i pregled kod majstora.
+
+FAQ: Da li dati kaparu pre pregleda kod majstora?
+Ne, osim ako je uslov jasno dogovoren i povratan. Najsigurnije je da kapara ide tek posle provere dokumentacije, probne vožnje i pregleda.
+TEXT,
+                'highlights' => [
+                    'Provera počinje oglasom i VIN-om, ne tek kod majstora.',
+                    'Kilometraža mora da se poklopi sa stanjem, dokumentacijom i enterijerom.',
+                    'Kapara ima smisla tek kada probna vožnja i pregled daju jasnu listu ulaganja.',
+                ],
+                'tags' => ['provera polovnog auta', 'VIN', 'servisna istorija', 'majstor', 'kapara'],
+                'meta_title' => 'Kako proveriti polovan auto pre kupovine',
+                'meta_description' => 'Redosled provere polovnog auta pre kupovine: oglas, VIN, servisna istorija, kilometraža, probna vožnja, majstor i kapara.',
+                'is_featured' => false,
+                'published_at' => now()->subDays(2)->addMinutes(4),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
             ],
         ];
     }

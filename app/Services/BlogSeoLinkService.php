@@ -69,6 +69,80 @@ class BlogSeoLinkService
     }
 
     /**
+     * @return Collection<int, BlogPost>
+     */
+    public function priorityGuides(int $limit = 6): Collection
+    {
+        $prioritySlugs = $this->priorityGuideSlugs();
+        $priorityPosts = BlogPost::query()
+            ->published()
+            ->whereIn('slug', $prioritySlugs)
+            ->get()
+            ->keyBy('slug');
+
+        $ordered = collect($prioritySlugs)
+            ->map(fn (string $slug) => $priorityPosts->get($slug))
+            ->filter()
+            ->values();
+
+        if ($ordered->count() < $limit) {
+            $fallback = BlogPost::query()
+                ->published()
+                ->whereNotIn('id', $ordered->pluck('id'))
+                ->latest('published_at')
+                ->limit($limit - $ordered->count())
+                ->get();
+
+            $ordered = $ordered->merge($fallback)->values();
+        }
+
+        return $ordered->take($limit)->values();
+    }
+
+    /**
+     * @return Collection<int, BlogPost>
+     */
+    public function topicHubPosts(BlogPost $post, int $limit = 3): Collection
+    {
+        $candidates = BlogPost::query()
+            ->published()
+            ->whereIn('slug', $this->topicHubSlugs())
+            ->whereKeyNot($post->getKey())
+            ->get();
+
+        if ($candidates->isEmpty()) {
+            return collect();
+        }
+
+        $sourceTerms = $this->termsFor($post);
+        $sourceTags = $this->normalizedTags($post);
+
+        $scored = $candidates
+            ->map(fn (BlogPost $candidate) => [
+                'post' => $candidate,
+                'score' => $this->scorePost($post, $candidate, $sourceTerms, $sourceTags),
+            ])
+            ->filter(fn (array $item) => $item['score'] > 0)
+            ->sortByDesc(fn (array $item) => [
+                $item['score'],
+                optional($item['post']->published_at)->timestamp ?? 0,
+                $item['post']->id,
+            ])
+            ->pluck('post')
+            ->values();
+
+        if ($scored->count() < $limit) {
+            $fallback = $candidates
+                ->reject(fn (BlogPost $candidate) => $scored->contains(fn (BlogPost $post) => $post->is($candidate)))
+                ->take($limit - $scored->count());
+
+            $scored = $scored->merge($fallback)->values();
+        }
+
+        return $scored->take($limit)->values();
+    }
+
+    /**
      * @return Collection<int, array{label: string, description: string, url: string}>
      */
     public function marketLinks(BlogPost $post, int $limit = 3): Collection
@@ -126,9 +200,9 @@ class BlogSeoLinkService
 
         if ($links->isEmpty()) {
             $links->push($this->listingLink(
-                label: 'Pogledaj najbolje ocenjene oglase',
-                description: 'Kreni od oglasa sortiranih po AutoIQ oceni i proveri koje ponude najviše odstupaju od proseka.',
-                filters: ['sort' => 'best'],
+                label: 'Pogledaj aktuelne auto oglase',
+                description: 'Kreni od celog tržišta i suzi izbor po modelu, budžetu, godištu, gorivu i opremi.',
+                filters: [],
             ));
         }
 
@@ -194,6 +268,40 @@ class BlogSeoLinkService
             'hibrid' => ['label' => 'Pogledaj hibridne oglase', 'description' => 'Proveri hibridne oglase i uporedi cenu sa potrošnjom, baterijom i stanjem.', 'filters' => ['fuel_type' => FuelType::Hybrid->value, 'sort' => 'best']],
             'elektric' => ['label' => 'Pogledaj električne oglase', 'description' => 'Uporedi električne polovnjake po dometu, bateriji, punjenju i realnoj ceni.', 'filters' => ['fuel_type' => FuelType::Electric->value, 'sort' => 'best']],
             'plin' => ['label' => 'Pogledaj oglase sa TNG pogonom', 'description' => 'Proveri da li ušteda na plinu prati stanje instalacije i realne troškove.', 'filters' => ['fuel_type' => FuelType::Lpg->value, 'sort' => 'best']],
+        ];
+    }
+
+    /**
+     * @return array<int, string>
+     */
+    private function priorityGuideSlugs(): array
+    {
+        return [
+            ...$this->topicHubSlugs(),
+            'golf-7-ili-audi-a3-sta-je-pametnija-kupovina-u-srbiji',
+            'bmw-x3-audi-q5-ili-audi-q3-koji-premium-suv-ima-najvise-smisla',
+            'peugeot-2008-ili-renault-captur-mali-crossover-za-grad-i-porodicu',
+            'volkswagen-tiguan-ili-skoda-kodiaq-koji-porodicni-suv-ima-vise-smisla',
+            'polovni-toyota-yaris-hybrid-gradski-hibrid-koji-trazi-mirnu-istoriju',
+            'ford-kuga-ili-nissan-qashqai-2022-2023-koji-suv-je-pametnija-kupovina',
+            'automatski-menjac-kod-polovnjaka-sta-proveriti-pre-probne-voznje',
+            'pregled-kod-majstora-pre-kupovine-sta-traziti-da-ne-promakne',
+            'fiat-500l-ili-dacia-duster-praktican-polovnjak-za-manje-para',
+            'audi-a4-ili-bmw-320d-premium-limuzina-bez-skupog-iznenadenja',
+        ];
+    }
+
+    /**
+     * @return array<int, string>
+     */
+    private function topicHubSlugs(): array
+    {
+        return [
+            'najbolji-polovni-automobili-do-10000-evra',
+            'polovni-automatik-sta-kupiti-i-sta-izbegavati',
+            'polovni-hibridi-toyota-honda-hyundai-sta-proveriti',
+            'porodicni-suv-polovnjaci-sta-kupiti',
+            'kako-proveriti-polovan-auto-pre-kupovine',
         ];
     }
 
@@ -314,6 +422,8 @@ class BlogSeoLinkService
      */
     private function listingLink(string $label, string $description, array $filters): array
     {
+        unset($filters['sort']);
+
         return [
             'label' => $label,
             'description' => $description,

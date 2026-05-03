@@ -3,6 +3,7 @@
 namespace App\Livewire\Pages;
 
 use App\Models\BlogPost;
+use App\Services\BlogSeoLinkService;
 use App\Services\MarketInsightsService;
 use Illuminate\Contracts\View\View;
 
@@ -44,18 +45,16 @@ class HomePage extends PageComponent
             '@type' => 'WebSite',
             'name' => 'AutoIQ',
             'url' => route('home'),
-            'potentialAction' => [
-                '@type' => 'SearchAction',
-                'target' => route('listings.index').'?search={search_term_string}',
-                'query-input' => 'required name=search_term_string',
-            ],
         ]];
     }
 
     public function render(): View
     {
+        $seoLinks = app(BlogSeoLinkService::class);
+
         return $this->page(view('livewire.pages.home-page', [
             'insights' => app(MarketInsightsService::class)->home(),
+            'priorityGuides' => $seoLinks->priorityGuides(6),
             'latestBlogPosts' => BlogPost::query()
                 ->published()
                 ->latest('published_at')

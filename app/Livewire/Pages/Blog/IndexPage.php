@@ -4,6 +4,7 @@ namespace App\Livewire\Pages\Blog;
 
 use App\Livewire\Pages\PageComponent;
 use App\Models\BlogPost;
+use App\Services\BlogSeoLinkService;
 use Illuminate\Contracts\View\View;
 use Livewire\Attributes\Url;
 use Livewire\WithPagination;
@@ -103,6 +104,9 @@ class IndexPage extends PageComponent
             'featuredPost' => $featuredPost,
             'posts' => $posts,
             'categories' => $categories,
+            'priorityGuides' => $this->category === ''
+                ? app(BlogSeoLinkService::class)->priorityGuides(6)
+                : collect(),
         ]));
     }
 }

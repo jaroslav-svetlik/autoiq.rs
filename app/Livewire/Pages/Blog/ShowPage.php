@@ -46,8 +46,9 @@ class ShowPage extends PageComponent
         $articleUrl = route('blog.show', $this->blogPost);
         $blogUrl = route('blog.index');
         $relatedPosts = $this->seoLinks->relatedPosts($this->blogPost, 3);
+        $faqItems = $this->blogPost->faqItems();
 
-        return [[
+        $structuredData = [[
             '@context' => 'https://schema.org',
             '@type' => 'BlogPosting',
             'url' => $articleUrl,
@@ -118,6 +119,25 @@ class ShowPage extends PageComponent
                 ],
             ],
         ]];
+
+        if ($faqItems->isNotEmpty()) {
+            $structuredData[] = [
+                '@context' => 'https://schema.org',
+                '@type' => 'FAQPage',
+                'mainEntity' => $faqItems
+                    ->map(fn (array $faq) => [
+                        '@type' => 'Question',
+                        'name' => $faq['question'],
+                        'acceptedAnswer' => [
+                            '@type' => 'Answer',
+                            'text' => $faq['answer'],
+                        ],
+                    ])
+                    ->all(),
+            ];
+        }
+
+        return $structuredData;
     }
 
     public function render(): View
@@ -125,6 +145,7 @@ class ShowPage extends PageComponent
         return $this->page(view('livewire.pages.blog.show-page', [
             'contextualLinks' => $this->seoLinks->contextualBlogLinks($this->blogPost, 3),
             'marketLinks' => $this->seoLinks->marketLinks($this->blogPost, 3),
+            'topicHubPosts' => $this->seoLinks->topicHubPosts($this->blogPost, 3),
             'relatedPosts' => $this->seoLinks->relatedPosts($this->blogPost, 3),
         ]));
     }

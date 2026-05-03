@@ -48,12 +48,13 @@ class IndexPage extends PageComponent
     #[Url(as: 'equipment')]
     public array $equipment = [];
 
-    #[Url(as: 'sort')]
+    #[Url(as: 'sort', except: 'newest')]
     public string $sort = 'newest';
 
     public ?string $saveSearchName = null;
 
     protected ListingSearchService $searchService;
+
     protected MarketInsightsService $marketInsights;
 
     public function boot(ListingSearchService $searchService, MarketInsightsService $marketInsights): void
@@ -187,8 +188,20 @@ class IndexPage extends PageComponent
         return [
             ...parent::meta(),
             'description' => 'Pretražite auto oglase u Srbiji uz AutoIQ procenu, analizu cena i filtere koji odmah osvežavaju rezultate.',
-            'canonical' => route('listings.index', array_filter($this->filters(), fn ($value) => $this->hasFilterValue($value))),
+            'canonical' => route('listings.index'),
+            'robots' => $this->shouldIndexCurrentView() ? 'index,follow' : 'noindex,follow',
         ];
+    }
+
+    protected function shouldIndexCurrentView(): bool
+    {
+        if (request()->query() !== []) {
+            return false;
+        }
+
+        return ! collect($this->filters())
+            ->reject(fn (mixed $value, string $key) => $key === 'sort' && $value === 'newest')
+            ->contains(fn (mixed $value) => $this->hasFilterValue($value));
     }
 
     protected function hasFilterValue(mixed $value): bool

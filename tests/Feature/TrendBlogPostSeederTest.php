@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(95, $posts);
+        $this->assertCount(100, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(32, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(33, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
+        $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
+        $this->assertTrue($posts->contains('slug', 'porodicni-suv-polovnjaci-sta-kupiti'));
+        $this->assertTrue($posts->contains('slug', 'kako-proveriti-polovan-auto-pre-kupovine'));
         $this->assertTrue($posts->where('category', 'Kupovina polovnjaka')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Troškovi i održavanje')->isNotEmpty());
         $this->assertTrue($posts->where('category', 'Analiza tržišta')->isNotEmpty());

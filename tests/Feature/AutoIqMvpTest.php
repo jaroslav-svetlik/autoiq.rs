@@ -20,7 +20,30 @@ class AutoIqMvpTest extends TestCase
         $response
             ->assertOk()
             ->assertSee('Analiziraj tržište')
-            ->assertSee('Najbolje ponude');
+            ->assertSee('Najbolje ponude')
+            ->assertSee('"@type": "WebSite"', false)
+            ->assertDontSee('SearchAction', false)
+            ->assertDontSee('search_term_string', false);
+    }
+
+    public function test_listing_index_keeps_filter_urls_out_of_the_index(): void
+    {
+        $canonical = route('listings.index');
+
+        $this->get($canonical)
+            ->assertOk()
+            ->assertSee('<meta name="robots" content="index,follow">', false)
+            ->assertSee('<link rel="canonical" href="'.$canonical.'">', false);
+
+        $this->get(route('listings.index', ['sort' => 'newest']))
+            ->assertOk()
+            ->assertSee('<meta name="robots" content="noindex,follow">', false)
+            ->assertSee('<link rel="canonical" href="'.$canonical.'">', false);
+
+        $this->get(route('listings.index', ['fuel_type' => FuelType::Diesel->value, 'sort' => 'best']))
+            ->assertOk()
+            ->assertSee('<meta name="robots" content="noindex,follow">', false)
+            ->assertSee('<link rel="canonical" href="'.$canonical.'">', false);
     }
 
     public function test_listing_creation_generates_slug_score_and_price_history(): void

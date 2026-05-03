@@ -81,6 +81,24 @@
         </div>
     </section>
 
+    @if($priorityGuides->isNotEmpty())
+        <section class="space-y-6">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                    <div class="data-kicker">Najtraženiji vodiči</div>
+                    <h2 class="section-title mt-2">Poređenja koja već dobijaju Google signal</h2>
+                </div>
+                <a href="{{ route('blog.index') }}" wire:navigate class="btn-secondary">Svi vodiči</a>
+            </div>
+
+            <div class="grid gap-6 lg:grid-cols-3">
+                @foreach($priorityGuides as $post)
+                    <x-blog-post-card :post="$post" compact />
+                @endforeach
+            </div>
+        </section>
+    @endif
+
     <section class="space-y-6">
         <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>

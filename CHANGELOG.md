@@ -6,6 +6,20 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.59] - 2026-05-03
+
+### Added
+
+- Added SEO hub blog guides for used cars under 10,000 EUR, used automatics, used hybrids, family SUVs, and pre-purchase checks.
+- Added structured blog content rendering for H2/H3 sections and FAQ blocks, including FAQPage structured data.
+- Added homepage, blog index, and article-sidebar links to priority SEO guides and topic hubs.
+
+### Changed
+
+- Kept listing filter URLs out of the index with a stable `/oglasi` canonical and `noindex,follow` on query-filtered listing views.
+- Removed the homepage SearchAction schema that generated crawl noise for template search URLs.
+- Refined priority blog meta titles and descriptions for higher CTR search opportunities.
+
 ## [0.1.58] - 2026-05-03
 
 ### Added

@@ -94,6 +94,22 @@
                 </div>
             </div>
 
+            @if($priorityGuides->isNotEmpty())
+                <div class="panel p-6">
+                    <div class="data-kicker">Najtraženiji vodiči</div>
+                    <h2 class="mt-2 font-display text-3xl font-bold text-white">Kreni od najjačih poređenja</h2>
+
+                    <div class="mt-6 space-y-3">
+                        @foreach($priorityGuides as $post)
+                            <a href="{{ route('blog.show', $post) }}" wire:navigate class="group block rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition hover:border-amber-300/35 hover:bg-white/[0.06]">
+                                <div class="text-xs font-semibold uppercase tracking-[0.18em] text-amber-200">{{ $post->category }}</div>
+                                <div class="mt-2 text-sm font-semibold leading-6 text-white transition group-hover:text-amber-100">{{ $post->title }}</div>
+                            </a>
+                        @endforeach
+                    </div>
+                </div>
+            @endif
+
             <div class="panel p-6">
                 <div class="data-kicker">Zašto blog</div>
                 <ul class="mt-4 space-y-4 text-sm leading-7 text-slate-300">

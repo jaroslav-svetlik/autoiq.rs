@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
 
 class BlogPost extends Model
@@ -81,5 +82,72 @@ class BlogPost extends Model
     public function excerptText(): string
     {
         return $this->excerpt ?: str($this->content)->squish()->limit(180)->toString();
+    }
+
+    /**
+     * @return Collection<int, array{type: string, text?: string, level?: int, question?: string, answer?: string}>
+     */
+    public function contentBlocks(): Collection
+    {
+        return collect(preg_split('/\n\s*\n/', trim((string) $this->content)))
+            ->filter(fn (string $block) => filled($block))
+            ->map(fn (string $block) => $this->parseContentBlock($block))
+            ->values();
+    }
+
+    /**
+     * @return Collection<int, array{question: string, answer: string}>
+     */
+    public function faqItems(): Collection
+    {
+        return $this->contentBlocks()
+            ->where('type', 'faq')
+            ->map(fn (array $block) => [
+                'question' => $block['question'],
+                'answer' => $block['answer'],
+            ])
+            ->values();
+    }
+
+    /**
+     * @return array{type: string, text?: string, level?: int, question?: string, answer?: string}
+     */
+    private function parseContentBlock(string $block): array
+    {
+        $block = trim($block);
+
+        if (str_starts_with($block, '### ')) {
+            return [
+                'type' => 'heading',
+                'level' => 3,
+                'text' => trim(substr($block, 4)),
+            ];
+        }
+
+        if (str_starts_with($block, '## ')) {
+            return [
+                'type' => 'heading',
+                'level' => 2,
+                'text' => trim(substr($block, 3)),
+            ];
+        }
+
+        if (str_starts_with($block, 'FAQ:')) {
+            $lines = collect(preg_split('/\R/', $block))
+                ->map(fn (string $line) => trim($line))
+                ->filter()
+                ->values();
+
+            return [
+                'type' => 'faq',
+                'question' => trim((string) str($lines->shift() ?? '')->after('FAQ:')),
+                'answer' => $lines->implode(' '),
+            ];
+        }
+
+        return [
+            'type' => 'paragraph',
+            'text' => $block,
+        ];
     }
 }

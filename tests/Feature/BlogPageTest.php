@@ -117,10 +117,39 @@ class BlogPageTest extends TestCase
             ->assertSee('Pogledaj Volkswagen Golf 7 oglase')
             ->assertSee('brand=Volkswagen', false)
             ->assertSee('model=Golf%207', false)
+            ->assertDontSee('sort=best', false)
             ->assertSee('Otvori celu temu')
             ->assertSee('"about"', false)
             ->assertSee('"mentions"', false)
             ->assertSee('"isPartOf"', false);
+    }
+
+    public function test_blog_show_page_renders_headings_and_faq_schema_from_structured_content(): void
+    {
+        $hub = BlogPost::factory()->create([
+            'title' => 'Kako proveriti polovan auto pre kupovine',
+            'slug' => 'kako-proveriti-polovan-auto-pre-kupovine',
+            'category' => 'Provera vozila',
+            'tags' => ['provera vozila', 'majstor'],
+            'published_at' => now()->subDays(2),
+        ]);
+
+        $post = BlogPost::factory()->create([
+            'title' => 'Pregled kod majstora pre kupovine',
+            'category' => 'Provera vozila',
+            'tags' => ['provera vozila', 'majstor'],
+            'content' => "Prvi pasus uvoda.\n\n## Provera dokumentacije\n\nDrugi pasus sa detaljima.\n\nFAQ: Da li dati kaparu pre pregleda?\nNe pre pregleda kod majstora i provere dokumentacije.",
+            'published_at' => now()->subDay(),
+        ]);
+
+        $this->get(route('blog.show', $post))
+            ->assertOk()
+            ->assertSee('<h2 class="font-display text-3xl font-bold leading-tight text-white">Provera dokumentacije</h2>', false)
+            ->assertSee('Da li dati kaparu pre pregleda?')
+            ->assertSee('"@type": "FAQPage"', false)
+            ->assertSee('"@type": "Question"', false)
+            ->assertSee('Glavni vodiči')
+            ->assertSee($hub->title);
     }
 
     public function test_home_page_and_sitemap_include_blog_content(): void
@@ -133,6 +162,7 @@ class BlogPageTest extends TestCase
         $this->get(route('home'))
             ->assertOk()
             ->assertSee('Praktični vodiči za pametniju kupovinu')
+            ->assertSee('Najtraženiji vodiči')
             ->assertSee($post->title);
 
         $this->get(route('sitemap'))
@@ -144,6 +174,31 @@ class BlogPageTest extends TestCase
             ->assertSee(route('blog.show', $post))
             ->assertSee('<lastmod>'.$post->updated_at->toAtomString().'</lastmod>', false)
             ->assertHeaderMissing('Set-Cookie');
+    }
+
+    public function test_priority_guides_are_visible_on_home_and_blog_index(): void
+    {
+        $priority = BlogPost::factory()->create([
+            'title' => 'Golf 7 ili Audi A3: šta je pametnija kupovina u Srbiji',
+            'slug' => 'golf-7-ili-audi-a3-sta-je-pametnija-kupovina-u-srbiji',
+            'published_at' => now()->subDay(),
+        ]);
+
+        BlogPost::factory()->create([
+            'title' => 'Običan najnoviji tekst',
+            'slug' => 'obican-najnoviji-tekst',
+            'published_at' => now(),
+        ]);
+
+        $this->get(route('home'))
+            ->assertOk()
+            ->assertSee('Poređenja koja već dobijaju Google signal')
+            ->assertSee($priority->title);
+
+        $this->get(route('blog.index'))
+            ->assertOk()
+            ->assertSee('Kreni od najjačih poređenja')
+            ->assertSee($priority->title);
     }
 
     public function test_robots_txt_points_to_sitemap(): void
