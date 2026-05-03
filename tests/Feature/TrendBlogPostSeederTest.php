@@ -22,7 +22,7 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(92, $posts);
+        $this->assertCount(95, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
@@ -118,6 +118,9 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'euro-6-dizel-iz-uvoza-kada-niska-potrosnja-ne-opravdava-emisijski-rizik'));
         $this->assertTrue($posts->contains('slug', 'hibrid-sa-velikom-kilometrazom-kada-baterija-nije-jedini-rizik'));
         $this->assertTrue($posts->contains('slug', 'polovni-mini-countryman-sarmantan-crossover-koji-mora-opravdati-premium-cenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-vitara-mali-suv-koji-ne-treba-kupiti-samo-zbog-reputacije'));
+        $this->assertTrue($posts->contains('slug', 'auto-kupljen-na-aukciji-kada-niza-cena-nosi-skuplji-rizik'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volvo-v60-karavan-za-porodicu-koji-trazi-proveru-automatika-i-trapa'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

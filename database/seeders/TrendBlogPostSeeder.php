@@ -15,6 +15,12 @@ class TrendBlogPostSeeder extends Seeder
             $palette = $post['palette'];
             unset($post['palette']);
 
+            $existingPost = BlogPost::query()->where('slug', $post['slug'])->first();
+
+            if ($existingPost?->published_at) {
+                $post['published_at'] = $existingPost->published_at;
+            }
+
             $blogPost = BlogPost::query()->updateOrCreate(
                 ['slug' => $post['slug']],
                 $post,
@@ -2775,6 +2781,93 @@ TEXT,
                 'is_featured' => false,
                 'published_at' => now(),
                 'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Suzuki Vitara: mali SUV koji ne treba kupiti samo zbog reputacije',
+                'slug' => 'polovni-suzuki-vitara-mali-suv-koji-ne-treba-kupiti-samo-zbog-reputacije',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vitara često deluje kao jednostavan i siguran mali SUV, ali konkretan polovan primerak treba proveriti kroz pogon, trap, koroziju, servis i realnu gradsku upotrebu.',
+                'content' => <<<'TEXT'
+Suzuki Vitara je jedan od onih polovnjaka koji kupci često stave u uži izbor kada žele mali SUV bez premium troškova, sa dobrom preglednošću i reputacijom jednostavnijeg održavanja. To je dobra polazna tačka, ali nije dovoljno za kupovinu. Kod polovnog automobila reputacija marke pomaže tek kada konkretan primerak potvrdi da je zaista održavan kako treba.
+
+Prva provera treba da bude servisna istorija i način vožnje. Vitara često živi mešovit život: grad, kraći put, vikend ture, lošiji asfalt i povremeno sneg ili makadam. Ako auto ima pogon na sve točkove, treba proveriti da li sistem radi pravilno, da li su gume ujednačene i da li postoji trag redovnog održavanja. Pogon je prednost samo ako nije zapušten.
+
+Druga tema je trap. Mali SUV može delovati robusno, ali ivičnjaci, rupe i loš put brzo ostave trag na gumama, ležajevima, sponama i amortizerima. Na probnoj vožnji Vitara treba da bude mirna, bez lupkanja i plivanja preko neravnina. Ako prodavac govori da je sve normalno za SUV, to nije dovoljan odgovor bez pregleda.
+
+Kod starijih primeraka treba gledati i koroziju, posebno ispod vozila, na pragovima, spojevima i mestima gde se skuplja prljavština. Automobil koji izgleda uredno spolja može imati zapušten donji deo ako je godinama vožen zimi, po soli ili van boljeg asfalta. To nije uvek presudno, ali mora biti uračunato u cenu.
+
+Polovna Vitara ima smisla za kupca koji želi praktičan, pregledan i relativno jednostavan mali SUV. Ipak, najbolji izbor nije najlepša fotografija ni najniža kilometraža, nego primerak gde servis, trap, pogon i stanje karoserije pričaju istu priču. Ako se to poklopi, Vitara može biti vrlo razumna kupovina. Ako se ne poklopi, reputacija ne plaća račun.
+TEXT,
+                'highlights' => [
+                    'Vitara ima smisla kada servisna istorija potvrđuje reputaciju jednostavnog malog SUV-a.',
+                    'Kod 4x4 verzija proveri pogon, gume i trag održavanja, ne samo oznaku u oglasu.',
+                    'Trap i korozija često otkrivaju stvarnu gradsku i zimsku eksploataciju.',
+                ],
+                'tags' => ['Suzuki Vitara', 'mali SUV', '4x4', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Suzuki Vitara: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Suzuki Vitara modela: servisna istorija, 4x4 pogon, trap, korozija, gume i realna vrednost malog SUV-a.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(6),
+                'palette' => ['#102033', '#06b6d4', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto kupljen na aukciji: kada niža cena nosi skuplji rizik',
+                'slug' => 'auto-kupljen-na-aukciji-kada-niza-cena-nosi-skuplji-rizik',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aukcijski automobili mogu biti dobra prilika, ali kupac mora znati zašto je vozilo završilo tamo, šta piše u izveštaju i koliko košta rizik bez klasične istorije.',
+                'content' => <<<'TEXT'
+Automobil kupljen na aukciji često zvuči kao odlična prilika: niža ulazna cena, brz promet i mogućnost da se dođe do modela koji bi u redovnom oglasu koštao više. Problem je što aukcijska cena retko govori celu priču. Kupac ne plaća samo automobil, već i nivo nepoznanica koji dolazi sa načinom prodaje.
+
+Prvo pitanje je zašto je auto završio na aukciji. Nekada je to kraj lizinga, flotna prodaja ili standardna zamena vozila. Nekada je to osiguravajuća šteta, povrat posle finansijskog problema, auto sa nejasnom servisnom istorijom ili vozilo koje se prodaje brzo jer ga redovno tržište teže prihvata. Svaka od tih situacija nosi drugačiji rizik.
+
+Drugo, aukcijski izveštaj treba čitati hladno. Fotografije oštećenja, opis stanja, kilometraža, status dokumentacije, oznake o paljenju motora i mogućnosti probne vožnje moraju se uklopiti u cenu. Ako nešto nije jasno, ne treba pretpostavljati najbolji scenario. Kod polovnih automobila nepoznato obično košta.
+
+Treće, treba uračunati sve dodatne troškove: transport, dažbine, popravke, homologaciju, registraciju, prevod dokumentacije i vreme koje auto provede van upotrebe. Auto koji je jeftin na aukciji može posle svih stavki biti skuplji od urednog primerka iz oglasa, posebno ako se naknadno pojavi skrivena šteta.
+
+Aukcija nije automatski loš izvor automobila, ali nije teren za kupca koji želi jednostavnu i mirnu kupovinu. Ima smisla kada postoji jasan izveštaj, realna cena i neko ko zna da proceni rizik pre uplate. Ako kupac samo vidi nižu cenu i zanemari kontekst, aukcijska ušteda se lako pretvori u skuplju lekciju.
+TEXT,
+                'highlights' => [
+                    'Aukcijska cena ima smisla samo kada znaš zašto je auto završio na aukciji.',
+                    'Izveštaj, fotografije, dokumentacija i status vozila moraju se proveriti pre uplate.',
+                    'Transport, dažbine i popravke često izbrišu prividnu uštedu.',
+                ],
+                'tags' => ['aukcija', 'uvoz automobila', 'provera vozila', 'skrivena šteta'],
+                'meta_title' => 'Auto kupljen na aukciji: kako proceniti rizik',
+                'meta_description' => 'Kako proceniti polovan auto kupljen na aukciji: izveštaj, oštećenja, dokumentacija, transport, dodatni troškovi i realna vrednost.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(3),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Volvo V60: karavan za porodicu koji traži proveru automatika i trapa',
+                'slug' => 'polovni-volvo-v60-karavan-za-porodicu-koji-trazi-proveru-automatika-i-trapa',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'V60 deluje kao miran porodični karavan sa jakim bezbednosnim imidžom, ali polovan primerak mora dokazati da automatik, trap i servis prate tu priču.',
+                'content' => <<<'TEXT'
+Volvo V60 privlači kupce koji žele porodičan automobil, ali ne žele još jedan SUV. Kao karavan nudi dobar odnos prostora, stabilnosti i sigurnog imidža, a pritom često deluje diskretnije i zrelije od nemačkih premium alternativa. Ipak, kod polovnog V60 nije dovoljno da auto izgleda uredno i nosi Volvo reputaciju. Treba proveriti da li konkretan primerak zaista prati tu mirnu priču.
+
+Prva važna tačka je automatski menjač. V60 se često kupuje za duži put, porodicu i udobnost, pa automatik ima veliki smisao, ali samo ako radi glatko i ima servisni trag. Zadrška pri ubacivanju u brzinu, trzaji pri hladnom radu ili nejasna istorija zamene ulja menjaju računicu. Kod polovnog karavana menjač nije detalj, nego jedna od najskupljih stavki rizika.
+
+Druga tema je trap. Karavan često nosi porodicu, prtljag, duge relacije i loš asfalt, pa amortizeri, spone, ležajevi i gume brzo pokažu koliko je auto stvarno korišćen. Na probnoj vožnji V60 treba da bude stabilan, tih i predvidiv. Ako deluje umorno, ne treba ga spašavati reputacijom marke.
+
+Treća provera je enterijer i oprema. Volvo kabina dobro stari kada je auto održavan, ali vozačko sedište, volan, prekidači, klima, senzori i multimedija mogu otkriti visoku kilometražu ili službenu upotrebu. Bezbednosni sistemi su prednost samo ako rade uredno i bez grešaka.
+
+Polovni Volvo V60 ima mnogo smisla za kupca koji želi praktičan, bezbedan i smiren automobil za porodicu i put. Ali najbolji primerak je onaj sa jasnim servisima, zdravim automatikom i trapom koji ne traži objašnjenja. Ako se to poklopi, V60 može biti pametnija kupovina od popularnijeg SUV-a. Ako ne, karavan brzo postaje premium račun u diskretnoj ambalaži.
+TEXT,
+                'highlights' => [
+                    'V60 je dobar porodični karavan kada automatik ima jasan servisni trag.',
+                    'Trap i gume otkrivaju koliko je auto nosio put, porodicu i prtljag.',
+                    'Volvo reputacija ne zamenjuje dijagnostiku, probnu vožnju i proveru opreme.',
+                ],
+                'tags' => ['Volvo V60', 'karavan', 'automatik', 'porodični auto'],
+                'meta_title' => 'Polovni Volvo V60: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volvo V60 karavana: automatik, trap, enterijer, bezbednosni sistemi, servisna istorija i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
             ],
         ];
     }

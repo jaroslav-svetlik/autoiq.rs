@@ -6,6 +6,16 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.58] - 2026-05-03
+
+### Added
+
+- Added three more non-duplicate SEO blog articles covering used Suzuki Vitara checks, auction-car risk, and used Volvo V60 family-karavan ownership.
+
+### Changed
+
+- Preserved existing trend blog post publish timestamps when reseeding so new article batches stay visible as the newest content.
+
 ## [0.1.57] - 2026-05-03
 
 ### Added
