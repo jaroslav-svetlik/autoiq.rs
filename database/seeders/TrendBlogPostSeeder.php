@@ -2486,6 +2486,296 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#06b6d4', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Tesla Model 3 u Srbiji: kada baterija nije jedino pitanje',
+                'slug' => 'polovni-tesla-model-3-u-srbiji-kada-baterija-nije-jedino-pitanje',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Model 3 privlači kupce niskim troškom vožnje i jakim performansama, ali polovan električni auto traži drugačiju proveru od klasičnog benzinca ili dizela.',
+                'content' => <<<'TEXT'
+Tesla Model 3 sve češće ulazi u uži izbor kupaca koji razmišljaju o polovnom električnom automobilu, posebno kada se uporedi cena polovnih primeraka sa troškom goriva kod klasičnih automobila. Na prvi pogled deluje kao velika promena za razuman novac: snažne performanse, automatik, tiha vožnja i manji broj klasičnih servisnih stavki. Ipak, baš zato kupac lako preskoči pitanja koja kod električnog auta vrede više od same kilometraže.
+
+Prva tema jeste baterija, ali ne samo kroz procenat kapaciteta. Važno je kako se auto punio, koliko često je korišćeno brzo punjenje, da li se domet ponaša predvidivo i da li postoje poruke sistema koje ukazuju na ograničenje snage ili punjenja. Zdrav Model 3 ne mora da ima savršenu brojku na ekranu, ali mora da ostavi dosledan utisak kroz probnu vožnju, dijagnostiku i istoriju softverskog održavanja.
+
+Druga važna tačka je karoserija i trap. Model 3 je često brz automobil koji se lako vozi, pa deo primeraka iza sebe ima jaču eksploataciju nego što miran enterijer sugeriše. Neravnomerno trošenje guma, zvukovi preko neravnina, tragovi loših popravki i sitna odstupanja zazora mogu biti mnogo važniji od toga koliko auto ubrzava na pravcu. Električni pogon ne poništava fiziku ni cenu dobrog trapa.
+
+Treća tema je svakodnevica kupca u Srbiji. Model 3 ima najviše smisla ako postoji realan plan punjenja kod kuće, na poslu ili na ruti koja se često koristi. Ako kupac zavisi samo od javnih punjača, računica može i dalje biti dobra, ali traži više discipline i manje improvizacije. Električni auto se kupuje kroz način života, ne samo kroz cenu kilometra.
+
+Polovan Tesla Model 3 može biti odlična kupovina za vozača koji razume punjenje, proveri bateriju i ne zanemari mehanički deo automobila. Može biti i skupa frustracija ako se kupi samo zato što deluje moderno i brzo. Najmirniji primerak nije onaj sa najviše opreme, nego onaj koji ima jasnu istoriju, realan domet i vlasnika koji zna da objasni kako je auto korišćen.
+TEXT,
+                'highlights' => [
+                    'Kod polovnog Modela 3 bateriju treba proveriti kroz ponašanje u vožnji, punjenje i dijagnostiku, ne samo kroz prikaz dometa.',
+                    'Trap, gume i karoserija ostaju ključni jer električni pogon ne sakriva grubu eksploataciju.',
+                    'Kupovina ima najviše smisla kada kupac ima realan i stabilan plan punjenja.',
+                ],
+                'tags' => ['Tesla Model 3', 'električni automobil', 'baterija', 'polovni auto'],
+                'meta_title' => 'Polovni Tesla Model 3 u Srbiji: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Tesla Model 3 u Srbiji: baterija, punjenje, trap, gume, karoserija i realna računica električnog auta.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(24),
+                'palette' => ['#111827', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kupovina auta posle lizinga: kada uredna istorija nije cela slika',
+                'slug' => 'kupovina-auta-posle-lizinga-kada-uredna-istorija-nije-cela-slika',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Automobil vraćen iz lizinga često ima servisni trag, ali kupac mora razumeti kako je korišćen, ko ga je vozio i šta se dešava pred kraj ugovora.',
+                'content' => <<<'TEXT'
+Auto posle lizinga mnogim kupcima zvuči kao uredniji polovnjak. Postoji firma, postoji ugovor, postoji servisni ritam i često postoji jasnija dokumentacija nego kod privatnog vlasnika koji je čuvao papire samo kada se setio. To jeste prednost, ali nije garancija da je konkretan primerak mirna kupovina. Lizing istorija objašnjava okvir, ali ne objašnjava uvek način vožnje.
+
+Najveća prednost ovakvih automobila je trag održavanja. Ako su servisi rađeni u roku, ako postoje računi i ako se vidi doslednost kilometraže, kupac dobija bolju početnu sliku nego kod auta sa praznom servisnom pričom. Problem nastaje kada se ta urednost pogrešno protumači kao dokaz pažljivog korišćenja. Službeni auto može biti održavan redovno, a ipak vožen grubo, hladan, kratkim relacijama i bez osećaja vlasničke brige.
+
+Posebno treba gledati poslednju godinu ugovora. Tada deo korisnika prestaje da ulaže u sitnice jer zna da auto uskoro vraća. Gume mogu biti pri kraju, kočnice odložene, enterijer umoran, a sitni kvarovi prikriveni jer automobil prolazi osnovni nivo predaje. Ako cena deluje dobra, kupac mora uračunati upravo ta odložena ulaganja.
+
+Kod auta iz lizinga pažljivo proveri opremu, klimu, multimediju, brave, senzore, stanje sedišta i tragove korišćenja gepeka. To su detalji koji otkrivaju kako je auto stvarno živeo. Ako je bio kod jednog korisnika i ima logičan ritam servisa, rizik je manji. Ako je bio flotni automobil koji je menjao vozače, treba biti stroži nego kod privatnog vlasništva.
+
+Kupovina posle lizinga može biti vrlo dobra odluka kada dokumentacija, stanje i cena pričaju istu priču. Ali ako se kupac osloni samo na reč "lizing", lako plati automobil koji je formalno održavan, ali praktično potrošen. Pravo pitanje nije da li je auto bio na lizingu, nego da li su tragovi korišćenja u skladu sa kilometražom, cenom i obećanom istorijom.
+TEXT,
+                'highlights' => [
+                    'Lizing istorija pomaže, ali ne dokazuje da je auto vožen pažljivo.',
+                    'Poslednja godina ugovora često otkriva odložena ulaganja u gume, kočnice i sitne kvarove.',
+                    'Jedan korisnik i dosledni računi vrede više od same činjenice da je auto bio u lizingu.',
+                ],
+                'tags' => ['lizing', 'službeni auto', 'kupovina polovnjaka', 'servisna istorija'],
+                'meta_title' => 'Kupovina auta posle lizinga: šta proveriti',
+                'meta_description' => 'Kako proceniti polovan auto posle lizinga: servisna istorija, flotna vožnja, odložena ulaganja, enterijer i realan rizik pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(18),
+                'palette' => ['#172033', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'AdBlue kod polovnog dizela: mali rezervoar koji može napraviti veliki račun',
+                'slug' => 'adblue-kod-polovnog-dizela-mali-rezervoar-koji-moze-napraviti-veliki-racun',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'AdBlue sistem se često pominje tek kad se upali greška, a kod polovnog dizela upravo ta stavka može otkriti koliko je auto zaista održavan.',
+                'content' => <<<'TEXT'
+Kod modernih polovnih dizela kupci obično pričaju o DPF-u, EGR-u, turbini i diznama, dok AdBlue ostane sitna fusnota u oglasu. To je greška. AdBlue sistem jeste napravljen da smanji emisije, ali kao polovan deo vlasništva može doneti senzor, pumpu, grejač, diznu, softversko upozorenje i neprijatnu poruku da auto posle određenog broja kilometara neće moći da se pokrene.
+
+Prvi signal za oprez je svaka priča prodavca da je "to samo lampica". Kod AdBlue sistema lampica retko treba da bude prihvaćena kao sitnica dok se ne uradi dijagnostika. Nekad je problem nivo tečnosti ili loš kvalitet AdBlue-a, ali nekad je kvar na sistemu koji traži ozbiljniji račun. Kupac koji to preskoči jer motor radi lepo može vrlo brzo posle kupovine završiti u servisu.
+
+Drugi problem je način korišćenja. Automobil koji često vozi kratke gradske relacije i ne dobija pravilan servisni ritam može imati više problema sa emisijskim sistemima nego auto koji prelazi duže relacije. AdBlue ne treba posmatrati izolovano. Ako postoje problemi sa DPF-om, EGR-om, senzorima izduva ili softverskim intervencijama, cela slika postaje rizičnija.
+
+Posebno treba biti oprezan sa automobilima kod kojih je sistem "rešen" nejasnim softverom. Takav auto može delovati jeftinije i jednostavnije u trenutku kupovine, ali otvara pitanja tehničkog pregleda, legalnosti, daljih kvarova i kasnije prodaje. Kratkoročno uklanjanje problema često samo premešta rizik na sledećeg vlasnika.
+
+Polovan dizel sa AdBlue sistemom nije automatski loša kupovina. Naprotiv, dobar primerak sa jasnim servisima, urednom dijagnostikom i bez aktivnih grešaka može biti sasvim razuman izbor za otvoren put. Ali kupac mora u budžet uneti i ovaj sistem. Ako već plaćaš modernog dizela, proveri sve što ga čini modernim, ne samo potrošnju i snagu motora.
+TEXT,
+                'highlights' => [
+                    'AdBlue greška ne treba da se prihvati kao sitnica bez dijagnostike.',
+                    'Sistem treba posmatrati zajedno sa DPF-om, EGR-om i senzorima izduva.',
+                    'Nejasno softversko uklanjanje problema može kasnije ugroziti tehnički pregled i prodaju.',
+                ],
+                'tags' => ['AdBlue', 'dizel', 'troškovi održavanja', 'DPF'],
+                'meta_title' => 'AdBlue kod polovnog dizela: trošak koji treba proveriti',
+                'meta_description' => 'Šta proveriti kod AdBlue sistema polovnog dizela: lampice, senzori, pumpa, DPF, EGR, softverske intervencije i realan servisni rizik.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(12),
+                'palette' => ['#0f172a', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto posle lakšeg udesa: kako razlikovati dobru popravku od skrivene štete',
+                'slug' => 'auto-posle-lakseg-udesa-kako-razlikovati-dobru-popravku-od-skrivene-stete',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nije svaki udaren auto loša kupovina, ali kupac mora znati gde se završava korektna kozmetika, a gde počinje rizik konstrukcije, elektronike i kasnije prodaje.',
+                'content' => <<<'TEXT'
+Na polovnom tržištu skoro svaki kupac želi automobil koji nikada nije bio udaren. U stvarnosti, mnogo automobila ima neku istoriju sitnog kontakta, farbanog branika, menjane haube ili popravljene strane. To samo po sebi ne mora biti problem. Problem počinje kada prodavac lakši udes koristi kao maglovitu frazu za štetu koja je možda bila mnogo ozbiljnija nego što oglas priznaje.
+
+Dobra popravka ima logiku. Zazori su ujednačeni, nijansa laka ne beži pod različitim svetlom, šrafovi i nosači ne deluju sveže dirano bez objašnjenja, a dokumentacija makar okvirno potvrđuje šta je rađeno. Ako prodavac otvoreno kaže da je menjan branik i pokaže fotografije pre popravke, to je često bolja situacija nego savršen oglas bez ijednog odgovora na konkretna pitanja.
+
+Skrivena šteta se najčešće vidi kroz nedoslednosti. Jedan far noviji od drugog, drugačija tekstura laka, tragovi magle u lampama, neravnomerno zatvaranje vrata, neobični zvukovi iz trapa i greške senzora mogu govoriti više od tvrdnje da je "samo ogrebano". Kod modernih automobila i mali udarac može otvoriti pitanje radara, kamera, parking senzora i kalibracije sistema pomoći vozaču.
+
+Posebno je važno proveriti strukturu vozila. Kozmetički farban deo nije isto što i auto koji je imao pomerene nosače, loše varene elemente ili površno vraćene bezbednosne sisteme. Ako pregled pokaže tragove ozbiljnije intervencije na nosećim delovima, niska cena više nije prednost nego upozorenje.
+
+Auto posle lakšeg udesa može biti dobra kupovina ako je popravka kvalitetna, dokumentovana i uračunata u cenu. Kupac tada zna šta plaća i šta kasnije može iskreno reći sledećem vlasniku. Loša kupovina je auto koji je popravljen samo da lepo izgleda na fotografijama, dok mehanika, elektronika i struktura nose posledice koje će se pojaviti tek posle kupovine.
+TEXT,
+                'highlights' => [
+                    'Lakši udes nije automatski razlog za odustajanje ako postoji jasna dokumentacija i kvalitetna popravka.',
+                    'Zazori, nijansa laka, farovi, senzori i ponašanje vrata brzo otkrivaju nedoslednosti.',
+                    'Strukturna oštećenja i loše vraćeni bezbednosni sistemi menjaju celu računicu kupovine.',
+                ],
+                'tags' => ['udes', 'karoserija', 'provera vozila', 'farban auto'],
+                'meta_title' => 'Auto posle lakšeg udesa: kako proveriti štetu',
+                'meta_description' => 'Kako proveriti polovan auto posle lakšeg udesa: zazori, lak, farovi, senzori, struktura, dokumentacija i realna vrednost popravljenog vozila.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(6),
+                'palette' => ['#111827', '#fb7185', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Citroen C5 Aircross: udoban porodični SUV koji ne sme da sakrije elektroniku',
+                'slug' => 'polovni-citroen-c5-aircross-udoban-porodicni-suv-koji-ne-sme-da-sakrije-elektroniku',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C5 Aircross kupce privlači komforom i drugačijim karakterom od nemačkih SUV modela, ali polovan primerak mora potvrditi da elektronika, trap i motor prate udobnu priču.',
+                'content' => <<<'TEXT'
+Citroen C5 Aircross je zanimljiv polovan SUV jer ne pokušava da se proda istom logikom kao tvrđi i sportskiji konkurenti. Njegova glavna karta je komfor: mekši osećaj u vožnji, opuštena kabina i porodična upotrebljivost bez želje da se svaki kilometar predstavi kao sportski doživljaj. Za mnoge kupce to je baš ono što im treba, ali kod polovnog primerka udobnost ne sme da uspava proveru.
+
+Prvo treba gledati stanje trapa i način na koji auto prelazi preko lošijeg puta. C5 Aircross treba da deluje mirno i zaokruženo, bez lupkanja, zatezanja ili osećaja da se karoserija posle neravnine smiruje predugo. Ako auto spolja izgleda očuvano, a na probnoj vožnji zvuči umorno, to je signal da komfor možda više postoji u reputaciji nego u konkretnom primerku.
+
+Druga tema je elektronika. Bogatije opremljeni primerci mogu imati dosta sistema koji kupcu prijaju svaki dan, ali svaki ekran, senzor, kamera, klima zona, prekidač i pomoćni sistem mora da radi bez izgovora. Francuski SUV ne treba kupovati kroz predrasude, ali ne treba ni ignorisati sitne elektronske nelogičnosti samo zato što auto lepo izgleda i udobno sedi.
+
+Kod motora treba gledati realnu upotrebu. Dizel ima smisla za duže relacije i porodična putovanja, ali traži proveru DPF-a, AdBlue sistema i servisne istorije. Benzinske verzije mogu biti prijatnije za grad, ali kupac mora razumeti servisni ritam, potrošnju i poznate slabosti konkretne generacije. U oba slučaja je važnije stanje primerka nego želja da se po svaku cenu izbegne ili izabere određeno gorivo.
+
+Polovni C5 Aircross ima najviše smisla za kupca koji želi miran porodični SUV i ne pati od premium značke. Dobar primerak može dati mnogo komfora za novac, ali samo ako probna vožnja, dijagnostika i dokumentacija potvrde da se iza udobne priče ne kriju odloženi troškovi. Ako sve radi uredno, ovo može biti vrlo racionalna alternativa skupljim i tvrđim rivalima.
+TEXT,
+                'highlights' => [
+                    'C5 Aircross treba kupovati kroz kvalitet konkretnog primerka, ne kroz opštu priču o udobnosti.',
+                    'Elektronika i sistemi pomoći moraju raditi bez izgovora pre dogovora o ceni.',
+                    'Dizel i benzin imaju smisla samo kada odgovaraju stvarnom profilu vožnje kupca.',
+                ],
+                'tags' => ['Citroen C5 Aircross', 'porodični SUV', 'komfor', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Citroen C5 Aircross: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Citroen C5 Aircross modela: komfor, trap, elektronika, dizel i benzin motori, servisna istorija i realan rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#a3e635', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Subaru Forester: stalni pogon koji traži uredan servisni trag',
+                'slug' => 'polovni-subaru-forester-stalni-pogon-koji-trazi-uredan-servisni-trag',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Forester kupce privlači pogonom, preglednošću i robusnim imidžom, ali dobar primerak zavisi od servisa, menjača i toga kako je stvarno korišćen.',
+                'content' => <<<'TEXT'
+Subaru Forester je polovnjak koji često privuče kupce koji ne žele klasičan gradski SUV, već automobil sa stvarno korisnim stalnim pogonom, dobrom preglednošću i mirnijim karakterom za loš put. Na papiru deluje kao racionalan izbor za porodicu, vikendicu, sneg i vozače koji ne žele da razmišljaju o proklizavanju. Ipak, upravo zbog tog imidža kupac lako pretpostavi da je svaki Forester automatski izdržljiv, što nije dovoljno dobra osnova za kupovinu.
+
+Kod polovnog Forestera servisna istorija mora biti prva tema. Boxer motor traži redovno održavanje, kvalitetno ulje i vlasnika koji razume ritam servisa. Ako prodavac nema jasne račune, ako ne zna šta je rađeno ili ako se sve svodi na opštu priču da je "Subaru pouzdan", treba usporiti. Reputacija ne menja činjenicu da zapušten primerak može tražiti ozbiljnija ulaganja.
+
+Druga tačka je menjač i pogon. Automatski menjači, posebno kod primeraka koji su mnogo vozili grad ili vukli teret, moraju raditi mirno, bez trzaja, zadrške ili neobičnog zvuka. Stalni pogon je prednost tek kada nema zapuštenih diferencijala, loših guma različitog profila i servisa koji su preskakani jer auto "ide svuda".
+
+Forester takođe treba proveriti kroz stvarnu upotrebu. Ako je auto živio po lošem putu, lovu, planini ili vikend naselju, trap, pragovi, pod i zaštita ispod vozila mogu reći više od kilometraže. Dobar primerak će delovati zategnuto i jednostavno. Umoran primerak će pokušati da se sakrije iza robusnog izgleda.
+
+Polovni Subaru Forester ima mnogo smisla za kupca koji zaista koristi pogon i želi praktičan automobil bez premium predstave. Ali treba ga kupovati hladno: servis, menjač, pogon, gume i stanje podvozja pre svega. Ako se to poklopi, Forester može biti vrlo zahvalan izbor. Ako se ne poklopi, specifičnost marke brzo postaje skuplja od uobičajenog SUV-a.
+TEXT,
+                'highlights' => [
+                    'Forester ima smisla samo kada servisna istorija prati reputaciju stalnog pogona.',
+                    'Menjač, diferencijali, gume i podvozje moraju biti deo ozbiljne provere.',
+                    'Robustan izgled ne sme da sakrije težak život po lošem putu ili zapušten servis.',
+                ],
+                'tags' => ['Subaru Forester', 'stalni pogon', 'SUV', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Subaru Forester: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Subaru Forestera: boxer motor, stalni pogon, menjač, gume, podvozje, servisna istorija i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(20),
+                'palette' => ['#102033', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kupovina auta bez probne vožnje: kada treba odmah odustati',
+                'slug' => 'kupovina-auta-bez-probne-voznje-kada-treba-odmah-odustati',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Prodavac koji ne dozvoljava probnu vožnju traži od kupca da preuzme rizik na slepo, a kod polovnog auta baš vožnja najbrže otkriva skupe nedostatke.',
+                'content' => <<<'TEXT'
+Kupovina polovnog auta bez probne vožnje deluje kao mala neprijatnost dok se ne shvati koliko se informacija gubi. Fotografije mogu sakriti zvukove, opis može preskočiti trzaje, a uredan enterijer ne govori kako se auto ponaša hladan, u krivini, pri kočenju ili pri promeni brzina. Probna vožnja nije luksuz. To je osnovni deo provere.
+
+Postoje situacije kada prodavac ima razuman razlog za ograničenje: auto nije registrovan, nalazi se u salonu bez tablica ili treba dogovoriti termin. Ali tada mora postojati alternativa, poput pregleda u servisu, probnih tablica ili jasnog načina da se auto pokrene i proveri pod opterećenjem. Ako je odgovor samo "nema potrebe, sve je ispravno", kupac zapravo dobija signal da se od njega očekuje poverenje umesto dokaza.
+
+Najviše se gubi kod menjača, kvačila, trapa i kočnica. Automatski menjač može delovati dobro dok auto stoji, a trzati tek u vožnji. Kvačilo može uhvatiti visoko, turbina može kasniti, trap može lupati preko sitnih neravnina, a kočnice mogu vući u stranu. Sve su to stvari koje fotografije i kratko paljenje u mestu ne rešavaju.
+
+Probna vožnja otkriva i odnos prodavca prema kupcu. Prodavac koji želi transparentnu prodaju uglavnom nema problem da se auto proveri na razuman način. Prodavac koji stalno žuri, skraćuje rutu, izbegava hladan start ili odbija servis često pokušava da kontroliše situaciju u kojoj bi se problem čuo, osetio ili video.
+
+Ne mora svako odbijanje probne vožnje automatski značiti prevaru, ali kupac ne treba da plaća punu cenu za nepotpunu proveru. Ako nema vožnje, nema ni iste računice rizika. Najpametnije je odustati kada prodavac ne nudi nijedan konkretan način da se stanje potvrdi. Polovan auto se ne kupuje na obećanje da je dobar, nego na proveru koja to može da izdrži.
+TEXT,
+                'highlights' => [
+                    'Probna vožnja je osnovna provera menjača, kvačila, trapa i kočnica.',
+                    'Ako auto ne može da se vozi, prodavac treba da ponudi razumnu alternativu za servisnu proveru.',
+                    'Odbijanje vožnje bez jasnog razloga menja cenu rizika i često je dovoljan razlog za odustajanje.',
+                ],
+                'tags' => ['probna vožnja', 'provera vozila', 'kupovina polovnjaka', 'rizik'],
+                'meta_title' => 'Kupovina auta bez probne vožnje: kada odustati',
+                'meta_description' => 'Zašto je probna vožnja važna kod polovnog auta: menjač, kvačilo, trap, kočnice, hladan start, servisna provera i signali za odustajanje.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(15),
+                'palette' => ['#111827', '#f43f5e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Euro 6 dizel iz uvoza: kada niska potrošnja ne opravdava emisijski rizik',
+                'slug' => 'euro-6-dizel-iz-uvoza-kada-niska-potrosnja-ne-opravdava-emisijski-rizik',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Euro 6 dizeli mogu biti odlični za otvoren put, ali kod uvezenog polovnjaka kupac mora proveriti DPF, EGR, AdBlue i trag stvarne kilometraže.',
+                'content' => <<<'TEXT'
+Euro 6 dizel često zvuči kao idealna kombinacija za kupca polovnog automobila: moderna generacija motora, niska potrošnja, bolja ekologija i dovoljno snage za put. Kod uvezenih automobila ta priča može biti tačna, ali samo ako je primerak korišćen u uslovima za koje je takav dizel napravljen. Ako nije, niska potrošnja brzo postaje slab argument pred troškovima emisijskih sistema.
+
+Najvažnije je razumeti da Euro 6 dizel nije jednostavan dizel iz stare škole. DPF, EGR, AdBlue, senzori izduva i softver rade zajedno. Kada je auto redovno vozio duže relacije, imao kvalitetno gorivo i servisiran je na vreme, sistem može funkcionisati vrlo dobro. Kada je auto živeo na kratkim relacijama, hladnim startovima i odlaganim servisima, problemi se često skupljaju tiho dok ne stignu do sledećeg vlasnika.
+
+Kod uvoza posebno treba proveriti logiku kilometraže. Euro 6 dizeli iz zapadne Evrope često su kupovani za autoput i velike godišnje kilometraže. To nije automatski loše, ali kilometraža mora biti iskrena. Bolje je kupiti auto sa većom, dokazivom kilometražom i urednim servisima nego primerak koji izgleda "malo vožen", a nema dovoljno dokaza da tu priču podrži.
+
+Treba izbegavati automobile sa nejasnim softverskim intervencijama. Ako je DPF uklonjen, AdBlue ugašen ili EGR rešen samo kroz mapu, kupac preuzima tehnički, pravni i kasniji prodajni rizik. Takav auto može delovati jeftinije u trenutku kupovine, ali često samo znači da je neko pre prodaje rešio simptom, a ne stvarno stanje vozila.
+
+Euro 6 dizel ima smisla za kupca koji prelazi dovoljno otvorenog puta i želi štedljiv automobil za duže relacije. Nema mnogo smisla za vozača koji uglavnom vozi grad, kratke ture i vikend kilometražu. Pravo pitanje nije da li je Euro 6 bolji ili lošiji, nego da li konkretan primerak i tvoja upotreba mogu da održe sistem zdravim bez stalnih kompromisa.
+TEXT,
+                'highlights' => [
+                    'Euro 6 dizel treba proveriti kao sistem, zajedno sa DPF-om, EGR-om, AdBlue-om i senzorima izduva.',
+                    'Kod uvoza je iskrena veća kilometraža često bolja od niske brojke bez dokaza.',
+                    'Softverski ugašeni emisijski sistemi prebacuju rizik na kupca i kasniju prodaju.',
+                ],
+                'tags' => ['Euro 6 dizel', 'uvoz', 'DPF', 'AdBlue'],
+                'meta_title' => 'Euro 6 dizel iz uvoza: šta proveriti pre kupovine',
+                'meta_description' => 'Analiza polovnog Euro 6 dizela iz uvoza: DPF, EGR, AdBlue, kilometraža, softverske intervencije, gradska vožnja i realan rizik.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(10),
+                'palette' => ['#172033', '#14b8a6', '#f8fafc'],
+            ],
+            [
+                'title' => 'Hibrid sa velikom kilometražom: kada baterija nije jedini rizik',
+                'slug' => 'hibrid-sa-velikom-kilometrazom-kada-baterija-nije-jedini-rizik',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kupci polovnih hibrida često gledaju samo bateriju, ali kod većih kilometraža jednako su važni trap, kočnice, enterijer, taksi istorija i servisni ritam.',
+                'content' => <<<'TEXT'
+Polovan hibrid sa velikom kilometražom može biti vrlo dobra kupovina ako je kilometraža nastala u pravim uslovima i ako je održavanje jasno. Hibridni pogon često bolje podnosi grad od dizela, troši malo i deluje mirno čak i kada je auto prešao mnogo. Upravo ta mirnoća ponekad zavara kupca da gleda samo bateriju, a preskoči ostatak automobila.
+
+Baterija jeste važna, ali nije jedini trošak. Potrebna je dijagnostika, provera ponašanja u vožnji, ventilacije baterije i načina punjenja i pražnjenja. Ipak, ako je auto dugo korišćen u taksiju, dostavi, flotnoj vožnji ili svakodnevnim kratkim turama, trap, sedišta, brave, prekidači, klima i kočnice mogu biti jednako važni za računicu.
+
+Hibridi često imaju regenerativno kočenje, pa klasične kočnice nekad izgledaju manje potrošeno nego kod običnog auta. To ne znači da ih treba preskočiti. Diskovi mogu korodirati, klizači mogu zapeknuti, a nepravilno korišćenje može napraviti problem koji se vidi tek na pregledu ili tehničkom. Mirna vožnja ne znači automatski miran servis.
+
+Enterijer je posebno dobar indikator. Hibrid sa velikom kilometražom može i dalje raditi tiho, ali volan, sedište, pedale, vrata i prekidači teško kriju intenzivnu upotrebu. Ako prodavac priča o porodičnom autu, a kabina izgleda kao radno mesto, treba proveriti celu istoriju mnogo pažljivije.
+
+Hibrid sa velikom kilometražom nije za automatsko odbacivanje. Često je bolja kupovina od dizela koji je mučen kratkim relacijama. Ali treba ga gledati kao ceo automobil: baterija, dijagnostika, trap, kočnice, enterijer i servisna logika. Kada se sve to uklopi, velika kilometraža može biti prihvatljiva. Kada se ne uklopi, tiha vožnja samo odlaže skupo razočaranje.
+TEXT,
+                'highlights' => [
+                    'Kod polovnog hibrida sa velikom kilometražom baterija je važna, ali nije jedini rizik.',
+                    'Trap, kočnice, klima, enterijer i trag taksi ili flotne upotrebe menjaju računicu.',
+                    'Mirna i tiha vožnja hibrida ne sme da zameni detaljan pregled celog automobila.',
+                ],
+                'tags' => ['hibrid', 'velika kilometraža', 'baterija', 'troškovi održavanja'],
+                'meta_title' => 'Hibrid sa velikom kilometražom: šta proveriti',
+                'meta_description' => 'Kako proceniti polovan hibrid sa velikom kilometražom: baterija, dijagnostika, trap, kočnice, enterijer, taksi istorija i servisni rizik.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(5),
+                'palette' => ['#1f2937', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mini Countryman: šarmantan crossover koji mora opravdati premium cenu',
+                'slug' => 'polovni-mini-countryman-sarmantan-crossover-koji-mora-opravdati-premium-cenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Countryman nudi poseban stil i više praktičnosti od klasičnog Minija, ali kao polovnjak traži hladnu proveru motora, menjača, elektronike i stvarne vrednosti.',
+                'content' => <<<'TEXT'
+Mini Countryman je automobil koji se retko kupuje samo razumom. Kupce privlače dizajn, osećaj posebnosti, kompaktne dimenzije i ideja da se dobija crossover koji nije još jedan generički SUV. To može biti sasvim legitiman razlog za kupovinu, ali kod polovnog Countrymana emocija mora da stane pred pregled. Premium cena nije problem ako je primerak zaista premium očuvan.
+
+Prva provera treba da bude mehanika. Zavisno od generacije i motora, treba gledati servisni ritam, potrošnju ulja, stanje turbine kod turbo verzija, rad automatskog menjača i tragove skupljih intervencija. Countryman često voze ljudi koji žele zabavan gradski auto, pa kvačilo, menjač, trap i gume mogu pokazati više stvarnog života nego što kilometraža kaže.
+
+Druga tema je elektronika i oprema. Mini enterijer deluje posebno, ali svi prekidači, ekrani, klima, senzori, panoramski krov ako postoji i komforna oprema moraju raditi bez sitnih izgovora. Kod auta koji se kupuje zbog karaktera, kupac lako oprosti sitnice jer mu se auto sviđa. Upravo te sitnice posle postanu najdosadniji deo vlasništva.
+
+Treba proveriti i praktičnost. Countryman jeste upotrebljiviji od manjeg Minija, ali nije automatski zamena za veći porodični SUV. Zadnja klupa, gepek, dečje sedište i udobnost na dužem putu treba da odgovaraju stvarnom načinu života. Ako kupac plaća premium cenu za stil, mora znati da prostor nije glavna vrednost ovog automobila.
+
+Polovni Mini Countryman ima smisla kada kupac želi specifičan automobil i nađe primerak sa jasnom istorijom, zdravom mehanikom i realnom cenom. Nema smisla kada se plaća samo šarm, a pregled otkriva odložene troškove. Kod ovakvog auta najbolja kupovina je ona gde emocija ostane, ali je stanje vozila ne demantuje.
+TEXT,
+                'highlights' => [
+                    'Countryman treba kupovati zbog karaktera, ali tek posle hladne provere mehanike.',
+                    'Elektronika, panoramski krov, menjač i trap mogu brzo pokvariti premium utisak.',
+                    'Praktičnost treba proveriti realno jer Countryman nije zamena za veći porodični SUV.',
+                ],
+                'tags' => ['Mini Countryman', 'crossover', 'premium kompakt', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mini Countryman: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Mini Countryman modela: motor, menjač, elektronika, oprema, praktičnost, premium cena i realan rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
         ];
     }
 

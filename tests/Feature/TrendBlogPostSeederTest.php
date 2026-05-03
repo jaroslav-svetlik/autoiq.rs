@@ -22,7 +22,7 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(82, $posts);
+        $this->assertCount(92, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
@@ -108,6 +108,16 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'oglas-bez-registarskih-tablica-kada-je-sitnica-a-kada-ozbiljan-signal-za-oprez'));
         $this->assertTrue($posts->contains('slug', 'lanac-ili-kais-kako-ta-razlika-menja-trosak-polovnog-auta-u-prve-dve-godine'));
         $this->assertTrue($posts->contains('slug', 'suv-do-13000-evra-da-li-vredi-juriti-visu-klasu-ili-kupiti-mladi-kompakt'));
+        $this->assertTrue($posts->contains('slug', 'polovni-tesla-model-3-u-srbiji-kada-baterija-nije-jedino-pitanje'));
+        $this->assertTrue($posts->contains('slug', 'kupovina-auta-posle-lizinga-kada-uredna-istorija-nije-cela-slika'));
+        $this->assertTrue($posts->contains('slug', 'adblue-kod-polovnog-dizela-mali-rezervoar-koji-moze-napraviti-veliki-racun'));
+        $this->assertTrue($posts->contains('slug', 'auto-posle-lakseg-udesa-kako-razlikovati-dobru-popravku-od-skrivene-stete'));
+        $this->assertTrue($posts->contains('slug', 'polovni-citroen-c5-aircross-udoban-porodicni-suv-koji-ne-sme-da-sakrije-elektroniku'));
+        $this->assertTrue($posts->contains('slug', 'polovni-subaru-forester-stalni-pogon-koji-trazi-uredan-servisni-trag'));
+        $this->assertTrue($posts->contains('slug', 'kupovina-auta-bez-probne-voznje-kada-treba-odmah-odustati'));
+        $this->assertTrue($posts->contains('slug', 'euro-6-dizel-iz-uvoza-kada-niska-potrosnja-ne-opravdava-emisijski-rizik'));
+        $this->assertTrue($posts->contains('slug', 'hibrid-sa-velikom-kilometrazom-kada-baterija-nije-jedini-rizik'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mini-countryman-sarmantan-crossover-koji-mora-opravdati-premium-cenu'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

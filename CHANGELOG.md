@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.57] - 2026-05-03
+
+### Added
+
+- Added ten non-duplicate SEO blog articles covering Tesla Model 3, cars after leasing, AdBlue diesel checks, light accident repairs, Citroen C5 Aircross, Subaru Forester, no-test-drive listings, Euro 6 imported diesels, high-mileage hybrids, and Mini Countryman.
+
 ## [0.1.56] - 2026-05-01
 
 ### Fixed
