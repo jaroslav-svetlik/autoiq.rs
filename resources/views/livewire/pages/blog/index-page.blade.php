@@ -96,8 +96,8 @@
 
             @if($priorityGuides->isNotEmpty())
                 <div class="panel p-6">
-                    <div class="data-kicker">Najtraženiji vodiči</div>
-                    <h2 class="mt-2 font-display text-3xl font-bold text-white">Kreni od najjačih poređenja</h2>
+                    <div class="data-kicker">Vodiči za kupovinu</div>
+                    <h2 class="mt-2 font-display text-3xl font-bold text-white">Kreni od vodiča koji olakšavaju izbor</h2>
 
                     <div class="mt-6 space-y-3">
                         @foreach($priorityGuides as $post)

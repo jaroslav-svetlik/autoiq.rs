@@ -162,7 +162,9 @@ class BlogPageTest extends TestCase
         $this->get(route('home'))
             ->assertOk()
             ->assertSee('Praktični vodiči za pametniju kupovinu')
-            ->assertSee('Najtraženiji vodiči')
+            ->assertSee('Vodiči za kupovinu')
+            ->assertDontSee('Najtraženiji vodiči')
+            ->assertDontSee('Google signal')
             ->assertSee($post->title);
 
         $this->get(route('sitemap'))
@@ -192,12 +194,15 @@ class BlogPageTest extends TestCase
 
         $this->get(route('home'))
             ->assertOk()
-            ->assertSee('Poređenja koja već dobijaju Google signal')
+            ->assertSee('Poređenja koja pomažu da izabereš pravi polovan auto')
+            ->assertDontSee('Google signal')
             ->assertSee($priority->title);
 
         $this->get(route('blog.index'))
             ->assertOk()
-            ->assertSee('Kreni od najjačih poređenja')
+            ->assertSee('Kreni od vodiča koji olakšavaju izbor')
+            ->assertDontSee('Najtraženiji vodiči')
+            ->assertDontSee('Google signal')
             ->assertSee($priority->title);
     }
 

@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.60] - 2026-05-03
+
+### Changed
+
+- Reworded priority guide section copy on the homepage and blog index so it speaks to car buyers instead of exposing internal SEO language.
+
 ## [0.1.59] - 2026-05-03
 
 ### Added

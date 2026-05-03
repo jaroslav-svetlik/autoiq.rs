@@ -85,8 +85,8 @@
         <section class="space-y-6">
             <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
                 <div>
-                    <div class="data-kicker">Najtraženiji vodiči</div>
-                    <h2 class="section-title mt-2">Poređenja koja već dobijaju Google signal</h2>
+                    <div class="data-kicker">Vodiči za kupovinu</div>
+                    <h2 class="section-title mt-2">Poređenja koja pomažu da izabereš pravi polovan auto</h2>
                 </div>
                 <a href="{{ route('blog.index') }}" wire:navigate class="btn-secondary">Svi vodiči</a>
             </div>
