@@ -2935,6 +2935,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#172033', '#38bdf8', '#f8fafc'],
             ],
+            [
+                'title' => 'Hyundai Kona ili Kia Niro: mali hibridni crossover kada grad odlučuje',
+                'slug' => 'hyundai-kona-ili-kia-niro-mali-hibridni-crossover-kada-grad-odlucuje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kona i Niro često privlače kupce koji žele štedljiv crossover za grad, ali prava odluka zavisi od baterije, prostora, opreme i načina prethodne vožnje.',
+                'content' => <<<'TEXT'
+Hyundai Kona i Kia Niro ulaze u isti uži izbor kada kupac želi crossover, hibridnu ili elektrifikovanu vožnju i manji rizik od starijeg dizela. Oba modela mogu biti vrlo dobra svakodnevna kupovina, ali ne rešavaju isti problem. Kona je kompaktnija, lakša za grad i parkiranje, dok Niro često bolje odgovara porodici koja želi više prostora i mirniji karakter.
+
+Kod Kone prvo treba proveriti da li kupuješ verziju koja stvarno odgovara tvojoj vožnji. Benzinac, hibrid i električna verzija ne nose iste troškove, isti domet ni isti rizik. Gradski primerci mogu izgledati uredno, ali kočnice, trap, gume, parking oštećenja i stanje enterijera brzo otkrivaju koliko je auto živeo u gužvi.
+
+Kia Niro je racionalniji kada su prostor, potrošnja i porodična upotreba važniji od okretnosti. Kod polovnog Nira treba proveriti bateriju, servisni trag, klimu, elektroniku i stanje zadnje klupe i gepeka. Ako je auto korišćen kao intenzivno gradsko ili službeno vozilo, mala potrošnja ne sme da sakrije istrošenost.
+
+Najbolja kupovina nije model sa najlepšom opremom, nego primerak kod kog se hibridni sistem, servisna istorija i stanje kabine uklapaju. Kona ima više smisla za vozača koji želi kompaktniji crossover za grad. Niro ima prednost kada želiš mirniji porodični paket i više prostora. U oba slučaja dijagnostika hibridnog sistema i probna vožnja vrede više od prosečne potrošnje iz oglasa.
+TEXT,
+                'highlights' => [
+                    'Kona je okretniji gradski izbor, dok Niro bolje pokriva porodičnu upotrebu.',
+                    'Kod oba modela proveri hibridni sistem, kočnice, klimu, trap i servisnu istoriju.',
+                    'Mala potrošnja nema vrednost ako konkretan primerak krije intenzivan gradski život.',
+                ],
+                'tags' => ['Hyundai Kona', 'Kia Niro', 'hibridni crossover', 'grad'],
+                'meta_title' => 'Hyundai Kona ili Kia Niro: polovni hibridni crossover',
+                'meta_description' => 'Poređenje polovnih Hyundai Kona i Kia Niro modela: hibridni sistem, gradska vožnja, prostor, baterija, servis i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#14b8a6', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Ford Mondeo: velika limuzina koja mora opravdati dizel i trap',
+                'slug' => 'polovni-ford-mondeo-velika-limuzina-koja-mora-opravdati-dizel-i-trap',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mondeo nudi mnogo auta za novac, ali kod polovnog primerka servis dizela, stanje trapa, automatik i karoserija odlučuju da li je cena stvarno dobra.',
+                'content' => <<<'TEXT'
+Ford Mondeo je polovnjak koji često izgleda kao odlična vrednost: mnogo prostora, udobna vožnja, ozbiljan gepek i cena koja je često niža od nemačkih alternativa. Upravo zato ga treba gledati hladno. Velika limuzina ili karavan može biti pametna kupovina, ali samo ako konkretan primerak ne traži ulaganja koja će pojesti celu početnu prednost.
+
+Najveća tema kod Mondeo dizela je servisni trag. Motor, turbina, DPF, EGR i dizne moraju imati logiku u odnosu na kilometražu i način vožnje. Ako je automobil godinama vozio kratke relacije, ušteda na potrošnji brzo gubi smisao. Hladan start, dim, neravnomeran rad i dijagnostika ne smeju se preskočiti.
+
+Druga važna provera je trap. Mondeo je udoban, ali težina, loš asfalt i veće felne mogu napraviti troškove na amortizerima, sponama, ležajevima i gumama. Na probnoj vožnji auto treba da bude tih, stabilan i precizan. Lupkanje preko neravnina nije samo sitnica ako se uzme u obzir veličina i cena delova.
+
+Automatski menjač, klima, elektronika i stanje enterijera dopunjuju sliku. Ako kabina deluje umornije od kilometraže, ako menjač kasni ili ako prodavac nema račune, cenu treba spustiti ili odustati. Polovni Mondeo ima smisla za kupca koji želi prostran auto za put, ali samo kada dizel, trap i dokumentacija potvrde da niska cena nije mamac.
+TEXT,
+                'highlights' => [
+                    'Mondeo daje mnogo prostora za novac, ali samo ako dizel ima uredan servisni trag.',
+                    'Trap, gume i amortizeri brzo pokažu stvarno stanje velike limuzine ili karavana.',
+                    'Automatik i elektroniku treba proveriti pre pregovora, ne posle kapare.',
+                ],
+                'tags' => ['Ford Mondeo', 'velika limuzina', 'dizel', 'trap'],
+                'meta_title' => 'Polovni Ford Mondeo: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Ford Mondeo modela: dizel, DPF, EGR, trap, automatik, karoserija, servisna istorija i realna vrednost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Panoramski krov na polovnom autu: lep detalj koji može skupo da prokišnjava',
+                'slug' => 'panoramski-krov-na-polovnom-autu-lep-detalj-koji-moze-skupo-da-prokisnjava',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Panorama podiže utisak u kabini, ali kod polovnog auta treba proveriti odvode, dihtunge, mehanizam, vlagu i tragove ranijih popravki.',
+                'content' => <<<'TEXT'
+Panoramski krov je jedan od detalja koji automobil na oglasu odmah učini privlačnijim. Kabina deluje svetlije, oprema bogatije, a fotografije bolje. Problem je što panorama kod polovnog auta nije samo lep dodatak. Ona je i sistem sa staklom, dihtunzima, odvodima, motorima, roletnom i mogućim prodorom vode.
+
+Prva provera je vlaga u kabini. Podigni patosnice, pogledaj nebo krova, stubove, gepek i prostor oko pojaseva. Miris vlage, fleke, zamagljivanje i tragovi čišćenja mogu značiti da je voda već ulazila. Prodavac često kaže da je to kondenzacija, ali kod panorame treba tražiti dokaz, ne objašnjenje.
+
+Druga provera su odvodi i mehanizam. Krov treba da se otvara i zatvara bez trzaja, krckanja i sporog rada. Roletna ne sme zapinjati, a dihtunzi ne smeju biti ispucali ili puni nečistoće. Začepljeni odvodi mogu napraviti štetu na elektronici, tepihu i oblogama, pa sitan problem brzo postane skup.
+
+Panorama nije razlog da se automatski odustane od auta, ali jeste razlog za strožu proveru. Ako je auto garažiran, održavan i bez tragova vlage, taj dodatak može biti prijatan. Ako postoji bilo kakav trag curenja ili loše popravke, pregovaranje mora uključiti realan trošak. Lep pogled kroz krov ne treba da sakrije vlagu ispod sedišta.
+TEXT,
+                'highlights' => [
+                    'Panoramski krov proverava se kroz vlagu, odvode, dihtunge, roletnu i mehanizam.',
+                    'Fleke, miris vlage i zamagljivanje mogu značiti skuplji problem od lepog detalja u oglasu.',
+                    'Ako postoji trag curenja, cenu treba pregovarati tek posle stručne provere.',
+                ],
+                'tags' => ['panoramski krov', 'vlaga u autu', 'troškovi održavanja', 'polovni auto'],
+                'meta_title' => 'Panoramski krov na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti panoramski krov na polovnom automobilu: odvodi, dihtunzi, roletna, vlaga, elektronika, tragovi curenja i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Tek uvezen auto iz Švajcarske: kada dobra oprema ne garantuje laku kupovinu',
+                'slug' => 'tek-uvezen-auto-iz-svajcarske-kada-dobra-oprema-ne-garantuje-laku-kupovinu',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Automobili iz Švajcarske često imaju bogatu opremu i uredan izgled, ali kupac mora proveriti dokumentaciju, koroziju, servis i cenu delova.',
+                'content' => <<<'TEXT'
+Tek uvezen auto iz Švajcarske često zvuči bolje od prosečnog oglasa. Fotografije su uredne, oprema je bogata, enterijer deluje očuvano, a priča prodavca obično naglašava precizno održavanje. Sve to može biti tačno, ali ne znači da je kupovina automatski laka. Švajcarsko poreklo je samo početna informacija, ne dokaz dobrog stanja.
+
+Prvo treba proveriti dokumentaciju. Servisna istorija, računi, odjava, carinski papiri, homologacija i podaci iz dostupnih izveštaja moraju se slagati. Ako postoji rupa u istoriji, ne treba je popunjavati pretpostavkom da je auto sigurno održavan. Kod uvoza je najvažnije da se vidi kontinuitet.
+
+Druga tema je stanje ispod automobila. Zimski uslovi, so, planinski putevi i vlaga mogu ostaviti trag na podvozju, kočionim cevima, nosačima i spojevima. Spolja auto može izgledati odlično, ali dizalica i pregled odozdo često daju realniju sliku od fotografija na parkingu.
+
+Treće, bogata oprema znači i više mogućih troškova. Adaptivni amortizeri, automatik, panorama, veliki točkovi, LED farovi, senzori i premium sedišta podižu vrednost samo ako rade pravilno. Auto iz Švajcarske može biti odlična kupovina, ali tek kada dokumenti, podvozje, servis i oprema prođu proveru bez previše objašnjenja.
+TEXT,
+                'highlights' => [
+                    'Švajcarsko poreklo nije dokaz stanja bez jasne dokumentacije i servisnog kontinuiteta.',
+                    'Pregled podvozja je obavezan zbog soli, vlage i planinskih uslova.',
+                    'Bogata oprema ima vrednost samo ako skupi sistemi rade bez grešaka.',
+                ],
+                'tags' => ['uvoz iz Švajcarske', 'uvoz automobila', 'servisna istorija', 'oprema'],
+                'meta_title' => 'Tek uvezen auto iz Švajcarske: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu tek uvezenog auta iz Švajcarske: dokumentacija, podvozje, korozija, servis, oprema, delovi i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni auto za dostavu: kako prepoznati težak gradski život pre kupovine',
+                'slug' => 'polovni-auto-za-dostavu-kako-prepoznati-tezak-gradski-zivot-pre-kupovine',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Automobil koji je radio dostavu može imati malo kilometara na papiru, ali mnogo startovanja, kočenja, ivičnjaka i habanja koje oglas ne pokazuje.',
+                'content' => <<<'TEXT'
+Polovni auto koji je radio dostavu često ne izgleda dramatično na prvi pogled. Može imati korektnu kilometražu, pristojne fotografije i jednostavnu opremu. Ipak, gradska dostava troši automobil drugačije od porodične vožnje. Mnogo hladnih startova, kratkih relacija, parkiranja, kočenja i penjanja na ivičnjake može napraviti stanje koje broj kilometara ne objašnjava.
+
+Prvi trag je enterijer. Vozačko sedište, volan, pedale, prekidači, ručica menjača, vrata i prtljažnik često pokazuju intenzivnu upotrebu. Ako su ti delovi potrošeniji od kilometraže, treba postaviti više pitanja. Dostavni auto retko strada od jednog velikog događaja, već od hiljada malih ciklusa.
+
+Drugi trag je mehanika. Kvačilo, kočnice, trap, ležajevi, gume, hladan rad motora i klima treba da se provere pažljivije nego kod običnog gradskog auta. Ako je auto često stajao upaljen ili vozio kratke ture, ulje, akumulator, alternator i DPF kod dizela mogu biti pod većim stresom.
+
+Treći signal je karoserija. Sitne ogrebotine, udarci vrata, tragovi skidanja folije, oštećenja branika i unutrašnjost gepeka mogu otkriti prethodnu namenu. Takav auto nije automatski loša kupovina ako je cena realna i stanje jasno. Problem nastaje kada se prodaje kao običan porodični primerak bez priznate istorije rada.
+TEXT,
+                'highlights' => [
+                    'Dostavni auto može imati realnu kilometražu, ali mnogo težu gradsku eksploataciju.',
+                    'Enterijer, gepek, kvačilo, kočnice i trap često otkrivaju prethodnu namenu.',
+                    'Kupovina ima smisla samo ako cena priznaje intenzivnu upotrebu i ulaganja.',
+                ],
+                'tags' => ['auto za dostavu', 'gradska vožnja', 'provera polovnjaka', 'intenzivna eksploatacija'],
+                'meta_title' => 'Polovni auto za dostavu: kako prepoznati rizik',
+                'meta_description' => 'Kako prepoznati polovan auto koji je radio dostavu: enterijer, gepek, kvačilo, kočnice, trap, hladni startovi i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#eab308', '#f8fafc'],
+            ],
         ]);
     }
 

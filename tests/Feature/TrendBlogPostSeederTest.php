@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(100, $posts);
+        $this->assertCount(105, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(33, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(34, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -126,6 +126,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-vitara-mali-suv-koji-ne-treba-kupiti-samo-zbog-reputacije'));
         $this->assertTrue($posts->contains('slug', 'auto-kupljen-na-aukciji-kada-niza-cena-nosi-skuplji-rizik'));
         $this->assertTrue($posts->contains('slug', 'polovni-volvo-v60-karavan-za-porodicu-koji-trazi-proveru-automatika-i-trapa'));
+        $this->assertTrue($posts->contains('slug', 'hyundai-kona-ili-kia-niro-mali-hibridni-crossover-kada-grad-odlucuje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-ford-mondeo-velika-limuzina-koja-mora-opravdati-dizel-i-trap'));
+        $this->assertTrue($posts->contains('slug', 'panoramski-krov-na-polovnom-autu-lep-detalj-koji-moze-skupo-da-prokisnjava'));
+        $this->assertTrue($posts->contains('slug', 'tek-uvezen-auto-iz-svajcarske-kada-dobra-oprema-ne-garantuje-laku-kupovinu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-auto-za-dostavu-kako-prepoznati-tezak-gradski-zivot-pre-kupovine'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

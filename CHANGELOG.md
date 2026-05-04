@@ -6,6 +6,16 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.61] - 2026-05-04
+
+### Added
+
+- Added five non-duplicate production blog articles covering Hyundai Kona vs Kia Niro, used Ford Mondeo checks, panoramic roof risk, Swiss import evaluation, and delivery-use vehicle signals.
+
+### Changed
+
+- Made OpenAI blog cover prompts more visually specific so generated images aim for richer photorealistic editorial scenes instead of generic automotive stock compositions.
+
 ## [0.1.60] - 2026-05-03
 
 ### Changed
