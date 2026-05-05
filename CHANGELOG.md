@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.62] - 2026-05-05
+
+### Added
+
+- Added five non-duplicate production blog articles covering Nissan X-Trail checks, Honda Accord vs Toyota Avensis, replaced-engine risk, plug-in hybrid ownership, and used Fiat Tipo buying guidance.
+
 ## [0.1.61] - 2026-05-04
 
 ### Added

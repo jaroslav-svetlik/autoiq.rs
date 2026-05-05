@@ -3070,6 +3070,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#eab308', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Nissan X-Trail: porodični SUV koji traži proveru CVT-a i pogona',
+                'slug' => 'polovni-nissan-x-trail-porodicni-suv-koji-trazi-proveru-cvt-a-i-pogona',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'X-Trail može biti praktičan porodični SUV, ali dobar primerak mora dokazati stanje CVT menjača, 4x4 sistema, trapa i enterijera.',
+                'content' => <<<'TEXT'
+Nissan X-Trail često privlači kupce koji žele više prostora od Qashqaija, povišenu poziciju sedenja i porodičan osećaj bez premium cene. Na fotografijama deluje kao logičan izbor za porodicu, putovanja i lošiji asfalt. Ipak, kod polovnog X-Traila nije dovoljno da auto bude velik i lepo opremljen. Najvažnije je da se pogon, menjač i trap uklapaju sa pričom o održavanju.
+
+Prva provera je CVT menjač kod verzija koje ga imaju. Treba obratiti pažnju na zadršku pri kretanju, zavijanje, trzaje, proklizavanje i ponašanje kada se menjač zagreje. Servis ulja mora biti dokaziv, jer priča da se ulje ne menja nije dobar argument kod polovnog automobila koji treba da nosi porodicu i prtljag.
+
+Druga tema je pogon na sve točkove. X-Trail sa 4x4 sistemom ima smisla ako je sistem ispravan, gume ujednačene i nema lupanja ili vibracija pod opterećenjem. Ako je auto često vožen po lošem putu, planini ili snegu, prednost pogona može doći sa troškom trapa, kočnica i amortizera.
+
+Treća provera je enterijer. Porodični SUV često nosi dečja sedišta, opremu, kofere i svakodnevnu gužvu. Zadnja klupa, gepek, obloge, klima i elektronika treba da potvrde da je automobil korišćen normalno. Polovni X-Trail ima smisla kada prostor dolazi sa urednim servisima, mirnim menjačem i trapom koji ne traži objašnjenja.
+TEXT,
+                'highlights' => [
+                    'Kod X-Traila CVT menjač mora imati miran rad i dokaziv servis ulja.',
+                    '4x4 pogon je prednost samo ako su gume, trap i sistem provereni bez vibracija.',
+                    'Porodična upotreba se vidi kroz enterijer, gepek, klimu i stanje zadnje klupe.',
+                ],
+                'tags' => ['Nissan X-Trail', 'porodični SUV', 'CVT', '4x4'],
+                'meta_title' => 'Polovni Nissan X-Trail: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Nissan X-Trail modela: CVT menjač, 4x4 pogon, trap, enterijer, servisna istorija i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Honda Accord ili Toyota Avensis: velika limuzina kada racionalnost vredi više od značke',
+                'slug' => 'honda-accord-ili-toyota-avensis-velika-limuzina-kada-racionalnost-vredi-vise-od-znacke',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Accord i Avensis mogu biti mirnije alternative skupljim premium limuzinama, ali samo kada stanje, servis i korozija opravdaju reputaciju.',
+                'content' => <<<'TEXT'
+Honda Accord i Toyota Avensis često zanimaju kupce koji žele veliku limuzinu ili karavan, ali ne žele premium troškove nemačkih modela. Oba automobila imaju reputaciju racionalne kupovine, dobrih benzinaca i solidne dugotrajnosti. To je dobra osnova, ali kod starijih polovnjaka reputacija ne sme zameniti pregled.
+
+Accord ima prednost za vozača koji želi bolji osećaj za volanom, preciznije upravljanje i malo više karaktera. Benzinski motori su često traženi, ali treba proveriti servisni ritam, potrošnju ulja, trap, kočnice i stanje limarije. Dizel može biti štedljiv, ali traži ozbiljniju proveru turbine, DPF-a, kvačila i hladnog starta.
+
+Avensis je mirniji izbor za kupca kome su udobnost, jednostavnost i porodična upotreba važniji od dinamike. Kod njega proveri servisnu istoriju, stanje enterijera, koroziju ispod vozila i da li cena odgovara godinama i kilometraži. Toyota znak pomaže pri kasnijoj prodaji, ali ne popravlja zapušten primerak.
+
+Najbolja odluka zavisi od konkretnog auta. Accord ima smisla kada želiš više vozačkog osećaja i nalaziš uredan benzinac. Avensis ima prednost kada želiš mirniji porodični auto sa jasnom istorijom. Ako jedan ima račune, zdrav trap i dobru limariju, a drugi samo poznatu reputaciju, izbor je već napravljen.
+TEXT,
+                'highlights' => [
+                    'Accord je zanimljiviji za vožnju, Avensis mirniji za porodičnu rutinu.',
+                    'Kod oba modela korozija, trap i servisna istorija vrede više od reputacije.',
+                    'Benzinci su često najpoželjniji, ali samo kada stanje prati cenu.',
+                ],
+                'tags' => ['Honda Accord', 'Toyota Avensis', 'velika limuzina', 'poređenje'],
+                'meta_title' => 'Honda Accord ili Toyota Avensis: polovna limuzina',
+                'meta_description' => 'Poređenje polovnih Honda Accord i Toyota Avensis modela: benzinci, dizel, korozija, trap, servisna istorija, udobnost i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa zamenjenim motorom: kada račun vredi više od priče prodavca',
+                'slug' => 'auto-sa-zamenjenim-motorom-kada-racun-vredi-vise-od-price-prodavca',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Zamenjen motor ne mora automatski značiti lošu kupovinu, ali bez računa, dokumentacije, dijagnostike i jasnog razloga rizik brzo raste.',
+                'content' => <<<'TEXT'
+Oglas u kom prodavac kaže da je motor zamenjen može zvučati kao dobra vest: navodno je ugrađen bolji, mlađi ili manje pređen motor, pa kupac dobija automobil sa svežijom mehanikom. U praksi to može biti tačno, ali samo ako postoje dokazi. Bez računa, dokumentacije i jasnog razloga zamene, kupac preuzima tuđu nepoznanicu.
+
+Prvo pitanje je zašto je motor zamenjen. Da li je prethodni stradao zbog lošeg održavanja, pregrevanja, pucanja kaiša, nedostatka ulja ili ozbiljne štete? Ako uzrok nije rešen, novi motor ne rešava ceo problem. Hladnjak, instalacija, turbina, menjač, nosači i elektronika mogu i dalje nositi posledice stare greške.
+
+Druga provera je poreklo motora. Broj motora, račun, ugradnja u servisu, dijagnostika i usklađenost sa dokumentima moraju imati logiku. Motor iz nepoznatog izvora nije isto što i motor sa dokazivom kilometražom i garancijom servisa. Ako prodavac nema papir, priča nema veliku vrednost.
+
+Treća provera je probna vožnja i pregled. Auto treba da pali hladan, radi mirno, ne dimi, ne curi, ne baca greške i ne pokazuje improvizacije oko instalacije. Kupovina auta sa zamenjenim motorom ima smisla samo kada je cena realna, rad dokumentovan i razlog zamene jasan. U suprotnom, jeftiniji primerak može postati najskuplji u oglasima.
+TEXT,
+                'highlights' => [
+                    'Zamenjen motor je prihvatljiv samo uz račun, dokumentaciju i jasan razlog zamene.',
+                    'Treba proveriti da li su rešeni uzroci kvara prethodnog motora.',
+                    'Dijagnostika, hladan start i pregled instalacije su obavezni pre kapare.',
+                ],
+                'tags' => ['zamenjen motor', 'provera vozila', 'servisna dokumentacija', 'polovni auto'],
+                'meta_title' => 'Auto sa zamenjenim motorom: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto sa zamenjenim motorom: računi, poreklo motora, dokumentacija, dijagnostika, hladan start i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni plug-in hibrid: kada punjenje kod kuće odlučuje celu računicu',
+                'slug' => 'polovni-plug-in-hibrid-kada-punjenje-kod-kuce-odlucuje-celu-racunicu',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Plug-in hibrid može biti izuzetno štedljiv, ali samo ako se redovno puni i ako baterija, kablovi, servis i realan domet opravdavaju višu cenu.',
+                'content' => <<<'TEXT'
+Polovni plug-in hibrid često deluje kao idealan kompromis: vozi na struju po gradu, ima benzinski motor za duži put i na papiru troši vrlo malo. Problem je što PHEV računica zavisi od navike punjenja više nego od same oznake na gepeku. Bez redovnog punjenja, plug-in hibrid često postaje težak benzinac sa skupljom tehnologijom.
+
+Prvo treba proceniti da li zaista imaš gde da puniš. Kućno punjenje ili siguran punjač na poslu menjaju celu sliku. Ako se auto oslanja samo na povremene javne punjače, prednost brzo nestaje. Kupac treba da računa svakodnevnu rutu, ne fabričku potrošnju iz kataloga.
+
+Druga provera je baterija i punjenje. Kablovi, utičnica, softver, realan električni domet i dijagnostika hibridnog sistema moraju biti deo pregleda. Ako prodavac ne zna kada je auto poslednji put punjen ili nema originalne kablove, treba biti oprezan. PHEV koji nikada nije punjen nije korišćen kako je zamišljen.
+
+Treća tema su troškovi. Plug-in hibrid ima motor, bateriju, elektroniku, kočnice, trap i često bogatu opremu. To može biti odlična kupovina kada se koristi pravilno, ali viša cena mora imati realno opravdanje. Najbolji PHEV je onaj koji tvoja rutina puni svakog dana, a ne onaj koji samo lepo izgleda u oglasu.
+TEXT,
+                'highlights' => [
+                    'PHEV ima smisla samo ako ga stvarno puniš kod kuće ili na poslu.',
+                    'Baterija, kablovi, softver i realan električni domet moraju se proveriti dijagnostikom.',
+                    'Bez punjenja plug-in hibrid lako postaje teži i skuplji benzinac.',
+                ],
+                'tags' => ['plug-in hibrid', 'PHEV', 'punjenje kod kuće', 'troškovi'],
+                'meta_title' => 'Polovni plug-in hibrid: kada se isplati',
+                'meta_description' => 'Vodič za kupovinu polovnog plug-in hibrida: kućno punjenje, baterija, kablovi, realan električni domet, PHEV troškovi i servis.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#06b6d4', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Fiat Tipo: kompakt koji mora opravdati nisku cenu održavanja',
+                'slug' => 'polovni-fiat-tipo-kompakt-koji-mora-opravdati-nisku-cenu-odrzavanja',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tipo može biti racionalan porodični kompakt, ali kupac treba da proveri motor, trap, karoseriju, opremu i da li je niska cena zaista prednost.',
+                'content' => <<<'TEXT'
+Fiat Tipo je polovnjak koji često privlači kupce koji žele jednostavan kompakt, pristojan prostor i niže troškove od popularnijih nemačkih modela. Kao limuzina, hečbek ili karavan može biti vrlo racionalan, posebno za porodicu ili svakodnevnu vožnju. Ipak, niska cena nije dovoljna ako konkretan primerak odmah traži ulaganja.
+
+Prva odluka je motor. Benzinci mogu biti dobar izbor za grad i manje kilometraže, dok dizel ima smisla za duže relacije samo ako ima urednu servisnu istoriju i zdrav DPF/EGR sistem. Tipo ne treba kupiti samo zato što deluje jednostavno. Hladan start, curenja, potrošnja ulja i servisni ritam i dalje moraju biti provereni.
+
+Druga tema je trap i karoserija. Automobili koji su vozili službeno, dostavno ili mnogo po gradu često kriju tragove u gumama, amortizerima, sponama, kočnicama i sitnim oštećenjima. Unutrašnjost gepeka, pragovi, vrata i branici mogu otkriti upotrebu koju oglas ne opisuje.
+
+Tipo ima smisla kada kupac želi razuman auto bez jurnjave za imidžom. Najbolji primerak nije najjeftiniji, nego onaj kod kog niska cena održavanja dolazi uz uredan servis, zdrav trap i opremu koja radi. Ako se to poklopi, Tipo može biti pametnija kupovina od skupljeg kompakta sa boljom značkom i većim rizikom.
+TEXT,
+                'highlights' => [
+                    'Tipo je racionalan kompakt kada stanje potvrđuje priču o niskim troškovima.',
+                    'Benzinac je često mirniji za grad, dizel samo uz jasnu istoriju i duže relacije.',
+                    'Trap, gepek i karoserija otkrivaju službenu ili intenzivnu gradsku upotrebu.',
+                ],
+                'tags' => ['Fiat Tipo', 'kompakt', 'porodični auto', 'niski troškovi'],
+                'meta_title' => 'Polovni Fiat Tipo: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiat Tipo modela: benzinac, dizel, trap, karoserija, servisna istorija, oprema i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#ef4444', '#f8fafc'],
+            ],
         ]);
     }
 
