@@ -3205,6 +3205,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#ef4444', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Peugeot 308: kompakt koji traži proveru PureTech-a i dizela',
+                'slug' => 'polovni-peugeot-308-kompakt-koji-trazi-proveru-puretech-a-i-dizela',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Peugeot 308 može biti atraktivan i udoban kompakt, ali kupac mora proveriti PureTech servis, dizel rizike, elektroniku i realno stanje enterijera.',
+                'content' => <<<'TEXT'
+Peugeot 308 često izgleda kao zanimljiva alternativa Golfu, Astri ili Meganu. Ima prijatan enterijer, dobru udobnost, moderan dizajn i često bogatu opremu za cenu. Upravo zato kupac mora odvojiti privlačan utisak od stvarnog stanja, jer kod polovnog 308 najskuplja greška često nije oprema, nego preskočena provera motora i elektronike.
+
+Kod benzinskih 1.2 PureTech verzija najvažnije je proveriti servisni ritam, stanje kaiša gde je primenljivo, potrošnju ulja, hladan start i račune. Ako prodavac nema dokaz o održavanju, ne treba pretpostaviti da je motor samo zato što lepo radi u mestu bez rizika. Kratka probna vožnja nije dovoljna ako istorija nije jasna.
+
+Dizel verzije mogu biti odlične za duže relacije, ali samo ako nisu ceo život provele u gradu. DPF, EGR, turbina, dizne i aditivni sistemi moraju biti deo pregleda. Dizel 308 ima smisla za vozača koji stvarno prelazi kilometre na otvorenom putu, a ne za kratke gradske relacije.
+
+Treća tema je enterijer i elektronika. i-Cockpit raspored nekome odgovara, a nekome nikako, pa obavezno proveri položaj volana, preglednost, multimediju, klimu, senzore i greške na dijagnostici. Polovni Peugeot 308 je dobra kupovina kada stil i oprema dolaze uz proverljiv servis, a ne kada samo prikrivaju zapušten primerak.
+TEXT,
+                'highlights' => [
+                    'Kod 1.2 PureTech motora servisni trag i stanje kaiša presudni su za rizik.',
+                    'Dizel 308 ima smisla za duže relacije, ne za kratku gradsku rutinu.',
+                    'Elektroniku, i-Cockpit ergonomiju i dijagnostiku treba proveriti pre kapare.',
+                ],
+                'tags' => ['Peugeot 308', 'PureTech', 'dizel', 'kompakt'],
+                'meta_title' => 'Polovni Peugeot 308: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Peugeot 308 modela: PureTech motor, dizel, DPF, EGR, elektronika, i-Cockpit, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Mercedes-Benz E klasa ili BMW Serija 5: premium limuzina kada kilometraža odlučuje',
+                'slug' => 'mercedes-benz-e-klasa-ili-bmw-serija-5-premium-limuzina-kada-kilometraza-odlucuje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'E klasa i Serija 5 mogu biti ozbiljni putni automobili, ali kod polovnjaka kilometraža, servis i automatik vrede više od prestiža.',
+                'content' => <<<'TEXT'
+Mercedes-Benz E klasa i BMW Serija 5 privlače kupce koji žele komfor, snagu, tišinu i osećaj ozbiljnog automobila. Kao novi automobili bili su skupi, a kao polovni često deluju kao velika prilika. Problem je što premium limuzina ne postaje jeftina za održavanje samo zato što joj je kupovna cena pala.
+
+E klasa je prirodniji izbor za vozača kome su udobnost, duga putovanja i smiren karakter na prvom mestu. Kod polovnog primerka treba proveriti automatski menjač, vazdušno oslanjanje ako ga ima, elektroniku, dizel sistem, tragove službene upotrebe i stvarnu kilometražu. Automobil može izgledati dostojanstveno i kada je već ozbiljno umoran.
+
+Serija 5 ima prednost kada vozač želi više osećaja u vožnji i bolju dinamiku. To traži još strožu proveru trapa, guma, kočnica, menjača i motora. Primerci koji su voženi agresivno, čipovani ili održavani minimalno lako pretvore privlačnu cenu u skup početak vlasništva.
+
+Kod oba modela presuđuje dokumentacija. Servisni računi, dijagnostika, stanje enterijera, gume i probna vožnja govore više od značke. Ako kupuješ premium limuzinu, deo budžeta mora ostati za početna ulaganja. Najbolja kupovina nije najjeftinija E klasa ili Serija 5, nego primerak gde kilometraža, servis i stanje pričaju istu priču.
+TEXT,
+                'highlights' => [
+                    'E klasa je mirniji putni izbor, Serija 5 bolja za vozača koji traži dinamiku.',
+                    'Automatik, trap, elektronika i stvarna kilometraža nose najveći rizik.',
+                    'Premium cena polovnjaka mora uključiti budžet za početna ulaganja.',
+                ],
+                'tags' => ['Mercedes E klasa', 'BMW Serija 5', 'premium limuzina', 'kilometraža'],
+                'meta_title' => 'Mercedes E klasa ili BMW Serija 5: polovni premium',
+                'meta_description' => 'Poređenje polovnih Mercedes-Benz E klase i BMW Serije 5: kilometraža, automatik, trap, dizel, elektronika, servis i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa vučnom kukom: kada koristan dodatak otkriva težak život',
+                'slug' => 'auto-sa-vucnom-kukom-kada-koristan-dodatak-otkriva-tezak-zivot',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vučna kuka može biti korisna oprema, ali kod polovnog auta treba proveriti menjač, kvačilo, hlađenje, trap, elektroniku i tragove vuče.',
+                'content' => <<<'TEXT'
+Vučna kuka u oglasu može delovati kao praktičan bonus. Dobro dođe za prikolicu, nosač bicikala, kamp opremu ili povremeni transport. Ipak, kod polovnog automobila kuka može otkriti i teži život od onog koji prodavac opisuje. Nije problem što auto ima kuku, već šta je sa njom vukao i koliko često.
+
+Prva provera su kvačilo i menjač kod manuelnih automobila, odnosno automatski menjač kod automatika. Vuča opterećuje prenos više nego obična gradska vožnja. Ako menjač trza, kasni, proklizava ili kvačilo hvata visoko, kuka više nije samo dodatak, nego signal za ozbiljniji pregled.
+
+Druga tema je hlađenje i motor. Vuča po uzbrdicama, leti ili sa većom prikolicom može opteretiti hladnjak, turbinu, kočnice i ulje. Treba proveriti temperaturu, curenja, stanje kočnica, trap i gume. Ako auto ima tragove česte vuče, cena mora priznati taj rizik.
+
+Treća provera je instalacija. Elektrika kuke treba da radi uredno, bez improvizovanih spojeva, grešaka svetala ili oštećenja branika. Dobar auto sa kukom može biti odlična kupovina ako je korišćen razumno. Problem je kada prodavac kuku predstavlja kao sitnicu, a ostatak automobila pokazuje da je godinama radio teži posao.
+TEXT,
+                'highlights' => [
+                    'Vučna kuka nije problem sama po sebi, ali traži proveru šta je auto vukao.',
+                    'Menjač, kvačilo, hlađenje, kočnice i trap trpe najveće opterećenje.',
+                    'Elektrika kuke i tragovi na braniku otkrivaju kvalitet ugradnje i upotrebe.',
+                ],
+                'tags' => ['vučna kuka', 'provera polovnjaka', 'menjač', 'kvačilo'],
+                'meta_title' => 'Auto sa vučnom kukom: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proveriti polovan auto sa vučnom kukom: menjač, kvačilo, hlađenje, kočnice, trap, elektrika kuke i tragovi vuče.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Holandije: kada uredna kilometraža ne znači mirnu kupovinu',
+                'slug' => 'uvoz-auta-iz-holandije-kada-uredna-kilometraza-ne-znaci-mirnu-kupovinu',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Holandski automobili često imaju proverljive podatke, ali kupac mora gledati gradsku upotrebu, koroziju, servis, opremu i realnu cenu uvoza.',
+                'content' => <<<'TEXT'
+Automobili iz Holandije često deluju privlačno jer tržište ima dosta vozila, dobru digitalnu istoriju i jasnije podatke od mnogih drugih izvora. To je prednost, ali ne znači da je svaki uvoz iz Holandije mirna kupovina. Uredna kilometraža je samo jedan deo slike, a stanje konkretnog automobila mora potvrditi podatke.
+
+Prva tema je način vožnje. Holandija znači mnogo grada, kratkih relacija, parkiranja, kiše i biciklističke infrastrukture oko automobila. Sitna oštećenja, tragovi parkinga, vlaga u enterijeru, stanje kočnica i trap mogu reći više od same kilometraže. Auto sa manjim brojem kilometara može imati težak gradski ritam.
+
+Druga provera su dokumenti i servis. Dostupni izveštaji, tehnički pregledi, računi i servisna istorija moraju se uklopiti sa stanjem. Ako postoji rupa u istoriji, ne treba je ignorisati samo zato što auto dolazi sa uređenog tržišta. Uvoz i dalje traži hladnu proveru.
+
+Treća tema je cena. Transport, dažbine, zarada prodavca, registracija i početna ulaganja moraju stati u računicu. Uvoz iz Holandije ima smisla kada podaci, stanje i cena idu zajedno. Ako se kupovina oslanja samo na priču o urednoj kilometraži, rizik ostaje na kupcu.
+TEXT,
+                'highlights' => [
+                    'Holandska istorija može pomoći, ali ne zamenjuje pregled stanja.',
+                    'Gradska upotreba, vlaga, kočnice i parking tragovi često otkrivaju realan život auta.',
+                    'Cena uvoza mora uključiti transport, dažbine, registraciju i početna ulaganja.',
+                ],
+                'tags' => ['uvoz iz Holandije', 'uvoz automobila', 'kilometraža', 'servisna istorija'],
+                'meta_title' => 'Uvoz auta iz Holandije: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta uvezenog iz Holandije: kilometraža, servisna istorija, gradska upotreba, korozija, dokumenti i cena uvoza.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Dacia Sandero Stepway: mali auto koji ne treba platiti kao SUV',
+                'slug' => 'polovni-dacia-sandero-stepway-mali-auto-koji-ne-treba-platiti-kao-suv',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Sandero Stepway deluje kao povoljan crossover, ali kupac treba da proveri motor, trap, opremu, prethodnu namenu i da li cena beži od realnosti.',
+                'content' => <<<'TEXT'
+Dacia Sandero Stepway privlači kupce koji žele jednostavan auto, viši klirens, preglednost i izgled malog crossovera bez velikih troškova. To može biti dobra kupovina, ali samo ako cena ostane u skladu sa onim što automobil zaista jeste. Stepway nije SUV i ne treba ga platiti kao ozbiljniji porodični crossover.
+
+Prva provera je motor i servis. Benzinske i plinske verzije mogu biti vrlo racionalne, ali samo kada je održavanje jasno i kada nema tragova zapuštene gradske upotrebe. Hladan start, curenja, rad klime i stanje izduva treba proveriti bez pretpostavke da jednostavan auto ne može imati problem.
+
+Druga tema je trap. Viši izgled često ohrabri vozače da lakše prelaze preko ivičnjaka, rupa i lošeg puta. Gume, amortizeri, spone, ležajevi i kočnice brzo otkrivaju da li je auto zaista bio nežno korišćen. Ako se čuje lupkanje, cena mora uključiti ulaganje.
+
+Treća tema je oprema i prethodna namena. Stepway se često kupuje kao gradski porodični auto, službeno vozilo ili ekonomičan auto za mnogo kratkih relacija. Enterijer, gepek i vrata treba da prate kilometražu. Dobar Sandero Stepway ima smisla kada je jednostavan, uredan i realno plaćen. Ako ga tržište ceni previše zbog crossover izgleda, običan Sandero ili drugi gradski auto mogu biti pametniji izbor.
+TEXT,
+                'highlights' => [
+                    'Sandero Stepway je praktičan mali auto, ali ne treba ga plaćati kao pravi SUV.',
+                    'Motor, klima, trap i gume otkrivaju koliko je auto trpeo grad i loš put.',
+                    'Dobar primerak ima smisla samo kada cena ostaje realna za klasu.',
+                ],
+                'tags' => ['Dacia Sandero Stepway', 'mali crossover', 'gradski auto', 'niski troškovi'],
+                'meta_title' => 'Polovni Dacia Sandero Stepway: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Dacia Sandero Stepway modela: motor, trap, oprema, gradska upotreba, cena i realna vrednost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
         ]);
     }
 

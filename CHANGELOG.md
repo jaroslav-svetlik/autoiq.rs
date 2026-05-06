@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.63] - 2026-05-06
+
+### Added
+
+- Added five non-duplicate production blog articles covering Peugeot 308 buying checks, Mercedes E-Class vs BMW 5 Series, tow-hook inspection risk, Dutch imports, and Dacia Sandero Stepway value.
+
 ## [0.1.62] - 2026-05-05
 
 ### Added
