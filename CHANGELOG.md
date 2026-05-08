@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.64] - 2026-05-08
+
+### Added
+
+- Added five non-duplicate production blog articles covering used Skoda Karoq checks, Kia Stonic vs Hyundai Bayon, replacement headlight inspection, tuning/chip risk, and used Ford S-Max buying guidance.
+
 ## [0.1.63] - 2026-05-06
 
 ### Added

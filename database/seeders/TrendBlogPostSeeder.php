@@ -3340,6 +3340,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#10231f', '#22c55e', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Škoda Karoq: kompaktni SUV koji mora opravdati cenu Tiguana',
+                'slug' => 'polovni-skoda-karoq-kompaktni-suv-koji-mora-opravdati-cenu-tiguana',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Karoq može biti racionalan porodični SUV, ali kupac mora proveriti motor, DSG, trap, opremu i da li cena previše prati Tiguan.',
+                'content' => <<<'TEXT'
+Škoda Karoq je zanimljiv polovnjak za kupce koji žele praktičan kompaktni SUV, ali ne žele da plate punu Volkswagen Tiguan cenu. Problem je što tržište često baš tako formira cene. Dobar Karoq može biti vrlo logična kupovina, ali samo ako stanje i oprema opravdavaju iznos koji prodavac traži.
+
+Prva provera je motor i servisna istorija. Benzinci su dobri za gradsku i mešovitu vožnju kada imaju uredno održavanje, dok dizel ima smisla za duže relacije. Kod svake verzije proveri hladan start, curenja, rad turbine, DPF kod dizela i račune za redovne servise. Karoq sa praznom servisnom pričom ne treba plaćati kao siguran porodični izbor.
+
+Druga tema je menjač i trap. DSG mora menjati brzine glatko, bez trzaja, zadrške i nejasnih zvukova pri manevrisanju. Trap, amortizeri, kočnice i gume treba da pokažu da auto nije samo izgledao kao gradski SUV, nego da je i stvarno nežno korišćen. Velike felne i loš put mogu brzo pojesti prednost urednog enterijera.
+
+Treća tema je oprema. Adaptivni tempomat, LED farovi, kamera, senzori, digitalna tabla i automatska klima podižu vrednost samo ako rade bez greške. Karoq je dobra kupovina kada nudi jasnu istoriju, realnu cenu i manje rizika od Tiguana. Ako je razlika mala, kupac treba hladno da uporedi konkretna dva primerka, ne samo značku.
+TEXT,
+                'highlights' => [
+                    'Karoq ima smisla kada je vidljivo jeftiniji ili uredniji od sličnog Tiguana.',
+                    'Motor, DSG, trap i gume odlučuju da li je SUV forma zaista mirna kupovina.',
+                    'Bogata oprema vredi samo ako elektronika, senzori i LED farovi rade bez doplate posle kupovine.',
+                ],
+                'tags' => ['Škoda Karoq', 'polovni SUV', 'DSG', 'Tiguan alternativa'],
+                'meta_title' => 'Polovni Škoda Karoq: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Škoda Karoq modela: motor, DSG, trap, oprema, LED farovi, cena u odnosu na Tiguan i servisna istorija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f241f', '#14b8a6', '#f8fafc'],
+            ],
+            [
+                'title' => 'Kia Stonic ili Hyundai Bayon: mali crossover za grad kada budžet ne trpi SUV cenu',
+                'slug' => 'kia-stonic-ili-hyundai-bayon-mali-crossover-za-grad-kada-budzet-ne-trpi-suv-cenu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stonic i Bayon ciljaju kupce koji žele povišeno sedenje i niske troškove, ali stanje, garancija i realna upotreba moraju odlučiti.',
+                'content' => <<<'TEXT'
+Kia Stonic i Hyundai Bayon često završavaju u istom užem izboru jer nude povišenu poziciju sedenja, gradske dimenzije i niže troškove od većih SUV modela. To nisu porodični SUV automobili za svaku namenu, nego mali crossoveri koji treba da olakšaju grad, parkiranje i svakodnevne relacije.
+
+Stonic ima smisla za kupca koji želi jednostavniji osećaj, poznatu mehaniku i dobar odnos cene i opreme. Kod polovnog primerka proveri servisnu istoriju, stanje kvačila, klime, trapa i guma, jer gradska vožnja brzo ostavi trag. Ako postoji fabrička garancija ili uredan servisni trag, to vredi više od nekoliko dodatnih ekrana u oglasu.
+
+Bayon je praktičan kada kupac želi noviji utisak, dobru opremu i racionalan mali auto za grad i povremeni put. Treba proveriti elektroniku, multimediju, senzore, kočnice i tragove kratkih relacija. Enterijer i gepek moraju odgovarati realnim potrebama, jer crossover izgled ne znači automatski porodični prostor.
+
+Izbor između Stonica i Bayona ne treba rešavati markom, već konkretnim primerkom. Bolja kupovina je auto sa urednom istorijom, jasnom garancijom, zdravim trapom i realnom cenom. Ako se mali crossover plaća kao ozbiljniji kompaktni SUV, vredi pogledati i klasičan kompakt ili karavan.
+TEXT,
+                'highlights' => [
+                    'Stonic i Bayon su mali crossoveri za grad, ne zamena za veći porodični SUV.',
+                    'Garancija, servisni trag, trap i gradska istrošenost vrede više od vizuelnog utiska.',
+                    'Ako cena ode previsoko, klasičan kompakt može biti racionalnija kupovina.',
+                ],
+                'tags' => ['Kia Stonic', 'Hyundai Bayon', 'mali crossover', 'gradski auto'],
+                'meta_title' => 'Kia Stonic ili Hyundai Bayon: polovni mali crossover',
+                'meta_description' => 'Poređenje polovnih Kia Stonic i Hyundai Bayon modela: gradska vožnja, oprema, garancija, trap, troškovi i realna vrednost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa zamenskim farovima: kada loš deo kvari celu kupovinu',
+                'slug' => 'auto-sa-zamenskim-farovima-kada-los-deo-kvari-celu-kupovinu',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Zamenski farovi mogu biti bezazleni, ali često otkrivaju udarac, lošu popravku, vlagu, greške senzora ili skupu elektroniku.',
+                'content' => <<<'TEXT'
+Zamenski far na polovnom autu nije automatski razlog za odustajanje, ali jeste razlog za ozbiljniju proveru. Far je često prvi trag da je auto imao udarac, lošu parking štetu, nekvalitetnu popravku ili problem sa vlagom. Kod modernih LED i adaptivnih farova to više nije sitan estetski detalj.
+
+Prvo proveri zašto je far menjan. Račun, fotografija štete i servisni trag vrede mnogo više od objašnjenja da je prethodni vlasnik samo želeo nov deo. Ako jedan far izgleda novije, drugačije svetli ili ima drugačiji proizvođački znak, treba pogledati branik, nosače, krila, haubu, hladnjak i zazore.
+
+Druga provera je kvalitet dela. Jeftini zamenski farovi mogu lošije osvetljavati put, magliti, skupljati vodu ili praviti problem na tehničkom pregledu. Kod LED i adaptivnih sistema proveri nivelaciju, greške na tabli, rad dnevnog svetla, senzore i pranje farova ako postoji. Far koji radi na parkingu ne znači da će raditi pravilno u realnoj vožnji.
+
+Treća tema je pregovaranje. Ako je far zamenjen posle jasne i dobro popravljene štete, cena može samo da odrazi stanje. Ako dokumenti ne postoje, zazori nisu ujednačeni ili se vide lomljeni nosači, rizik je veći od samog fara. Tada pregled karoserije i dijagnostika nisu opcija, nego uslov kupovine.
+TEXT,
+                'highlights' => [
+                    'Zamenski far traži proveru razloga zamene, nosača, zazora i prednjeg koša.',
+                    'Jeftin far može doneti vlagu, loše svetlo, greške senzora i problem na tehničkom.',
+                    'Bez računa i jasne istorije, cena mora uključiti rizik loše popravke.',
+                ],
+                'tags' => ['zamenski farovi', 'provera karoserije', 'LED farovi', 'udarac'],
+                'meta_title' => 'Auto sa zamenskim farovima: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto sa zamenskim farovima: udarac, nosači, zazori, vlaga, LED sistemi, senzori, tehnički pregled i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa tuningom i čipom: kada više snage znači više rizika',
+                'slug' => 'auto-sa-tuningom-i-cipom-kada-vise-snage-znaci-vise-rizika',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Čipovan polovnjak može biti zabavan, ali kupac mora proveriti ko je radio mapu, stanje turbine, kvačila, menjača i emisijskih sistema.',
+                'content' => <<<'TEXT'
+Auto sa tuningom ili čipom često izgleda kao bolja ponuda: više snage za istu cenu, zanimljivija vožnja i priča da je sve urađeno profesionalno. Problem je što dodatna snaga ne opterećuje samo motor. Ona menja život turbine, kvačila, menjača, DPF-a, EGR-a, kočnica i guma.
+
+Prvo pitanje je ko je radio mapu i da li postoji dokaz. Račun, dyno merenje, opis softvera i servis koji stoji iza posla vrede više od rečenice da je auto samo blago pojačan. Ako prodavac ne zna detalje, kupac preuzima rizik tuđe improvizacije. Posebno oprezno treba gledati dizel automobile sa ugašenim ili izmenjenim emisijskim sistemima.
+
+Druga provera je mehanika. Hladan start, dim, pritisak turbine, curenja, rad kvačila, proklizavanje, menjač, temperatura i greške na dijagnostici moraju se gledati strože nego kod fabričkog primerka. Auto može ići odlično, a ipak nositi umor koji se vidi tek posle duže vožnje ili pregleda.
+
+Treća tema je vrednost. Tuning ne podiže cenu svakom kupcu. Naprotiv, često sužava tržište i povećava sumnju. Ako auto nema jasnu istoriju, fabričke delove, uredan tehnički status i dokaz da nije vožen agresivno, više snage može značiti samo više budućih troškova.
+TEXT,
+                'highlights' => [
+                    'Čipovan auto traži dokaz ko je radio mapu, kada i sa kojim rezultatima.',
+                    'Turbina, kvačilo, menjač, DPF, EGR i kočnice trpe veći rizik od fabričkog primerka.',
+                    'Tuning retko povećava realnu vrednost ako nema odličnu dokumentaciju.',
+                ],
+                'tags' => ['čip tuning', 'tuning', 'turbina', 'DPF', 'menjač'],
+                'meta_title' => 'Auto sa tuningom i čipom: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu čipovanog polovnjaka: mapa, dyno, turbina, kvačilo, menjač, DPF, EGR, kočnice, dokumentacija i rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Ford S-Max: porodični monovolumen koji traži proveru automatika',
+                'slug' => 'polovni-ford-s-max-porodicni-monovolumen-koji-trazi-proveru-automatika',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'S-Max je odličan za porodicu i putovanja, ali kupac mora proveriti Powershift, dizel, trap, klimu, sedam sedišta i stvarnu kilometražu.',
+                'content' => <<<'TEXT'
+Ford S-Max je jedan od polovnjaka koji najbolje pokazuje zašto monovolumen nije nestao zbog manjka smisla, nego zbog mode SUV modela. Nudi nizak prag utovara, mnogo prostora, dobru vožnju i praktičnu kabinu. Za porodicu može biti pametniji od SUV-a, ali samo ako stanje ne krije skupe troškove.
+
+Prva velika provera je menjač. Powershift automatik mora imati uredan servis ulja i rad bez trzaja, kašnjenja ili proklizavanja. Probna vožnja treba da uključi gradsku gužvu, kretanje uzbrdo, parkiranje i vožnju kada se menjač zagreje. Ako nema računa za servis, u cenu odmah ulazi rizik.
+
+Druga tema je dizel i kilometraža. S-Max se često kupovao za putovanja, službene relacije i prevoz porodice, pa velika kilometraža nije problem ako je uredno održavan. Problem je kada broj na satu ne prati sedišta, volan, pedale, gepek, vrata i servisnu dokumentaciju. DPF, EGR, turbina i curenja treba proveriti bez žurbe.
+
+Treća provera je porodična oprema. Klima mora hladiti i pozadi, sedišta se moraju pomerati i preklapati bez zapinjanja, a elektrika vrata, senzori i parking kamera treba da rade. Dobar S-Max vredi traženja jer daje mnogo auta za novac. Loš primerak brzo pokaže zašto veliki porodični auto ne treba kupovati bez majstora.
+TEXT,
+                'highlights' => [
+                    'S-Max može biti praktičniji od SUV-a kada prostor i utovar zaista odlučuju.',
+                    'Powershift automatik traži dokaz servisa ulja i ozbiljnu probnu vožnju.',
+                    'Dizel, klima, sedam sedišta, trap i kilometraža moraju se proveriti porodičnim tempom.',
+                ],
+                'tags' => ['Ford S-Max', 'porodični auto', 'Powershift', 'monovolumen'],
+                'meta_title' => 'Polovni Ford S-Max: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Ford S-Max modela: Powershift automatik, dizel, DPF, EGR, klima, sedam sedišta, trap i kilometraža.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
