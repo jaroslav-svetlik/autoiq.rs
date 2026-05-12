@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.65] - 2026-05-12
+
+### Added
+
+- Added five non-duplicate production blog articles covering used Seat Ateca checks, Hyundai Santa Fe vs Kia Sorento, Mercedes B-Class buying guidance, dual-mass flywheel risk, and aftermarket multimedia inspection.
+
 ## [0.1.64] - 2026-05-08
 
 ### Added

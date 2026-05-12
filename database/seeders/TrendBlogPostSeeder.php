@@ -3475,6 +3475,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#172033', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Seat Ateca: španski Tiguan koji traži proveru TSI i DSG-a',
+                'slug' => 'polovni-seat-ateca-spanski-tiguan-koji-trazi-proveru-tsi-i-dsg-a',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ateca nudi praktičan SUV format i dobru vožnju, ali kupac mora proveriti TSI, TDI, DSG, trap, opremu i realnu razliku u ceni.',
+                'content' => <<<'TEXT'
+Seat Ateca često privuče kupca koji želi Volkswagen Tiguan logiku, ali uz malo življi karakter i nižu cenu. To može biti dobra kupovina, posebno kada je primerak uredan i realno plaćen. Problem nastaje kada se Ateca ceni skoro kao Tiguan, a ne donosi bolju istoriju, bolju opremu ili jasnije održavanje.
+
+Prva provera je motor. TSI benzinci imaju smisla za grad i mešovitu vožnju kada su redovno održavani, dok TDI verzije treba birati samo ako prethodna upotreba odgovara dizelu. Hladan start, curenja, potrošnja ulja, rad turbine, DPF i EGR kod dizela moraju biti deo pregleda, ne usputna pitanja posle probne vožnje.
+
+Druga tema je DSG i trap. DSG mora menjati glatko u hladnom i toplom stanju, bez trzaja pri manevrisanju i bez zadrške pri ubacivanju u D ili R. Ateca se često vozi po gradu, preko ivičnjaka i sa većim točkovima, pa amortizeri, spone, gume, kočnice i ležajevi brzo pokažu koliko je SUV izgled stvarno koštao prethodnog vlasnika.
+
+Treća provera je oprema. Kamera, senzori, LED farovi, adaptivni tempomat i multimedija podižu vrednost samo ako rade bez grešaka. Dobra Ateca je zanimljiv polovnjak kada cena ostane ispod Tiguana, a stanje bude uverljivije od proseka. Ako razlika nije dovoljna, kupac treba da poredi konkretne primerke, ne samo značke.
+TEXT,
+                'highlights' => [
+                    'Ateca ima smisla kada nudi bolji odnos stanja i cene od sličnog Tiguana.',
+                    'TSI, TDI, DSG i trap treba proveriti strože nego što oglas sugeriše.',
+                    'LED, senzori, kamera i multimedija vrede samo ako rade bez grešaka.',
+                ],
+                'tags' => ['Seat Ateca', 'polovni SUV', 'TSI', 'DSG', 'Tiguan alternativa'],
+                'meta_title' => 'Polovni Seat Ateca: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Seat Ateca modela: TSI, TDI, DSG, trap, LED farovi, senzori, oprema i cena u odnosu na Tiguan.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Hyundai Santa Fe ili Kia Sorento: sedam sedišta kada porodica preraste kompaktni SUV',
+                'slug' => 'hyundai-santa-fe-ili-kia-sorento-sedam-sedista-kada-porodica-preraste-kompaktni-suv',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Santa Fe i Sorento nude ozbiljan porodični prostor, ali kupac mora proveriti dizel, automatik, pogon, treći red i realne troškove.',
+                'content' => <<<'TEXT'
+Hyundai Santa Fe i Kia Sorento ulaze u izbor kada porodica preraste kompaktni SUV, a karavan više ne rešava sve potrebe. Sedam sedišta, veliki gepek, udobnost na putu i osećaj ozbiljnijeg auta deluju privlačno. Ipak, ova kupovina nije samo pitanje prostora, nego i troškova koje veći SUV nosi.
+
+Santa Fe često deluje kao mirniji izbor za kupce koji žele udobnost, solidnu opremu i dobru vrednost za novac. Treba proveriti dizel motor, automatski menjač, pogon na sva četiri točka, trap, kočnice i klima uređaj u svim zonama. Ako je auto vukao prikolicu ili često putovao pun, stanje menjača i zadnjeg trapa vredi gledati posebno pažljivo.
+
+Sorento ima sličnu porodičnu logiku, ali često nudi još robusniji utisak i bogatu opremu. Kod polovnog primerka proveri servisnu istoriju, rad automatika, stanje sedišta u trećem redu, elektriku gepeka, kamere, senzore i gume. Veliki SUV sa jeftinim gumama i nejasnim servisima obično nije povoljna prilika, nego najava ulaganja.
+
+Izbor između Santa Fea i Sorenta treba rešiti konkretnim stanjem, ne porodičnim snovima iz oglasa. Bolji je primerak sa jasnom istorijom, zdravim menjačem, dobrim gumama i opremom koja radi. Ako treći red koristiš retko, mlađi kompaktni SUV ili karavan mogu biti racionalniji izbor.
+TEXT,
+                'highlights' => [
+                    'Santa Fe i Sorento imaju smisla kada se treći red i veliki gepek stvarno koriste.',
+                    'Automatik, pogon, trap, kočnice i klima brzo menjaju ukupnu cenu vlasništva.',
+                    'Veliki SUV nije dobra kupovina ako servisna istorija ne prati težinu i namenu auta.',
+                ],
+                'tags' => ['Hyundai Santa Fe', 'Kia Sorento', 'sedam sedišta', 'porodični SUV'],
+                'meta_title' => 'Hyundai Santa Fe ili Kia Sorento: polovni porodični SUV',
+                'meta_description' => 'Poređenje polovnih Hyundai Santa Fe i Kia Sorento modela: sedam sedišta, dizel, automatik, pogon, trap, klima i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mercedes B-klasa: praktičan premium kompakt koji ne sme da se kupi samo zbog značke',
+                'slug' => 'polovni-mercedes-b-klasa-praktican-premium-kompakt-koji-ne-sme-da-se-kupi-samo-zbog-znacke',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'B-klasa može biti vrlo praktičan porodični kompakt, ali značka ne sme sakriti proveru motora, automatika, elektronike i enterijera.',
+                'content' => <<<'TEXT'
+Mercedes B-klasa je polovnjak koji često kupuju ljudi kojima treba praktičnost, viši ulazak i premium utisak bez veličine SUV-a. To je dobra ideja kada je primerak uredan, ali opasna kada kupac plati samo zvezdu na haubi. B-klasa mora dokazati praktičnu vrednost, ne samo izgled i znak.
+
+Prva provera je motor i menjač. Dizel ima smisla za duže relacije, ali traži proveru DPF-a, EGR-a, turbine i servisnog ritma. Benzinac može biti mirniji za grad, ali i dalje treba gledati hladan start, curenja i račune. Automatik mora raditi glatko, bez trzaja i zadrške, jer premium kompakt ne znači jeftinu popravku.
+
+Druga tema je enterijer. B-klasa često služi kao porodični auto, gradski prevoz ili službeno vozilo za mnogo kratkih relacija. Sedišta, volan, pedale, prekidači, gepek i vrata treba da se slažu sa kilometražom. Ako kabina izgleda umorno, a oglas obećava malu kilometražu, proveru treba pooštriti.
+
+Treća provera je elektronika i oprema. Kamera, senzori, multimedija, klima, asistencije i električni dodaci moraju raditi bez lampica i grešaka. Dobra B-klasa je udoban, praktičan i prijatan auto za svakodnevicu. Loša B-klasa je skupi kompakt sa reputacijom koja ne plaća buduće račune.
+TEXT,
+                'highlights' => [
+                    'B-klasa ima smisla kada praktičnost i stanje opravdavaju premium cenu.',
+                    'Motor, automatik, DPF, EGR i elektroniku treba proveriti pre pregovora.',
+                    'Enterijer često otkriva porodičnu ili službenu upotrebu bolje od kilometraže.',
+                ],
+                'tags' => ['Mercedes B-klasa', 'premium kompakt', 'porodični auto', 'automatik'],
+                'meta_title' => 'Polovni Mercedes B-klasa: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mercedes B-klasa modela: motor, automatik, DPF, EGR, elektronika, enterijer, oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a3a3a3', '#f8fafc'],
+            ],
+            [
+                'title' => 'Plivajući zamajac kod polovnjaka: tihi deo koji može pokvariti dobru cenu',
+                'slug' => 'plivajuci-zamajac-kod-polovnjaka-tihi-deo-koji-moze-pokvariti-dobru-cenu',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Plivajući zamajac se lako previdi na kratkoj probnoj vožnji, a može značajno promeniti računicu dizela, snažnog benzinca i porodičnog auta.',
+                'content' => <<<'TEXT'
+Plivajući zamajac je jedan od onih delova koji kupac često ne vidi, a ipak može ozbiljno promeniti računicu polovnog automobila. Auto može lepo izgledati, dobro vući i imati korektnu cenu, ali ako zamajac i kvačilo čekaju zamenu, početna ušteda brzo nestaje.
+
+Prvi signal su zvuk i vibracije. Obrati pažnju na lupkanje pri paljenju i gašenju, podrhtavanje na leru, zvuk pri pritisku kvačila, trzaje pri kretanju i vibracije pri niskim obrtajima. Simptomi ne moraju biti dramatični, posebno ako je auto zagrejan ili ako prodavac kontroliše probnu vožnju.
+
+Druga provera je namena auta. Dizel koji je dugo vožen u gradu, auto koji je vukao prikolicu, taksi, službeni auto ili snažniji model sa mnogo obrtnog momenta traže više pažnje. Zamajac ne strada samo od kilometraže, već od načina vožnje, čestog kretanja, lošeg kvačila i agresivnog ubrzavanja iz niskih obrtaja.
+
+Treća tema je cena. Ako postoji sumnja na zamajac, traži okvirnu cenu kompleta sa kvačilom i radom pre pregovora. Prodavac može reći da je to normalan zvuk, ali račun plaća kupac. Dobar polovnjak ne mora imati nov zamajac, ali mora imati cenu koja pošteno prati rizik.
+TEXT,
+                'highlights' => [
+                    'Zamajac proveri kroz hladan start, gašenje, ler, kvačilo i kretanje iz mesta.',
+                    'Gradski dizel, prikolica i službena upotreba povećavaju rizik troška.',
+                    'Sumnja na zamajac mora ući u pregovor pre kapare, ne posle kupovine.',
+                ],
+                'tags' => ['plivajući zamajac', 'kvačilo', 'dizel', 'troškovi održavanja'],
+                'meta_title' => 'Plivajući zamajac kod polovnjaka: šta proveriti',
+                'meta_description' => 'Kako proveriti plivajući zamajac kod polovnog auta: zvuk, vibracije, kvačilo, dizel, gradska vožnja, probna vožnja i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa naknadno ugrađenom multimedijom: kada veliki ekran skriva lošu instalaciju',
+                'slug' => 'auto-sa-naknadno-ugradjenom-multimedijom-kada-veliki-ekran-skriva-losu-instalaciju',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Veliki ekran, CarPlay i kamera mogu delovati kao dobra nadogradnja, ali kupac mora proveriti instalaciju, zvuk, senzore i greške elektronike.',
+                'content' => <<<'TEXT'
+Naknadno ugrađena multimedija može učiniti stariji polovni auto modernijim i prijatnijim za korišćenje. Veliki ekran, CarPlay, Android Auto i kamera za rikverc deluju kao jasna prednost u oglasu. Ipak, kod polovnjaka nije dovoljno da ekran svetli i pusti muziku na parkingu.
+
+Prva provera je kvalitet ugradnje. Pogledaj da li maska lepo naleže, da li se čuju krckanja, da li su isečene plastike, da li komande na volanu rade i da li se uređaj pali i gasi zajedno sa kontaktom. Loša instalacija može prazniti akumulator, praviti šum u zvuku ili izazivati greške na drugim modulima.
+
+Druga tema su funkcije koje su možda izgubljene. Parking senzori, fabrička kamera, prikaz klime, podešavanja vozila, Bluetooth mikrofon, radio prijem i komande na volanu moraju raditi kao pre. Ako je prodavac ugradio veliki ekran, ali su nestale osnovne fabričke funkcije, to nije unapređenje nego kompromis.
+
+Treća provera je dokumentacija. Račun za uređaj i ugradnju, poznat servis i uredno sprovedeni kablovi vrede više od atraktivne fotografije enterijera. Dobra multimedija može podići upotrebljivost auta. Loša ugradnja može sakriti električni problem koji tek novog vlasnika čeka u servisu.
+TEXT,
+                'highlights' => [
+                    'Naknadni ekran proveri kroz paljenje, gašenje, zvuk, komande na volanu i potrošnju akumulatora.',
+                    'CarPlay i kamera ne vrede mnogo ako su izgubljene fabričke funkcije.',
+                    'Račun i uredna ugradnja su važniji od veličine ekrana na fotografiji oglasa.',
+                ],
+                'tags' => ['naknadna multimedija', 'CarPlay', 'Android Auto', 'elektronika', 'provera vozila'],
+                'meta_title' => 'Auto sa naknadnom multimedijom: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto sa naknadno ugrađenom multimedijom: CarPlay, Android Auto, kamera, komande, senzori, akumulator i instalacija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22c55e', '#f8fafc'],
+            ],
         ]);
     }
 
