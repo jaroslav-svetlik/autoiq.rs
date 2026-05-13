@@ -3610,6 +3610,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#22c55e', '#f8fafc'],
             ],
+            [
+                'title' => 'Jeep Renegade ili Fiat 500X: isti koreni, različit rizik za kupca',
+                'slug' => 'jeep-renegade-ili-fiat-500x-isti-koreni-razlicit-rizik-za-kupca',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Renegade i 500X dele mnogo tehnike, ali kupac mora hladno proveriti motor, automatik, pogon, trap i cenu imidža.',
+                'content' => <<<'TEXT'
+Jeep Renegade i Fiat 500X često ulaze u isti uži izbor jer dele platformu, deo motora i sličnu crossover logiku. Ipak, kupac ih obično ne gleda istim očima. Renegade prodaje robustan Jeep utisak, dok 500X igra na gradski stil i nižu cenu. Upravo zato treba proveriti da li konkretan primerak opravdava ono što tržište traži.
+
+Renegade ima smisla za kupca koji želi viši položaj sedenja, drugačiji izgled i mogućnost pogona na sva četiri točka kod pojedinih verzija. Kod polovnog primerka proveri motor, automatik, pogon, trap, gume i tragove vožnje po lošijem putu. Jeep značka ne znači da je svaki Renegade spreman za grublju upotrebu.
+
+Fiat 500X može biti racionalniji izbor kada je cena bolja, oprema dobra i istorija jasnija. Treba proveriti iste osnovne stvari: motor, kvačilo ili automatik, elektroniku, senzore, klimu i tragove gradske vožnje. Ako 500X nudi uredniji primerak za manje novca, često je pametnija kupovina od Renegadea kupljenog samo zbog imidža.
+
+Najbolji izbor nije model sa boljom pričom, nego auto sa manje nepoznanica. Ako Renegade ima dokazivu istoriju, zdrav pogon i realnu cenu, može biti zanimljiv. Ako 500X ima bolju dokumentaciju i manje ulaganja, marka ne treba da odluči kupovinu umesto pregleda.
+TEXT,
+                'highlights' => [
+                    'Renegade i 500X dele mnogo tehnike, ali tržište ih često ceni zbog različitog imidža.',
+                    'Motor, automatik, pogon, trap i elektronika moraju odlučiti pre značke.',
+                    'Uredniji 500X može biti bolja kupovina od skupljeg Renegadea bez jasne istorije.',
+                ],
+                'tags' => ['Jeep Renegade', 'Fiat 500X', 'mali crossover', 'poređenje'],
+                'meta_title' => 'Jeep Renegade ili Fiat 500X: šta kupiti',
+                'meta_description' => 'Poređenje polovnih Jeep Renegade i Fiat 500X modela: motor, automatik, pogon, trap, elektronika, oprema, cena i realan rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Honda HR-V: mali crossover koji traži proveru prostora, CVT-a i cene',
+                'slug' => 'polovni-honda-hr-v-mali-crossover-koji-trazi-proveru-prostora-cvt-a-i-cene',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'HR-V može biti praktičan i pouzdan mali crossover, ali reputacija ne sme sakriti proveru CVT-a, enterijera, trapa i realne cene.',
+                'content' => <<<'TEXT'
+Honda HR-V privlači kupce koji žele mali crossover sa praktičnom kabinom, dobrim ugledom i racionalnim troškovima. To može biti odlična kombinacija, ali samo ako cena ne ode predaleko zbog reputacije. Kod HR-V-a treba platiti konkretno stanje, ne samo očekivanje da je Honda uvek sigurna kupovina.
+
+Prva provera je motor i menjač. Benzinske verzije mogu biti mirne za grad i mešovitu vožnju, ali treba proveriti hladan start, servisne račune, curenja i rad klime. Ako je auto sa CVT menjačem, probna vožnja mora obuhvatiti kretanje, usporavanje, ubrzanje i ponašanje kada se menjač zagreje. Neobični zvukovi ili zadrška menjaju cenu.
+
+Druga tema je prostor. HR-V često iznenadi praktičnošću, ali kupac treba da proveri zadnju klupu, gepek, preklapanje sedišta, prag utovara i realnu upotrebu dečjih sedišta. Crossover izgled ne znači da auto rešava svaku porodičnu potrebu, posebno ako se često putuje punim vozilom.
+
+Treća provera je stanje enterijera i trapa. Gradski primerci mogu imati istrošene gume, kočnice, ogrebane branike, umorne amortizere i enterijer koji ne prati kilometražu. Dobar HR-V ima smisla kada je uredan, servisiran i realno plaćen. Ako je preskup, klasičan kompakt ili veći porodični auto mogu ponuditi više vrednosti.
+TEXT,
+                'highlights' => [
+                    'HR-V ne treba platiti samo zbog Hondine reputacije, već zbog stanja konkretnog auta.',
+                    'CVT mora raditi mirno hladan i topao, bez zadrške i neprirodnih zvukova.',
+                    'Praktičnost proveri sedištima, gepekom i svakodnevnim porodičnim scenarijem.',
+                ],
+                'tags' => ['Honda HR-V', 'mali crossover', 'CVT', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Honda HR-V: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Honda HR-V modela: motor, CVT menjač, prostor, zadnja klupa, gepek, trap, enterijer i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Toyota Verso: porodični monovolumen koji mora opravdati godine',
+                'slug' => 'polovni-toyota-verso-porodicni-monovolumen-koji-mora-opravdati-godine',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Verso je praktičan porodični auto, ali starost, dizel, enterijer, treći red, klima i servisna istorija odlučuju da li reputacija vredi.',
+                'content' => <<<'TEXT'
+Toyota Verso je polovnjak za kupce koji žele praktičan porodični auto bez SUV mode i bez previše komplikovanja. Dobra reputacija Toyote pomaže, ali Verso je danas često stariji automobil, pa se kupovina mora posmatrati kroz stanje, a ne kroz mit o neuništivosti.
+
+Prva provera je motor i servisna istorija. Benzinske verzije mogu biti jednostavnije za grad, dok dizel ima smisla samo ako je vožen na dužim relacijama i ima dokaz održavanja. Hladan start, curenja, DPF, EGR, kvačilo, menjač i stanje izduva treba proveriti bez pretpostavke da Toyota ne može imati zapušten primerak.
+
+Druga tema je porodična kabina. Verso se često koristio za decu, putovanja, gepek pun stvari i kratke gradske obaveze. Sedišta, mehanizmi preklapanja, pojasevi, plastike, klima i ventilacija pozadi moraju raditi. Ako postoji treći red, proveri da li se lako podiže i da li nije samo marketinški dodatak.
+
+Treća provera je cena. Verso može biti odličan izbor kada je uredan i realno plaćen, ali ne treba ga preplatiti samo zato što nosi Toyota znak. Ako su gume, kočnice, trap, klima i veliki servis pred kupcem, ta ulaganja moraju ući u pregovor pre kapare.
+TEXT,
+                'highlights' => [
+                    'Verso je praktičan porodični auto, ali starost mora biti uračunata u cenu.',
+                    'Dizel, DPF, EGR, kvačilo, klima i treći red traže pažljiv pregled.',
+                    'Toyota reputacija pomaže samo kada stanje i dokumentacija to potvrde.',
+                ],
+                'tags' => ['Toyota Verso', 'porodični auto', 'monovolumen', 'sedam sedišta'],
+                'meta_title' => 'Polovni Toyota Verso: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Toyota Verso modela: motor, dizel, DPF, EGR, treći red, klima, enterijer, trap i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto posle poplave: kako prepoznati vlagu koja ne nestaje posle dubinskog pranja',
+                'slug' => 'auto-posle-poplave-kako-prepoznati-vlagu-koja-ne-nestaje-posle-dubinskog-pranja',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Poplavljen auto može izgledati očišćeno, ali vlaga, miris, korozija, instalacije i elektronika često otkrivaju rizik koji traje godinama.',
+                'content' => <<<'TEXT'
+Auto posle poplave je jedan od najrizičnijih polovnjaka jer se problem ne završava kada se kabina osuši i opere. Voda ulazi u izolaciju, instalacije, konektore, module, podne obloge i skrivene šupljine. Na oglasu auto može izgledati sveže, ali vlaga često ostaje tamo gde kupac ne gleda.
+
+Prvi signal je miris. Težak miris vlage, previše parfema, novo dubinsko pranje, vlažne patosnice, fleke ispod sedišta i zamagljivanje stakala traže oprez. Podigni patosnice, pogledaj gepek, rezervni točak, šine sedišta, šrafove i donje delove plastika. Sitna korozija u kabini nije normalan trag svakodnevne upotrebe.
+
+Druga provera je elektronika. Prozori, brave, senzori, svetla, klima, multimedija, airbag lampice, parking senzori i svi prekidači moraju raditi bez slučajnih grešaka. Kod poplavljenog auta kvarovi se često pojavljuju kasnije, kada konektori oksidiraju. Zato kratka probna vožnja nije dovoljna.
+
+Treća tema je dokumentacija i cena. Ako postoji sumnja na poplavu, traži nezavisan pregled, dijagnostiku i pregled podnih obloga. Prodavac može reći da je auto samo bio prljav ili da je voda ušla kroz prozor. Bez jasnog dokaza, rizik ostaje veliki, a najbolji popust je često odustajanje.
+TEXT,
+                'highlights' => [
+                    'Poplavljen auto može izgledati čist, ali vlaga ostaje u izolaciji, konektorima i podu.',
+                    'Miris, šine sedišta, gepek, korozija i previše parfema su važni signali.',
+                    'Električne greške posle vode često dolaze kasnije, ne na prvoj probnoj vožnji.',
+                ],
+                'tags' => ['auto posle poplave', 'vlaga u autu', 'provera vozila', 'elektronika'],
+                'meta_title' => 'Auto posle poplave: kako prepoznati rizik',
+                'meta_description' => 'Kako proveriti polovan auto posle poplave: vlaga, miris, korozija, šine sedišta, gepek, instalacije, elektronika i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#06b6d4', '#f8fafc'],
+            ],
+            [
+                'title' => 'Slaba klima na polovnom autu: kada letnji test otkriva skup kvar',
+                'slug' => 'slaba-klima-na-polovnom-autu-kada-letnji-test-otkriva-skup-kvar',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Klima koja slabo hladi nije sitnica za kasnije, jer kompresor, kondenzator, curenje gasa i elektronika mogu ozbiljno promeniti cenu.',
+                'content' => <<<'TEXT'
+Slaba klima na polovnom autu često se u oglasu i razgovoru predstavi kao sitnica. Prodavac kaže da samo treba dopuniti gas, kupac pomisli da to nije veliki trošak, a pravi problem može biti kompresor, kondenzator, isparivač, ventilator, senzor pritiska ili curenje koje se vraća čim prođe leto.
+
+Prva provera je jednostavna: uključi klimu odmah na početku pregleda i prati koliko brzo hladi. Obrati pažnju na zvuk kompresora, promenu obrtaja, ventilator hladnjaka, miris iz ventilacije i da li temperatura ostaje stabilna u vožnji. Ako klima hladi samo kratko ili samo na otvorenom putu, problem nije rešen dopunom.
+
+Druga tema je trag održavanja. Račun za servis klime, zamenu kondenzatora ili popravku curenja vredi više od rečenice da je sve skoro rađeno. Tragovi zelenog UV sredstva, masni delovi oko spojeva, oštećen kondenzator i neujednačeno hlađenje po zonama mogu pokazati gde novac odlazi posle kupovine.
+
+Treća provera je pregovaranje. Klima nije luksuz, nego svakodnevna oprema koja utiče na bezbednost, odmagljivanje i komfor. Ako postoji sumnja, traži proveru u servisu pre kapare ili cenu spusti za realan kvar, ne za dopunu gasa. Kod modernog auta klima može biti mnogo skuplja od male letnje neprijatnosti.
+TEXT,
+                'highlights' => [
+                    'Slaba klima nije automatski samo dopuna gasa; curenje i kompresor mogu biti skupi.',
+                    'Testiraj hlađenje odmah, u leru, u vožnji i kroz sve zone ventilacije.',
+                    'Bez računa ili servisne provere, rizik klime mora ući u pregovor.',
+                ],
+                'tags' => ['klima', 'troškovi održavanja', 'kompresor klime', 'provera polovnjaka'],
+                'meta_title' => 'Slaba klima na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti klimu na polovnom autu: slabo hlađenje, kompresor, kondenzator, curenje gasa, ventilator, servis i realna cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
         ]);
     }
 

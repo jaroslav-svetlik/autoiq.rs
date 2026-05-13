@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.66] - 2026-05-13
+
+### Added
+
+- Added five non-duplicate production blog articles covering Jeep Renegade vs Fiat 500X, used Honda HR-V checks, used Toyota Verso buying guidance, flood-damaged car inspection, and weak AC risk.
+
 ## [0.1.65] - 2026-05-12
 
 ### Added
