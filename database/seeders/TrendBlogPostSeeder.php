@@ -3745,6 +3745,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#38bdf8', '#f8fafc'],
             ],
+            [
+                'title' => 'Citroen C3 ili Peugeot 208: mali gradski auto kada dizajn ne sme da zameni proveru',
+                'slug' => 'citroen-c3-ili-peugeot-208-mali-gradski-auto-kada-dizajn-ne-sme-da-zameni-proveru',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C3 i 208 nude stil i gradsku praktičnost, ali kupac mora proveriti motor, elektroniku, trap, servisnu istoriju i realnu cenu.',
+                'content' => <<<'TEXT'
+Citroen C3 i Peugeot 208 često privuku kupce koji žele mali gradski auto sa više karaktera od proseka. Oba modela mogu biti dobra kupovina, ali samo ako dizajn ne zameni proveru. Kod malog auta koji se vozi po gradu stanje trapa, kvačila, kočnica, guma i enterijera često govori više od fotografija.
+
+C3 ima smisla za kupca koji želi udobniji, mekši i jednostavniji gradski auto. Treba proveriti servisnu istoriju, rad klime, elektroniku, senzore, stanje sedišta i tragove čestog parkiranja. Ako je primerak korišćen za kratke relacije, motor i akumulator mogu otkriti više od same kilometraže.
+
+Peugeot 208 često deluje modernije i dinamičnije, ali kod njega oprema i izgled lako podignu cenu. Treba proveriti motor, menjač, i-Cockpit ergonomiju, multimediju, svetla i stanje trapa. Ako se kupuje benzinska verzija, servisni ritam i računi vrede više od tvrdnje da je auto mali i jeftin za održavanje.
+
+Izbor između C3 i 208 treba rešiti konkretnim primerkom. C3 je bolji kada je udobniji, uredniji i realno plaćen. 208 je bolji kada donosi bolji motor, opremu i jasnu istoriju bez preplaćivanja dizajna. Najgori izbor je najlepši oglas sa najviše nepoznanica.
+TEXT,
+                'highlights' => [
+                    'C3 i 208 kupuj po stanju, ne po fotografijama i enterijeru.',
+                    'Gradska vožnja brzo otkriva trap, kvačilo, kočnice, gume i akumulator.',
+                    'Servisna istorija i realna cena vrede više od stila kod oba modela.',
+                ],
+                'tags' => ['Citroen C3', 'Peugeot 208', 'gradski auto', 'poređenje'],
+                'meta_title' => 'Citroen C3 ili Peugeot 208: koji polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Citroen C3 i Peugeot 208 modela: motor, elektronika, trap, gradska vožnja, oprema, servisna istorija i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni BMW serija 1: kompakt koji traži proveru lanca, trapa i istorije',
+                'slug' => 'polovni-bmw-serija-1-kompakt-koji-trazi-proveru-lanca-trapa-i-istorije',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Serija 1 može biti zabavan premium kompakt, ali kupac mora proveriti motor, lanac, trap, menjač, enterijer i trag agresivne vožnje.',
+                'content' => <<<'TEXT'
+BMW serija 1 je polovnjak koji kupci često biraju srcem: kompaktne dimenzije, premium znak i bolji osećaj u vožnji od prosečnog gradskog auta. To može biti odlična kombinacija, ali samo kada je konkretan primerak uredan. Najjeftinija serija 1 retko je najpametnija serija 1.
+
+Prva provera je motor i servisna istorija. Kod rizičnih generacija posebno treba slušati lanac, proveriti hladan start, dim, curenja i račune za održavanje. Benzinac nije automatski bezbrižan, a dizel nije automatski loš. Bitno je da način vožnje, kilometraža i servisni trag imaju logiku.
+
+Druga tema je trap i pogon. Serija 1 često privlači vozače koji vole dinamičniju vožnju, pa gume, amortizeri, spone, kočnice, felne i zadnji trap mogu otkriti stvaran život auta. Probna vožnja treba da uključi lošiji put, kočenje, ubrzanje i slušanje zvukova iz zadnjeg dela.
+
+Treća provera je enterijer i oprema. Volan, sedišta, prekidači, multimedija i klima moraju pratiti kilometražu. Dobar BMW serija 1 ima smisla kada donosi zdravu mehaniku i jasnu istoriju. Loš primerak je samo skup kompakt koji će brzo potrošiti razliku u ceni.
+TEXT,
+                'highlights' => [
+                    'Seriju 1 ne treba kupiti samo zbog BMW znaka i osećaja u vožnji.',
+                    'Lanac, hladan start, trap, gume i kočnice moraju biti deo pregleda.',
+                    'Agresivna vožnja i nejasna istorija brzo pretvore kompakt u skup početak vlasništva.',
+                ],
+                'tags' => ['BMW serija 1', 'premium kompakt', 'lanac', 'trap'],
+                'meta_title' => 'Polovni BMW serija 1: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog BMW serija 1 modela: motor, lanac, dizel, benzinac, trap, menjač, enterijer, servisna istorija i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa uklonjenim DPF-om: kada jeftino rešenje postaje skup problem',
+                'slug' => 'auto-sa-uklonjenim-dpf-om-kada-jeftino-resenje-postaje-skup-problem',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Uklonjen DPF može sakriti skuplji dizel problem, tehnički rizik i lošu kasniju prodaju, pa kupac mora proveriti tragove pre kapare.',
+                'content' => <<<'TEXT'
+Auto sa uklonjenim DPF-om često se prodaje uz priču da je problem rešen zauvek. U praksi je često rešen samo simptom. Ako je filter uklonjen, treba pitati zašto je do toga došlo: gradska vožnja, loše dizne, EGR, turbina, pogrešno ulje ili zapušten servis mogu i dalje biti prisutni.
+
+Prvi signal je ponašanje motora. Obrati pažnju na dim, miris izduva, greške na dijagnostici, neobične mape, lampice koje se ne pale pri kontaktu i tragove intervencije na izduvu. Ako prodavac izbegava temu DPF-a ili kaže da je to prednost, kupac treba da bude još oprezniji.
+
+Druga tema je tehnički i pravni rizik. Uklonjen DPF može praviti problem na strožem tehničkom pregledu, smanjiti kasniju prodaju i otvoriti pitanje legalnosti vozila. Čak i ako auto trenutno prolazi, kupac preuzima rizik narednih pregleda i budućih pravila.
+
+Treća provera je računica. Dobar dizel ne mora imati uklonjen DPF da bi bio upotrebljiv. Ako je filter uklonjen, cena mora biti značajno niža, a majstor treba da proveri da li iza toga stoji veći kvar. U mnogim slučajevima je bolje kupiti uredan benzinac nego jeftin dizel sa sakrivenom istorijom.
+TEXT,
+                'highlights' => [
+                    'Uklonjen DPF često rešava lampicu, ali ne i uzrok dizel problema.',
+                    'Dim, izduv, dijagnostika i ponašanje lampica moraju se proveriti pre kapare.',
+                    'Tehnički pregled, kasnija prodaja i legalnost mogu biti veći rizik od same popravke.',
+                ],
+                'tags' => ['DPF', 'dizel', 'provera vozila', 'tehnički pregled'],
+                'meta_title' => 'Auto sa uklonjenim DPF-om: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto sa uklonjenim DPF-om: dim, dijagnostika, izduv, EGR, turbina, tehnički pregled, legalnost i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mitsubishi ASX: jednostavan crossover koji ne treba platiti kao RAV4',
+                'slug' => 'polovni-mitsubishi-asx-jednostavan-crossover-koji-ne-treba-platiti-kao-rav4',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'ASX može biti racionalan i jednostavan crossover, ali kupac mora proveriti motor, trap, koroziju, opremu i realnu tržišnu cenu.',
+                'content' => <<<'TEXT'
+Mitsubishi ASX je polovnjak koji često prolazi ispod radara kupaca koji gledaju Qashqai, Sportage, Tucson ili RAV4. Njegova prednost može biti jednostavnost, pristojan prostor i manje komplikovana kupovina. Ali ASX ne treba platiti kao popularniji ili veći SUV samo zato što je tržište danas gladno crossovera.
+
+Prva provera je motor i servisna istorija. Benzinske verzije mogu biti zahvalne za mirniju upotrebu, dok dizel traži ozbiljniju proveru DPF-a, EGR-a, turbine i načina vožnje. Kod svake verzije gledaj hladan start, curenja, račune i da li kilometraža prati stanje enterijera.
+
+Druga tema je trap i karoserija. ASX se često kupuje zbog višeg klirensa i praktičnosti, pa proveri gume, amortizere, spone, kočnice, ležajeve i tragove korozije ispod auta. Ako je primerak vožen po lošim putevima ili često parkiran napolju, pregled odozdo vredi više od sjaja laka.
+
+Treća provera je oprema i cena. Kamera, senzori, klima, multimedija i pogon treba da rade bez izgovora. ASX ima smisla kada je uredan, jednostavan i realno jeftiniji od traženijih SUV modela. Ako ga prodavac ceni kao mnogo moderniji crossover, izbor treba proširiti.
+TEXT,
+                'highlights' => [
+                    'ASX ima smisla kada jednostavnost i stanje opravdavaju cenu.',
+                    'Motor, trap, korozija i oprema moraju se proveriti bez oslanjanja na reputaciju.',
+                    'Ne treba ga plaćati kao veći i traženiji SUV ako ne nudi bolji primerak.',
+                ],
+                'tags' => ['Mitsubishi ASX', 'polovni crossover', 'SUV', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mitsubishi ASX: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mitsubishi ASX modela: motor, dizel, DPF, trap, korozija, oprema, cena i poređenje sa SUV konkurencijom.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Oštećena šoferka na polovnom autu: kada pukotina otkriva veći problem',
+                'slug' => 'ostecena-soferka-na-polovnom-autu-kada-pukotina-otkriva-veci-problem',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Pukotina na šoferki nije samo estetski detalj, jer može otvoriti pitanje senzora, kamera, kalibracije, tehničkog pregleda i skrivene štete.',
+                'content' => <<<'TEXT'
+Oštećena šoferka na polovnom autu često se predstavlja kao sitnica koja se lako reši. Nekad to zaista jeste mali kamenčić i jednostavna zamena. Ali kod modernih automobila šoferka može nositi senzore kiše, kamere za asistencije, grejače, antene i elemente koji traže pravilnu ugradnju i kalibraciju.
+
+Prva provera je položaj i veličina oštećenja. Pukotina u vidnom polju vozača, oštećenje blizu ivice ili trag širenja mogu značiti da auto neće proći tehnički pregled bez zamene. Ako je staklo već menjano, proveri da li lepo naleže, da li ima šum vetra, tragove lepka, curenje ili vlagu oko stubova.
+
+Druga tema su senzori i kamere. Posle zamene šoferke sistemi pomoći vozaču moraju biti kalibrisani. Lane assist, automatska svetla, brisači, kamera, head-up prikaz i grejanje stakla treba proveriti u realnom radu. Ako prodavac kaže da je samo staklo bitno, verovatno ne računa sve troškove.
+
+Treća provera je poreklo oštećenja. Pukotina može biti slučajna, ali može pratiti udarac, loše zatvaranje haube ili naprezanje karoserije. Zato pogledaj haubu, krov, stubove, zazore i tragove popravke. Ako zamena stakla ulazi u cenu, pregovor treba da računa i kalibraciju, ne samo najjeftiniju šoferku.
+TEXT,
+                'highlights' => [
+                    'Šoferka sa kamerama i senzorima nije samo običan komad stakla.',
+                    'Pukotina može uticati na tehnički pregled, curenje, šum vetra i asistencije.',
+                    'U cenu treba uračunati kvalitetno staklo, ugradnju i kalibraciju sistema.',
+                ],
+                'tags' => ['šoferka', 'vetrobran', 'provera vozila', 'senzori', 'kalibracija'],
+                'meta_title' => 'Oštećena šoferka na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti oštećenu šoferku na polovnom autu: pukotina, zamena stakla, senzori, kamera, kalibracija, curenje i tehnički pregled.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#facc15', '#f8fafc'],
+            ],
         ]);
     }
 

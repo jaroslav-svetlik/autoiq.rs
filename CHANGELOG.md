@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.67] - 2026-05-14
+
+### Added
+
+- Added five non-duplicate production blog articles covering Citroen C3 vs Peugeot 208, used BMW 1 Series checks, removed DPF risk, used Mitsubishi ASX buying guidance, and damaged windshield inspection.
+
 ## [0.1.66] - 2026-05-13
 
 ### Added
