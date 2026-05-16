@@ -3880,6 +3880,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Alfa Romeo Giulietta: kompakt sa stilom koji traži hladnu glavu',
+                'slug' => 'polovni-alfa-romeo-giulietta-kompakt-sa-stilom-koji-trazi-hladnu-glavu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Giulietta može biti zanimljiviji kompakt od proseka, ali kupac mora proveriti motor, trap, elektroniku, servisnu istoriju i realnu cenu delova.',
+                'content' => <<<'TEXT'
+Alfa Romeo Giulietta je polovnjak koji često privuče kupca emocijom: lepši dizajn, bolji osećaj za volanom i više karaktera nego kod prosečnog kompakta. To može biti dobra kupovina, ali samo ako se primerak proverava hladno. Kod Giuliette najgora greška je platiti stil, a preskočiti mehaniku, trap i servisni trag.
+
+Prva provera je motor. Benzinske i dizel verzije ne nose isti rizik, pa treba gledati hladan start, curenja, dim, servis ulja, račune i da li je auto vožen normalno ili samo održavan pred prodaju. Ako prodavac nema dokaze o većim servisima, cenu treba računati kao da ulaganje tek dolazi.
+
+Druga tema je trap i upravljanje. Giulietta se često kupuje zbog vožnje, pa loš put, neravnine, kočenje i brzo menjanje pravca mogu otkriti amortizere, spone, ramena, gume i felne. Ako auto izgleda atraktivno na velikim felnama, proveri da li taj izgled već krije skup račun.
+
+Treća provera je elektronika i enterijer. Klima, prozori, svetla, multimedija, prekidači i instrument tabla moraju raditi bez slučajnih grešaka. Dobar primerak Giuliette ima smisla kada nudi urednu istoriju i realnu cenu. Loš primerak je samo lep kompakt koji će brzo tražiti strpljenje i novac.
+TEXT,
+                'highlights' => [
+                    'Giuliettu treba kupiti zbog dobrog primerka, ne samo zbog dizajna i emocije.',
+                    'Motor, trap, felne, elektronika i servisni računi moraju biti deo pregleda.',
+                    'Atraktivna cena bez istorije često znači da prvi vlasnik plaća zaostala ulaganja.',
+                ],
+                'tags' => ['Alfa Romeo Giulietta', 'polovni kompakt', 'kupovina polovnjaka', 'trap'],
+                'meta_title' => 'Polovni Alfa Romeo Giulietta: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Alfa Romeo Giulietta modela: motor, trap, elektronika, servisna istorija, enterijer, delovi i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#dc2626', '#f8fafc'],
+            ],
+            [
+                'title' => 'Škoda Octavia ili Volkswagen Passat karavan: kada prostor nije jedini argument',
+                'slug' => 'skoda-octavia-ili-volkswagen-passat-karavan-kada-prostor-nije-jedini-argument',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Octavia i Passat karavan nude ogroman prostor, ali prava odluka zavisi od kilometraže, motora, menjača, trapa i stvarne porodične upotrebe.',
+                'content' => <<<'TEXT'
+Škoda Octavia karavan i Volkswagen Passat karavan često završe u istom užem izboru kada kupac želi veliki gepek, dizel za put i auto koji može da izdrži porodičnu rutinu. Razlika nije samo u prostoru. Passat deluje ozbiljnije i udobnije, dok Octavia često nudi bolju cenu za sličnu praktičnost.
+
+Octavia ima smisla kada kupac želi što više upotrebljivog prostora uz racionalnije troškove. Treba proveriti motor, menjač, servisnu istoriju, trap i stanje enterijera, jer se mnoge Octavije koriste službeno i prelaze velike kilometraže. Dobar primerak je odličan alat za porodicu, ali umoran službeni auto nije dobra kupovina samo zato što ima veliki gepek.
+
+Passat karavan bolje odgovara kupcu koji često putuje, želi mirniji auto na autoputu i spreman je da plati višu cenu održavanja. Kod Passata posebno proveri DSG, dizel sistem, trap, električnu opremu i tragove vuče ili velikog tereta. Ako je cena blizu Octavije, razlog mora biti jasno stanje, ne samo oznaka.
+
+Odluka treba da krene od namene. Za grad i mešovitu vožnju Octavia je često pametnija. Za duge relacije, pun gepek i više komfora Passat može opravdati cenu. U oba slučaja presuđuju dokumentacija, probna vožnja i lista početnih ulaganja, ne samo zapremina gepeka.
+TEXT,
+                'highlights' => [
+                    'Octavia karavan često nudi bolji odnos prostora i troška.',
+                    'Passat karavan ima smisla kada komfor i duge relacije opravdavaju višu cenu.',
+                    'Kod oba modela kilometraža, DSG, dizel sistem i trap vrede više od samog gepeka.',
+                ],
+                'tags' => ['Škoda Octavia', 'Volkswagen Passat', 'karavan', 'porodični auto'],
+                'meta_title' => 'Škoda Octavia ili Volkswagen Passat karavan',
+                'meta_description' => 'Poređenje polovnih Škoda Octavia i Volkswagen Passat karavana: prostor, dizel, DSG, trap, službena upotreba, porodična vožnja i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa zamenjenim airbagovima: kada enterijer otkriva ozbiljnu štetu',
+                'slug' => 'auto-sa-zamenjenim-airbagovima-kada-enterijer-otkriva-ozbiljnu-stetu',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Zamenjeni airbagovi mogu značiti kvalitetno popravljenu štetu, ali i prikriven udes, lošu elektroniku, neispravne pojaseve i veliki bezbednosni rizik.',
+                'content' => <<<'TEXT'
+Auto sa zamenjenim airbagovima ne mora automatski biti za izbegavanje, ali mora biti razlog za mnogo ozbiljniju proveru. Airbag se ne menja zbog sitnice. Ako je vazdušni jastuk aktiviran, treba znati šta se desilo, šta je popravljeno, ko je radio popravku i da li su svi bezbednosni sistemi vraćeni u fabričko stanje.
+
+Prva provera je enterijer. Pogledaj poklopac volana, tablu, šavove, boju plastike, obloge stubova, zatezače pojaseva i lampicu airbaga pri kontaktu. Neujednačene plastike, loše uklopljeni delovi, nova tabla u starom enterijeru ili lampica koja se ne ponaša normalno traže dijagnostiku pre bilo kakve kapare.
+
+Druga tema je dokumentacija. Računi za delove, zapisnik o šteti, fotografije pre popravke i dokaz o kalibraciji vrede više od rečenice da je sve sređeno. Ako su ugrađeni polovni ili neprovereni delovi, kupac preuzima rizik koji se ne vidi na probnoj vožnji.
+
+Treća provera je karoserija. Aktivirani airbagovi često idu uz jači udarac, pa proveri nosače, vezni lim, haubu, krila, pragove, stubove, zazore i tragove farbanja. Ako popravka nije jasna, najbolji pregovor je odustajanje. Bezbednost ne treba kupovati na poverenje.
+TEXT,
+                'highlights' => [
+                    'Zamenjeni airbagovi traže ozbiljnu proveru uzroka, delova i elektronike.',
+                    'Volan, tabla, pojasevi, lampice i obloge često otkrivaju kvalitet popravke.',
+                    'Bez računa, fotografija štete i dijagnostike, rizik je veći od običnog estetskog ulaganja.',
+                ],
+                'tags' => ['airbag', 'udes', 'provera vozila', 'bezbednost', 'enterijer'],
+                'meta_title' => 'Auto sa zamenjenim airbagovima: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto sa zamenjenim airbagovima: volan, tabla, pojasevi, lampice, dijagnostika, udes, karoserija i bezbednost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Opel Mokka: mali SUV koji ne sme da se kupi samo zbog visokog sedenja',
+                'slug' => 'polovni-opel-mokka-mali-suv-koji-ne-sme-da-se-kupi-samo-zbog-visokog-sedenja',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mokka može biti praktičan gradski crossover, ali kupac mora proveriti motor, potrošnju, trap, prostor, opremu i da li cena zaista opravdava SUV formu.',
+                'content' => <<<'TEXT'
+Opel Mokka je polovnjak koji privlači kupce koji žele viši položaj sedenja, kompaktnu dužinu i osećaj malog SUV-a bez velikih dimenzija. To zvuči idealno za grad, ali Mokka ne sme da se kupi samo zato što deluje praktičnije od Corse ili Astre. Treba proveriti da li stvarna upotreba opravdava cenu.
+
+Prva provera je motor. Benzinske verzije treba gledati kroz servis ulja, hladan start, potrošnju i rad turbine ako je ima. Dizel ima smisla samo ako je prethodna vožnja bila pogodna za DPF i ako postoji servisni trag. Kratke gradske relacije brzo menjaju računicu kod malog crossovera.
+
+Druga tema je trap i udobnost. Mokka je viša i često se vozi po gradu, ivičnjacima i lošim ulicama, pa proveri amortizere, spone, gume, felne, kočnice i zvukove preko neravnina. Viši klirens ne znači da je auto spreman za grubo korišćenje.
+
+Treća provera je prostor i cena. Zadnja klupa, gepek, preglednost, kamera, senzori i klima moraju odgovarati tvojoj rutini. Ako Mokka košta kao veći i praktičniji crossover, izbor treba proširiti. Ima smisla kada je uredna, realno plaćena i kupljena zbog namene, ne samo zbog položaja sedenja.
+TEXT,
+                'highlights' => [
+                    'Mokka ima smisla kada viši položaj sedenja zaista odgovara svakodnevnoj vožnji.',
+                    'Motor, DPF, trap, gume i gradska upotreba moraju biti deo pregleda.',
+                    'Ne treba plaćati SUV formu ako prostor i stanje ne opravdavaju cenu.',
+                ],
+                'tags' => ['Opel Mokka', 'mali SUV', 'crossover', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Mokka: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Opel Mokka modela: motor, dizel, DPF, benzinac, trap, prostor, oprema, potrošnja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'All-season gume na polovnom autu: kada praktičnost sakriva loš kompromis',
+                'slug' => 'all-season-gume-na-polovnom-autu-kada-prakticnost-sakriva-los-kompromis',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'All-season gume mogu biti racionalne za blagu vožnju, ali stanje, starost, marka, dimenzija i način korišćenja često otkrivaju stvaran odnos troška i bezbednosti.',
+                'content' => <<<'TEXT'
+All-season gume na polovnom autu često deluju kao prednost: nema dva seta, nema zamene svake sezone i prodavac može reći da je auto spreman za celu godinu. U praksi, te gume mogu biti dobar kompromis, ali mogu i sakriti štednju na održavanju, pogrešnu dimenziju ili gume koje su već izgubile svojstva.
+
+Prva provera je starost i dubina šare. DOT oznaka, neravnomerno trošenje, ispucale bočne strane, različite marke po osovinama i jeftini nepoznati modeli govore mnogo o vlasniku. All-season guma nije dobra zato što ima oznaku za sva godišnja doba, nego zato što je kvalitetna, sveža i pravilno korišćena.
+
+Druga tema je namena. Za blagu gradsku vožnju i manje kilometraže dobar all-season set može imati smisla. Za planinu, sneg, brzu vožnju, teži SUV ili mnogo autoputa, posebne letnje i zimske gume često su bolji izbor. Kupac treba da računa svoju rutu, ne samo pogodnost prodavca.
+
+Treća provera je pregovaranje. Ako su gume stare, loše marke ili neravnomerno potrošene, to je konkretan trošak posle kupovine. U cenu odmah uračunaj novi set, balansiranje, optiku trapa i eventualno felne. Dobre gume ne popravljaju loš auto, ali loše gume mogu pokvariti dobru cenu.
+TEXT,
+                'highlights' => [
+                    'All-season gume nisu prednost ako su stare, ispucale ili lošeg kvaliteta.',
+                    'DOT, dubina šare, trošenje i marka guma otkrivaju odnos vlasnika prema održavanju.',
+                    'Za sneg, autoput ili teži auto dva sezonska seta često imaju više smisla.',
+                ],
+                'tags' => ['all-season gume', 'gume', 'troškovi održavanja', 'bezbednost'],
+                'meta_title' => 'All-season gume na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti all-season gume na polovnom autu: DOT, dubina šare, marka, neravnomerno trošenje, bezbednost, sezonske gume i pregovor cene.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#84cc16', '#f8fafc'],
+            ],
         ]);
     }
 

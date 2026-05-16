@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.68] - 2026-05-16
+
+### Added
+
+- Added five non-duplicate production blog articles covering used Alfa Romeo Giulietta checks, Skoda Octavia vs Volkswagen Passat wagons, replaced airbag inspection, used Opel Mokka buying guidance, and all-season tire risk.
+
 ## [0.1.67] - 2026-05-14
 
 ### Added
