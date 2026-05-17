@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.69] - 2026-05-17
+
+### Added
+
+- Added five non-duplicate production blog articles covering used Renault Megane checks, Seat Ibiza vs Volkswagen Polo, fake service-book inspection, used Volvo S60 buying guidance, and private seller vs dealer risk.
+
 ## [0.1.68] - 2026-05-16
 
 ### Added

@@ -4015,6 +4015,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#10231f', '#84cc16', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Renault Megane: kompakt koji traži proveru EDC-a, dizela i elektronike',
+                'slug' => 'polovni-renault-megane-kompakt-koji-trazi-proveru-edc-a-dizela-i-elektronike',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Megane može biti racionalan kompakt sa dobrom cenom, ali kupac mora proveriti motor, EDC menjač, DPF, elektroniku, trap i servisni trag.',
+                'content' => <<<'TEXT'
+Renault Megane je jedan od onih polovnjaka koji često nude mnogo auta za manje novca od popularnijih nemačkih konkurenata. To može biti odlična računica za kupca koji želi kompaktnu klasu, udobnost i pristojnu opremu. Ali Megane ne treba kupiti samo zato što deluje povoljno. Kod njega konkretan primerak i servisni trag odlučuju mnogo više od prosečne tržišne reputacije.
+
+Prva provera je motor. Dizel verzije mogu biti štedljive i dugotrajne kada imaju uredan servis, ali DPF, EGR, turbina, dizne i kratke gradske relacije moraju biti deo pregleda. Benzinske verzije treba gledati kroz potrošnju ulja, hladan start, servisni ritam i račune. Ako prodavac nema dokaze, cenu računaj kao da prvi servis tek dolazi.
+
+Druga tema je EDC automatik i elektronika. Menjač mora raditi glatko hladan i zagrejan, bez trzaja, kašnjenja i neobičnih zvukova. Multimedija, kartica, senzori, klima, prozori i upozorenja na tabli moraju se proveriti bez žurbe. Sitna elektronska greška kod oglasa često postane dosadan trošak posle kupovine.
+
+Treća provera je trap i enterijer. Megane se često koristi kao porodični ili službeni auto, pa volan, sedišta, pedale, gume i ogrebotine u gepeku mogu otkriti stvarnu kilometražu. Dobar Megane ima smisla kada je uredan, realno plaćen i proverljiv. Loš primerak nije povoljna alternativa, nego samo početak liste ulaganja.
+TEXT,
+                'highlights' => [
+                    'Megane može biti dobra kupovina kada cena prati stanje, a ne samo slabiji imidž.',
+                    'Dizel sistem, EDC menjač, kartica, senzori i klima moraju se proveriti pre kapare.',
+                    'Kod službenih i porodičnih primeraka enterijer često govori više od kilometraže.',
+                ],
+                'tags' => ['Renault Megane', 'polovni kompakt', 'EDC', 'dizel', 'elektronika'],
+                'meta_title' => 'Polovni Renault Megane: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Renault Megane modela: dizel, EDC menjač, DPF, EGR, elektronika, kartica, trap, enterijer i servisna istorija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Seat Ibiza ili Volkswagen Polo: mali auto kada značka ne sme da digne cenu',
+                'slug' => 'seat-ibiza-ili-volkswagen-polo-mali-auto-kada-znacka-ne-sme-da-digne-cenu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ibiza i Polo dele sličnu logiku malog gradskog auta, ali prava kupovina zavisi od motora, opreme, trapa, servisne istorije i realne cene.',
+                'content' => <<<'TEXT'
+Seat Ibiza i Volkswagen Polo često se porede jer nude sličnu veličinu, poznatu tehniku i dobru svakodnevnu upotrebljivost. Polo obično drži jaču cenu zbog znaka i reputacije, dok Ibiza često nudi više opreme ili mlađi primerak za isti novac. To ne znači da je Ibiza uvek pametnija, niti da je Polo automatski sigurniji.
+
+Ibiza ima smisla kada kupac želi malo više karaktera i bolji odnos godišta, opreme i cene. Treba proveriti motor, kvačilo, trap, gume, elektroniku, klimu i tragove gradske vožnje. Mali auto često živi na kratkim relacijama, preko ivičnjaka i u uskim parking prostorima, pa stanje karoserije i trapa nije sitnica.
+
+Polo je često skuplji, ali može imati bolju kasniju prodaju i širu potražnju. Kod Pola treba biti oprezan sa primerima koji se prodaju samo na reputaciju. Ako nema servisne istorije, ako je enterijer umoran ili ako motor i menjač ne rade uredno, značka ne sme da opravda višu cenu.
+
+Najbolja odluka je poređenje dva konkretna primerka. Ako Ibiza nudi jasniju istoriju, bolju opremu i manja ulaganja, razumniji je izbor. Ako Polo ima dokazivo stanje i realnu cenu, premium u maloj klasi može imati smisla. U oba slučaja probna vožnja i pregled vrede više od priče o pouzdanosti.
+TEXT,
+                'highlights' => [
+                    'Ibiza često nudi bolji odnos godišta, opreme i cene.',
+                    'Polo ima jaču reputaciju, ali ne sme biti skuplji bez boljeg stanja.',
+                    'Kod oba mala auta gradski trap, kvačilo, gume i karoserija moraju se proveriti.',
+                ],
+                'tags' => ['Seat Ibiza', 'Volkswagen Polo', 'gradski auto', 'poređenje'],
+                'meta_title' => 'Seat Ibiza ili Volkswagen Polo: šta kupiti',
+                'meta_description' => 'Poređenje polovnih Seat Ibiza i Volkswagen Polo modela: motor, oprema, gradska vožnja, trap, servisna istorija, cena i kasnija prodaja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Lažna servisna knjižica: kako pečati mogu sakriti lošu istoriju polovnog auta',
+                'slug' => 'lazna-servisna-knjizica-kako-pecati-mogu-sakriti-losu-istoriju-polovnog-auta',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Servisna knjižica je korisna samo kada se podaci poklapaju sa računima, VIN proverom, stanjem auta i logikom kilometraže.',
+                'content' => <<<'TEXT'
+Servisna knjižica kod polovnog auta može biti dobar dokaz, ali može biti i dobar rekvizit. Pečati, rukopis i uredne rubrike ne znače mnogo ako se ne poklapaju sa računima, elektronskom istorijom, VIN proverom i stanjem auta. Kupac treba da proverava logiku, ne samo da vidi da knjižica postoji.
+
+Prvi signal je ritam servisa. Datumi, kilometraža, intervali i nazivi servisa treba da imaju kontinuitet. Ako auto navodno godinama prelazi tačno malo kilometara, a enterijer izgleda umorno, nešto ne stoji. Ako su svi pečati isti, rukopis isti ili nedostaju računi za veće servise, knjižica nije dovoljan dokaz.
+
+Druga provera je poređenje sa autom. Volan, sedište, pedale, ručica menjača, gume, kočnice, farovi i stakla moraju pratiti priču iz dokumentacije. Kilometraža se ne proverava jednim papirom, nego skupom tragova. Dobar majstor često vidi nesklad pre nego što kupac stigne do pregovora.
+
+Treća tema je komunikacija sa prodavcem. Traži VIN, račune, slike ranijih servisa i mogućnost provere u ovlašćenom ili specijalizovanom servisu. Ako prodavac tvrdi da je sve jasno, ali izbegava proveru, to je ozbiljan signal. Prava servisna istorija smanjuje rizik. Lažna samo odlaže problem do prve velike popravke.
+TEXT,
+                'highlights' => [
+                    'Servisna knjižica vredi samo kada se poklapa sa računima, VIN-om i stanjem auta.',
+                    'Isti pečati, čudan ritam kilometraže i bez računa za velike servise traže oprez.',
+                    'Kilometraža se proverava kroz više tragova, ne samo kroz jednu knjižicu.',
+                ],
+                'tags' => ['servisna knjižica', 'VIN', 'kilometraža', 'provera vozila', 'istorija vozila'],
+                'meta_title' => 'Lažna servisna knjižica: kako proveriti polovan auto',
+                'meta_description' => 'Kako prepoznati lažnu servisnu knjižicu kod polovnog auta: pečati, računi, VIN, kilometraža, enterijer, servisna istorija i pitanja za prodavca.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Volvo S60: limuzina koja mora opravdati bezbednost, automatiku i cenu delova',
+                'slug' => 'polovni-volvo-s60-limuzina-koja-mora-opravdati-bezbednost-automatiku-i-cenu-delova',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Volvo S60 može biti mirna i bezbedna limuzina, ali kupac mora proveriti motor, automatski menjač, trap, elektroniku, uvoznu istoriju i cenu održavanja.',
+                'content' => <<<'TEXT'
+Volvo S60 privlači kupce koji žele nešto mirnije od nemačkih premium limuzina: dobru bezbednost, udobnost, ozbiljan enterijer i diskretniji imidž. Kao polovnjak može biti vrlo dobar izbor, ali samo kada je održavanje jasno. Volvo nije auto koji treba kupiti zato što je jeftiniji od sličnog BMW-a ili Audija, već zato što je konkretan primerak zdrav.
+
+Prva provera je motor i menjač. Dizel verzije traže proveru DPF-a, EGR-a, turbine, hladnog starta i servisnog ritma. Benzinske verzije treba gledati kroz potrošnju, curenja i račune. Automatski menjač mora menjati glatko hladan i topao, bez trzaja i kašnjenja. Servis ulja nije detalj, nego važan dokaz.
+
+Druga tema je elektronika i bezbednosna oprema. Senzori, radar, kamera, svetla, klima, sedišta, parking sistemi i upozorenja moraju raditi bez izgovora. Volvo često ima opremu koja je odlična kada radi, ali nije jeftina kada se popravlja. Zato dijagnostika treba da bude deo osnovnog pregleda.
+
+Treća provera je cena delova i uvozna istorija. S60 može imati veliki broj autoput kilometara, posebno ako je uvezen. To nije problem ako su servisi uredni, ali jeste ako stanje enterijera i dokumentacija ne prate kilometražu. Dobar S60 vredi platiti, ali loš primerak brzo pokaže da bezbedan auto ne znači jeftin auto.
+TEXT,
+                'highlights' => [
+                    'Volvo S60 ima smisla kada postoji jasna istorija i realno stanje, ne samo dobar imidž.',
+                    'Automatik, dizel sistem, senzori i bezbednosna oprema moraju se proveriti dijagnostikom.',
+                    'Cenu treba računati zajedno sa delovima, servisom i mogućom uvoznom kilometražom.',
+                ],
+                'tags' => ['Volvo S60', 'polovna limuzina', 'automatik', 'bezbednost', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volvo S60: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volvo S60 modela: motor, automatski menjač, DPF, elektronika, senzori, bezbednosna oprema, uvoz i delovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Privatni prodavac ili auto plac: gde polovan auto nosi manji rizik',
+                'slug' => 'privatni-prodavac-ili-auto-plac-gde-polovan-auto-nosi-manji-rizik',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kupovina od privatnog prodavca i kupovina na placu imaju različite prednosti, ali rizik zavisi od dokumentacije, provere, garancije i ponašanja prodavca.',
+                'content' => <<<'TEXT'
+Kupci često pitaju da li je sigurnije kupiti auto od privatnog prodavca ili sa auto placa. Ne postoji odgovor koji važi za svaki slučaj. Privatni prodavac može ponuditi jasnu ličnu istoriju i realnu priču o autu. Plac može ponuditi veći izbor, lakšu logistiku i neku vrstu garancije. U oba slučaja rizik počinje kada kupac poveruje priči bez provere.
+
+Kod privatnog prodavca prednost je mogućnost da vidiš kako je auto stvarno korišćen. Ako prodavac ima račune, servisnu istoriju, stare tehničke preglede i zna detalje o održavanju, to može biti dobar znak. Problem nastaje kada se privatna prodaja koristi samo kao maska za preprodaju ili kada prodavac izbegava VIN, probnu vožnju i majstora.
+
+Kod auto placa prednost je izbor i brzina. Možeš porediti više automobila, lakše završiti papirologiju i nekad dobiti garanciju. Ali plac ne znači automatski bolji auto. Uvezeni primerci, kozmetičko sređivanje, nejasna kilometraža i generičke garancije moraju se proveriti jednako strogo kao kod privatne kupovine.
+
+Najmanji rizik nosi prodavac koji dozvoljava proveru. Bilo da je privatnik ili plac, traži VIN, probnu vožnju, nezavisan pregled, jasnu dokumentaciju i pisani dogovor. Ako jedna strana deluje jeftinije, uračunaj šta ne znaš. Dobar prodavac olakšava proveru. Loš prodavac traži da veruješ na reč.
+TEXT,
+                'highlights' => [
+                    'Nije presudno da li kupuješ od privatnika ili placa, nego koliko je provera otvorena.',
+                    'Privatni prodavac može imati bolju priču o korišćenju, ali i sakriti preprodaju.',
+                    'Plac nudi izbor i logistiku, ali garancija i uvozna istorija moraju se čitati pažljivo.',
+                ],
+                'tags' => ['privatni prodavac', 'auto plac', 'kupovina polovnjaka', 'garancija', 'provera'],
+                'meta_title' => 'Privatni prodavac ili auto plac: gde kupiti polovan auto',
+                'meta_description' => 'Poređenje kupovine polovnog auta od privatnog prodavca i auto placa: dokumentacija, VIN, garancija, probna vožnja, pregled, uvoz i rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
         ]);
     }
 
