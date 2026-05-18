@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.70] - 2026-05-18
+
+### Added
+
+- Added five non-duplicate production blog articles covering used Audi A6 C7 checks, Fiat 500L vs Renault Scenic, underbody corrosion inspection, used Citroen Berlingo buying guidance, and foreign-documentation risk.
+
 ## [0.1.69] - 2026-05-17
 
 ### Added

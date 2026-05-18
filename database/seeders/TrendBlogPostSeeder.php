@@ -4150,6 +4150,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#10231f', '#22c55e', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Audi A6 C7: premium limuzina koja traži proveru automatika, dizela i elektronike',
+                'slug' => 'polovni-audi-a6-c7-premium-limuzina-koja-trazi-proveru-automatika-dizela-i-elektronike',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Audi A6 C7 može biti ozbiljan premium polovnjak, ali samo kada su motor, automatski menjač, elektronika, trap i servisna istorija provereni bez prečica.',
+                'content' => <<<'TEXT'
+Audi A6 C7 deluje kao mnogo auta za novac kada ga uporediš sa cenom novog kompakta. Dobijaš prostor, komfor, izolaciju, premium enterijer i dobar osećaj na autoputu. Ali polovni A6 nije racionalna kupovina samo zato što je pao u cenu. Trošak održavanja ostaje premium, čak i kada cena oglasa deluje dostupno.
+
+Prva provera je motor i servisna istorija. Dizel verzije traže proveru DPF-a, EGR-a, turbine, dizni, curenja, hladnog starta i servisnog ritma. Ako postoje računi za veliki servis, ulje, menjač i veće intervencije, to vredi više od opreme. Ako prodavac nema dokaze, kupac treba odmah da računa ozbiljan početni budžet.
+
+Druga tema je automatski menjač i pogon. Menjač mora raditi glatko hladan i topao, bez trzaja, kašnjenja i vibracija. Quattro, trap, kočnice, gume i amortizeri moraju se proveriti na dizalici i u vožnji. Težak auto brzo pokaže koliko je prethodni vlasnik štedeo na delovima.
+
+Treća provera je elektronika. MMI, klima, sedišta, parking senzori, kamera, farovi, instrument tabla i svi moduli moraju raditi bez slučajnih grešaka. Dobar A6 C7 je odličan za dug put i mirnu vožnju. Loš primerak je skup podsetnik da premium limuzina ne postaje jeftin auto samo zato što je polovna.
+TEXT,
+                'highlights' => [
+                    'Audi A6 C7 treba kupiti samo ako istorija održavanja prati premium troškove.',
+                    'Dizel sistem, automatik, quattro, trap i kočnice moraju se proveriti pre kapare.',
+                    'Elektronika i oprema mogu biti velika prednost, ali i skup izvor sitnih kvarova.',
+                ],
+                'tags' => ['Audi A6 C7', 'premium limuzina', 'automatik', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Audi A6 C7: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Audi A6 C7 modela: dizel, automatski menjač, quattro, trap, elektronika, servisna istorija, oprema i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Fiat 500L ili Renault Scenic: porodični auto kada SUV nije jedino rešenje',
+                'slug' => 'fiat-500l-ili-renault-scenic-porodicni-auto-kada-suv-nije-jedino-resenje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => '500L i Scenic nude mnogo praktičnosti za manje novca od SUV-a, ali odluka zavisi od prostora, motora, elektronike, trapa i stvarne porodične rutine.',
+                'content' => <<<'TEXT'
+Fiat 500L i Renault Scenic često ostanu po strani jer tržište danas više voli SUV. Ipak, za porodicu koja traži prostor, preglednost, lak ulazak i dobar odnos cene i praktičnosti, ova dva modela mogu imati mnogo smisla. Pitanje nije koji izgleda modernije, nego koji primerak bolje rešava svakodnevicu bez skrivenih ulaganja.
+
+Fiat 500L ima smisla za kupca koji želi jednostavan, pregledan i praktičan auto za grad i porodicu. Treba proveriti motor, kvačilo, trap, klimu, elektroniku i tragove gradske upotrebe. Velika kabina i visoko sedenje su prednost, ali ne opravdavaju primerak bez servisne istorije ili sa umornim enterijerom.
+
+Renault Scenic često nudi više porodičnih detalja, udobnosti i fleksibilnosti, ali traži pažljivu proveru elektronike, kartice, parking senzora, klime i dizel sistema ako je u pitanju dCi. Kod Scenica je važno da oprema radi, jer upravo ona čini auto prijatnim za svakodnevnu porodičnu vožnju.
+
+Izbor treba rešiti konkretnom potrebom. Za grad, jednostavnost i niže troškove 500L često ima prednost. Za duža putovanja, više udobnosti i fleksibilniji enterijer Scenic može biti bolji. U oba slučaja dobar monovolumen može biti pametniji od skupljeg SUV-a, ali samo kada stanje i istorija potvrđuju cenu.
+TEXT,
+                'highlights' => [
+                    '500L i Scenic mogu biti racionalniji porodični izbor od skupljeg SUV-a.',
+                    'Fiat 500L ima prednost u jednostavnosti i gradskoj preglednosti.',
+                    'Renault Scenic nudi više porodične fleksibilnosti, ali traži strožu proveru elektronike.',
+                ],
+                'tags' => ['Fiat 500L', 'Renault Scenic', 'porodični auto', 'monovolumen', 'poređenje'],
+                'meta_title' => 'Fiat 500L ili Renault Scenic: porodični polovnjak',
+                'meta_description' => 'Poređenje polovnih Fiat 500L i Renault Scenic modela: prostor, motor, elektronika, trap, porodična upotreba, cena i alternativa SUV-u.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa korozijom na podu: kada rđa nije samo estetski problem',
+                'slug' => 'auto-sa-korozijom-na-podu-kada-rdja-nije-samo-estetski-problem',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Korozija na podu i pragovima može otkriti lošu popravku, zimske uslove, curenje, slabo održavanje i skup problem za tehnički pregled.',
+                'content' => <<<'TEXT'
+Korozija na polovnom autu često se vidi tek kada se auto podigne. Spoljašnji lak može izgledati dobro, enterijer može biti očišćen, a fotografije mogu sakriti pragove, pod, nosače, rubove i mesta oko oslanjanja. Rđa nije samo estetski problem kada dođe do konstrukcije, kočionih cevi, nosača ili mesta koja trpe opterećenje.
+
+Prva provera je dizalica. Pogledaj pragove, pod, rubove, zadnji most, nosače, pod gepeka, mesta oko dizalice, izduv, kočione cevi i šrafove. Površinska korozija nije isto što i duboka rđa, ali kupac ne treba sam da procenjuje granicu ako nema iskustva. Majstor i limar mogu brzo reći da li je problem kozmetički ili strukturni.
+
+Druga tema je poreklo. Automobili iz područja sa mnogo soli, snega i vlage mogu imati više korozije, posebno ako su loše oprani i održavani. Curenje vode u kabini, vlažne obloge, loše popravljeni pragovi i sveže nanet zaštitni premaz preko prljavštine traže oprez.
+
+Treća provera je računica. Popravka rđe može biti skuplja nego što deluje, naročito ako treba seći, variti, farbati i vraćati zaštitu. Ako korozija utiče na tehnički pregled ili sigurnost, popust nije dovoljan razlog za kupovinu. Nekad je najjeftinija odluka odustati pre kapare.
+TEXT,
+                'highlights' => [
+                    'Korozija na podu i pragovima se ozbiljno proverava tek na dizalici.',
+                    'Sveža zaštita odozdo može sakriti problem ako nema jasnog objašnjenja i računa.',
+                    'Duboka rđa može uticati na tehnički pregled, bezbednost i vrednost auta.',
+                ],
+                'tags' => ['korozija', 'rđa', 'provera vozila', 'pragovi', 'tehnički pregled'],
+                'meta_title' => 'Auto sa korozijom na podu: šta proveriti',
+                'meta_description' => 'Kako proveriti koroziju na polovnom autu: pod, pragovi, nosači, kočione cevi, zaštita odozdo, tehnički pregled, popravka i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Citroen Berlingo: praktičan porodični van koji ne sme da sakrije težak radni život',
+                'slug' => 'polovni-citroen-berlingo-praktican-porodicni-van-koji-ne-sme-da-sakrije-tezak-radni-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Berlingo je odličan kada treba prostor i praktičnost, ali kupac mora proveriti da li je auto bio porodični prevoz ili umorno dostavno vozilo.',
+                'content' => <<<'TEXT'
+Citroen Berlingo je jedan od najpraktičnijih polovnjaka za kupce kojima su važni prostor, klizna vrata, visok krov i jednostavna svakodnevna upotreba. Može biti odličan porodični auto, ali može biti i bivše dostavno ili radno vozilo koje je samo prepakovano za prodaju. Zato se Berlingo mora proveravati po stvarnom životu, ne po tome koliko je kabina velika.
+
+Prva provera je namena iz prošlosti. Pogledaj gepek, pod, pragove, klizna vrata, obloge, sedišta, šrafove, krovni nosač i tragove tereta. Ako auto ima ogrebotine, udubljenja, umorne obloge i nejasnu istoriju, moguće je da je radio mnogo teže nego što kilometraža pokazuje.
+
+Druga tema je motor i trap. Dizel verzije treba proveriti kroz DPF, EGR, turbinu, dizne, hladan start i servis ulja. Trap, gume, kočnice i amortizeri trpe mnogo kada se auto vozi natovaren. Probna vožnja treba da uključi neravnine, kočenje i slušanje zadnjeg dela.
+
+Treća provera je porodična upotreba. Klizna vrata, klima, zadnja klupa, ISOFIX, gepek, police, senzori i preglednost moraju raditi za tvoju rutinu. Dobar Berlingo je izuzetno koristan polovnjak. Loš primerak je samo veliko prazno vozilo koje posle kupovine traži ulaganja u sve ono što je nosilo težak radni dan.
+TEXT,
+                'highlights' => [
+                    'Berlingo treba proveriti da li je bio porodični auto ili umorno radno vozilo.',
+                    'Klizna vrata, gepek, pod, obloge i zadnji trap često otkrivaju težak život.',
+                    'Dizel sistem, kočnice, gume i amortizeri moraju se gledati kroz moguću vožnju pod teretom.',
+                ],
+                'tags' => ['Citroen Berlingo', 'porodični van', 'dostavno vozilo', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Citroen Berlingo: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Citroen Berlingo modela: porodična upotreba, dostavni rad, dizel, DPF, klizna vrata, gepek, trap i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa stranom dokumentacijom: kada papiri moraju biti jasniji od obećanja',
+                'slug' => 'auto-sa-stranom-dokumentacijom-kada-papiri-moraju-biti-jasniji-od-obecanja',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Strana dokumentacija može biti uredan trag uvoza, ali kupac mora proveriti vlasništvo, odjavu, carinu, porez, homologaciju i prevod pre kapare.',
+                'content' => <<<'TEXT'
+Auto sa stranom dokumentacijom može biti sasvim uredna kupovina, ali samo kada su papiri jasni pre dogovora. Problem nastaje kada prodavac kaže da je sve lako, da se registracija završava brzo ili da će dokumenti stići naknadno. Kod uvoznog polovnjaka obećanje ne sme da zameni proveru vlasništva, odjave i troškova.
+
+Prva provera su osnovni papiri. Treba videti stranu saobraćajnu, dokaz o odjavi, kupoprodajni ugovor ili fakturu, carinsku dokumentaciju, dokaz o plaćenim obavezama i VIN koji se poklapa na vozilu i dokumentima. Ako se ime prodavca ne poklapa sa tokom papira, pitaj ko stvarno prodaje auto i po kom osnovu.
+
+Druga tema su troškovi i rokovi. Homologacija, prevod, carina, porez, registracija, tehnički pregled i eventualni nedostajući dokument mogu promeniti računicu. Cena oglasa nije puna cena ako auto još nije spreman za registraciju. Pre kapare napiši šta je uključeno, šta nije i ko snosi rizik ako papir fali.
+
+Treća provera je istorija. Strani papiri ne govore sami da je auto dobar. Proveri servisnu istoriju, tehničke zapise, kilometražu, štetu, vlasništvo i da li postoje ograničenja. Ako prodavac žuri sa kaparom pre dokumentacije, to nije dobra prilika nego signal da kupac treba usporiti.
+TEXT,
+                'highlights' => [
+                    'Kod strane dokumentacije prvo proveri vlasništvo, odjavu, fakturu i VIN.',
+                    'Cena nije kompletna dok nisu jasni carina, porez, homologacija, prevod i registracija.',
+                    'Kapara nema smisla ako dokumenti tek treba da stignu ili nisu usklađeni.',
+                ],
+                'tags' => ['strana dokumentacija', 'uvoz auta', 'homologacija', 'carina', 'registracija'],
+                'meta_title' => 'Auto sa stranom dokumentacijom: šta proveriti',
+                'meta_description' => 'Kako proveriti auto sa stranom dokumentacijom: vlasništvo, odjava, VIN, faktura, carina, porez, homologacija, prevod, registracija i kapara.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
         ]);
     }
 
