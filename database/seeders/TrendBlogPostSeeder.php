@@ -4285,6 +4285,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#38bdf8', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Volkswagen Touran: porodični monovolumen koji traži proveru dizela, DSG-a i kliznih sedišta',
+                'slug' => 'polovni-volkswagen-touran-porodicni-monovolumen-koji-trazi-proveru-dizela-dsg-a-i-kliznih-sedista',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Touran može biti odličan porodični auto za kupce kojima SUV nije neophodan, ali samo kada su dizel, DSG, sedišta, vrata i servisna istorija provereni bez prečica.',
+                'content' => <<<'TEXT'
+Volkswagen Touran je porodični auto koji često ima više stvarne upotrebljivosti od mnogih polovnih SUV-ova. Visok krov, dobra preglednost, velika kabina, pomična sedišta i veliki gepek čine ga veoma praktičnim za porodicu, posao i duža putovanja. Ali baš zato što je praktičan, Touran često iza sebe ima težak život: mnogo gradske vožnje, dečja sedišta, kratke relacije, službenu upotrebu ili vožnju pod teretom.
+
+Prva provera je motor i menjač. Dizel verzije treba gledati kroz hladan start, DPF, EGR, turbinu, dizne, curenja i servis ulja. DSG menjač mora menjati glatko hladan i topao, bez trzaja, kašnjenja i vibracija. Ako nema dokaza o servisu menjača, kupac mora računati preventivni servis ili veći rizik.
+
+Druga tema je enterijer. Touran se kupuje zbog praktičnosti, pa treba proveriti svako sedište, mehanizme pomeranja, preklapanje, ISOFIX, vrata, bravu gepeka, klimu, ventilaciju pozadi i tragove vlage. Umoran enterijer nije samo estetski problem. On često govori koliko je auto zaista radio.
+
+Treća provera je trap i porodična rutina. Probna vožnja treba da uključi neravnine, kočenje, parkiranje i vožnju preko ležećih policajaca. Dobar Touran može biti pametniji od skupljeg SUV-a. Loš primerak samo izgleda racionalno dok ne počnu ulaganja u menjač, dizel sistem i potrošene porodične detalje.
+TEXT,
+                'highlights' => [
+                    'Touran ima smisla kada stvarna praktičnost vredi više od SUV imidža.',
+                    'Dizel sistem i DSG moraju imati jasne servisne tragove i dobru probnu vožnju.',
+                    'Sedišta, vrata, klima, ISOFIX i enterijer često otkrivaju koliko je auto radio.',
+                ],
+                'tags' => ['Volkswagen Touran', 'porodični monovolumen', 'DSG', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volkswagen Touran: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volkswagen Touran modela: dizel, DSG, sedišta, klima, enterijer, trap, porodična upotreba, servis i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Toyota Prius ili Hyundai Ioniq: polovni hibrid kada grad i potrošnja odlučuju',
+                'slug' => 'toyota-prius-ili-hyundai-ioniq-polovni-hibrid-kada-grad-i-potrosnja-odlucuju',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Prius i Ioniq mogu biti vrlo štedljivi polovnjaci za grad, ali odluka zavisi od baterije, kočnica, servisne istorije, prostora i realne cene primerka.',
+                'content' => <<<'TEXT'
+Toyota Prius i Hyundai Ioniq su logični kandidati za kupca koji želi polovni hibrid, nisku potrošnju i mirnu gradsku vožnju bez dizel rizika. Oba modela imaju reputaciju racionalne kupovine, ali reputacija nije dovoljna. Kod hibrida se kupuje stanje kompletnog sistema, a ne samo obećanje male potrošnje.
+
+Prius ima jači hibridni ugled i često drži cenu bolje. To je prednost pri kasnijoj prodaji, ali i razlog da kupac ne plati previše samo zbog imena. Treba proveriti hibridnu bateriju, 12V bateriju, kočnice, trap, klimu i realnu istoriju korišćenja. Automobil koji je vozio mnogo gradskih kilometara može spolja izgledati mirno, a da mu unutrašnjost i mehanika već traže ulaganja.
+
+Ioniq često nudi moderniji osećaj, dobru aerodinamiku i zanimljiv odnos cene i opreme. Kod njega treba proveriti bateriju, softver, kočnice, menjač, servisnu istoriju i da li je auto korišćen kao taksi, službeni ili rent-a-car primerak. Dobra oprema ne treba da sakrije umoran primerak.
+
+Ako ti je kasnija prodaja i dokazana reputacija najvažnija, Prius ima prednost. Ako želiš bolji odnos cene, opreme i modernijeg enterijera, Ioniq može biti bolji izbor. U oba slučaja dijagnostika hibridnog sistema i jasna servisna istorija vrede više od prosečne potrošnje napisane u oglasu.
+TEXT,
+                'highlights' => [
+                    'Prius ima jaču reputaciju, ali ne treba plaćati ime bez dijagnostike baterije.',
+                    'Ioniq može ponuditi bolju opremu za novac, ali traži proveru upotrebe i servisa.',
+                    'Kod oba modela proveri hibridni sistem, 12V bateriju, kočnice, trap i istoriju.',
+                ],
+                'tags' => ['Toyota Prius', 'Hyundai Ioniq', 'polovni hibrid', 'poređenje', 'gradska vožnja'],
+                'meta_title' => 'Toyota Prius ili Hyundai Ioniq: polovni hibrid vodič',
+                'meta_description' => 'Poređenje polovnih Toyota Prius i Hyundai Ioniq hibrida: baterija, potrošnja, kočnice, servis, oprema, gradska vožnja, cena i kasnija prodaja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa sumnjivim zvukom turbine: kada zvižduk postaje skup račun',
+                'slug' => 'auto-sa-sumnjivim-zvukom-turbine-kada-zvizduk-postaje-skup-racun',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Zviždanje turbine, dim, slab odziv i tragovi ulja mogu biti prvi signal da je jeftin dizel zapravo kupovina sa velikim početnim ulaganjem.',
+                'content' => <<<'TEXT'
+Turbina kod polovnog auta ne sme se procenjivati samo po tome da li motor trenutno vuče. Mnogi problemi počinju tiho: blag zvižduk, čudan zvuk pri ubrzanju, masni tragovi oko creva, dim pri dodavanju gasa ili osećaj da auto čas ide dobro, čas deluje tromo. Takvi signali nisu razlog za paniku, ali jesu razlog za ozbiljnu proveru pre kapare.
+
+Prva provera je hladan start i vožnja pod opterećenjem. Obrati pažnju na zviždanje, zavijanje, dim, trzaje, lampice, gubitak snage i miris ulja. Kratka vožnja oko placa nije dovoljna. Auto treba voziti kroz grad, otvoren put i ubrzanje iz nižih obrtaja, uz dijagnostiku pre i posle vožnje.
+
+Druga tema su uzroci. Turbina može stradati zbog lošeg ulja, preskakanja servisa, zapušenog DPF-a, problema sa EGR-om, loše mape, curenja na usisu ili agresivne vožnje hladnog motora. Ako se popravi samo turbina, a uzrok ostane, novi kvar može doći brzo.
+
+Treća provera je računica. Polovan dizel sa lošom turbinom nije dobar samo zato što je cena spuštena. Treba uračunati turbinu, rad, ulje, creva, DPF, EGR i moguće posledice. Ako prodavac kaže da se turbina samo malo čuje, neka cena i pregled potvrde tu priču. U suprotnom, bolje je odustati nego kupiti prvi veliki račun.
+TEXT,
+                'highlights' => [
+                    'Zviždanje, dim, slab odziv i ulje oko usisa traže ozbiljnu proveru turbine.',
+                    'Dijagnostika i probna vožnja pod opterećenjem moraju se uraditi pre kapare.',
+                    'Kvar turbine često ima uzrok u servisu, DPF-u, EGR-u, ulju ili lošoj mapi.',
+                ],
+                'tags' => ['turbina', 'dizel', 'provera vozila', 'DPF', 'EGR', 'troškovi'],
+                'meta_title' => 'Auto sa sumnjivim zvukom turbine: šta proveriti',
+                'meta_description' => 'Kako proveriti turbinu kod polovnog auta: zviždanje, dim, gubitak snage, ulje, DPF, EGR, dijagnostika, probna vožnja i računica popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Opel Insignia B: velika limuzina koja traži proveru dizela i elektronike',
+                'slug' => 'polovni-opel-insignia-b-velika-limuzina-koja-trazi-proveru-dizela-i-elektronike',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Insignia B deluje kao mnogo auta za novac, ali kupac mora proveriti motor, menjač, elektroniku, trap, uvoznu istoriju i realnu kilometražu.',
+                'content' => <<<'TEXT'
+Opel Insignia B privlači kupce koji žele veliku limuzinu ili karavan, mnogo opreme i ozbiljan osećaj na autoputu bez premium cene. Na papiru deluje vrlo racionalno: udobna je, prostrana, dobro izgleda i često nudi bogatu opremu. Kao polovnjak, međutim, mora opravdati stanje jer veliki auto sa jeftinom cenom često krije veliku kilometražu ili zaostala ulaganja.
+
+Prva provera je motor. Dizel verzije treba gledati kroz hladan start, DPF, EGR, turbinu, dizne, AdBlue ako ga ima, curenja i servis ulja. Benzinske verzije treba proveriti kroz potrošnju, rad motora, servisnu istoriju i eventualna curenja. U oba slučaja kilometraža mora imati logiku sa enterijerom, volanom, sedištem i računima.
+
+Druga tema je elektronika i oprema. Infotainment, klima, senzori, kamera, adaptivna svetla, sedišta, grejanje, parking sistemi i svi moduli moraju raditi bez slučajnih upozorenja. Bogata oprema je prednost samo ako radi. Ako prodavac kaže da je sitnica, kupac treba da proveri koliko ta sitnica košta.
+
+Treća provera je trap i uvozna istorija. Insignia često ima mnogo autoput kilometara, što nije problem ako je održavanje uredno. Problem je kada se kilometraža ne poklapa sa stanjem i dokumentacijom. Dobar primerak je udoban i sposoban porodični auto. Loš primerak može brzo postati skupa velika limuzina koju je teško prodati bez dodatnih ulaganja.
+TEXT,
+                'highlights' => [
+                    'Insignia B nudi mnogo prostora i opreme, ali stanje mora opravdati cenu.',
+                    'Dizel sistem, elektronika, senzori i klima treba da prođu detaljnu proveru.',
+                    'Uvozna kilometraža mora se porediti sa dokumentacijom i potrošenošću enterijera.',
+                ],
+                'tags' => ['Opel Insignia B', 'polovna limuzina', 'dizel', 'elektronika', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Insignia B: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Opel Insignia B modela: dizel, DPF, EGR, elektronika, oprema, trap, uvozna istorija, kilometraža i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa previše vlasnika: kada broj u saobraćajnoj menja rizik kupovine',
+                'slug' => 'auto-sa-previse-vlasnika-kada-broj-u-saobracajnoj-menja-rizik-kupovine',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Više prethodnih vlasnika nije automatski problem, ali kupac mora razumeti zašto je auto često menjao ruke i da li dokumentacija prati svaku promenu.',
+                'content' => <<<'TEXT'
+Broj prethodnih vlasnika kod polovnog auta ne govori celu istinu, ali je važan signal. Auto sa jednim vlasnikom može biti zapušten. Auto sa više vlasnika može biti uredan. Ipak, ako je vozilo često menjalo ruke, kupac treba da razume zašto. Nekad je razlog normalna zamena auta, a nekad skriven kvar, loša popravka, neisplativo održavanje ili problem sa papirima.
+
+Prva provera je dokumentacija. Saobraćajna, kupoprodajni ugovori, računi, servisna istorija, tehnički pregledi i VIN treba da naprave logičan trag. Ako se vlasnici smenjuju brzo, a servisni računi nestaju baš u periodu kada je auto menjao ruke, treba usporiti.
+
+Druga tema je stanje. Više vlasnika često znači različite navike održavanja. Jedan je mogao ulagati na vreme, drugi odlagati servis, treći pripremiti auto samo za prodaju. Zato stanje enterijera, guma, kočnica, trapa, tečnosti i elektronike mora da se čita zajedno sa papirima.
+
+Treća provera je razgovor sa prodavcem. Pitaj koliko dugo je auto kod njega, zašto ga prodaje, šta je radio od kupovine i koje račune ima. Ako je odgovor maglovit, a auto je više puta preprodavan, cena mora nositi taj rizik. Najmanji problem je broj vlasnika. Veći problem je kada nijedan trag ne objašnjava život automobila.
+TEXT,
+                'highlights' => [
+                    'Više vlasnika nije automatski razlog za odustajanje, ali traži jasniji trag dokumenata.',
+                    'Česte promene vlasništva treba povezati sa servisima, tehničkim pregledima i VIN istorijom.',
+                    'Kupac treba da plati stanje i dokaze, ne samo priču da je auto dobro čuvan.',
+                ],
+                'tags' => ['prethodni vlasnici', 'saobraćajna', 'kupovina polovnjaka', 'dokumentacija', 'VIN'],
+                'meta_title' => 'Auto sa previše vlasnika: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proceniti polovan auto sa više prethodnih vlasnika: saobraćajna, dokumentacija, VIN, servisna istorija, tehnički pregledi, preprodaja i rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
         ]);
     }
 

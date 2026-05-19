@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.71] - 2026-05-19
+
+### Added
+
+- Added five non-duplicate production blog articles covering used Volkswagen Touran checks, Toyota Prius vs Hyundai Ioniq, turbo-noise inspection, used Opel Insignia B buying guidance, and too-many-owners risk.
+
 ## [0.1.70] - 2026-05-18
 
 ### Added
