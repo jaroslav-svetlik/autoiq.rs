@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.72] - 2026-05-21
+
+### Added
+
+- Added five non-duplicate production blog articles covering used Skoda Scala checks, Peugeot 5008 vs Skoda Kodiaq, cabin-smell inspection, used Honda Civic 10 buying guidance, and foreign-lease vehicle risk.
+
 ## [0.1.71] - 2026-05-19
 
 ### Added

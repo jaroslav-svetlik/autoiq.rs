@@ -4420,6 +4420,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#f59e0b', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Škoda Scala: kompakt koji traži proveru TSI-a, trapa i opreme',
+                'slug' => 'polovni-skoda-scala-kompakt-koji-trazi-proveru-tsi-a-trapa-i-opreme',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Scala može biti racionalan kompakt za porodicu i posao, ali kupac mora proveriti motor, trap, elektroniku, servisnu istoriju i realnu cenu u odnosu na Octaviju.',
+                'content' => <<<'TEXT'
+Škoda Scala deluje kao mirnija kupovina za kupce koji žele prostor, moderan enterijer i niže troškove od većih polovnih modela. Nije Octavia, ali nudi dovoljno mesta za porodicu, prtljažnik koji rešava svakodnevicu i jednostavniji osećaj u vožnji. Kao polovnjak ima smisla kada cena prati stanje, a ne samo činjenicu da je auto relativno nov.
+
+Prva provera je motor i servis. TSI verzije treba gledati kroz hladan start, rad u leru, potrošnju ulja, curenja, servisne intervale i račune. Dizel ima smisla samo ako je vožen na dužim relacijama i ako DPF, EGR i turbina ne nose skrivenu cenu. Kod svakog primerka bitnije je šta piše u računima nego koliko opreme ima.
+
+Druga tema je trap i gradski život. Scala često radi kao porodični, službeni ili gradski auto. Proveri gume, kočnice, amortizere, letvu volana, neravnine, parking tragove i stanje enterijera. Auto koji izgleda novo na fotografijama može imati mnogo kratkih relacija, ivičnjaka i sitnih udaraca iza sebe.
+
+Treća provera je odnos cene i alternative. Ako je Scala blizu cene Octavije, mora imati bolju istoriju, manje rizika ili mlađe godište. Ako je primetno jeftinija, proveri zašto. Dobar primerak je racionalan kompakt. Loš primerak je samo skuplji mali auto koji se kupuje zato što deluje bezbedno na papiru.
+TEXT,
+                'highlights' => [
+                    'Scala ima smisla kada cena prati stanje, servisnu istoriju i stvarnu upotrebu.',
+                    'TSI motor, dizel sistem, trap i gradski tragovi moraju se proveriti pre kapare.',
+                    'Poredi je sa Octavijom i drugim kompaktima, ne samo po godištu i opremi.',
+                ],
+                'tags' => ['Škoda Scala', 'polovni kompakt', 'TSI', 'kupovina polovnjaka', 'trap'],
+                'meta_title' => 'Polovni Škoda Scala: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Škoda Scala: TSI, dizel, trap, oprema, servisna istorija, gradska vožnja, cena i poređenje sa Octavijom.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Peugeot 5008 ili Škoda Kodiaq: sedam sedišta kada porodica traži više od gepeka',
+                'slug' => 'peugeot-5008-ili-skoda-kodiaq-sedam-sedista-kada-porodica-trazi-vise-od-gepeka',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => '5008 i Kodiaq nude sedam sedišta i ozbiljan porodični prostor, ali odluka zavisi od motora, menjača, trapa, elektronike i stvarne potrebe za trećim redom.',
+                'content' => <<<'TEXT'
+Peugeot 5008 i Škoda Kodiaq su dva česta odgovora kada porodica preraste kompaktni SUV, karavan ili monovolumen. Oba mogu ponuditi sedam sedišta, veliki gepek i dobar komfor na putu, ali ih ne treba kupovati samo zato što izgledaju kao logično rešenje za svaku porodičnu situaciju. Sedam sedišta ima smisla samo ako se stvarno koriste.
+
+Peugeot 5008 često privlači kupce dizajnom, enterijerom i fleksibilnim rasporedom. Treba proveriti elektroniku, ekran, klimu, senzore, trap i motor. Kod dizela gledaj DPF, EGR, AdBlue ako ga ima, turbinu i servisnu istoriju. Kod benzinca posebno proveri servisni ritam i poznate slabosti konkretne motorizacije.
+
+Škoda Kodiaq deluje ozbiljnije i robusnije, sa jakim porodičnim imidžom i boljom kasnijom prodajom. Ali DSG, 4x4, veće gume, trap, kočnice i skupa oprema mogu promeniti računicu. Kodiaq nije automatski bolja kupovina ako je skuplji primerak umorniji ili slabije dokumentovan.
+
+Prava odluka zavisi od rutine. Ako ti je važniji dizajn, fleksibilnost i bolja cena, 5008 može biti vrlo racionalan. Ako želiš mirniju kasniju prodaju i čvršći osećaj, Kodiaq ima prednost. U oba slučaja testiraj treći red, dečja sedišta, gepek sa podignutim sedištima, klimu pozadi i troškove prvih ulaganja.
+TEXT,
+                'highlights' => [
+                    'Sedam sedišta kupuj samo ako treći red stvarno rešava svakodnevnu potrebu.',
+                    '5008 traži proveru elektronike, motora i fleksibilnosti enterijera.',
+                    'Kodiaq traži strogu proveru DSG-a, 4x4 pogona, trapa i skupljih potrošnih delova.',
+                ],
+                'tags' => ['Peugeot 5008', 'Škoda Kodiaq', 'sedam sedišta', 'porodični SUV', 'poređenje'],
+                'meta_title' => 'Peugeot 5008 ili Škoda Kodiaq: polovni SUV sa 7 sedišta',
+                'meta_description' => 'Poređenje polovnih Peugeot 5008 i Škoda Kodiaq modela: sedam sedišta, gepek, dizel, DSG, elektronika, 4x4, porodična upotreba i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Čudan miris u kabini polovnog auta: kada nos otkriva vlagu, dim ili lošu popravku',
+                'slug' => 'cudan-miris-u-kabini-polovnog-auta-kada-nos-otkriva-vlagu-dim-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Miris vlage, dima, goriva, hemije ili ustajale klime može otkriti curenje, poplavu, loše čišćenje, kvar klime ili skriven problem posle udesa.',
+                'content' => <<<'TEXT'
+Čudan miris u kabini polovnog auta nije sitnica koju treba pokriti mirisnom jelkicom. Kabina pamti vlagu, dim, kućne ljubimce, prosutu tečnost, buđ, curenje grejanja, poplavu, loš servis klime i agresivno dubinsko pranje pred prodaju. Ako miris postoji, treba razumeti odakle dolazi pre dogovora o ceni.
+
+Prva provera je vlaga. Podigni patosnice, pipni tepih, proveri gepek, rezervni točak, donje ivice vrata, pragove, nebo, stakla i prostor oko klime. Magljenje stakala, mokar tepih i miris buđi mogu značiti curenje, zapušene odvode ili ozbiljniju istoriju vode u vozilu.
+
+Druga tema je dim i hemija. Miris cigareta se teško uklanja, a jak miris sredstva za čišćenje može značiti da prodavac pokušava da sakrije problem. Miris goriva, izduvnih gasova ili rashladne tečnosti traži mehaničku proveru, ne pregovaranje naslepo.
+
+Treća provera je klima. Uključi ventilaciju, grejanje, recirkulaciju i klimu na različitim režimima. Loš miris iz ventilacije može biti samo servis klime, ali može ukazati i na vlagu, zapušen odvod ili problem sa grejačem. Ako kabina ne miriše normalno, ne pretpostavljaj da će se rešiti posle jednog čišćenja.
+TEXT,
+                'highlights' => [
+                    'Miris vlage, dima, goriva ili hemije treba tretirati kao signal za dodatnu proveru.',
+                    'Tepisi, gepek, odvodi, klima i donje ivice vrata često otkrivaju skriven uzrok.',
+                    'Dubinsko pranje ne rešava problem ako je uzrok curenje, buđ ili mehanički kvar.',
+                ],
+                'tags' => ['miris u kabini', 'vlaga', 'klima', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Čudan miris u kabini polovnog auta: šta proveriti',
+                'meta_description' => 'Kako proveriti čudan miris u kabini polovnog auta: vlaga, dim, gorivo, klima, buđ, tepisi, gepek, curenje, poplava i dubinsko pranje.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Honda Civic 10: kompakt koji traži proveru turbobenzinca, CVT-a i limarskog stanja',
+                'slug' => 'polovni-honda-civic-10-kompakt-koji-trazi-proveru-turbobenzinca-cvt-a-i-limarskog-stanja',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Civic 10 može biti odličan izbor za vozača koji želi više od prosečnog kompakta, ali stanje motora, menjača, trapa i karoserije mora opravdati cenu.',
+                'content' => <<<'TEXT'
+Honda Civic 10 privlači kupce koji žele drugačiji kompakt: više prostora nego što izgled sugeriše, dobar osećaj u vožnji, atraktivan dizajn i reputaciju Honde. Kao polovnjak može biti vrlo zanimljiv, ali nije auto koji treba kupiti samo zato što ima japanski znak. Konkretan primerak mora dokazati da je održavan i vožen razumno.
+
+Prva provera je motor. Turbobenzinci traže uredan servis ulja, miran hladan start, normalan rad pod opterećenjem i proveru eventualnih curenja ili čudnih zvukova. Ako je auto vožen kratkim relacijama ili agresivno, reputacija marke ne briše rizik. Dizel verzije treba gledati kroz DPF, EGR, turbinu i kilometražu.
+
+Druga tema je menjač i vožnja. Manuelni menjač proveri kroz kvačilo, sinhrone i rad u svim brzinama. CVT mora raditi glatko, bez trzaja, zavijanja i neobičnog kašnjenja. Probna vožnja treba da uključi grad, otvoren put, neravnine i kočenje.
+
+Treća provera je karoserija. Civic 10 ima upečatljiv oblik, pa loše popravljeni paneli, branici, farovi i zazori mogu brzo otkriti prethodnu štetu. Dobar Civic 10 vredi više od prosečnog kompakta. Loš primerak ne treba platiti kao dobar samo zato što je redak na tržištu.
+TEXT,
+                'highlights' => [
+                    'Civic 10 ima smisla kada stanje prati reputaciju i višu tržišnu cenu.',
+                    'Turbobenzinac, dizel, manuelni menjač i CVT traže različitu probnu vožnju.',
+                    'Karoserija, zazori, farovi i branici moraju se proveriti zbog mogućih loših popravki.',
+                ],
+                'tags' => ['Honda Civic 10', 'polovni kompakt', 'CVT', 'turbobenzinac', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Honda Civic 10: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Honda Civic 10 modela: turbobenzinac, dizel, CVT, manuelni menjač, trap, karoserija, servis i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa lizinga iz inostranstva: kada uredna istorija ne govori sve o korišćenju',
+                'slug' => 'auto-sa-lizinga-iz-inostranstva-kada-uredna-istorija-ne-govori-sve-o-koriscenju',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lizing vozilo iz inostranstva može imati uredne servise, ali kupac mora proveriti namenu, kilometražu, opremu, štete, dokumentaciju i stvarno stanje.',
+                'content' => <<<'TEXT'
+Auto sa lizinga iz inostranstva često deluje kao sigurna kupovina jer ima urednu dokumentaciju, servisne zapise i poznat tok vlasništva. To jeste prednost, ali nije cela slika. Lizing vozilo može biti pažljivo održavan službeni auto, ali može biti i automobil koji je svaki dan prelazio mnogo kilometara, vozilo više vozača i završio ugovor sa minimalnim ulaganjima pred vraćanje.
+
+Prva provera je namena. Pitaj da li je auto bio službeni, flotni, rent-a-car, menadžerski ili privatni lizing. Ista kilometraža ne znači isto korišćenje. Autoput kilometri, gradske gužve, kratke relacije i više vozača ostavljaju različite tragove na enterijeru, trapu, gumama, kočnicama i kvačilu ili automatskom menjaču.
+
+Druga tema je dokumentacija. Servisna istorija, faktura, odjava, izvozna dokumenta, VIN, izveštaji o šteti i tehnički pregledi moraju imati kontinuitet. Uredan servis ne znači da nije bilo karoserijskih popravki ili da je oprema kompletna. Proveri i da li su svi ključevi, kodovi, dodatna oprema i knjižice prisutni.
+
+Treća provera je računica. Lizing auto može biti dobra kupovina ako cena priznaje kilometražu i namenu. Ako se prodaje kao skoro privatno korišćen vozilo, a stanje govori drugačije, treba pregovarati ili odustati. Uredna istorija smanjuje rizik, ali ga ne briše bez pregleda konkretnog primerka.
+TEXT,
+                'highlights' => [
+                    'Lizing istorija je prednost samo kada se zna namena i način korišćenja vozila.',
+                    'Servisni zapisi moraju se povezati sa VIN-om, štetama, odjavom i izvozom.',
+                    'Flotna upotreba, više vozača i velika kilometraža moraju biti uračunati u cenu.',
+                ],
+                'tags' => ['lizing', 'uvoz auta', 'službeni auto', 'flotno vozilo', 'dokumentacija'],
+                'meta_title' => 'Auto sa lizinga iz inostranstva: šta proveriti',
+                'meta_description' => 'Kako proveriti auto sa lizinga iz inostranstva: servisna istorija, namena, flotna upotreba, VIN, štete, dokumentacija, kilometraža i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
         ]);
     }
 
