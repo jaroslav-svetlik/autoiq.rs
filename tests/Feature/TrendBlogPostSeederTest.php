@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(160, $posts);
+        $this->assertCount(165, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(45, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(46, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -186,6 +186,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'cudan-miris-u-kabini-polovnog-auta-kada-nos-otkriva-vlagu-dim-ili-losu-popravku'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-civic-10-kompakt-koji-trazi-proveru-turbobenzinca-cvt-a-i-limarskog-stanja'));
         $this->assertTrue($posts->contains('slug', 'auto-sa-lizinga-iz-inostranstva-kada-uredna-istorija-ne-govori-sve-o-koriscenju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-renault-kadjar-crossover-koji-trazi-proveru-dci-a-tce-a-i-elektronike'));
+        $this->assertTrue($posts->contains('slug', 'opel-grandland-ili-peugeot-3008-isti-koreni-razlicita-racunica-polovnjaka'));
+        $this->assertTrue($posts->contains('slug', 'ostecene-felne-na-polovnom-autu-kada-udarac-u-rupu-otkriva-skuplji-trap'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mercedes-c-klasa-w205-premium-limuzina-koja-trazi-proveru-dizela-automatika-i-opreme'));
+        $this->assertTrue($posts->contains('slug', 'auto-sa-neuskladjenom-opremom-i-vin-om-kada-paket-opreme-otkriva-skrivenu-pricu'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

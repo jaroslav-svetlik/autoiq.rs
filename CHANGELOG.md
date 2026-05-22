@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.73] - 2026-05-22
+
+### Added
+
+- Added five non-duplicate blog articles covering used Renault Kadjar checks, Opel Grandland vs Peugeot 3008, damaged-wheel inspection, used Mercedes C-Class W205 buying guidance, and mismatched equipment/VIN risk.
+
 ## [0.1.72] - 2026-05-21
 
 ### Added

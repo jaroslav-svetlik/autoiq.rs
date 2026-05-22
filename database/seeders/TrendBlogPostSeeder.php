@@ -4555,6 +4555,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#38bdf8', '#f8fafc'],
             ],
+            [
+                'title' => 'Polovni Renault Kadjar: crossover koji traži proveru dCi-a, TCe-a i elektronike',
+                'slug' => 'polovni-renault-kadjar-crossover-koji-trazi-proveru-dci-a-tce-a-i-elektronike',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kadjar može biti udoban i racionalan porodični crossover, ali kupac mora proveriti motor, elektroniku, trap, servisnu istoriju i stvarnu cenu u odnosu na Qashqai.',
+                'content' => <<<'TEXT'
+Renault Kadjar je polovni crossover koji često ulazi u uži izbor kupaca koji žele viši položaj sedenja, solidan komfor i razumnu cenu bez premium ambicija. Deli mnogo logike sa Nissan Qashqai modelom, ali to ne znači da svaki primerak automatski nosi mirnu kupovinu. Kod Kadjara je najvažnije da stanje, servis i cena imaju smisla zajedno.
+
+Prva provera je motor. dCi dizeli mogu biti vrlo štedljivi i prijatni na dužem putu, ali traže proveru DPF-a, EGR-a, turbine, dizni, hladnog starta i servisnih intervala. TCe benzinci traže pažnju oko potrošnje ulja, rada u leru, curenja, servisa i načina vožnje. Ako prodavac nema račune, kupac treba da računa veći početni budžet.
+
+Druga tema je elektronika i oprema. Kartica, start-stop, ekran, klima, kamera, parking senzori, električni podizači, svetla i upozorenja na tabli moraju raditi bez izgovora. Kadjar često ima dovoljno opreme da deluje skuplje nego što jeste, ali baš ta oprema može otkriti zapušten primerak.
+
+Treća provera je trap i svakodnevna upotreba. Crossover koji je vozio grad, ivičnjake i loše puteve može imati umorne amortizere, gume, kočnice i letvu volana. Dobar Kadjar je miran porodični auto sa dobrom cenom. Loš primerak je Qashqai alternativa samo na fotografijama, dok račun za ulaganja brzo pojede razliku.
+TEXT,
+                'highlights' => [
+                    'Kadjar ima smisla kada servisna istorija potvrđuje stanje, a cena ne glumi skuplji SUV.',
+                    'dCi, TCe, elektronika i trap moraju se proveriti pre kapare i pregovora.',
+                    'Poredi ga sa Qashqai modelom, ali odlučuj po konkretnom primerku i računima.',
+                ],
+                'tags' => ['Renault Kadjar', 'polovni crossover', 'dCi', 'TCe', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Renault Kadjar: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Renault Kadjar modela: dCi, TCe, elektronika, oprema, trap, servisna istorija, cena i poređenje sa Qashqai.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Opel Grandland ili Peugeot 3008: isti koreni, različita računica polovnjaka',
+                'slug' => 'opel-grandland-ili-peugeot-3008-isti-koreni-razlicita-racunica-polovnjaka',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Grandland i 3008 dele tehničku osnovu, ali kupac treba da bira po motoru, elektronici, enterijeru, servisnoj istoriji i ceni, ne po dizajnu iz oglasa.',
+                'content' => <<<'TEXT'
+Opel Grandland i Peugeot 3008 često se posmatraju kao slična kupovina jer dele tehničku osnovu, motore i deo servisne logike. Ipak, kao polovnjaci ostavljaju različit utisak. Peugeot obično privlači dizajnom i enterijerom, dok Grandland često deluje uzdržanije i jednostavnije. Nijedan pristup nije automatski bolji ako konkretan primerak nema dobru istoriju.
+
+Peugeot 3008 ima jači vizuelni karakter, moderniji kokpit i često bogatiju opremu. To može biti prednost pri svakodnevnoj vožnji i kasnijoj prodaji, ali traži detaljnu proveru ekrana, elektronike, senzora, klime i svih komandi. Kod motora treba gledati servisni ritam, DPF, EGR, AdBlue kod dizela i poznate slabosti benzinskih verzija.
+
+Opel Grandland je često racionalniji izbor za kupca koji ne želi da plati dodatno zbog dizajna. Može imati mirniji enterijer i dobru opremu za novac, ali ne sme se kupiti samo zato što je jeftiniji. Isti osnovni rizici ostaju: motor, menjač, elektronika, trap, gume, kočnice i dokumentacija.
+
+Ako želiš efektniji enterijer i lakšu kasniju prodaju, 3008 ima prednost. Ako želiš nižu cenu i diskretniji auto, Grandland može biti bolja računica. Prava odluka je ona u kojoj servisni računi, probna vožnja i pregled kod majstora obore ili potvrde razliku u ceni.
+TEXT,
+                'highlights' => [
+                    '3008 i Grandland dele tehničku logiku, ali tržište ih vrednuje različito.',
+                    'Peugeot traži posebno pažljivu proveru elektronike, opreme i motora.',
+                    'Grandland može biti bolja kupovina samo ako niža cena ne krije slabiju istoriju.',
+                ],
+                'tags' => ['Opel Grandland', 'Peugeot 3008', 'poređenje', 'polovni SUV', 'kupovina polovnjaka'],
+                'meta_title' => 'Opel Grandland ili Peugeot 3008: polovni SUV poređenje',
+                'meta_description' => 'Poređenje polovnih Opel Grandland i Peugeot 3008 modela: motori, elektronika, oprema, enterijer, servisna istorija, cena i rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Oštećene felne na polovnom autu: kada udarac u rupu otkriva skuplji trap',
+                'slug' => 'ostecene-felne-na-polovnom-autu-kada-udarac-u-rupu-otkriva-skuplji-trap',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Izgrebane, krive ili varene felne nisu samo estetski minus, već signal da treba proveriti gume, trap, glavčine, kočnice, geometriju i istoriju udaraca.',
+                'content' => <<<'TEXT'
+Oštećene felne na polovnom autu mnogi kupci tretiraju kao kozmetiku, ali one često govore više od ogrebotine na braniku. Dubok udarac u rupu, ivičnjak ili prepreku može iskriviti felnu, oštetiti gumu, pomeriti trap, opteretiti ležaj i napraviti problem koji se vidi tek pri većoj brzini ili na optici.
+
+Prva provera je vizuelna. Pogledaj ivice felni, tragove varenja, pukotine, sveže farbanje, neravnomerno trošenje guma i razliku između točkova. Jedna nova guma pored tri stare može značiti normalnu zamenu, ali može značiti i udarac koji je rešavan najjeftinije moguće.
+
+Druga tema je probna vožnja. Auto ne sme vući u stranu, tresti volan, brujati, skakati preko neravnina ili pokazivati čudno ponašanje pri kočenju. Vožnja treba da uključi spor prelazak preko neravnina, brže ubrzanje, kočenje i deo puta na kom se oseća balans točkova.
+
+Treća provera je dizalica i optika trapa. Felna se može zameniti, ali kriv nosač, amortizer, glavčina, viljuška ili loša geometrija menjaju celu računicu. Ako prodavac kaže da su felne samo malo izgrebane, pregled treba da potvrdi da je problem stvarno samo estetski. U suprotnom, popust mora pokriti punu proveru i realne delove.
+TEXT,
+                'highlights' => [
+                    'Krive, varene ili sveže farbane felne mogu ukazati na udarac i problem trapa.',
+                    'Neravnomerno trošenje guma, vibracije i vučenje u stranu traže optiku i dizalicu.',
+                    'Estetski popust nije dovoljan ako postoji rizik za glavčine, amortizere ili viljuške.',
+                ],
+                'tags' => ['felne', 'trap', 'gume', 'provera vozila', 'optika trapa'],
+                'meta_title' => 'Oštećene felne na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti oštećene felne kod polovnog auta: krive felne, varenje, gume, trap, glavčine, optika, vibracije, kočenje i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mercedes C-klasa W205: premium limuzina koja traži proveru dizela, automatika i opreme',
+                'slug' => 'polovni-mercedes-c-klasa-w205-premium-limuzina-koja-trazi-proveru-dizela-automatika-i-opreme',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C-klasa W205 može biti prijatan premium polovnjak, ali kupac mora proveriti motor, automatski menjač, elektroniku, trap, opremu i realnu kilometražu.',
+                'content' => <<<'TEXT'
+Mercedes C-klasa W205 je jedan od onih polovnjaka koji lako ubede kupca da kupuje više klase za razuman novac. Enterijer, udobnost, značka i osećaj na putu mogu biti vrlo privlačni, ali premium limuzina ne prestaje da bude premium kada postane polovna. Troškovi održavanja, delova i dobre dijagnostike moraju biti deo odluke od prvog oglasa.
+
+Prva provera je motor. Dizel verzije treba gledati kroz hladan start, DPF, EGR, AdBlue ako ga ima, turbinu, curenja i servisni ritam. Benzinske verzije traže proveru rada motora, servisne istorije, potrošnje ulja i rashladnog sistema. Kilometraža mora imati logiku sa sedištima, volanom, komandama i računima.
+
+Druga tema je automatski menjač, trap i kočnice. Menjač mora raditi glatko hladan i topao, bez trzaja, kašnjenja i vibracija. Trap, gume, diskovi, amortizeri i eventualno vazdušno ogibljenje moraju se proveriti na dizalici i u vožnji. Jeftin primerak sa skupim potrošnim delovima brzo menja računicu.
+
+Treća provera je oprema. Senzori, kamera, klima, sedišta, ekran, komandni točkić, svetla, parking sistemi i sigurnosni paketi moraju raditi bez slučajnih grešaka. Dobar W205 vredi platiti zbog stanja i istorije. Loš primerak ne treba spašavati zato što na fotografijama izgleda kao dobra prilika.
+TEXT,
+                'highlights' => [
+                    'W205 treba gledati kroz servisnu istoriju i stanje, ne samo kroz premium osećaj.',
+                    'Dizel, benzinac, automatik, trap i kočnice moraju proći hladnu i toplu proveru.',
+                    'Bogata oprema je prednost samo ako svaki sistem radi bez grešaka i improvizacije.',
+                ],
+                'tags' => ['Mercedes C-klasa W205', 'premium limuzina', 'automatik', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mercedes C-klasa W205: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mercedes C-klasa W205 modela: dizel, benzinac, automatik, trap, elektronika, oprema, kilometraža i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#a3e635', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa neusklađenom opremom i VIN-om: kada paket opreme otkriva skrivenu priču',
+                'slug' => 'auto-sa-neuskladjenom-opremom-i-vin-om-kada-paket-opreme-otkriva-skrivenu-pricu',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kada oprema iz oglasa, VIN izveštaj i stvarno stanje automobila ne pričaju istu priču, kupac treba da uspori i proveri poreklo, štetu i prepravke.',
+                'content' => <<<'TEXT'
+Neusklađena oprema i VIN nisu uvek dokaz prevare, ali jesu razlog da kupac uspori. Nekad je problem samo loše napisan oglas ili pogrešno označen paket opreme. Nekad, međutim, razlika između VIN izveštaja, fabričke specifikacije i stvarnog auta može otkriti uvoznu zamenu delova, lošu popravku posle udesa, naknadnu ugradnju ili nejasno poreklo.
+
+Prva provera je fabrička specifikacija. VIN treba da pokaže motor, menjač, boju, nivo opreme, bitne pakete, datum proizvodnje i tržište za koje je auto namenjen. Ako oglas tvrdi da auto ima fabričku opremu koju VIN ne potvrđuje, pitaj da li je naknadno ugrađena i traži račun ili dokaz.
+
+Druga tema je fizički pregled. Volan, sedišta, ekran, svetla, branici, kamera, senzori, felne, instrument tabla i sigurnosna oprema moraju izgledati kao celina. Ako su delovi različitog godišta, nijanse ili nivoa opreme, moguće je da je auto popravljan ili sklapljen jeftinijim delovima.
+
+Treća provera je vrednost auta. Naknadna oprema nije nužno loša ako je urađena kvalitetno i dokumentovano. Problem je kada se prodaje kao fabrička, a utiče na cenu i poverenje. Ako VIN, oglas i stvarno stanje ne mogu da se usklade, bolje je platiti detaljan pregled nego kasnije objašnjavati zašto auto nema ono što je prodavac obećao.
+TEXT,
+                'highlights' => [
+                    'VIN treba da potvrdi motor, menjač, boju, tržište i ključni paket opreme.',
+                    'Razlika između oglasa i fabričke specifikacije traži račune ili dokaz o naknadnoj ugradnji.',
+                    'Neusklađena oprema može ukazati na lošu popravku, zamenu delova ili nerealnu cenu.',
+                ],
+                'tags' => ['VIN', 'oprema', 'paket opreme', 'kupovina polovnjaka', 'provera dokumentacije'],
+                'meta_title' => 'Auto sa neusklađenom opremom i VIN-om',
+                'meta_description' => 'Kako proveriti auto kada se oprema iz oglasa ne slaže sa VIN-om: fabrička specifikacija, naknadna ugradnja, popravke, dokumentacija i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
         ]);
     }
 
