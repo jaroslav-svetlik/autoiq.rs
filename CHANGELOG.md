@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.74] - 2026-05-27
+
+### Added
+
+- Added five non-duplicate production blog articles covering Kia XCeed vs Renault Arkana, used Toyota Camry Hybrid checks, used Audi A4 B9 buying guidance, oil-leak inspection, and weak-battery diagnosis.
+
 ## [0.1.73] - 2026-05-22
 
 ### Added

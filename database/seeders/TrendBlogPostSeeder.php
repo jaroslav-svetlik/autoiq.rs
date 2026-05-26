@@ -4690,6 +4690,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#a78bfa', '#f8fafc'],
             ],
+            [
+                'title' => 'Kia XCeed ili Renault Arkana: crossover kada stil ne sme da pobedi praktičnost',
+                'slug' => 'kia-xceed-ili-renault-arkana-crossover-kada-stil-ne-sme-da-pobedi-prakticnost',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'XCeed i Arkana nude drugačiji crossover pristup od klasičnog SUV-a, ali kupac mora porediti prostor, motor, menjač, opremu, cenu i realnu porodičnu rutinu.',
+                'content' => <<<'TEXT'
+Kia XCeed i Renault Arkana privlače kupce koji žele crossover izgled, ali ne žele potpuno klasičan porodični SUV. XCeed je bliži podignutom kompaktu, dok Arkana igra na coupe-crossover stil i upečatljiviji nastup. Oba mogu biti zanimljiva kao polovnjaci, ali samo ako kupac ne dopusti da oblik karoserije zameni proveru praktičnosti i stanja.
+
+XCeed ima smisla za vozača koji želi kompaktnije dimenzije, preglednost u gradu i dobar odnos opreme i cene. Treba proveriti benzinske motore, servisne intervale, automatski menjač ako ga ima, trap, gume i elektroniku. Prednost je što se često ponaša kao normalan kompakt, pa ga je lakše živeti svakog dana nego što fotografije sugerišu.
+
+Arkana donosi jači vizuelni efekat i često bolji osećaj posebnosti. Kod nje treba proveriti TCe ili E-Tech pogon, hibridnu logiku ako je ima, multimediju, senzore, kameru, gepek i zadnju klupu. Coupe linija izgleda atraktivno, ali kupac treba da proba ulazak pozadi, preglednost i stvarnu upotrebu gepeka.
+
+Ako ti je važnija praktična svakodnevica, XCeed često ima mirniju računicu. Ako želiš stil, drugačiji izgled i prihvataš kompromise u preglednosti, Arkana može biti zanimljivija. U oba slučaja pobednik nije lepši auto, nego primerak sa boljom istorijom, jasnijim servisima i cenom koja priznaje stvarno stanje.
+TEXT,
+                'highlights' => [
+                    'XCeed je racionalniji kada kupac želi crossover osećaj bez velikog SUV troška.',
+                    'Arkana osvaja stilom, ali traži proveru prostora, preglednosti i hibridnog ili TCe pogona.',
+                    'Kod oba modela probna vožnja i servisni trag vrede više od izgleda na fotografijama.',
+                ],
+                'tags' => ['Kia XCeed', 'Renault Arkana', 'crossover', 'poređenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Kia XCeed ili Renault Arkana: polovni crossover vodič',
+                'meta_description' => 'Poređenje polovnih Kia XCeed i Renault Arkana modela: prostor, stil, TCe, E-Tech, menjač, oprema, gepek, gradska vožnja i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Toyota Camry Hybrid: velika limuzina koja traži proveru baterije, kočnica i uvoza',
+                'slug' => 'polovni-toyota-camry-hybrid-velika-limuzina-koja-trazi-proveru-baterije-kocnica-i-uvoza',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Camry Hybrid može biti izuzetno mirna i udobna kupovina, ali samo kada su hibridni sistem, kočnice, poreklo, kilometraža i servisni trag jasni.',
+                'content' => <<<'TEXT'
+Toyota Camry Hybrid je polovnjak za kupca koji želi veliku, tihu i udobnu limuzinu bez dizel komplikacija. Hibridni pogon, reputacija Toyote i dobar komfor čine je vrlo privlačnom, ali Camry nije auto koji treba kupiti samo zato što deluje pouzdano. Velika limuzina mora imati istoriju koja opravdava cenu, uvoz i stanje.
+
+Prva provera je hibridni sistem. Treba uraditi dijagnostiku baterije, proveriti 12V akumulator, rad motora, prelaze između električne i benzinske vožnje, potrošnju i eventualna upozorenja. Hibrid može dugo raditi mirno, ali baš zato loš primerak ponekad sakrije umor bolje nego klasičan dizel.
+
+Druga tema su kočnice, trap i gume. Regenerativno kočenje može usporiti trošenje, ali diskovi, pločice i klizači mogu stradati od stajanja, korozije ili gradske vožnje. Teža limuzina traži dobar trap, mirne amortizere i pravilne gume. Probna vožnja treba da uključi neravnine, kočenje i otvoren put.
+
+Treća provera je poreklo. Camry često dolazi iz uvoza, službene upotrebe ili flotnog okruženja. To nije problem ako postoje računi, tehnički tragovi i logična kilometraža. Dobar Camry Hybrid je izuzetno prijatan auto za dugo vlasništvo. Loš primerak može biti skupa limuzina koju je tržište platilo zbog reputacije, ne zbog stvarnog stanja.
+TEXT,
+                'highlights' => [
+                    'Camry Hybrid kupuj kroz dijagnostiku baterije, servisnu istoriju i poreklo, ne samo reputaciju.',
+                    'Kočnice i trap treba proveriti jer velika hibridna limuzina ne otkriva uvek umor odmah.',
+                    'Uvozna i službena istorija nisu problem ako kilometraža i računi imaju kontinuitet.',
+                ],
+                'tags' => ['Toyota Camry Hybrid', 'polovni hibrid', 'velika limuzina', 'baterija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Toyota Camry Hybrid: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Toyota Camry Hybrid modela: baterija, 12V akumulator, kočnice, trap, uvoz, servisna istorija i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Audi A4 B9: premium limuzina i karavan koji traže proveru TDI-a, S tronica i opreme',
+                'slug' => 'polovni-audi-a4-b9-premium-limuzina-i-karavan-koji-traze-proveru-tdi-a-s-tronica-i-opreme',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Audi A4 B9 može biti odličan premium polovnjak, ali kupac mora hladno proveriti TDI, TFSI, S tronic, quattro, elektroniku, trap i realnu kilometražu.',
+                'content' => <<<'TEXT'
+Audi A4 B9 deluje kao zrela premium kupovina: kvalitetan enterijer, dobra izolacija, ozbiljan osećaj na autoputu i izbor limuzine ili karavana. Na tržištu polovnjaka često izgleda kao mnogo auta za novac, ali taj utisak može biti opasan ako kupac zaboravi da održavanje ostaje premium čak i kada cena oglasa padne.
+
+Prva provera je motor. TDI verzije treba gledati kroz hladan start, DPF, EGR, AdBlue ako ga ima, turbinu, dizne, curenja i servis ulja. TFSI verzije traže proveru potrošnje ulja, rashladnog sistema, rada pod opterećenjem i servisnog ritma. Kod oba motora računi vrede više od opreme.
+
+Druga tema je S tronic, quattro i trap. Menjač mora menjati glatko hladan i topao, bez trzaja, kašnjenja i vibracija. Quattro pogon, veće felne, kočnice, amortizeri i prednji trap mogu brzo promeniti računicu. Probna vožnja mora uključiti grad, otvoren put i spore manevre.
+
+Treća provera je elektronika i poreklo. Virtuelni kokpit, MMI, senzori, kamera, LED svetla, klima i asistencije moraju raditi bez slučajnih grešaka. Ako je A4 uvezen i ima mnogo autoput kilometara, to nije problem samo ako dokumentacija prati stanje. Dobar B9 vredi platiti. Prosečan B9 ne treba platiti kao dobar samo zbog četiri prstena.
+TEXT,
+                'highlights' => [
+                    'Audi A4 B9 traži premium budžet za održavanje, čak i kada cena oglasa deluje dostupno.',
+                    'TDI, TFSI, S tronic, quattro i trap moraju se proveriti na hladno, toplo i na dizalici.',
+                    'Elektronika i oprema su prednost samo ako postoje jasni računi i nema skrivenih grešaka.',
+                ],
+                'tags' => ['Audi A4 B9', 'premium limuzina', 'S tronic', 'TDI', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Audi A4 B9: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Audi A4 B9 modela: TDI, TFSI, S tronic, quattro, trap, elektronika, oprema, kilometraža i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Curenje ulja na polovnom autu: kada opran motor krije skuplji kvar',
+                'slug' => 'curenje-ulja-na-polovnom-autu-kada-opran-motor-krije-skuplji-kvar',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Masni tragovi, miris ulja, dim, sveže opran motor i fleke ispod auta mogu otkriti kvar koji prodavac pokušava da predstavi kao sitnicu.',
+                'content' => <<<'TEXT'
+Curenje ulja kod polovnog auta ne treba odmah pretvoriti u paniku, ali ne sme se ni ignorisati. Mala fleka može biti jeftina zaptivka, ali može biti i signal za turbinu, semering, dihtung, karter, hladnjak ulja ili posledicu lošeg servisa. Najveći problem je kada je motor sveže opran baš pre prodaje, pa kupac više ne vidi tragove.
+
+Prva provera je hladan i suv motor. Pogledaj spojeve, karter, poklopac ventila, turbinu, creva, filter ulja, prostor oko menjača i donju zaštitu. Masnoća na jednom mestu govori drugačiju priču od ulja razbacanog po celom motoru. Ako je sve neprirodno čisto, pitaj zašto je motor pran i traži pregled posle probne vožnje.
+
+Druga tema je miris i dim. Ulje koje kaplje na vruć deo može napraviti miris paljevine. Plavičast dim, nepravilan rad, pad nivoa ulja ili upozorenje na tabli znače da problem nije kozmetički. Dijagnostika ne vidi svako curenje, zato su dizalica, lampa i iskustvo majstora ključni.
+
+Treća provera je računica. Prodavac često kaže da je samo zaptivka, ali kupac treba da zna cenu rada, pristup delovima i rizik da se iza male fleke krije veća intervencija. Ako curenje nije jasno locirano, popust mora pokriti najgori realan scenario ili kupovina nema smisla.
+TEXT,
+                'highlights' => [
+                    'Sveže opran motor pre prodaje može sakriti tragove curenja ulja.',
+                    'Proveri karter, poklopac ventila, turbinu, semeringe, filter ulja i donju zaštitu.',
+                    'Bez jasne dijagnoze, curenje ulja treba računati kao rizik u pregovorima.',
+                ],
+                'tags' => ['curenje ulja', 'provera vozila', 'motor', 'turbina', 'kupovina polovnjaka'],
+                'meta_title' => 'Curenje ulja na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti curenje ulja kod polovnog auta: opran motor, fleke, miris, dim, karter, semering, turbina, dijagnostika i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Slab akumulator na polovnom autu: kada teško paljenje otkriva alternator, kratke relacije ili elektroniku',
+                'slug' => 'slab-akumulator-na-polovnom-autu-kada-tesko-paljenje-otkriva-alternator-kratke-relacije-ili-elektroniku',
+                'category' => 'Troškovi i održavanje',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Akumulator koji jedva pali auto može biti samo potrošna stavka, ali može otkriti problem punjenja, kratke relacije, potrošače, elektroniku ili lošu pripremu za prodaju.',
+                'content' => <<<'TEXT'
+Slab akumulator kod polovnog auta često se predstavlja kao sitnica. Prodavac kaže da auto samo dugo stoji, kupac računa cenu novog akumulatora i nastavlja dalje. Nekad je to zaista sve. Ali teško paljenje, resetovanje sata, greške na tabli i čudno ponašanje elektronike mogu otkriti problem punjenja, alternator, parazitsku potrošnju ili auto koji je radio mnogo kratkih relacija.
+
+Prva provera je hladan start. Auto treba upaliti hladan, bez prethodnog dopunjavanja, booster uređaja ili izgovora da je baš juče ostao otvoren gepek. Obrati pažnju na brzinu verglanja, lampice, zvuk anlasera i da li se greške pojavljuju posle paljenja.
+
+Druga tema je punjenje. Majstor treba da izmeri napon akumulatora, rad alternatora, punjenje pod potrošačima i eventualnu potrošnju kada je auto ugašen. Start-stop sistemi i moderni automobili često traže AGM ili EFB akumulator, pa pogrešan tip može napraviti dodatne greške.
+
+Treća provera je način korišćenja. Mnogo kratkih gradskih relacija, dugo stajanje, naknadna multimedija, alarm, kamera ili loša instalacija mogu prazniti akumulator. Ako je problem samo star akumulator, to je pregovaračka stavka. Ako je problem elektrika, mala stavka može postati duga potraga za kvarom.
+TEXT,
+                'highlights' => [
+                    'Teško paljenje nije uvek samo cena novog akumulatora.',
+                    'Treba proveriti alternator, punjenje pod potrošačima i potrošnju kada je auto ugašen.',
+                    'Start-stop sistemi traže pravi tip akumulatora, a loša ugradnja opreme može ga prazniti.',
+                ],
+                'tags' => ['akumulator', 'alternator', 'elektronika', 'start-stop', 'troškovi održavanja'],
+                'meta_title' => 'Slab akumulator na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti slab akumulator kod polovnog auta: hladan start, alternator, punjenje, parazitska potrošnja, start-stop, elektronika i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
         ]);
     }
 

@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(165, $posts);
+        $this->assertCount(170, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(46, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(47, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -191,6 +191,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'ostecene-felne-na-polovnom-autu-kada-udarac-u-rupu-otkriva-skuplji-trap'));
         $this->assertTrue($posts->contains('slug', 'polovni-mercedes-c-klasa-w205-premium-limuzina-koja-trazi-proveru-dizela-automatika-i-opreme'));
         $this->assertTrue($posts->contains('slug', 'auto-sa-neuskladjenom-opremom-i-vin-om-kada-paket-opreme-otkriva-skrivenu-pricu'));
+        $this->assertTrue($posts->contains('slug', 'kia-xceed-ili-renault-arkana-crossover-kada-stil-ne-sme-da-pobedi-prakticnost'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-camry-hybrid-velika-limuzina-koja-trazi-proveru-baterije-kocnica-i-uvoza'));
+        $this->assertTrue($posts->contains('slug', 'polovni-audi-a4-b9-premium-limuzina-i-karavan-koji-traze-proveru-tdi-a-s-tronica-i-opreme'));
+        $this->assertTrue($posts->contains('slug', 'curenje-ulja-na-polovnom-autu-kada-opran-motor-krije-skuplji-kvar'));
+        $this->assertTrue($posts->contains('slug', 'slab-akumulator-na-polovnom-autu-kada-tesko-paljenje-otkriva-alternator-kratke-relacije-ili-elektroniku'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
