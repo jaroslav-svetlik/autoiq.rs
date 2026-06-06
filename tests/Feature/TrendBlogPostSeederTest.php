@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(170, $posts);
+        $this->assertCount(175, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(47, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(48, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -196,6 +196,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-audi-a4-b9-premium-limuzina-i-karavan-koji-traze-proveru-tdi-a-s-tronica-i-opreme'));
         $this->assertTrue($posts->contains('slug', 'curenje-ulja-na-polovnom-autu-kada-opran-motor-krije-skuplji-kvar'));
         $this->assertTrue($posts->contains('slug', 'slab-akumulator-na-polovnom-autu-kada-tesko-paljenje-otkriva-alternator-kratke-relacije-ili-elektroniku'));
+        $this->assertTrue($posts->contains('slug', 'hyundai-i20-ili-nissan-micra-mali-gradski-auto-kada-budzet-ne-trpi-skupe-greske'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volkswagen-arteon-elegantan-fastback-koji-trazi-proveru-tdi-a-dsg-a-i-opreme'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mercedes-cla-kompaktni-premium-koji-mora-opravdati-motor-menjac-i-limarsko-stanje'));
+        $this->assertTrue($posts->contains('slug', 'rashladna-tecnost-na-polovnom-autu-kada-antifriz-otkriva-dihtung-hladnjak-ili-curenje'));
+        $this->assertTrue($posts->contains('slug', 'auto-pod-zalogom-ili-kreditom-kada-papiri-moraju-biti-cistiji-od-cene'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

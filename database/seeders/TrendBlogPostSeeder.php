@@ -4825,6 +4825,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#111827', '#f59e0b', '#f8fafc'],
             ],
+            [
+                'title' => 'Hyundai i20 ili Nissan Micra: mali gradski auto kada budžet ne trpi skupe greške',
+                'slug' => 'hyundai-i20-ili-nissan-micra-mali-gradski-auto-kada-budzet-ne-trpi-skupe-greske',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'i20 i Micra mogu biti miran gradski izbor, ali prava odluka zavisi od motora, menjača, trapa, opreme, servisne istorije i toga koliko auto stvarno košta posle kupovine.',
+                'content' => <<<'TEXT'
+Hyundai i20 i Nissan Micra su česti kandidati kada kupac traži mali gradski auto koji ne bi trebalo da bude skup za održavanje. Oba modela imaju smisla za početnike, svakodnevnu vožnju po gradu i kupce koji žele niže troškove registracije, guma i potrošnje. Ipak, mali auto nije automatski jeftin auto ako je konkretan primerak zapušten.
+
+i20 obično deluje racionalnije i praktičnije. Kabina je upotrebljiva, preglednost dobra, a ponuda delova i servisa uglavnom mirna. Kod kupovine treba proveriti benzinski motor, kvačilo, menjač, hladan start, trap, kočnice, akumulator i tragove gradske upotrebe. Ako je auto radio kratke relacije, kilometraža nije dovoljan dokaz da je sve lako.
+
+Micra često privlači kupce dizajnom, lakim parkiranjem i jednostavnim gradskim karakterom. Treba proveriti motor, menjač, klimu, elektroniku, prednji trap, stanje enterijera i eventualne tragove udaraca po branicima i vratima. Kod uvezenih primeraka dokumentacija mora objasniti zašto je cena dobra.
+
+Ako želiš mirniju praktičnost i širu upotrebu, i20 često ima prednost. Ako ti je važniji kompaktniji osećaj i gradska lakoća, Micra može biti bolji izbor. U oba slučaja kupuj stanje, ne najnižu cenu. Jeftin mali auto sa lošim gumama, slabim kvačilom i nejasnom istorijom brzo prestaje da bude jeftin.
+TEXT,
+                'highlights' => [
+                    'i20 je često praktičniji izbor kada kupac želi miran mali auto za svaki dan.',
+                    'Micra ima prednost u gradskoj lakoći, ali treba proveriti trap, klimu i dokumentaciju.',
+                    'Kod oba modela kvačilo, kočnice, gume i akumulator mogu promeniti realnu cenu.',
+                ],
+                'tags' => ['Hyundai i20', 'Nissan Micra', 'mali gradski auto', 'poređenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Hyundai i20 ili Nissan Micra: mali gradski polovnjak',
+                'meta_description' => 'Poređenje polovnih Hyundai i20 i Nissan Micra modela: motor, menjač, trap, klima, gradska upotreba, servisna istorija, početnici i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Volkswagen Arteon: elegantan fastback koji traži proveru TDI-a, DSG-a i opreme',
+                'slug' => 'polovni-volkswagen-arteon-elegantan-fastback-koji-trazi-proveru-tdi-a-dsg-a-i-opreme',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Arteon može delovati kao premium prilika za manje novca, ali kupac mora proveriti TDI, DSG, trap, elektroniku, opremu, uvoznu istoriju i realnu cenu održavanja.',
+                'content' => <<<'TEXT'
+Volkswagen Arteon je polovnjak koji lako privuče kupca izgledom. Deluje elegantnije od Passata, ozbiljnije od običnog kompakta i dovoljno posebno da opravda višu cenu. Upravo zato ga treba proveravati hladne glave. Arteon nije samo lepši Passat na fotografijama, već veliki auto sa složenijom opremom i troškovima koji moraju imati pokriće u istoriji održavanja.
+
+Prva provera je motor. TDI verzije treba gledati kroz hladan start, DPF, EGR, AdBlue ako ga ima, turbinu, dizne, curenja i servisne intervale. Benzinske verzije traže proveru potrošnje ulja, rada pod opterećenjem, rashladnog sistema i računa. Ako nema jasnih servisa, cena treba da prizna rizik.
+
+Druga tema su DSG, trap i kočnice. Menjač mora raditi glatko hladan i topao, bez trzaja, kašnjenja i vibracija. Veće felne, niski profil guma, amortizeri, kočnice i prednji trap mogu biti skupi ako je auto vožen po lošim putevima ili kupljen samo zbog izgleda.
+
+Treća provera je oprema. Adaptivna svetla, kamera, senzori, digitalna tabla, električna sedišta, klima, asistencije i multimedija moraju raditi bez slučajnih grešaka. Dobar Arteon je odličan auto za put i svaki dan. Loš primerak je dokaz da lep dizajn ne smanjuje cenu premium održavanja.
+TEXT,
+                'highlights' => [
+                    'Arteon treba kupiti zbog stanja i istorije, ne samo zbog atraktivnog fastback izgleda.',
+                    'TDI, DSG, trap, kočnice i veće felne mogu brzo promeniti računicu.',
+                    'Bogata oprema je prednost samo ako elektronika radi bez grešaka i improvizacije.',
+                ],
+                'tags' => ['Volkswagen Arteon', 'TDI', 'DSG', 'fastback', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volkswagen Arteon: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Volkswagen Arteon modela: TDI, DSG, trap, oprema, elektronika, uvozna istorija, servis i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mercedes CLA: kompaktni premium koji mora opravdati motor, menjač i limarsko stanje',
+                'slug' => 'polovni-mercedes-cla-kompaktni-premium-koji-mora-opravdati-motor-menjac-i-limarsko-stanje',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'CLA kupce privlači znakom i coupe linijom, ali polovan primerak mora dokazati stanje motora, automatika, trapa, elektronike, karoserije i enterijera.',
+                'content' => <<<'TEXT'
+Mercedes CLA je polovnjak koji se često kupuje srcem. Coupe linija, premium znak i atraktivna kabina mogu lako sakriti činjenicu da je osnova kompaktnija nego što cena sugeriše. CLA ima smisla kada kupac zna šta plaća: izgled, imidž i opremu, ali samo ako konkretan primerak nije umoran, loše popravljan ili održavan na minimumu.
+
+Prva provera je motor. Dizel verzije treba gledati kroz DPF, EGR, turbinu, hladan start, curenja i servisni ritam. Benzinske verzije treba proveriti kroz rad u leru, potrošnju ulja, rashladni sistem i istoriju održavanja. Kod svake verzije kilometraža mora imati logiku sa sedištima, volanom, komandama i računima.
+
+Druga tema je menjač i trap. Automatski menjač mora menjati glatko, bez trzaja i kašnjenja. Trap, gume, kočnice i amortizeri treba da prođu probnu vožnju preko neravnina i pregled na dizalici. Niski auto sa lepim felnama često nosi tragove ivičnjaka i loših puteva.
+
+Treća provera je karoserija. Coupe oblik ne prašta loše zazore, različite nijanse, loše nameštene branike, farove i vrata. Ako je CLA popravljan, kupac treba da zna gde, kako i sa kojim delovima. Dobar CLA je zanimljiv premium kompakt. Loš primerak je skupa lekcija da znak na haubi ne menja stanje auta.
+TEXT,
+                'highlights' => [
+                    'CLA se ne sme kupiti samo zbog znaka i coupe linije.',
+                    'Motor, automatik, trap i kočnice moraju potvrditi da auto nije samo ulepšan za prodaju.',
+                    'Zazori, farovi, branici i nijanse boje često otkrivaju loše limarske popravke.',
+                ],
+                'tags' => ['Mercedes CLA', 'premium kompakt', 'automatik', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mercedes CLA: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Mercedes CLA modela: dizel, benzinac, automatski menjač, trap, karoserija, oprema, enterijer i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Rashladna tečnost na polovnom autu: kada antifriz otkriva dihtung, hladnjak ili curenje',
+                'slug' => 'rashladna-tecnost-na-polovnom-autu-kada-antifriz-otkriva-dihtung-hladnjak-ili-curenje',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nivo, boja i miris rashladne tečnosti mogu otkriti curenje, loš hladnjak, termostat, vodenu pumpu ili ozbiljniji problem sa dihtungom glave.',
+                'content' => <<<'TEXT'
+Rashladna tečnost je mala stavka koja može otkriti veliki problem kod polovnog auta. Kupac često pogleda ulje i gume, ali preskoči ekspanzionu posudu, creva, hladnjak i ponašanje temperature u vožnji. Antifriz ne treba da nestaje, menja boju bez objašnjenja ili miriše čudno. Ako se to dešava, problem treba razumeti pre kapare.
+
+Prva provera je hladan motor. Pogledaj nivo tečnosti, boju, tragove mulja, masnoće, beličaste naslage, pukotine na posudi, creva i tragove curenja oko hladnjaka. Poklopac posude i creva ne smeju delovati kao da je sistem pod čudnim pritiskom pre vožnje.
+
+Druga tema je temperatura. Probna vožnja treba da pokaže da motor normalno dostiže radnu temperaturu i da je drži u gradu, na otvorenom putu i pri uključenoj klimi. Ventilator hladnjaka, grejanje kabine, termostat i vodena pumpa mogu otkriti problem koji se ne vidi dok auto stoji na placu.
+
+Treća provera je najskuplji scenario. Mešanje ulja i rashladne tečnosti, beli dim, gubitak antifriza, pritisak u sistemu ili tragovi pregrevanja mogu značiti ozbiljan kvar. Ako prodavac kaže da samo treba doliti tečnost, pregled kod majstora mora potvrditi da to nije priča za odlaganje velikog računa.
+TEXT,
+                'highlights' => [
+                    'Antifriz ne sme nestajati bez jasnog uzroka i računa za popravku.',
+                    'Nivo, boja, miris, creva, hladnjak i temperatura u vožnji moraju se proveriti zajedno.',
+                    'Mešanje ulja i rashladne tečnosti ili pritisak u sistemu traže ozbiljan pregled.',
+                ],
+                'tags' => ['rashladna tečnost', 'antifriz', 'hladnjak', 'dihtung glave', 'provera vozila'],
+                'meta_title' => 'Rashladna tečnost na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti rashladnu tečnost kod polovnog auta: antifriz, hladnjak, creva, termostat, vodena pumpa, dihtung glave, temperatura i curenje.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto pod zalogom ili kreditom: kada papiri moraju biti čistiji od cene',
+                'slug' => 'auto-pod-zalogom-ili-kreditom-kada-papiri-moraju-biti-cistiji-od-cene',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Polovan auto koji je pod kreditom, lizingom ili zalogom može biti legalna kupovina, ali samo ako su vlasništvo, brisanje tereta i isplata jasno dogovoreni.',
+                'content' => <<<'TEXT'
+Auto pod zalogom, kreditom ili aktivnim finansiranjem nije automatski loša kupovina. Problem nastaje kada kupac ne razume ko je stvarni vlasnik, ko ima pravo da proda auto i kako se teret briše. Dobra cena ne vredi mnogo ako papiri nisu jasni pre uplate novca.
+
+Prva provera je vlasništvo. Saobraćajna, ugovor, potvrda banke ili lizing kuće, iznos preostalog duga i uslovi brisanja zaloge moraju biti jasni. Ako prodavac kaže da će sve rešiti posle kapare, kupac treba da uspori. Redosled novca i papira mora biti napisan, ne prepušten poverenju.
+
+Druga tema je način plaćanja. Ako deo novca ide banci, a deo prodavcu, treba znati ko izdaje potvrdu, kada se briše teret i kada kupac može registrovati auto bez rizika. Najsigurnije je da se sve radi uz pisani trag, proveru registra i po mogućnosti u dogovoru sa institucijom koja drži potraživanje.
+
+Treća provera je cena. Auto sa čistim papirima i auto sa finansijskim teretom ne nose isti rizik. Ako procedura nije jasna, popust nije dovoljan razlog za kupovinu. Kupac ne treba da rešava tuđi kredit bez dokaza da će na kraju dobiti vozilo bez ograničenja.
+TEXT,
+                'highlights' => [
+                    'Auto pod zalogom nije automatski problem, ali redosled novca i papira mora biti jasan.',
+                    'Potvrda banke ili lizing kuće vredi više od usmenog obećanja prodavca.',
+                    'Cena mora priznati rizik dok se teret ne obriše i vlasništvo ne bude čisto.',
+                ],
+                'tags' => ['zalog', 'kredit za auto', 'lizing', 'dokumentacija', 'kupovina polovnjaka'],
+                'meta_title' => 'Auto pod zalogom ili kreditom: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto pod zalogom, kreditom ili lizingom: vlasništvo, banka, brisanje tereta, plaćanje, ugovor, registracija i rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#f59e0b', '#f8fafc'],
+            ],
         ]);
     }
 

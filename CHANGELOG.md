@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.75] - 2026-06-06
+
+### Added
+
+- Added five non-duplicate production blog articles covering Hyundai i20 vs Nissan Micra, used Volkswagen Arteon checks, used Mercedes CLA buying guidance, coolant inspection, and pledged/financed vehicle paperwork risk.
+
 ## [0.1.74] - 2026-05-27
 
 ### Added
