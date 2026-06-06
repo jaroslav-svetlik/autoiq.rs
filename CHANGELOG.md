@@ -6,6 +6,17 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.76] - 2026-06-06
+
+### Added
+
+- Added indexable clean model landing pages for priority used-car searches, including sitemap entries and structured data.
+- Added Search Console-driven SEO title, meta description, and checklist overrides for high-opportunity blog articles.
+
+### Changed
+
+- Routed internal model links from blog articles, listing pages, and homepage model exploration to clean model landing pages when available.
+
 ## [0.1.75] - 2026-06-06
 
 ### Added

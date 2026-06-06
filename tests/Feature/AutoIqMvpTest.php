@@ -6,6 +6,7 @@ use App\Enums\FuelType;
 use App\Enums\TransmissionType;
 use App\Models\Listing;
 use App\Models\User;
+use App\Support\Seo\VehicleLandingPages;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
@@ -44,6 +45,28 @@ class AutoIqMvpTest extends TestCase
             ->assertOk()
             ->assertSee('<meta name="robots" content="noindex,follow">', false)
             ->assertSee('<link rel="canonical" href="'.$canonical.'">', false);
+    }
+
+    public function test_model_landing_page_is_indexable_and_self_canonical(): void
+    {
+        Listing::factory()->create([
+            'brand' => 'Mazda',
+            'model' => 'CX-5',
+        ]);
+
+        $canonical = route('listings.model', VehicleLandingPages::routeParameters('Mazda', 'CX-5'));
+
+        $this->get($canonical)
+            ->assertOk()
+            ->assertSee('Polovni Mazda CX-5: oglasi, cena i provera')
+            ->assertSee('<meta name="robots" content="index,follow">', false)
+            ->assertSee('<link rel="canonical" href="'.$canonical.'">', false)
+            ->assertSee('"@type": "CollectionPage"', false)
+            ->assertSee('korozija');
+
+        $this->get(route('sitemap'))
+            ->assertOk()
+            ->assertSee($canonical);
     }
 
     public function test_listing_creation_generates_slug_score_and_price_history(): void

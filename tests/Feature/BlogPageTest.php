@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Models\BlogPost;
+use App\Support\Seo\VehicleLandingPages;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
@@ -115,8 +116,9 @@ class BlogPageTest extends TestCase
             ->assertSee(route('blog.show', $related), false)
             ->assertSee('Pretraga oglasa')
             ->assertSee('Pogledaj Volkswagen Golf 7 oglase')
-            ->assertSee('brand=Volkswagen', false)
-            ->assertSee('model=Golf%207', false)
+            ->assertSee(route('listings.model', VehicleLandingPages::routeParameters('Volkswagen', 'Golf 7')), false)
+            ->assertDontSee('brand=Volkswagen', false)
+            ->assertDontSee('model=Golf%207', false)
             ->assertDontSee('sort=best', false)
             ->assertSee('Otvori celu temu')
             ->assertSee('"about"', false)
@@ -150,6 +152,25 @@ class BlogPageTest extends TestCase
             ->assertSee('"@type": "Question"', false)
             ->assertSee('Glavni vodiči')
             ->assertSee($hub->title);
+    }
+
+    public function test_blog_show_page_applies_search_console_meta_overrides(): void
+    {
+        $post = BlogPost::factory()->create([
+            'title' => 'Automatski menjač kod polovnjaka: šta proveriti pre probne vožnje',
+            'slug' => 'automatski-menjac-kod-polovnjaka-sta-proveriti-pre-probne-voznje',
+            'meta_title' => 'Stari SEO naslov',
+            'meta_description' => 'Stari meta opis koji ne gađa nameru dovoljno precizno.',
+            'content' => "Prvi pasus o automaticima.\n\nDrugi pasus o probnoj vožnji.",
+            'published_at' => now()->subDay(),
+        ]);
+
+        $this->get(route('blog.show', $post))
+            ->assertOk()
+            ->assertSee('<title>Kako proveriti automatski menjač pre kupovine | AutoIQ Blog</title>', false)
+            ->assertSee('Checklist za proveru automatskog menjača', false)
+            ->assertSee('Kako proveriti automatski menjač na probnoj vožnji')
+            ->assertSee('D/R kašnjenje');
     }
 
     public function test_home_page_and_sitemap_include_blog_content(): void

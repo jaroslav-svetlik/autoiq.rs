@@ -5,6 +5,7 @@ namespace App\Livewire\Pages\Blog;
 use App\Livewire\Pages\PageComponent;
 use App\Models\BlogPost;
 use App\Services\BlogSeoLinkService;
+use App\Support\Seo\BlogPostSeoOverrides;
 use Illuminate\Contracts\View\View;
 
 class ShowPage extends PageComponent
@@ -27,14 +28,14 @@ class ShowPage extends PageComponent
 
     protected function title(): string
     {
-        return ($this->blogPost->meta_title ?: $this->blogPost->title).' | AutoIQ Blog';
+        return (BlogPostSeoOverrides::metaTitle($this->blogPost->slug) ?: $this->blogPost->meta_title ?: $this->blogPost->title).' | AutoIQ Blog';
     }
 
     protected function meta(): array
     {
         return [
             ...parent::meta(),
-            'description' => $this->blogPost->meta_description ?: $this->blogPost->excerptText(),
+            'description' => BlogPostSeoOverrides::metaDescription($this->blogPost->slug) ?: $this->blogPost->meta_description ?: $this->blogPost->excerptText(),
             'canonical' => route('blog.show', $this->blogPost),
             'type' => 'article',
             'image' => $this->blogPost->coverImageUrl(absolute: true),
@@ -147,6 +148,7 @@ class ShowPage extends PageComponent
             'marketLinks' => $this->seoLinks->marketLinks($this->blogPost, 3),
             'topicHubPosts' => $this->seoLinks->topicHubPosts($this->blogPost, 3),
             'relatedPosts' => $this->seoLinks->relatedPosts($this->blogPost, 3),
+            'searchIntentBrief' => BlogPostSeoOverrides::brief($this->blogPost->slug),
         ]));
     }
 }

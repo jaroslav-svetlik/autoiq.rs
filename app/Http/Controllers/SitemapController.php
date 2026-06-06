@@ -6,6 +6,7 @@ use App\Enums\ListingStatus;
 use App\Models\BlogPost;
 use App\Models\DealerProfile;
 use App\Models\Listing;
+use App\Support\Seo\VehicleLandingPages;
 use Illuminate\Http\Response;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
@@ -61,6 +62,11 @@ class SitemapController extends Controller
                 ->map(fn (Listing $listing) => [
                     'loc' => route('listings.show', $listing),
                     'lastmod' => $this->lastmod($listing->updated_at),
+                ]))
+            ->merge(collect(VehicleLandingPages::all())
+                ->map(fn (array $landingPage) => [
+                    'loc' => route('listings.model', VehicleLandingPages::routeParameters($landingPage['brand'], $landingPage['model'])),
+                    'lastmod' => $this->latestLastmod($latestListingUpdate, $latestBlogUpdate),
                 ]))
             ->merge(DealerProfile::query()
                 ->latest('updated_at')

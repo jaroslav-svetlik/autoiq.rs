@@ -32,6 +32,18 @@
                         @endforeach
                     </div>
                 @endif
+
+                @if($searchIntentBrief)
+                    <div class="grid gap-3 rounded-[1.75rem] border border-cyan-300/20 bg-cyan-400/[0.06] p-5 sm:grid-cols-3 sm:p-6">
+                        <div class="sm:col-span-3">
+                            <div class="data-kicker text-cyan-200">{{ $searchIntentBrief['label'] }}</div>
+                            <h2 class="mt-2 font-display text-2xl font-bold leading-tight text-white">{{ $searchIntentBrief['heading'] }}</h2>
+                        </div>
+                        @foreach($searchIntentBrief['items'] as $item)
+                            <div class="rounded-2xl border border-white/10 bg-slate-950/40 p-4 text-sm leading-7 text-slate-200">{{ $item }}</div>
+                        @endforeach
+                    </div>
+                @endif
             </div>
 
             <div class="panel-soft p-6 sm:p-7">

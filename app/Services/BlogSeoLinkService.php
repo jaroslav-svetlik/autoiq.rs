@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Enums\FuelType;
 use App\Enums\TransmissionType;
 use App\Models\BlogPost;
+use App\Support\Seo\VehicleLandingPages;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 
@@ -422,6 +423,17 @@ class BlogSeoLinkService
      */
     private function listingLink(string $label, string $description, array $filters): array
     {
+        if (
+            isset($filters['brand'], $filters['model'])
+            && VehicleLandingPages::for((string) $filters['brand'], (string) $filters['model'])
+        ) {
+            return [
+                'label' => $label,
+                'description' => $description,
+                'url' => route('listings.model', VehicleLandingPages::routeParameters((string) $filters['brand'], (string) $filters['model'])),
+            ];
+        }
+
         unset($filters['sort']);
 
         return [

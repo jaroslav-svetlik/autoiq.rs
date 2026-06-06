@@ -5,6 +5,7 @@ namespace App\Livewire\Pages;
 use App\Models\BlogPost;
 use App\Services\BlogSeoLinkService;
 use App\Services\MarketInsightsService;
+use App\Support\Seo\VehicleLandingPages;
 use Illuminate\Contracts\View\View;
 
 class HomePage extends PageComponent
@@ -18,6 +19,12 @@ class HomePage extends PageComponent
 
     public function exploreModel(string $brand, string $model): void
     {
+        if (VehicleLandingPages::for($brand, $model)) {
+            $this->redirectRoute('listings.model', VehicleLandingPages::routeParameters($brand, $model), navigate: true);
+
+            return;
+        }
+
         $this->redirectRoute('listings.index', [
             'brand' => $brand,
             'model' => $model,

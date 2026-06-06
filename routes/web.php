@@ -29,6 +29,7 @@ Route::get('/', HomePage::class)->name('home');
 Route::get('/blog', BlogIndexPage::class)->name('blog.index');
 Route::get('/blog/{blogPost}', BlogShowPage::class)->name('blog.show');
 Route::get('/oglasi', ListingIndexPage::class)->name('listings.index');
+Route::get('/polovni-automobili/{brandSlug}/{modelSlug}', ListingIndexPage::class)->name('listings.model');
 Route::get('/auto/{listing}', ListingShowPage::class)->name('listings.show');
 Route::get('/dileri/{dealerProfile}', DealerShowPage::class)->name('dealers.show');
 Route::get('/kontakt', ContactPage::class)->name('contact');

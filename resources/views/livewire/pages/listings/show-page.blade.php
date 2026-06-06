@@ -369,11 +369,16 @@
 
     <section class="space-y-6">
         <div class="flex items-end justify-between gap-4">
+            @php($modelLandingPage = \App\Support\Seo\VehicleLandingPages::for($listing->brand, $listing->model))
             <div>
                 <div class="data-kicker">Slični oglasi</div>
                 <h2 class="section-title mt-2">Još ponuda za isti model</h2>
             </div>
-            <a href="{{ route('listings.index', ['brand' => $listing->brand, 'model' => $listing->model]) }}" wire:navigate class="btn-secondary">Vidi sve</a>
+            <a
+                href="{{ $modelLandingPage ? route('listings.model', \App\Support\Seo\VehicleLandingPages::routeParameters($listing->brand, $listing->model)) : route('listings.index', ['brand' => $listing->brand, 'model' => $listing->model]) }}"
+                wire:navigate
+                class="btn-secondary"
+            >Vidi sve</a>
         </div>
 
         <div class="grid gap-6 lg:grid-cols-4">

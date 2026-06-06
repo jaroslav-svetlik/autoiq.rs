@@ -2,8 +2,8 @@
     <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
             <div class="data-kicker">Pretraga uživo</div>
-            <h1 class="section-title mt-2">Auto oglasi i analiza tržišta</h1>
-            <p class="section-copy mt-3">Filtrirajte po budžetu, godištu, kilometraži, lokaciji i opremi, pa odmah vidite gde cena odstupa od proseka.</p>
+            <h1 class="section-title mt-2">{{ $pageHeading }}</h1>
+            <p class="section-copy mt-3">{{ $pageIntro }}</p>
         </div>
 
         <div class="flex flex-wrap items-center gap-3">
@@ -13,6 +13,14 @@
             <button type="button" wire:click="clearFilters" class="btn-secondary">Poništi filtere</button>
         </div>
     </div>
+
+    @if(!empty($landingHighlights))
+        <section class="grid gap-4 md:grid-cols-3">
+            @foreach($landingHighlights as $highlight)
+                <div class="panel-soft p-4 text-sm leading-7 text-slate-200">{{ $highlight }}</div>
+            @endforeach
+        </section>
+    @endif
 
     <div class="grid gap-8 xl:grid-cols-[320px_1fr]">
         <aside class="space-y-4 xl:sticky xl:top-28 xl:self-start">
