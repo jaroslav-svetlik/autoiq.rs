@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(175, $posts);
+        $this->assertCount(180, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(48, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(49, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -201,6 +201,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-mercedes-cla-kompaktni-premium-koji-mora-opravdati-motor-menjac-i-limarsko-stanje'));
         $this->assertTrue($posts->contains('slug', 'rashladna-tecnost-na-polovnom-autu-kada-antifriz-otkriva-dihtung-hladnjak-ili-curenje'));
         $this->assertTrue($posts->contains('slug', 'auto-pod-zalogom-ili-kreditom-kada-papiri-moraju-biti-cistiji-od-cene'));
+        $this->assertTrue($posts->contains('slug', 'volkswagen-golf-sportsvan-ili-bmw-serija-2-active-tourer-praktican-porodicni-kompakt-kada-suv-nije-jedino-resenje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-renault-zoe-mali-elektricni-auto-koji-trazi-proveru-baterije-punjenja-i-vlasnistva-baterije'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-2-mali-japanac-koji-trazi-proveru-benzinca-korozije-i-gradske-upotrebe'));
+        $this->assertTrue($posts->contains('slug', 'abs-i-esp-lampice-na-polovnom-autu-kada-senzor-tocka-krije-skuplju-dijagnostiku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-italije-kada-dobra-oprema-ne-znaci-mirnu-istoriju'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

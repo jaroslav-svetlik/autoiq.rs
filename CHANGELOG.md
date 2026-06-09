@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.77] - 2026-06-09
+
+### Added
+
+- Added five non-duplicate production blog articles covering Volkswagen Golf Sportsvan vs BMW 2 Series Active Tourer, used Renault Zoe checks, used Mazda 2 buying guidance, ABS/ESP warning-light diagnosis, and Italian import risk.
+
 ## [0.1.76] - 2026-06-06
 
 ### Added

@@ -4960,6 +4960,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#10231f', '#f59e0b', '#f8fafc'],
             ],
+            [
+                'title' => 'Volkswagen Golf Sportsvan ili BMW serija 2 Active Tourer: praktičan porodični kompakt kada SUV nije jedino rešenje',
+                'slug' => 'volkswagen-golf-sportsvan-ili-bmw-serija-2-active-tourer-praktican-porodicni-kompakt-kada-suv-nije-jedino-resenje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Golf Sportsvan i BMW serija 2 Active Tourer nude više upotrebljivosti od klasičnog kompakta, ali traže različit pristup ceni, servisu i proveri.',
+                'content' => <<<'TEXT'
+Volkswagen Golf Sportsvan i BMW serija 2 Active Tourer često prođu ispod radara jer kupci automatski traže SUV. To je greška ako ti treba lak ulazak, dobar pregled, fleksibilna zadnja klupa i upotrebljiv gepek bez cene većeg crossovera. Oba modela nude porodičnu praktičnost, ali ne nose isti rizik i ne privlače istog kupca.
+
+Golf Sportsvan je racionalniji izbor za porodicu koja želi poznatu tehniku, više prostora od običnog Golfa i lakše poređenje oglasa. Prednost je jednostavnija kasnija prodaja i široka servisna podrška. Kod kupovine treba proveriti TSI ili TDI motor, DSG ako ga ima, trap, kočnice, stanje zadnje klupe i da li je auto zaista bio porodičan ili službeni.
+
+BMW serija 2 Active Tourer je skuplji za kupovinu i održavanje, ali nudi premium enterijer, bolju izolaciju i ozbiljniji osećaj u vožnji. Ne treba ga kupiti samo zato što je BMW. Kod polovnog primerka proveri automatski menjač, prednji trap, elektroniku, servisnu istoriju, tragove gradske upotrebe i da li oprema radi bez upozorenja.
+
+Ako ti je najvažnija računica, Golf Sportsvan često ima više smisla. Ako želiš komforniji auto i spreman si da platiš uredan primerak, Active Tourer može biti dobra alternativa SUV-u. U oba slučaja poredi konkretno stanje, a ne ideju o marki. Dobar monovolumen-kompakt može porodici doneti više koristi od starijeg SUV-a sa većim gumama, skupljim trapom i manje prostora nego što fotografije obećavaju.
+TEXT,
+                'highlights' => [
+                    'Golf Sportsvan je mirniji izbor kada su prioritet prostor, servisna podrška i realna cena.',
+                    'BMW serija 2 Active Tourer ima smisla samo ako premium oprema i istorija opravdavaju viši trošak.',
+                    'Oba modela treba porediti kao praktičnu alternativu SUV-u, ne kao običan kompakt.',
+                ],
+                'tags' => ['Golf Sportsvan', 'BMW serija 2 Active Tourer', 'porodični kompakt', 'monovolumen', 'poređenje'],
+                'meta_title' => 'Golf Sportsvan ili BMW serija 2 Active Tourer',
+                'meta_description' => 'Poređenje polovnih Volkswagen Golf Sportsvan i BMW serija 2 Active Tourer modela: prostor, motor, menjač, oprema, servis i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Renault Zoe: mali električni auto koji traži proveru baterije, punjenja i vlasništva baterije',
+                'slug' => 'polovni-renault-zoe-mali-elektricni-auto-koji-trazi-proveru-baterije-punjenja-i-vlasnistva-baterije',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Renault Zoe može biti odličan gradski električni polovnjak, ali baterija, punjač, kablovi, domet i papiri odlučuju da li je kupovina mirna.',
+                'content' => <<<'TEXT'
+Renault Zoe je jedan od najzanimljivijih polovnih električnih automobila za grad jer nudi nizak trošak vožnje, lakše parkiranje i dovoljno dometa za svakodnevicu. Ali električni polovnjak se ne proverava kao običan benzinac. Kod Zoe-a baterija, punjenje, vlasništvo baterije, servisna istorija i realan domet vrede više od izgleda i godišta.
+
+Prva provera je baterija. Traži stanje zdravlja baterije, dijagnostiku, realan domet u gradskoj i hladnijoj vožnji, kao i informacije o eventualnoj zameni ili servisima. Ako prodavac ne zna razliku između prikazanog dometa i stvarne upotrebe, pregled treba biti stroži. Dobar Zoe može biti vrlo miran auto, ali samo kada baterija ima jasnu sliku.
+
+Druga tema je punjenje. Proveri koji punjač auto podržava, da li rade svi režimi punjenja, kakvi kablovi dolaze uz auto i da li tvoj kućni ili javni režim punjenja ima smisla. Polovan električni auto nije dobra kupovina ako se oslanjaš na infrastrukturu koju realno nećeš koristiti.
+
+Treća provera su papiri. Kod starijih Zoe primeraka obavezno proveri da li je baterija u vlasništvu ili postoji ugovor o najmu. Ta razlika menja cenu, rizik i kasniju prodaju. Ako je sve jasno, Zoe može biti odličan drugi auto za porodicu ili prvi gradski automobil. Ako papiri, punjenje ili baterija nisu jasni, niska cena ne rešava problem.
+TEXT,
+                'highlights' => [
+                    'Kod Zoe-a prvo proveri stanje baterije i realan domet, ne samo kilometražu.',
+                    'Punjač, kablovi i tvoj način punjenja odlučuju da li električni auto ima smisla.',
+                    'Vlasništvo ili najam baterije mora biti jasno pre kapare.',
+                ],
+                'tags' => ['Renault Zoe', 'električni auto', 'baterija', 'punjenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Renault Zoe: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Renault Zoe: baterija, domet, punjenje, kablovi, vlasništvo baterije, servisna istorija i gradska upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mazda 2: mali Japanac koji traži proveru benzinca, korozije i gradske upotrebe',
+                'slug' => 'polovni-mazda-2-mali-japanac-koji-trazi-proveru-benzinca-korozije-i-gradske-upotrebe',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mazda 2 je zanimljiv mali benzinac za grad i početnike, ali dobar primerak mora dokazati stanje karoserije, motora, trapa i enterijera.',
+                'content' => <<<'TEXT'
+Mazda 2 često privlači kupce koji žele mali, jednostavan i pouzdan gradski auto bez dizel komplikacija. To je dobra početna ideja, ali ne znači da svaki primerak treba platiti bez pregleda. Mali automobili žive težak gradski život: kratke relacije, ivičnjaci, tesna parkiranja, hladni startovi i neuredno održavanje brzo ostave trag.
+
+Prva tema je benzinac. Motor treba da pali mirno hladan, radi ravnomerno, ne dimi, ne troši ulje neobjašnjivo i ima račune za osnovno održavanje. Kod malog benzinca mnogo znači redovan servis, svećice, filteri, rashladni sistem i kvalitet goriva. Ako je auto vožen uglavnom na kratkim relacijama, obrati pažnju na akumulator, kvačilo i rad u leru.
+
+Druga provera je karoserija. Mazda reputacija ne uklanja potrebu da se gledaju rubovi, pragovi, pod, vrata, gepek, spojevi panela i tragovi loših popravki. Korozija na malom autu lako pojede prednost dobre mehanike, posebno ako je auto dugo boravio u vlažnim uslovima ili je uvezen iz područja sa mnogo soli.
+
+Treća tema je gradska upotreba. Proveri kvačilo, menjač, trap, kočnice, felne, gume, klimu i elektroniku. Mazda 2 ima smisla kada je cena realna, istorija jasna i stanje bolje od proseka. Ako kupuješ prvi auto ili auto za svaki dan, plati uredniji primerak, jer najjeftiniji mali automobil često brzo traži gume, kočnice, servis i limarske sitnice.
+TEXT,
+                'highlights' => [
+                    'Mazda 2 ima najviše smisla kao uredan benzinac za grad i početnike.',
+                    'Korozija, rubovi, pragovi i pod moraju se proveriti jednako pažljivo kao motor.',
+                    'Kvačilo, trap, gume i akumulator otkrivaju koliko je auto živeo u gradu.',
+                ],
+                'tags' => ['Mazda 2', 'mali auto', 'benzinac', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mazda 2: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Mazda 2 modela: benzinac, korozija, trap, kvačilo, gradska upotreba, servisna istorija i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'ABS i ESP lampice na polovnom autu: kada senzor točka krije skuplju dijagnostiku',
+                'slug' => 'abs-i-esp-lampice-na-polovnom-autu-kada-senzor-tocka-krije-skuplju-dijagnostiku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Upaljene ABS i ESP lampice mogu biti sitan senzor, ali mogu ukazati na instalaciju, ležaj, modul, geometriju, kočnice ili lošu popravku posle udarca.',
+                'content' => <<<'TEXT'
+ABS i ESP lampice na polovnom autu često se objašnjavaju kao sitnica. Prodavac kaže da je samo senzor točka, kupac pomisli da je to mali trošak i nastavi pregovore. Nekad je zaista senzor. Ali ista upozorenja mogu kriti ležaj sa magnetnim prstenom, oštećenu instalaciju, problem sa ABS modulom, lošu geometriju, neispravne kočnice ili tragove loše popravke posle udarca.
+
+Prva provera je dijagnostika. Ne gledaj samo lampicu, već konkretne greške, istoriju brisanja grešaka i podatke sa svakog točka. Ako se greška vraća odmah posle brisanja, problem nije rešena sitnica. Ako prodavac ne dozvoljava dijagnostiku, rizik treba računati kao ozbiljan kvar.
+
+Druga tema je mehanički pregled. ABS i ESP zavise od senzora, ležajeva, točkova, guma, trapa, geometrije i kočnica. Različite gume, loš ležaj, oštećena glavčina ili kriv trap mogu zbuniti sistem. Zato lampica nije samo elektronski problem, već signal da auto treba pogledati na dizalici i u vožnji.
+
+Treća provera je istorija oštećenja. Ako su lampice upaljene posle zamene farova, branika, glavčine, amortizera ili popravke trapa, treba proveriti kvalitet rada i delova. Kupovina sa aktivnim ABS ili ESP greškama ima smisla samo ako je kvar tačno dijagnostikovan, cena umanjena i popravka realna. Bez toga, mala lampica lako postaje skupa potraga.
+TEXT,
+                'highlights' => [
+                    'ABS i ESP lampice ne treba prihvatiti kao sitnicu bez dijagnostike.',
+                    'Senzor točka, ležaj, instalacija, modul, trap i gume mogu dati sličan simptom.',
+                    'Aktivna greška treba da smanji cenu samo kada je kvar tačno potvrđen.',
+                ],
+                'tags' => ['ABS', 'ESP', 'dijagnostika', 'kočnice', 'provera vozila'],
+                'meta_title' => 'ABS i ESP lampice na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti ABS i ESP lampice kod polovnog auta: senzor točka, ležaj, instalacija, ABS modul, trap, gume, kočnice i dijagnostika.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Italije: kada dobra oprema ne znači mirnu istoriju',
+                'slug' => 'uvoz-auta-iz-italije-kada-dobra-oprema-ne-znaci-mirnu-istoriju',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Italijanski uvoz može doneti dobru opremu i atraktivnu cenu, ali dokumentacija, servis, limarija, kilometraža i način vožnje moraju biti jasni.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Italije može biti dobra prilika, posebno kada primerak ima bogatu opremu, lep enterijer i cenu koja deluje povoljnije od domaćih oglasa. Ali italijansko poreklo samo po sebi nije ni garancija ni problem. Prava pitanja su gde je auto vožen, kako je servisiran, da li su kilometri proverljivi i da li karoserija krije tragove gradske upotrebe ili loših popravki.
+
+Prva provera je dokumentacija. Traži servisne račune, tehničke preglede, izvoznu dokumentaciju, VIN proveru i logiku između kilometraže, stanja enterijera i starosti. Ako se istorija svodi na usmeno objašnjenje, cena mora priznati nepoznanicu. Dobar uvoz ima papire koji pričaju istu priču kao automobil.
+
+Druga tema je karoserija. Italijanski gradski automobili često nose tragove uskih ulica, parking oštećenja, lakiranih branika, vrata i felni. To ne mora biti problem ako je urađeno kvalitetno i jasno. Problem je kada se loša popravka prodaje kao fabričko stanje. Proveri zazore, nijanse, farove, pragove, pod, gume i geometriju.
+
+Treća provera je servis. Dizeli traže proveru DPF-a, EGR-a, turbine i servisnih intervala, dok benzinci traže hladan start, potrošnju ulja, rashladni sistem i redovno održavanje. Ako je auto iz Italije atraktivan zbog opreme, nemoj dozvoliti da oprema zameni dokaz o stanju. Uvoz ima smisla kada dokumentacija, pregled i cena stoje u istoj realnosti.
+TEXT,
+                'highlights' => [
+                    'Italijanski uvoz treba kupovati po dokazima, ne po opremi i sjajnim fotografijama.',
+                    'VIN, računi i izvozna dokumentacija moraju potvrditi kilometražu i servisni trag.',
+                    'Gradska oštećenja, lakirani delovi i loša geometrija često otkrivaju realnu istoriju.',
+                ],
+                'tags' => ['uvoz iz Italije', 'uvoz auta', 'servisna istorija', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Italije: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu auta iz Italije: dokumentacija, VIN, kilometraža, servisna istorija, limarija, oprema, gradska upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#ef4444', '#f8fafc'],
+            ],
         ]);
     }
 
