@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.78] - 2026-06-12
+
+### Added
+
+- Added five non-duplicate production blog articles covering Skoda Roomster vs Citroen C3 Picasso, used Opel Meriva checks, used Fiat Panda 4x4 buying guidance, braking-vibration diagnosis, and French import risk.
+
 ## [0.1.77] - 2026-06-09
 
 ### Added

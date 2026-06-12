@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(180, $posts);
+        $this->assertCount(185, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(49, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(50, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -206,6 +206,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-mazda-2-mali-japanac-koji-trazi-proveru-benzinca-korozije-i-gradske-upotrebe'));
         $this->assertTrue($posts->contains('slug', 'abs-i-esp-lampice-na-polovnom-autu-kada-senzor-tocka-krije-skuplju-dijagnostiku'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-italije-kada-dobra-oprema-ne-znaci-mirnu-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'skoda-roomster-ili-citroen-c3-picasso-mali-porodicni-auto-kada-budzet-ne-prati-suv-zelje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-opel-meriva-praktican-mali-monovolumen-koji-trazi-proveru-vrata-trapa-i-benzinca'));
+        $this->assertTrue($posts->contains('slug', 'polovni-fiat-panda-4x4-mali-terenac-koji-ne-sme-da-sakrije-skupu-mehaniku'));
+        $this->assertTrue($posts->contains('slug', 'vibracije-pri-kocenju-na-polovnom-autu-kada-diskovi-kriju-trap-lezajeve-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-francuske-kada-niza-cena-trazi-proveru-servisa-limarije-i-elektronike'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

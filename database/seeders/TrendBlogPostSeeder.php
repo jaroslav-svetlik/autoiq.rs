@@ -5095,6 +5095,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#10231f', '#ef4444', '#f8fafc'],
             ],
+            [
+                'title' => 'Škoda Roomster ili Citroen C3 Picasso: mali porodični auto kada budžet ne prati SUV želje',
+                'slug' => 'skoda-roomster-ili-citroen-c3-picasso-mali-porodicni-auto-kada-budzet-ne-prati-suv-zelje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Roomster i C3 Picasso nude mnogo prostora za malo novca, ali dobar izbor zavisi od benzinca, dizela, trapa, elektronike i stvarne porodične upotrebe.',
+                'content' => <<<'TEXT'
+Škoda Roomster i Citroen C3 Picasso su automobili koje mnogi kupci preskoče jer ne izgledaju kao moderni SUV. To ne znači da su loša kupovina. Naprotiv, za porodicu sa ograničenim budžetom mogu ponuditi više realne upotrebljivosti od atraktivnijeg crossovera: viši položaj sedenja, preglednu kabinu, veliki gepek i praktična zadnja sedišta.
+
+Roomster je racionalniji i utilitarniji izbor. Njegova prednost je jednostavna koncepcija, dobra preglednost i poznata Volkswagen grupacija tehnika, ali to ne znači da treba kupiti prvi primerak. Proveri benzinski ili dizel motor, trap, zadnja vrata, gepek, stanje enterijera i da li je auto bio porodičan, službeni ili mali dostavni zamenski izbor.
+
+C3 Picasso je udobniji i prijatniji u kabini, ali traži više pažnje oko elektronike, klime, senzora, prednjeg trapa i servisne istorije. Kod francuskih polovnjaka nije problem sama marka, već primerci koji su održavani samo kada nešto otkaže. Ako kartica, klima, prekidači i upozorenja rade bez grešaka, C3 Picasso može biti vrlo udoban mali porodični auto.
+
+Ako tražiš najjednostavniju računicu, Roomster često ima prednost. Ako ti je važnija udobnost i kabinski osećaj, C3 Picasso može biti bolji izbor. U oba slučaja presudi stanje. Ovi automobili se kupuju zato što rešavaju svakodnevicu, a ne zato što izgledaju poželjno na oglasu. Zato je pregled trapa, kočnica, guma, klime i zadnje klupe važniji od boje i ukrasnih detalja.
+TEXT,
+                'highlights' => [
+                    'Roomster je praktičniji izbor kada su prioritet jednostavnost, preglednost i niži rizik.',
+                    'C3 Picasso ima prednost u udobnosti, ali traži pažljiviju proveru elektronike i klime.',
+                    'Oba modela su dobra SUV alternativa samo ako stanje potvrdi porodičnu upotrebljivost.',
+                ],
+                'tags' => ['Škoda Roomster', 'Citroen C3 Picasso', 'porodični auto', 'monovolumen', 'poređenje'],
+                'meta_title' => 'Škoda Roomster ili Citroen C3 Picasso',
+                'meta_description' => 'Poređenje polovnih Škoda Roomster i Citroen C3 Picasso modela: prostor, motor, trap, klima, elektronika, porodična upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Opel Meriva: praktičan mali monovolumen koji traži proveru vrata, trapa i benzinca',
+                'slug' => 'polovni-opel-meriva-praktican-mali-monovolumen-koji-trazi-proveru-vrata-trapa-i-benzinca',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Opel Meriva može biti vrlo praktičan porodični i gradski auto, ali kupac mora proveriti motor, zadnja vrata, trap, klimu, elektroniku i servisni trag.',
+                'content' => <<<'TEXT'
+Opel Meriva je polovnjak koji ima smisla za kupca kome treba mali auto sa mnogo lakšim ulaskom, visokom kabinom i porodičnim detaljima. Ne izgleda atraktivno kao crossover, ali često nudi bolju svakodnevnu ergonomiju za manje novca. To je posebno važno za kupce koji prevoze decu, starije članove porodice ili često ulaze i izlaze iz auta u gradu.
+
+Prva provera je motor. Benzinske verzije treba slušati hladne, proveriti rad u leru, potrošnju ulja, rashladni sistem i račune za redovno održavanje. Dizel može imati smisla samo ako je vožen na dužim relacijama i ima jasan servisni trag. Za kratku gradsku vožnju dobar benzinac je često mirnija odluka.
+
+Druga tema su vrata, kabina i praktični mehanizmi. Meriva sa zadnjim vratima koja se otvaraju unazad mora imati ispravne brave, zaptivke, šarke i elektroniku. Proveri sva sedišta, preklapanje, pojaseve, podizače, klimu, ekran i dugmad. Praktičan auto gubi smisao ako detalji zbog kojih ga kupuješ rade polovično.
+
+Treća provera je trap. Meriva često radi gradske relacije, prelazi preko ivičnjaka i nosi porodični teret. Probna vožnja treba da uključi neravnine, kočenje, okretanje volana u mestu i parkiranje. Dobar primerak može biti razumna kupovina za svaki dan. Zapušten primerak brzo traži kočnice, gume, trap, akumulator i sitne električne popravke koje pojedu prednost niske cene.
+TEXT,
+                'highlights' => [
+                    'Meriva ima smisla kada kupac stvarno koristi visok ulaz, fleksibilnu kabinu i praktična vrata.',
+                    'Benzinac je često mirniji izbor za grad od dizela sa nejasnom istorijom.',
+                    'Vrata, klima, elektronika, trap i kočnice moraju raditi bez izgovora.',
+                ],
+                'tags' => ['Opel Meriva', 'mali monovolumen', 'benzinac', 'porodični auto', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Meriva: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Opel Meriva modela: benzinac, dizel, zadnja vrata, trap, klima, elektronika, porodična upotreba i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Fiat Panda 4x4: mali terenac koji ne sme da sakrije skupu mehaniku',
+                'slug' => 'polovni-fiat-panda-4x4-mali-terenac-koji-ne-sme-da-sakrije-skupu-mehaniku',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Panda 4x4 je šarmantan mali auto za loše puteve i zimu, ali pogon, kvačilo, trap, korozija i stvarna upotreba odlučuju da li je cena opravdana.',
+                'content' => <<<'TEXT'
+Fiat Panda 4x4 je jedan od onih polovnjaka koji izgledaju jednostavno, ali na tržištu često drže cenu iznad očekivanja. Razlog je jasan: mali auto, dobar pregled, kratke mere i pogon na sva četiri točka čine ga korisnim za sneg, brda, selo i lošije puteve. Ipak, baš zato treba proveriti da li je prethodni vlasnik tu sposobnost koristio pažljivo ili bez mnogo obzira.
+
+Prva tema je pogon. Panda 4x4 ne sme da škripi, lupa, zateže ili pokazuje čudne vibracije pri kretanju, skretanju i promeni opterećenja. Proveri kardane, diferencijal, nosače, kvačilo, menjač i tragove curenja. Mali auto sa 4x4 sistemom nije skup samo zato što je mali; zapušten pogon može promeniti celu računicu.
+
+Druga provera je karoserija. Panda često živi napolju, ide po snegu, blatu i soli, pa treba proveriti pragove, pod, rubove, zadnji deo, nosače i donji postroj. Površinska rđa nije isto što i konstrukcioni problem. Ako prodavac kaže da je samo estetski, dizalica treba da potvrdi priču.
+
+Treća tema je svakodnevna upotreba. Panda 4x4 je odlična kada ti stvarno treba mali auto za loše uslove, ali nije idealna ako tražiš tišinu, autoput komfor ili veliki gepek. Dobar primerak treba platiti kao specifičan alat, ne kao običnu Pandu sa većom cenom. Ako pogon, trap i limarija nisu jasni, bolje je kupiti običan mali auto u boljem stanju.
+TEXT,
+                'highlights' => [
+                    'Panda 4x4 vredi više samo kada pogon, trap i limarija potvrde stvarno stanje.',
+                    'Kardan, diferencijal, kvačilo i curenja moraju se proveriti u vožnji i na dizalici.',
+                    'Korozija na podu, pragovima i zadnjem delu može poništiti prednost malog 4x4 auta.',
+                ],
+                'tags' => ['Fiat Panda 4x4', 'mali terenac', 'pogon 4x4', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Panda 4x4: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiat Panda 4x4 modela: pogon, kardan, diferencijal, kvačilo, trap, korozija, loši putevi i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Vibracije pri kočenju na polovnom autu: kada diskovi kriju trap, ležajeve ili lošu popravku',
+                'slug' => 'vibracije-pri-kocenju-na-polovnom-autu-kada-diskovi-kriju-trap-lezajeve-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tresenje volana pri kočenju može biti potrošan disk, ali može otkriti čeljusti, ležaj, trap, glavčinu, gume ili lošu popravku posle udarca.',
+                'content' => <<<'TEXT'
+Vibracije pri kočenju su jedan od simptoma koje kupci često prihvate kao običnu potrošnu stavku. Prodavac kaže da treba samo zameniti diskove, kupac uračuna osnovni servis i nastavi dalje. Nekad je to tačno. Ali tresenje volana, pulsiranje pedale ili povlačenje auta u stranu može ukazati na širi problem koji se ne rešava samo novim diskovima.
+
+Prva provera je probna vožnja. Koči blago i snažnije, pri različitim brzinama, na ravnom putu i bez naglog cimanja volana. Obrati pažnju da li vibrira volan, sedište ili pedala, da li auto vuče u stranu i da li se simptom menja kada su kočnice tople. To pomaže majstoru da razlikuje diskove, zadnju osovinu, gume ili trap.
+
+Druga tema je pregled na dizalici. Diskovi, pločice, čeljusti, klizači, ležajevi, glavčine, kugle, seleni i amortizeri moraju se gledati zajedno. Ako se diskovi brzo krive posle zamene, uzrok može biti loša glavčina, zapekla čeljust, nepravilan moment zatezanja točkova ili nekvalitetan deo.
+
+Treća provera je istorija oštećenja. Vibracije pri kočenju posle zamene felni, guma, trapa ili limarske popravke mogu govoriti da auto nije pravilno složen. Kupovina ima smisla ako je kvar konkretno dijagnostikovan i cena realno smanjena. Bez toga, "samo diskovi" može biti početak mnogo duže potrage.
+TEXT,
+                'highlights' => [
+                    'Tresenje pri kočenju nije uvek samo set diskova i pločica.',
+                    'Volan, pedala, zadnja osovina i ponašanje na toplim kočnicama daju važne tragove.',
+                    'Čeljusti, ležajevi, glavčine, trap i gume treba proveriti pre pregovora o ceni.',
+                ],
+                'tags' => ['vibracije pri kočenju', 'diskovi', 'kočnice', 'trap', 'provera vozila'],
+                'meta_title' => 'Vibracije pri kočenju na polovnom autu',
+                'meta_description' => 'Kako proveriti vibracije pri kočenju kod polovnog auta: diskovi, pločice, čeljusti, ležajevi, glavčine, trap, gume i loša popravka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Francuske: kada niža cena traži proveru servisa, limarije i elektronike',
+                'slug' => 'uvoz-auta-iz-francuske-kada-niza-cena-trazi-proveru-servisa-limarije-i-elektronike',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Francuski uvoz može biti dobra prilika, ali servisni trag, gradska oštećenja, elektronika, kilometraža i dokumentacija moraju biti jasni pre kapare.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Francuske često privlači kupce jer se na oglasima pojave dobro opremljeni primerci sa cenom koja deluje razumno. Peugeot, Renault, Citroen i druge marke mogu biti vrlo dobra kupovina kada je istorija jasna. Problem nastaje kada se niža cena koristi da sakrije nepoznatu kilometražu, gradska oštećenja, slab servisni trag ili elektronske greške.
+
+Prva provera je dokumentacija. VIN, računi, tehnički pregledi, servisni zapisi i izvozna dokumentacija moraju imati logiku. Ako kilometraža deluje nisko, enterijer, volan, sedišta, pedale i stanje komandi treba to da potvrde. Francusko poreklo nije problem samo po sebi; problem je auto bez proverljive priče.
+
+Druga tema je limarija. Gradska vožnja, uske ulice i parking oštećenja često ostavljaju tragove na branicima, vratima, felnama i farovima. Lakirani elementi nisu automatski razlog za odustajanje, ali kupac mora znati šta je popravljano i kako. Loše uklopljeni branici, različite nijanse i čudni zazori traže pregled kod limara.
+
+Treća provera je elektronika i servis. Klima, kartica ili ključ, ekran, senzori, podizači, svetla i upozorenja na tabli moraju raditi bez slučajnih grešaka. Dizeli traže proveru DPF-a, EGR-a i turbine, dok benzinci traže hladan start, ulje i rashladni sistem. Dobar francuski uvoz ima smisla kada cena, papiri i pregled govore istu stvar. Ako jedna karika nedostaje, popust mora biti ozbiljan ili kupovina treba da sačeka.
+TEXT,
+                'highlights' => [
+                    'Francuski uvoz treba kupovati po dokumentaciji, ne po opremi i povoljnoj ceni.',
+                    'Gradska oštećenja, lakirani delovi i elektronske greške često menjaju realnu vrednost.',
+                    'VIN, računi, tehnički pregledi i stanje enterijera moraju potvrditi kilometražu.',
+                ],
+                'tags' => ['uvoz iz Francuske', 'uvoz auta', 'servisna istorija', 'limarija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Francuske: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Francuske: dokumentacija, VIN, kilometraža, servisna istorija, limarija, elektronika, dizel rizici i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
