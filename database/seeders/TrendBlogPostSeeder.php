@@ -5230,6 +5230,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Ford B-Max ili Kia Venga: mali porodični auto kada vrata i prostor vrede više od imidža',
+                'slug' => 'ford-b-max-ili-kia-venga-mali-porodicni-auto-kada-vrata-i-prostor-vrede-vise-od-imidza',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'B-Max i Venga nude praktičnost malog porodičnog auta bez SUV cene, ali dobar izbor zavisi od vrata, trapa, benzinca, klime i stvarnog stanja.',
+                'content' => <<<'TEXT'
+Ford B-Max i Kia Venga su automobili koji često izgledaju neatraktivno pored modernih crossovera, ali za porodicu sa realnim budžetom mogu biti pametniji izbor. Oba nude viši ulazak, dobru preglednost, praktičnu kabinu i dovoljno prostora za grad, školu, kupovinu i kraća porodična putovanja. Njihova vrednost nije u imidžu, već u tome koliko olakšavaju svakodnevicu.
+
+B-Max ima posebnu prednost zbog kliznih zadnjih vrata i izostanka klasičnog B stuba, što može biti odlično na uskim parkinzima. To je ujedno i tačka provere. Vrata, brave, klizači, zaptivke, senzori i centralno zaključavanje moraju raditi bez izgovora. Kod motora proveri hladan start, kvačilo, menjač, potrošnju ulja i servisnu istoriju.
+
+Kia Venga je jednostavniji izbor za kupca koji želi praktičan mali auto bez specifične konstrukcije vrata. Prednost je pregledna kabina i često dobra oprema, ali treba proveriti trap, klimu, elektroniku, stanje enterijera i da li je auto radio mnogo kratkih gradskih relacija. Ako je servisna istorija uredna, Venga može biti vrlo mirna kupovina za svaki dan.
+
+Ako su oba primerka sličnog stanja, B-Max ima prednost kada ti klizna vrata stvarno rešavaju problem. Venga ima prednost kada želiš manje specifičnih mehanizama i jednostavniju proveru. U oba slučaja ne kupuj najjeftiniji oglas samo zato što model nije popularan. Kod malih porodičnih automobila gume, kočnice, trap, klima i kvačilo brzo pojedu razliku između dobrog i zapuštenog primerka.
+TEXT,
+                'highlights' => [
+                    'B-Max je odličan kada klizna vrata stvarno olakšavaju porodičnu rutinu.',
+                    'Venga je jednostavniji izbor ako želiš praktičnost bez specifičnog mehanizma vrata.',
+                    'Kod oba modela proveri trap, kvačilo, klimu, elektroniku i tragove gradske upotrebe.',
+                ],
+                'tags' => ['Ford B-Max', 'Kia Venga', 'mali porodični auto', 'monovolumen', 'poređenje'],
+                'meta_title' => 'Ford B-Max ili Kia Venga: mali porodični auto',
+                'meta_description' => 'Poređenje polovnih Ford B-Max i Kia Venga modela: prostor, klizna vrata, motor, trap, klima, gradska upotreba, oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Volkswagen Up: mali gradski auto koji traži proveru kvačila, trapa i gradske upotrebe',
+                'slug' => 'polovni-volkswagen-up-mali-gradski-auto-koji-trazi-proveru-kvacila-trapa-i-gradske-upotrebe',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Volkswagen Up može biti odličan mali gradski auto, ali stanje kvačila, trapa, kočnica, klime, enterijera i servisnog traga odlučuje kupovinu.',
+                'content' => <<<'TEXT'
+Volkswagen Up je mali auto koji kupci često gledaju kao jednostavno i sigurno rešenje za grad. Kratak je, pregledan, lako se parkira i ne traži velike gume ni skupu registraciju. Ali mali gradski auto ne znači automatski mali rizik. Kratke relacije, česta paljenja, ivičnjaci, tesna parkiranja i štednja na servisima brzo ostavljaju trag.
+
+Prva provera je motor i kvačilo. Benzinski motor treba da pali mirno hladan, radi ravnomerno i ima račune za redovne servise. Kvačilo, menjač i nosači motora često najviše govore o gradskoj eksploataciji. Ako auto trza pri kretanju, teško ubacuje u brzinu ili deluje umorno na kratkoj probnoj vožnji, cena mora priznati rizik.
+
+Druga tema je trap. Up je lagan auto, ali gradske rupe i ivičnjaci mogu napraviti zvukove, krive felne, neravnomerno trošenje guma i loš osećaj na volanu. Proveri kočnice, gume, amortizere, kugle, ležajeve i geometriju. Jeftina gradska vožnja prestaje da bude jeftina kada odmah posle kupovine dolaze gume, kočnice i trap.
+
+Treća provera je kabina i oprema. Klima, podizači, brave, sedišta, pojasevi, svetla, brisači i elektronika moraju raditi bez izgovora. Up ima smisla kada kupuješ uredan primerak za realnu svakodnevicu, a ne najjeftiniji oglas. Ako ti treba auto za grad, bolji je skuplji Up sa jasnom istorijom nego lepši primerak bez dokaza o održavanju.
+TEXT,
+                'highlights' => [
+                    'Volkswagen Up je dobar gradski izbor kada servis i stanje potvrđuju nisku cenu upotrebe.',
+                    'Kvačilo, menjač, nosači i trap najbrže otkrivaju težak gradski život.',
+                    'Gume, kočnice, klima i osnovna oprema moraju ući u realnu cenu kupovine.',
+                ],
+                'tags' => ['Volkswagen Up', 'mali gradski auto', 'benzinac', 'kvačilo', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volkswagen Up: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volkswagen Up modela: benzinac, kvačilo, menjač, trap, kočnice, klima, gradska upotreba i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Suzuki SX4 S-Cross: crossover koji traži proveru benzinca, dizela i 4x4 pogona',
+                'slug' => 'polovni-suzuki-sx4-s-cross-crossover-koji-trazi-proveru-benzinca-dizela-i-4x4-pogona',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Suzuki SX4 S-Cross može biti racionalan crossover, ali kupac mora proveriti motor, 4x4 pogon, trap, kvačilo, koroziju, opremu i servisnu istoriju.',
+                'content' => <<<'TEXT'
+Suzuki SX4 S-Cross je zanimljiv polovnjak za kupce koji žele praktičan crossover bez premium cene i bez previše komplikovane slike. Nudi dobar ulazak, solidan prostor, često pristojnu opremu i reputaciju razumnog održavanja. Ipak, reputacija nije zamena za pregled. Dobar S-Cross može biti mirna kupovina, ali zapušten primerak lako sakrije troškove kroz trap, pogon i servisni trag.
+
+Prva provera je motor. Benzinske verzije treba gledati kroz hladan start, potrošnju ulja, servisne intervale, rad kvačila i realnu potrošnju. Dizel može imati smisla za duže relacije, ali samo ako su DPF, EGR, turbina i servis ulja jasni. Ako je auto većinom vožen po gradu, dizel rizik raste i niska potrošnja ne sme biti jedini argument.
+
+Druga tema je 4x4 pogon. Ako primerak ima pogon na sva četiri točka, proveri rad sistema, zvukove pri skretanju, curenja, kardane, diferencijal i stanje guma. Različite gume po osovinama, čudne vibracije ili nejasan servis mogu značiti da dodatni pogon nije samo prednost, već i budući trošak.
+
+Treća provera je karoserija, trap i oprema. SX4 S-Cross se često koristi kao porodični auto za sve uslove, pa treba pogledati pragove, pod, amortizere, kočnice, klimu, senzore, multimediju i tragove loših popravki. Najbolja kupovina je primerak sa jasnim računima i realnom cenom, ne najbogatiji oglas sa nepoznatom istorijom.
+TEXT,
+                'highlights' => [
+                    'S-Cross je racionalan crossover samo kada servisna istorija prati reputaciju marke.',
+                    'Kod dizela proveri DPF, EGR, turbinu i režim vožnje, a kod benzinca ulje i kvačilo.',
+                    '4x4 pogon traži proveru guma, kardana, diferencijala, curenja i zvukova u skretanju.',
+                ],
+                'tags' => ['Suzuki SX4 S-Cross', 'crossover', '4x4', 'benzinac', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Suzuki SX4 S-Cross: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Suzuki SX4 S-Cross modela: benzinac, dizel, 4x4 pogon, trap, kvačilo, korozija, oprema i servis.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Dim iz auspuha na polovnom autu: kada boja dima otkriva turbo, dizne, ulje ili rashladnu tečnost',
+                'slug' => 'dim-iz-auspuha-na-polovnom-autu-kada-boja-dima-otkriva-turbo-dizne-ulje-ili-rashladnu-tecnost',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dim iz auspuha nije samo neprijatan detalj: bela, plava ili crna boja mogu otkriti ulje, rashladnu tečnost, dizne, turbo, DPF ili loš servis.',
+                'content' => <<<'TEXT'
+Dim iz auspuha kod polovnog auta ne treba ignorisati, čak ni kada prodavac kaže da je motor hladan ili da auto dugo stoji. Kratak trag pare po hladnom vremenu može biti normalan, ali gust beli, plavi ili crni dim traži objašnjenje pre kapare. Boja, miris i trenutak kada se dim pojavljuje često govore više od samog broja kilometara.
+
+Beli dim može biti bezazlena para, ali može ukazati i na rashladnu tečnost u cilindrima, problem dihtunga glave, hladnjak EGR-a ili trag pregrevanja. Zato je važno gledati nivo rashladne tečnosti, pritisak u sistemu, temperaturu motora i da li se dim zadržava kada se motor zagreje. Ako se priča svodi na "to je normalno", pregled kod majstora mora potvrditi razlog.
+
+Plavi dim najčešće otvara pitanje potrošnje ulja, turbine, karika, vođica ventila ili lošeg održavanja. Posebno obrati pažnju pri hladnom startu, posle dužeg rada u leru i pri jačem ubrzanju. Crni dim kod dizela može ukazivati na loše sagorevanje, dizne, turbinu, EGR, DPF, mapiranje ili zapušten servis.
+
+Najbolja provera je hladan start, probna vožnja i dijagnostika. Auto treba gledati pre nego što ga prodavac zagreje. Ako dim nestane tek posle brisanja grešaka ili agresivne vožnje, to nije dokaz da je problem rešen. Kupovina ima smisla samo kada uzrok dima ima jasnu dijagnozu i cenu popravke. Bez toga, dim je signal da treba stati, a ne samo spustiti cenu na osećaj.
+TEXT,
+                'highlights' => [
+                    'Beli, plavi i crni dim ne znače isti kvar i moraju se tumačiti u uslovima hladnog i toplog motora.',
+                    'Beli dim traži proveru rashladne tečnosti, pritiska sistema i tragova pregrevanja.',
+                    'Plavi ili crni dim mogu značiti ulje, turbinu, dizne, EGR, DPF ili loše održavanje.',
+                ],
+                'tags' => ['dim iz auspuha', 'turbo', 'dizne', 'rashladna tečnost', 'provera vozila'],
+                'meta_title' => 'Dim iz auspuha na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti dim iz auspuha kod polovnog auta: beli, plavi i crni dim, turbo, dizne, ulje, rashladna tečnost, DPF, EGR i servis.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Nemačke: kada dobra servisna istorija nije dovoljna bez provere kilometraže i opreme',
+                'slug' => 'uvoz-auta-iz-nemacke-kada-dobra-servisna-istorija-nije-dovoljna-bez-provere-kilometraze-i-opreme',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nemački uvoz često deluje sigurnije zbog servisnih zapisa, ali kilometraža, flotna upotreba, zimski uslovi, oprema i papiri moraju se proveriti.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Nemačke kod kupaca često ima bolji zvuk od drugih tržišta. Razlog je jasan: veće tržište, mnogo službenih automobila, redovni servisi i veliki izbor. Ali nemačko poreklo nije garancija da je primerak miran. Auto može imati uredne servise, a da je vozio ogromnu kilometražu, mnogo autoputa, flotnu eksploataciju ili zimske uslove koji se vide tek na detaljnom pregledu.
+
+Prva provera je kilometraža. Servisna istorija mora imati logiku sa tehničkim pregledima, računima, stanjem sedišta, volana, pedala, guma i kočnica. Kod uvoza iz Nemačke često je veći problem visoka realna kilometraža nego lažna mala kilometraža. Ako je auto prešao mnogo, to nije automatski loše, ali cena mora odgovarati stanju.
+
+Druga tema je prethodna namena. Službeni auto, lizing, rent-a-car, autoput flotno vozilo i privatni primerak nisu isti rizik. Auto koji je redovno servisiran može i dalje imati umoran enterijer, zamor trapa, istrošene kočnice, napregnut automatik ili opremu koja radi polovično. Zato ne gledaj samo pečate, već i način korišćenja.
+
+Treća provera su papiri i oprema. VIN, izvozna dokumentacija, računi, COC, servisni izveštaji i poreklo moraju biti jasni. Proveri da li oprema iz oglasa odgovara VIN-u, da li su farovi, asistencije, senzori, kamera, klima i multimedija ispravni. Dobar nemački uvoz ima smisla kada su papiri, kilometraža i stanje u istoj priči. Ako prodavac prodaje samo reputaciju tržišta, kupac treba da uspori.
+TEXT,
+                'highlights' => [
+                    'Nemački uvoz nije garancija mirne kupovine bez provere kilometraže i namene.',
+                    'Servisna istorija mora se slagati sa stanjem enterijera, trapa, kočnica i opreme.',
+                    'Flotna, lizing i autoput upotreba menjaju cenu čak i kada su servisi uredni.',
+                ],
+                'tags' => ['uvoz iz Nemačke', 'uvoz auta', 'servisna istorija', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Nemačke: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Nemačke: servisna istorija, kilometraža, lizing, flotna upotreba, oprema, VIN, dokumentacija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

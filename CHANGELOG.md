@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.79] - 2026-06-20
+
+### Added
+
+- Added five non-duplicate production blog articles covering Ford B-Max vs Kia Venga, used Volkswagen Up checks, used Suzuki SX4 S-Cross buying guidance, exhaust-smoke diagnosis, and German import risk.
+
 ## [0.1.78] - 2026-06-12
 
 ### Added

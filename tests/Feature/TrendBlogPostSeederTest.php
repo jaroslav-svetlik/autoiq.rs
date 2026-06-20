@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(185, $posts);
+        $this->assertCount(190, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(50, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(51, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -211,6 +211,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-fiat-panda-4x4-mali-terenac-koji-ne-sme-da-sakrije-skupu-mehaniku'));
         $this->assertTrue($posts->contains('slug', 'vibracije-pri-kocenju-na-polovnom-autu-kada-diskovi-kriju-trap-lezajeve-ili-losu-popravku'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-francuske-kada-niza-cena-trazi-proveru-servisa-limarije-i-elektronike'));
+        $this->assertTrue($posts->contains('slug', 'ford-b-max-ili-kia-venga-mali-porodicni-auto-kada-vrata-i-prostor-vrede-vise-od-imidza'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volkswagen-up-mali-gradski-auto-koji-trazi-proveru-kvacila-trapa-i-gradske-upotrebe'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-sx4-s-cross-crossover-koji-trazi-proveru-benzinca-dizela-i-4x4-pogona'));
+        $this->assertTrue($posts->contains('slug', 'dim-iz-auspuha-na-polovnom-autu-kada-boja-dima-otkriva-turbo-dizne-ulje-ili-rashladnu-tecnost'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-nemacke-kada-dobra-servisna-istorija-nije-dovoljna-bez-provere-kilometraze-i-opreme'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
