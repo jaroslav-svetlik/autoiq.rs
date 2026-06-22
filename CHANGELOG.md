@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.80] - 2026-06-22
+
+### Added
+
+- Added five non-duplicate production blog articles covering Dacia Logan MCV vs Skoda Rapid Spaceback, used Peugeot 207 checks, used Nissan Note buying guidance, rough-idle diagnosis, and Belgian import risk.
+
 ## [0.1.79] - 2026-06-20
 
 ### Added

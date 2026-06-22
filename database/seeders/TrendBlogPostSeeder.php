@@ -5365,6 +5365,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Dacia Logan MCV ili Škoda Rapid Spaceback: karavan razum ili kompakt kada budžet traži prostor',
+                'slug' => 'dacia-logan-mcv-ili-skoda-rapid-spaceback-karavan-razum-ili-kompakt-kada-budzet-trazi-prostor',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Logan MCV i Rapid Spaceback nude prostor bez SUV cene, ali kupac mora odlučiti da li mu više vrede jednostavnost, oprema, enterijer ili kasnija prodaja.',
+                'content' => <<<'TEXT'
+Dacia Logan MCV i Škoda Rapid Spaceback ne kupuju se zato što izazivaju uzbuđenje na parkingu. Kupuje ih neko kome treba prostor, razuman trošak i auto koji neće pojesti budžet pre prvog porodičnog putovanja. Upravo zato ih vredi porediti hladne glave: jedan nudi karavan logiku i jednostavnost, drugi bolji kompaktni osećaj i uredniji enterijer.
+
+Logan MCV je izbor za kupca koji želi mnogo gepeka za što manje novca. Ima smisla za porodicu, alat, hobi, putovanja i sve situacije u kojima prostor zaista radi posao. Ali niska cena ne sme da zaslepi. Proveri benzinski ili dizel motor, trap, vrata gepeka, pragove, sedišta, klimu i da li je auto radio kao privatni porodični auto ili praktična radna mašina.
+
+Rapid Spaceback je civilizovaniji kompromis. Kabina deluje bliže klasičnom kompaktnom automobilu, vožnja je često prijatnija, a kasnija prodaja lakša ako je primerak uredan. Mana je što ne nudi isti karavanski gepek kao Logan MCV. Kod Rapida proveri TSI ili TDI motor, kvačilo, menjač, zadnji trap, elektroniku i da li kilometraža ima smisla sa stanjem enterijera.
+
+Ako ti treba maksimalan prostor za novac, Logan MCV je poštenija priča. Ako želiš bolji balans osećaja u vožnji, opreme i svakodnevne upotrebe, Rapid Spaceback može biti pametniji izbor. U oba slučaja ne kupuj ideju o jeftinom prostoru, nego konkretan primerak. Dobar auto sa manje opreme vredi više od lepšeg oglasa koji odmah traži gume, trap, veliki servis i klimu.
+TEXT,
+                'highlights' => [
+                    'Logan MCV je bolji kada je gepek glavni razlog kupovine.',
+                    'Rapid Spaceback ima prednost kada želiš bolji kompaktni osećaj i lakšu kasniju prodaju.',
+                    'Kod oba modela stanje trapa, klime, enterijera i servisnog traga odlučuje realnu cenu.',
+                ],
+                'tags' => ['Dacia Logan MCV', 'Škoda Rapid Spaceback', 'karavan', 'kompakt', 'poređenje'],
+                'meta_title' => 'Dacia Logan MCV ili Škoda Rapid Spaceback',
+                'meta_description' => 'Poređenje polovnih Dacia Logan MCV i Škoda Rapid Spaceback modela: prostor, motor, trap, klima, enterijer, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Peugeot 207: mali auto koji traži proveru benzinca, elektronike i zadnjeg trapa',
+                'slug' => 'polovni-peugeot-207-mali-auto-koji-trazi-proveru-benzinca-elektronike-i-zadnjeg-trapa',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Peugeot 207 može biti povoljan mali auto za grad i početnike, ali dobar primerak mora dokazati motor, zadnji trap, elektroniku, klimu i servisni trag.',
+                'content' => <<<'TEXT'
+Peugeot 207 često ulazi u potragu kada kupac želi mali auto koji nije preskup, izgleda pristojno i može da posluži za grad, početnika ili drugi porodični automobil. Na papiru deluje jednostavno: mali auto, razumna cena, dovoljno oglasa. U praksi razlika između urednog i zapuštenog 207 može biti veća nego što fotografije pokazuju.
+
+Prva provera je motor. Benzinske verzije treba slušati hladne, gledati rad u leru, potrošnju ulja, curenja, rashladni sistem i račune za redovne servise. Dizel može biti štedljiv, ali samo ako nije ceo život proveo na kratkim relacijama. Kod svakog primerka kilometraža mora imati logiku sa volanom, sedištem, pedalama i opštim osećajem kabine.
+
+Druga tema je zadnji trap i gradska upotreba. Mali francuski auto često je živeo na ivičnjacima, rupama i uskim parkinzima. Probna vožnja treba da uključi neravnine, kočenje, kružno okretanje i slušanje zadnjeg dela. Ako se čuju udarci, škripanje ili auto stoji čudno, cena mora priznati da pregled tek počinje.
+
+Treća provera je elektronika. Klima, podizači, brave, svetla, instrument tabla, radio, senzori i upozorenja na tabli moraju raditi bez izgovora. Dobar Peugeot 207 može biti simpatičan i razuman mali auto. Loš primerak je podsetnik da niska cena kupovine ne znači nisku cenu prvih šest meseci.
+TEXT,
+                'highlights' => [
+                    'Peugeot 207 ima smisla kao povoljan mali auto samo ako motor i servisni trag nisu nepoznanica.',
+                    'Zadnji trap, gume i kočnice često otkrivaju težak gradski život.',
+                    'Elektronika i klima moraju raditi bez slučajnih grešaka i izgovora prodavca.',
+                ],
+                'tags' => ['Peugeot 207', 'mali auto', 'benzinac', 'zadnji trap', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Peugeot 207: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Peugeot 207 modela: benzinac, dizel, zadnji trap, elektronika, klima, gradska upotreba i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Nissan Note: praktičan mali auto koji ne sme da sakrije CVT, trap i gradsku upotrebu',
+                'slug' => 'polovni-nissan-note-praktican-mali-auto-koji-ne-sme-da-sakrije-cvt-trap-i-gradsku-upotrebu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nissan Note nudi iznenađujuće mnogo prostora u malom pakovanju, ali kupac mora proveriti motor, CVT, trap, klimu, enterijer i servisnu istoriju.',
+                'content' => <<<'TEXT'
+Nissan Note je auto koji kupci često razumeju tek kada sednu unutra. Spolja deluje kao mali gradski automobil, ali kabina i zadnja klupa mogu iznenaditi svakoga ko traži praktičnost bez velikih dimenzija. Zato Note ima smisla za porodicu, starije vozače, gradske relacije i kupce kojima je lak ulazak važniji od imidža.
+
+Prva provera je motor i menjač. Benzinske verzije treba gledati kroz hladan start, rad u leru, potrošnju ulja i račune za servis. Ako je auto sa CVT menjačem, probna vožnja mora biti ozbiljna: bez trzaja, zavijanja, kašnjenja i čudnog ponašanja pri kretanju. CVT može biti prijatan, ali zapušten menjač menja celu cenu kupovine.
+
+Druga tema je gradski život. Note često radi kratke relacije, nosi kupovinu, decu i svakodnevni tempo. Proveri trap, kočnice, gume, klimu, brave, podizače, sedišta i stanje gepeka. Auto koji je spolja mali može unutra pokazati ozbiljan umor ako je godinama korišćen bez pažnje.
+
+Treća provera je praktičnost koju stvarno koristiš. Zadnja klupa, položaj sedenja, preglednost, parkiranje i gepek treba da odgovaraju tvojoj rutini. Dobar Note je razuman mali praktičar. Loš Note je samo jeftin oglas sa mogućim CVT, trap i elektronskim troškovima koje je neko drugi odložio za novog vlasnika.
+TEXT,
+                'highlights' => [
+                    'Nissan Note vredi gledati kada mali auto mora ponuditi stvarno upotrebljivu kabinu.',
+                    'CVT menjač traži hladnu i toplu probnu vožnju bez trzaja, kašnjenja i zavijanja.',
+                    'Trap, klima, brave i enterijer otkrivaju koliko je auto živeo u gradu.',
+                ],
+                'tags' => ['Nissan Note', 'mali porodični auto', 'CVT', 'gradska upotreba', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Nissan Note: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Nissan Note modela: benzinac, CVT menjač, trap, klima, enterijer, gradska upotreba i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Nemiran ler na polovnom autu: kada podrhtavanje otkriva nosače, dizne, usis ili struju',
+                'slug' => 'nemiran-ler-na-polovnom-autu-kada-podrhtavanje-otkriva-nosace-dizne-usis-ili-struju',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Podrhtavanje u leru može biti sitan servis, ali može otkriti nosače motora, dizne, svećice, bobine, usis, vakum, EGR ili loše održavanje.',
+                'content' => <<<'TEXT'
+Nemiran ler je jedan od simptoma koje je lako potceniti na placu. Auto se malo trese, prodavac kaže da je hladan, klima je uključena ili je gorivo loše, a kupac već razmišlja o ceni. Nekad je uzrok zaista sitan. Ali podrhtavanje u leru može otvoriti priču o nosačima motora, diznama, bobinama, svećicama, usisu, vakumu, EGR-u ili zapuštenom servisu.
+
+Prva provera je hladan start. Auto treba upaliti kada motor nije zagrejan i slušati prvih nekoliko minuta. Obrati pažnju na obrtaje, vibracije u volanu, sedištu i ručici menjača, miris goriva, dim i lampice na tabli. Ako se problem smanji kada se motor zagreje, to nije dokaz da je nestao, već trag za dijagnostiku.
+
+Druga tema je ponašanje pod opterećenjem. Uključi klimu, svetla, grejače i pomeraj volan u mestu. Kod benzinca proveri svećice, bobine, usis i vakum. Kod dizela gledaj dizne, EGR, nosače i korekcije ubrizgavanja. Ako auto radi mirno samo kada je sve isključeno, svakodnevna vožnja može brzo pokazati više.
+
+Treća provera je cena popravke. Nemiran ler nije dovoljan razlog za automatsko odustajanje, ali jeste razlog da se kvar precizno dijagnostikuje pre kapare. Prodavčeva procena da je "samo sitnica" nema vrednost bez očitanih grešaka, probne vožnje i mišljenja majstora. Kupac treba da plati auto koji radi mirno, ili da dobije popust za stvaran, a ne zamišljen kvar.
+TEXT,
+                'highlights' => [
+                    'Nemiran ler treba proveriti na hladnom motoru, ne posle zagrevanja pred dolazak kupca.',
+                    'Benzinci i dizeli imaju različite uzroke: svećice, bobine, usis, dizne, EGR ili nosači.',
+                    'Popust ima smisla tek kada dijagnostika potvrdi stvaran uzrok podrhtavanja.',
+                ],
+                'tags' => ['nemiran ler', 'nosači motora', 'dizne', 'bobine', 'provera vozila'],
+                'meta_title' => 'Nemiran ler na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti nemiran ler kod polovnog auta: hladan start, nosači motora, dizne, svećice, bobine, usis, EGR, vakum i dijagnostika.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Belgije: kada uredan oglas traži proveru kilometraže, korozije i jezika dokumentacije',
+                'slug' => 'uvoz-auta-iz-belgije-kada-uredan-oglas-trazi-proveru-kilometraze-korozije-i-jezika-dokumentacije',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Belgijski uvoz može izgledati uredno i dobro dokumentovano, ali kilometraža, Car-Pass trag, korozija, oprema i dokumentacija moraju imati jasnu logiku.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Belgije ume da deluje vrlo uredno. Oglasi su često jasni, automobili dobro opremljeni, a dokumentacija na prvi pogled ozbiljnija nego kod mnogih drugih tržišta. To je dobra početna tačka, ali nije razlog da se preskoči provera. Belgijsko poreklo ne garantuje da je auto imao lagan život, posebno ako je vozio po vlažnim uslovima, kratkim relacijama ili kao službeno vozilo.
+
+Prva provera je kilometraža. Belgija je poznata po Car-Pass tragu, ali kupac i dalje mora da vidi da li se brojevi slažu sa servisima, tehničkim pregledima, stanjem enterijera i cenom. Ako prodavac ne može jasno objasniti dokumentaciju, prevod ili poreklo podataka, uredan oglas nije dovoljan dokaz.
+
+Druga tema je korozija i donji deo auta. Vlažno vreme, so, zimski uslovi i gradska vožnja mogu ostaviti tragove na podu, pragovima, nosačima, kočnicama i izduvu. Ne mora svaki belgijski auto imati problem, ali pregled na dizalici treba da bude obavezan. Fotografije sjajne karoserije ne govore šta se dešava ispod.
+
+Treća provera je oprema i jezik dokumentacije. Proveri da li VIN potvrđuje paket opreme, da li svi sistemi rade, i da li su računi, servisni zapisi i izvozni papiri razumljivi pre uplate. Dobar belgijski uvoz može biti odlična kupovina kada papiri, kilometraža i stanje pričaju istu priču. Ako jedna stvar ne može da se objasni, bolje je usporiti nego platiti uredno upakovan rizik.
+TEXT,
+                'highlights' => [
+                    'Belgijski uvoz deluje uredno samo ako se kilometraža slaže sa dokumentacijom i stanjem auta.',
+                    'Car-Pass trag je koristan, ali ne zamenjuje pregled enterijera, servisa i tehničkih zapisa.',
+                    'Vlažni uslovi traže proveru poda, pragova, kočnica, izduva i donjeg postroja.',
+                ],
+                'tags' => ['uvoz iz Belgije', 'Car-Pass', 'uvoz auta', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Belgije: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Belgije: Car-Pass, kilometraža, dokumentacija, korozija, servisni trag, oprema, VIN i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

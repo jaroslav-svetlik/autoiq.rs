@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(190, $posts);
+        $this->assertCount(195, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(51, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(52, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -216,6 +216,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-sx4-s-cross-crossover-koji-trazi-proveru-benzinca-dizela-i-4x4-pogona'));
         $this->assertTrue($posts->contains('slug', 'dim-iz-auspuha-na-polovnom-autu-kada-boja-dima-otkriva-turbo-dizne-ulje-ili-rashladnu-tecnost'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-nemacke-kada-dobra-servisna-istorija-nije-dovoljna-bez-provere-kilometraze-i-opreme'));
+        $this->assertTrue($posts->contains('slug', 'dacia-logan-mcv-ili-skoda-rapid-spaceback-karavan-razum-ili-kompakt-kada-budzet-trazi-prostor'));
+        $this->assertTrue($posts->contains('slug', 'polovni-peugeot-207-mali-auto-koji-trazi-proveru-benzinca-elektronike-i-zadnjeg-trapa'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-note-praktican-mali-auto-koji-ne-sme-da-sakrije-cvt-trap-i-gradsku-upotrebu'));
+        $this->assertTrue($posts->contains('slug', 'nemiran-ler-na-polovnom-autu-kada-podrhtavanje-otkriva-nosace-dizne-usis-ili-struju'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-belgije-kada-uredan-oglas-trazi-proveru-kilometraze-korozije-i-jezika-dokumentacije'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
