@@ -5500,6 +5500,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Renault Twingo ili Smart Forfour: gradski auto kada okretanje i parkiranje vrede više od gepeka',
+                'slug' => 'renault-twingo-ili-smart-forfour-gradski-auto-kada-okretanje-i-parkiranje-vrede-vise-od-gepeka',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Twingo i Smart Forfour nude neobičnu gradsku logiku sa zadnjim pogonom i sjajnim manevrisanjem, ali kupac mora proveriti motor, trap, klimu i realnu praktičnost.',
+                'content' => <<<'TEXT'
+Renault Twingo i Smart Forfour nisu mali automobili koji se kupuju samo zato što su kratki. Njihova priča je drugačija: motor pozadi, odličan krug okretanja, lako parkiranje i osećaj da se kroz grad provlačiš bez napora. To može biti velika prednost za vozača koji svaki dan traži mesto u uskim ulicama, ali nije automatski najbolji izbor ako mali auto mora da glumi porodični kompakt.
+
+Twingo je prirodniji izbor za kupca koji želi jednostavniju servisnu mrežu, više oglasa i poznatiju Renault logistiku. Kabina je šarmantna, preglednost dobra, a grad mu je prirodno okruženje. Ipak, proveri motor, hlađenje, kvačilo, trap, klimu, zadnja vrata i tragove parking udaraca. Mali auto koji je stalno živeo u gradu često nosi mnogo sitnih tragova koje fotografije sakriju.
+
+Smart Forfour privlači kupca koji želi nešto drugačije, kompaktnije i upečatljivije. Može biti vrlo prijatan za grad, ali traži hladnu proveru specifičnih delova, elektronike, opreme i servisne istorije. Prednost neobičnog koncepta postoji samo ako se konkretan primerak održavao bez improvizacije. Ako prodavac ne zna da objasni servisni trag, retkost modela više nije prednost nego rizik.
+
+Ako je glavna rutina grad, kratke relacije i parkiranje, oba modela imaju smisla. Twingo je mirniji izbor kada želiš lakše poređenje i jednostavniji posed. Smart Forfour ima više karaktera, ali mora cenom i stanjem opravdati specifičnost. Najbolja kupovina je ona gde odlična okretnost dolazi uz ispravnu klimu, zdrav trap, jasne servise i gepek koji zaista odgovara tvojoj svakodnevici.
+TEXT,
+                'highlights' => [
+                    'Twingo i Forfour imaju smisla kada je grad glavna ruta, a lako parkiranje stvarna prednost.',
+                    'Twingo je mirniji za servis i poređenje oglasa, dok Forfour traži bolji dokaz stanja.',
+                    'Kod oba modela proveri hlađenje, klimu, trap, kvačilo, elektroniku i tragove parking udaraca.',
+                ],
+                'tags' => ['Renault Twingo', 'Smart Forfour', 'gradski auto', 'mali auto', 'poređenje'],
+                'meta_title' => 'Renault Twingo ili Smart Forfour: polovni gradski auto',
+                'meta_description' => 'Poređenje polovnih Renault Twingo i Smart Forfour modela: gradska vožnja, parkiranje, motor pozadi, trap, klima, servis i realna praktičnost.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Seat Leon 5F: kompakt koji traži proveru TSI-a, TDI-a, DSG-a i trapa',
+                'slug' => 'polovni-seat-leon-5f-kompakt-koji-trazi-proveru-tsi-a-tdi-a-dsg-a-i-trapa',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Seat Leon 5F često nudi Golf tehniku za življi novac, ali dobar primerak mora dokazati motor, DSG, trap, opremu i servisni trag.',
+                'content' => <<<'TEXT'
+Seat Leon 5F je jedan od onih polovnjaka koji lako privuče kupca koji želi kompakt, ali ne želi da plati punu cenu Golfa. Izgleda oštrije, često ima dobru opremu i koristi poznatu Volkswagen grupu mehanike. Upravo zato zna da zavara: kupac vidi racionalnu alternativu, a preskoči činjenicu da isti motori, menjači i elektronika traže istu ozbiljnu proveru.
+
+Prva provera je motor. TSI verzije mogu biti vrlo prijatne za grad i otvoren put, ali traže uredne servise, miran hladan start, bez čudnog rada i bez potrošnje ulja koja se objašnjava kao normalna. TDI ima smisla za duže relacije, ali samo ako DPF, EGR, turbina, dizne i servis ulja imaju jasnu priču. Leon koji je radio kratke relacije kao dizel nije bolji zato što troši malo na papiru.
+
+Druga tema je DSG i trap. Ako auto ima automatik, probna vožnja mora uključiti hladno kretanje, gradsko puzanje, rikverc, kočenje i ponovno ubrzanje. Trzaji, kašnjenje i nejasan servis ulja menjaju cenu. Trap proveri preko neravnina, jer veće felne, sportski izgled i gradska vožnja često ostave zvukove, krive felne ili umorne amortizere.
+
+Treća provera je oprema. Ekran, klima, senzori, svetla, tempomat, podizači, brave i svi moduli moraju raditi bez slučajnih grešaka. Dobar Leon 5F može biti odličan kompakt za vozača koji želi više karaktera od proseka. Loš primerak je samo Golf rizik upakovan u atraktivniji oblik, sa računom koji ne pita koja značka stoji na haubi.
+TEXT,
+                'highlights' => [
+                    'Leon 5F može biti odlična Golf alternativa, ali ne sme se proveravati površnije.',
+                    'TSI, TDI i DSG traže servisni trag, hladnu probu i jasnu dijagnostiku.',
+                    'Sportski izgled često znači da trap, felne i amortizeri moraju pažljivo na pregled.',
+                ],
+                'tags' => ['Seat Leon 5F', 'TSI', 'TDI', 'DSG', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Seat Leon 5F: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Seat Leon 5F modela: TSI, TDI, DSG, trap, elektronika, oprema, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Opel Zafira Tourer: sedam sedišta koja moraju opravdati dizel, automatiku i porodični umor',
+                'slug' => 'polovni-opel-zafira-tourer-sedam-sedista-koja-moraju-opravdati-dizel-automatiku-i-porodicni-umor',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Zafira Tourer može biti razuman porodični monovolumen, ali kupac mora proveriti dizel, automatik, treći red, enterijer, trap i tragove teške upotrebe.',
+                'content' => <<<'TEXT'
+Opel Zafira Tourer kupuje se kada porodica preraste običan kompakt, ali ne želi ili ne može da plati veliki SUV. Na fotografijama deluje kao razuman odgovor: sedam sedišta, pristojan komfor, veliki gepek kada treći red nije u upotrebi i cena koja često izgleda poštenije od modernih crossovera. Ali baš zato treba proveriti da li je auto služio porodici ili je porodica već potrošila ono najbolje iz njega.
+
+Prva provera je motor. Dizel može imati smisla ako je Zafira vozila duže relacije i redovno servisirana, ali DPF, EGR, turbina, dizne i plivajući zamajac moraju biti deo pregleda. Benzinac je mirniji za kraće relacije, ali ne znači da može bez provere potrošnje ulja, hlađenja i servisnog ritma. Težak monovolumen ne prašta zapušteno održavanje.
+
+Druga tema je menjač i trap. Automatik mora menjati glatko hladan i topao, bez trzaja i kašnjenja. Manuelni traži proveru kvačila i zamajca. Trap, kočnice, gume i amortizeri trpe mnogo kada se auto vozi natovaren, sa decom, prtljagom i čestim putovanjima. Probna vožnja treba da uključi neravnine, kočenje i slušanje zadnjeg dela.
+
+Treća provera je porodični umor. Pogledaj treći red sedišta, mehanizme sklapanja, klimu pozadi, pod, tapacire, vrata, gepek, ISOFIX, brave i stanje plastika. Dobra Zafira Tourer može biti vrlo praktičan auto za realan novac. Loša Zafira je dokaz da sedam sedišta nije prednost ako svako sedište krije odloženi račun.
+TEXT,
+                'highlights' => [
+                    'Zafira Tourer ima smisla kada sedam sedišta stvarno rešava porodičnu rutinu.',
+                    'Dizel, automatik, kvačilo, zamajac i DPF moraju imati jasnu servisnu priču.',
+                    'Treći red, klima, enterijer i zadnji trap otkrivaju koliko je auto bio porodično potrošen.',
+                ],
+                'tags' => ['Opel Zafira Tourer', 'sedam sedišta', 'monovolumen', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Zafira Tourer: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Opel Zafira Tourer modela: sedam sedišta, dizel, automatik, DPF, trap, enterijer, klima i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Letva volana na polovnom autu: kada lupkanje, težak volan i servo otkrivaju skup račun',
+                'slug' => 'letva-volana-na-polovnom-autu-kada-lupkanje-tezak-volan-i-servo-otkrivaju-skup-racun',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Problem sa letvom volana ne mora biti samo sitan zvuk iz trapa; može uključiti servo pumpu, elektroniku, curenje, spone i skupu reparaciju.',
+                'content' => <<<'TEXT'
+Letva volana je deo koji kupac često primeti tek kada problem već postane očigledan. Auto malo lupka preko neravnina, volan je teži pri parkiranju ili se čuje čudan zvuk pri okretanju. Prodavac to često objasni kao spone, gumice ili normalan zvuk trapa. Nekad je zaista sitnica, ali nekad je početak skupe priče oko letve, servo sistema, elektronike ili loše prethodne popravke.
+
+Prva provera je vožnja preko neravnina i okretanje volana u mestu. Obrati pažnju na lupkanje, preskakanje, nejednak otpor, zujanje pumpe, lampicu volana i da li auto vuče u stranu. Ako se volan ne vraća prirodno ili se ponašanje menja između hladnog i toplog stanja, problem treba razumeti pre kapare.
+
+Druga tema je curenje i mehanički pregled. Kod hidrauličnog serva proveri nivo ulja, creva, pumpu i tragove curenja oko letve. Kod električnog serva proveri greške, senzore, instalaciju i ponašanje pri parkiranju. Spone, krajevi spona, kugle, amortizeri i gume mogu dati slične simptome, zato pregled na dizalici mora razdvojiti uzrok.
+
+Treća provera je cena popravke. Reparacija letve, nova pumpa, električni modul ili rad na instalaciji mogu brzo pojesti popust koji je delovao dobar. Ako prodavac tvrdi da je "samo trap", neka majstor potvrdi šta je tačno. Dobar polovan auto treba da skreće tiho, precizno i predvidljivo. Sve drugo je stavka za ozbiljan pregled, ne samo tema za kratko cenkanje.
+TEXT,
+                'highlights' => [
+                    'Lupkanje, težak volan ili zujanje pri parkiranju ne treba svesti na običnu sitnicu.',
+                    'Hidraulični i električni servo imaju različite rizike i različitu cenu popravke.',
+                    'Letva, spone, kugle, amortizeri i gume moraju se razdvojiti pregledom na dizalici.',
+                ],
+                'tags' => ['letva volana', 'servo volan', 'trap', 'provera vozila', 'polovni auto'],
+                'meta_title' => 'Letva volana na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti letvu volana kod polovnog auta: lupkanje, težak volan, servo pumpa, električni servo, curenje, spone, trap i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Poljske: kada dobra cena traži proveru korozije, kilometraže i porekla',
+                'slug' => 'uvoz-auta-iz-poljske-kada-dobra-cena-trazi-proveru-korozije-kilometraze-i-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Poljski uvoz može ponuditi dobru cenu i solidan izbor, ali kupac mora proveriti poreklo, koroziju, kilometražu, servisni trag i kvalitet popravki.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Poljske sve češće ulazi u razgovor kada kupac traži bolju cenu ili model koji nije lako naći lokalno. Tržište je veliko, izbor može biti zanimljiv, a oglasi ponekad deluju povoljnije od zapadnoevropskih primeraka. Ali dobra cena ne sme da zameni pitanje porekla. Kod svakog uvoza iz Poljske treba razumeti da li je auto zaista poljski primerak, prethodno uvezen iz druge zemlje ili popravljan za dalju prodaju.
+
+Prva provera je dokumentacija. VIN, servisni zapisi, tehnički pregledi, računi, izvozna dokumentacija i broj vlasnika moraju se slagati sa pričom prodavca. Ako je auto pre Poljske došao iz Nemačke, Francuske, Belgije ili aukcije, kupac mora znati celu putanju. Poreklo nije problem samo po sebi, ali nejasno poreklo jeste.
+
+Druga tema je korozija i kvalitet popravki. Zimski uslovi, so, loši putevi i brze kozmetičke pripreme mogu sakriti stanje poda, pragova, rubova, nosača, kočnica i izduva. Pregled na dizalici je obavezan, kao i merenje laka. Sveže ofarban branik nije problem ako ima objašnjenje, ali neujednačeni zazori, različite nijanse i jeftini farovi menjaju celu računicu.
+
+Treća provera je kilometraža i oprema. Broj na satu mora imati logiku sa enterijerom, servisima, gumama, kočnicama i cenom. Proveri da li oprema odgovara VIN-u i da li rade klima, senzori, kamera, svetla i asistencije. Poljski uvoz može biti dobra kupovina kada cena priznaje stanje i dokumentacija nema rupa. Ako je jedini argument "povoljnije je", kupac treba da uspori.
+TEXT,
+                'highlights' => [
+                    'Kod uvoza iz Poljske prvo proveri punu putanju vozila, ne samo zemlju iz oglasa.',
+                    'Korozija, pod, pragovi i kvalitet popravki moraju se gledati na dizalici i merenjem laka.',
+                    'Dobra cena ima smisla samo kada kilometraža, oprema i dokumentacija pričaju istu priču.',
+                ],
+                'tags' => ['uvoz iz Poljske', 'uvoz auta', 'korozija', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Poljske: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Poljske: poreklo, VIN, kilometraža, korozija, servisna istorija, kvalitet popravki, oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

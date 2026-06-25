@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(195, $posts);
+        $this->assertCount(200, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(52, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(53, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -221,6 +221,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-note-praktican-mali-auto-koji-ne-sme-da-sakrije-cvt-trap-i-gradsku-upotrebu'));
         $this->assertTrue($posts->contains('slug', 'nemiran-ler-na-polovnom-autu-kada-podrhtavanje-otkriva-nosace-dizne-usis-ili-struju'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-belgije-kada-uredan-oglas-trazi-proveru-kilometraze-korozije-i-jezika-dokumentacije'));
+        $this->assertTrue($posts->contains('slug', 'renault-twingo-ili-smart-forfour-gradski-auto-kada-okretanje-i-parkiranje-vrede-vise-od-gepeka'));
+        $this->assertTrue($posts->contains('slug', 'polovni-seat-leon-5f-kompakt-koji-trazi-proveru-tsi-a-tdi-a-dsg-a-i-trapa'));
+        $this->assertTrue($posts->contains('slug', 'polovni-opel-zafira-tourer-sedam-sedista-koja-moraju-opravdati-dizel-automatiku-i-porodicni-umor'));
+        $this->assertTrue($posts->contains('slug', 'letva-volana-na-polovnom-autu-kada-lupkanje-tezak-volan-i-servo-otkrivaju-skup-racun'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-poljske-kada-dobra-cena-trazi-proveru-korozije-kilometraze-i-porekla'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
