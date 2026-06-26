@@ -5635,6 +5635,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Toyota Aygo ili Citroen C1: gradski blizanci kada niska potrošnja nije cela priča',
+                'slug' => 'toyota-aygo-ili-citroen-c1-gradski-blizanci-kada-niska-potrosnja-nije-cela-prica',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aygo i C1 dele istu gradsku logiku, ali kupac mora gledati stanje, servis, kvačilo, trap i realnu cenu umesto samo male potrošnje.',
+                'content' => <<<'TEXT'
+Toyota Aygo i Citroen C1 često deluju kao jednostavan odgovor kada treba mali auto za grad, početnika ili drugi porodični automobil. Kratki su, pregledni, troše malo i lako se parkiraju. Ali baš zato kupci često spuste gard i očekuju da mali auto automatski znači malu brigu. Kod polovnjaka te klase najskuplje greške ne dolaze iz luksuza, nego iz zanemarenih sitnica.
+
+Aygo ima prednost reputacije Toyote i često se lakše brani u razgovoru o kasnijoj prodaji. To ne znači da svaki primerak zaslužuje višu cenu. Proveri hladan start, kvačilo, menjač, lanac, curenja, klimu i stanje enterijera. Ako je auto godinama radio kratke relacije, akumulator, kočnice i izduv mogu biti umorniji nego što kilometraža sugeriše.
+
+C1 je često povoljniji i može biti jednako dobar ako je konkretan primerak uredan. Njegova prednost je što kupac ponekad dobije bolji odnos cene i stanja jer značka ne nosi istu reputacijsku premiju. Ipak, treba gledati iste stvari: motor, kvačilo, trap, gume, vrata, podizače, klimu i tragove parking udaraca. Kod malog gradskog auta oštećeni branici i felne često pričaju istoriju svakodnevice.
+
+Ako su oba auta sličnog stanja, Aygo ima prednost za kupca koji želi mirniju kasniju prodaju. C1 ima smisla kada je cena realnija, servis jasniji ili je primerak očuvaniji. Najbolji izbor nije onaj koji najmanje troši na papiru, nego onaj koji neće odmah tražiti kvačilo, kočnice, gume, akumulator i servis koji je prethodni vlasnik odlagao.
+TEXT,
+                'highlights' => [
+                    'Aygo i C1 su bliski tehnički, pa stanje konkretnog primerka često vredi više od značke.',
+                    'Kvačilo, kočnice, akumulator, klima i trap otkrivaju koliko je auto živeo u gradu.',
+                    'Mala potrošnja nema smisla ako prvi mesec donese servis koji je prodavac odlagao.',
+                ],
+                'tags' => ['Toyota Aygo', 'Citroen C1', 'gradski auto', 'mali auto', 'poređenje'],
+                'meta_title' => 'Toyota Aygo ili Citroen C1: koji mali polovnjak',
+                'meta_description' => 'Poređenje polovnih Toyota Aygo i Citroen C1 modela: gradska vožnja, potrošnja, kvačilo, trap, klima, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Ford Fiesta: mali auto koji traži proveru EcoBoost-a, trapa i gradske upotrebe',
+                'slug' => 'polovni-ford-fiesta-mali-auto-koji-trazi-proveru-ecoboost-a-trapa-i-gradske-upotrebe',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Fiesta može biti odličan mali auto za vozača koji želi življi osećaj, ali kupac mora proveriti motor, servisni ritam, trap, kvačilo i elektroniku.',
+                'content' => <<<'TEXT'
+Ford Fiesta je mali auto koji često privuče kupca koji ne želi da gradska vožnja bude dosadna. Upravljanje je prijatno, dimenzije su razumne, a ponuda polovnjaka široka. Zato Fiesta lako deluje kao sigurnija kupovina od egzotičnijih malih automobila. Problem je što popularan model ne oprašta površnu proveru, posebno kada je godinama korišćen po gradu.
+
+Prva provera je motor. EcoBoost verzije mogu biti vrlo dobre kada imaju jasan servisni ritam, kvalitetno ulje i dokumentaciju. Bez toga, mala zapremina i turbo priča traže oprez. Proveri hladan start, curenja, potrošnju rashladne tečnosti, rad turbine, servisne račune i da li je vlasnik znao šta vozi. Jednostavniji benzinci mogu biti mirniji izbor ako je budžet skroman.
+
+Druga tema je trap i gradski život. Fiesta se često vozi življe, preko ivičnjaka, rupa i kratkih relacija. Probna vožnja treba da uključi neravnine, kočenje, okretanje volana i slušanje prednjeg kraja. Kvačilo, menjač, kočnice, gume i amortizeri mogu brzo poništiti razliku između jeftinog oglasa i urednog primerka.
+
+Treća provera je elektronika i kabina. Klima, podizači, brave, multimedija, senzori, svetla i instrument tabla moraju raditi bez izgovora. Dobra Fiesta je odličan mali polovnjak za vozača koji želi praktičnost sa malo karaktera. Loša Fiesta je dokaz da mali auto sa lepim volanom i dobrom cenom i dalje može sakriti ozbiljan prvi račun.
+TEXT,
+                'highlights' => [
+                    'Fiesta ima odličan gradski karakter, ali EcoBoost traži dokumentovan servisni ritam.',
+                    'Trap, kvačilo, kočnice i gume često otkrivaju da li je auto vožen grubo po gradu.',
+                    'Kod malog auta ne preskači klimu, brave, podizače, svetla i instrument tablu.',
+                ],
+                'tags' => ['Ford Fiesta', 'EcoBoost', 'mali auto', 'gradska upotreba', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Ford Fiesta: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Ford Fiesta modela: EcoBoost, benzinac, trap, kvačilo, klima, gradska upotreba, servis i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Citroen C4 Picasso: porodični monovolumen koji ne sme da sakrije elektroniku i EGS',
+                'slug' => 'polovni-citroen-c4-picasso-porodicni-monovolumen-koji-ne-sme-da-sakrije-elektroniku-i-egs',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C4 Picasso nudi mnogo prostora i udobnosti za porodicu, ali dobar primerak mora dokazati elektroniku, menjač, dizel sistem, trap i enterijer.',
+                'content' => <<<'TEXT'
+Citroen C4 Picasso je auto koji porodicu lako kupi prostorom, svetlom kabinom i osećajem da je neko stvarno mislio o svakodnevici. Kada deca, torbe, kolica i vikend putovanja postanu redovna rutina, ovakav monovolumen može imati više smisla od skupljeg SUV-a. Ali udobna porodična priča ne sme da sakrije pitanje održavanja, posebno kod primeraka sa bogatom opremom.
+
+Prva provera je motor i menjač. Dizel može biti dobar izbor ako je auto vozio duže relacije i ima uredne servise, ali DPF, EGR, turbina, dizne i plivajući zamajac moraju biti jasni. Ako primerak ima robotizovani EGS menjač, probna vožnja mora pokazati kako kreće, menja brzine, manevriše i ponaša se u gužvi. Trzaji nisu stvar ukusa kada popravka ulazi u budžet.
+
+Druga tema je elektronika. Ekrani, klima, parking senzori, kamera, električna ručna, brave, podizači, svetla, instrument tabla i svi porodični dodaci moraju raditi bez slučajnih upozorenja. Prodavčevo "to je samo senzor" nema vrednost dok dijagnostika ne kaže šta je stvarno. Kod ovakvog auta oprema je prednost samo ako radi.
+
+Treća provera je porodični umor. Pogledaj sedišta, ISOFIX, stočiće, gepek, pod, tapacire, vrata, klizne pregrade, zadnji trap i kočnice. Dobar C4 Picasso može biti vrlo razumna kupovina za porodicu koja želi prostor bez SUV cene. Loš primerak je udobna kabina puna sitnih problema koji se sabiraju brže nego što kupac očekuje.
+TEXT,
+                'highlights' => [
+                    'C4 Picasso ima smisla kada porodici treba prostor, ali oprema mora raditi bez izgovora.',
+                    'EGS menjač, DPF, EGR i dizel servisni trag treba proveriti pre pregovora.',
+                    'Enterijer, ISOFIX, gepek i zadnji trap otkrivaju koliko je auto već porodično potrošen.',
+                ],
+                'tags' => ['Citroen C4 Picasso', 'monovolumen', 'EGS', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Citroen C4 Picasso: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Citroen C4 Picasso modela: dizel, EGS menjač, elektronika, klima, porodična upotreba, trap i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Check engine lampica na polovnom autu: kada obrisana greška vredi više od probne vožnje',
+                'slug' => 'check-engine-lampica-na-polovnom-autu-kada-obrisana-greska-vredi-vise-od-probne-voznje',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Check engine lampica ne mora značiti skup kvar, ali obrisane greške, readiness status i ponavljanje simptoma mogu otkriti šta oglas pokušava da preskoči.',
+                'content' => <<<'TEXT'
+Check engine lampica je jedna od onih stvari koju kupac ne želi da vidi na polovnom autu. Još opasnija je situacija kada je ne vidi, a prodavac usput kaže da je "pre neki dan obrisana neka stara greška". Lampica sama po sebi nije presuda. Problem je kada se kvar ne razume, kada se greške brišu pred dolazak kupca ili kada probna vožnja nije dovoljno duga da pokaže da se simptom vraća.
+
+Prva provera je dijagnostika pre brisanja. Ako greška postoji, treba je očitati, zapisati i povezati sa simptomima. Sonda, bobina, EGR, DPF, katalizator, dizne, senzor pritiska, usis ili loš akumulator mogu svi otvoriti različite račune. Prodavčeva rečenica da je "samo senzor" ne znači ništa bez koda greške i pregleda.
+
+Druga tema je readiness status. Posle brisanja grešaka, neki sistemi još nisu završili samoproveru. Auto može kratko delovati čist, a problem se vratiti posle određene vožnje. Zato je važno gledati da li su monitori spremni, da li se lampica vraća posle hladnog starta, gradske vožnje, otvorenog puta i jačeg ubrzanja.
+
+Treća provera je računica. Check engine nije automatski razlog za odustajanje, ali jeste razlog da se kvar dijagnostikuje pre kapare. Ako prodavac ne dozvoljava dijagnostiku ili insistira da se greška ignoriše, rizik prelazi na kupca. Dobar auto ne mora biti bez ijedne stare greške u istoriji, ali mora imati objašnjenje koje majstor može da potvrdi.
+TEXT,
+                'highlights' => [
+                    'Check engine grešku treba očitati pre brisanja i povezati je sa stvarnim simptomima.',
+                    'Readiness status posle brisanja grešaka može otkriti da provera nije završena.',
+                    'Popust ima smisla tek kada majstor zna uzrok i cenu popravke.',
+                ],
+                'tags' => ['check engine', 'dijagnostika', 'obrisane greške', 'provera vozila', 'polovni auto'],
+                'meta_title' => 'Check engine lampica na polovnom autu',
+                'meta_description' => 'Kako proveriti check engine lampicu kod polovnog auta: dijagnostika, obrisane greške, readiness status, EGR, DPF, sonde, dizne i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Danske: kada uredan servis traži proveru korozije, poreza i opreme',
+                'slug' => 'uvoz-auta-iz-danske-kada-uredan-servis-trazi-proveru-korozije-poreza-i-opreme',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Danski uvoz može imati dobru servisnu disciplinu, ali kupac mora proveriti koroziju, poreklo, izvoznu dokumentaciju, opremu i realan razlog cene.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Danske kod kupaca često zvuči uredno: strogo tržište, servisna disciplina i automobili koji na fotografijama deluju čisto. To može biti dobra polazna tačka, ali nije garancija mirne kupovine. Danska ima svoje specifičnosti, od poreza i izvozne dokumentacije do vremenskih uslova koji mogu ostaviti trag na donjem delu automobila.
+
+Prva provera je dokumentacija i poreklo cene. Auto koji napušta dansko tržište može imati dobar razlog za izvoz, ali kupac treba da razume papire, vlasništvo, servisne račune, tehničke zapise i da li cena odražava stanje ili samo komplikovan put do registracije. Ako posrednik ne ume da objasni dokumentaciju, uredna fotografija nije dovoljna.
+
+Druga tema je korozija. Vlažno vreme, zima, so i otvoreni putevi mogu uticati na pod, pragove, nosače, kočnice, izduv i zavrtnje. Pregled na dizalici je obavezan, naročito kod starijih auta i vozila koja su dosta vozila zimi. Auto može izgledati odlično spolja, a da ispod traži ulaganja koja oglas ne pominje.
+
+Treća provera je oprema i kilometraža. VIN treba da potvrdi paket opreme, a svi sistemi moraju raditi: svetla, klima, grejanje sedišta, senzori, kamera, multimedija i asistencije. Kilometraža mora imati logiku sa enterijerom, servisima i gumama. Dobar danski uvoz ima smisla kada su papiri, stanje i cena u istoj priči. Ako jedna od te tri stvari škripi, kupac treba da uspori.
+TEXT,
+                'highlights' => [
+                    'Danski uvoz može biti uredan, ali dokumentacija i razlog izvoza moraju biti jasni.',
+                    'Vlažni i zimski uslovi traže pregled poda, pragova, kočnica i izduva na dizalici.',
+                    'VIN, oprema, kilometraža i servisni trag moraju se slagati pre kapare.',
+                ],
+                'tags' => ['uvoz iz Danske', 'uvoz auta', 'korozija', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Danske: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Danske: servisna istorija, izvozna dokumentacija, korozija, poreklo cene, oprema, VIN i realno stanje.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

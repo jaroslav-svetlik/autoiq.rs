@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.82] - 2026-06-26
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota Aygo vs Citroen C1, used Ford Fiesta checks, used Citroen C4 Picasso buying guidance, check-engine inspection, and Danish import risk.
+- Added an editorial playbook for future AutoIQ production blog batches and daily automation runs.
+
 ## [0.1.81] - 2026-06-25
 
 ### Added
