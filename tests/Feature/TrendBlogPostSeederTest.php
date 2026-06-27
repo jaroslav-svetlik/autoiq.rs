@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(205, $posts);
+        $this->assertCount(210, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(54, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(55, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -231,6 +231,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-citroen-c4-picasso-porodicni-monovolumen-koji-ne-sme-da-sakrije-elektroniku-i-egs'));
         $this->assertTrue($posts->contains('slug', 'check-engine-lampica-na-polovnom-autu-kada-obrisana-greska-vredi-vise-od-probne-voznje'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-danske-kada-uredan-servis-trazi-proveru-korozije-poreza-i-opreme'));
+        $this->assertTrue($posts->contains('slug', 'lancia-ypsilon-ili-fiat-punto-mali-auto-kada-stil-i-servis-moraju-da-se-sloze'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-cruze-limuzina-koja-trazi-proveru-delova-servisa-i-dizela'));
+        $this->assertTrue($posts->contains('slug', 'polovni-dacia-lodgy-sedam-sedista-kada-niska-cena-mora-da-dokaze-porodicni-zivot'));
+        $this->assertTrue($posts->contains('slug', 'auto-sa-samo-jednim-kljucem-kada-sitnica-otkriva-papire-elektroniku-ili-rizik'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-austrije-kada-uredan-servis-trazi-proveru-soli-porekla-i-cene'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

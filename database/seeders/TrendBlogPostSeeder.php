@@ -5770,6 +5770,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Lancia Ypsilon ili Fiat Punto: mali auto kada stil i servis moraju da se slože',
+                'slug' => 'lancia-ypsilon-ili-fiat-punto-mali-auto-kada-stil-i-servis-moraju-da-se-sloze',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ypsilon i Punto mogu biti povoljni gradski automobili, ali kupac mora odlučiti da li plaća izgled, jednostavnost, dostupnost delova ili stvarno stanje.',
+                'content' => <<<'TEXT'
+Miloš je tražio mali auto za suprugu i kratke gradske relacije, a u užem izboru ostali su Lancia Ypsilon iz oglasa sa lepšim enterijerom i Fiat Punto koji je delovao skromnije, ali je imao jasnije račune. Na fotografijama je Ypsilon izgledao kao bolja prilika. Na papiru je Punto bio dosadniji, ali lakši za proveru i servis. To je tačna dilema kod ovih modela: stil protiv jednostavnije računice.
+
+Ypsilon ima smisla kada kupac želi mali auto koji ne deluje potpuno obično. Kabina, boje i detalji mogu podići osećaj vrednosti, ali ne smeju sakriti osnovne provere. Hladan start, kvačilo, menjač, trap, klima, brave, podizači i stanje enterijera moraju biti uredni. Ako prodavac traži višu cenu samo zbog izgleda, servisna istorija mora pratiti tu priču.
+
+Punto je racionalniji izbor kada je budžet ograničen i kada kupac želi auto koji većina servisa poznaje. Prednost su dostupniji delovi, mnogo iskustva na tržištu i lakše poređenje oglasa. Mana je što su mnogi primerci dugo služili kao jeftin gradski alat, pa treba gledati pragove, trap, kvačilo, grejanje, klimu, elektroniku i tragove odloženog održavanja.
+
+Ako je Ypsilon uredniji, sa dokazanim servisom i bez sitnih elektronskih izgovora, može opravdati višu cenu za kupca kome je izgled važan. Ako je Punto mlađi, dokumentovaniji i jeftiniji za prvo sređivanje, bolja je kupovina. Kod oba modela ne plaćaj fotografije nego stanje: mali auto koji odmah traži kvačilo, gume, klimu i trap brzo prestaje da bude povoljan.
+TEXT,
+                'highlights' => [
+                    'Ypsilon vredi više samo kada izgled prati uredna mehanika i jasna servisna istorija.',
+                    'Punto je racionalniji kada kupac želi dostupnije delove i lakše poređenje oglasa.',
+                    'Kod oba modela kvačilo, trap, klima, brave i gradski tragovi odlučuju stvarnu cenu.',
+                ],
+                'tags' => ['Lancia Ypsilon', 'Fiat Punto', 'mali auto', 'gradska vožnja', 'poređenje'],
+                'meta_title' => 'Lancia Ypsilon ili Fiat Punto: koji polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Lancia Ypsilon i Fiat Punto modela: gradska vožnja, servis, delovi, trap, kvačilo, klima, elektronika i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Chevrolet Cruze: limuzina koja traži proveru delova, servisa i dizela',
+                'slug' => 'polovni-chevrolet-cruze-limuzina-koja-trazi-proveru-delova-servisa-i-dizela',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Cruze često privuče kupca cenom, prostorom i ozbiljnim izgledom, ali dobar primerak mora dokazati servis, dostupnost delova, motor i elektroniku.',
+                'content' => <<<'TEXT'
+Jelena je gledala kompakte do skromnog budžeta, ali joj je Chevrolet Cruze delovao kao klasa više za isti novac: veća limuzina, ozbiljan izgled i oprema koja kod popularnijih modela košta više. Upravo tu Cruze najčešće hvata kupca. Cena deluje privlačno, ali pitanje nije samo koliko auto košta danas, nego koliko lako možeš rešiti servis i delove posle kupovine.
+
+Prva provera je motor i servisni ritam. Benzinske verzije treba slušati hladne, gledati curenja, rad u leru, hlađenje i račune za redovne servise. Dizel može biti prijatan na otvorenom putu, ali traži proveru turbine, dizni, DPF-a, EGR-a, zamajca i načina prethodne vožnje. Ako je Cruze kupljen zato što je bio jeftiniji od konkurencije, proveri da li je i održavanje bilo jeftino, a ne redovno.
+
+Druga tema je dostupnost delova i elektronika. Klima, instrument tabla, senzori, svetla, brave, podizači i multimedija moraju raditi bez objašnjenja da je "to sitnica". Pre kapare proveri kod servisa koliko koštaju delovi za konkretan motor i godište. Povoljan oglas nema smisla ako prvi kvar pretvori čekanje dela u skuplju kupovinu nego što si planirao.
+
+Cruze ima smisla kada je primerak dokumentovan, motor radi mirno, elektronika je uredna, a servis zna šta kupuješ. Nema smisla ako je jedini argument niska cena i veći auto za manje novca. Bolje je platiti uredan kompakt sa jasnim tragom nego limuzinu koja već na prvoj proveri traži opravdanja za motor, delove i opremu.
+TEXT,
+                'highlights' => [
+                    'Cruze privlači cenom i prostorom, ali servisni trag mora biti jači od povoljnog oglasa.',
+                    'Dizel traži proveru turbine, dizni, DPF-a, EGR-a i zamajca pre pregovora.',
+                    'Dostupnost delova i ispravnost elektronike treba proveriti pre kapare.',
+                ],
+                'tags' => ['Chevrolet Cruze', 'limuzina', 'dizel', 'delovi', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chevrolet Cruze: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Chevrolet Cruze modela: benzinac, dizel, DPF, EGR, delovi, elektronika, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Dacia Lodgy: sedam sedišta kada niska cena mora da dokaže porodični život',
+                'slug' => 'polovni-dacia-lodgy-sedam-sedista-kada-niska-cena-mora-da-dokaze-porodicni-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lodgy nudi mnogo prostora za malo novca, ali kupac mora proveriti da li su sedišta, trap, klima, dizel i enterijer već potrošeni porodičnom upotrebom.',
+                'content' => <<<'TEXT'
+Porodica iz Pančeva tražila je sedam sedišta bez SUV cene i brzo je stigla do Dacia Lodgy. Na oglasu je delovala kao praktično rešenje: veliki gepek, jednostavna kabina i cena koja ostavlja novac za registraciju i prvi servis. Ali kod Lodgyja niska cena nije kraj računice. To je početak provere koliko je auto već radio za porodicu, posao ili oba.
+
+Prva provera je enterijer. Sedišta, šine, preklapanje drugog i trećeg reda, pojasevi, ISOFIX, tapaciri, gepek i plastike govore koliko je auto zaista korišćen. Lodgy često nosi decu, prtljag, kolica, alat ili robu, pa uredna karoserija ne znači da kabina nije umorna. Ako treći red ne radi lako ili klima ne hladi celu kabinu, prostor gubi deo vrednosti.
+
+Druga tema je motor, trap i kočnice. Dizel ima smisla za duže relacije, ali DPF, EGR, turbina, dizne i servis ulja moraju imati jasan trag. Benzinac može biti mirniji za kraće vožnje, ali težak auto traži proveru potrošnje, kvačila i hlađenja. Trap, amortizeri, gume i kočnice posebno trpe kada je auto često natovaren.
+
+Lodgy je dobra kupovina kada kupac stvarno koristi prostor i dobija primerak sa razumljivom istorijom. Nije dobra kupovina ako je sedam sedišta samo ideja, a auto odmah traži klimu, gume, trap i veliki servis. Kod ovakvog auta prvo probaj porodični scenario: sedišta, gepek, dečja oprema, ulazak i probna vožnja preko neravnina. Ako tu prođe, cena tek tada postaje zanimljiva.
+TEXT,
+                'highlights' => [
+                    'Lodgy ima smisla kada zaista koristiš sedam sedišta i veliki gepek.',
+                    'Treći red, klima, tapaciri i ISOFIX otkrivaju stvaran porodični umor.',
+                    'Dizel, trap, kočnice i gume moraju priznati težinu i čestu natovarenost auta.',
+                ],
+                'tags' => ['Dacia Lodgy', 'sedam sedišta', 'porodični auto', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Dacia Lodgy: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Dacia Lodgy modela: sedam sedišta, dizel, klima, trap, kočnice, enterijer, ISOFIX i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Auto sa samo jednim ključem: kada sitnica otkriva papire, elektroniku ili rizik',
+                'slug' => 'auto-sa-samo-jednim-kljucem-kada-sitnica-otkriva-papire-elektroniku-ili-rizik',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jedan ključ ne mora značiti problem, ali može otvoriti pitanja vlasništva, uvoza, krađe, elektronike, kodiranja i stvarnog troška posle kupovine.',
+                'content' => <<<'TEXT'
+Nikola je skoro završio kupovinu urednog karavana kada je prodavac usput rekao da postoji samo jedan ključ. Delovalo je kao sitnica, ali majstor ga je zaustavio: kod polovnog auta ključ nije samo komad plastike. On dodiruje papire, elektroniku, imobilajzer, alarm, brave i pitanje da li je istorija vozila kompletna.
+
+Prva provera je objašnjenje. Jedan ključ može biti izgubljen tokom godina, ali prodavac treba da zna kada i kako. Ako je auto tek uvezen, bio na lizingu, kupljen na aukciji ili menjao više vlasnika, nedostatak drugog ključa traži više pažnje. Dokumentacija, VIN, vlasništvo i servisni zapisi moraju biti jasni pre nego što se tema svede na mali popust.
+
+Druga tema je trošak i bezbednost. Moderni ključ može uključiti daljinsko otključavanje, imobilajzer, keyless sistem i kodiranje kod ovlašćenog ili specijalizovanog servisa. Nije isto napraviti običan metalni ključ i programirati pametni ključ. Proveri cenu, rok i da li stari izgubljeni ključ može biti obrisan iz sistema ako postoji sumnja.
+
+Kupovina nije automatski loša zbog jednog ključa, ali ne treba dati kaparu dok se ne proveri vlasništvo, cena izrade i rad svih brava. Ako prodavac odbija da tema uđe u ugovor ili pregovor, rizik ostaje kupcu. Dobar dogovor je onaj u kome se trošak novog ključa i provera elektronike priznaju pre prenosa, a ne posle prvog zaključavanja na parkingu.
+TEXT,
+                'highlights' => [
+                    'Jedan ključ traži proveru vlasništva, uvozne dokumentacije i objašnjenja prodavca.',
+                    'Cena novog ključa zavisi od imobilajzera, keyless sistema i kodiranja.',
+                    'Izgubljeni ključ treba obrisati iz sistema kada postoji bezbednosna sumnja.',
+                ],
+                'tags' => ['jedan ključ', 'imobilajzer', 'keyless', 'dokumentacija', 'provera vozila'],
+                'meta_title' => 'Auto sa samo jednim ključem: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto sa jednim ključem: vlasništvo, dokumentacija, imobilajzer, keyless, kodiranje, brave, bezbednost i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Austrije: kada uredan servis traži proveru soli, porekla i cene',
+                'slug' => 'uvoz-auta-iz-austrije-kada-uredan-servis-trazi-proveru-soli-porekla-i-cene',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Austrijski uvoz može imati uredne servise i bogatu opremu, ali planinski uslovi, so, korozija, poreklo i realna cena moraju biti provereni.',
+                'content' => <<<'TEXT'
+Kupac iz Novog Sada je našao karavan iz Austrije sa servisnom istorijom, dobrim gumama i opremom koja je na domaćem tržištu retka. Oglas je delovao ubedljivo jer austrijski automobili često nose sliku urednog održavanja. Ipak, poreklo samo otvara vrata. Ne govori dovoljno o zimama, soli, planinskim putevima, prethodnoj nameni i razlogu zašto auto sada dolazi u Srbiju.
+
+Prva provera je dokumentacija. Servisni računi, tehnički pregledi, vlasništvo, izvozna dokumentacija i VIN moraju se slagati sa kilometražom i stanjem. Ako je auto bio službeni, karavan za duge relacije ili porodični automobil iz planinskog kraja, cena mora priznati način korišćenja. Uredan pečat ne govori sam koliko su trap, kočnice i pod već videli zime.
+
+Druga tema je so i donji deo auta. Austrijski putevi zimi mogu ostaviti trag na pragovima, podu, nosačima, kočionim cevima, izduvu, šrafovima i vešanju. Pregled na dizalici je obavezan, čak i kada karoserija blista. Posebno gledaj tragove svežeg premaza koji može biti zaštita, ali može biti i pokušaj da se sakrije rđa.
+
+Austrijski uvoz ima smisla kada dokumenti, kilometraža, oprema i stanje podvozja pričaju istu priču. Ako je cena niža od sličnih primeraka, prvo pronađi razlog: kilometraža, korozija, flotna upotreba, skupi servis ili oprema koja ne radi. Dobar auto iz Austrije može biti odlična kupovina, ali tek posle pregleda koji ide ispod fotografija i reputacije tržišta.
+TEXT,
+                'highlights' => [
+                    'Austrijsko poreklo nije dovoljno bez provere servisnih računa, VIN-a i izvozne dokumentacije.',
+                    'Zimska so traži pregled poda, pragova, kočionih cevi, izduva i vešanja na dizalici.',
+                    'Niža cena mora imati objašnjenje pre kapare, posebno kod karavana i službenih vozila.',
+                ],
+                'tags' => ['uvoz iz Austrije', 'uvoz auta', 'korozija', 'servisna istorija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Austrije: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Austrije: servisna istorija, VIN, dokumentacija, so, korozija, podvozje, oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.83] - 2026-06-27
+
+### Added
+
+- Added five non-duplicate production blog articles covering Lancia Ypsilon vs Fiat Punto, used Chevrolet Cruze checks, used Dacia Lodgy buying guidance, one-key vehicle risk, and Austrian import checks.
+
 ## [0.1.82] - 2026-06-26
 
 ### Added
