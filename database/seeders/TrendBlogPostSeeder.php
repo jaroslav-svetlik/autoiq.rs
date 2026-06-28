@@ -5905,6 +5905,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Renault Espace ili Ford Galaxy: sedam sedišta kada porodica ne želi SUV cenu',
+                'slug' => 'renault-espace-ili-ford-galaxy-sedam-sedista-kada-porodica-ne-zeli-suv-cenu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Espace i Galaxy mogu dati mnogo prostora za manje novca od SUV-a, ali kupac mora proveriti automatiku, klimu, sedišta i porodični umor.',
+                'content' => <<<'TEXT'
+Jovana i Marko su posle trećeg dečjeg sedišta shvatili da kompaktni SUV više ne rešava svaki dan. U oglasima su im Renault Espace i Ford Galaxy delovali kao razumniji odgovor od skupljeg sedmoseda sa SUV oznakom: prava sedišta, veliki gepek kada se treći red spusti i cena koja ostavlja novac za prvi servis. Ali kod velikog monovolumena prostor je samo početak provere, ne dokaz da je kupovina dobra.
+
+Espace je privlačniji kada želiš udobniji, moderniji osećaj i auto koji se ne vozi kao kombi. Treba proveriti elektroniku, automatski menjač, rad svih ekrana, klimu u celoj kabini, amortizere, trap i tragove skupog održavanja koje je prethodni vlasnik možda odlagao. Ako je primerak bogato opremljen, svaka funkcija mora raditi bez izgovora, jer porodični komfor vredi samo dok ne postane lista sitnih kvarova.
+
+Galaxy je jači kandidat kada prioritet nisu stil i dizajn, nego izdržljiv prostor. Kod njega su važni dizel, automatik ako postoji, zadnji trap, kočnice, klizanje i preklapanje sedišta, klima za zadnje putnike i stanje enterijera. Primerak koji je vozio decu, prtljag i duge odmore može biti poštena kupovina, ali samo ako habanje prati cenu. Ako treći red, pojasevi, ISOFIX i tapaciri ne izgledaju uverljivo, pregovaranje počinje odmah.
+
+Ako porodici zaista treba sedam sedišta, Espace ima smisla kada želiš udobniji auto i možeš da dokažeš urednu elektroniku i servis. Galaxy ima prednost kada tražiš jednostavniju porodičnu alatku i veći prag tolerancije na svakodnevnu upotrebu. U oba slučaja ne plaćaj samo broj sedišta: povedi porodicu na probu, ubaci sedišta i kolica, proveri klimu i dogovori pregled koji će reći da li je cena prostora već potrošena.
+TEXT,
+                'highlights' => [
+                    'Sedam sedišta vredi samo ako treći red, ISOFIX, pojasevi i klima stvarno rade za porodicu.',
+                    'Espace traži strožu proveru elektronike, automatika i bogate opreme.',
+                    'Galaxy ima smisla kada stanje enterijera, trapa i kočnica priznaje porodičnu upotrebu.',
+                ],
+                'tags' => ['Renault Espace', 'Ford Galaxy', 'sedam sedišta', 'monovolumen', 'poređenje'],
+                'meta_title' => 'Renault Espace ili Ford Galaxy: koji polovnjak',
+                'meta_description' => 'Poređenje polovnih Renault Espace i Ford Galaxy modela: sedam sedišta, klima, automatik, trap, enterijer, porodična upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Volkswagen Sharan: porodični van koji mora dokazati DSG, klizna vrata i kabinu',
+                'slug' => 'polovni-volkswagen-sharan-porodicni-van-koji-mora-dokazati-dsg-klizna-vrata-i-kabinu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Sharan je praktičan izbor za velike porodice, ali dobar primerak mora pokazati uredan DSG, klizna vrata, klimu i realan porodični trag.',
+                'content' => <<<'TEXT'
+Kupac iz Kragujevca je tražio auto u koji staju troje dece, kolica i vikend prtljag bez slagalice u gepeku. Volkswagen Sharan mu je na oglasu delovao kao sigurna, skoro poslovno racionalna kupovina: sedam sedišta, klizna vrata, dizel i poznata servisna mreža. Ali kod Sharana se ne kupuje samo značka. Kupuje se veliki auto koji je često već radio težak porodični posao.
+
+Prva provera su klizna vrata, sedišta i kabina. Vrata moraju raditi glatko, brave ne smeju praviti slučajne greške, a sedišta treba proveriti kroz svako preklapanje, šinu i pojas. Ako prodavac kaže da "to niko ne koristi", probaj baš taj deo. Kod porodičnog vana male nepravilnosti brzo postanu svakodnevna nervoza, naročito kada deca ulaze i izlaze više puta dnevno.
+
+Druga tema su dizel, DSG i trap. Sharan često prelazi velike kilometraže, pa servisna istorija mora imati više od lepog opisa. Traži dokaze o ulju u menjaču, velikom servisu, kočnicama, gumama, amortizerima, DPF-u i EGR-u. Probna vožnja treba da uključi grad, neravnine, parkiranje i ubrzanje pod opterećenjem. Ako menjač trza ili trap lupa, prednost prostora više nije dovoljna.
+
+Polovni Sharan ima smisla kada stvarno koristiš prostor i kada primerak ne krije porodicu iza dubinskog pranja. Ako ti treba samo povišeno sedenje, manji SUV može biti lakši za održavanje. Ako ti trebaju prava sedišta i vrata koja olakšavaju život, Sharan je ozbiljan kandidat, ali cenu gradi tek posle pregleda kabine, mehanike i liste ulaganja.
+TEXT,
+                'highlights' => [
+                    'Kod Sharana prvo proveri klizna vrata, sedišta, pojaseve, ISOFIX i tragove porodične upotrebe.',
+                    'DSG, dizel, DPF, EGR i trap moraju imati servisni trag, ne samo uveravanje prodavca.',
+                    'Dobar Sharan kupuje se zbog stvarne potrebe za prostorom, ne zbog ideje da je svaki veliki VW siguran.',
+                ],
+                'tags' => ['Volkswagen Sharan', 'porodični van', 'DSG', 'sedam sedišta', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volkswagen Sharan: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Volkswagen Sharan modela: DSG, dizel, klizna vrata, sedam sedišta, klima, trap, enterijer i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Kia Picanto: mali gradski auto koji ne sme da sakrije kratke relacije',
+                'slug' => 'polovni-kia-picanto-mali-gradski-auto-koji-ne-sme-da-sakrije-kratke-relacije',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Picanto je logičan prvi ili drugi auto za grad, ali kupac mora proveriti kvačilo, trap, klimu, kratke relacije i servisni trag.',
+                'content' => <<<'TEXT'
+Ana je tražila prvi auto za odlazak na posao, vrtić i uske parkinge oko zgrade. Kia Picanto joj je delovao kao mirna odluka: mali, pregledan, pristupačan za registraciju i bez komplikovane slike velikog polovnjaka. Upravo zato kod Picanta kupci često spuste gard. Mali auto ne znači da je prethodni život bio lak, posebno ako je svaki dan paljen hladan i vožen po par kilometara.
+
+Prvo pogledaj tragove gradske upotrebe. Kvačilo, menjač, prednji trap, kočnice, gume, felne, branici i pragovi brzo otkrivaju auto koji je živeo među ivičnjacima i kratkim relacijama. Picanto može biti zahvalan, ali ako podrhtava pri kretanju, vuče u stranu ili ima neujednačeno trošenje guma, pregovaranje ne treba čekati kraj pregleda.
+
+Druga provera su motor, klima i osnovna oprema. Mali benzinac treba da pali mirno, radi ravnomerno i ne pokazuje zapušten servis. Klima mora hladiti bez dugog čekanja, podizači, brave, svetla i multimedija treba da rade bez slučajnih izgovora. Kod jeftinijih gradskih auta prodavci često računaju da kupac neće detaljno proveriti sitnice jer je cena niža.
+
+Polovni Picanto ima smisla kada želiš jednostavan gradski auto i kada cena ostavlja novac za gume, servis i eventualno kvačilo. Nema smisla ako ga plaćaš kao veći auto samo zato što lepo izgleda i ima nisku kilometražu. Najbolji primerak je onaj gde stanje enterijera, pedala, volana i servisa potvrđuje priču, a ne onaj koji je samo dobro opran za fotografije.
+TEXT,
+                'highlights' => [
+                    'Picanto proveri kroz kvačilo, trap, kočnice i tragove uskog gradskog parkiranja.',
+                    'Niska kilometraža nije dovoljna ako kratke relacije nisu pratile uredan servis.',
+                    'Klima, brave, svetla i osnovna oprema moraju raditi jer sitnice brzo pojedu razliku u ceni.',
+                ],
+                'tags' => ['Kia Picanto', 'mali auto', 'gradski auto', 'prvi auto', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Kia Picanto: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Kia Picanto modela: gradska vožnja, kvačilo, trap, klima, gume, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Tragovi varenja na šasiji polovnog auta: kada pregled mora zaustaviti kupovinu',
+                'slug' => 'tragovi-varenja-na-sasiji-polovnog-auta-kada-pregled-mora-zaustaviti-kupovinu',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Sveže varenje, čudan zaštitni premaz ili nejednaki nosači mogu otkriti ozbiljnu štetu koju sjajna karoserija pokušava da sakrije.',
+                'content' => <<<'TEXT'
+Nikola je skoro kaparisao karavan jer je spolja izgledao bolje od svih koje je gledao tog vikenda. Tek na dizalici se videlo da ispod svežeg zaštitnog premaza postoje tragovi varenja, drugačija tekstura metala i nosač koji nije izgledao kao fabrički. Prodavac je tvrdio da je "rađena zaštita od korozije", ali majstor je odmah usporio kupovinu. Kod polovnog auta šasija ne sme da traži poverenje, nego dokaz.
+
+Prvo gledaj simetriju i kontinuitet. Pragovi, nosači, pod, koševi, mesta oko vešanja i prednji deo oko hladnjaka treba da imaju logičan oblik, fabričke tačke i ravnomeran zaštitni sloj. Svež bitumen, gruba masa, neravni varovi, drugačiji šrafovi ili tragovi brušenja ne znače automatski katastrofu, ali znače da treba objasniti šta je rađeno i zašto.
+
+Drugi korak je povezivanje tragova sa ostatkom auta. Ako su farovi novi, zazori neravni, airbag lampica čudna, gume se troše nejednako ili auto vuče u stranu, varenje više nije estetska tema. Tada treba proveriti geometriju, dijagnostiku, dokumentaciju popravke i da li je vozilo bezbedno za svakodnevnu vožnju. Račun dobrog limara vredi više od priče da je "sve sređeno".
+
+Kupovina može da se nastavi samo ako je popravka jasna, kvalitetna, dokumentovana i cena priznaje rizik. Ako prodavac izbegava dizalicu, ne zna šta je rađeno ili se tragovi ne slažu sa pričom, odustajanje je najjeftiniji potez. Polovan auto sme imati istoriju, ali ne sme imati sakrivenu konstrukcionu priču koju kupac otkrije tek posle registracije.
+TEXT,
+                'highlights' => [
+                    'Svež zaštitni premaz, neravni varovi i drugačiji nosači traže dizalicu i ozbiljno objašnjenje.',
+                    'Tragove varenja poveži sa zazorima, farovima, airbagovima, gumama i ponašanjem u vožnji.',
+                    'Bez dokumentovane popravke i jasne cene rizika bolje je odustati pre kapare.',
+                ],
+                'tags' => ['šasija', 'varenje', 'karoserija', 'pregled vozila', 'provera polovnjaka'],
+                'meta_title' => 'Tragovi varenja na šasiji polovnog auta',
+                'meta_description' => 'Kako proveriti tragove varenja na šasiji polovnog auta: pragovi, nosači, zaštitni premaz, zazori, geometrija, dokumentacija i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Češke: kada flotna istorija i dobra cena traže dodatnu proveru',
+                'slug' => 'uvoz-auta-iz-ceske-kada-flotna-istorija-i-dobra-cena-traze-dodatnu-proveru',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Češki uvoz može biti uredan i dobro opremljen, ali kupac mora proveriti flotnu upotrebu, kilometražu, servis, koroziju i dokumentaciju.',
+                'content' => <<<'TEXT'
+Kupac iz Niša je našao Škodu iz Češke sa lepom opremom, urednim fotografijama i cenom koja je bila bolja od sličnih nemačkih oglasa. Na prvi pogled sve je imalo logiku: zemlja gde su Škode česte, široka servisna mreža i mnogo službenih automobila sa redovnim održavanjem. Ali baš ta flotna priča traži dodatnu proveru, jer uredan servis ne znači uvek lagan život.
+
+Prvo proveri poreklo i dokumentaciju. VIN, servisni zapisi, tehnički pregledi, računi, izvozna dokumentacija i broj prethodnih korisnika moraju se slagati. Ako je auto bio u firmi, renti ili dugoročnom najmu, to nije automatski loše, ali mora se videti koliko je vožen, na kojim relacijama i da li je održavanje rađeno po minimumu ili stvarnoj potrebi.
+
+Druga provera je stanje koje prati kilometražu. Češki uvoz često može imati mnogo autoput kilometara, ali i zimske uslove, so, parking udarce i flotni tempo. Pogledaj podvozje, pragove, farove, vetrobran, felne, trap, kočnice, sedište vozača, volan i pedale. Ako enterijer deluje umornije od kilometraže ili je auto sveže pripremljen za prodaju, traži jači dokaz.
+
+Uvoz iz Češke ima smisla kada su cena, dokumentacija i stanje u istoj priči. Dobra oprema i poznat model nisu dovoljni ako ne znaš prethodnu namenu. Ako prodavac transparentno pokazuje VIN, račune i putanju vozila, možeš pregovarati na osnovu realnih ulaganja. Ako se sve svodi na "uvoz je uredan", kupac treba da uspori i prvo plati pregled, a ne kaparu.
+TEXT,
+                'highlights' => [
+                    'Češki uvoz prvo proveri kroz VIN, servisne zapise, izvozna dokumenta i prethodnu namenu.',
+                    'Flotna istorija nije problem ako kilometraža, enterijer i održavanje pričaju istu priču.',
+                    'Podvozje, trap, kočnice, so i parking tragovi moraju ući u realnu cenu kupovine.',
+                ],
+                'tags' => ['uvoz iz Češke', 'uvoz auta', 'flotna vozila', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Češke: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Češke: flotna istorija, VIN, servisna dokumentacija, kilometraža, korozija, podvozje, oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
