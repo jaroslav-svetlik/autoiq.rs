@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.85] - 2026-06-29
+
+### Added
+
+- Added five non-duplicate production blog articles covering Opel Crossland vs Citroen C3 Aircross, used Mazda CX-3 checks, used Mitsubishi Space Star buying guidance, glass-date inspection, and Swedish import risk.
+
 ## [0.1.84] - 2026-06-28
 
 ### Added

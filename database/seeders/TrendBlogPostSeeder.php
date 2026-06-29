@@ -6040,6 +6040,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Opel Crossland ili Citroen C3 Aircross: mali crossover kada udobnost i praktičnost odlučuju',
+                'slug' => 'opel-crossland-ili-citroen-c3-aircross-mali-crossover-kada-udobnost-i-prakticnost-odlucuju',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Crossland i C3 Aircross deluju kao isti recept za grad i porodicu, ali polovan primerak mora dokazati motor, trap, elektroniku i realnu namenu.',
+                'content' => <<<'TEXT'
+Marko i Jelena su tražili mali crossover za Novi Sad, vrtić i povremeni put do mora. Opel Crossland im je delovao ozbiljnije i poznatije, dok je Citroen C3 Aircross imao udobniju kabinu i veseliji enterijer. Oba auta su se uklapala u budžet, ali tek kada su uporedili konkretne primerke shvatili su da izbor nije znak na volanu, nego tragovi gradske upotrebe, motor i način održavanja.
+
+Crossland je sigurniji izbor za kupca koji želi jednostavniji osećaj, preglednu kabinu i lakše prihvatanje na tržištu polovnjaka. Ima smisla kada je servisna istorija uredna, kada trap ne lupa preko neravnina i kada elektronika radi bez sitnih grešaka. Kod benzinca proveri hladan start, rad motora, potrošnju ulja i servisni ritam. Kod dizela proveri DPF, EGR i da li je auto stvarno vožen na relacijama koje dizel može da podnese.
+
+C3 Aircross kupuje se zbog udobnosti, modularnosti i mekšeg karaktera. To je prednost za porodicu koja želi lak ulazak, dobru preglednost i manje nervoze u gradu, ali udobnost ne sme da sakrije stanje. Proveri sedišta, kliznu zadnju klupu ako je ima, klimu, multimediju, senzore, trap i tragove parking udaraca. Ako enterijer izgleda umornije nego što kilometraža sugeriše, cena mora da se vrati na zemlju.
+
+Pametniji izbor je auto koji bolje odgovara rutini. Crossland ima prednost kada želiš konzervativniji polovnjak i lakšu kasniju prodaju. C3 Aircross ima smisla kada je udobnost važnija i kada konkretan primerak ima bolju dokumentaciju. Ako prodavac nema VIN, račune i hladnu probnu vožnju, ne pregovaraj oko boje i opreme, nego uspori kupovinu dok stanje ne postane jasno.
+TEXT,
+                'highlights' => [
+                    'Crossland je mirniji izbor kada kupac želi jednostavniji crossover i lakšu kasniju prodaju.',
+                    'C3 Aircross ima smisla kada udobnost, kabina i modularnost stvarno odgovaraju porodici.',
+                    'Kod oba modela proveri motor, trap, elektroniku, parking tragove i da li cena prati stanje.',
+                ],
+                'tags' => ['Opel Crossland', 'Citroen C3 Aircross', 'mali crossover', 'poređenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Opel Crossland ili Citroen C3 Aircross',
+                'meta_description' => 'Poređenje polovnih Opel Crossland i Citroen C3 Aircross modela: motor, trap, elektronika, udobnost, praktičnost, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mazda CX-3: mali crossover koji traži proveru benzinca, dizela i korozije',
+                'slug' => 'polovni-mazda-cx-3-mali-crossover-koji-trazi-proveru-benzinca-dizela-i-korozije',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mazda CX-3 može biti lep i pouzdan gradski crossover, ali kupac mora proveriti motor, podvozje, prostor i da li cena prati realnu upotrebljivost.',
+                'content' => <<<'TEXT'
+Ana je došla da pogleda Mazdu CX-3 jer joj je delovala kao bolji kompromis od klasičnog gradskog auta: viši položaj sedenja, lep enterijer i japanska reputacija. Na fotografijama je auto izgledao gotovo premium, ali probna vožnja je brzo pokazala da mali crossover ne rešava svaki porodični zadatak. Gepek je skroman, zadnja klupa traži kompromis, a dobar primerak mora opravdati cenu stanjem, ne samo izgledom.
+
+Benzinska CX-3 je često mirniji izbor za grad i mešovitu vožnju, posebno kada ima uredne servise i normalnu potrošnju ulja. Proveri hladan start, rad kvačila, menjač, trap, kočnice i da li je auto vozio kratke gradske relacije sa čestim penjanjem na ivičnjake. Lep volan i dobra oprema ne znače mnogo ako su gume, diskovi i amortizeri pred zamenu.
+
+Dizel traži strožu odluku. Može imati smisla za duže relacije, ali samo ako je istorija čista i režim vožnje odgovara dizelu. DPF, EGR, dizne, turbina i servisni intervali moraju biti jasni pre pregovora. Ako se prodavac oslanja na malu potrošnju, a nema račune i dijagnostiku, rizik je veći od uštede.
+
+Kod svake CX-3 obavezno pogledaj donji deo vrata, rubove, podvozje, nosače, šrafove, gepek i tragove korozije ili loših popravki. Kupovina ima smisla kada stanje, servis i prostor odgovaraju tvojoj rutini. Ako ti treba pravi porodični auto, možda je veći kompakt bolji. Ako ti treba lep gradski crossover sa jasnom istorijom, dobra CX-3 može biti razumna, ali ne po svakoj ceni.
+TEXT,
+                'highlights' => [
+                    'Mazda CX-3 ima smisla kao gradski crossover, ali prostor treba proveriti pre pregovora.',
+                    'Benzinac je često mirniji izbor, dok dizel traži jasan servisni trag i duže relacije.',
+                    'Korozija, trap, kočnice, gume i tragovi gradskog korišćenja moraju ući u realnu cenu.',
+                ],
+                'tags' => ['Mazda CX-3', 'mali crossover', 'benzinac', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mazda CX-3: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovne Mazde CX-3: benzinac, dizel, DPF, trap, korozija, prostor, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#ef4444', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mitsubishi Space Star: gradski auto koji mora opravdati nisku cenu',
+                'slug' => 'polovni-mitsubishi-space-star-gradski-auto-koji-mora-opravdati-nisku-cenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Space Star privlači niskom potrošnjom i jednostavnošću, ali kupac mora proveriti kvačilo, trap, klimu, opremu i tragove kratkih relacija.',
+                'content' => <<<'TEXT'
+Petar je tražio prvi auto za ćerku i Mitsubishi Space Star mu je delovao kao racionalan izbor: mali, štedljiv, jednostavan i jeftiniji od popularnijih gradskih modela. Problem je što niska cena lako uspava kupca. Mali auto koji je godinama vozio kratke relacije, ivičnjake i parkinge može tražiti više ulaganja nego što oglas sugeriše.
+
+Prvo proveri kako se auto ponaša u gradu. Kvačilo, menjač, volan, kočnice i trap najbrže otkrivaju težak život. Ako auto trza pri polasku, lupa preko neravnina, teško menja brzine ili volan ne stoji mirno, cena mora da prizna ulaganja. Space Star nije skup za održavanje, ali zbir guma, diskova, amortizera, akumulatora i servisa brzo pojede prednost povoljnog oglasa.
+
+Druga provera je oprema. Klima mora hladiti, brave i podizači moraju raditi, lampice se moraju ugasiti posle starta, a enterijer treba da odgovara kilometraži. Kod jeftinijih gradskih auta često se preskaču sitni servisi jer vlasnik računa da auto "samo ide po gradu". Upravo te sitnice prave razliku između poštene kupovine i automobila koji odmah traži novac.
+
+Space Star ima smisla kada kupac želi jednostavan gradski auto, malu potrošnju i niske osnovne troškove. Nema smisla ako ga plaćaš kao popularniji model samo zato što je mlađi ili lepo opran. Ako je istorija uredna, probna vožnja mirna i ulaganja jasno sabrana, može biti dobar prvi auto. Ako prodavac ne dozvoljava detaljan pregled, potraži drugi primerak.
+TEXT,
+                'highlights' => [
+                    'Space Star kupuj kao jednostavan gradski auto, ne kao zamenu za veći porodični model.',
+                    'Kvačilo, trap, kočnice, gume i akumulator najbrže otkrivaju kratke gradske relacije.',
+                    'Niska cena ima smisla samo kada klima, oprema, servis i probna vožnja potvrde stanje.',
+                ],
+                'tags' => ['Mitsubishi Space Star', 'gradski auto', 'prvi auto', 'kvačilo', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mitsubishi Space Star: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mitsubishi Space Star modela: gradska vožnja, kvačilo, trap, klima, gume, oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#14b8a6', '#f8fafc'],
+            ],
+            [
+                'title' => 'Datumi na staklima polovnog auta: kada šifra otkriva skrivenu popravku',
+                'slug' => 'datumi-na-staklima-polovnog-auta-kada-sifra-otkriva-skrivenu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Različiti datumi na staklima ne znače uvek udes, ali mogu otvoriti pitanja o limariji, krađi, vandalizmu, popravci i iskrenosti prodavca.',
+                'content' => <<<'TEXT'
+Miloš je na pregledu primetio da prednje bočno staklo ima drugačiju oznaku od ostalih. Prodavac je odmah rekao da je "sigurno sitnica", ali majstor nije nastavio kao da se ništa nije desilo. Jedno zamenjeno staklo može biti posledica kamena, obijanja ili vandalizma. Može biti i trag bočnog udarca, loše popravke vrata ili neispričane istorije vozila.
+
+Prvo nauči da datum na staklu nije samostalan dokaz. Oznake se razlikuju po proizvođaču i načinu obeležavanja, ali sva stakla na autu treba da imaju logiku sa godinom proizvodnje. Ako je jedno staklo mnogo novije, pitaj zašto je menjano i traži račun. Ako prodavac nema odgovor, ta sitnica postaje razlog za detaljniji pregled vrata, stubova, krova i unutrašnjih obloga.
+
+Drugi korak je povezivanje sa ostatkom automobila. Proveri zazore oko vrata, boju, šrafove, gumice, dihtunge, vlagu u kabini, rad podizača i tragove skidanja tapacirunga. Ako su uz staklo menjani far, krilo, retrovizor ili airbag elementi, više ne gledaš izolovan detalj. Tada treba proveriti limariju, dijagnostiku i geometriju pre bilo kakve kapare.
+
+Kupovina se može nastaviti ako postoji jasno objašnjenje i stanje se slaže sa pričom. Zamenjeno staklo zbog provale ili kamena nije razlog za automatsko odustajanje, ali jeste argument za nižu cenu ako postoje tragovi popravke. Ako prodavac minimizira pitanje, ne dozvoljava pregled ili priča ne prati fizičke tragove, bolje je odustati dok rizik još nije tvoj.
+TEXT,
+                'highlights' => [
+                    'Različit datum na staklu nije presuda, ali traži objašnjenje, račun i pregled okolnih delova.',
+                    'Staklo poveži sa zazorima, šrafovima, tapacirungom, vlagom, vratima i dijagnostikom airbaga.',
+                    'Ako se priča prodavca ne slaže sa tragovima popravke, kapara treba da sačeka.',
+                ],
+                'tags' => ['stakla', 'datum stakla', 'limarija', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Datumi na staklima polovnog auta',
+                'meta_description' => 'Kako proveriti datume na staklima polovnog auta: oznake, zamena stakla, vrata, stubovi, limarija, vlaga, dokumentacija i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Švedske: kada uredan servis traži proveru korozije i opreme',
+                'slug' => 'uvoz-auta-iz-svedske-kada-uredan-servis-trazi-proveru-korozije-i-opreme',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Švedski uvoz može doneti bogatu opremu i uredne zapise, ali kupac mora proveriti so, podvozje, grejanje, kilometražu i dokumentaciju.',
+                'content' => <<<'TEXT'
+Kupac iz Subotice je našao karavan iz Švedske sa odličnom opremom, grejačima sedišta i urednim servisnim zapisima. Cena je bila primamljiva jer slični primerci iz Nemačke nisu imali toliko opreme. Ipak, švedski uvoz traži drugačiji pogled: nije dovoljno da auto ima servisnu istoriju, mora se videti kako je podneo zimu, so, duge relacije i hladne startove.
+
+Prvo proveri poreklo. VIN, servisni zapisi, tehnički pregledi, izvozna dokumentacija i kilometraža moraju se slagati. Švedski automobili često imaju dobru evidenciju, ali kupac u Srbiji ne sme da se osloni samo na tvrdnju prodavca. Ako dokumentacija nije prevedena ili jasna, traži vreme da je proveriš pre kapare.
+
+Druga provera je podvozje. So, vlaga i zimski uslovi mogu ostaviti trag na pragovima, kočionim cevima, nosačima, šrafovima, rubovima i auspuhu. Dobar auto ne mora biti bez tačkice korozije, ali korozija ne sme biti konstrukciona, sveže maskirana ili ignorisana. Pregled na dizalici je obavezan, posebno kod skupljih karavana, SUV-ova i dizela.
+
+Švedski uvoz ima smisla kada bogata oprema, servis i stanje rade zajedno. Grejači, webasto, dobra svetla i sigurnosni paketi jesu prednost, ali nisu zamena za zdrav pod, uredan motor i jasnu dokumentaciju. Ako je cena niža zato što postoje ulaganja, pregovaraj hladno. Ako se problem svodi na "svi švedski su takvi", bolje je platiti pregled nego tuđu zimu.
+TEXT,
+                'highlights' => [
+                    'Švedski uvoz proveri kroz VIN, servisne zapise, tehničke preglede i jasnu izvoznu dokumentaciju.',
+                    'Podvozje, pragovi, kočione cevi, nosači i auspuh moraju na dizalicu zbog soli i zime.',
+                    'Bogata oprema vredi samo kada korozija, kilometraža i servisna istorija ne kvare računicu.',
+                ],
+                'tags' => ['uvoz iz Švedske', 'uvoz auta', 'korozija', 'servisna istorija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Švedske: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Švedske: VIN, servisna dokumentacija, kilometraža, korozija, podvozje, zimska oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#facc15', '#f8fafc'],
+            ],
         ]);
     }
 
