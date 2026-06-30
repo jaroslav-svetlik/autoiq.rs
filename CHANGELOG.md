@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.86] - 2026-06-30
+
+### Added
+
+- Added five non-duplicate production blog articles covering Chevrolet Aveo vs Hyundai Getz, used Daihatsu Terios checks, used Fiat Linea buying guidance, gearbox jumping out of gear, and Slovenian import risk.
+
 ## [0.1.85] - 2026-06-29
 
 ### Added

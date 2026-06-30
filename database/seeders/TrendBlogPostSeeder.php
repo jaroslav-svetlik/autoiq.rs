@@ -6175,6 +6175,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Chevrolet Aveo ili Hyundai Getz: mali auto kada budžet ne trpi iluzije',
+                'slug' => 'chevrolet-aveo-ili-hyundai-getz-mali-auto-kada-budzet-ne-trpi-iluzije',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aveo i Getz privlače niskom cenom, ali kupac mora proveriti koroziju, trap, delove, klimu i da li je jeftin auto stvarno jeftin posle prenosa.',
+                'content' => <<<'TEXT'
+Miloš je tražio prvi auto za posao i vožnju po gradu, sa budžetom koji nije ostavljao prostor za velike popravke. Chevrolet Aveo i Hyundai Getz su se pojavili kao logični kandidati: mali, jednostavni i jeftiniji od popularnijih gradskih modela. Ali upravo kod najjeftinijih oglasa kupac mora biti najstroži, jer loš primerak brzo potroši razliku u ceni.
+
+Aveo ima smisla kada je cena realna, motor radi mirno i postoji dokaz da osnovno održavanje nije preskakano. Treba proveriti koroziju na pragovima i podu, trap, kočnice, kvačilo, klimu i dostupnost delova za konkretan motor. Ako prodavac kaže da je auto "jeftin pa ne može sve da se gleda", to je razlog da se gleda još pažljivije.
+
+Getz često deluje kao mirnija kupovina zbog reputacije jednostavnog malog auta i bolje prihvaćenosti na tržištu. Ipak, godine se vide kroz gumice, amortizere, hladan start, curenja, svetla, brave i stanje enterijera. Primerak koji je ceo život proveo na kratkim relacijama može imati malu kilometražu, ali umorno kvačilo, akumulator, kočnice i trap.
+
+Pametniji izbor je automobil koji posle pregleda ostavlja manje otvorenih troškova, ne onaj koji ima lepši oglas. Aveo može pobediti ako je znatno jeftiniji i uredan, dok Getz ima prednost kada stanje i kasnija prodaja opravdaju višu cenu. Ako nema klime, registracije, dobrih guma i jasnih papira, pregovaraj odmah ili nastavi potragu.
+TEXT,
+                'highlights' => [
+                    'Aveo ima smisla samo kada niska cena dolazi uz zdrav motor, pod i dostupne delove.',
+                    'Getz je mirniji kandidat ako stanje, klima, trap i servisni trag opravdaju višu cenu.',
+                    'Kod jeftinog malog auta gume, kočnice, kvačilo i registracija mogu promeniti celu računicu.',
+                ],
+                'tags' => ['Chevrolet Aveo', 'Hyundai Getz', 'mali auto', 'prvi auto', 'poređenje'],
+                'meta_title' => 'Chevrolet Aveo ili Hyundai Getz: mali polovnjak',
+                'meta_description' => 'Poređenje polovnih Chevrolet Aveo i Hyundai Getz modela: motor, korozija, trap, klima, delovi, prvi auto i realna cena kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Daihatsu Terios: mali terenac koji mora dokazati pogon i rđu',
+                'slug' => 'polovni-daihatsu-terios-mali-terenac-koji-mora-dokazati-pogon-i-rdju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Terios deluje kao jednostavan mali 4x4 za loše puteve, ali kupac mora proveriti koroziju, pogon, trap, delove i da li teren nije već pojeo auto.',
+                'content' => <<<'TEXT'
+Zoran je tražio mali auto za selo, vikendicu i zimske puteve gde običan gradski automobil često zapne. Daihatsu Terios mu je delovao kao zanimljivo rešenje: kompaktan, povišen, sa pogonom koji obećava više sigurnosti van asfalta. Ali kod ovakvog polovnjaka najveći rizik nije marka, nego prethodni život po blatu, snegu, rupama i kratkim relacijama.
+
+Prva provera je donji deo auta. Pragovi, pod, rubovi, nosači, kočione cevi, auspuh i mesta oko vešanja moraju na dizalicu. Terios može spolja izgledati simpatično i očuvano, a ispod kriti rđu ili tragove grubog terena. Svež zaštitni premaz nije dokaz, već poziv da se proveri šta je premazano.
+
+Druga tema su pogon, menjač i trap. Proveri da li 4x4 radi bez lupanja, zavijanja i zatezanja, da li menjač ulazi glatko u sve brzine i da li trap ne otkriva udarce preko rupa. Gume moraju biti jednake i pravilno potrošene, jer različite ili loše gume mogu pokazati da je pogon trpeo pogrešnu upotrebu.
+
+Terios ima smisla kada kupac stvarno koristi povišen auto i kada primerak nije samo jeftina karta za 4x4. Ako ti treba gradski auto, običan benzinac može biti mirniji i jeftiniji. Ako ti treba mali terenac, plati pregled, proveri dostupnost delova i pregovaraj na osnovu rđe, guma, trapa i servisa, ne na osnovu retkosti modela.
+TEXT,
+                'highlights' => [
+                    'Terios treba proveriti na dizalici jer rđa i teren često odlučuju vrednost auta.',
+                    'Pogon, menjač, trap i jednake gume moraju raditi bez lupanja, zavijanja i zatezanja.',
+                    'Kupovina ima smisla samo ako stvarno koristiš mali 4x4 i cena priznaje dostupnost delova.',
+                ],
+                'tags' => ['Daihatsu Terios', '4x4', 'mali terenac', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Daihatsu Terios: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Daihatsu Terios modela: 4x4 pogon, korozija, trap, menjač, gume, delovi, teren i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Fiat Linea: limuzina koja ne sme da se kupi samo zbog gepeka',
+                'slug' => 'polovni-fiat-linea-limuzina-koja-ne-sme-da-se-kupi-samo-zbog-gepeka',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Linea nudi veliki gepek i pristupačnu cenu, ali kupac mora proveriti motor, trap, klimu, elektroniku, limariju i da li prostor opravdava godine.',
+                'content' => <<<'TEXT'
+Ivana je tražila porodični auto za skroman budžet i Fiat Linea joj je zapao za oko zbog velikog gepeka, jednostavne kabine i cene koja deluje razumnije od popularnih karavana. Na papiru to ima logiku. Problem je što kod Linee prostor lako postane glavni argument, pa kupac kasno primeti godine, umor i odložena ulaganja.
+
+Prvo proveri motor i osnovno održavanje. Benzinske verzije treba da pale mirno, rade ravnomerno i ne kriju curenja, zapušten servis ili probleme sa hlađenjem. Dizel može imati smisla za duže relacije, ali samo uz jasne račune, dobar hladan start, mirnu turbinu i proveru EGR-a, DPF-a ako postoji i stanja kvačila.
+
+Druga provera je svakodnevna upotreba. Linea često radi kao porodični ili službeni auto, pa trap, kočnice, vrata, gepek, brava prtljažnika, klima i podizači moraju biti provereni bez žurbe. Veliki gepek ne vredi mnogo ako klima ne hladi, zadnji trap lupa ili enterijer pokazuje da je auto nosio više tereta nego što prodavac priznaje.
+
+Polovna Linea je dobra kupovina kada je realno plaćena, jednostavna i servisno jasna. Nije dobra kada je kupuješ samo zato što za malo novca izgleda kao veći auto. Uporedi je sa Tipom, Loganom, Rapidom i starijim kompaktima, pa odluči da li konkretan primerak nudi prostor bez skrivene investicije.
+TEXT,
+                'highlights' => [
+                    'Linea privlači gepekom, ali motor, klima, trap i brava prtljažnika moraju biti provereni.',
+                    'Dizel ima smisla samo uz duže relacije, račune i jasnu proveru turbine, EGR-a i kvačila.',
+                    'Dobar primerak treba platiti kao pristupačnu limuzinu, ne kao porodični auto bez ulaganja.',
+                ],
+                'tags' => ['Fiat Linea', 'limuzina', 'porodični auto', 'gepek', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Linea: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiat Linea modela: motor, dizel, trap, klima, gepek, elektronika, limarija, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Menjač iskače iz brzine na polovnom autu: kada probna vožnja mora prekinuti kupovinu',
+                'slug' => 'menjac-iskace-iz-brzine-na-polovnom-autu-kada-probna-voznja-mora-prekinuti-kupovinu',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Iskakanje iz brzine nije sitan zvuk ni navika starog auta, već signal za proveru menjača, nosača, sajli, kvačila i stvarne cene popravke.',
+                'content' => <<<'TEXT'
+Petar je na probnoj vožnji primetio da ručica menjača povremeno izađe iz treće brzine kada pusti gas. Prodavac je rekao da se "samo treba naviknuti", ali majstor nije prihvatio objašnjenje. Menjač koji iskače iz brzine nije kozmetička mana. To je simptom koji može značiti od podešavanja sajli do ozbiljnog unutrašnjeg kvara.
+
+Prva provera je ponavljanje simptoma. Auto treba voziti hladan i zagrejan, kroz ubrzavanje, usporavanje motorom, neravnine i različite stepene prenosa. Obrati pažnju da li brzina ispada pod opterećenjem, pri kočenju motorom ili kada se ručica samo pomeri. Ako prodavac ne dozvoljava dužu probnu vožnju, rizik ostaje nepoznat.
+
+Druga tema su uzroci oko menjača. Nosači motora i menjača, sajle ili poluge, kvačilo, hidraulika i ulje u menjaču mogu praviti osećaj nepreciznosti. Ipak, pohabani zupčanici, sinhroni ili viljuške menjaju računicu potpuno drugačije. Zato dijagnostika ovde nije dovoljna. Potreban je majstor koji zna da proceni mehanički deo i cenu realne popravke.
+
+Kupovina se nastavlja samo ako je uzrok jasan, popravka uračunata i cena dovoljno spuštena. Ako prodavac umanjuje problem, kaže da se tako vozi godinama ili traži kaparu pre pregleda, odustajanje je najjeftinija odluka. Polovan auto može imati mane, ali menjač mora ostati pod kontrolom kupca, ne pod obećanjem prodavca.
+TEXT,
+                'highlights' => [
+                    'Iskakanje iz brzine treba proveriti hladno, toplo, pod gasom i pri kočenju motorom.',
+                    'Uzrok može biti nosač, sajla ili kvačilo, ali i skup unutrašnji kvar menjača.',
+                    'Bez jasne dijagnoze i cene popravke kapara treba da sačeka ili kupovina treba da stane.',
+                ],
+                'tags' => ['menjač', 'probna vožnja', 'kvačilo', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Menjač iskače iz brzine: šta proveriti',
+                'meta_description' => 'Kako proveriti polovan auto kada menjač iskače iz brzine: probna vožnja, sajle, nosači, kvačilo, sinhroni, ulje i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Slovenije: kada blizina tržišta ne znači lakšu proveru',
+                'slug' => 'uvoz-auta-iz-slovenije-kada-blizina-trzista-ne-znaci-laksu-proveru',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Slovenački uvoz deluje blisko i uredno, ali kupac mora proveriti kilometražu, so, servis, flotnu upotrebu, papire i da li cena stvarno ima smisla.',
+                'content' => <<<'TEXT'
+Kupac iz Beograda je našao karavan iz Slovenije koji je delovao kao lakša kupovina od udaljenog uvoza: blizu tržište, razumljivija dokumentacija i oprema koja odgovara našem regionu. Baš zato je skoro preskočio detalje. Blizina ne znači da je auto automatski čist, niti da kilometraža, servis i podvozje mogu ostati bez provere.
+
+Prvo proveri poreklo i papire. VIN, servisni zapisi, tehnički pregledi, izvozna dokumentacija, broj vlasnika i namena moraju se slagati. Slovenački automobili mogu imati urednu istoriju, ali mogu biti i flotni, službeni ili korišćeni za duge relacije kroz region. Ako prodavac ima samo kratku priču i brz rok za kaparu, uspori kupovinu.
+
+Druga tema su klima, zima i relacije. Planinski krajevi, so, kiša i autoput kilometri mogu ostaviti trag na podvozju, kočnicama, vetrobranu, farovima, gumama i trapu. Pregled na dizalici i poređenje stanja enterijera sa kilometražom su obavezni, posebno kod karavana, dizela i automobila koji su radili posao.
+
+Uvoz iz Slovenije ima smisla kada dokumentacija, stanje i cena pričaju istu priču. Ako je auto skuplji od domaćeg zbog navodno urednog porekla, to poreklo mora biti dokazano. Ako je jeftiniji, razlog mora biti jasan pre pregovora. Dobra kupovina nije ona koja je najbliže stigla, nego ona koju možeš najlakše proveriti.
+TEXT,
+                'highlights' => [
+                    'Slovenački uvoz proveri kroz VIN, tehničke preglede, servisne zapise i jasnu izvoznu dokumentaciju.',
+                    'So, kiša, autoput relacije i flotna upotreba mogu ostaviti trag na podvozju, trapu i enterijeru.',
+                    'Blizina tržišta vredi samo ako cena, papiri i stanje daju proverljivu računicu.',
+                ],
+                'tags' => ['uvoz iz Slovenije', 'uvoz auta', 'servisna istorija', 'korozija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Slovenije: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Slovenije: VIN, dokumentacija, kilometraža, servis, so, podvozje, flotna upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
