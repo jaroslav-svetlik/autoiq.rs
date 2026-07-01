@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.87] - 2026-07-01
+
+### Added
+
+- Added five non-duplicate production blog articles covering Opel Adam vs Fiat 500, used Nissan Pulsar checks, used Hyundai ix20 buying guidance, CV-joint noise inspection, and Hungarian import risk.
+
 ## [0.1.86] - 2026-06-30
 
 ### Added

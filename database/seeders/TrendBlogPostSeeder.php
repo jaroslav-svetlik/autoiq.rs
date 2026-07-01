@@ -6310,6 +6310,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Opel Adam ili Fiat 500: mali gradski auto kada stil ne sme da pojede budžet',
+                'slug' => 'opel-adam-ili-fiat-500-mali-gradski-auto-kada-stil-ne-sme-da-pojede-budzet',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Adam i Fiat 500 kupuju se srcem, ali polovan primerak mora dokazati motor, klimu, trap, opremu i cenu koja ne kažnjava samo zbog izgleda.',
+                'content' => <<<'TEXT'
+Milica je tražila mali auto za centar grada, uske parkinge i kratke relacije do posla. Opel Adam joj je delovao čvršće i ozbiljnije, dok je Fiat 500 imao više šarma i bolju prepoznatljivost. Oba su je privukla izgledom, ali je tek na pregledu shvatila da kod ovakvih auta stil često podigne cenu brže nego što stanje može da je opravda.
+
+Fiat 500 ima prednost kada kupac želi auto koji se lako prodaje, lako parkira i ima jak gradski identitet. To ne znači da treba platiti svaki primerak. Proveri hladan start, rad kvačila, menjač, klimu, trap, elektroniku, panoramu ako postoji i tragove udaraca na branicima. Mali auto koji je godinama živeo po centru može imati malo kilometara, ali umorne gume, kočnice, vrata i enterijer.
+
+Opel Adam često deluje mirnije i ozbiljnije u kabini, sa opremom koja ume da bude bogata za klasu. Njegova mana je što ga tržište slabije prepoznaje od Fiata 500, pa cena mora biti realnija. Proveri motor, lanac ili servisni ritam za konkretan agregat, klimu, multimediju, felne, trap i da li su skuplje opcije stvarno ispravne. Lep enterijer ne sme da sakrije nejasnu istoriju.
+
+Pametniji izbor je onaj primerak koji posle pregleda ostavlja manje otvorenih troškova. Fiat 500 ima smisla kada je uredan i cena ne traži doplatu samo za imidž. Opel Adam ima smisla kada dobijaš bolju opremu, bolje stanje i nižu cenu. Ako prodavac priča o boji, felnama i retkosti više nego o računima, pregovor treba vratiti na gume, servis, klimu i probnu vožnju.
+TEXT,
+                'highlights' => [
+                    'Fiat 500 lakše drži pažnju tržišta, ali samo uredan primerak opravdava višu cenu.',
+                    'Opel Adam ima smisla kada oprema i stanje daju više vrednosti od samog izgleda.',
+                    'Kod oba modela proveri kvačilo, trap, klimu, elektroniku, felne i tragove gradske vožnje.',
+                ],
+                'tags' => ['Opel Adam', 'Fiat 500', 'gradski auto', 'mali auto', 'poređenje'],
+                'meta_title' => 'Opel Adam ili Fiat 500: koji polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Opel Adam i Fiat 500 modela: gradska vožnja, motor, kvačilo, trap, klima, oprema, stil i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Nissan Pulsar: kompakt koji mora opravdati prostor, CVT i mirnu reputaciju',
+                'slug' => 'polovni-nissan-pulsar-kompakt-koji-mora-opravdati-prostor-cvt-i-mirnu-reputaciju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Pulsar nudi mnogo prostora za novac, ali kupac mora proveriti motor, CVT, trap, elektroniku, limariju i da li niska potražnja zaista spušta rizik.',
+                'content' => <<<'TEXT'
+Nenad je tražio kompakt za porodicu i posao, ali nije želeo da plati cenu Golfa, Octavije ili i30. Nissan Pulsar mu je zato izgledao kao skrivena prilika: dosta mesta nazad, velik gepek za klasu i miran karakter. Problem je što manje popularan model nije automatski bolja kupovina. On samo traži drugačije pitanje: zašto je jeftiniji i šta kupac dobija posle pregleda.
+
+Prvo proveri motor i servisnu istoriju. Benzinske verzije treba slušati hladne, proveriti curenja, rad turbine ako postoji, potrošnju ulja i urednost servisa. Dizel ima smisla samo ako su relacije i istorija jasni, jer DPF, EGR i dizne ne opraštaju kratke gradske vožnje. Pulsar ne treba kupiti samo zato što deluje racionalno na papiru.
+
+Ako je auto sa CVT menjačem, probna vožnja mora biti duža i pažljivija. Menjač treba da povlači glatko, bez trzaja, zavijanja, zadrške ili neprirodnog podizanja obrtaja. Traži račun za servis ulja ili bar cenu preventivnog servisa uračunaj u pregovor. Kod manuelnog proveri kvačilo, hod ručice i ponašanje pri ubrzanju u višem stepenu prenosa.
+
+Pulsar ima smisla kada kupac želi prostran, nenametljiv kompakt i kada konkretan primerak ima bolju istoriju od popularnije alternative. Proveri trap, kočnice, klimu, kameru, senzore, vrata, gepek i da li enterijer prati kilometražu. Ako je cena niska zato što tržište slabije traži model, to može biti prednost. Ako je niska zato što servis i menjač imaju nepoznanice, bolje je nastaviti potragu.
+TEXT,
+                'highlights' => [
+                    'Pulsar vredi gledati zbog prostora, ali samo uz jasnu servisnu istoriju i realnu cenu.',
+                    'CVT menjač mora raditi glatko, uz dužu probnu vožnju i proveru servisa ulja.',
+                    'Manja popularnost je prednost samo ako stanje nije razlog za nisku cenu.',
+                ],
+                'tags' => ['Nissan Pulsar', 'kompakt', 'CVT', 'porodični auto', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Nissan Pulsar: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Nissan Pulsar modela: motor, CVT, trap, klima, prostor, servisna istorija, elektronika i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Hyundai ix20: mali monovolumen koji traži proveru prostora, trapa i klime',
+                'slug' => 'polovni-hyundai-ix20-mali-monovolumen-koji-trazi-proveru-prostora-trapa-i-klime',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Hyundai ix20 može biti praktičan gradsko-porodični auto, ali dobar primerak mora dokazati motor, kvačilo, trap, klimu, enterijer i realnu cenu.',
+                'content' => <<<'TEXT'
+Goran i Ana su tražili auto za školu, pijacu, starije roditelje i povremeni odlazak van grada. SUV im je bio preskup, a klasičan mali auto prenizak i tesan. Hyundai ix20 je zato ušao u uži izbor kao razuman kompromis: viši ulazak, pregledna kabina i dovoljno prostora bez velike karoserije. Ipak, praktičnost ne sme da zameni pregled.
+
+Prva provera je kako je auto korišćen. ix20 često služi kao porodični i gradski alat, pa trap, kočnice, kvačilo, gume i amortizeri mogu biti umorniji nego što kilometraža pokazuje. Probna vožnja treba da uključi neravnine, okretanje volana u mestu, kočenje i parkiranje. Ako lupa preko rupa ili kvačilo hvata visoko, cena mora priznati ulaganja.
+
+Druga tema su motor, klima i elektronika. Benzinac je često mirniji izbor za kratke relacije, ali mora raditi tiho, bez curenja i bez zanemarenog servisa. Dizel traži dokaz da nije ceo život proveo u gradu. Klima mora hladiti, ventilacija ne sme mirisati na vlagu, a podizači, brave, senzori i svetla treba da rade bez slučajnih izgovora.
+
+ix20 ima smisla kada kupac stvarno koristi viši ulazak, praktičnu kabinu i skromne dimenzije. Nema smisla ako se plaća skoro kao veći crossover ili ako je enterijer umoran od porodičnog života. Dobar primerak treba da ima jasne račune, očuvan trap i cenu koja ostavlja prostor za početni servis. Ako prodavac prodaje samo "mali porodični auto", traži dokaze da porodica nije već potrošila najbolji deo.
+TEXT,
+                'highlights' => [
+                    'ix20 je dobar kada kupcu treba viši ulazak i praktičnost bez SUV troška.',
+                    'Trap, kvačilo, kočnice, gume i klima najbrže otkrivaju težak gradski život.',
+                    'Benzinac je mirniji za kratke relacije, dok dizel traži jasan servisni trag i duže vožnje.',
+                ],
+                'tags' => ['Hyundai ix20', 'mali monovolumen', 'porodični auto', 'klima', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai ix20: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Hyundai ix20 modela: motor, trap, kvačilo, klima, enterijer, porodična upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#14b8a6', '#f8fafc'],
+            ],
+            [
+                'title' => 'Krckanje pri punom motanju: kada homokinetički zglob otkriva skuplji trap polovnjaka',
+                'slug' => 'krckanje-pri-punom-motanju-kada-homokineticki-zglob-otkriva-skuplji-trap-polovnjaka',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Krckanje pri skretanju nije samo zvuk starog auta, već signal za proveru homokinetičkih zglobova, manžetni, poluosovina, trapa i realnog ulaganja.',
+                'content' => <<<'TEXT'
+Stefan je skoro dogovorio kupovinu kompakta kada je na parkingu, pri punom motanju ulevo, čuo kratko krckanje. Prodavac je rekao da je to normalno za godine, ali majstor ga je zamolio da ponovi manevar u oba smera. Zvuk koji se javlja pri punom motanju često nije slučajnost. Može otvoriti priču o homokinetičkom zglobu, manžetni, poluosovini ili širem stanju trapa.
+
+Prva provera je kada se zvuk pojavljuje. Napravi spor krug punim levim i desnim volanom, zatim ponovi pod blagim gasom. Obrati pažnju da li krcka samo u jednom smeru, da li se čuje pri polasku, preko neravnina ili pri promeni opterećenja. Zglob koji se čuje pod opterećenjem obično traži više od lepog objašnjenja prodavca.
+
+Druga tema su manžetne i tragovi masti. Na dizalici treba pogledati gumene manžetne, stege, curenje masti, luft u poluosovini, kugle, spone, ležajeve i stanje guma. Pukla manžetna može biti jeftin kvar ako je primećena rano, ali ako je zglob dugo radio bez masti, račun raste. Ne gledaj samo deo koji se čuje, nego zašto se čuje.
+
+Kupovina se može nastaviti ako je uzrok jasan, cena popravke poznata i ostatak trapa uredan. Ako se uz krckanje vide loše gume, krive felne, lupanje preko rupa i nejednako trošenje, problem više nije izolovan. Tada pregovor mora obuhvatiti ceo prednji trap, ne samo jedan zglob. Ako prodavac odbija dizalicu, zvuk je već dovoljan razlog da se kupovina zaustavi.
+TEXT,
+                'highlights' => [
+                    'Krckanje proveri punim levim i desnim motanjem, hladno i pod blagim opterećenjem.',
+                    'Manžetne, mast, poluosovine, kugle, spone, ležajevi i gume moraju na pregled.',
+                    'Ako se zvuk spaja sa lošim trapom ili krivim felnama, pregovor mora uključiti veći trošak.',
+                ],
+                'tags' => ['homokinetički zglob', 'trap', 'poluosovina', 'probna vožnja', 'provera vozila'],
+                'meta_title' => 'Krckanje pri punom motanju: šta proveriti',
+                'meta_description' => 'Kako proveriti krckanje pri punom motanju kod polovnog auta: homokinetički zglob, manžetna, poluosovina, trap, gume i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Mađarske: kada blizina oglasa traži proveru kilometraže, porekla i rđe',
+                'slug' => 'uvoz-auta-iz-madjarske-kada-blizina-oglasa-trazi-proveru-kilometraze-porekla-i-rdja',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mađarski uvoz može delovati brzo i blizu, ali kupac mora proveriti VIN, servis, vlasništvo, koroziju, flotnu upotrebu i punu cenu registracije.',
+                'content' => <<<'TEXT'
+Kupac iz Subotice je našao auto iz Mađarske koji je delovao kao najlakši uvoz: blizu je, može da se ode istog dana, a cena je bila niža od sličnih domaćih oglasa. Upravo ta blizina ume da napravi problem. Kada put nije skup i prodavac žuri, kupac lako preskoči proveru porekla, kilometraže i svih troškova do registracije u Srbiji.
+
+Prvo proveri dokumentaciju. VIN, saobraćajna, odjava, kupoprodajni trag, servisni zapisi, tehnički pregledi i broj vlasnika moraju imati logiku. Ako je auto bio službeni, flotni ili preprodavan kroz više ruku, to mora ući u cenu. Jezik dokumentacije nije izgovor da se papiri gledaju površno. Pre kapare prevedi i proveri ono što ne razumeš.
+
+Druga tema su kilometraža i stanje. Mađarski automobili mogu imati uredan servis, ali mogu nositi tragove autoputa, grada, soli, slabijih puteva i parking oštećenja. Pregled na dizalici treba da uključi pragove, pod, kočione cevi, rubove, auspuh, trap i tragove svežeg zaštitnog premaza. Enterijer, volan, pedale i sedišta treba da potvrde broj na satu.
+
+Uvoz iz Mađarske ima smisla kada blizina pomaže proveri, a ne kada služi da se odluka ubrza. Saberi transport, prevod, homologaciju, carinu, porez, registraciju, početni servis i eventualne gume pre poređenja sa domaćim oglasima. Ako prodavac nudi samo nisku cenu i brz dogovor, rizik ostaje tvoj. Dobra kupovina je ona čije poreklo možeš proveriti lakše nego što možeš stići do nje.
+TEXT,
+                'highlights' => [
+                    'Mađarski uvoz proveri kroz VIN, odjavu, servisne zapise, vlasništvo i tehničke preglede.',
+                    'Blizina tržišta ne menja potrebu za dizalicom, proverom rđe, trapa i stvarne kilometraže.',
+                    'Pun trošak uvoza mora uključiti prevod, dažbine, registraciju, servis i početna ulaganja.',
+                ],
+                'tags' => ['uvoz iz Mađarske', 'uvoz auta', 'kilometraža', 'korozija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Mađarske: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Mađarske: VIN, dokumentacija, kilometraža, korozija, flotna upotreba, troškovi uvoza i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
