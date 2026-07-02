@@ -6445,6 +6445,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Citroen C2 ili Ford Ka: mali auto za grad kada cena ne sme da prevari',
+                'slug' => 'citroen-c2-ili-ford-ka-mali-auto-za-grad-kada-cena-ne-sme-da-prevari',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C2 i Ka deluju kao jeftin ulaz u gradski auto, ali kupac mora proveriti rđu, kvačilo, klimu, trap i da li niska cena ostavlja prostor za servis.',
+                'content' => <<<'TEXT'
+Jelena je tražila mali auto za odlazak na posao, parking u centru i povremenu vožnju do roditelja. Citroen C2 i Ford Ka su ušli u izbor jer su jeftini, kratki i jednostavni za grad. Na papiru je delovalo da je dovoljno izabrati očuvaniji primerak, ali kod ovako starih malih auta najniža cena često krije prvi račun posle prenosa.
+
+Citroen C2 ima prednost kada kupac želi praktičniju kabinu, nešto bolji osećaj svakodnevne upotrebe i auto koji se lakše uklapa u gradske obaveze. Treba proveriti motor, menjač, kvačilo, klimu, elektriku, podizače i zadnja vrata. Ako auto trza, teško pali ili se elektronika ponaša slučajno, mala cena nije dovoljan argument.
+
+Ford Ka je jednostavan i simpatičan, ali godine i korozija moraju biti glavna tema pregleda. Pragovi, rubovi, pod, nosači, auspuh i donji deo vrata treba da se gledaju pre opreme i boje. Dobar Ka ima smisla kada je stvarno zdrav i jeftin za održavanje. Loš primerak može biti toliko jeftin da kupac prekasno shvati da popravka lima vredi više od auta.
+
+Pametniji izbor je onaj koji posle pregleda ima manje otvorenih troškova, ne onaj koji je najlepše opran. C2 može biti bolji ako tražiš upotrebljiviji mali auto, a Ka ako je jednostavan, zdrav i realno jeftin. Kod oba modela u cenu odmah uračunaj gume, kočnice, veliki servis ako nema dokaza, registraciju i klima servis. Ako prodavac ne dozvoljava dizalicu, nastavi potragu.
+TEXT,
+                'highlights' => [
+                    'C2 je praktičniji gradski izbor ako motor, kvačilo, klima i elektronika rade bez izgovora.',
+                    'Ford Ka mora prvo dokazati zdrav pod, pragove i rubove, pa tek onda nisku cenu.',
+                    'Kod oba modela gume, kočnice, registracija i početni servis lako promene računicu.',
+                ],
+                'tags' => ['Citroen C2', 'Ford Ka', 'mali auto', 'gradski auto', 'poređenje'],
+                'meta_title' => 'Citroen C2 ili Ford Ka: mali polovnjak za grad',
+                'meta_description' => 'Poređenje polovnih Citroen C2 i Ford Ka modela: rđa, motor, kvačilo, klima, trap, registracija, početni servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Toyota Urban Cruiser: mali crossover koji mora opravdati retkost i cenu',
+                'slug' => 'polovni-toyota-urban-cruiser-mali-crossover-koji-mora-opravdati-retkost-i-cenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Urban Cruiser privlači Toyotinom reputacijom i višim sedenjem, ali kupac mora proveriti koroziju, 4x4, servis, delove i da li retkost diže cenu bez osnova.',
+                'content' => <<<'TEXT'
+Marko je tražio mali povišen auto za suprugu, ali nije želeo popularan crossover koji svi jure. Toyota Urban Cruiser mu je delovala kao mirna kupovina: japanska reputacija, preglednost i kompaktne dimenzije. Problem je što retkost na tržištu ume da napravi iluziju vrednosti. Nije svaki redak auto bolji, niti je svaka Toyota automatski bez rizika.
+
+Prvo proveri poreklo i servis. Urban Cruiser treba da ima jasne račune, logičnu kilometražu i stanje koje prati godine. Benzinski motor mora raditi mirno, bez curenja i preskočenih servisa. Dizel, ako ga gledaš, traži više opreza oko relacija, EGR-a, turbine i potrošnje. Kod ređih modela nije dovoljno da auto "dobro radi"; važno je koliko brzo i po kojoj ceni možeš rešiti kvar.
+
+Druga tema su podvozje, trap i pogon. Ako primerak ima 4x4, proveri da li sistem radi bez lupanja, zatezanja i čudnih zvukova. Gume treba da budu jednake, trap miran, a pod i pragovi bez ozbiljne korozije. Mali crossover koji je vožen po lošim putevima može izgledati bezazleno, a ispod kriti račun koji prodavac ne pominje.
+
+Urban Cruiser ima smisla kada kupac želi mali, pregledan i pouzdan auto, ali samo ako cena ne kažnjava kupca zbog Toyotinog znaka i male ponude. Uporedi ga sa SX4, Yarisom, Jazzom i manjim crossoverima pre odluke. Ako je primerak uredan i pregled potvrdi stanje, retkost može biti simpatična prednost. Ako prodavac traži premiju bez računa i jasne istorije, reputacija nije dovoljan dokaz.
+TEXT,
+                'highlights' => [
+                    'Urban Cruiser kupuj zbog stanja i namene, ne samo zbog Toyotine reputacije.',
+                    'Kod 4x4 primerka proveri pogon, jednake gume, trap, podvozje i tragove loših puteva.',
+                    'Retkost modela ima smisla samo ako dostupnost delova i servisna istorija ne dižu rizik.',
+                ],
+                'tags' => ['Toyota Urban Cruiser', 'mali crossover', '4x4', 'Toyota', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Toyota Urban Cruiser: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Toyota Urban Cruiser modela: motor, 4x4 pogon, korozija, trap, delovi, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Honda FR-V: šest sedišta koja moraju dokazati porodični život',
+                'slug' => 'polovni-honda-fr-v-sest-sedista-koja-moraju-dokazati-porodicni-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Honda FR-V nudi neobičnih šest sedišta i praktičnost, ali kupac mora proveriti motor, trap, klimu, koroziju, enterijer i koliko porodica već umorila auto.',
+                'content' => <<<'TEXT'
+Dejan je tražio porodični auto za troje dece, ali nije želeo veliki van ni SUV cenu. Honda FR-V mu je zato izgledala kao pametna niša: tri sedišta napred, tri pozadi i Hondina reputacija. Na prvom gledanju auto je delovao zanimljivo, ali kod ovakvog modela raspored sedišta ne sme da skrene pažnju sa godina, održavanja i porodičnog umora.
+
+Prvo proveri motor i servisni ritam. Benzinske verzije treba da pale mirno, rade ravnomerno i imaju dokaz o redovnim servisima. Dizel može biti prijatan za duži put, ali traži proveru turbine, EGR-a, kvačila, zamajca i relacija na kojima je korišćen. FR-V nije nov auto i ne treba ga kupiti samo zato što Honda ima dobru reputaciju.
+
+Druga provera je kabina. Svako sedište, pojas, preklapanje, ISOFIX ako postoji, klima, ventilacija, brave, podizači i gepek moraju se proveriti kao da će se koristiti svakog dana. Porodični auto često krije tragove dečjih sedišta, prosute tečnosti, izgrebane plastike i umor mehanizama. To nije automatski razlog za odustajanje, ali jeste razlog za realnu cenu.
+
+FR-V ima smisla kada stvarno koristiš šest sedišta i kada primerak ne traži velika početna ulaganja. Ako ti treba običan porodični auto, možda je Civic, Jazz, Scenic ili Touran lakša kupovina. Ako ti neobičan raspored rešava konkretan problem, plati detaljan pregled trapa, kočnica, korozije i klime. Kupovina je dobra tek kada praktičnost i stanje rade zajedno.
+TEXT,
+                'highlights' => [
+                    'FR-V ima smisla samo ako kupac stvarno koristi šest sedišta i neobičan raspored kabine.',
+                    'Motor, kvačilo, zamajac, trap, kočnice i korozija moraju biti važniji od Hondine reputacije.',
+                    'Kabinu proveri kroz svako sedište, pojas, klimu, brave, podizače i tragove porodičnog umora.',
+                ],
+                'tags' => ['Honda FR-V', 'porodični auto', 'šest sedišta', 'monovolumen', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Honda FR-V: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Honda FR-V modela: šest sedišta, motor, dizel, trap, klima, korozija, enterijer i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Grejač zadnjeg stakla ne radi: kada sitna linija otkriva veći problem',
+                'slug' => 'grejac-zadnjeg-stakla-ne-radi-kada-sitna-linija-otkriva-veci-problem',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Neispravan grejač zadnjeg stakla nije samo zimska neprijatnost, već razlog da proveriš instalaciju, staklo, gepek, vlagu, osigurače i tragove popravke.',
+                'content' => <<<'TEXT'
+Ana je skoro kaparisala mali karavan dok nije primetila da zadnje staklo ostaje zamagljeno i posle nekoliko minuta rada grejača. Prodavac je rekao da je to sitnica, ali majstor je pogledao prekidač, osigurače, provodnike i gepek. Kod polovnog auta sitna linija na staklu ponekad otkrije mnogo širu priču: lošu popravku, vlagu, oštećenu instalaciju ili zamenjeno staklo bez pažnje.
+
+Prva provera je jednostavna. Uključi grejač zadnjeg stakla i prati da li se magla ravnomerno povlači. Ako rade samo neke linije, moguće je fizičko oštećenje grejnih niti. Ako ne radi ništa, treba proveriti prekidač, osigurač, relej, kontakte, masu i instalaciju kroz vrata ili poklopac gepeka. Ne prihvataj objašnjenje da "samo treba vremena" ako nema promene.
+
+Drugi korak je povezivanje sa stanjem zadnjeg dela auta. Proveri da li je staklo menjano, da li ima vlage u gepeku, tragova skidanja tapacirunga, loših dihtunga, korozije oko vrata ili problema sa brisačem i bravom gepeka. Kod hečbeka i karavana kablovi u pregibu često trpe otvaranje i zatvaranje, pa kvar grejača može ići zajedno sa svetlima, bravom ili zadnjim brisačem.
+
+Kupovina se može nastaviti ako je kvar jasan, jeftin i ne prati ga vlaga ili trag ozbiljne popravke. Ako je zadnje staklo zamenjeno posle udarca, ako voda ulazi u kabinu ili ako više funkcija zadnjeg dela ne radi, pregovor mora biti stroži. Grejač zadnjeg stakla nije najskuplji deo auta, ali je dobar test koliko prodavac ozbiljno shvata sitnice koje utiču na svakodnevnu bezbednost.
+TEXT,
+                'highlights' => [
+                    'Grejač proveri u realnom radu: magla treba da se povlači ravnomerno kroz nekoliko minuta.',
+                    'Ako ne radi ništa, proveri osigurač, relej, prekidač, masu, kontakte i instalaciju kroz gepek.',
+                    'Kvar poveži sa zamenjenim staklom, vlagom, zadnjim brisačem, bravom i tragovima popravke.',
+                ],
+                'tags' => ['grejač zadnjeg stakla', 'elektrika', 'vlaga', 'gepek', 'provera vozila'],
+                'meta_title' => 'Grejač zadnjeg stakla ne radi: šta proveriti',
+                'meta_description' => 'Kako proveriti grejač zadnjeg stakla kod polovnog auta: osigurač, relej, instalacija, vlaga, gepek, zamenjeno staklo i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Euro 5 dizel u Srbiji: kada niska cena još ima smisla, a kada je zamka',
+                'slug' => 'euro-5-dizel-u-srbiji-kada-niska-cena-jos-ima-smisla-a-kada-je-zamka',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Euro 5 dizeli često nude mnogo auta za manje novca, ali kupac mora sabrati DPF, EGR, kilometražu, relacije, ekologiju, registraciju i kasniju prodaju.',
+                'content' => <<<'TEXT'
+Vladimir je gledao porodični karavan Euro 5 norme koji je bio znatno jeftiniji od mlađeg Euro 6 primerka. Oglas je delovao razumno: dobar prostor, mala potrošnja i cena koja ostavlja novac za servis. Ipak, kod starijeg dizela prava odluka nije samo da li auto sada radi dobro, nego da li njegov režim vožnje, održavanje i kasnija prodaja odgovaraju kupcu u Srbiji.
+
+Euro 5 dizel ima smisla za vozača koji prelazi duže relacije, vozi otvoren put i zna da mu dizel tehnologija odgovara. Tada potrošnja, obrtni moment i niža početna cena mogu biti realna prednost. Ali DPF, EGR, turbina, dizne, zamajac i automatski menjač moraju biti provereni pre kapare. Jeftiniji oglas nije ušteda ako odmah traži skupu emisijsku ili mehaničku intervenciju.
+
+Za gradsku vožnju računica je slabija. Kratke relacije, hladan motor, gužva i retko izduvavanje brzo pretvaraju dizel u auto koji stalno traži pažnju. Kupac treba da pogleda istoriju regeneracija ako je dostupna, dim, hladan start, lampice, greške, servisne račune i da li je DPF fizički prisutan. Uklonjen DPF nije rešenje, nego rizik za tehnički pregled, ekologiju i kasniju prodaju.
+
+Euro 5 dizel nije automatski loša kupovina, ali više nije univerzalan odgovor. Ima smisla kada je cena dovoljno niža, istorija jasna, relacije duže i početna ulaganja sabrana. Ako auto kupuješ za kratke gradske vožnje ili planiraš brzu prodaju, mlađi benzinac, hibrid ili uredan Euro 6 može biti mirnija odluka. Tržišna cena treba da prizna stariju normu, ne samo dobru opremu.
+TEXT,
+                'highlights' => [
+                    'Euro 5 dizel ima smisla za duže relacije i jasnu servisnu istoriju, ne za kratku gradsku rutinu.',
+                    'DPF, EGR, turbina, dizne, zamajac i menjač moraju ući u računicu pre kapare.',
+                    'Niža cena vredi samo ako kasnija prodaja, ekologija i početna ulaganja ne ponište uštedu.',
+                ],
+                'tags' => ['Euro 5 dizel', 'dizel', 'DPF', 'EGR', 'analiza tržišta'],
+                'meta_title' => 'Euro 5 dizel u Srbiji: kada ga kupiti',
+                'meta_description' => 'Analiza kupovine Euro 5 dizela u Srbiji: DPF, EGR, kilometraža, gradska vožnja, otvoren put, tehnički pregled, cena i kasnija prodaja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

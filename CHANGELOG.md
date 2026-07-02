@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.88] - 2026-07-02
+
+### Added
+
+- Added five non-duplicate production blog articles covering Citroen C2 vs Ford Ka, used Toyota Urban Cruiser checks, used Honda FR-V buying guidance, rear-window defroster inspection, and Euro 5 diesel market risk.
+
 ## [0.1.87] - 2026-07-01
 
 ### Added
