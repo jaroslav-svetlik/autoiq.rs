@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.89] - 2026-07-03
+
+### Added
+
+- Added five non-duplicate production blog articles covering Daihatsu Sirion vs Mitsubishi Colt, used Suzuki Splash checks, used Fiat Qubo buying guidance, handbrake inspection, and Slovak import risk.
+
 ## [0.1.88] - 2026-07-02
 
 ### Added

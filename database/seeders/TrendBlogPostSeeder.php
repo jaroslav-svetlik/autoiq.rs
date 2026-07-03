@@ -6580,6 +6580,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Daihatsu Sirion ili Mitsubishi Colt: mali Japanac kada retkost menja cenu',
+                'slug' => 'daihatsu-sirion-ili-mitsubishi-colt-mali-japanac-kada-retkost-menja-cenu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Sirion i Colt mogu biti racionalni mali automobili za grad, ali kupac mora proveriti delove, koroziju, kvačilo, trap i da li retkost zaista spušta cenu.',
+                'content' => <<<'TEXT'
+Ivana je tražila mali benzinac za Novi Sad, kratke relacije i početnički budžet, ali nije želela još jednu Corsu ili Punto. Daihatsu Sirion i Mitsubishi Colt su joj delovali zanimljivo jer nude japansku reputaciju za manje novca. Prvi obilazak je brzo pokazao da kod retkih malih automobila pitanje nije samo koji je pouzdaniji, nego koji možeš održavati bez čekanja i iznenađenja.
+
+Sirion ima smisla kada je primerak zdrav, jednostavan i realno jeftin. Proveri hladan start, rad kvačila, menjač, klimu, servo, trap i koroziju na pragovima, podu i zadnjim rubovima. Ako prodavac naglašava samo da je "japanac", traži račune i proveri dostupnost delova za konkretan motor. Reputacija ne pomaže mnogo ako mali kvar čeka deo nedeljama.
+
+Colt često nudi ozbiljniji osećaj u vožnji i upotrebljiviju kabinu, ali ni on ne sme da se kupi površno. Obrati pažnju na lanac ili servisni ritam, potrošnju ulja, elektroniku, zadnja vrata, trap, kočnice i stanje enterijera. Primerak koji je služio kao gradski auto može imati malo kilometara, a ipak umorno kvačilo, akumulator, gume i amortizere.
+
+Pametnija kupovina je auto kod kog retkost radi za kupca kroz nižu cenu, a ne protiv kupca kroz skuplju nabavku delova. Sirion je bolji ako je jednostavniji, zdraviji i osetno povoljniji. Colt ima prednost ako dobijaš bolji prostor, bolji osećaj i uredniju istoriju. Ako oba automobila imaju sličnu cenu, izaberi onaj koji majstor može jasnije da pregleda i za koji odmah znaš cenu početnog servisa.
+TEXT,
+                'highlights' => [
+                    'Sirion ima smisla samo ako retkost ne komplikuje delove, servis i početna ulaganja.',
+                    'Colt može ponuditi bolji osećaj i prostor, ali traži proveru lanca, trapa i gradske upotrebe.',
+                    'Kod oba modela cena mora priznati starost, koroziju, kvačilo, gume i dostupnost delova.',
+                ],
+                'tags' => ['Daihatsu Sirion', 'Mitsubishi Colt', 'mali auto', 'benzinac', 'poređenje'],
+                'meta_title' => 'Daihatsu Sirion ili Mitsubishi Colt: koji mali auto kupiti',
+                'meta_description' => 'Poređenje polovnih Daihatsu Sirion i Mitsubishi Colt modela: benzinac, delovi, korozija, kvačilo, trap, gradska vožnja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Suzuki Splash: mali auto koji mora dokazati gradsku rutinu',
+                'slug' => 'polovni-suzuki-splash-mali-auto-koji-mora-dokazati-gradsku-rutinu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Splash je praktičan i pregledan mali auto, ali dobar primerak mora dokazati motor, kvačilo, trap, klimu, koroziju i cenu koja ne kažnjava retkost.',
+                'content' => <<<'TEXT'
+Miloš je tražio auto za majku: viši ulazak, dobra preglednost, mali trošak i dovoljno prostora za pijacu i lekara. Suzuki Splash se pojavio kao logičan kandidat jer nije velik, ali ne deluje prenisko ni tesno. Na oglasima je izgledao kao jednostavna kupovina, dok pregled nije otvorio pitanja koja mali gradski automobili često kriju.
+
+Prvo proveri kako je auto živeo u gradu. Kvačilo, menjač, kočnice, amortizeri, spone, gume i felne često trpe više od motora. Probna vožnja treba da uključi neravnine, parkiranje, okretanje volana u mestu i kočenje pri maloj brzini. Ako auto lupa, vuče ili kvačilo hvata visoko, niska potrošnja ne rešava prvi račun.
+
+Druga tema su motor, klima i korozija. Benzinac mora paliti mirno hladan, raditi bez trzaja i imati jasan servis ulja. Klima treba da hladi bez mirisa vlage, a pod, pragovi, rubovi i donji deo vrata treba da se pogledaju na dizalici. Splash je mali auto, ali popravka lima i zapuštena klima mogu brzo pojesti razliku između dobrog i najjeftinijeg oglasa.
+
+Splash ima smisla kada kupac želi praktičan gradski auto za mirnu svakodnevicu, a ne status ili brzinu. Dobar primerak treba da ima urednu istoriju, očuvan enterijer i cenu koja ostavlja prostor za gume, servis i registraciju. Ako prodavac traži premiju samo zato što je Suzuki i "malo troši", pregovor vrati na stvarno stanje, delove i rezultate probne vožnje.
+TEXT,
+                'highlights' => [
+                    'Splash je dobar za viši ulazak i grad, ali kvačilo, trap i kočnice moraju proći probnu vožnju.',
+                    'Benzinski motor, klima, pragovi, pod i rubovi odlučuju da li je mali trošak stvaran.',
+                    'Retkost modela vredi samo ako cena ostavlja prostor za servis, gume i lako dostupne delove.',
+                ],
+                'tags' => ['Suzuki Splash', 'mali auto', 'gradski auto', 'benzinac', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Suzuki Splash: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Suzuki Splash modela: benzinac, kvačilo, trap, klima, korozija, gradska upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#14b8a6', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Fiat Qubo: praktičan kutijasti auto koji ne sme sakriti radni život',
+                'slug' => 'polovni-fiat-qubo-praktican-kutijasti-auto-koji-ne-sme-sakriti-radni-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Qubo nudi klizna vrata i odličnu praktičnost, ali kupac mora proveriti da li je auto bio porodični pomoćnik, dostavno vozilo ili umoran gradski alat.',
+                'content' => <<<'TEXT'
+Aleksandar je tražio auto koji može da nosi dečji bicikl, kolica, alat i vikend prtljag, ali nije želeo veliki van. Fiat Qubo mu je delovao idealno: kratak spolja, kutijast unutra i sa kliznim vratima koja olakšavaju parking. Ipak, takav oblik često privlači i porodice i male poslove, pa se pre kupovine mora razumeti kako je auto stvarno korišćen.
+
+Prva provera je kabina i tovarni trag. Pogledaj pod gepeka, obloge, prag utovara, klizna vrata, šine, brave, sedišta, pojaseve i plastike. Ako se vide tragovi alata, dostave, vlage ili jakog habanja, cena mora biti drugačija od porodičnog primerka. Qubo može izgledati simpatično spolja, a unutra pokazati težak radni život.
+
+Druga tema su motor, trap i menjač. Dizel ima smisla samo ako su relacije i servisna istorija jasni, jer kratka gradska upotreba opterećuje EGR, turbinu i DPF kod primeraka koji ga imaju. Benzinac je mirniji za grad, ali proveri potrošnju, kvačilo, hladan start i curenja. Trap, zadnji kraj, kočnice i gume moraju se gledati kao kod malog dostavnog vozila, ne samo kao kod putničkog auta.
+
+Qubo je dobra kupovina kada stvarno koristiš prostor, klizna vrata i jednostavnu praktičnost. Nema smisla ako ga plaćaš kao očuvan porodični auto, a pregled pokaže da je već odradio posao za nekog drugog. Ako istorija, kabina i mehanika pričaju istu priču, pregovaraj na osnovu početnog servisa. Ako prodavac izbegava pitanje prethodne namene, nastavi potragu.
+TEXT,
+                'highlights' => [
+                    'Qubo prvo proveri kroz kabinu, klizna vrata, prag utovara i tragove dostavne upotrebe.',
+                    'Dizel traži jasne relacije i servis, dok benzinac bolje odgovara kratkoj gradskoj rutini.',
+                    'Cena mora razlikovati porodični primerak od auta koji je već radio kao mali teretnjak.',
+                ],
+                'tags' => ['Fiat Qubo', 'porodični auto', 'klizna vrata', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Qubo: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiat Qubo modela: klizna vrata, kabina, dostavna upotreba, dizel, benzinac, trap i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Ručna kočnica na polovnom autu: kada visok hod otkriva skuplji zadnji kraj',
+                'slug' => 'rucna-kocnica-na-polovnom-autu-kada-visok-hod-otkriva-skuplji-zadnji-kraj',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ručna kočnica nije sitnica za tehnički pregled, već trag za proveru sajli, čeljusti, doboša, diskova, zadnjih ležajeva i zapuštenog održavanja.',
+                'content' => <<<'TEXT'
+Nikola je na probnoj vožnji skoro završio kupovinu kada je na blagoj uzbrdici povukao ručnu i auto se polako pomerio. Prodavac je rekao da "samo treba zategnuti", ali majstor je tražio da se pogleda zadnji kraj. Visok hod ručne kočnice nekad jeste podešavanje, ali nekad otvara priču o sajlama, čeljustima, dobošima, diskovima i dugom odlaganju servisa.
+
+Prva provera je ponašanje na mestu i u vožnji. Ručna treba da hvata u razumnom hodu, da drži auto na blagoj uzbrdici i da se posle spuštanja točkovi slobodno okreću. Ako hvata previsoko, ne drži ravnomerno ili se auto teško pokreće posle spuštanja, ne prihvataj objašnjenje bez pregleda. Problem može biti jednostavan, ali mora biti jasan.
+
+Na dizalici treba pogledati sajle, povratne opruge, zadnje čeljusti, doboše ili diskove, pločice, paknove, ležajeve i tragove korozije. Kod automobila koji dugo stoje ili se voze kratko, zadnje kočnice često zaribaju, a problem se maskira pranjem i kratkom probnom vožnjom. Ako je sistem elektronske parking kočnice, proveri lampice, dijagnostiku i rad oba zadnja točka.
+
+Kupovina se može nastaviti kada je uzrok poznat i cena popravke uračunata. Ako ručna ne drži, zadnje kočnice su neravnomerne, čeljusti cure ili prodavac odbija dizalicu, rizik više nije sitnica. Ručna kočnica je mali test discipline održavanja. Auto koji ne može mirno da stoji na uzbrdici ne treba da dobije kaparu pre jasnog pregleda.
+TEXT,
+                'highlights' => [
+                    'Ručna kočnica mora držati na uzbrdici i otpuštati bez zadržavanja zadnjih točkova.',
+                    'Sajle, čeljusti, doboši, diskovi, paknovi, ležajevi i korozija traže pregled na dizalici.',
+                    'Visok hod je prihvatljiv samo kada je uzrok jasan i cena popravke uđe u pregovor.',
+                ],
+                'tags' => ['ručna kočnica', 'zadnje kočnice', 'sajle', 'tehnički pregled', 'provera vozila'],
+                'meta_title' => 'Ručna kočnica na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti ručnu kočnicu kod polovnog auta: visok hod, sajle, čeljusti, doboši, diskovi, zadnji ležajevi, korozija i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Slovačke: kada dobra cena traži proveru porekla i flote',
+                'slug' => 'uvoz-auta-iz-slovacke-kada-dobra-cena-trazi-proveru-porekla-i-flote',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Slovački uvoz može izgledati povoljno i blisko, ali kupac mora proveriti flotnu istoriju, kilometražu, koroziju, dokumentaciju i pun trošak registracije.',
+                'content' => <<<'TEXT'
+Petar je našao karavan iz Slovačke koji je bio povoljniji od sličnih nemačkih oglasa, a dovoljno blizu da se odlazak organizuje za vikend. Oprema je bila dobra, kilometraža umerena, a prodavac je naglašavao da je auto iz EU. Baš tada treba usporiti. Slovačko tržište može ponuditi dobre automobile, ali i primerke iz flote, rent-a-car upotrebe ili prethodnog uvoza iz druge zemlje.
+
+Prva provera je putanja vozila. VIN, saobraćajna, odjava, servisni računi, tehnički pregledi i broj vlasnika moraju pokazati da li je auto zaista slovački primerak ili samo prolazi kroz Slovačku. Ako je bio službeni, leasing ili flotni auto, to nije automatski loše, ali cena mora priznati način korišćenja i veću kilometražu kroz vreme.
+
+Druga tema su stanje i zimski uslovi. Pregled na dizalici treba da obuhvati pragove, pod, kočione cevi, rubove, auspuh, trap, amortizere i tragove svežeg zaštitnog premaza. Enterijer, sedište vozača, volan, pedale i gepek treba da potvrde broj na satu. Ako je auto pripremljen za prodaju, ali ispod ima so, rđu ili umoran trap, dobra cena brzo gubi smisao.
+
+Uvoz iz Slovačke ima smisla kada dokumentacija, kilometraža i stanje rade zajedno. Pre poređenja sa domaćim oglasima saberi transport, prevod, homologaciju, carinu, porez, registraciju, početni servis i gume. Ako prodavac žuri, nudi nepotpune papire ili priču svodi na "EU auto", bolje je platiti proveru nego kupiti nečiju flotnu nepoznanicu.
+TEXT,
+                'highlights' => [
+                    'Slovački uvoz proveri kroz VIN, odjavu, servisne račune, tehničke preglede i broj vlasnika.',
+                    'Flotna ili leasing istorija nije problem samo ako kilometraža, stanje i cena ostaju logični.',
+                    'Pun trošak mora uključiti transport, prevod, dažbine, registraciju, servis, gume i pregled podvozja.',
+                ],
+                'tags' => ['uvoz iz Slovačke', 'uvoz auta', 'flotno vozilo', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Slovačke: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu auta iz Slovačke: VIN, dokumentacija, flotna istorija, kilometraža, korozija, troškovi uvoza i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
