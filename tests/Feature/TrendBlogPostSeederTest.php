@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(240, $posts);
+        $this->assertCount(245, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(61, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(62, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -266,6 +266,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-fiat-qubo-praktican-kutijasti-auto-koji-ne-sme-sakriti-radni-zivot'));
         $this->assertTrue($posts->contains('slug', 'rucna-kocnica-na-polovnom-autu-kada-visok-hod-otkriva-skuplji-zadnji-kraj'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-slovacke-kada-dobra-cena-trazi-proveru-porekla-i-flote'));
+        $this->assertTrue($posts->contains('slug', 'ssangyong-korando-ili-renault-koleos-redji-suv-kada-cena-nije-dovoljna'));
+        $this->assertTrue($posts->contains('slug', 'polovni-subaru-xv-crossover-koji-mora-dokazati-pogon-servis-i-rdju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-seat-alhambra-porodicni-van-koji-mora-opravdati-klizna-vrata-i-dizel'));
+        $this->assertTrue($posts->contains('slug', 'parking-senzori-na-polovnom-autu-kada-pistanje-krije-branik-instalaciju-ili-modul'));
+        $this->assertTrue($posts->contains('slug', 'euro-4-benzinac-u-srbiji-kada-niska-cena-jos-uvek-ima-smisla'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

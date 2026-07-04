@@ -6715,6 +6715,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'SsangYong Korando ili Renault Koleos: ređi SUV kada cena nije dovoljna',
+                'slug' => 'ssangyong-korando-ili-renault-koleos-redji-suv-kada-cena-nije-dovoljna',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Korando i Koleos mogu ponuditi mnogo SUV-a za manje novca, ali kupac mora proveriti delove, pogon, menjač i kasniju prodaju pre kapare.',
+                'content' => <<<'TEXT'
+Miloš je tražio porodični SUV za vikend putovanja i lošiji seoski put, ali nije želeo da plati cenu Tiguana ili RAV4. U oglasima su mu zapali za oko SsangYong Korando i Renault Koleos jer za isti budžet nude više prostora, bolju opremu i često mirniju kilometražu. Prvi obilazak ga je brzo spustio na zemlju: kod ređeg SUV-a niska cena nije dovoljna ako delovi, servis i kasnija prodaja nisu jasni.
+
+Korando ima smisla za kupca koji želi jednostavniji, robusniji osećaj i ne plaši se manje popularne značke. Treba proveriti motor, menjač, pogon ako postoji, koroziju podvozja, dostupnost delova i da li lokalni servis zaista poznaje model. Ako prodavac ne može da pokaže račune i ako se svaki odgovor svodi na to da je auto "kao nov", rizik se samo prebacuje na prvog narednog vlasnika.
+
+Koleos deluje poznatije zbog Renault mreže, udobnije kabine i mirnijeg porodičnog karaktera, ali ni on ne sme da se kupi samo zato što je jeftiniji od popularnijih SUV-ova. Posebno proveri dizel servis, automatski menjač ako ga ima, elektroniku, trap i tragove teže upotrebe. Udobnost je prednost samo ako stanje potvrđuje da auto nije godinama krpio budžet prethodnog vlasnika.
+
+Najbolja odluka između Koranda i Koleosa nije pitanje koji je lepši u oglasu, nego koji ostavlja manje nepoznanica posle pregleda. Ako Korando ima jasnu istoriju, dobar servis u blizini i realnu cenu, može biti razumna kupovina. Ako Koleos ima bolju dokumentaciju i lakšu podršku, vredi platiti malo više. Ako nijedan ne može dokazati održavanje, bolji je skuplji ali proverljiviji SUV nego retka prilika koja se teško popravlja.
+TEXT,
+                'highlights' => [
+                    'Kod ređeg SUV-a prvo proveri servisnu podršku, delove i kasniju prodaju.',
+                    'Korando ima smisla kada stanje i održavanje nadoknade slabiju tržišnu likvidnost.',
+                    'Koleos je mirniji izbor samo ako dizel, menjač, elektronika i trap imaju jasnu istoriju.',
+                ],
+                'tags' => ['SsangYong Korando', 'Renault Koleos', 'SUV', 'poređenje', 'delovi'],
+                'meta_title' => 'SsangYong Korando ili Renault Koleos: polovni SUV',
+                'meta_description' => 'Poređenje polovnih SsangYong Korando i Renault Koleos SUV modela: delovi, pogon, menjač, servis, kasnija prodaja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Subaru XV: crossover koji mora dokazati pogon, servis i rđu',
+                'slug' => 'polovni-subaru-xv-crossover-koji-mora-dokazati-pogon-servis-i-rdju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Subaru XV privlači stalnim pogonom i japanskom reputacijom, ali dobar primerak mora imati jasan servis, zdravo podvozje i realnu cenu delova.',
+                'content' => <<<'TEXT'
+Jelena je gledala Subaru XV jer joj je trebalo nešto više od običnog kompakta: povišen klirens, siguran osećaj zimi i auto koji ne izgleda kao svaki drugi crossover na parkingu. Na prvoj probnoj vožnji XV je delovao čvrsto i drugačije, ali prodavac nije imao račune za redovne servise. Kod ovakvog auta upravo ta praznina odlučuje da li je posebnost prednost ili budući trošak.
+
+Prva provera je pogon. Stalni pogon na sva četiri točka je razlog za kupovinu Subaru XV-a, ali mora raditi tiho i bez zatezanja, vibracija ili čudnih zvukova pri manevrisanju. Gume moraju biti iste dimenzije, slične starosti i pravilno trošene, jer loša kombinacija guma može opteretiti pogon. Ako prodavac štedi na gumama, pitanje je gde je još štedeo.
+
+Druga provera su motor, CVT ako ga auto ima i servisna istorija. Boxer motor traži redovno ulje i hladan start bez neobičnih zvukova, a CVT mora imati mirno kretanje, bez zavijanja koje ne prati ubrzanje i bez zadrške kada se zagreje. Računi za servis ulja, svećice, kočnice i tečnosti vrede više od opšte priče da je Subaru pouzdan.
+
+Treća provera je podvozje. XV se često kupuje zbog lošijih puteva, snega i vikend upotrebe, pa dizalica mora pokazati pragove, rubove, nosače, izduv, kočione cevi i tragove korozije. Dobar XV je zanimljiv polovnjak za kupca koji stvarno koristi pogon i povišen klirens. Loš primerak je samo ređi crossover sa skupljim delovima i manjim brojem kupaca kada dođe vreme prodaje.
+TEXT,
+                'highlights' => [
+                    'Stalni pogon je prednost samo kada su gume, zvukovi i servis pogona uredni.',
+                    'Kod CVT-a proveri hladnu i toplu probnu vožnju, zadršku i račune za održavanje.',
+                    'Podvozje i korozija moraju se gledati na dizalici, posebno kod auta koji je vožen zimi.',
+                ],
+                'tags' => ['Subaru XV', 'polovni crossover', '4x4', 'CVT', 'korozija'],
+                'meta_title' => 'Polovni Subaru XV: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Subaru XV modela: stalni pogon, gume, CVT, boxer motor, korozija, servisna istorija i delovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Seat Alhambra: porodični van koji mora opravdati klizna vrata i dizel',
+                'slug' => 'polovni-seat-alhambra-porodicni-van-koji-mora-opravdati-klizna-vrata-i-dizel',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Alhambra je ozbiljno porodično rešenje, ali polovan primerak mora dokazati DSG, dizel, klizna vrata, sedišta i stvaran život kabine.',
+                'content' => <<<'TEXT'
+Marko i Ivana su gledali Seat Alhambru jer troje dece, kolica i putovanja više nisu stajali u običan karavan. Auto je na fotografijama delovao kao idealno rešenje: sedam sedišta, klizna vrata, veliki gepek i dobar dizel. Tek kada su počeli da otvaraju svaka vrata i pomeraju svako sedište, postalo je jasno da porodični van ne sme da se kupi iz jedne lepe slike.
+
+Prva provera su klizna vrata, sedišta i kabina. Vrata moraju raditi glatko, bez grešaka brave, preskakanja šina ili čudnog zvuka motora ako su električna. Sva sedišta, pojasevi, ISOFIX tačke, preklapanje, ventilacija pozadi i plastike treba proveriti kao da će porodica sutra krenuti na put. Umorna kabina nije samo estetika, već trag koliko je auto zaista radio.
+
+Druga provera su dizel i menjač. Alhambra se često kupuje za duge relacije, ali mnogi primerci imaju veliku kilometražu, službenu ili porodičnu eksploataciju i zaostale servise. Kod TDI motora proveri DPF, EGR, turbinu, zamajac, curenja i hladan start. Ako je auto sa DSG-om, račun za servis ulja i probna vožnja u gužvi nisu dodatak, nego uslov.
+
+Alhambra ima smisla kada stvarno koristiš prostor i kada cena odražava stanje, a ne samo činjenicu da je auto praktičan. Dobar primerak može zameniti SUV, karavan i monovolumen u jednoj kupovini. Loš primerak brzo pretvara porodičnu praktičnost u listu sitnih kvarova: vrata, klima, senzori, sedišta, dizel i menjač. Ako prodavac žuri kroz proveru kabine, kupac treba da uspori.
+TEXT,
+                'highlights' => [
+                    'Klizna vrata, sedišta, pojasevi, ISOFIX i zadnja ventilacija moraju raditi bez izgovora.',
+                    'TDI i DSG traže račune, hladan start i probnu vožnju u realnoj gradskoj gužvi.',
+                    'Alhambra je dobra kupovina samo ako prostor prati uredna istorija i realna cena.',
+                ],
+                'tags' => ['Seat Alhambra', 'porodični van', 'sedam sedišta', 'TDI', 'DSG'],
+                'meta_title' => 'Polovni Seat Alhambra: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Seat Alhambre: klizna vrata, sedam sedišta, TDI, DSG, klima, porodični umor i servisna istorija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#84cc16', '#f8fafc'],
+            ],
+            [
+                'title' => 'Parking senzori na polovnom autu: kada pištanje krije branik, instalaciju ili modul',
+                'slug' => 'parking-senzori-na-polovnom-autu-kada-pistanje-krije-branik-instalaciju-ili-modul',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Neispravni parking senzori deluju kao sitnica, ali mogu otkriti udarac, lošu popravku branika, vlagu u instalaciji ili skuplji elektronski kvar.',
+                'content' => <<<'TEXT'
+Nemanja je skoro završio kupovinu kompaktnog karavana kada je pri rikvercu čuo konstantno pištanje parking senzora. Prodavac je odmah rekao da je "samo senzor" i ponudio mali popust. Problem je što kod polovnog auta parking senzori retko treba da se posmatraju sami: oni često pričaju priču o braniku, udarcu, instalaciji i kvalitetu prethodne popravke.
+
+Prva provera je jednostavna. Uključi rikverc, proveri svaki senzor rukom ili približavanjem predmeta, slušaj da li sistem reaguje ravnomerno i pogledaj da li se greška javlja odmah ili tek posle pranja, kiše ili vožnje. Senzor koji radi povremeno može značiti vlagu, loš konektor, napuklo kućište ili instalaciju koja je loše vraćena posle skidanja branika.
+
+Druga provera je branik. Neujednačeni zazori, druga nijansa boje, polomljeni nosači, loše uklopljeni senzori ili tragovi varenja plastike znače da kvar nije samo elektronski. Ako auto ima kameru, automatsko parkiranje ili fabrički prikaz na ekranu, proveri da li svi sistemi rade zajedno. Jeftina zamena senzora ne rešava problem ako je modul, kabl ili branik već pretrpeo lošu popravku.
+
+Kupovina nije automatski loša zbog parking senzora, ali cena mora priznati uzrok, ne samo simptom. Ako dijagnostika pokaže tačan senzor i branik je uredan, to je pregovaračka stavka. Ako prodavac ne dozvoljava proveru, greška se briše pred dolazak ili se vide tragovi udarca, bolje je odustati nego prihvatiti priču da je sitnica. Sitnice kod elektronike često postanu skupe tek posle prenosa.
+TEXT,
+                'highlights' => [
+                    'Parking senzore proveri pojedinačno, na rikvercu, uz ekran, kameru i realno manevrisanje.',
+                    'Grešku poveži sa zazorima branika, bojom, nosačima, vlagom i instalacijom.',
+                    'Popust ima smisla tek kada dijagnostika pokaže tačan uzrok i cenu popravke.',
+                ],
+                'tags' => ['parking senzori', 'provera vozila', 'branik', 'elektronika', 'dijagnostika'],
+                'meta_title' => 'Parking senzori na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti parking senzore na polovnom autu: branik, udarac, vlaga, instalacija, modul, kamera, dijagnostika i pregovor cene.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Euro 4 benzinac u Srbiji: kada niska cena još uvek ima smisla',
+                'slug' => 'euro-4-benzinac-u-srbiji-kada-niska-cena-jos-uvek-ima-smisla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stariji Euro 4 benzinci mogu biti razumna kupovina za mali budžet, ali samo kada registracija, stanje, potrošnja i očekivanja ostanu prizemni.',
+                'content' => <<<'TEXT'
+Nikola je tražio auto za posao, pijacu i povremeni odlazak van grada, sa budžetom koji ne trpi moderni dizel, automatik ili skupe elektronske sisteme. U oglasima su se izdvojili stariji Euro 4 benzinci: jednostavniji, jeftiniji za kupovinu i često manje rizični od zapuštenog dizela. Ipak, niska cena nije plan ako auto odmah traži gume, veliki servis, trap i registraciju.
+
+Euro 4 benzinac ima smisla kada kupac vozi kratke relacije, ne želi DPF i EGR brige i prihvata da auto neće imati savremenu opremu. Jednostavniji motor može biti prednost, ali samo ako pali hladan, radi mirno, ne troši ulje, nema curenja i ima bar osnovne servisne tragove. Kod starijeg benzinca stanje karoserije, pragova, kočnica i trapa često odlučuje više od samog motora.
+
+Tržišna zamka je u tome što se niska cena lako pomeša sa niskim troškom. Kupac vidi mali iznos u oglasu, ali zaboravi da su gume, akumulator, auspuh, veliki servis, kvačilo i registracija skoro isti trošak bez obzira na vrednost auta. Ako početna ulaganja pređu razuman deo cene, jeftin auto prestaje da bude jeftin i postaje privremeno rešenje koje stalno traži novac.
+
+Pametna kupovina Euro 4 benzinca je miran, uredan primerak sa realnom cenom i jasnom namenom: grad, kratke relacije, skroman budžet i jednostavno održavanje. Nije pametna ako kupac očekuje čudo, dugu autoput udobnost ili kasniju prodaju bez gubitka. Ako pregled pokaže zdravu karoseriju, miran motor i malu listu ulaganja, stariji benzinac još može imati smisla. Ako stanje nije jasno, bolje je sačekati nego kupiti najjeftiniji oglas.
+TEXT,
+                'highlights' => [
+                    'Euro 4 benzinac ima smisla za kratke relacije kada kupac želi da izbegne dizel rizike.',
+                    'Karoserija, trap, gume, servis i registracija mogu biti veći problem od samog motora.',
+                    'Niska cena vredi samo ako početna ulaganja ne pojedu prednost jeftine kupovine.',
+                ],
+                'tags' => ['Euro 4', 'benzinac', 'jeftin polovnjak', 'tržište polovnjaka', 'budžet'],
+                'meta_title' => 'Euro 4 benzinac u Srbiji: kada se isplati',
+                'meta_description' => 'Analiza kupovine Euro 4 benzinca u Srbiji: niska cena, kratke relacije, registracija, karoserija, trap, ulaganja i dizel alternative.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
         ]);
     }
 

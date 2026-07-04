@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.90] - 2026-07-04
+
+### Added
+
+- Added five non-duplicate production blog articles covering SsangYong Korando vs Renault Koleos, used Subaru XV checks, used Seat Alhambra buying guidance, parking sensor faults, and Euro 4 petrol market risk.
+
 ## [0.1.89] - 2026-07-03
 
 ### Added
