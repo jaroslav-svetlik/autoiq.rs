@@ -6850,6 +6850,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#10231f', '#22c55e', '#f8fafc'],
             ],
+            [
+                'title' => 'Suzuki Baleno ili Hyundai i20: mali auto kada prostor i cena ne govore sve',
+                'slug' => 'suzuki-baleno-ili-hyundai-i20-mali-auto-kada-prostor-i-cena-ne-govore-sve',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Baleno i i20 mogu delovati kao isti gradski izbor, ali kupac mora uporediti prostor, dostupnost delova, servisnu istoriju i kasniju prodaju pre kapare.',
+                'content' => <<<'TEXT'
+Ana je tražila mali auto za Novi Sad, ali ne najmanji mogući. Trebalo joj je da stanu dečje sedište, nedeljna kupovina i povremeni put do roditelja. U oglasima su joj se izdvojili Suzuki Baleno i Hyundai i20 jer deluju štedljivo, pregledno i dovoljno mlado za razuman budžet. Na papiru je Baleno nudio više prostora za novac, dok je i20 delovao poznatije i lakše za kasniju prodaju.
+
+Baleno ima smisla za kupca koji želi lagan, prostran i jednostavan auto, ali ne sme se kupiti samo zato što je povoljniji od popularnijih gradskih modela. Proveri servisnu istoriju, stanje kvačila, trap, kočnice, klimu i dostupnost delova kod lokalnog majstora. Ako prodavac objašnjava cenu samo time da je model potcenjen, traži konkretne račune, hladan start i pregled podvozja.
+
+Hyundai i20 je mirniji izbor za kupca koji želi poznatiji model, širu servisnu podršku i lakše poređenje oglasa. To ne znači da svaki i20 opravdava višu cenu. Kod gradskog auta gledaj tragove kratkih relacija: kvačilo, ogrebotine na branicima, trap, gume, sedište vozača, klimu i servis ulja. Dobar i20 vredi više samo ako stanje prati reputaciju.
+
+Odluka između Balena i i20 ne treba da bude priča o znački, nego o stvarnoj upotrebi. Ako Baleno ima jasnu istoriju, zdrav trap i cenu koja ostavlja prostor za početni servis, može biti pametniji od skupljeg i20. Ako i20 ima bolju dokumentaciju, manje nepoznanica i lakšu kasniju prodaju, razlika u ceni ima smisla. Ako nijedan prodavac ne dozvoljava ozbiljnu proveru, pravi izbor je treći oglas.
+TEXT,
+                'highlights' => [
+                    'Baleno vredi gledati kada prostor i cena dolaze uz jasnu istoriju, a ne samo retkost.',
+                    'i20 ima prednost kroz poznatije tržište, ali samo ako stanje opravdava višu cenu.',
+                    'Kod oba modela proveri kvačilo, trap, klimu, gume i tragove kratke gradske vožnje.',
+                ],
+                'tags' => ['Suzuki Baleno', 'Hyundai i20', 'mali auto', 'gradski auto', 'poređenje'],
+                'meta_title' => 'Suzuki Baleno ili Hyundai i20: koji mali auto kupiti',
+                'meta_description' => 'Poređenje polovnih Suzuki Baleno i Hyundai i20 modela: prostor, cena, servis, kvačilo, trap, gradska upotreba i kasnija prodaja.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#2dd4bf', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Opel Karl: mali auto koji mora dokazati gradsku upotrebu',
+                'slug' => 'polovni-opel-karl-mali-auto-koji-mora-dokazati-gradsku-upotrebu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Opel Karl je jednostavan gradski auto, ali dobar primerak mora potvrditi kvačilo, trap, kočnice, klimu, kratke relacije i cenu koja ne kažnjava kupca.',
+                'content' => <<<'TEXT'
+Milan je tražio auto za majku: mali, pregledan, sa pet vrata i bez komplikovanog dizela. Opel Karl mu je delovao kao razumna kupovina jer nije skup kao traženiji gradski modeli, a dovoljno je nov da ne izgleda umorno. Prvi pregled ga je podsetio da mali gradski auto ne znači automatski mali rizik, posebno kada je život proveo u uskim ulicama i kratkim relacijama.
+
+Prvo proveri kvačilo, menjač i trap. Karl se često koristi za polazak-stajanje vožnju, parkiranje uz ivičnjake i kratke rute na hladan motor. Probna vožnja treba da uključi kretanje uzbrdo, sporo manevrisanje, prelazak preko neravnina, kočenje i pun krug volanom. Ako se čuje lupanje, škripa ili menjač zapinje, cena mora priznati stvaran trošak, ne samo mali format auta.
+
+Druga provera su klima, elektronika i tragovi kabine. Mali auto za grad često ima mnogo ulazaka, kratkih vožnji i parking oštećenja, pa pogledaj vrata, branike, rubove, sedište vozača, pedale, prekidače, ventilaciju i rad svih lampica. Jednostavan auto je prednost samo ako nije zapušten. Jeftina kupovina brzo prestaje da bude jeftina ako odmah traži gume, akumulator, kočnice i servis.
+
+Opel Karl ima smisla kada kupac želi miran gradski alat, a ne auto za dokazivanje. Dobar primerak treba da pali hladan bez drame, da vozi pravo, da nema skrivenu koroziju i da ima bar osnovne servisne tragove. Ako prodavac traži cenu blisku poznatijim modelima, Karl mora ponuditi bolje stanje. Ako je istorija mutna, nastavi potragu, jer kod malog auta nema dovoljno prostora u budžetu za velika iznenađenja.
+TEXT,
+                'highlights' => [
+                    'Karl prvo proveri kroz kvačilo, menjač, trap i realnu gradsku probnu vožnju.',
+                    'Parking tragovi, kabina, klima i elektronika često otkrivaju koliko je auto radio.',
+                    'Kupovina ima smisla samo ako cena ostavlja prostor za servis, gume, akumulator i kočnice.',
+                ],
+                'tags' => ['Opel Karl', 'mali auto', 'gradski auto', 'benzinac', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Karl: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Opel Karl modela: kvačilo, trap, menjač, klima, gradska upotreba, parking oštećenja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#fb7185', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Peugeot Rifter: praktičan porodični van koji traži proveru radnog života',
+                'slug' => 'polovni-peugeot-rifter-praktican-porodicni-van-koji-trazi-proveru-radnog-zivota',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Rifter nudi ogroman prostor i porodičnu praktičnost, ali kupac mora proveriti da li je bio porodični auto, dostavno vozilo ili umoran službeni primerak.',
+                'content' => <<<'TEXT'
+Jovan i Katarina su posle drugog deteta počeli da gledaju Peugeot Rifter jer im je klasičan kompakt postao tesan. Klizna vrata, visok krov i veliki gepek delovali su kao rešenje za kolica, bicikle i putovanja. Ali baš zato što Rifter može da služi i porodici i poslu, svaki polovan primerak mora prvo dokazati kakav je život zaista imao.
+
+Prva provera je kabina, gepek i vrata. Pogledaj prag utovara, pod gepeka, obloge, zadnju klupu, ISOFIX tačke, klizna vrata, brave, šine i tragove alata ili dostave. Porodična upotreba ostavlja drugačije tragove od radne. Ako je auto oglašen kao porodičan, a unutra se vide oguljene plastike, savijen pod i umorne brave, cena mora biti bliža radnom vozilu.
+
+Druga provera su motor i menjač. Kod dizela proveri servis ulja, AdBlue ako ga verzija ima, DPF, EGR, turbinu, curenja i hladan start. Kod benzinca gledaj miran rad, potrošnju ulja, servisni ritam i da li motor ima dovoljno snage za opterećen porodični auto. Menjač, kvačilo i trap treba testirati sa pažnjom jer visok i praktičan auto često nosi više tereta nego što fotografije pokazuju.
+
+Rifter je odlična kupovina kada prostor stvarno koristiš i kada stanje potvrđuje urednu namenu. Nema smisla platiti ga kao očuvan porodični auto ako pregled govori da je bio službeni alat. Ako dokumentacija, kabina i mehanika pričaju istu priču, pregovaraj na osnovu početnog servisa i guma. Ako prodavac preskače pitanja o prethodnoj nameni, taj prostor verovatno krije skuplju priču.
+TEXT,
+                'highlights' => [
+                    'Rifter prvo proveri kroz klizna vrata, gepek, obloge, sedišta i tragove radne upotrebe.',
+                    'Dizel traži proveru AdBlue sistema, DPF-a, EGR-a, turbine, curenja i servisnog ritma.',
+                    'Porodična praktičnost vredi samo ako cena prati stvarno stanje kabine, trapa i menjača.',
+                ],
+                'tags' => ['Peugeot Rifter', 'porodični van', 'klizna vrata', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Peugeot Rifter: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Peugeot Rifter modela: klizna vrata, kabina, radna upotreba, dizel, AdBlue, trap i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Lupanje preko neravnina na polovnom autu: kada trap traži pregovor ili odustajanje',
+                'slug' => 'lupanje-preko-neravnina-na-polovnom-autu-kada-trap-trazi-pregovor-ili-odustajanje',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lupanje iz trapa nije samo neprijatan zvuk; može otkriti ramena, kugle, stabilizatore, amortizere, nosače ili lošu popravku posle udarca.',
+                'content' => <<<'TEXT'
+Stefan je skoro dogovorio kupovinu porodičnog hečbeka kada je na kratkoj ulici sa ležećim policajcima čuo tupo lupanje napred desno. Prodavac je odmah rekao da je "samo gumica stabilizatora" i da to košta malo. Problem je što kupac ne zna da li zvuk dolazi iz gumice, kugle, ramena, amortizera, nosača ili traga starog udarca dok auto ne ode na dizalicu.
+
+Prva provera je probna vožnja na različitim neravninama. Vozi sporo preko ležećeg policajca, pređi preko sitnih talasa, skreni punim volanom na parkingu i zakoči blago na neravnom asfaltu. Slušaj da li se zvuk javlja napred ili pozadi, levo ili desno, samo pri udaru ili i pri skretanju. Jedan zvuk može biti jeftin, ali kombinacija lupanja, zanošenja i nejednakog trošenja guma menja celu računicu.
+
+Druga provera je dizalica. Majstor treba da proveri ramena, kugle, spone, krajeve spona, stabilizatore, amortizere, opruge, nosače motora, ležajeve točka, kočnice i tragove udarca na felni ili nosačima. Ako je auto nedavno opran odozdo, ima sveže zategnute delove ili različite gume, pitaj zašto. Trap retko strada sam od sebe; često priča priču o rupama, ivičnjacima ili lošem održavanju.
+
+Kupovina nije automatski loša zbog lupanja, ali cena mora biti vezana za dijagnozu, ne za obećanje prodavca. Ako majstor potvrdi sitan deo i ostatak auta je uredan, to je pregovaračka stavka. Ako prodavac odbija dizalicu, zvuk se širi na više strana ili se vidi trag udarca, bolje je odustati. Trap je deo koji direktno utiče na bezbednost, gume i kasnije troškove.
+TEXT,
+                'highlights' => [
+                    'Lupanje testiraj na ležećim policajcima, sitnim neravninama, kočenju i punom motanju.',
+                    'Dizalica mora proveriti ramena, kugle, spone, stabilizatore, amortizere, nosače i tragove udarca.',
+                    'Pregovor ima smisla tek kada majstor napiše uzrok i okvirnu cenu popravke.',
+                ],
+                'tags' => ['lupanje trapa', 'provera vozila', 'trap', 'amortizeri', 'probna vožnja'],
+                'meta_title' => 'Lupanje preko neravnina: šta proveriti kod polovnjaka',
+                'meta_description' => 'Kako proveriti lupanje iz trapa polovnog auta: probna vožnja, ramena, kugle, spone, stabilizatori, amortizeri, gume i pregovor cene.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#facc15', '#f8fafc'],
+            ],
+            [
+                'title' => 'Euro 3 gradski auto: kada najjeftiniji oglas više nije najjeftinija kupovina',
+                'slug' => 'euro-3-gradski-auto-kada-najjeftiniji-oglas-vise-nije-najjeftinija-kupovina',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stariji Euro 3 gradski automobili mogu rešiti hitnu potrebu za prevozom, ali kupac mora sabrati registraciju, limariju, gume, servis i buduću prodaju.',
+                'content' => <<<'TEXT'
+Vladimir je tražio najjeftiniji gradski auto za odlazak na posao i vožnju deteta do vrtića. Euro 3 automobili u oglasima delovali su privlačno jer je cena bila niža od svake rate kredita. Ipak, najjeftiniji oglas nije isto što i najjeftinija kupovina. Kod starog gradskog auta svaki deo budžeta mora biti unapred izračunat, jer mali kvar brzo postane veliki procenat vrednosti auta.
+
+Euro 3 gradski auto ima smisla samo kada kupac prihvata ograničenja: skromnu opremu, manju bezbednosnu rezervu, slabiju izolaciju, godine lima i verovatno kraću kasniju prodaju. Prednost je jednostavnija mehanika, ali samo ako motor pali hladan, ne dimi, ne troši ulje, trap ne lupa i karoserija nije načeta na pragovima, podu ili nosačima.
+
+Tržišna zamka je u početnim ulaganjima. Gume, akumulator, veliki servis, kočnice, auspuh, registracija, mali servis i osnovna limarija mogu koštati skoro koliko razlika između lošeg i dobrog primerka. Ako auto nema tehnički pregled, ako prodavac ne želi probnu vožnju ili ako je cena niska zato što "treba malo ulaganja", traži precizan spisak pre nego što pregovaraš.
+
+Pametna kupovina Euro 3 gradskog auta je uredan, jednostavan primerak kupljen za jasnu namenu i kratak horizont, ne projekat koji treba spašavati. Ako pregled pokaže zdravu osnovu i mala ulaganja, takav auto može služiti racionalno. Ako se niz troškova otvara već u prvih deset minuta, bolje je dodati novac za mlađi i zdraviji auto nego kupiti jeftinu ulaznicu u stalne popravke.
+TEXT,
+                'highlights' => [
+                    'Euro 3 gradski auto ima smisla samo kada je zdrav lim, miran motor i mala lista ulaganja.',
+                    'Gume, akumulator, servis, kočnice, auspuh i registracija mogu poništiti nisku cenu oglasa.',
+                    'Najjeftiniji primerak preskoči ako prodavac ne dozvoljava probnu vožnju, dizalicu ili jasne papire.',
+                ],
+                'tags' => ['Euro 3', 'gradski auto', 'jeftin polovnjak', 'tržište polovnjaka', 'budžet'],
+                'meta_title' => 'Euro 3 gradski auto: kada se isplati',
+                'meta_description' => 'Analiza kupovine Euro 3 gradskog auta u Srbiji: niska cena, registracija, limarija, servis, gume, bezbednost i stvarna računica.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#a3e635', '#f8fafc'],
+            ],
         ]);
     }
 

@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.91] - 2026-07-05
+
+### Added
+
+- Added five non-duplicate production blog articles covering Suzuki Baleno vs Hyundai i20, used Opel Karl checks, used Peugeot Rifter buying guidance, suspension clunk inspection, and Euro 3 city-car market risk.
+
 ## [0.1.90] - 2026-07-04
 
 ### Added
