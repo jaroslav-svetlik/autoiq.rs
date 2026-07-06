@@ -6985,6 +6985,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#10231f', '#a3e635', '#f8fafc'],
             ],
+            [
+                'title' => 'Suzuki Ignis ili Opel Agila: mali auto kada visina ne sme da zameni proveru',
+                'slug' => 'suzuki-ignis-ili-opel-agila-mali-auto-kada-visina-ne-sme-da-zameni-proveru',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ignis i Agila nude lak ulazak, preglednost i mali format, ali kupac mora odvojiti praktičnu visinu od stvarnog stanja motora, trapa, lima i delova.',
+                'content' => <<<'TEXT'
+Maja je tražila mali auto za majku koja teško ulazi u niske gradske modele. Suzuki Ignis i Opel Agila brzo su ušli u uži izbor jer imaju višu kabinu, kratak auto za parking i jednostavan karakter. Na fotografijama oba deluju kao pametna alternativa običnom malom autu, ali kod starijih primeraka visoko sedenje ne sme da sakrije godine, limariju i dostupnost delova.
+
+Ignis ima smisla kada kupac želi nešto robustniji mali auto, bolju preglednost i upotrebljivost na lošijem putu. Ipak, baš zato proveri tragove seoske vožnje, zimu, so, pragove, pod, zadnji deo, trap, kočnice i eventualni 4x4 pogon ako ga primerak ima. Ako prodavac cenu objašnjava retkošću, traži račune, hladan start i pregled odozdo, jer retkost ne plaća koroziju.
+
+Agila je racionalnija kada je cilj jednostavan gradski auto sa lakšim ulaskom i poznatijom servisnom podrškom. Treba proveriti benzinski motor, kvačilo, menjač, klimu, podizače, vrata, zadnju klupu i tragove kratkih relacija. Agila koja je godinama vozila samo grad može spolja izgledati uredno, a da odmah traži gume, trap, akumulator i kočnice.
+
+Odluka ne treba da bude Ignis protiv Agile po imenu, nego koji primerak ima jasniju istoriju i manje početno ulaganje. Ignis je bolji ako stvarno treba viši auto za lošiji put i ako je lim zdrav. Agila je bolja ako kupac želi mirniju gradsku računicu i lakše održavanje. Ako nijedan auto ne može na dizalicu pre kapare, visoko sedenje nije prednost nego skupa distrakcija.
+TEXT,
+                'highlights' => [
+                    'Ignis vredi gledati kada viša kabina dolazi uz zdrav lim, trap i jasnu servisnu istoriju.',
+                    'Agila ima smisla kao jednostavan gradski auto ako kvačilo, klima, vrata i trap rade bez ulaganja.',
+                    'Kod oba modela dizalica i hladan start vrede više od priče da je auto mali i jeftin za održavanje.',
+                ],
+                'tags' => ['Suzuki Ignis', 'Opel Agila', 'mali auto', 'gradski auto', 'poređenje'],
+                'meta_title' => 'Suzuki Ignis ili Opel Agila: koji mali auto kupiti',
+                'meta_description' => 'Poređenje polovnih Suzuki Ignis i Opel Agila modela: visoko sedenje, limarija, trap, motor, klima, delovi, gradska vožnja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Kia Rio: mali auto koji traži proveru kvačila, trapa i klime',
+                'slug' => 'polovni-kia-rio-mali-auto-koji-trazi-proveru-kvacila-trapa-i-klime',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kia Rio može biti razuman gradski i porodični mali auto, ali dobar primerak mora potvrditi servis, kvačilo, trap, klimu, opremu i realnu cenu.',
+                'content' => <<<'TEXT'
+Dejan je tražio prvi ozbiljniji auto za ćerku: ne premali, ne skup za održavanje i dovoljno pregledan za grad. Kia Rio mu je delovala kao mirniji izbor od razvikanijih modela jer često nudi dobru opremu za cenu. Prvi obilazak ga je podsetio da korejska reputacija ne zamenjuje pregled konkretnog primerka, posebno kada je auto godinama radio kratke relacije.
+
+Prvo proveri motor, kvačilo i menjač. Rio kao mali benzinac treba da pali hladan bez dugog verglanja, radi ravnomerno, ne trza i ne pokazuje odložene servise. Kvačilo ne sme hvatati previsoko, menjač ne sme zapinjati, a probna vožnja treba da uključi kretanje uzbrdo, sporo manevrisanje i gradsku gužvu. Ako prodavac kaže da je "sve to normalno", traži mišljenje majstora.
+
+Druga provera su trap, kočnice, gume i klima. Mali auto često živi po ivičnjacima, rupama i kratkim rutama, pa amortizeri, spone, ležajevi, diskovi i gume brzo pokažu stvarno stanje. Klima mora hladiti bez čudnih zvukova i mirisa, jer njena popravka kod jeftinog auta lako pojede pregovaračku prednost.
+
+Rio ima smisla kada kupac dobija uredan, jednostavan auto sa servisnom istorijom i cenom koja ne kažnjava manju popularnost modela. Ako je primerak očuvaniji od konkurencije, vredi ga uzeti ozbiljno. Ako nema računa, ako je enterijer umorniji od kilometraže ili ako trap već traži ulaganje, bolji je skuplji i jasniji oglas nego Rio kupljen samo zato što izgleda povoljno.
+TEXT,
+                'highlights' => [
+                    'Kod Rio modela proveri hladan start, kvačilo, menjač i ponašanje u gradskoj vožnji.',
+                    'Trap, kočnice, gume i klima često otkrivaju koliko je mali auto stvarno radio.',
+                    'Dobar Rio vredi kada stanje nadoknađuje manju popularnost, a cena ostavlja prostor za servis.',
+                ],
+                'tags' => ['Kia Rio', 'mali auto', 'gradski auto', 'benzinac', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Kia Rio: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Kia Rio modela: motor, kvačilo, menjač, trap, klima, gume, kočnice, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Renault Fluence: limuzina koja mora opravdati nisku cenu',
+                'slug' => 'polovni-renault-fluence-limuzina-koja-mora-opravdati-nisku-cenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Renault Fluence privlači velikim gepekom i nižom cenom, ali kupac mora proveriti dizel, elektroniku, trap, enterijer i razlog zašto je limuzina povoljna.',
+                'content' => <<<'TEXT'
+Saša je tražio limuzinu za porodicu i posao, ali nije želeo da plati cenu popularnog karavana ili SUV-a. Renault Fluence mu je privukao pažnju velikim gepekom, udobnim sedištima i oglasima koji deluju povoljnije od nemačkih alternativa. Takav auto može biti razumna kupovina, ali samo ako kupac razume zašto je cena niža i šta mora da proveri pre kapare.
+
+Prva tema je motor i servis. Kod dizela proveri hladan start, dim, turbinu, dizne, DPF ako ga verzija ima, EGR, curenja i račune za ulje. Kod benzinca gledaj miran rad, potrošnju ulja, rashladni sistem i da li je auto održavan redovno, a ne samo pred prodaju. Fluence sa mutnom istorijom nije jeftina limuzina, već nepoznat račun u velikom pakovanju.
+
+Druga provera su elektronika, kabina i trap. Kartica ili ključ, klima, podizači, brave, instrument tabla, senzori i svetla moraju raditi bez izgovora. Veliki gepek i udobnost često znače da je auto služio porodici, putovanjima ili poslu, pa proveri zadnju klupu, prag gepeka, gume, kočnice, amortizere i ležajeve. Ako kabina priča priču o teškom životu, cena mora biti iskrena.
+
+Fluence ima smisla za kupca koji želi prostor i udobnost bez plaćanja tržišne mode. Dobar primerak treba da ima dosledne papire, miran motor i opremu koja radi. Ako je cena niska zato što model nije tražen, to može biti prilika. Ako je niska zato što prodavac preskače servis, dijagnostiku ili probnu vožnju, bolje je odustati pre nego što veliki gepek postane mesto za račune.
+TEXT,
+                'highlights' => [
+                    'Fluence kupuj zbog prostora i stanja, ne samo zato što je povoljniji od traženijih limuzina.',
+                    'Dizel traži proveru turbine, dizni, DPF-a, EGR-a, curenja i servisnog ritma.',
+                    'Elektronika, kartica, klima, trap i gepek moraju potvrditi da niska cena nije maska za ulaganja.',
+                ],
+                'tags' => ['Renault Fluence', 'limuzina', 'dizel', 'porodični auto', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Renault Fluence: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Renault Fluence modela: dizel, DPF, EGR, elektronika, kartica, klima, trap, gepek i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Električni podizači stakala na polovnom autu: kada spor prozor otkriva vrata, instalaciju ili udarac',
+                'slug' => 'elektricni-podizaci-stakala-na-polovnom-autu-kada-spor-prozor-otkriva-vrata-instalaciju-ili-udarac',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Spor ili bučan podizač stakla nije samo sitna neprijatnost; može otkriti mehanizam, instalaciju, vlagu, skidane tapacirunge ili lošu popravku vrata.',
+                'content' => <<<'TEXT'
+Luka je na pregledu kompakta skoro ignorisao zadnji prozor koji se spuštao sporo i uz krckanje. Prodavac je rekao da je to sitnica i da se "samo ne koristi često". Na jeftinijem autu to može zvučati nevažno, ali električni podizač stakla često otkriva šta se dešavalo sa vratima, instalacijom, vlagom ili prethodnom limarskom popravkom.
+
+Prva provera je jednostavna: spusti i podigni svako staklo više puta, hladno i posle kratke vožnje. Slušaj krckanje, zatezanje, preskakanje, usporavanje i da li se staklo vraća krivo. Proveri prekidače sa vozačevih vrata i sa svakih pojedinačnih vrata. Ako jedan prekidač radi, a drugi ne, problem može biti u instalaciji, modulu ili samom prekidaču.
+
+Druga provera je veza sa vratima. Pogledaj zazore, šrafove, tapacirung, gumice, tragove skidanja, vlagu na donjoj ivici vrata i da li centralna brava radi uredno. Spor prozor posle zamene stakla ili popravke vrata može značiti loše namešten mehanizam. Ako su istovremeno čudni zazori, druga nijansa laka ili problem sa zvučnikom, više ne gledaš izolovanu sitnicu.
+
+Kupovina nije loša samo zato što podizač radi sporo, ali pregovor mora krenuti od dijagnoze. Jeftin mehanizam je jedna stvar, prelomljena instalacija u vratima ili trag udarca druga. Ako prodavac odbija da se skine tapacirung ili da majstor proveri vrata, sitan prozor postaje signal za oprez. Sitnice na polovnom autu često vrede zato što pokažu gde treba gledati dublje.
+TEXT,
+                'highlights' => [
+                    'Svako staklo testiraj više puta sa glavnog prekidača i sa prekidača na samim vratima.',
+                    'Spor prozor poveži sa zazorima, tapacirungom, vlagom, centralnom bravom i tragovima popravke.',
+                    'Pregovaraj tek kada znaš da li je problem mehanizam, prekidač, instalacija ili loše popravljena vrata.',
+                ],
+                'tags' => ['podizači stakala', 'elektronika', 'vrata', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Podizači stakala na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti električne podizače stakala kod polovnog auta: spor prozor, prekidači, instalacija, vrata, vlaga, tapacirung i tragovi udarca.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Hrvatske: kada blizina tržišta ne sme da uspava proveru',
+                'slug' => 'uvoz-auta-iz-hrvatske-kada-blizina-trzista-ne-sme-da-uspava-proveru',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Automobil iz Hrvatske može delovati kao lakši regionalni uvoz, ali kupac mora proveriti poreklo, servis, more, so, papire, kilometražu i realnu cenu.',
+                'content' => <<<'TEXT'
+Marko je našao karavan iz Hrvatske koji je delovao bliže, razumljivije i lakše proverljivo od uvoza iz udaljenijih zemalja. Prodavac je imao lepe fotografije, uredan opis i priču da je auto "iz regiona, pa je sve jednostavno". Blizina zaista može olakšati komunikaciju i proveru, ali ne sme uspavati kupca koji treba da proveri poreklo, kilometražu, servis i stanje podvozja.
+
+Prvo proveri papire. VIN, saobraćajna, servisni računi, tehnički pregledi, odjava, COC ako je potreban i put od vlasnika do prodavca moraju biti jasni. Regionalni jezik ne znači automatski jasnu istoriju. Ako auto ima više vlasnika, flotnu upotrebu ili servisne rupe, to mora biti objašnjeno pre kapare, ne posle dolaska na plac.
+
+Druga tema je klima i podvozje. Automobili sa primorja, ostrva ili područja sa mnogo soli i vlage mogu imati tragove na kočnicama, izduvu, nosačima, vijcima, pragovima i podu. Automobili sa kontinentalnih relacija mogu nositi autoput kilometre, službenu upotrebu ili umor enterijera. Pregled na dizalici i poređenje stanja kabine sa kilometražom su obavezni.
+
+Uvoz iz Hrvatske ima smisla kada cena, papiri i stanje čine proverljivu celinu, a ne kada kupac samo želi bliže tržište. Dobar primerak može biti lakši za proveru od udaljenog uvoza, posebno ako postoje računi i kontakt prethodnog servisa. Ako prodavac koristi blizinu kao zamenu za dokumentaciju, računaj kao da kupuješ bilo koji nejasan uvoz: polako, bez kapare i sa majstorom pre odluke.
+TEXT,
+                'highlights' => [
+                    'Blizina Hrvatske pomaže samo ako VIN, odjava, servisni računi i vlasnički put imaju logiku.',
+                    'Primorje, vlaga i so traže pažljiv pregled poda, kočnica, izduva, nosača i pragova.',
+                    'Regionalni uvoz kupuj kao proverljiv auto, ne kao lakšu kupovinu samo zbog jezika i udaljenosti.',
+                ],
+                'tags' => ['uvoz iz Hrvatske', 'uvoz auta', 'polovni automobili', 'poreklo vozila', 'tržište polovnjaka'],
+                'meta_title' => 'Uvoz auta iz Hrvatske: šta proveriti',
+                'meta_description' => 'Analiza uvoza auta iz Hrvatske: VIN, odjava, servisni računi, kilometraža, primorje, so, podvozje, vlasnici i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

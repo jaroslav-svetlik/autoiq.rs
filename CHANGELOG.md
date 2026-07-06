@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.92] - 2026-07-06
+
+### Added
+
+- Added five non-duplicate production blog articles covering Suzuki Ignis vs Opel Agila, used Kia Rio checks, used Renault Fluence buying guidance, electric window-lift inspection, and Croatian import risk.
+
 ## [0.1.91] - 2026-07-05
 
 ### Added
