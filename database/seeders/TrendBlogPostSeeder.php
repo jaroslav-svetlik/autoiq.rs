@@ -7120,6 +7120,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Citroen C-Elysee ili Peugeot 301: budžetska limuzina kada prostor nije dovoljan',
+                'slug' => 'citroen-c-elysee-ili-peugeot-301-budzetska-limuzina-kada-prostor-nije-dovoljan',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C-Elysee i Peugeot 301 nude veliki gepek za mali budžet, ali kupac mora proveriti poreklo, motor, trap, kabinu i razlog niske cene.',
+                'content' => <<<'TEXT'
+Milan je tražio jeftinu limuzinu za posao i vikend putovanja, pa su mu Citroen C-Elysee i Peugeot 301 delovali kao isti odgovor sa dva znaka. Na fotografijama oba nude mnogo auta za novac: veliki gepek, jednostavnu kabinu i cenu koja ne ulazi u teritoriju traženijih kompaktnih karavana. Problem je što takvi automobili često privuku kupca prostorom, a tek na pregledu pokažu koliko su radili kao službeni, taksi ili porodični auto sa odloženim servisima.
+
+C-Elysee ima smisla kada želiš jednostavan auto i ne očekuješ premium osećaj. Proveri hladan start, curenja, kvačilo, menjač, trap, zadnju klupu, gepek i tragove jeftinih popravki. Dizel može biti štedljiv na otvorenom putu, ali bez servisnih računa za ulje, filtere, EGR i eventualni DPF ne treba verovati samo mirnom radu na parkingu. Benzinac je često mirniji izbor za grad, ali i on mora pokazati redovno održavanje.
+
+Peugeot 301 je slična priča, ali konkretan primerak odlučuje više od znaka. Ako je kabina istrošena, prag gepeka izgreban, zadnji trap umoran ili su gume različite, auto verovatno nije imao lak život. Kupac treba da uporedi cenu sa realnim ulaganjima: kočnice, gume, veliki servis, klima i osnovna elektronika mogu brzo pojesti prednost jeftine kupovine. Niska cena je dobra samo ako znaš zašto je niska.
+
+Između C-Elysee i 301 ne treba birati po znački, nego po dokazima. Bolji je auto sa jasnom istorijom, ujednačenim stanjem i cenom koja ostavlja prostor za početni servis. Ako prodavac izbegava probnu vožnju, nema račune ili pokušava da proda veliki gepek kao zamenu za dokumentaciju, nastavi dalje. Ove limuzine vrede kada kupuješ pošten prostor, ne kada kupuješ najjeftiniju priču u oglasima.
+TEXT,
+                'highlights' => [
+                    'C-Elysee i 301 poredi po stanju, poreklu i servisnim računima, ne po znaku na haubi.',
+                    'Veliki gepek često krije službenu, taksi ili intenzivnu porodičnu upotrebu.',
+                    'Dobra kupovina postoji samo ako niska cena ostavlja prostor za početni servis i realna ulaganja.',
+                ],
+                'tags' => ['Citroen C-Elysee', 'Peugeot 301', 'limuzina', 'budžetski auto', 'poređenje'],
+                'meta_title' => 'Citroen C-Elysee ili Peugeot 301: polovna limuzina',
+                'meta_description' => 'Poređenje polovnih Citroen C-Elysee i Peugeot 301 limuzina: gepek, dizel, benzinac, trap, servisna istorija, službena upotreba i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Škoda Yeti: kutijasti SUV koji mora dokazati pogon i rđu',
+                'slug' => 'polovni-skoda-yeti-kutijasti-suv-koji-mora-dokazati-pogon-i-rdju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Škoda Yeti je praktičan i pregledan polovnjak, ali dobar primerak traži proveru TSI-a, TDI-a, DSG-a, 4x4 pogona, trapa, korozije i enterijera.',
+                'content' => <<<'TEXT'
+Ivana je tražila viši auto za vikendicu i grad, ali nije želela veliki SUV. Škoda Yeti joj je delovala taman: kratak, pregledan, kutijast i praktičan. Prvi oglas je imao lepe fotografije i bogatu opremu, ali je pregled brzo pokazao da Yeti može imati dva života, jedan uredan porodični i jedan mnogo teži, sa lošim putevima, zimom, vučom i odloženim održavanjem.
+
+Prvo proveri motor i menjač. Kod TSI benzinca traži miran hladan start, račune za servis i objašnjenje potrošnje ulja ako postoji. Kod TDI dizela proveri DPF, EGR, turbinu, dizne i da li je auto stvarno vožen na relacijama koje dizel voli. Ako ima DSG, servis ulja i probna vožnja u gradu nisu opcija nego uslov. Kratko okretanje oko placa ne otkriva dovoljno.
+
+Druga tema su pogon, trap i korozija. Yeti sa 4x4 pogonom mora pokazati da zadnji pogon radi, da nema udaraca, curenja i preskočenih servisa. Pregled na dizalici treba da obuhvati pragove, pod, rubove, nosače, izduv, kočnice, amortizere i gume. Kutijasta karoserija je praktična, ali ne sme sakriti loše popravljene ivice, vlagu u gepeku ili tragove korišćenja van asfalta.
+
+Dobar Yeti ima smisla za kupca koji želi pregledan, upotrebljiv auto sa više karaktera od običnog hečbeka. Loš Yeti postaje skup kada se spoje zapušten dizel, umoran DSG, slab trap i rđa. Ako je primerak uredan, papiri jasni i cena ne glumi noviji SUV, vredi ga ozbiljno pogledati. Ako prodavac prodaje samo reputaciju Škode i povišeno sedenje, pregovaraj tvrdo ili odustani.
+TEXT,
+                'highlights' => [
+                    'Kod Yetija proveri TSI ili TDI motor, DSG servis i ponašanje u gradskoj probnoj vožnji.',
+                    '4x4 pogon, trap, pragovi, pod, izduv i kočnice moraju proći pregled na dizalici.',
+                    'Yeti je dobra kupovina samo kada praktičnost prati jasna istorija, a ne samo visoko sedenje.',
+                ],
+                'tags' => ['Škoda Yeti', 'polovni SUV', '4x4', 'DSG', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Škoda Yeti: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Škoda Yeti modela: TSI, TDI, DSG, 4x4 pogon, trap, korozija, podvozje, oprema i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#84cc16', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Honda Insight: hibrid koji mora opravdati retkost i bateriju',
+                'slug' => 'polovni-honda-insight-hibrid-koji-mora-opravdati-retkost-i-bateriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Honda Insight može biti štedljiv gradski hibrid, ali kupac mora proveriti bateriju, IMA sistem, CVT, kočnice, klimu, delove i razlog zašto je primerak redak.',
+                'content' => <<<'TEXT'
+Nikola je hteo hibrid, ali su mu popularne Toyote bile preskupe za stanje koje je nalazio. Honda Insight se pojavila kao zanimljiva alternativa: niža cena, štedljiva vožnja i manje oglasa koji privlače masu kupaca. Upravo ta retkost traži hladniju glavu, jer polovan Insight nije dobar samo zato što je hibrid, nego zato što konkretan primerak ima zdrav sistem, jasne račune i dostupnu servisnu podršku.
+
+Prva provera je hibridni sistem. Dijagnostika mora pokazati stanje IMA baterije, greške, punjenje i ponašanje tokom vožnje. Obrati pažnju na prelaze između benzinskog motora i asistencije, rad start-stop sistema, lampice i ponašanje pri ubrzanju. Slaba 12V baterija, zapuštena klima ili greške koje se brišu pred prodaju mogu napraviti lažan utisak da je problem mali.
+
+Druga tema je CVT, kočnice i svakodnevna upotreba. Insight treba voziti hladan i zagrejan, u gužvi, pri parkiranju i na otvorenom putu. Menjač ne sme trzati, zavijati neobično ili kasniti. Kočnice kod hibrida mogu delovati dobro na kratkoj vožnji, ali proveri diskove, čeljusti i neravnomerno trošenje. Enterijer, gepek i zadnja klupa često otkrivaju da li je auto bio porodičan, službeni ili zapušten zbog niske potrošnje.
+
+Insight ima smisla kada želiš miran gradski hibrid i prihvataš da izbor delova i majstora nije širok kao kod popularnijih modela. Ako je dijagnostika čista, baterija stabilna, CVT uredan i cena priznaje retkost, kupovina može biti dobra. Ako prodavac računa samo na reč "hibrid" i ne dozvoljava detaljnu proveru, bolje je platiti skuplji, jasniji auto nego retku štednju sa nepoznatim računom.
+TEXT,
+                'highlights' => [
+                    'Insight traži dijagnostiku IMA baterije, grešaka, punjenja i ponašanja hibridnog sistema.',
+                    'CVT, kočnice, klima i 12V baterija moraju se proveriti hladni, topli i u gradskoj vožnji.',
+                    'Retkost je prihvatljiva samo ako cena i servisna podrška prate realno stanje primerka.',
+                ],
+                'tags' => ['Honda Insight', 'polovni hibrid', 'IMA baterija', 'CVT', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Honda Insight: šta proveriti kod hibrida',
+                'meta_description' => 'Vodič za kupovinu polovnog Honda Insight hibrida: IMA baterija, dijagnostika, CVT menjač, kočnice, klima, 12V baterija i delovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Električni retrovizori na polovnom autu: kada malo staklo otkriva vrata, instalaciju ili udarac',
+                'slug' => 'elektricni-retrovizori-na-polovnom-autu-kada-malo-staklo-otkriva-vrata-instalaciju-ili-udarac',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Retrovizor koji se ne sklapa, ne greje ili ne podešava nije samo sitnica; može otkriti udarac, lošu instalaciju, modul vrata ili skupu opremu.',
+                'content' => <<<'TEXT'
+Petar je skoro prešao preko desnog retrovizora koji se sklapao sporije od levog. Prodavac je rekao da je to samo prljavština i da se "retko koristi". Na polovnom autu takva sitnica vredi proveru, jer retrovizor stoji na mestu koje prvo strada na uskim parking mestima, pri bočnom udarcu, lošoj popravci vrata ili naknadnom sklapanju polovnog dela.
+
+Prvo testiraj sve funkcije. Podesi staklo u svim smerovima, uključi grejanje, proveri električno sklapanje ako postoji, memoriju sedišta ako je povezana i signalizaciju u kućištu retrovizora. Slušaj preskakanje, zujanje, spor rad i gledaj da li oba retrovizora rade istom brzinom. Ako jedan radi samo iz određenog položaja prekidača, problem može biti instalacija, prekidač ili modul vrata.
+
+Druga provera je trag udarca. Pogledaj kućište, boju, zazor prema vratima, šrafove, gumice, tapacirung i da li staklo ima oznake koje se slažu sa ostatkom auta. Retrovizor druge nijanse nije automatski razlog za odustajanje, ali mora imati objašnjenje. Ako uz njega vidiš lakirana vrata, loš zazor, problem sa podizačem ili grešku mrtvog ugla, više ne proveravaš samo mali deo.
+
+Kupovina nije loša zato što retrovizor traži popravku, ali cena mora priznati tačan kvar. Obično staklo i motor nisu isti trošak kao sklopivi, grejani ili blind-spot retrovizor sa kamerom. Ako prodavac odbija da se kvar dijagnostikuje ili ga gura pod "sitnice", zapiši ga kao pregovaračku stavku. Mali retrovizor često pokaže koliko je auto pažljivo popravljan.
+TEXT,
+                'highlights' => [
+                    'Testiraj podešavanje, grejanje, sklapanje, žmigavac, memoriju i senzore na oba retrovizora.',
+                    'Retrovizor poveži sa zazorima vrata, tapacirungom, bojom, prekidačima i mogućim bočnim udarcem.',
+                    'Cena popravke zavisi od opreme, pa običan kvar i blind-spot retrovizor nisu ista stavka.',
+                ],
+                'tags' => ['električni retrovizori', 'provera vozila', 'vrata', 'elektronika', 'polovan auto'],
+                'meta_title' => 'Električni retrovizori na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti električne retrovizore kod polovnog auta: podešavanje, grejanje, sklapanje, blind spot, instalacija, vrata, udarac i cena popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Rumunije: kada dobra cena traži proveru porekla, puteva i papira',
+                'slug' => 'uvoz-auta-iz-rumunije-kada-dobra-cena-trazi-proveru-porekla-puteva-i-papira',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Rumunski uvoz može delovati povoljno, ali kupac mora proveriti VIN, servis, vlasnički put, kilometražu, podvozje, taksi tragove i realnu uvoznu računicu.',
+                'content' => <<<'TEXT'
+Aleksandar je našao karavan iz Rumunije koji je delovao povoljnije od sličnih automobila iz zapadne Evrope. Prodavac je naglašavao da je auto iz EU, da su papiri "standardni" i da se isti model kod nas prodaje skuplje. Takva ponuda može biti dobra, ali samo ako kupac ne preskoči pitanje zašto je cena niža i da li poreklo, kilometraža i stanje podvozja prate priču iz oglasa.
+
+Prvo proveri dokumentaciju. VIN, saobraćajna, odjava, servisni računi, tehnički pregledi, COC ako je potreban i veza između prethodnog vlasnika, izvoznika i domaćeg prodavca moraju biti jasni. Posebno obrati pažnju na automobile koji su mogli raditi kao taksi, službena vozila ili flotni automobili. Jezik i udaljenost ne smeju biti izgovor za maglovite papire.
+
+Druga tema su putevi, podvozje i karoserija. Loši putevi, zimski uslovi, gradska eksploatacija i brze pripreme za prodaju mogu ostaviti trag na trapu, amortizerima, gumama, kočnicama, pragovima i podu. Pregled na dizalici i merenje laka treba uraditi pre kapare. Ako enterijer deluje umornije od kilometraže, ako su volan i sedište izlizani ili ako su gume različite, računaj da broj na satu nije cela istina.
+
+Uvoz iz Rumunije ima smisla kada niža cena ostane niža i posle provere, transporta, carinskih troškova, homologacije, registracije i početnog servisa. Ako papiri imaju logiku, stanje je proverljivo i prodavac prihvata pregled, kupovina može biti racionalna. Ako se cela priča oslanja na "dobra je cena", kupac treba da uspori, jer jeftin uvoz postaje skup čim prvi servis otkrije ono što papiri nisu rekli.
+TEXT,
+                'highlights' => [
+                    'Rumunski uvoz proveri kroz VIN, odjavu, servisne račune, tehničke preglede i vlasnički put.',
+                    'Taksi, flotna upotreba, loši putevi i zima često ostavljaju trag na kabini, trapu i podvozju.',
+                    'Dobra cena ima smisla tek posle transporta, dažbina, registracije, homologacije i početnog servisa.',
+                ],
+                'tags' => ['uvoz iz Rumunije', 'uvoz auta', 'polovni automobili', 'poreklo vozila', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Rumunije: šta proveriti',
+                'meta_description' => 'Analiza uvoza auta iz Rumunije: VIN, odjava, servisni računi, kilometraža, taksi tragovi, podvozje, carinski troškovi i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
