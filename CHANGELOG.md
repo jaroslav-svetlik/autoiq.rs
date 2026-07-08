@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.94] - 2026-07-08
+
+### Added
+
+- Added five non-duplicate production blog articles covering Citroen C4 Cactus vs Ford EcoSport, used Seat Exeo checks, used Hyundai Elantra buying guidance, cruise-control inspection, and Norwegian import risk.
+
 ## [0.1.93] - 2026-07-07
 
 ### Added

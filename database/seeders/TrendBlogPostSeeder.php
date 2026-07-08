@@ -7255,6 +7255,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Citroen C4 Cactus ili Ford EcoSport: crossover kada stil ne sme da sakrije stanje',
+                'slug' => 'citroen-c4-cactus-ili-ford-ecosport-crossover-kada-stil-ne-sme-da-sakrije-stanje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'C4 Cactus i EcoSport privlače kupce koji žele drugačiji crossover, ali odluka mora krenuti od motora, trapa, kabine, porekla i realne cene.',
+                'content' => <<<'TEXT'
+Jelena je tražila povišen auto za grad, ali nije želela još jedan isti crossover sa oglasa. Citroen C4 Cactus joj je delovao mekano i posebno, dok je Ford EcoSport nudio viši položaj i robusniji utisak. Oba auta umeju da privuku izgledom, ali kod polovnjaka stil je samo početak razgovora. Prava odluka nastaje kada se vidi motor, trap, istorija i koliko je prodavac spreman da objasni konkretan primerak.
+
+C4 Cactus ima smisla za kupca koji želi udobniji, lakši i opušteniji auto. Proveri PureTech ili dizel motor kroz hladan start, servisne račune, potrošnju ulja, remen ako je relevantan, EGR, DPF i rad klime. Kabina mora pokazati da su sedišta, multimedija, vrata i plastični elementi izdržali svakodnevicu. Ako prodavac prodaje samo neobičan dizajn, a nema račune, prednost brzo nestaje.
+
+EcoSport treba gledati kao mali crossover koji često nosi više gradskog i rubnog života nego što fotografije pokažu. Proveri benzinski ili dizel motor, kvačilo, menjač, zadnji trap, gume, pragove, gepek vrata i tragove parking udaraca. Više sedenje ne znači automatski bolji porodični auto, posebno ako je kabina uska za tvoju namenu ili ako je auto bio kupljen samo zbog izgleda SUV-a.
+
+Između C4 Cactusa i EcoSporta bolji je primerak koji ima jasne papire, miran motor i cenu koja priznaje tržišnu nišu. Cactus je zanimljiv kada udobnost i niža masa stvarno odgovaraju vožnji. EcoSport ima smisla kada ti odgovara položaj sedenja i stanje je bolje od proseka. Ako jedan od njih traži da oprostiš lošu istoriju zbog stila, nastavi potragu.
+TEXT,
+                'highlights' => [
+                    'C4 Cactus i EcoSport poredi po stanju i računima, ne po tome koji deluje originalnije.',
+                    'Kod Cactusa posebno proveri motor, klimu, kabinu i da li dizajn krije odložene servise.',
+                    'Kod EcoSporta gledaj trap, gepek vrata, gume, parking tragove i realnu upotrebljivost kabine.',
+                ],
+                'tags' => ['Citroen C4 Cactus', 'Ford EcoSport', 'crossover', 'poređenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Citroen C4 Cactus ili Ford EcoSport: polovni crossover',
+                'meta_description' => 'Poređenje polovnih Citroen C4 Cactus i Ford EcoSport modela: motor, trap, klima, kabina, gepek vrata, poreklo i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Seat Exeo: limuzina koja mora opravdati Audi korene i godine',
+                'slug' => 'polovni-seat-exeo-limuzina-koja-mora-opravdati-audi-korene-i-godine',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Seat Exeo može delovati kao povoljan Audi A4 u drugom odelu, ali kupac mora proveriti dizel, trap, koroziju, enterijer, delove i stvarne godine.',
+                'content' => <<<'TEXT'
+Miloš je želeo ozbiljnu limuzinu za autoput, ali nije hteo da plati cenu popularnog premium znaka. Seat Exeo mu je delovao kao skrivena prilika: poznata tehnička osnova, dobra oprema i manje interesovanja kupaca. Upravo tu počinje oprez. Exeo nije dobar zato što liči na racionalniji Audi, nego samo ako konkretan auto ima papire, stanje i cenu koje priznaju godine.
+
+Prvo proveri motor i servis. Dizel mora hladno da pali mirno, bez dima, curenja, grubog rada i izgovora oko turbine, dizni, EGR-a ili DPF-a. Benzinac traži proveru potrošnje ulja, rashladnog sistema i redovnog održavanja. Veliki servis, ulje, filteri, kvačilo i eventualni plivajući zamajac moraju biti deo razgovora pre kapare, ne iznenađenje posle kupovine.
+
+Druga provera su trap, karoserija i kabina. Exeo je često vožen kao službeni ili putnički auto, pa uporedi kilometražu sa sedištem, volanom, pedalama, pragom gepeka i gumama. Na dizalici gledaj ramena, amortizere, kočnice, pod, pragove, izduv i tragove korozije. Ako enterijer deluje umornije od oglasa, nemoj da te dobra oprema ubedi da preskočiš pregled.
+
+Polovni Exeo ima smisla za kupca koji želi komfornu limuzinu za razuman novac i prihvata da godine donose ulaganja. Dobar primerak treba da bude jeftiniji od traženijih alternativa, ali ne toliko jeftin da krije servisni dug. Ako prodavac stalno ponavlja Audi korene, a nema račune i ne dozvoljava proveru, to nije argument nego signal da pregovor treba završiti.
+TEXT,
+                'highlights' => [
+                    'Exeo kupuj po servisnoj istoriji i stanju, ne samo zbog poznate tehničke osnove.',
+                    'Dizel traži proveru turbine, dizni, EGR-a, DPF-a, kvačila i velikog servisa.',
+                    'Trap, kabina, pragovi, gepek i korozija moraju potvrditi da godine nisu pojele nisku cenu.',
+                ],
+                'tags' => ['Seat Exeo', 'limuzina', 'dizel', 'Audi osnova', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Seat Exeo: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Seat Exeo modela: dizel, EGR, DPF, turbo, trap, korozija, enterijer, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Hyundai Elantra: limuzina koja traži proveru uvoza, trapa i klime',
+                'slug' => 'polovni-hyundai-elantra-limuzina-koja-trazi-proveru-uvoza-trapa-i-klime',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Hyundai Elantra privlači prostorom i mirnom reputacijom, ali dobar primerak traži proveru porekla, benzinca, trapa, klime, kabine i dostupnosti delova.',
+                'content' => <<<'TEXT'
+Ana je tražila porodičnu limuzinu koja nije preskupa zato što nosi popularan evropski znak. Hyundai Elantra joj je delovala mirno: prostrana, nenametljiva i često povoljnija od traženijih kompaktnih karavana. Takav auto može biti pametna kupovina, ali samo ako kupac proveri poreklo, servis i razlog zašto konkretan primerak stoji u oglasu po toj ceni.
+
+Prvo gledaj dokumentaciju i motor. Elantra često dolazi iz uvoza, pa VIN, servisni računi, tehnički pregledi i vlasnički put moraju imati logiku. Benzinski motor treba da radi mirno, bez curenja, čudnog zvuka, pregrevanja i potrošnje ulja koju prodavac umanjuje. Ako postoji automatik, probna vožnja u gradu mora pokazati glatko prebacivanje i normalno ponašanje pri parkiranju.
+
+Druga tema su trap, klima i kabina. Limuzina sa velikim gepekom često je služila porodici, poslu ili dužim relacijama. Proveri amortizere, kočnice, gume, zadnji trap, prag gepeka, zadnju klupu, klimu, multimediju, brave i podizače. Ako klima hladi slabo ili trap lupa preko neravnina, to nisu sitnice koje treba prihvatiti zato što je auto "japanac u duši" ili zato što ima dobru reputaciju.
+
+Elantra ima smisla kada želiš jednostavniji, prostran auto i kada cena ostavlja prostor za početni servis. Dobar primerak treba da bude dosadan na najbolji način: miran motor, čista kabina, jasni papiri i pregled bez velikih pitanja. Ako prodavac nema odgovor na poreklo, održavanje ili dostupnost delova, povoljna limuzina može postati kupovina koju je teško prodati dalje.
+TEXT,
+                'highlights' => [
+                    'Kod Elantre prvo proveri VIN, uvoznu istoriju, servisne račune i logiku kilometraže.',
+                    'Benzinski motor, automatik, trap i klima moraju biti provereni u stvarnoj probnoj vožnji.',
+                    'Veliki gepek i niža cena imaju smisla samo ako delovi, stanje i kasnija prodaja prate računicu.',
+                ],
+                'tags' => ['Hyundai Elantra', 'limuzina', 'benzinac', 'uvoz auta', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai Elantra: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Hyundai Elantra modela: uvoz, VIN, benzinac, automatik, trap, klima, kabina, delovi i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Tempomat na polovnom autu: kada dugme otkriva elektroniku, kočnice ili udarac',
+                'slug' => 'tempomat-na-polovnom-autu-kada-dugme-otkriva-elektroniku-kocnice-ili-udarac',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tempomat koji ne radi nije samo komforna sitnica; može ukazati na prekidače kočnice, volan, instalaciju, radar, branik, modul ili skrivenu popravku.',
+                'content' => <<<'TEXT'
+Dejan je gledao karavan za autoput i tek na kraju probne vožnje primetio da tempomat ne prihvata komandu. Prodavac je odmah rekao da se to "nikad ne koristi" i da je verovatno dugme. Kod polovnog auta tempomat nije presudan za svakog kupca, ali kvar na njemu može pokazati problem sa kočnicama, volanom, instalacijom, branikom ili prethodnim udarcem.
+
+Prva provera je probna vožnja na putu gde sme bezbedno da se aktivira. Uključi sistem, podesi brzinu, probaj povećanje i smanjenje, otkazivanje preko kočnice i kvačila, pa ponovno vraćanje brzine. Ako lampica radi, ali sistem ne drži brzinu, problem može biti prekidač kočnice, kvačila, senzor brzine ili greška u modulu. Ako dugmad na volanu rade povremeno, gledaj i spiralu volana ili instalaciju.
+
+Druga provera zavisi od opreme. Običan tempomat nije isto što i adaptivni tempomat sa radarom u braniku. Kod adaptivnog sistema proveri radar, nosač, branik, masku, kalibraciju, greške na dijagnostici i tragove prednjeg udarca. Ako je branik sveže farban, zazori nisu isti ili sistem javlja grešku posle pranja, moguće je da popravka nije završena kako treba.
+
+Kvar tempomata ne mora zaustaviti kupovinu, ali mora promeniti pregovor. Jeftin prekidač i skupa kalibracija radara nisu ista stavka. Ako prodavac ne dozvoljava dijagnostiku ili tvrdi da oprema nije važna, a cenu drži kao da sve radi, kupac treba da bude stroži. Komforna funkcija često otkrije koliko su elektronika i popravke zaista uredne.
+TEXT,
+                'highlights' => [
+                    'Tempomat testiraj u vožnji kroz aktiviranje, promenu brzine, otkazivanje i ponovno vraćanje.',
+                    'Običan kvar dugmeta nije isti rizik kao adaptivni tempomat sa radarom, branikom i kalibracijom.',
+                    'Dijagnostika treba da pokaže prekidače kočnice i kvačila, module, volan, senzore i greške radara.',
+                ],
+                'tags' => ['tempomat', 'adaptivni tempomat', 'elektronika', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Tempomat na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti tempomat kod polovnog auta: dugmad, prekidač kočnice, kvačilo, volan, dijagnostika, radar, branik, kalibracija i udarac.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Norveške: kada niska kilometraža traži proveru hladnoće, soli i porekla',
+                'slug' => 'uvoz-auta-iz-norveske-kada-niska-kilometraza-trazi-proveru-hladnoce-soli-i-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Norveški uvoz može doneti dobru opremu i nižu kilometražu, ali kupac mora proveriti koroziju, bateriju, grejanje, papire, poreze i stvarnu računicu.',
+                'content' => <<<'TEXT'
+Vladimir je našao oglas za auto iz Norveške sa bogatom opremom i kilometražom koja je delovala privlačno za godište. Prodavac je naglašavao urednu zemlju porekla, dobru infrastrukturu i činjenicu da su automobili često dobro opremljeni. Sve to može biti tačno, ali norveški uvoz traži posebnu proveru hladnoće, soli, poreza, papira i sistema koji kod nas mogu biti skuplji za rešavanje.
+
+Prvo proveri dokumentaciju i računicu. VIN, odjava, vlasnički put, servisni računi, tehnički pregledi, porezi, transport, homologacija i registracija moraju biti jasni pre kapare. Norveška nije EU članica, pa kupac ne sme da računa kao da uvozi iz susedne EU zemlje. Ako prodavac ne zna da objasni troškove i papire, niska kilometraža nije dovoljna uteha.
+
+Druga tema je klima u kojoj je auto živeo. Hladnoća, so, vlaga i zimska upotreba mogu ostaviti trag na podu, pragovima, kočnicama, izduvu, vijcima, nosačima i električnim konektorima. Kod električnih i hibridnih modela proveri bateriju, grejanje kabine, toplotnu pumpu ako postoji, punjenje, kablove i servisnu podršku. Kod dizela gledaj relacije, grejanje motora, DPF, EGR i da li je auto radio mnogo kratkih vožnji.
+
+Uvoz iz Norveške ima smisla kada se dobra oprema, kilometraža i stanje potvrde pregledom na dizalici, dijagnostikom i jasnim papirima. Ako je auto zaista uredan, može biti zanimljiviji od prosečnog zapadnoevropskog primerka. Ako se priča oslanja na zemlju porekla, a podvozje, baterija ili dokumenti ostaju magloviti, bolje je platiti bliži i proverljiviji auto.
+TEXT,
+                'highlights' => [
+                    'Norveški uvoz proveri kroz VIN, odjavu, poreze, transport, homologaciju i registraciju pre kapare.',
+                    'Hladnoća, so i vlaga traže pregled poda, pragova, kočnica, izduva, konektora i nosača.',
+                    'Kod hibrida i električnih auta proveri bateriju, grejanje, punjenje, kablove i lokalnu servisnu podršku.',
+                ],
+                'tags' => ['uvoz iz Norveške', 'uvoz auta', 'polovni automobili', 'korozija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Norveške: šta proveriti',
+                'meta_description' => 'Analiza uvoza auta iz Norveške: VIN, odjava, porezi, transport, korozija, so, baterija, grejanje, punjenje i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 

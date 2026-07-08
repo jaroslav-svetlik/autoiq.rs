@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(260, $posts);
+        $this->assertCount(265, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(65, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(66, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));
@@ -258,6 +258,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-madjarske-kada-blizina-oglasa-trazi-proveru-kilometraze-porekla-i-rdja'));
         $this->assertTrue($posts->contains('slug', 'citroen-c2-ili-ford-ka-mali-auto-za-grad-kada-cena-ne-sme-da-prevari'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-urban-cruiser-mali-crossover-koji-mora-opravdati-retkost-i-cenu'));
+        $this->assertTrue($posts->contains('slug', 'citroen-c4-cactus-ili-ford-ecosport-crossover-kada-stil-ne-sme-da-sakrije-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-seat-exeo-limuzina-koja-mora-opravdati-audi-korene-i-godine'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hyundai-elantra-limuzina-koja-trazi-proveru-uvoza-trapa-i-klime'));
+        $this->assertTrue($posts->contains('slug', 'tempomat-na-polovnom-autu-kada-dugme-otkriva-elektroniku-kocnice-ili-udarac'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-norveske-kada-niska-kilometraza-trazi-proveru-hladnoce-soli-i-porekla'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-fr-v-sest-sedista-koja-moraju-dokazati-porodicni-zivot'));
         $this->assertTrue($posts->contains('slug', 'grejac-zadnjeg-stakla-ne-radi-kada-sitna-linija-otkriva-veci-problem'));
         $this->assertTrue($posts->contains('slug', 'euro-5-dizel-u-srbiji-kada-niska-cena-jos-ima-smisla-a-kada-je-zamka'));
