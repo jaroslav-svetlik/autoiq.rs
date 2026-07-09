@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.95] - 2026-07-09
+
+### Added
+
+- Added five non-duplicate production blog articles covering Renault Modus vs Nissan Tiida, used Toyota Corolla Verso checks, used Chevrolet Captiva buying guidance, safety-belt inspection, and Portuguese import risk.
+
 ## [0.1.94] - 2026-07-08
 
 ### Added

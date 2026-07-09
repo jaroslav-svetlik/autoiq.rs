@@ -7390,6 +7390,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Renault Modus ili Nissan Tiida: zaboravljeni polovnjaci kada cena ne sme sama da odluči',
+                'slug' => 'renault-modus-ili-nissan-tiida-zaboravljeni-polovnjaci-kada-cena-ne-sme-sama-da-odluci',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Modus i Tiida privuku kupce niskom cenom i praktičnošću, ali prava odluka zavisi od prostora, delova, stanja kabine i toga koliko lako ćeš auto kasnije prodati.',
+                'content' => <<<'TEXT'
+Miloš je tražio jeftin auto za posao, pijacu i povremeni put do roditelja, pa su mu u uži izbor ušli Renault Modus i Nissan Tiida jer su oba koštala manje od popularnijih modela istog godišta. Modus mu je delovao praktično i pregledno, dok je Tiida nudila veći auto za sličan novac. Prodavci su oba automobila opisivali kao "potcenjene", ali kod potcenjenih polovnjaka kupac mora hladno da odvoji stvarnu vrednost od slabije potražnje.
+
+Modus ima smisla kada se kupuje gradski auto sa visokim sedenjem, dobrim pregledom i kabinom koja lakše prima starije putnike ili dečje sedište. Pre odluke proveri elektroniku, podizače, klimu, trap, tragove vlage i dostupnost sitnih delova enterijera. Ako je auto bio drugi porodični automobil, kratke relacije mogu značiti umoran akumulator, slab auspuh, zapuštene kočnice i servis koji je rađen tek kada nešto prestane da radi.
+
+Tiida je bolja kada kupac želi više prostora, mirniji karakter i jednostavniju svakodnevicu, ali baš zato treba proveriti da li niska cena krije ređu ponudu delova, slabiju kasniju prodaju ili auto koji je dugo stajao. Pogledaj zadnji trap, kvačilo, klimu, gumene delove, koroziju na donjim zonama i da li servisna istorija ima logiku. Prostran auto nije dobar dogovor ako svaka sitnica mora da se traži danima.
+
+Između Modusa i Tiide ne pobeđuje model koji je jeftiniji u oglasu, nego primerak koji ima jasnije papire, uredniji enterijer i manje početnih ulaganja. Modus je razumniji za grad i lakše parkiranje, Tiida za kupca kome stvarno treba više prostora. Ako prodavac ne ume da objasni održavanje, dostupnost delova i razlog niske cene, bolje je nastaviti potragu nego kupiti "potcenjen" auto koji kasnije niko ne želi da preuzme.
+TEXT,
+                'highlights' => [
+                    'Modus je bolji za grad, preglednost i lak ulazak, ali traži proveru elektronike, vlage i trapa.',
+                    'Tiida nudi više prostora, ali kupac mora računati dostupnost delova i slabiju kasniju prodaju.',
+                    'Kod oba modela niska cena ima smisla samo uz jasnu istoriju i realnu listu početnih ulaganja.',
+                ],
+                'tags' => ['Renault Modus', 'Nissan Tiida', 'mali auto', 'budžet', 'poređenje'],
+                'meta_title' => 'Renault Modus ili Nissan Tiida: polovni vodič',
+                'meta_description' => 'Poređenje polovnih Renault Modus i Nissan Tiida modela: prostor, delovi, trap, klima, elektronika, kasnija prodaja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Toyota Corolla Verso: porodični auto koji mora opravdati sedišta i dizel',
+                'slug' => 'polovni-toyota-corolla-verso-porodicni-auto-koji-mora-opravdati-sedista-i-dizel',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Corolla Verso deluje kao miran porodični izbor, ali kupac mora proveriti sedišta, zadnju klupu, dizel motor, klimu, trap i koliko je auto stvarno služio porodici.',
+                'content' => <<<'TEXT'
+Ivana je tražila porodični auto koji nije SUV, a Toyota Corolla Verso joj je delovala kao logičan odgovor: sedam sedišta, poznato ime i cena niža od popularnijih monovolumena. Na prvom oglasu sve je izgledalo uredno dok nije otvorila zadnji red i videla pohabane kopče, izgrebane plastike i gepek koji je očigledno nosio više od dečjih torbi. Kod Versa porodična praktičnost vredi samo ako je kabina preživela godine bez grubog rada.
+
+Prvo proveri sedišta, šine, preklapanje, pojaseve, ISOFIX, zadnja vrata, klimu za zadnji deo kabine i tragove vlage u gepeku. Auto sa sedam sedišta često je vozio decu, prtljag, vikend selidbe i kratke gradske relacije. Ako se sedišta teško pomeraju, plastike krckaju, a klima slabo hladi, ne prihvataj priču da su to samo godine jer svaka sitnica postaje deo početnog budžeta.
+
+Dizel motor mora imati uredan servisni trag, hladan start bez dima, normalan rad turbine i jasnu priču o relacijama. Corolla Verso se često kupovala zbog pouzdanosti, pa su neki vlasnici predugo odlagali ulaganja misleći da "Toyota trpi sve". Proveri EGR, kvačilo, plivajući zamajac ako ga ima, curenja, kočnice, zadnji trap i gume, jer porodični auto pod opterećenjem troši delove tiše nego što prodavac priznaje.
+
+Corolla Verso ima smisla kada kupac želi praktičan, nenametljiv auto i kada stanje kabine potvrđuje da je održavanje bilo uredno. Ako su sedišta ispravna, papiri jasni i pregled ne otkrije velika ulaganja, može biti bolja odluka od starijeg SUV-a kupljenog zbog mode. Ako prodavac cenu drži samo na osnovu Toyotinog imena, a zanemaruje kabinu, dizel i trap, pregovaraj o stvarnim troškovima ili odustani.
+TEXT,
+                'highlights' => [
+                    'Kod Corolla Verso modela proveri svih sedam sedišta, šine, pojaseve, ISOFIX i tragove vlage.',
+                    'Dizel traži hladan start, servisne račune, proveru EGR-a, turbine, kvačila i relacija.',
+                    'Toyotina reputacija vredi samo ako kabina, trap i početna ulaganja prate traženu cenu.',
+                ],
+                'tags' => ['Toyota Corolla Verso', 'porodični auto', 'sedam sedišta', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Toyota Corolla Verso: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Toyota Corolla Verso modela: sedam sedišta, dizel, EGR, kvačilo, klima, trap, kabina i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10231f', '#22c55e', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Chevrolet Captiva: veliki SUV koji mora dokazati pogon, delove i servis',
+                'slug' => 'polovni-chevrolet-captiva-veliki-suv-koji-mora-dokazati-pogon-delove-i-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Captiva privlači prostorom i cenom velikog SUV-a, ali kupac mora proveriti pogon, automatik, dizel, delove, koroziju i realnu cenu održavanja.',
+                'content' => <<<'TEXT'
+Nikola je želeo veliki SUV za porodicu i pecanje, a Chevrolet Captiva mu je delovala kao mnogo automobila za novac koji bi kod poznatijih marki kupio manji crossover. Prvi utisak je bio dobar: visok položaj, mnogo prostora i oprema koja zvuči bogato. Problem je što kod Captive cena često izgleda povoljno baš zato što tržište već uračunava skuplji pogon, težu nabavku nekih delova i slabiju kasniju prodaju.
+
+Prvo proveri pogon, menjač i dizel motor u realnoj vožnji, ne samo na parkingu. Obrati pažnju na trzaje automatika, kašnjenje pri ubacivanju u D i R, zvukove iz prenosa, curenja, dim, hladan start, EGR, DPF i turbinu. Ako auto ima pogon na sva četiri točka, pregled mora obuhvatiti kardane, diferencijale, nosače, gume istih dimenzija i tragove korišćenja van asfalta.
+
+Druga tema su delovi, korozija i kabina. Captiva je veliki, težak auto, pa kočnice, trap, amortizeri, gume i ležajevi rade više nego kod kompakta. Proveri pragove, pod, zadnji kraj, nosače, klimu, elektriku, sedišta i gepek. Ako prodavac kaže da je sve jeftino "jer je to Opel tehnika", traži konkretne cene delova i servis koji zaista radi taj model.
+
+Captiva ima smisla samo kada je znatno bolji primerak od proseka i kada cena ostavlja novac za početni servis. Dobar auto može biti koristan porodični SUV za kupca koji prihvata veće troškove i slabiju likvidnost. Ako kupuješ zato što želiš najjeftiniji veliki SUV, rizik je visok; ako kupuješ provereno stanje sa jasnim računima, Captiva može opravdati prostor koji nudi.
+TEXT,
+                'highlights' => [
+                    'Captiva traži ozbiljnu proveru automatika, 4x4 pogona, dizela, DPF-a, EGR-a i turbine.',
+                    'Velika masa znači skuplje gume, kočnice, trap, amortizere i ležajeve nego kod manjih crossovera.',
+                    'Pre kupovine proveri dostupnost delova i servis koji stvarno poznaje model, ne samo priču prodavca.',
+                ],
+                'tags' => ['Chevrolet Captiva', 'veliki SUV', '4x4', 'automatik', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chevrolet Captiva: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Chevrolet Captiva SUV-a: dizel, automatik, 4x4 pogon, delovi, korozija, trap, gume i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Sigurnosni pojasevi na polovnom autu: kada spor povratak otkriva udarac ili vlagu',
+                'slug' => 'sigurnosni-pojasevi-na-polovnom-autu-kada-spor-povratak-otkriva-udarac-ili-vlagu',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Pojas koji se sporo vraća, ima fleke, drugačiju etiketu ili zatezač sa greškom može otkriti vlagu, lošu popravku, airbag intervenciju ili ozbiljniji udarac.',
+                'content' => <<<'TEXT'
+Sara je gledala mali gradski auto za ćerku i sve je delovalo uredno dok su se zadnji pojasevi jedva vraćali u stub. Prodavac je rekao da je auto samo dugo stajao i da pojasevi "uvek tako rade". Kod polovnog auta sigurnosni pojas nije detalj za kasnije sređivanje; on može pokazati vlagu, prljavštinu, zapuštenu kabinu, zamenu posle udesa ili problem sa zatezačima.
+
+Prvo izvuci svaki pojas do kraja i pusti ga da se vrati bez pomoći rukom. Proveri da li se zaglavljuje, da li je traka uvijena, iskrzana, izbledela, flekava ili tvrda od dubinskog pranja. Pogledaj kopče, brave, šrafove, plastike stubova i etikete sa datumima. Ako jedan pojas deluje novije od ostalih ili se plastika oko njega ne uklapa, pitaj za razlog i traži dijagnostiku.
+
+Druga provera je istorija udara i vlage. Zatezači pojaseva često rade zajedno sa airbag sistemom, pa greške na dijagnostici, upaljena lampica, brisane greške ili neobjašnjivo zamenjeni pojasevi moraju biti razlog za oprez. Sporo vraćanje zadnjih pojaseva može biti samo prljavština, ali može biti i znak vlage u stubu, poplave, loše oprane kabine ili auta koji je radio kao porodični prevoz bez pažnje.
+
+Pojas ne treba koristiti samo za spuštanje cene; on odlučuje da li je auto bezbedan za porodicu. Ako je problem sitan i majstor potvrdi da nema grešaka na zatezačima, može biti pregovaračka stavka. Ako prodavac izbegava skidanje plastika, dijagnostiku ili pitanja o airbagovima, kupac treba da odustane jer nijedna dobra cena ne vredi nejasnu pasivnu bezbednost.
+TEXT,
+                'highlights' => [
+                    'Svaki pojas izvuci do kraja, proveri traku, kopče, brave, etikete i brzinu povratka.',
+                    'Različit datum pojasa, nova plastika stuba ili airbag greška traže obaveznu dijagnostiku.',
+                    'Sporo vraćanje može biti prljavština, vlaga ili trag udesa, pa ne sme ostati neprovereno.',
+                ],
+                'tags' => ['sigurnosni pojasevi', 'airbag', 'zatezači', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Sigurnosni pojasevi na polovnom autu: provera',
+                'meta_description' => 'Kako proveriti sigurnosne pojaseve kod polovnog auta: spor povratak, fleke, etikete, kopče, zatezači, airbag greške, vlaga i udes.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#111827', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Portugalije: kada topla klima ne znači automatski mirnu kupovinu',
+                'slug' => 'uvoz-auta-iz-portugalije-kada-topla-klima-ne-znaci-automatski-mirnu-kupovinu',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Portugalija može delovati privlačno zbog blaže klime i manje soli, ali kupac mora proveriti sunce, obalu, servisnu istoriju, poreklo, transport i realne troškove uvoza.',
+                'content' => <<<'TEXT'
+Aleksandar je našao auto iz Portugalije sa lepom opremom i pričom da je zbog tople klime mnogo bolji od severnoevropskih primeraka. Fotografije su pokazivale sjajan lak, očuvane felne i enterijer koji nije izgledao umorno. Ipak, zemlja porekla sama po sebi nije garancija; portugalski auto može imati manje soli, ali može imati tragove sunca, obalne vlage, slabije dokumentacije ili dugog transporta koji menja računicu.
+
+Prvo proveri papire i put automobila do Srbije. VIN, vlasnički sled, servisni računi, tehnički pregledi, odjava, transport, carina, porezi, homologacija i registracija moraju biti jasni pre kapare. Ako prodavac ne zna da objasni gde je auto kupljen, ko ga je dovezao i koji troškovi su već plaćeni, kupac ne sme da prihvati priču da je "Portugalija sigurna" kao zamenu za dokumente.
+
+Druga tema su sunce i obala. Pregledaj lak na krovu i haubi, izbledele farove, gumene dihtunge, plastike enterijera, nebo kabine, komandnu tablu, sedišta i tragove vlage u gepeku. Auto sa obale može imati oksidaciju šrafova, konektora i sitnih metalnih delova, čak i kada nema klasičnu zimsku koroziju. Klima uređaj mora hladiti pravilno jer je u toploj zemlji često radio mnogo više nego što kilometraža pokazuje.
+
+Uvoz iz Portugalije ima smisla kada dokumenti, stanje laka, enterijera i mehanike potvrde priču prodavca. Može biti dobar izbor ako kupac dobije uredan auto bez severnjačke soli i sa jasnim servisima. Ako se sve svodi na egzotičnu zemlju porekla, lepe fotografije i obećanje da je klima blaga, računaj pun pregled i pregovaraj kao da kupuješ svaki drugi uvozni polovnjak.
+TEXT,
+                'highlights' => [
+                    'Kod portugalskog uvoza proveri VIN, odjavu, transport, carinu, poreze, homologaciju i registraciju.',
+                    'Topla klima traži proveru laka, farova, guma, plastika, klime i tragova obalne vlage.',
+                    'Zemlja porekla je prednost samo kada servisni računi i pregled potvrde stanje automobila.',
+                ],
+                'tags' => ['uvoz iz Portugalije', 'uvoz auta', 'polovni automobili', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Portugalije: šta proveriti',
+                'meta_description' => 'Analiza uvoza auta iz Portugalije: VIN, dokumenti, transport, carina, sunce, obalna vlaga, klima, servisna istorija i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
+            ],
         ]);
     }
 
