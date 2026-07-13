@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(270, $posts);
+        $this->assertCount(275, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(67, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(68, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'skoda-citigo-ili-hyundai-i10-mali-auto-kada-jednostavnost-mora-pobediti-opremu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-peugeot-1007-neobican-mali-auto-koji-mora-dokazati-klizna-vrata'));
+        $this->assertTrue($posts->contains('slug', 'polovni-fiat-freemont-porodicni-suv-koji-mora-dokazati-prostor-pogon-i-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'poklopac-rezervoara-na-polovnom-autu-kada-mali-otvor-otkriva-udarac-rdju-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-letonije-kada-povoljna-cena-trazi-proveru-zime-soli-i-porekla'));
         $this->assertTrue($posts->contains('slug', 'najbolji-polovni-automobili-do-10000-evra'));
         $this->assertTrue($posts->contains('slug', 'polovni-automatik-sta-kupiti-i-sta-izbegavati'));
         $this->assertTrue($posts->contains('slug', 'polovni-hibridi-toyota-honda-hyundai-sta-proveriti'));

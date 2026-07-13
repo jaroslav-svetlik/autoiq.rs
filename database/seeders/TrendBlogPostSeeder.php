@@ -7730,6 +7730,141 @@ TEXT,
                 'published_at' => now()->subDays(2)->addMinutes(4),
                 'palette' => ['#111827', '#a78bfa', '#f8fafc'],
             ],
+            [
+                'title' => 'Škoda Citigo ili Hyundai i10: mali auto kada jednostavnost mora pobediti opremu',
+                'slug' => 'skoda-citigo-ili-hyundai-i10-mali-auto-kada-jednostavnost-mora-pobediti-opremu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je za prvi auto birao između Citiga sa skromnom opremom i i10 sa više komfora; pobedio je primerak sa boljom istorijom, ne duži spisak dugmića.',
+                'content' => <<<'TEXT'
+Nikola je tražio mali auto za posao i vikend odlazak do roditelja. Našao je Škodu Citigo sa jasnim računima, ali bez ekrana i senzora, i Hyundai i10 sa bogatijom opremom, ali nejasnim servisom. Njegova dilema nije bila koji model izgleda modernije, već da li dodatna oprema može nadoknaditi nepoznatu prošlost polovnjaka.
+
+Citigo je dobar izbor kada ti je važna preglednost, kompaktna mera i jednostavan gradski ritam. Kod svakog primerka proveri hladan start, kvačilo, menjač, rad klima-uređaja, stanje kočnica i tragove udaraca po točkovima i pragovima. Auto koji je stalno parkiran uz ivičnjak lako sakrije umoran trap, pa probna vožnja preko neravnine vredi više od sjajne fotografije.
+
+Hyundai i10 može dati prijatniju kabinu i često bolju opremu za isti novac, ali to nije dozvola da se preskoče računi i pregled. Obrati pažnju na redovan servis benzinca, ravnomerno trošenje guma, kvačilo, elektroniku i da li klima radi bez čudnog mirisa. Ako prodavac nema objašnjenje za praznine u istoriji, pregovaraj kao da ćeš prvi servis raditi odmah.
+
+Nikola je izabrao Citigo jer je majstor našao uredan donji deo, sveže kočnice i jasan trag održavanja, dok je i10 imao lepšu opremu ali više pitanja nego odgovora. Citigo je pravi izbor kada nađeš zdrav gradski primerak, a i10 kada njegova udobnost dolazi uz dokaziv servis. Ako oba automobila traže ista ulaganja, uzmi onaj koji ti ostavlja više budžeta posle prenosa; ako istorija ne postoji, odustani od oba.
+TEXT,
+                'highlights' => [
+                    'Citigo i i10 biraj po stanju, računima i probnoj vožnji, ne po ekranu i opremi.',
+                    'Kod oba proveri hladan start, kvačilo, trap, gume, kočnice i klima-uređaj.',
+                    'Pregovaraj za svaku prazninu u servisnoj istoriji; nejasan primerak nije povoljan.',
+                ],
+                'tags' => ['Škoda Citigo', 'Hyundai i10', 'mali auto', 'prvi auto', 'poređenje'],
+                'meta_title' => 'Škoda Citigo ili Hyundai i10: koji mali polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Škoda Citigo i Hyundai i10: servis, motor, kvačilo, trap, oprema, gradska vožnja i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Peugeot 1007: neobičan mali auto koji mora dokazati klizna vrata',
+                'slug' => 'polovni-peugeot-1007-neobican-mali-auto-koji-mora-dokazati-klizna-vrata',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je našao povoljan Peugeot 1007 za grad, ali je cena izgubila smisao kada su klizna vrata zapela pri svakom drugom otvaranju.',
+                'content' => <<<'TEXT'
+Milan je želeo mali auto u koji se lako ulazi na tesnim parking mestima i oglas za Peugeot 1007 delovao je kao retka prilika. Auto je bio uredan spolja, motor je radio mirno, a cena je bila ispod sličnih gradskih modela. Tek kada je na licu mesta nekoliko puta otvorio obe strane, jedna klizna vrata su zastala, pa je jeftin oglas dobio sasvim drugačiju računicu.
+
+Kod 1007 prvo proveri klizna vrata više puta, sa ugašenim i upaljenim motorom, preko daljinca i tastera u kabini. Treba da se otvaraju i zatvaraju ravnomerno, bez zastoja, čudnih zvukova i upozorenja na tabli. Pogledaj šine, dihtunge, kablove u pregibima i da li se vrata pravilno zaključavaju, jer neobična karoserija nije dobra kupovina ako je njena glavna prednost neispravna.
+
+Zatim vozi auto kao da ćeš ga stvarno koristiti: hladan start, kvačilo, menjač, kočenje, trap, klima i položaj sedenja. Mali gradski primerci često imaju mnogo kratkih vožnji, pa se na pedalama, volanu, sedištu, branicima i felnama brzo vidi koliko je auto stvarno radio. Traži račune za redovan servis i proveri da li za konkretan motor i opremu imaš razuman pristup delovima.
+
+Milan je odustao od prvog auta, a drugi primerak je kupio tek kada su vrata prošla pregled bez zastajkivanja i kada je majstor potvrdio da nema skrivenog udara. Peugeot 1007 ima smisla za kupca kome njegov format rešava gradsku rutinu i koji prihvata manju ponudu primeraka. Ako vrata ne rade savršeno ili prodavac problem naziva sitnicom, traži ozbiljan popust sa procenom popravke ili se okreni drugom autu.
+TEXT,
+                'highlights' => [
+                    'Klizna vrata proveri više puta preko svih komandi pre nego što razgovaraš o kapari.',
+                    'Hladan start, kvačilo, trap, kočnice i klima ostaju jednako važni kao vrata.',
+                    'Ne kupuj retkost bez servisa i dostupnih delova samo zato što je oglas jeftin.',
+                ],
+                'tags' => ['Peugeot 1007', 'klizna vrata', 'mali auto', 'gradska vožnja', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Peugeot 1007: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Peugeot 1007: klizna vrata, motor, kvačilo, trap, klima, servisna istorija, delovi i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->addMinute(),
+                'palette' => ['#241b2f', '#c084fc', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Fiat Freemont: porodični SUV koji mora dokazati prostor, pogon i istoriju',
+                'slug' => 'polovni-fiat-freemont-porodicni-suv-koji-mora-dokazati-prostor-pogon-i-istoriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je tražila sedam sedišta bez SUV premije; Freemont je imao prostora, ali tek su pregled pogona i servisni računi odlučili da li je za porodicu.',
+                'content' => <<<'TEXT'
+Jelena je tražila auto za troje dece, kolica i duža putovanja, a Fiat Freemont joj je ponudio mnogo prostora za cenu ispod popularnijih SUV-ova. Na oglasu je sve izgledalo idealno: sedam sedišta, dizel i bogata oprema. Međutim, takav auto ne treba birati po broju sedišta, već po tome da li su motor, menjač, pogon i kabina podneli težak porodični život bez preskakanja održavanja.
+
+Prvo utvrdi kako ćeš koristiti treći red. Otvori i zatvori sva sedišta, proveri pojaseve, brave, ventilaciju pozadi, gepek i mehanizme preklapanja. Ako je auto vozio veliku porodicu ili služio za duge relacije, enterijer, zadnji trap i kočnice mogu pokazati više od sjajnog laka. Ponesi dečje sedište na gledanje; ono što stane u katalogu ne mora lako da funkcioniše u tvojoj rutini.
+
+Kod dizela proveri hladan start, dim, dijagnostiku, servis ulja i da li se priča o kilometraži poklapa sa računima i kabinom. Ako primerak ima automatik ili pogon na sva četiri točka, probna vožnja mora uključiti polazak uzbrdo, manevrisanje, pun ugao volana i ubrzanje bez trzaja. Pregled na dizalici treba da obuhvati trap, curenja, izduv, gume i stanje pogonskih komponenti.
+
+Jelena je kupila Freemont tek nakon što je pregled pokazao uredne račune, miran rad menjača i istrošenost kabine koja odgovara kilometraži. Freemont ima smisla kada ti stvarno treba prostor i kada ostane novca za preventivni servis posle kupovine. Ako je treći red umoran, pogon se javlja zvukom ili servisna priča nije potpuna, ne pregovaraj samo o ceni: preskoči auto.
+TEXT,
+                'highlights' => [
+                    'Treći red, pojaseve, brave i gepek testiraj sa stvarnim porodičnim potrebama.',
+                    'Dizel, automatik i 4x4 traže dijagnostiku, dugu probnu vožnju i pregled na dizalici.',
+                    'Prostor vredi samo ako servisna istorija i stanje pogona potvrđuju mirnu kupovinu.',
+                ],
+                'tags' => ['Fiat Freemont', 'sedam sedišta', 'porodični SUV', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Freemont: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiat Freemont: sedam sedišta, dizel, automatik, 4x4, trap, servis, gepek i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now()->addMinutes(2),
+                'palette' => ['#17231d', '#4ade80', '#f8fafc'],
+            ],
+            [
+                'title' => 'Poklopac rezervoara na polovnom autu: kada mali otvor otkriva udarac, rđu ili lošu popravku',
+                'slug' => 'poklopac-rezervoara-na-polovnom-autu-kada-mali-otvor-otkriva-udarac-rdju-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je pri točenju goriva primetio da se poklopac ne zatvara ravno; nekoliko minuta pregleda otkrilo je loše popravljenu bočnu stranu auta.',
+                'content' => <<<'TEXT'
+Marko je došao da pogleda uredan hečbek i prodavac je već pričao o kapari kada je otvorio poklopac rezervoara. Vratašca su zapinjala, šrafovi su bili drugačije boje, a zazor prema blatobranu nije bio ravan. To samo po sebi ne dokazuje ozbiljan udar, ali je dovoljno da priču o besprekornom stanju zaustaviš dok ne dobiješ objašnjenje i pregled.
+
+Otvori poklopac nekoliko puta i pogledaj da li se zatvara ravno, da li je opruga čvrsta i da li se brava otključava zajedno sa autom. Uporedi nijansu laka sa susednim panelom, pregledaj rub otvora, šrafove, gumu oko čepa i tragove maskiranja ili sveže farbe. Kod starijih auta proveri ima li rđe oko otvora, jer voda i prosuto gorivo mogu oštetiti lim tamo gde se ne vidi na prvoj fotografiji.
+
+Zatim poveži nalaz sa ostatkom bočne strane: zazori vrata, rub blatobrana, zadnje svetlo, unutrašnjost gepeka i merenje laka treba da pričaju istu priču. Ako poklopac pokazuje raniju popravku, to ne znači automatski da treba odustati, ali prodavac mora objasniti obim štete i dokazati da su geometrija, svetla i zaštita od korozije ostali uredni.
+
+Kod Markovog auta majstor je našao više slojeva kita oko zadnjeg krila, pa je kupovina stala pre kapare. Mali detalj je koristan jer je brz, besplatan i tera pregled na pravo mesto. Nastavi sa kupovinom kada poklopac, lak i unutrašnja strana panela imaju logiku; pregovaraj samo za jasno dokumentovanu kozmetiku; odustani kada loš zazor otvori niz novih pitanja bez odgovora.
+TEXT,
+                'highlights' => [
+                    'Otvori poklopac rezervoara više puta i proveri zatvaranje, bravu, oprugu i zazore.',
+                    'Uporedi lak, šrafove i rub otvora sa blatobranom, vratima i unutrašnjošću gepeka.',
+                    'Nejasna popravka bočne strane traži merenje laka i pregled kod majstora pre kapare.',
+                ],
+                'tags' => ['provera vozila', 'poklopac rezervoara', 'limarija', 'merenje laka', 'korozija'],
+                'meta_title' => 'Poklopac rezervoara polovnog auta: šta otkriva',
+                'meta_description' => 'Kako poklopac rezervoara otkriva udarac, rđu ili lošu limarsku popravku na polovnom autu: zazori, lak, šrafovi, gepek i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now()->addMinutes(3),
+                'palette' => ['#2a1915', '#fb923c', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Letonije: kada povoljna cena traži proveru zime, soli i porekla',
+                'slug' => 'uvoz-auta-iz-letonije-kada-povoljna-cena-trazi-proveru-zime-soli-i-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladan je našao povoljan karavan iz Letonije, ali je niska cena dobila smisao tek kada su podvozje, dokumenti i istorija objasnili gde je auto proveo zime.',
+                'content' => <<<'TEXT'
+Vladan je na oglasu video karavan iz Letonije sa dobrom opremom i cenom koja je izgledala niže od domaćih primeraka. Prodavac je naglašavao uredan enterijer i malu kilometražu, ali fotografije spolja ne govore kako su zima, vlaga i so uticale na podvozje. Kod ovakvog uvoza zemlja porekla nije presuda, već razlog da se poreklo i stanje proveravaju detaljnije.
+
+Pre puta pošalji VIN i traži fotografije servisne dokumentacije, poslednjih tehničkih pregleda, računa i donjeg dela auta. Uporedi datume, kilometražu i vlasništvo sa stanjem volana, sedišta, pedala i gepeka. Ako dokumenti preskaču godine ili prodavac ne ume objasniti da li je auto bio privatni, službeni ili flotni, računaj da je niža cena naknada za rizik, ne automatska ušteda.
+
+Na pregledu kod majstora podigni auto i gledaj pragove, pod, nosače, kočione cevi, izduv, šrafove, rubove i mesta oko vešanja. So ne mora značiti konstrukcionu rđu, ali svež premaz preko prljavštine, natečeni rubovi ili zapekli vijci menjaju i cenu i odluku. Kod dizela proveri i trag kratkih zimskih relacija kroz DPF, EGR, grejanje i servisne intervale.
+
+Vladan je kupio drugi primerak tek kada su VIN, računi i pregled na dizalici potvrdili da cena nije sakrila loš donji deo. Uvoz iz Letonije može biti dobra prilika kada istorija ima kontinuitet, karoserija je zdrava i ukupni trošak ostaje realan posle prenosa i prvog servisa. Ako je cena jedini jasan podatak, pregovaraj iz pozicije rizika ili odustani i sačuvaj budžet za proverljiv auto.
+TEXT,
+                'highlights' => [
+                    'Letonski uvoz proveravaj kroz VIN, račune, tehničke preglede i stvarnu namenu vozila.',
+                    'Pod, pragovi, kočione cevi, nosači i šrafovi moraju na dizalicu zbog zime i soli.',
+                    'Niska cena ima smisla tek kada pregled objasni poreklo, stanje i prvi servis.',
+                ],
+                'tags' => ['uvoz iz Letonije', 'uvoz auta', 'korozija', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Letonije: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Letonije: VIN, dokumentacija, zima, so, korozija, podvozje, kilometraža i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->addMinutes(4),
+                'palette' => ['#172033', '#60a5fa', '#f8fafc'],
+            ],
         ];
     }
 

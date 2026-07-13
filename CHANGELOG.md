@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.96] - 2026-07-13
+
+### Added
+
+- Added five non-duplicate production blog articles covering Škoda Citigo vs Hyundai i10, used Peugeot 1007 and Fiat Freemont buying guidance, fuel-filler inspection, and Latvian import risk.
+
 ## [0.1.95] - 2026-07-09
 
 ### Added
