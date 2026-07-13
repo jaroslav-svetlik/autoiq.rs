@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.97] - 2026-07-13
+
+### Fixed
+
+- Publish the daily blog batch immediately instead of scheduling four articles into the future.
+
 ## [0.1.96] - 2026-07-13
 
 ### Added
