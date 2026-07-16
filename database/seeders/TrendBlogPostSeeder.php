@@ -7865,6 +7865,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#172033', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Mazda 5 ili Ford Grand C-Max: porodični van kada klizna vrata nisu jedini argument',
+                'slug' => 'mazda-5-ili-ford-grand-c-max-porodicni-van-kada-klizna-vrata-nisu-jedini-argument',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Petar je tražio porodični van sa lakim ulaskom za decu; između Mazde 5 i Grand C-Maxa presudili su stanje kliznih vrata, zadnjeg trapa i realni trošak posle kupovine.',
+                'content' => <<<'TEXT'
+Petar je tražio auto za dvoje dece, sedišta i vikend putovanja, pa su mu Mazda 5 i Ford Grand C-Max delovali kao logična alternativa skupim SUV-ovima. Obe ponude su imale klizna zadnja vrata i dovoljno mesta za porodičnu rutinu, ali na licu mesta razlika nije bila u samom konceptu nego u tome koliko je konkretan primerak sačuvao mehaniku, kabinu i budžet za prvi servis.
+
+Mazda 5 ima smisla kada želiš jednostavniji porodični van sa japanskom reputacijom i mirnijim benzinskim karakterom. Kod svakog primerka proveri rad kliznih vrata, stanje pragova, zadnjeg trapa, klima-uređaja i trećeg reda ako ti zaista treba. Stariji primerci lako sakriju koroziju oko donjih ivica, pa pregled odozdo vredi više od uredne fotografije spolja.
+
+Grand C-Max je često privlačan jer deluje modernije, preglednije i lakše za svakodnevni grad, ali traži strožu proveru dizela, turbine, DPF-a i elektronike ako gledaš bogatiju opremu. Otvaraj vrata više puta, proveri mehanizme sedišta, ravnomerno trošenje guma i da li tragovi porodične upotrebe u kabini odgovaraju kilometraži. Ako jedan auto nudi više opreme, a manje računa, ta oprema samo podiže rizik.
+
+Petar je na kraju uzeo Mazdu 5 jer je pregled pokazao zdrav pod, mirniji trap i jasnije račune, dok je Grand C-Max tražio više početnih ulaganja nego što oglas priznaje. Mazda 5 je bolja kada želiš rasterećeniji posed i ne juriš najmlađi primerak po svaku cenu. Grand C-Max ima smisla kada je istorija čista i kada ti više znači moderniji osećaj za volanom nego potencijalno skuplji dizel sistem. U oba slučaja, nastavi samo sa autom koji posle pregleda ostavlja rezerve u budžetu, a odustani od onog koji se prodaje kroz ideju praktičnosti bez pokrića u stanju.
+TEXT,
+                'highlights' => [
+                    'Klizna vrata proveri više puta, ali odluku donesi tek posle pregleda trapa, poda i dokumentacije.',
+                    'Mazda 5 traži proveru korozije, zadnjeg trapa i stanja kabine kroz porodičnu upotrebu.',
+                    'Grand C-Max ima smisla samo kada dizel, DPF i elektronika imaju jasnu servisnu priču.',
+                ],
+                'tags' => ['Mazda 5', 'Ford Grand C-Max', 'porodični van', 'klizna vrata', 'poređenje'],
+                'meta_title' => 'Mazda 5 ili Ford Grand C-Max: koji porodični van kupiti',
+                'meta_description' => 'Poređenje polovnih Mazda 5 i Ford Grand C-Max modela: klizna vrata, trap, dizel rizici, korozija, sedišta i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Chevrolet Orlando: porodični van koji mora opravdati sedišta, dizel i delove',
+                'slug' => 'polovni-chevrolet-orlando-porodicni-van-koji-mora-opravdati-sedista-dizel-i-delove',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dejan je hteo sedam sedišta za manje novca od popularnih vanova, ali je Orlando imao smisla tek kada su treći red, dizel i dostupnost delova prošli proveru.',
+                'content' => <<<'TEXT'
+Dejan je želeo sedam sedišta, visok položaj sedenja i cenu nižu od traženijih porodičnih modela, pa mu je Chevrolet Orlando delovao kao pametna prečica. Na oglasu je sve izgledalo razumno: prostrana kabina, dizel i dosta opreme za novac. Međutim, ovakav auto nije dobar samo zato što deluje povoljnije od konkurencije, već zato što sedišta, motor i servisna logistika mogu da izdrže još nekoliko godina bez improvizacije.
+
+Prvo proveri kako ti Orlando stvarno rešava porodičnu rutinu. Otvori treći red, pomeri drugu klupu, pogledaj pojaseve, mehanizme preklapanja i koliko gepeka ostaje kada su sva sedišta u upotrebi. Tragovi dečjih sedišta, izgrebana plastika i umorni mehanizmi nisu sami po sebi razlog za odustajanje, ali moraju biti usklađeni sa kilometražom i cenom.
+
+Kod dizela proveri hladan start, DPF, EGR, turbinu, zamajac i ponašanje menjača u gradskoj vožnji i pri opterećenju. Orlando treba podići na dizalicu zbog trapa, kočnica i curenja, a posebno pitaj koliko su delovi dostupni za konkretan motor i opremu koju gledaš. Jeftiniji oglas nema smisla ako već prvi servis traži delove koji čekaju i podižu račun.
+
+Dejan je kupio drugi primerak tek kada su pregled i računi pokazali da su treći red i dizel korišćeni, ali ne i zapušteni. Orlando ima smisla za porodicu koja stvarno koristi dodatna sedišta i prihvata da je mreža delova uža od najpopularnijih rivala. Nastavi kada auto ima jasnu istoriju, miran rad i realnu dostupnost servisa; pregovaraj kada mehanika traži ulaganje sa jasnom procenom; odustani kada se prodavac više oslanja na prostor nego na račune.
+TEXT,
+                'highlights' => [
+                    'Treći red, mehanizme sedišta i gepek proveri kao da auto kupuješ za sutrašnje putovanje.',
+                    'Dizel Orlando traži proveru DPF-a, EGR-a, turbine, zamajca i pregleda na dizalici.',
+                    'Povoljna cena vredi samo ako su delovi i prvi servis realno dostupni u budžetu.',
+                ],
+                'tags' => ['Chevrolet Orlando', 'sedam sedišta', 'porodični van', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chevrolet Orlando: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Chevrolet Orlando modela: sedam sedišta, dizel, DPF, delovi, trap, gepek i porodična upotreba.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(1),
+                'palette' => ['#241b2f', '#c084fc', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Hyundai ix35: SUV koji mora dokazati 4x4, dizel i gradsku istoriju',
+                'slug' => 'polovni-hyundai-ix35-suv-koji-mora-dokazati-4x4-dizel-i-gradsku-istoriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ivana je želela povišen SUV za grad i put, ali je ix35 postao dobra kupovina tek kada su pogon, dizel i tragovi kratkih relacija dobili jasno objašnjenje.',
+                'content' => <<<'TEXT'
+Ivana je tražila SUV koji će joj dati lak ulazak, bolju preglednost i dovoljno mira za put do vikendice, a Hyundai ix35 se često pojavljivao kao povoljnija alternativa traženijim modelima. Oglas je obećavao 4x4, dizel i dobru opremu, ali takva kombinacija ume da izgleda bolje na papiru nego u stvarnom životu ako je auto većinu vremena proveo u gradu i preskakao održavanje.
+
+Kod ix35 prvo odredi da li ti pogon na sva četiri točka zaista treba. Ako ga auto ima, proveri da li se sistem javlja šumom, trzajem ili upozorenjem pri manevrisanju i punom skretanju. Pogledaj stanje guma, kardana, zadnjeg diferencijala i da li su sve četiri gume iste mere i približno istog trošenja, jer neusklađen set može sakriti skuplju priču o pogonu.
+
+Dizel primerci traže hladan start, proveru DPF-a, EGR-a, turbine i istorije servisa, posebno ako se na kabini vide kratke gradske relacije i mala prosečna brzina života. Ix35 treba podići zbog korozije na donjem delu, trapa i eventualnih curenja, a probna vožnja mora uključiti i grad i otvoren put. Ako prodavac priča samo o opremi, a ne zna kada je poslednji put servisiran menjač, pogon ili dizel sistem, računaj da ti prepušta rizik.
+
+Ivana je uzela primerak sa urednim računima, ravnomernim gumama i tihim radom pogona, iako nije bio najjeftiniji u pretrazi. Ix35 je dobra kupovina kada želiš jednostavniji SUV i kada stanje opravdava cenu bez oslanjanja na reputaciju marke. Nastavi kada su 4x4, dizel i gradski tragovi pod kontrolom; pregovaraj kada ulaganja imaju jasan spisak; odustani kada pogon, kilometraža i servisna priča ne mogu da stanu u jednu logičnu rečenicu.
+TEXT,
+                'highlights' => [
+                    '4x4 proveri kroz jednake gume, manevrisanje, zvukove pogona i pregled zadnjeg diferencijala.',
+                    'Dizel ix35 traži hladan start, proveru DPF-a, EGR-a, turbine i tragova kratkih relacija.',
+                    'Najjeftiniji SUV prestaje biti povoljan čim pogon i prvi servis ostanu bez dokumentacije.',
+                ],
+                'tags' => ['Hyundai ix35', 'SUV', '4x4', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai ix35: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Hyundai ix35 modela: 4x4 pogon, dizel, DPF, trap, korozija, gradska vožnja i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(2),
+                'palette' => ['#17231d', '#4ade80', '#f8fafc'],
+            ],
+            [
+                'title' => 'Grejanje sedišta na polovnom autu: kada topao komfor otkriva instalaciju, presvlake ili vlagu',
+                'slug' => 'grejanje-sedista-na-polovnom-autu-kada-topao-komfor-otkriva-instalaciju-presvlake-ili-vlagu',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Sara je na letnjem pregledu zanemarila grejanje sedišta, a tek kasnije shvatila da neujednačeno zagrevanje otkriva raskopanu instalaciju i lošu presvlaku.',
+                'content' => <<<'TEXT'
+Sara je gledala lepo očuvan hatchback po toplom danu i skoro preskočila proveru grejanja sedišta jer joj ta opcija tada nije delovala važna. Kada je prodavac ipak uključio sistem, naslon se nije zagrevao ravnomerno, a sedište vozača je mirisalo na naknadno lepljenu presvlaku. Takav detalj ne mora biti veliki kvar, ali često otvori priču o raskopanoj instalaciji, vlazi ili lošoj popravci enterijera.
+
+Uključi grejanje na oba prednja sedišta i sačekaj nekoliko minuta da vidiš da li i sedalni deo i naslon reaguju ravnomerno. Proveri sve stepene, lampice, prekidače i da li se toplota javlja prebrzo samo na jednoj tački ili potpuno izostaje. Neravnomerno grejanje može značiti prekid mreže, zamenu presvlake ili improvizaciju posle oštećenja sedišta.
+
+Zatim pogledaj bočne stranice sedišta, šavove, tragove skidanja presvlake, rad airbag oznaka i stanje instalacije ispod sedišta. Ako auto miriše na vlagu, ima zamagljena stakla ili oksidaciju na konektorima, grejanje sedišta postaje još korisniji trag jer voda često prva napravi problem baš u donjem delu kabine. Kod električno podesivih sedišta proveri sve komande zajedno, jer jedan kvar ume da sakrije drugi.
+
+Sara je odustala od prvog auta kada je majstor našao vlagu ispod tepiha i neoriginalno krpljenje instalacije do sedišta. Grejanje sedišta je dobar test jer spaja komfor, struju i stanje enterijera u jednoj brzoj proveri. Nastavi sa kupovinom kada se oba sedišta greju ravnomerno i kabina nema skrivene tragove rastavljanja; pregovaraj kada je problem jasan i lokalizovan; odustani kada topao prekidač otvori priču o vodi, airbagu ili loše vraćenoj unutrašnjosti.
+TEXT,
+                'highlights' => [
+                    'Testiraj grejanje na oba sedišta i proveri da li se sedalni deo i naslon greju ravnomerno.',
+                    'Pregledaj šavove, bočne stranice, konektore i tragove skidanja presvlake ispod sedišta.',
+                    'Grejanje sedišta je brz trag za vlagu, lošu instalaciju i nestručno vraćen enterijer.',
+                ],
+                'tags' => ['grejanje sedišta', 'provera vozila', 'enterijer', 'elektronika', 'vlaga'],
+                'meta_title' => 'Grejanje sedišta na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti grejanje sedišta na polovnom autu: prekidači, mreža grejača, presvlake, konektori, vlaga, airbag i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(3),
+                'palette' => ['#2a1915', '#fb923c', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Finske: kada uredna istorija traži proveru zime, grejača i korozije',
+                'slug' => 'uvoz-auta-iz-finske-kada-uredna-istorija-trazi-proveru-zime-grejaca-i-korozije',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je našao uredan finski uvoz sa jakom opremom, ali su tek pregled podvozja, pomoćnih grejača i servisne logike pokazali da li zimski život krije dodatni račun.',
+                'content' => <<<'TEXT'
+Nikola je na oglasu video karavan iz Finske sa urednom servisnom istorijom, automatskom klimom i dodatnom zimskom opremom koja je delovala primamljivo za domaće tržište. Problem je što uredni papiri ne govore sami po sebi kako su hladnoća, so i kratke zimske relacije uticale na podvozje, grejače i dizel sistem. Kod finskog uvoza priča počinje tek kada dokumenti i stanje potvrde jedno drugo.
+
+Pre odlaska po auto traži VIN, servisne račune, poslednje tehničke preglede i fotografije donjeg dela, pragova i prostora oko amortizera. Finski primerci često imaju dodatne grejače motora, kabine ili sedišta, pa pitaj šta je fabričko, šta radi i da li su ti sistemi ikada popravljani. Dobra oprema vredi samo kada je pregled pokaže ispravnom i kada ne krije improvizovanu instalaciju.
+
+Na licu mesta podigni auto i gledaj pod, kočione cevi, izduv, nosače, rubove vrata i tragove zaštitnog premaza koji možda skriva koroziju. Kod dizela proveri DPF, EGR, hladan start i koliko logično izgleda upotreba auta u zimskim uslovima. Ako dokumentacija izgleda uredno, a kabina, šrafovi i podvozje govore sasvim drugu priču, veruj mehanici pre papira.
+
+Nikola je kupio tek drugi finski primerak, onaj kod kog su računi, pomoćni grejači i podvozje imali istu logiku. Uvoz iz Finske može biti dobra prilika kada dobijaš uredan servis, bogatu ali ispravnu opremu i karoseriju bez skrivene zime u donjem delu. Nastavi kada pregled potvrdi kontinuitet istorije; pregovaraj kada ulaganja imaju jasnu cenu; odustani kada uredan fascikl pokušava da pokrije umoran metal i nejasne električne dodatke.
+TEXT,
+                'highlights' => [
+                    'Finski uvoz traži VIN, račune, tehničke preglede i fotografije podvozja pre puta.',
+                    'Posebno proveri dodatne grejače, instalaciju, hladan start i tragove zime na donjem delu auta.',
+                    'Papiri vrede samo kada pod, pragovi, šrafovi i oprema potvrde istu priču.',
+                ],
+                'tags' => ['uvoz iz Finske', 'uvoz auta', 'korozija', 'grejači', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Finske: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Finske: VIN, servisna istorija, korozija, pomoćni grejači, dizel, podvozje i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(4),
+                'palette' => ['#172033', '#60a5fa', '#f8fafc'],
+            ],
         ];
     }
 

@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(275, $posts);
+        $this->assertCount(280, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(68, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(69, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'mazda-5-ili-ford-grand-c-max-porodicni-van-kada-klizna-vrata-nisu-jedini-argument'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-orlando-porodicni-van-koji-mora-opravdati-sedista-dizel-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hyundai-ix35-suv-koji-mora-dokazati-4x4-dizel-i-gradsku-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'grejanje-sedista-na-polovnom-autu-kada-topao-komfor-otkriva-instalaciju-presvlake-ili-vlagu'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-finske-kada-uredna-istorija-trazi-proveru-zime-grejaca-i-korozije'));
         $this->assertTrue($posts->contains('slug', 'skoda-citigo-ili-hyundai-i10-mali-auto-kada-jednostavnost-mora-pobediti-opremu'));
         $this->assertTrue($posts->contains('slug', 'polovni-peugeot-1007-neobican-mali-auto-koji-mora-dokazati-klizna-vrata'));
         $this->assertTrue($posts->contains('slug', 'polovni-fiat-freemont-porodicni-suv-koji-mora-dokazati-prostor-pogon-i-istoriju'));

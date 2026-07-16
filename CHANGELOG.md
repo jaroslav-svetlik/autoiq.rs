@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.98] - 2026-07-16
+
+### Added
+
+- Added five non-duplicate production blog articles covering Mazda 5 vs Ford Grand C-Max, used Chevrolet Orlando and Hyundai ix35 buying guidance, heated-seat inspection, and Finnish import risk.
+
 ## [0.1.97] - 2026-07-13
 
 ### Fixed
