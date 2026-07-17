@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(280, $posts);
+        $this->assertCount(285, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(69, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(70, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'dacia-dokker-ili-fiat-doblo-radni-porodicni-auto-kada-prostor-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volvo-v40-kompakt-koji-mora-dokazati-bezbednost-dizel-i-gradsku-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-kia-soul-neobicni-gradski-crossover-koji-mora-opravdati-oblik-motor-i-vidljivost'));
+        $this->assertTrue($posts->contains('slug', 'krovna-obloga-na-polovnom-autu-kada-spusten-tapacirung-otkriva-vlagu-lepak-ili-airbag'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-litvanije-kada-povoljan-oglas-trazi-proveru-tranzita-limarije-i-papira'));
         $this->assertTrue($posts->contains('slug', 'mazda-5-ili-ford-grand-c-max-porodicni-van-kada-klizna-vrata-nisu-jedini-argument'));
         $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-orlando-porodicni-van-koji-mora-opravdati-sedista-dizel-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-hyundai-ix35-suv-koji-mora-dokazati-4x4-dizel-i-gradsku-istoriju'));

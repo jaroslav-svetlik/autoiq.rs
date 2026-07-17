@@ -8000,6 +8000,141 @@ TEXT,
                 'published_at' => now()->subMinutes(4),
                 'palette' => ['#172033', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Dacia Dokker ili Fiat Doblo: radni porodični auto kada prostor mora dokazati stanje',
+                'slug' => 'dacia-dokker-ili-fiat-doblo-radni-porodicni-auto-kada-prostor-mora-dokazati-stanje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je birao između Dokker-a sa urednim računima i Dobla sa većim tovarnim prostorom; tek je pregled otkrio da prostor vredi samo kada ne krije radni život.',
+                'content' => <<<'TEXT'
+Marko je tražio jedan auto za dostavu tokom nedelje i porodični izlet vikendom, pa su Dacia Dokker i Fiat Doblo brzo došli na njegov spisak. Dokker je imao uredne račune i skromniju opremu, dok je Doblo nudio više prostora i jači utisak na oglasu. Na licu mesta nije presudilo koji je duži, već da li su vrata, kabina i mehanika preživeli raniji posao bez zaostalih ulaganja.
+
+Dokker ima smisla kada ti treba jednostavan, pregledan format i kada je primerak korišćen mirnije nego što njegov oblik sugeriše. Otvori sva vrata, proveri šine, brave, dihtunge i pod prtljažnika, a zatim pogledaj habanje vozačevog sedišta, pedala i tovarnog prostora. Kod dizela traži hladan start, dokaz o servisima i probnu vožnju pod opterećenjem, jer kratke gradske ture lako ostave račun kroz DPF, kvačilo ili trap.
+
+Doblo često daje više izbora motora, kabine i verzija, ali baš zato treba precizno utvrditi šta kupuješ. Pregledaj zadnju osovinu, pragove, donje ivice kliznih vrata, gume i tragove tereta po podu; zatim proveri da li motor ravnomerno vuče i da li menjač ulazi u brzine bez otpora. Auto koji je služio kao alat može biti dobra kupovina samo kada kilometraža, računi i fizičko habanje pričaju istu priču.
+
+Marko je uzeo Dokker sa manje opreme jer je majstor našao zdraviji pod, mirniji trap i jasniji servisni trag, dok je prostraniji Doblo tražio niz početnih popravki. Izaberi Dokker kada želiš jednostavniju računicu i dobar primerak; Doblo kada ti konkretno treba njegov prostor i istorija je potpuna. Pregovaraj kada su ulaganja jasno procenjena, a odustani kada velik gepek pokušava da prekrije umoran radni život.
+TEXT,
+                'highlights' => [
+                    'Kod oba modela proveri klizna vrata, brave, dihtunge, pod i tragove ranijeg tereta.',
+                    'Dizel traži hladan start, servisnu istoriju i vožnju pod opterećenjem, ne samo krug oko bloka.',
+                    'Veći prostor nije prednost ako trap, podvozje i kabina otkrivaju težak posao bez održavanja.',
+                ],
+                'tags' => ['Dacia Dokker', 'Fiat Doblo', 'porodični auto', 'radni auto', 'poređenje'],
+                'meta_title' => 'Dacia Dokker ili Fiat Doblo: koji polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Dacia Dokker i Fiat Doblo: prostor, klizna vrata, dizel, trap, radna istorija i kada odustati od kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#17302a', '#34d399', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Volvo V40: kompakt koji mora dokazati bezbednost, dizel i gradsku istoriju',
+                'slug' => 'polovni-volvo-v40-kompakt-koji-mora-dokazati-bezbednost-dizel-i-gradsku-istoriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mina je želela bezbedan kompakt za grad i put, ali je kod Volvo V40 shvatila da bogata oprema ne može zameniti proveru dizela, automatika i prethodnih udaraca.',
+                'content' => <<<'TEXT'
+Mina je želela kompaktan auto koji deluje sigurno na autoputu, a nije prevelik za svakodnevno parkiranje, pa joj je Volvo V40 izgledao kao dobra ravnoteža. Prvi oglas je imao kožnu kabinu, mnogo asistencija i uredne fotografije, ali je probna vožnja otkrila tvrđi trap i nejasan odgovor prodavca o poslednjem servisu. Kod ovakvog polovnjaka oprema je prijatna, ali stanje odlučuje da li je bezbednost stvarna prednost ili samo stavka u oglasu.
+
+Pre pregleda traži VIN, račune i podatak o motoru i menjaču, pa na licu mesta proveri hladan start, upozoravajuće lampice i rad svih komandi. Kod dizela obrati pažnju na DPF, EGR, turbinu i način na koji auto reaguje pri mirnom i jačem ubrzanju. Ako primerak ima automatik, promena brzina mora biti glatka i na hladno i kad se auto zagreje, a servisna istorija menjača mora biti konkretna.
+
+V40 zaslužuje pregled karoserije meračem laka, naročito oko branika, pragova, rubova krova i prednjeg dela gde se sitni gradski udarci lako prikriju. Pogledaj ravnomernost zazora, stanje guma, kočnica i amortizera, zatim na otvorenom putu oslušni ležajeve i proveri da li volan stoji pravo. Bogata elektronika traži da isprobaš svaku funkciju, jer neispravan senzor ili kamera nisu razlog za paniku, ali jesu razlog za tačnu procenu troška.
+
+Mina je preskočila prvi V40, a kupila drugi sa manje opreme, ali sa jasnim servisima, tihim trapom i logičnim tragom korišćenja. Nastavi kada dokumentacija, dijagnostika i vožnja potvrde miran auto; pregovaraj kada postoji jedna proverljiva stavka za servis; odustani kada se premium utisak oslanja na nejasan dizel, automatiku ili karoseriju. Kod V40 je bolji jednostavniji, uredan primerak od raskošnog auta koji tek treba da opravda svoju priču.
+TEXT,
+                'highlights' => [
+                    'Traži VIN i račune, pa proveri hladan start, dijagnostiku i rad svih asistencija.',
+                    'Dizel i automatik zahtevaju dokaz o održavanju, dugu probnu vožnju i mirne promene brzina.',
+                    'Merač laka, zazori i pregled trapa važniji su od kože, kamere i bogate opreme.',
+                ],
+                'tags' => ['Volvo V40', 'kompakt', 'dizel', 'automatik', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volvo V40: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volvo V40: dizel, automatik, DPF, elektronika, trap, karoserija, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinute(),
+                'palette' => ['#172033', '#7dd3fc', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Kia Soul: neobični gradski crossover koji mora opravdati oblik, motor i vidljivost',
+                'slug' => 'polovni-kia-soul-neobicni-gradski-crossover-koji-mora-opravdati-oblik-motor-i-vidljivost',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Luka je zbog visokog krova i neobičnog izgleda izdvojio Kia Soul, ali je tek kroz pregled video da gradska praktičnost traži proveru benzinca, kabine i preglednosti.',
+                'content' => <<<'TEXT'
+Luka je tražio auto u kom sedi više nego u klasičnom kompaktu, a da ne plaća veliki SUV, i Kia Soul mu je delovao kao simpatično rešenje. Oglas je obećavao preglednu kabinu, dobru opremu i malo kilometara, ali je na prvom gledanju zadnje staklo bilo ograničeno nalepnicama, a gume nejednako potrošene. Neobičan oblik može biti koristan, ali ne sme da skrene pažnju sa toga kako je konkretan primerak vožen i održavan.
+
+Počni hladnim startom, slušaj rad motora i proveri da li se ler smiruje bez lampica na tabli. Kod benzinca proveri račune za redovne servise, kvačilo i odziv pri ubrzanju; kod eventualne automatske verzije traži mirne promene brzina i dokaz o održavanju. Probna vožnja treba da obuhvati gradske rupe, parkiranje i otvoren put, jer se tada najlakše vide trap, kočnice, buka i stvarna preglednost.
+
+Zatim pregledaj pragove, branike, felne i donji deo vrata, pošto gradska upotreba ostavlja tragove na mestima koja fotografije često ne pokažu. U kabini proveri klizanje i preklapanje sedišta, rad klima-uređaja, prozora, kamere ili senzora ako ih auto ima, kao i prostor iza vozača. Ako je vidljivost unazad loša zbog naknadnih dodataka ili kamera ne radi, ne prihvataj objašnjenje da je to samo sitnica.
+
+Luka je izabrao primerak sa jednostavnijom opremom, ali zdravim gumama, tihim trapom i računima koji su pratili kilometražu. Kia Soul ima smisla kada ti njegov uspravan format rešava svakodnevicu i kada pregled potvrdi uredan motor i kabinu. Nastavi sa proverljivim autom, pregovaraj za jasno procenjen kvar, a odustani ako stil, visoko sedenje i ekran pokušavaju da prekriju lošu mehaniku ili istrošen gradski život.
+TEXT,
+                'highlights' => [
+                    'Hladan start, kvačilo ili automatik i vožnja preko neravnina otkrivaju više od izgleda.',
+                    'Proveri realnu preglednost, kameru ili senzore, kao i tragove gradskih udaraca na pragovima i felnama.',
+                    'Kupuj format koji ti zaista odgovara, ali samo kada motor, trap i kabina imaju jasnu istoriju.',
+                ],
+                'tags' => ['Kia Soul', 'gradski crossover', 'benzinac', 'kupovina polovnjaka', 'probna vožnja'],
+                'meta_title' => 'Polovni Kia Soul: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Kia Soul: motor, automatik, trap, preglednost, kamera, kabina, gradska upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(2),
+                'palette' => ['#30241b', '#fbbf24', '#f8fafc'],
+            ],
+            [
+                'title' => 'Krovna obloga na polovnom autu: kada spušten tapacirung otkriva vlagu, lepak ili airbag',
+                'slug' => 'krovna-obloga-na-polovnom-autu-kada-spusten-tapacirung-otkriva-vlagu-lepak-ili-airbag',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je mislila da je spuštena krovna obloga samo estetska mana, dok joj pregled nije pokazao da materijal može voditi do vlage, loše reparacije ili pitanja oko airbaga.',
+                'content' => <<<'TEXT'
+Ana je gledala uredan hatchback čija je krovna obloga blago visila iznad zadnjih sedišta. Prodavac je odmah rekao da je to samo lepak od godina i ponudio mali popust, ali je Ana primetila i tragove vlage kod lampe u plafonu. Spušten tapacirung često jeste rešiv estetski problem, ali na polovnom autu treba proveriti da li iza njega stoje prokišnjavanje, neuredna demontaža ili loše vraćena bezbednosna oprema.
+
+Pređi dlanom preko cele obloge, naročito uz vetrobran, stubove, ručke, plafonsku lampu i zadnje staklo. Traži fleke, talase, miris memle, krut ili vlažan materijal i razliku u boji između delova kabine. Ako auto ima šiber ili panoramski krov, proveri odvode i rubove, ali ne sipaj vodu bez dozvole prodavca; dovoljno je da majstor pregleda odvodne kanale i tragove ranijeg curenja.
+
+Pogledaj poklopce airbaga u stubovima i šavove oko plafona, jer neravni zazori, slomljene kopče ili sveži lepak mogu značiti da je kabina rastavljana. Uključi unutrašnje svetlo, proveri mikrofon, sunčane štitnike i ručke, pa pitaj ko je i zašto radio oblogu. Popravka presvlake može biti razumna stavka za pregovor, ali reparacija posle vlage ili udara traži širi pregled elektronike, airbaga i limarije.
+
+Ana je odustala od prvog auta kada je majstor našao začepljene odvode i oksidaciju oko plafonske lampe, a kasnije je kupila drugi sa samo estetski oslabljenim lepkom. Nastavi kada je problem lokalizovan, kabina suva i bez tragova rastavljanja; pregovaraj kada postoji jasna cena presvlačenja; odustani kada krovna obloga vodi do vode, airbaga ili neobjašnjene popravke. Mali pogled nagore može sačuvati mnogo vremena i novca.
+TEXT,
+                'highlights' => [
+                    'Pregledaj plafon, stubove, lampu i rubove stakala zbog fleka, mirisa memle i tragova vlage.',
+                    'Kod šibera ili panoramskog krova proveri odvode i tragove curenja uz stručan pregled.',
+                    'Neravni poklopci airbaga, slomljene kopče i sveži lepak traže objašnjenje pre kapare.',
+                ],
+                'tags' => ['krovna obloga', 'provera vozila', 'vlaga', 'airbag', 'enterijer'],
+                'meta_title' => 'Krovna obloga na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti krovnu oblogu polovnog auta: spušten tapacirung, vlaga, odvodi šibera, plafonska lampa, airbag i loša reparacija.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(3),
+                'palette' => ['#301d2a', '#e879f9', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Litvanije: kada povoljan oglas traži proveru tranzita, limarije i papira',
+                'slug' => 'uvoz-auta-iz-litvanije-kada-povoljan-oglas-trazi-proveru-tranzita-limarije-i-papira',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nenad je našao povoljan litvanski uvoz sa mnogo opreme, ali je tek preko VIN-a, fotografija i pregleda limarije razdvojio dobru priliku od auta sa nejasnim tranzitom.',
+                'content' => <<<'TEXT'
+Nenad je video oglas za karavan iz Litvanije sa cenom ispod domaćih primeraka, urednim enterijerom i bogatom opremom. Prodavac je naglašavao da je auto upravo stigao, ali nije imao jasan odgovor koliko je dugo vozilo bilo u zemlji, ko ga je ranije posedovao i zašto nedostaju pojedini računi. Kod uvoza iz Litvanije niska cena nije presuda, već signal da poreklo, tranzit i fizičko stanje moraju dobiti više vremena nego obično.
+
+Pre puta traži VIN, fotografije pre uvoza, kopije stranih dokumenata, račune i poslednje tehničke preglede. Uporedi datume, kilometražu i oznake vlasništva, a ne oslanjaj se samo na prevod koji prati oglas. Ako se istorija prekida ili auto menja zemlju bez smislenog objašnjenja, računaj da će pregled kod nezavisnog majstora i provera podataka biti obavezni, ne dodatni trošak.
+
+Na licu mesta izmeri lak, pogledaj pragove, pod, nosače, rubove vrata i tragove sveže zaštite preko prljavštine. Proveri stakla, farove i zazore karoserije, zatim na dizalici kočione cevi, trap i donji deo motora; dugačak tranzit ili popravka posle nezgode često ostave sitne nesklade koje oglas ne pokaže. Kod dizela dodaj hladan start, dijagnostiku i stanje DPF-a kako bi ukupni rizik stao u realan budžet.
+
+Nenad je kupio drugi primerak tek kada su VIN, dokumenti i pregled limarije imali istu logiku, iako nije bio najjeftiniji. Litvanski uvoz može imati smisla kada je poreklo proverljivo, karoserija zdrava i prvi servis uračunat u cenu. Nastavi kada činjenice potvrde priču; pregovaraj kada je jedno ulaganje jasno procenjeno; odustani kada povoljna cena zavisi od rupa u papirima, tranzitu ili metalu.
+TEXT,
+                'highlights' => [
+                    'Pre puta traži VIN, strane dokumente, račune, tehničke preglede i fotografije pre uvoza.',
+                    'Merač laka i pregled na dizalici proveravaju limariju, podvozje i tragove tranzita bolje od oglasa.',
+                    'Povoljna cena ima smisla samo kada su poreklo, dokumenti i prvi servis uračunati bez pretpostavki.',
+                ],
+                'tags' => ['uvoz iz Litvanije', 'uvoz auta', 'VIN', 'limarija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Litvanije: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Litvanije: VIN, dokumentacija, tranzit, limarija, podvozje, dizel, kilometraža i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(4),
+                'palette' => ['#1f2937', '#38bdf8', '#f8fafc'],
+            ],
         ];
     }
 
