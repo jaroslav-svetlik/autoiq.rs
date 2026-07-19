@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(285, $posts);
+        $this->assertCount(290, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(70, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(71, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'daihatsu-materia-ili-nissan-cube-neobicni-mali-auto-kada-oblik-mora-dokazati-prakticnost'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hyundai-matrix-mali-monovolumen-koji-mora-opravdati-prostor-klimu-i-gradski-zivot'));
+        $this->assertTrue($posts->contains('slug', 'polovni-fiat-sedici-mali-4x4-koji-mora-dokazati-pogon-rdju-i-stvarni-razlog-kupovine'));
+        $this->assertTrue($posts->contains('slug', 'bunar-rezervnog-tocka-na-polovnom-autu-kada-pod-gepeka-otkriva-vodu-udarac-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-estonije-kada-uredan-severni-oglas-trazi-proveru-soli-grejanja-i-porekla'));
         $this->assertTrue($posts->contains('slug', 'dacia-dokker-ili-fiat-doblo-radni-porodicni-auto-kada-prostor-mora-dokazati-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-volvo-v40-kompakt-koji-mora-dokazati-bezbednost-dizel-i-gradsku-istoriju'));
         $this->assertTrue($posts->contains('slug', 'polovni-kia-soul-neobicni-gradski-crossover-koji-mora-opravdati-oblik-motor-i-vidljivost'));

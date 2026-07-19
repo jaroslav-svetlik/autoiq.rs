@@ -53,7 +53,7 @@ class TrendBlogPostSeeder extends Seeder
 
     protected function posts(): array
     {
-        return array_merge($this->hubPosts(), [
+        return array_merge($this->hubPosts(), $this->dailyPosts(), [
             [
                 'title' => 'Golf 7 ili Audi A3: šta je pametnija kupovina u Srbiji',
                 'slug' => 'golf-7-ili-audi-a3-sta-je-pametnija-kupovina-u-srbiji',
@@ -8135,6 +8135,148 @@ TEXT,
                 'published_at' => now()->subMinutes(4),
                 'palette' => ['#1f2937', '#38bdf8', '#f8fafc'],
             ],
+        ];
+    }
+
+    protected function dailyPosts(): array
+    {
+        return [
+            [
+                'title' => 'Daihatsu Materia ili Nissan Cube: neobični mali auto kada oblik mora dokazati praktičnost',
+                'slug' => 'daihatsu-materia-ili-nissan-cube-neobicni-mali-auto-kada-oblik-mora-dokazati-prakticnost',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je tražio mali auto sa uspravnom kabinom i izdvojio Daihatsu Materia i Nissan Cube, ali je tek pregled pokazao da retkost, delovi i stanje vrede više od neobičnog oblika.',
+                'content' => <<<'TEXT'
+Marko je želeo kompaktan auto u koji bez gimnastike mogu stati prijatelji, kolica i vikend kupovina, pa su mu Daihatsu Materia i Nissan Cube privukli pažnju visokim krovom i kockastim oblikom. Na fotografijama su oba delovala kao osveženje među istim hatchbackovima, ali je kod prvog oglasa nedostajao jasan servisni trag, a kod drugog odgovor o dostupnosti delova. Kod retkog polovnjaka šarm ima vrednost tek kada konkretan primerak ima logičnu istoriju.
+
+Materia je obično jednostavnija priča za kupca koji želi benzinca, preglednu kabinu i manje dimenzije za grad. Nissan Cube može ponuditi još izraženiji karakter i praktičan prostor, ali kod primeraka koji su stigli iz drugih tržišta posebno traži VIN, dokumente, odgovarajuća svetla i potvrdu da se potrošni i specifični delovi mogu nabaviti bez čekanja. Ne pretpostavljaj da dva automobila slične forme nose isti rizik samo zato što izgledaju jednako neobično.
+
+Na oba auta kreni od hladnog starta, mirnog ler gasa, kvačila ili automatika, pa ih provozaj preko neravnina i pri parkiranju do punog ugla volana. Pogledaj pragove, pod, zadnja vrata, stanje guma i tragove gradske eksploatacije, a u kabini proveri svaku komandu, klizanje sedišta i stvarni pristup zadnjoj klupi. Kod retkih modela sitan kvar brave, plastike ili svetla nije razlog za paniku, ali mora biti uračunat pre kapare.
+
+Marko je izabrao Materiu sa manje opreme, ali sa računima, tihim trapom i prodavcem koji je unapred pokazao gde nabavlja delove. Nastavi kada su mehanika, papiri i logistika delova proverljivi; pregovaraj kada postoji jasno procenjena sitnica; odustani kada atraktivan oblik prikriva improvizovanu registraciju, lošu limariju ili automobil koji niko ne ume da održi. Neobičan auto je dobra kupovina samo ako je svakodnevica sa njim obična.
+TEXT,
+                'highlights' => [
+                    'Kod oba retka modela VIN, dokumenti i dostupnost specifičnih delova proveravaju se pre puta, ne posle kapare.',
+                    'Hladan start, trap, puni ugao volana i rad svake komande otkrivaju da li praktična kabina prati zdravu mehaniku.',
+                    'Prednost daj urednom primerku sa računima, čak i kada drugi auto izgleda zanimljivije ili ima više opreme.',
+                ],
+                'tags' => ['Daihatsu Materia', 'Nissan Cube', 'mali auto', 'retki modeli', 'poređenje'],
+                'meta_title' => 'Daihatsu Materia ili Nissan Cube: šta kupiti',
+                'meta_description' => 'Poređenje polovnih Daihatsu Materia i Nissan Cube: prostor, benzinac, dokumenti, delovi, trap, gradska vožnja i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#29213d', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Hyundai Matrix: mali monovolumen koji mora opravdati prostor, klimu i gradski život',
+                'slug' => 'polovni-hyundai-matrix-mali-monovolumen-koji-mora-opravdati-prostor-klimu-i-gradski-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je tražila viši mali auto za roditelje i grad, ali je kod Hyundai Matrixa shvatila da prostrana kabina ne može zameniti proveru klime, trapa i tragova kratkih relacija.',
+                'content' => <<<'TEXT'
+Jelena je za roditelje tražila auto u koji se lako ulazi, koji nije širok za grad i ima mesta za torbe, pa joj je Hyundai Matrix delovao kao razuman izbor. Prvi primerak je spolja izgledao uredno, ali klima je slabo hladila, plastike oko vozača su bile izlizane, a trap je lupnuo na ležećem policajcu. Kod malog monovolumena prostor jeste prednost, ali gradski život često ostavi tragove koje oglas pažljivo ne pokaže.
+
+Pre dolaska traži VIN, račune i podatak o tome kako je auto korišćen. Na licu mesta kreni hladnim startom, oslušni motor i proveri da li se ler brzo smiruje bez lampica na tabli. Ako gledaš benzinca, traži uredne redovne servise, a kod dizela proveri hladan rad, dim, odziv i istoriju održavanja; nijedna verzija ne zaslužuje kupovinu samo zato što se lako parkira.
+
+Probna vožnja mora imati neravnine, stajanje u gužvi i otvoren deo puta. Isprobaj klimu na najjačem hlađenju, ventilator na svim brzinama, prozore, centralnu bravu i podešavanja sedišta, zatim pogledaj pragove, donje rubove vrata, felne i stanje guma. U kabini proveri da li se zadnja klupa lako koristi i da li se unutrašnje habanje slaže sa prijavljenom kilometražom.
+
+Jelena je preskočila prvi Matrix i uzela drugi sa običnijom bojom, ali hladnom klimom, mirnim trapom i računima koji su pratili kilometre. Nastavi kada je praktičnost potvrđena zdravim motorom i kabinom; pregovaraj kada je jedan poznat servis realno procenjen; odustani kada visok položaj sedenja pokušava da skrene pažnju sa loše klime, umornog trapa ili nelogične istorije. Kod Matrixa je miran primerak korisniji od najlepšeg oglasa.
+TEXT,
+                'highlights' => [
+                    'Hladan start, klima i vožnja preko neravnina proveravaju motor, komfor i trap bolje od kratkog kruga oko zgrade.',
+                    'Pogledaj pragove, rubove vrata, felne i habanje kabine zbog tragova gradske upotrebe i realne kilometraže.',
+                    'Prostrana kabina je prednost tek kada svi električni uređaji i zadnja klupa rade bez improvizacije.',
+                ],
+                'tags' => ['Hyundai Matrix', 'mali monovolumen', 'benzinac', 'klima', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai Matrix: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Hyundai Matrixa: motor, klima, trap, kabina, gradska upotreba, korozija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinute(),
+                'palette' => ['#173042', '#22d3ee', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Fiat Sedici: mali 4x4 koji mora dokazati pogon, rđu i stvarni razlog kupovine',
+                'slug' => 'polovni-fiat-sedici-mali-4x4-koji-mora-dokazati-pogon-rdju-i-stvarni-razlog-kupovine',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je hteo mali 4x4 za vikendicu i zimu, ali je kod Fiat Sedicija naučio da pogon, podvozje i korozija moraju potvrditi priču pre nego što oznaka 4x4 podigne cenu.',
+                'content' => <<<'TEXT'
+Nikola je želeo mali auto koji će bez stresa izaći na makadam do vikendice, a da preko nedelje ne zauzima pola parkinga. Fiat Sedici mu je delovao kao prava mera, ali je prvi oglas imao sjajne gume samo napred i prodavca koji nije znao kada je poslednji put proveravan pogon. Kod malog 4x4 najskuplja greška je platiti oznaku na gepeku bez dokaza da sistem zaista radi.
+
+Pre pregleda traži VIN, račune, podatak o motoru i jasno objašnjenje pogona za konkretan primerak. Na suvom, bez rizičnih manevara, kroz sporu vožnju i pažljiv pregled proveri da nema lampica, čudnog zvuka iz prenosa ni vibracija pri ubrzanju. Ako prodavac ne dopušta dijagnostiku i pregled na dizalici, nemoj nadoknađivati nedostatak činjenica optimizmom.
+
+Na dizalici pogledaj pragove, pod, nosače, zadnji trap, kočione cevi, diferencijal i tragove udaraca odozdo. Proveri da li su sve četiri gume iste dimenzije, približno istog trošenja i odgovarajućeg godišta, jer različit obim točkova može opteretiti pogon i pokazuje kako je auto održavan. Zatim na putu proveri kvačilo, menjač, kočnice i buku ležajeva, pošto mali crossoveri često dobiju više ivičnjaka i rupa nego što fotografije priznaju.
+
+Nikola je kupio Sedici koji nije imao najnižu cenu, ali je imao zdrav pod, četiri usklađene gume i račun za održavanje pogona. Nastavi kada se potreba za 4x4 poklapa sa proverenim stanjem; pregovaraj kada postoji jedna procenjena stavka poput guma ili servisa; odustani kada rđa, vibracije ili nejasan pogon pretvore vikend plan u stalni trošak. Mali 4x4 vredi samo kada je mali rizik.
+TEXT,
+                'highlights' => [
+                    'Traži VIN, dijagnostiku i pregled na dizalici pre nego što platiš premiju za oznaku 4x4.',
+                    'Pod, pragovi, prenos i kočione cevi otkrivaju više od sjajne plastike crossovera.',
+                    'Četiri usklađene gume su važan dokaz pažljivog održavanja pogona, ne samo estetski detalj.',
+                ],
+                'tags' => ['Fiat Sedici', '4x4', 'mali crossover', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Sedici: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiat Sedicija: 4x4 pogon, gume, korozija, podvozje, trap, dokumentacija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(2),
+                'palette' => ['#2b3022', '#a3e635', '#f8fafc'],
+            ],
+            [
+                'title' => 'Bunar rezervnog točka na polovnom autu: kada pod gepeka otkriva vodu, udarac ili lošu popravku',
+                'slug' => 'bunar-rezervnog-tocka-na-polovnom-autu-kada-pod-gepeka-otkriva-vodu-udarac-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Petar je mislio da samo proverava rezervni točak, dok mu je pod gepeka pokazao vlagu, nepravilne šavove i razlog da pre kapare zatraži pregled limarije.',
+                'content' => <<<'TEXT'
+Petar je otvorio gepek polovnog karavana i podigao pod samo da vidi da li uz auto dolazi rezervni točak. Umesto urednog kompleta našao je vlažnu oblogu, malo rđe oko bunara i neravan zaptivač uz zadnji panel. Prodavac je to nazvao posledicom pranja, ali bunar rezervnog točka je tih deo auta koji može povezati prokišnjavanje, udarac pozadi i lošu popravku u jednu važnu odluku.
+
+Traži dozvolu da izvadiš podnicu, alat i rezervni točak, pa pod jakim svetlom pogledaj dno, odvode, šavove, boju i fabričke tačke varenja. Pomiriši oblogu, dodirni je rukom i proveri da li ima peska, mulja, krutih tragova vode ili sveže boje preko prljavštine. Nemoj bušiti odvod niti sipati vodu u auto; cilj je da uočiš signal za stručni pregled, a ne da napraviš štetu.
+
+Zatim proveri dihtunge gepeka, zadnja svetla, rub vrata i unutrašnje obloge, jer voda često ulazi kroz mesto koje je jednostavno za popravku, ali skrivena posledica može biti oksidacija instalacije. Ako su šavovi neravni, pod deformisan ili se boja razlikuje od okolnog lima, zatraži merenje laka i pregled kod limara. Čist bunar bez rezervnog točka nije idealan, ali nije automatski problem; nelogična priča o vodi i limariji jeste.
+
+Petar je odustao od prvog auta nakon što je limar potvrdio stariji udarac i loše vraćen zadnji panel, a drugi je kupio sa suvim, urednim bunarom i jasnim računom za zamenjen dihtung. Nastavi kada je uzrok vlage poznat i rešiv; pregovaraj kada postoji dokumentovana manja popravka; odustani kada gepek krije vodu, deformaciju ili metal bez objašnjenja. Dva minuta ispod podnice mogu sačuvati celu kupovinu.
+TEXT,
+                'highlights' => [
+                    'Uz dozvolu podigni pod gepeka, izvadi rezervni točak i proveri vlagu, miris, rđu, šavove i odvode.',
+                    'Različita boja, neravan pod ili nefabrički varovi traže merač laka i pregled limara pre kapare.',
+                    'Ne sipaj vodu i ne oštećuj odvode: cilj je prepoznati razlog za stručnu proveru, ne testirati auto na silu.',
+                ],
+                'tags' => ['rezervni točak', 'gepek', 'vlaga', 'limarija', 'provera vozila'],
+                'meta_title' => 'Bunar rezervnog točka: šta proveriti kod polovnjaka',
+                'meta_description' => 'Kako proveriti bunar rezervnog točka na polovnom autu: vlaga, rđa, pod gepeka, šavovi, udarac pozadi i loša popravka.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(3),
+                'palette' => ['#38251c', '#fb923c', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Estonije: kada uredan severni oglas traži proveru soli, grejanja i porekla',
+                'slug' => 'uvoz-auta-iz-estonije-kada-uredan-severni-oglas-trazi-proveru-soli-grejanja-i-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je našao estonski uvoz sa urednim servisom i privlačnom cenom, ali je preko VIN-a i pregleda podvozja proverio da li zimski uslovi, grejanje i tranzit prate priču iz oglasa.',
+                'content' => <<<'TEXT'
+Milan je našao oglas za estonski uvoz sa urednim enterijerom, punom opremom i servisima koji su na prvi pogled imali smisla. Cena je bila niža od sličnih domaćih primeraka, ali prodavac nije odmah znao da objasni da li je auto celo vreme bio u Estoniji ili je ranije menjao tržišta. Kod severnog uvoza uredna kabina i digitalna istorija jesu dobar početak, ali zimski uslovi, so i tranzit moraju se proveriti pre nego što cena postane argument.
+
+Pre puta traži VIN, kopije stranih dokumenata, račune, tehničke preglede i fotografije pre uvoza. Uporedi datume, kilometražu, vlasništvo i jezik dokumenata, a za nejasne stavke potraži nezavisnu proveru umesto tumačenja oglasa. Ako se istorija prekida ili kilometraža ne prati sa servisima, računaj da uredan prikaz na ekranu nije dovoljan dokaz.
+
+Na licu mesta pregledaj pragove, pod, rubove vrata, kočione cevi, nosače i zadnji trap na dizalici. Zatim proveri rad grejanja, ventilatora, odmrzavanja stakala, grejača sedišta ako ih auto ima i hladan start, jer su to sistemi koji su na severu verovatno radili intenzivno. Površinska korozija nije ista stvar kao strukturni problem, ali granicu mora potvrditi majstor, ne optimističan opis prodavca.
+
+Milan je kupio drugi estonski primerak tek kada su VIN, dokumenti i podvozje pričali istu priču, iako je prvi bio jeftiniji. Nastavi kada su poreklo, metal i zimska oprema proverljivi; pregovaraj kada je jedno ulaganje jasno procenjeno; odustani kada se povoljna cena oslanja na rupe u tranzitu, kočionim cevima ili servisima. Severni oglas može biti prilika, ali samo kada je pregled topliji od reklame.
+TEXT,
+                'highlights' => [
+                    'Pre puta traži VIN, estonske dokumente, račune, tehničke preglede i fotografije pre uvoza.',
+                    'Na dizalici proveri pragove, pod, kočione cevi i trap zbog posledica zime, soli i dugog tranzita.',
+                    'Isprobaj grejanje, odmrzavanje i hladan start, ali stvarno stanje potvrdi pregledom, ne urednim ekranom.',
+                ],
+                'tags' => ['uvoz iz Estonije', 'uvoz auta', 'VIN', 'korozija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Estonije: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Estonije: VIN, dokumentacija, so, korozija, grejanje, podvozje, tranzit i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(4),
+                'palette' => ['#19313a', '#2dd4bf', '#f8fafc'],
+            ],
+
         ];
     }
 

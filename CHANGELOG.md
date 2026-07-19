@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.100] - 2026-07-19
+
+### Added
+
+- Added five non-duplicate production blog articles covering Daihatsu Materia vs Nissan Cube, used Hyundai Matrix and Fiat Sedici buying guidance, spare-wheel-well inspection, and Estonian import risk.
+
 ## [0.1.99] - 2026-07-17
 
 ### Added
