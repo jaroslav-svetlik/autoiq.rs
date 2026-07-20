@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(290, $posts);
+        $this->assertCount(295, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(71, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(72, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'toyota-iq-ili-smart-fortwo-kada-najmanji-auto-mora-opravdati-svaki-kompromis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-citroen-ds4-kompakt-koji-mora-opravdati-stil-preglednost-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volvo-c30-kupe-koji-mora-dokazati-bezbednost-prostor-i-realnu-cenu'));
+        $this->assertTrue($posts->contains('slug', 'sarke-haube-na-polovnom-autu-kada-vijci-otkrivaju-udarac-popravku-ili-pazljivo-odrzavanje'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-spanije-kada-sunce-ne-znaci-mirnu-limariju-i-istoriju'));
         $this->assertTrue($posts->contains('slug', 'daihatsu-materia-ili-nissan-cube-neobicni-mali-auto-kada-oblik-mora-dokazati-prakticnost'));
         $this->assertTrue($posts->contains('slug', 'polovni-hyundai-matrix-mali-monovolumen-koji-mora-opravdati-prostor-klimu-i-gradski-zivot'));
         $this->assertTrue($posts->contains('slug', 'polovni-fiat-sedici-mali-4x4-koji-mora-dokazati-pogon-rdju-i-stvarni-razlog-kupovine'));

@@ -8276,6 +8276,141 @@ TEXT,
                 'published_at' => now()->subMinutes(4),
                 'palette' => ['#19313a', '#2dd4bf', '#f8fafc'],
             ],
+            [
+                'title' => 'Toyota iQ ili Smart Fortwo: kada najmanji auto mora opravdati svaki kompromis',
+                'slug' => 'toyota-iq-ili-smart-fortwo-kada-najmanji-auto-mora-opravdati-svaki-kompromis',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je tražio auto za tesan parking u centru Beograda i shvatio da Toyota iQ i Smart Fortwo nisu ista vrsta uštede prostora kada dođu putnik, gepek i servis.',
+                'content' => <<<'TEXT'
+Nikola je svakog jutra kružio oko zgrade na Vračaru i zato je odlučio da veliki auto više nema smisla. Toyota iQ mu je delovala kao mali auto koji ipak može povesti još nekoga, dok je Smart Fortwo obećavao da će stati tamo gde drugi odustaju. Oba oglasa su izgledala uredno i oba su bila u njegovom budžetu, ali je brzo shvatio da kod ovako malog polovnjaka svaka vrata, svako sedište i svaki servis nose veću težinu nego što fotografije pokazuju.
+
+Toyota iQ ima smisla za kupca koji većinu vremena vozi sam ili u paru, ali povremeno želi fleksibilniju kabinu i osećaj klasičnog automobila. Nikola je proverio lakoću ulaska, položaj za volanom, stanje zadnjih sedišta, klimu i da li mali gepek stvarno prima njegovu svakodnevnu torbu. Ako prostor koristiš samo kao ideju, iQ može biti pametan; ako redovno nosiš odrasle putnike ili veći prtljag, ne treba mu pripisivati ulogu koju ne može da ispuni.
+
+Smart Fortwo je još iskreniji gradski alat: parkiranje je njegova velika prednost, a kompromis sa mestom za putnike je unapred poznat. Na probnoj vožnji Nikola je slušao menjač pri kretanju i parkiranju, proverio kako auto prelazi preko šahtova, da li vrata i stakla rade bez zastoja i postoje li računi za redovno održavanje. Kod primerka sa automatizovanim menjačem naglo trzanje, kasno prihvatanje gasa ili izbegavanje hladnog starta nisu sitnica za pregovor, već razlog za nezavisan pregled.
+
+Nikola je odustao od jeftinijeg Smarta bez jasnih računa i izabrao uredniju Toyotu jer mu je povremeni drugi putnik bio važniji od apsolutno najmanjeg kruga parkiranja. Uzmi iQ kada ti treba malo više svakodnevne prilagodljivosti; uzmi Fortwo kada je grad zaista glavna namena i stanje menjača je dokazano; pregovaraj za jasno procenjene gume, kočnice ili servis; odustani kada minimalna cena skriva maksimalan rizik.
+TEXT,
+                'highlights' => [
+                    'Pre odluke sedi u oba auta sa stvarnim putnikom i proveri da li kabina rešava tvoju rutinu, ne samo parking.',
+                    'Kod Smarta na hladno proveri kretanje, promene stepena prenosa i servisni trag automatizovanog menjača.',
+                    'Najmanji auto je dobar izbor tek kada su vrata, stakla, klima, trap i računi jednako uredni kao karoserija.',
+                ],
+                'tags' => ['Toyota iQ', 'Smart Fortwo', 'gradski auto', 'poređenje modela', 'kupovina polovnjaka'],
+                'meta_title' => 'Toyota iQ ili Smart Fortwo: koji mali polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Toyota iQ i Smart Fortwo: parking, prostor, menjač, servis, gradska vožnja i odluka bez skupog kompromisa.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#25223a', '#a78bfa', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Citroën DS4: kompakt koji mora opravdati stil, preglednost i servis',
+                'slug' => 'polovni-citroen-ds4-kompakt-koji-mora-opravdati-stil-preglednost-i-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je želela upečatljiv kompakt za put do posla, ali je kod polovnog Citroëna DS4 proverila da li atraktivan enterijer, motor i slabija preglednost stvarno odgovaraju njenoj svakodnevici.',
+                'content' => <<<'TEXT'
+Jelena je tražila kompakt koji neće izgledati kao svaki drugi na parkingu firme i Citroën DS4 joj je odmah privukao pažnju. Primerak koji je gledala imao je lep enterijer, mnogo opreme i cenu nižu od poznatijih nemačkih rivala. Pre kapare nije pitala samo da li joj se dopada, već da li joj odgovaraju viši položaj sedenja, manji zadnji bočni prozori i osećaj automobila u stvarnom gradskom manevrisanju.
+
+Prvi pregled je počela hladnim startom, stabilnim lerom i dokumentacijom za ulje, razvod i prethodne radove. Kod benzinca je tražila miran rad, bez nejasnih lampica i izgovora o povremenim porukama na tabli, a kod dizela je otvoreno pitala za relacije, DPF i EGR. DS4 nije auto koji treba odbaciti zbog kompleksnije opreme, ali je auto kod koga svaki dodatak mora raditi danas, ne tek posle obećanog resetovanja.
+
+Na vožnji je proverila trap preko neravnina, kvačilo ili automatik pri sporom kretanju, klimu, ekran, podizače i rad svih komandi. Zatim je parkirala bez pomoći prodavca kako bi osetila preglednost unazad i preko ramena. Ako zadnji deo auta ne vidiš prirodno, kamera i senzori nisu luksuz nego oprema koju moraš isprobati; ako ne rade, procena popravke mora ući u cenu pre dogovora.
+
+Jelena je kupila DS4 tek kada je majstor potvrdio motor i elektroniku, a prodavac pristao na cenu koja je računala na dve potrošne stavke. Nastavi kada stil prati jasna istorija i sva oprema radi; pregovaraj kada je kvar dijagnostikovan i ograničen; odustani kada se privlačna cena objašnjava nedostupnim računima, ugašenim lampicama ili rečenicom da se funkcija ne koristi.
+TEXT,
+                'highlights' => [
+                    'Hladan start, servisni računi i dijagnostika važniji su od bogatog enterijera i niske cene.',
+                    'Isprobaj DS4 na parkiranju da proveriš preglednost i stvarni rad kamere ili senzora.',
+                    'Kupi ga kada motor, trap i sva električna oprema imaju istu proverljivu priču.',
+                ],
+                'tags' => ['Citroën DS4', 'polovni kompakt', 'elektronika', 'servisna istorija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Citroën DS4: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Citroëna DS4: motor, elektronika, preglednost, trap, klima, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinute(),
+                'palette' => ['#34201e', '#fb7185', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Volvo C30: kupe koji mora dokazati bezbednost, prostor i realnu cenu',
+                'slug' => 'polovni-volvo-c30-kupe-koji-mora-dokazati-bezbednost-prostor-i-realnu-cenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Miloš je želeo drugačiji mali kupe, ali je kod polovnog Volva C30 proverio da li bezbednosna reputacija, zadnja klupa i stanje motora opravdavaju cenu retkog primerka.',
+                'content' => <<<'TEXT'
+Miloš nije želeo običan hečbek i Volvo C30 mu je delovao kao redak spoj kompaktnog formata, upečatljivog zadnjeg dela i bezbednosne reputacije. Oglas je obećavao malo kilometara i bogatu opremu, ali je cena bila viša od sličnih kompakata. Zato nije došao da potvrdi da je C30 poseban, već da utvrdi da li konkretan primerak vredi više od racionalnije alternative.
+
+Najpre je otvorio servisnu priču: račune, kilometražu na tehničkim pregledima, hladan start i podatke o motoru koji gleda. Benzinac može biti smislen za kraće relacije kada radi mirno i uredno je održavan, dok dizel traži objašnjenje za DPF, turbinu, EGR i način vožnje. Retkost modela nije razlog da prihvati nedostajuće dokaze; naprotiv, manje primeraka na tržištu znači da svaki propušten servis može kasnije biti teži za naplatu.
+
+Zatim je seo napred i pozadi, otvorio velika vrata na tesnom parkingu i proverio da li mu pristup zadnjoj klupi zaista odgovara. C30 može biti odličan za jednu osobu ili par, ali nije pošteno prodavati ga kao porodični auto samo zato što ima četiri sedišta. Na putu je slušao trap, testirao kvačilo, kočnice, klimu i elektroniku, pa pogledao stanje guma i unutrašnje habanje koje treba da prati prijavljenu kilometražu.
+
+Miloš je pregovarao tek kada je pregled pokazao urednu mehaniku, ali istrošene gume i kočnice koje su imale jasnu cenu. Nastavi kada stil, dokumentacija i namena idu zajedno; pregovaraj za merljiva početna ulaganja; odustani kada se retka boja ili znak na volanu koriste kao zamena za pregled. Dobar C30 je ličan izbor, ne izgovor da se preskoči racionalna računica.
+TEXT,
+                'highlights' => [
+                    'Kod retkog C30 primerka zahtevaj istu servisnu dokumentaciju kao kod čestog modela, bez izuzetaka.',
+                    'Proveri ulazak na zadnju klupu i velika vrata na pravom parkingu pre nego što stil postane odluka.',
+                    'Dizel kupuj samo uz proveru DPF-a, turbine, EGR-a i relacija koje je auto zaista vozio.',
+                ],
+                'tags' => ['Volvo C30', 'polovni kupe', 'kompakt', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volvo C30: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Volva C30: motor, dizel, servis, zadnja klupa, trap, gume, oprema i realna cena retkog kupea.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(2),
+                'palette' => ['#1f2937', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Šarke haube na polovnom autu: kada vijci otkrivaju udarac, popravku ili pažljivo održavanje',
+                'slug' => 'sarke-haube-na-polovnom-autu-kada-vijci-otkrivaju-udarac-popravku-ili-pazljivo-odrzavanje',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ivana je podigla haubu samo da proveri motor, a šarke i vijci su joj otvorili važnije pitanje: da li prednji kraj prati urednu servisnu priču ili skriva raniji udarac.',
+                'content' => <<<'TEXT'
+Ivana je gledala polovni hečbek i prodavac joj je bez žurbe otvorio haubu da vidi motor. Dok je majstor proveravao tečnosti, ona je primetila da se boja oko jedne šarke razlikuje, a tragovi na vijcima nisu bili isti levo i desno. To samo po sebi nije presuda: hauba se ponekad skida zbog servisa, zamene izolacije ili uredne limarske popravke. Ali je dovoljno jak signal da se priča o prednjem kraju proveri pre kapare.
+
+Uz dozvolu uporedi obe šarke, vijke, zazor prema blatobranima i način na koji se hauba zatvara. Gledaj da li su rubovi ravnomerni, da li su fabričke oznake prekidane, ima li nove boje na gumicama ili tragova alata na susednim panelima. Ne odvijaj ništa i ne zaključuj samo po jednoj ogrebotini: cilj je da pronađeš pitanje za prodavca i majstora, a ne da na parkingu glumiš veštaka za štetu.
+
+Zatim poveži šarke sa ostatkom prednjeg dela. Farovi, nosač hladnjaka, brave, plastike, zazori branika i datum stakala mogu dati smisao promenjenim vijcima. Ako prodavac kaže da je hauba skidana zbog manjeg rada, traži račun ili fotografiju popravke, a zatim proveri geometriju, limariju i dijagnostiku kod nezavisnog servisa. Uredno objašnjena intervencija može biti prihvatljiva; neusklađeni detalji traže širi pregled.
+
+Ivana je odustala od auta čiji prodavac nije umeo da objasni pomerene šarke i neravan zazor, a kupila je drugi sa računom za jasno izvedenu zamenu haube. Nastavi kada se detalji i dokumenti slažu; pregovaraj kada je popravka stručna i njena cena poznata; odustani kada vijci, limarija i priča prodavca govore tri različite stvari.
+TEXT,
+                'highlights' => [
+                    'Uz dozvolu uporedi obe šarke haube, vijke i zazore, ali ništa ne odvijaj niti oštećuj.',
+                    'Promenjeni vijci nisu automatski dokaz sudara; moraju se tumačiti uz farove, nosače, zazore i račune.',
+                    'Nejasno objašnjenje prednjeg kraja je razlog za nezavisan pregled limarije i geometrije pre kapare.',
+                ],
+                'tags' => ['šarke haube', 'limarija', 'provera vozila', 'prednji kraj', 'polovan auto'],
+                'meta_title' => 'Šarke haube polovnog auta: šta otkrivaju vijci i zazori',
+                'meta_description' => 'Kako pregledati šarke haube polovnog auta: vijci, zazori, farovi, limarija, raniji udarac, dokumentacija i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(3),
+                'palette' => ['#27303a', '#f59e0b', '#fff7ed'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Španije: kada sunce ne znači mirnu limariju i istoriju',
+                'slug' => 'uvoz-auta-iz-spanije-kada-sunce-ne-znaci-mirnu-limariju-i-istoriju',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dejan je našao španski uvoz sa lepom karoserijom i bogatom opremom, ali je pre puta proverio tranzit, gradska oštećenja, sunce u enterijeru i kontinuitet dokumentacije.',
+                'content' => <<<'TEXT'
+Dejan je našao španski uvoz koji je na fotografijama izgledao kao laka pobeda: sjajna karoserija, bogata oprema i enterijer bez zimskih tragova. Prodavac je naglašavao sunce i suvu klimu kao dokaz da auto nema brige sa limarijom. Dejan je znao da klima može biti prednost, ali ne i sertifikat; zanimalo ga je gde je auto vožen, kroz koliko ruku i zemalja je prošao i da li se lep izgled poklapa sa papirima.
+
+Pre puta je tražio VIN, strane saobraćajne dokumente, račune, tehničke preglede i fotografije pre uvoza. Uporedio je datume, kilometražu, vlasništvo i servisne intervale, pa pitao da li je auto prethodno bio u rent-a-car floti ili je menjao tržišta. Sunčana zemlja ne uklanja potrebu za poreklom: prekid u dokumentima, nelogična kilometraža ili nejasan tranzit važniji su od priče o klimi.
+
+Na licu mesta je pogledao lak pod jakim svetlom, zazore, pragove, podvozje, gume i tragove gradskog parkiranja na branicima i felnama. U kabini je proverio isušene gume na vratima, stanje komandnih površina, rad klime na punom opterećenju i da li izbledele plastike odgovaraju godištu i kilometraži. Toplota može umoriti enterijer i rashladni sistem, dok obalska područja i dalje mogu nositi vlagu i so koju pregled na dizalici mora razjasniti.
+
+Dejan je izabrao skuplji španski primerak tek kada su VIN, računi, podvozje i klima dali istu priču. Nastavi kada dokumentacija potvrđuje poreklo i pregled potvrđuje stanje; pregovaraj za jasno procenjen trag sunca, gume ili parking oštećenje; odustani kada se lep lak koristi da skrene razgovor sa tranzita, servisne praznine ili nepravilne limarije.
+TEXT,
+                'highlights' => [
+                    'Pre puta traži VIN, španske dokumente, račune, tehničke preglede i dokaz o putanji auta do Srbije.',
+                    'Proveri lak, podvozje i gradska oštećenja, jer suva klima ne isključuje lošu popravku ili obalsku so.',
+                    'Testiraj klimu, zaptivke i enterijer na suncem umorenom primerku pre nego što cenu oceniš povoljnom.',
+                ],
+                'tags' => ['uvoz iz Španije', 'uvoz auta', 'VIN', 'servisna istorija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Španije: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Španije: VIN, dokumenti, tranzit, limarija, klima, sunce, podvozje i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(4),
+                'palette' => ['#3b2720', '#fb923c', '#fff7ed'],
+            ],
 
         ];
     }
