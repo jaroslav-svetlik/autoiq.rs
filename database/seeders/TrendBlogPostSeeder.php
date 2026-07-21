@@ -8411,6 +8411,121 @@ TEXT,
                 'published_at' => now()->subMinutes(4),
                 'palette' => ['#3b2720', '#fb923c', '#fff7ed'],
             ],
+            [
+                'title' => 'Suzuki Kizashi ili Chevrolet Epica: retka limuzina kada oprema ne sme da pobedi dostupnost delova',
+                'slug' => 'suzuki-kizashi-ili-chevrolet-epica-retka-limuzina-kada-oprema-ne-sme-da-pobedi-dostupnost-delova',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je birao između dva retka, dobro opremljena sedana, ali je tek pregled pokazao da motor, automatik i put do delova vrede više od bogatog oglasa.',
+                'content' => <<<'TEXT'
+Nikola je želeo veliku limuzinu za otvoren put, ali bez cene poznatog premium znaka. U užem izboru ostali su Suzuki Kizashi i Chevrolet Epica: oba su na oglasu nudila kožu, automatik i mnogo auta za novac. Umesto da bira po opremi, pitao je koje vozilo može održavati bez improvizacije kada se ugase svetla iz oglasa.
+
+Kizashi ima smisla za kupca koji nađe uredan benzinac sa računima, mirnim hladnim startom i jasnom istorijom automatskog menjača. Njegova retkost traži proveru nabavke specifičnih delova pre kapare; pozovi servis i prodavnicu sa konkretnim VIN-om. Dobar primerak nije jeftin zato što je nepoznat, već zato što traži strpljivog kupca.
+
+Epica može privući prostorom i komforom, ali kod nje posebno proveri motor, hlađenje, automatik, trap i da li je ranije održavanje rađeno planski. Na probnoj vožnji Nikola je tražio glatko menjanje, miran rad pri punom skretanju i stabilnu temperaturu, pa je zatim sa majstorom pregledao podvozje. Ako prodavac svaku stavku naziva sitnicom, zbir sitnica je već razlog za oprez.
+
+Nikola je kupio Kizashi tek nakon potvrde da su servisni trag i dostupnost delova realni, dok je Epica bez računa ostala samo lep oglas. Nastavi kada postoji istorija i plan održavanja; pregovaraj za proverljive potrošne radove; odustani kada retkost služi kao izgovor za nepoznate kvarove ili nedostupne delove.
+TEXT,
+                'highlights' => ['Retka limuzina se kupuje tek kada proveriš dostupnost delova po VIN-u.', 'Kod oba modela hladan start i ponašanje automatika vrede više od opreme.', 'Nejasan servisni trag pretvara povoljnu cenu u rizik koji nije lako prodati dalje.'],
+                'tags' => ['Suzuki Kizashi', 'Chevrolet Epica', 'retka limuzina', 'automatik', 'poređenje modela'],
+                'meta_title' => 'Suzuki Kizashi ili Chevrolet Epica: šta kupiti kao polovnjak',
+                'meta_description' => 'Poređenje polovnih Suzuki Kizashi i Chevrolet Epica: motori, automatik, delovi, servisna istorija, komfor i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now()->subMinute(),
+                'palette' => ['#172033', '#7dd3fc', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mitsubishi Lancer: limuzina koja mora dokazati motor, limariju i realan servis',
+                'slug' => 'polovni-mitsubishi-lancer-limuzina-koja-mora-dokazati-motor-limariju-i-realan-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aleksandar je našao uredan Lancer po dobroj ceni, ali je pre kapare proverio da li sportski izgled prati zdrav motor, limariju i dostupne račune.',
+                'content' => <<<'TEXT'
+Aleksandar je hteo limuzinu koja neće izgledati kao službeni auto, a Mitsubishi Lancer mu je delovao dovoljno drugačije bez ulaska u premium budžet. Oglas je imao dobru boju, privlačne felne i priču o maloj kilometraži. Zato je prvo tražio servisne račune i VIN, a tek onda seo za volan.
+
+Kod benzinca je zakazao hladan start i proverio da li obrtaji, dim i zvuk motora odgovaraju priči o urednom održavanju. Kod dizela je pitao za relacije, turbinu, DPF i prethodne radove, bez prihvatanja rečenice da je sve upravo servisirano. Lancer može biti racionalan kada konkretan motor ima dokaziv ritam održavanja, ne kada ima samo dobru reputaciju marke.
+
+Majstor je zatim pregledao pragove, rubove, podvozje, trap i tragove ranijih popravki, dok je Aleksandar na vožnji slušao prednji kraj preko neravnina i proveravao kvačilo, kočnice i klimu. Felne i izgled mogu odvratiti pažnju od loših guma ili neujednačenog laka. Svaki detalj koji ne prati kilometražu mora dobiti jasno objašnjenje.
+
+Aleksandar je pregovarao samo za gume i kočnice čiju je cenu mogao izračunati, a od drugog primerka je odustao zbog prazne istorije i sveže obojene donje ivice. Nastavi kada motor, limarija i papiri pričaju isto; pregovaraj za merljiva ulaganja; odustani kada izgled pokušava da zameni pregled.
+TEXT,
+                'highlights' => ['Hladan start i računi su početak provere, ne dodatak dobrom izgledu.', 'Pregledaj pragove, podvozje i trap pre nego što felne utiču na odluku.', 'Pregovaraj samo za ulaganja koja je majstor jasno potvrdio.'],
+                'tags' => ['Mitsubishi Lancer', 'polovna limuzina', 'benzinac', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mitsubishi Lancer: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Mitsubishi Lancera: motor, limarija, trap, servisna istorija, dizel, benzinac i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(2),
+                'palette' => ['#2b1d1d', '#f87171', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Mazda Premacy: porodični monovolumen koji mora dokazati prostor, koroziju i stvarnu namenu',
+                'slug' => 'polovni-mazda-premacy-porodicni-monovolumen-koji-mora-dokazati-prostor-koroziju-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marija je tražila pristupačan porodični auto, ali je kod Mazde Premacy proverila da li praktična kabina krije koroziju, umor od porodice ili zapušten servis.',
+                'content' => <<<'TEXT'
+Marija je tražila porodični auto u koji mogu stati kolica, kupovina i dvoje dece, a Mazda Premacy joj je ponudila više prostora nego što je očekivala za novac. Primerak koji je gledala bio je čist iznutra, ali je znao da lep dubinski tretman ne govori ništa o podu i istoriji. Zato je prvo proverila da li joj raspored sedišta stvarno odgovara.
+
+Otvorila je sva vrata, pomerila zadnju klupu i unela kolica pre nego što je razgovor prešao na cenu. Premacy vredi gledati kada praktičnost rešava svakodnevicu, ali tragovi teške porodične ili radne upotrebe moraju biti vidljivi u enterijeru, šinama sedišta, gepeku i stanju klima uređaja. Istrošena kabina uz malu prijavljenu kilometražu traži dodatne dokaze.
+
+Sa majstorom je pregledala pragove, rubove, pod, nosače i donji postroj, pa motor, hlađenje, trap i kočnice. Kod starijeg monovolumena korozija nije detalj za kasniji popust, već pitanje bezbednosti i troška. Na vožnji je proverila da li auto vuče pravo, da li klima radi pod opterećenjem i da li se menjač ponaša mirno.
+
+Marija je izabrala primerak sa manjom opremom, ali dokazivim servisom i zdravim podom. Nastavi kada prostor, stanje i istorija imaju smisla zajedno; pregovaraj za jasne potrošne radove; odustani kada praktična kabina služi da sakrije koroziju ili nejasno poreklo.
+TEXT,
+                'highlights' => ['Pre cene isprobaj zadnju klupu i gepek sa stvarima koje zaista voziš.', 'Kod starije Premacy pregled podvozja i pragova je obavezan pre kapare.', 'Čista kabina nije dokaz male kilometraže bez računa i stanja mehanike.'],
+                'tags' => ['Mazda Premacy', 'porodični monovolumen', 'korozija', 'prostor', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mazda Premacy: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Mazde Premacy: prostor, korozija, motor, trap, klima, porodična upotreba i servisna istorija.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(3),
+                'palette' => ['#17312a', '#34d399', '#f0fdf4'],
+            ],
+            [
+                'title' => 'ISOFIX na polovnom autu: kada sidrišta otkrivaju porodičnu upotrebu, štetu ili lošu popravku',
+                'slug' => 'isofix-na-polovnom-autu-kada-sidrista-otkrivaju-porodicnu-upotrebu-stetu-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tamara je kupovala auto za bebu i kroz ISOFIX sidrišta proverila više od sedišta: stanje zadnje klupe, pojaseva, plastike i priče o ranijoj popravci.',
+                'content' => <<<'TEXT'
+Tamara je došla da vidi porodični hečbek sa dečjim sedištem u gepeku, jer nije htela da ISOFIX proveri tek posle kupovine. Prodavac je tvrdio da je auto malo korišćen, ali su kopče na zadnjoj klupi, plastike i tragovi oko sidrišta govorili da vredi pogledati pažljivije. Dečje sedište ne dokazuje problem, ali može pokazati kako je auto stvarno živeo.
+
+Uz dozvolu pronađi oba ISOFIX sidrišta prema uputstvu vozila, podigni zaštitne poklopce i proveri da li su metalne tačke ravne, dostupne i bez savijanja. Ne guraj alat, ne čupaj tkaninu i ne zaključuj da je ogrebotina dokaz sudara. Cilj je da proveriš funkciju i da uporediš levo i desno, pa da svaku razliku pitaš prodavca.
+
+Zatim poveži zadnju klupu sa ostatkom bezbednosne priče: testiraj vraćanje pojaseva, preklapanje naslona, bravice, indikatore na tabli i eventualne tragove vlage ili loše ugradnje presvlake. Ako je zadnji deo popravljan posle udarca, uredan račun i pregled limara mogu objasniti intervenciju. Bez tih dokaza, razlike u šavovima, kopčama i sidrištima traže nezavisan pregled.
+
+Tamara je kupila auto tek kada su ISOFIX, pojasevi i zadnja klupa radili bez zastoja, a majstor potvrdio da nema skrivene štete. Nastavi kada je sve funkcionalno i objašnjivo; pregovaraj za sitnu, jasno procenjenu plastiku; odustani kada bezbednosni elementi ne rade ili se priča o njima menja.
+TEXT,
+                'highlights' => ['ISOFIX proveravaj uz dozvolu, bez alata i bez povlačenja presvlaka.', 'Uporedi oba sidrišta i testiraj pojaseve, bravice i preklapanje zadnje klupe.', 'Neispravni bezbednosni elementi nisu stavka za popust nego razlog za nezavisan pregled.'],
+                'tags' => ['ISOFIX', 'dečje sedište', 'provera vozila', 'sigurnosni pojasevi', 'polovan auto'],
+                'meta_title' => 'ISOFIX na polovnom autu: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proveriti ISOFIX na polovnom autu: sidrišta, zadnja klupa, pojasevi, presvlake, tragovi popravke i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(4),
+                'palette' => ['#292344', '#a78bfa', '#faf5ff'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Irske: kada dobra cena mora da objasni volan na desnoj strani, papire i preprodaju',
+                'slug' => 'uvoz-auta-iz-irske-kada-dobra-cena-mora-da-objasni-volan-na-desnoj-strani-papire-i-preprodaju',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je našao povoljan irski oglas, ali je pre kapare izračunao kako volan na desnoj strani, dokumentacija, svetla i kasnija prodaja menjaju celu računicu.',
+                'content' => <<<'TEXT'
+Vladimir je našao irski auto sa dobrom opremom i cenom koja je delovala znatno niže od domaćih oglasa. Pre nego što je poverovao da je pronašao priliku, video je fotografiju kabine i shvatio da je volan na desnoj strani. Kod irskog uvoza upravo taj detalj menja upotrebu, administraciju i broj budućih kupaca.
+
+Pre puta je tražio VIN, irski registracioni dokument, servisne račune, tehničke preglede i jasan sled vlasništva. Pitao je da li su svetla, retrovizori i brzinomer prilagođeni ili mogu biti prilagođeni za vožnju kod nas, kao i šta tačno ulazi u carinu, homologaciju, transport i registraciju. Ne prihvataj usmeno obećanje da je papirologija laka; traži proveru kod stručnog uvoznika pre kapare.
+
+Na licu mesta bi proverio podvozje, tragove vlage, gradska oštećenja i položaj komandnih uređaja, ali i praktičnost preticanja i naplate putarine sa volanom na desnoj strani. Auto može biti tehnički uredan, a ipak pogrešan za svakodnevnu vožnju u Srbiji. Niža ulazna cena mora ostaviti prostor za prilagođavanje, pregled i znatno uži krug kupaca pri prodaji.
+
+Vladimir je odustao od primerka čiji prodavac nije imao jasne odgovore o dokumentima i svetlima, a ne zato što je irski auto sam po sebi loš. Nastavi kada su legalnost, tehničko stanje i svakodnevna upotreba dokazani; pregovaraj kada su prilagođavanja jasna i uračunata; odustani kada niža cena skriva problem koji nećeš moći lako prodati dalje.
+TEXT,
+                'highlights' => ['Pre kapare proveri VIN, irske papire, svetla, homologaciju i ukupne troškove.', 'Volan na desnoj strani proceni u stvarnoj vožnji, ne samo po ceni oglasa.', 'U računicu uključi užu preprodaju i sva potrebna prilagođavanja pre registracije.'],
+                'tags' => ['uvoz iz Irske', 'volan na desnoj strani', 'uvoz auta', 'homologacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Irske: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Irske: volan na desnoj strani, dokumentacija, svetla, homologacija, troškovi i preprodaja.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(5),
+                'palette' => ['#1e3430', '#2dd4bf', '#f0fdfa'],
+            ],
 
         ];
     }

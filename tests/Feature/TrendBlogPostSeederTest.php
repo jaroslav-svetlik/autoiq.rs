@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(295, $posts);
+        $this->assertCount(300, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(72, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(73, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'suzuki-kizashi-ili-chevrolet-epica-retka-limuzina-kada-oprema-ne-sme-da-pobedi-dostupnost-delova'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-lancer-limuzina-koja-mora-dokazati-motor-limariju-i-realan-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-premacy-porodicni-monovolumen-koji-mora-dokazati-prostor-koroziju-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'isofix-na-polovnom-autu-kada-sidrista-otkrivaju-porodicnu-upotrebu-stetu-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-irske-kada-dobra-cena-mora-da-objasni-volan-na-desnoj-strani-papire-i-preprodaju'));
         $this->assertTrue($posts->contains('slug', 'toyota-iq-ili-smart-fortwo-kada-najmanji-auto-mora-opravdati-svaki-kompromis'));
         $this->assertTrue($posts->contains('slug', 'polovni-citroen-ds4-kompakt-koji-mora-opravdati-stil-preglednost-i-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-volvo-c30-kupe-koji-mora-dokazati-bezbednost-prostor-i-realnu-cenu'));
