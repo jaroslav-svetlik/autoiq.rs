@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(300, $posts);
+        $this->assertCount(305, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(73, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(74, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'volkswagen-fox-ili-daihatsu-charade-mali-polovnjak-kada-jednostavnost-mora-pobediti-retkost'));
+        $this->assertTrue($posts->contains('slug', 'polovni-ford-fusion-mali-porodicni-auto-koji-mora-dokazati-prostor-motor-i-gradski-zivot'));
+        $this->assertTrue($posts->contains('slug', 'polovni-peugeot-4008-crossover-koji-mora-dokazati-pogon-dizel-i-stvarnu-vrednost'));
+        $this->assertTrue($posts->contains('slug', 'rezervni-kljuc-polovnog-auta-kada-mali-privezak-otkriva-imobilajzer-trosak-ili-nejasnu-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-bugarske-kada-blizina-trzista-trazi-proveru-kilometraze-korozije-i-tranzita'));
         $this->assertTrue($posts->contains('slug', 'suzuki-kizashi-ili-chevrolet-epica-retka-limuzina-kada-oprema-ne-sme-da-pobedi-dostupnost-delova'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-lancer-limuzina-koja-mora-dokazati-motor-limariju-i-realan-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-mazda-premacy-porodicni-monovolumen-koji-mora-dokazati-prostor-koroziju-i-stvarnu-namenu'));

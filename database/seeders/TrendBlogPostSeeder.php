@@ -8526,6 +8526,121 @@ TEXT,
                 'published_at' => now()->subMinutes(5),
                 'palette' => ['#1e3430', '#2dd4bf', '#f0fdfa'],
             ],
+            [
+                'title' => 'Volkswagen Fox ili Daihatsu Charade: mali polovnjak kada jednostavnost mora pobediti retkost',
+                'slug' => 'volkswagen-fox-ili-daihatsu-charade-mali-polovnjak-kada-jednostavnost-mora-pobediti-retkost',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je za drugi auto u porodici birao Volkswagen Fox i Daihatsu Charade, pa je preko probne vožnje, delova i stvarne kabine odlučio da li mala cena zaista znači malu obavezu.',
+                'content' => <<<'TEXT'
+Marko je tražio mali benzinac za suprugu i povremene gradske vožnje, bez želje da plati popularniji model samo zbog znaka na haubi. U oglasima su mu ostali Volkswagen Fox i Daihatsu Charade: Fox je izgledao poznatije i imao je više tragova lokalnog servisa, dok je Charade bio jeftiniji, uredniji na fotografijama i znatno ređi. Pre kapare nije pitao koji je zanimljiviji, već koji će moći mirno da koristi kada zatreba deo ili pregled.
+
+Kod Foxa je prvo seo pozadi, otvorio gepek i odvezao krug po gradu. Mali Volkswagen ima smisla ako ti dimenzije, preglednost i jednostavna kabina odgovaraju, ali stanje kvačila, trapa, prozora, klime i motora mora biti važnije od poznatog imena. Marko je tražio račune za redovan servis i proverio da li hladan start, ler i menjanje brzina deluju jednako uredno kao lak.
+
+Charade je druga vrsta rizika: mali auto može biti prijatan i štedljiv, ali retkost modela menja dostupnost konkretnih delova i broj majstora koji ga često viđaju. Zato je Marko pre gledanja pozvao prodavnicu delova za potrošne stavke i sa majstorom proverio motor, hlađenje, koroziju poda, trap i sve što bi kasnije bilo teže naručiti. Dobra cena ne popravlja lošu logistiku ako je auto već zapušten.
+
+Na kraju je izabrao Fox sa skromnijom opremom, ali računima i urednom vožnjom. Nastavi kada konkretan primerak ima dokazivo održavanje i odgovara tvojoj ruti; pregovaraj za gume, kočnice ili mali servis sa jasnom cenom; odustani kada retkost ili poznat znak pokušavaju da zamene pregled. Kod malog polovnjaka jednostavna budućnost vredi više od neobične početne ponude.
+TEXT,
+                'highlights' => ['Kod oba auta prvo proveri hladan start, kvačilo, trap, klimu i stvarnu kabinu.', 'Za retki Charade proveri dostupnost potrošnih i specifičnih delova pre kapare.', 'Fox nije automatski sigurniji izbor: računi i stanje konkretnog auta odlučuju kupovinu.'],
+                'tags' => ['Volkswagen Fox', 'Daihatsu Charade', 'mali auto', 'benzinac', 'poređenje modela'],
+                'meta_title' => 'Volkswagen Fox ili Daihatsu Charade: šta kupiti kao polovnjak',
+                'meta_description' => 'Poređenje polovnih Volkswagen Fox i Daihatsu Charade: motori, delovi, korozija, gradska vožnja, servis i realna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Ford Fusion: mali porodični auto koji mora dokazati prostor, motor i gradski život',
+                'slug' => 'polovni-ford-fusion-mali-porodicni-auto-koji-mora-dokazati-prostor-motor-i-gradski-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jovana je tražila viši mali auto za roditelje, ali je kod Forda Fusion proverila da li lak ulazak, kabina i dobra cena kriju umoran trap, kratke relacije ili preskočen servis.',
+                'content' => <<<'TEXT'
+Jovana je tražila auto za roditelje kojima je važniji lak ulazak nego moderan oblik. Ford Fusion joj je delovao kao razuman odgovor: viši od klasičnog malog auta, pregledan i dovoljno kratak za grad. Primerak koji je našla imao je urednu kabinu i privlačnu cenu, ali je znala da ovakvi automobili često godinama voze kratke relacije, preko ivičnjaka i sa malo pažnje prema trapu.
+
+Pre razgovora o ceni, roditelji su seli napred i pozadi, zatvorili vrata i proverili da li im položaj sedenja zaista odgovara. Fusion vredi kada kabina rešava svakodnevicu, ne kada samo izgleda prostrano na fotografijama. Jovana je pogledala šine sedišta, gepek, habanje volana i pedala, rad podizača stakala i klime, jer stanje enterijera mora pratiti kilometražu iz oglasa.
+
+Na hladnom startu je slušala motor i pratila ler, a na vožnji je proverila kvačilo, menjač, kočenje i lupanje preko šahtova. Sa majstorom je pregledala pragove, pod, amortizere, spone, kočione cevi i tragove curenja. Ako je motor miran, ali auto pliva, lupa ili neravnomerno troši gume, udoban ulazak ne čini ga spremnim za kupovinu.
+
+Jovana je uzela primerak sa manje opreme, ali sa računima za servis i tihim trapom. Nastavi kada prostor, ergonomija i mehanika pričaju istu priču; pregovaraj za jasno procenjene gume ili kočnice; odustani kada nizak oglasni iznos skriva zapušteno podvozje ili nejasan servis. Dobar Fusion je praktičan izbor, ne samo jeftin viši auto.
+TEXT,
+                'highlights' => ['Isprobaj ulazak, sedišta i gepek sa ljudima i stvarima koje će auto stvarno voziti.', 'Hladan start, kvačilo i trap na šahtovima važniji su od uredne fotografije kabine.', 'Neravnomerno trošenje guma ili lupanje traže pregled podvozja pre pregovora.'],
+                'tags' => ['Ford Fusion', 'mali porodični auto', 'gradska vožnja', 'trap', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Ford Fusion: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Forda Fusion: prostor, motor, kvačilo, trap, korozija, gradska upotreba i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Peugeot 4008: crossover koji mora dokazati pogon, dizel i stvarnu vrednost',
+                'slug' => 'polovni-peugeot-4008-crossover-koji-mora-dokazati-pogon-dizel-i-stvarnu-vrednost',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je želeo redak kompaktni crossover, ali je kod Peugeota 4008 proverio da li povišeno sedenje, pogon i oprema opravdavaju cenu, dizel rizik i dostupnost servisa.',
+                'content' => <<<'TEXT'
+Milan je našao Peugeot 4008 sa privlačnom opremom, povišenim sedenjem i cenom nižom od poznatijih crossovera istog godišta. Dopao mu se spoj kompaktnog auta i većeg klirensa, ali ga je prodavac požurivao pričom da je takav primerak redak. Milan je zato prvo odredio šta mu stvarno treba: gradski auto sa boljim pregledom ili vozilo koje će redovno koristiti lošiji put i pogon na sva četiri točka.
+
+Kod 4008 proveri tačnu verziju motora, pogona i menjača prema VIN-u, zatim račune za servis i ritam prethodne vožnje. Dizel može odgovarati vozaču koji prelazi otvoren put, ali kratke relacije vraćaju DPF, EGR, turbinu i dizne u centar odluke. Ne prihvataj rečenicu da je sve servisirano bez datuma, kilometraže i računa.
+
+Na dizalici je Milan tražio tragove korozije, curenja, udaraca odozdo i stanje zadnjeg dela pogona, a na putu je slušao ležajeve, trap i promene pri punom skretanju. Pogon, različite gume i neravnomerno habanje ne smeju biti sporedna tema kod crossovera. Zatim je proverio klimu, elektroniku i da li oprema radi bez grešaka, jer dobar izgled enterijera ne plaća dijagnostiku.
+
+Odustao je od jeftinijeg primerka bez istorije i uzeo skuplji auto tek kada su VIN, servis i pregled dali isti odgovor. Nastavi kada je namena jasna, pogon zdrav i dizel prilagođen tvojoj ruti; pregovaraj za merljive potrošne radove; odustani kada retkost modela služi kao izgovor da preskočiš proveru. Povišeno sedenje nije zamena za dokazano stanje.
+TEXT,
+                'highlights' => ['Pre pregleda utvrdi motor, pogon i menjač prema VIN-u, ne samo prema oglasu.', 'Kod dizela proveri rutu prethodne vožnje, DPF, EGR, turbinu i dokumentovan servis.', 'Različite gume, buka pogona ili udarci odozdo traže pregled pre svake kapare.'],
+                'tags' => ['Peugeot 4008', 'crossover', 'pogon 4x4', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Peugeot 4008: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Peugeota 4008: pogon, dizel, DPF, trap, korozija, elektronika, VIN i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#182b3a', '#06b6d4', '#ecfeff'],
+            ],
+            [
+                'title' => 'Rezervni ključ polovnog auta: kada mali privezak otkriva imobilajzer, trošak ili nejasnu istoriju',
+                'slug' => 'rezervni-kljuc-polovnog-auta-kada-mali-privezak-otkriva-imobilajzer-trosak-ili-nejasnu-istoriju',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je mislio da je jedan ključ sitnica, dok nije proverio centralnu bravu, paljenje i cenu izrade drugog ključa pre nego što je popust pretvorio u stvarni trošak.',
+                'content' => <<<'TEXT'
+Nikola je gledao uredan gradski auto i već je računao na dogovorenu cenu kada je prodavac rekao da postoji samo jedan ključ. Nije odustao na licu mesta, ali nije ni prihvatio objašnjenje da je rezervni negde zagubljen. Kod polovnog auta ključ nije samo komad plastike: otvara pitanje centralne brave, imobilajzera, daljinskog upravljanja i troška koji često dođe odmah posle kupovine.
+
+Uz dozvolu je testirao postojeći ključ na svim vratima, gepeku i kontakt-bravi, pa proverio da li daljinski zaključava i otključava bez kašnjenja. Zatim je video da li auto pali bez upozorenja i da li se ključ zaglavljuje, preskače ili traži čudan položaj. Ne rastavljaj kućište i ne pokušavaj da programiraš ništa na licu mesta; cilj je samo da proveriš osnovnu funkciju i zabeležiš šta nedostaje.
+
+Nikola je od prodavca tražio podatke o tome kada je drugi ključ nestao i proverio kod ovlašćenog ili specijalizovanog servisera koliko koštaju prazan ključ, sečenje i kodiranje za konkretan model. Jedan ključ nije dokaz krađe niti lošeg auta, ali nejasna priča uz neispravnu bravu, alarm ili imobilajzer traži dijagnostiku i proveru dokumentacije. Cena izrade drugog ključa mora biti stvarna brojka, ne pretpostavka u pregovorima.
+
+Pregovarao je tek kada je majstor potvrdio da postojeći ključ i imobilajzer rade uredno, a ponuda za rezervni ključ bila jasna. Nastavi kada je identitet vozila čist, ključ pouzdano radi i trošak duplikata je uračunat; pregovaraj za dokazivi iznos; odustani kada paljenje, brave ili priča o poreklu ostanu nejasni. Mali privezak može biti mali trošak, ali ne sme biti slepa tačka.
+TEXT,
+                'highlights' => ['Testiraj postojeći ključ na vratima, gepeku, daljinskom upravljanju i paljenju uz dozvolu prodavca.', 'Ne rastavljaj i ne programiraj ključ na licu mesta; proveravaj samo funkciju i dokumentaciju.', 'Pre pregovora pribavi konkretnu cenu sečenja i kodiranja rezervnog ključa za taj model.'],
+                'tags' => ['rezervni ključ', 'imobilajzer', 'centralna brava', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Rezervni ključ polovnog auta: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proveriti rezervni ključ polovnog auta: daljinski, imobilajzer, brave, paljenje, kodiranje, dokumentacija i stvarni trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e24', '#eab308', '#fefce8'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Bugarske: kada blizina tržišta traži proveru kilometraže, korozije i tranzita',
+                'slug' => 'uvoz-auta-iz-bugarske-kada-blizina-trzista-trazi-proveru-kilometraze-korozije-i-tranzita',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aleksandar je našao povoljan bugarski oglas blizu granice, ali je pre puta povezao VIN, papire, podvozje i ranija tržišta da bi znao da li niža cena ima objašnjenje.',
+                'content' => <<<'TEXT'
+Aleksandar je video bugarski oglas za karavan koji je bio bliži i jeftiniji od sličnih primeraka iz zapadne Evrope. Prodavac je naglašavao da su put i uvoz jednostavni, a automobil na fotografijama izgledao je uredno. Aleksandar nije dozvolio da blizina zameni proveru: zanimalo ga je koliko je auto zaista bio u Bugarskoj, da li je ranije menjao tržišta i zašto cena odstupa od domaćih oglasa.
+
+Pre puta je tražio VIN, fotografije registracionih dokumenata, servisne račune, podatke o vlasništvu i jasan sled od ranije registracije do izvoza. Poređenje VIN-a sa dokumentima, opremom i kilometražom mora biti moguće pre kapare. Ako prodavac ne može da objasni tranzit kroz više zemalja ili nudi samo prevod bez originalnih papira, ušteda na putu brzo gubi smisao.
+
+Na licu mesta pregledaj podvozje, pragove, rubove vrata, kočione cevi, nosače i tragove grubih popravki, zatim stanje guma i trapa na probnoj vožnji. Klima i letnji uslovi ne isključuju koroziju, loše puteve ili auto koji je dugo stajao. Aleksandar je takođe proverio da li enterijer, pedale i volan odgovaraju prijavljenoj kilometraži, umesto da se osloni na čist lak i bogatu opremu.
+
+Odustao je od prvog oglasa jer dokumentacija nije povezivala poslednjeg vlasnika sa autom, a izabrao je drugi tek nakon nezavisnog pregleda. Nastavi kada su poreklo, papiri i stanje podvozja dokazani; pregovaraj za jasno procenjenu gumu, servis ili sitnu limariju; odustani kada niska cena skriva prekid u istoriji. Blisko tržište je prednost samo kada je priča proverljiva.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, originalne papire, servisne račune i sled vlasništva.', 'Pregledaj podvozje, pragove, kočione cevi, gume i trap bez pretpostavke da blizina znači bolji auto.', 'Nejasan tranzit ili prekid dokumentacije razlog su za pauzu pre kapare, ne za bržu odluku.'],
+                'tags' => ['uvoz iz Bugarske', 'uvoz auta', 'VIN', 'korozija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Bugarske: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Bugarske: VIN, dokumentacija, kilometraža, korozija, tranzit, podvozje i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#251b38', '#c084fc', '#faf5ff'],
+            ],
 
         ];
     }
