@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(305, $posts);
+        $this->assertCount(310, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(74, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(75, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'volkswagen-fox-ili-daihatsu-charade-mali-polovnjak-kada-jednostavnost-mora-pobediti-retkost'));
         $this->assertTrue($posts->contains('slug', 'polovni-ford-fusion-mali-porodicni-auto-koji-mora-dokazati-prostor-motor-i-gradski-zivot'));
         $this->assertTrue($posts->contains('slug', 'polovni-peugeot-4008-crossover-koji-mora-dokazati-pogon-dizel-i-stvarnu-vrednost'));
@@ -331,6 +331,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-captiva-veliki-suv-koji-mora-dokazati-pogon-delove-i-servis'));
         $this->assertTrue($posts->contains('slug', 'sigurnosni-pojasevi-na-polovnom-autu-kada-spor-povratak-otkriva-udarac-ili-vlagu'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-portugalije-kada-topla-klima-ne-znaci-automatski-mirnu-kupovinu'));
+        $this->assertTrue($posts->contains('slug', 'hyundai-i40-ili-opel-insignia-porodicna-limuzina-kada-prostor-ne-sme-da-sakrije-trosak'));
+        $this->assertTrue($posts->contains('slug', 'polovni-honda-cr-z-kupe-hibrid-koji-mora-dokazati-bateriju-prostor-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-fiat-idea-mali-monovolumen-koji-mora-dokazati-kabinu-motor-i-mirnu-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'voda-u-kabini-polovnog-auta-kada-mokar-tepih-otkriva-odvod-zaptivku-ili-skuplju-elektroniku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-grcke-kada-sunce-i-dobra-cena-traze-proveru-porekla-limarije-i-papira'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

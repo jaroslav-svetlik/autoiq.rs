@@ -8641,6 +8641,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#251b38', '#c084fc', '#faf5ff'],
             ],
+            [
+                'title' => 'Hyundai i40 ili Opel Insignia: porodična limuzina kada prostor ne sme da sakrije trošak',
+                'slug' => 'hyundai-i40-ili-opel-insignia-porodicna-limuzina-kada-prostor-ne-sme-da-sakrije-trosak',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stefan je tražio veliku limuzinu za porodicu i autoput, pa je između Hyundaija i40 i Opela Insignije naučio da komfor, dizel i oprema vrede tek kada servisni račun ima istu logiku.',
+                'content' => <<<'TEXT'
+Stefan je sa dvoje dece tražio limuzinu za godišnji odmor i redovne vožnje do roditelja, a da ne pređe u stariji premium auto. Hyundai i40 mu je delovao mirnije i jednostavnije, dok je Opel Insignia nudila više oglasa, jači utisak na putu i bogatiju opremu. Dva primerka su imala sličnu cenu i kilometražu, ali Stefan nije birao šta izgleda veće na parkingu već šta može da održava bez iznenađenja.
+
+Kod i40 je prvo proverio koji motor i menjač tačno kupuje, a zatim da li servisni računi prate kilometre i rutu auta. Limuzina koja je većinom vozila otvoren put može biti dobra kupovina, ali dizel bez jasne istorije vraća DPF, EGR, turbinu i kvačilo u centar odluke. Sedan ili karavan ne rešavaju porodični problem ako na hladnom startu motor, klima ili elektronika već traže objašnjenje.
+
+Insignia je Stefanu ponudila udobnija sedišta i više opreme, ali je zato svaku stavku isprobao: ekran, klimu, senzore, električnu ručnu kočnicu i sve komande. Na probnoj vožnji je slušao trap, proverio rad menjača pri maloj brzini i potražio neravnomerno trošenje guma. Kod većeg polovnjaka oprema je prednost samo kada radi, a komfor ne poništava cenu zapuštenog podvozja ili automatskog menjača bez servisa.
+
+Izabrao je i40 sa skromnijom opremom, ali urednim računima i pregledom bez skrivenih stavki. Nastavi kada konkretan auto odgovara tvojoj ruti, ima proverljiv servis i mirnu vožnju; pregovaraj za procenjene gume, kočnice ili mali servis; odustani kada prostor i oprema služe da prekriju rupu u istoriji. Porodična limuzina mora da ostavi budžet i za život posle kupovine.
+TEXT,
+                'highlights' => ['Uporedi tačan motor, menjač i servisne račune, ne samo godište, opremu i kilometražu.', 'Kod dizela proveri DPF, EGR, turbinu i da li prethodna ruta ima smisla za takav motor.', 'Na Insigniji isprobaj svu opremu, a na oba auta pregledaj trap, gume i ponašanje menjača u gradu.'],
+                'tags' => ['Hyundai i40', 'Opel Insignia', 'porodična limuzina', 'dizel', 'poređenje modela'],
+                'meta_title' => 'Hyundai i40 ili Opel Insignia: šta kupiti kao polovnjak',
+                'meta_description' => 'Poređenje polovnih Hyundai i40 i Opel Insignia: prostor, dizel, menjač, oprema, trap, servisna istorija i realna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#14213d', '#fca311', '#fefae0'],
+            ],
+            [
+                'title' => 'Polovni Honda CR-Z: kupe hibrid koji mora dokazati bateriju, prostor i stvarnu namenu',
+                'slug' => 'polovni-honda-cr-z-kupe-hibrid-koji-mora-dokazati-bateriju-prostor-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Luka je želeo neobičan hibrid za grad, ali je kod Honde CR-Z proverio da li izgled kupea, stanje baterije i mali gepek zaista odgovaraju njegovoj svakodnevici.',
+                'content' => <<<'TEXT'
+Luka je želeo mali auto koji neće izgledati kao svaka druga gradska kupovina, a Honda CR-Z mu je nudila kupe liniju i hibridnu ideju bez velikog SUV formata. Prvi oglas je imao lepe felne i urednu kabinu, ali je Luka pre vožnje spustio svoju torbu u gepek i seo na suvozačko mesto. Kod ovakvog auta najskuplje je kupiti karakter, pa tek posle otkriti da ne rešava svakodnevicu.
+
+Tražio je VIN, račune i podatke o hibridnom sistemu, pa na dijagnostici proverio ima li grešaka i da li se ponašanje baterije poklapa sa pričom o održavanju. Hibridni pogon nije razlog za paniku, ali nije ni ukras u oglasu: ne prihvataj objašnjenje da je sve savršeno bez istorije, pregleda i urednog rada upozorenja na tabli. Motor mora mirno da pali, menjač da radi bez neobičnog zvuka, a kočnice da budu predvidive.
+
+Na probnoj vožnji Luka je vozio gradsku gužvu i otvoren put, slušao trap preko neravnina i pratio kako auto koči, ubrzava i prelazi između režima rada. Zatim je proverio klimu, punjenje, gume i tragove udara oko niskog prednjeg dela. Sportski izgled ne smanjuje cenu loše gume, potrošenih kočnica ili zanemarenog podvozja.
+
+Odustao je od primerka bez dokumentacije i izabrao drugi tek kada su dijagnostika, pregled i njegova stvarna potreba dali isti odgovor. Nastavi kada ti dvoja vrata, gepek i način vožnje zaista odgovaraju; pregovaraj za dokazive potrošne radove; odustani kada neobičan izgled pokušava da zameni proveru hibridnog sistema. CR-Z je zanimljiv izbor samo ako je i razuman za tvoj dan.
+TEXT,
+                'highlights' => ['Pre kapare proveri VIN, dijagnostiku hibridnog sistema i servisne račune.', 'Na vožnji testiraj kočenje, prelaz rada pogona, trap i ponašanje u gradu i na otvorenom putu.', 'Proveri gepek i kabinu sa stvarima koje stvarno nosiš; kupe oblik nije univerzalna praktičnost.'],
+                'tags' => ['Honda CR-Z', 'hibrid', 'polovni kupe', 'dijagnostika', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Honda CR-Z: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Honde CR-Z: hibridna baterija, dijagnostika, menjač, kočnice, gepek, trap i realna namena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#291b3e', '#ec4899', '#fdf2f8'],
+            ],
+            [
+                'title' => 'Polovni Fiat Idea: mali monovolumen koji mora dokazati kabinu, motor i mirnu istoriju',
+                'slug' => 'polovni-fiat-idea-mali-monovolumen-koji-mora-dokazati-kabinu-motor-i-mirnu-istoriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milica je tražila viši mali auto za grad i roditelje, ali je kod Fiata Idee proverila da li laka kabina krije kratke relacije, umoran motor ili preskočene sitne servise.',
+                'content' => <<<'TEXT'
+Milica je tražila kratak auto u koji njeni roditelji mogu lako da uđu i koji neće biti nervozan na gradskom parkingu. Fiat Idea joj je delovao logično: viša kabina, praktična vrata i više mesta nego što dimenzije obećavaju. Međutim, prvi primerak je imao sjajnu fotografiju enterijera, ali istrošen volan, slab akumulator i prodavca bez računa. Kod malog monovolumena kabina je početak priče, ne dokaz da je auto negovan.
+
+Pre cene je otvorila sva vrata, pomerila sedišta, proverila gepek i sela za volan kao da će auto koristiti svakog dana. Zatim je tražila VIN, intervale malog i velikog servisa gde su primenljivi, kao i račune za bateriju, kočnice i gume. Kratke relacije mogu ostaviti umoran akumulator, zapuštenu klimu i više habanja nego što kilometraža govori, zato se priča iz oglasa mora porediti sa stanjem auta.
+
+Na hladnom startu je slušala motor, a tokom vožnje proverila kvačilo, menjanje brzina, kočenje i lupanje preko šahtova. Sa majstorom je pregledala pragove, pod, curenja i stanje trapa, pa isprobala prozore, brave, klimu i lampice na tabli. Jednostavan auto ima smisla kada su sitnice uredne; kada ih ima mnogo, one zajedno postaju veliki račun.
+
+Kupila je Ideu sa manje opreme, ali tihim motorom i dokumentovanim održavanjem. Nastavi kada kabina odgovara porodici, mehanika je mirna i istorija ima račune; pregovaraj za jednu jasno procenjenu stavku; odustani kada se niska cena oslanja na niz sitnih kvarova bez objašnjenja. Praktičan mali auto mora olakšati svakodnevicu, a ne otvoriti novu listu obaveza.
+TEXT,
+                'highlights' => ['Isprobaj vrata, sedišta, ulazak i gepek kao u stvarnoj porodičnoj rutini.', 'Traži VIN i račune za redovan servis, akumulator, kočnice i gume.', 'Hladan start, kvačilo, trap i sva osnovna elektronika moraju proći pre pregovora.'],
+                'tags' => ['Fiat Idea', 'mali monovolumen', 'benzinac', 'gradska vožnja', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Idea: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiata Idea: kabina, motor, kvačilo, trap, klima, gradska upotreba, servisna istorija i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#12343b', '#f4a261', '#fff8e7'],
+            ],
+            [
+                'title' => 'Voda u kabini polovnog auta: kada mokar tepih otkriva odvod, zaptivku ili skuplju elektroniku',
+                'slug' => 'voda-u-kabini-polovnog-auta-kada-mokar-tepih-otkriva-odvod-zaptivku-ili-skuplju-elektroniku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je podigao patosnicu u urednom polovnjaku i našao vlažan tepih, pa je pre kapare pratio odakle voda ulazi i da li je vlaga već stigla do instalacije.',
+                'content' => <<<'TEXT'
+Nikola je gledao uredan hečbek posle kišnog dana i prodavac je samo usput rekao da je patosnica mokra jer su putnici uneli vodu. Kada je podigao tepih kod suvozača, osetio je vlagu i video sitan trag prljavštine uz rub. Nije odmah proglasio auto lošim, ali nije ni prihvatio jednostavno objašnjenje. Voda u kabini može doći od odvoda, zaptivke, šoferke, vrata ili ranije poplave, a svaka priča traži drugačiji pregled.
+
+Uz dozvolu prodavca proverio je obe prednje i zadnje patosnice, rubove tepiha, prostor ispod sedišta, gepek i bunar rezervnog točka. Pogledao je zaptivke vrata, donje ivice, odvode koji su dostupni bez rastavljanja i tragove buđi ili prejakog osveživača. Ne sipaj vodu po autu i ne skidaj obloge na licu mesta; cilj je da pronađeš obim vlage i zabeležiš gde se pojavljuje.
+
+Zatim je uključio ventilaciju, klimu, podizače, centralnu bravu, svetla i proverio ima li slučajnih lampica ili grešaka na dijagnostici. Vlaga ne mora odmah napraviti kvar, ali oksidacija konektora i instalacije može kasnije doneti trošak koji se ne vidi na kratkom krugu. Ako je tepih vlažan, nezavisan majstor treba da pronađe uzrok i proceni da li su sušenje i popravka zaista dovoljni.
+
+Nikola je odustao od prvog auta jer je voda bila i ispod zadnje klupe, a prodavac nije hteo pregled. Nastavi kada je izvor jasno pronađen, kabina suva i elektronika uredna; pregovaraj samo za procenjen, dokaziv popravak; odustani kada vlaga, miris i greške ostanu bez objašnjenja. Mokar tepih je signal za dijagnozu, ne popust koji se pogađa napamet.
+TEXT,
+                'highlights' => ['Proveri patosnice, rubove tepiha, prostor ispod sedišta, gepek i bunar rezervnog točka.', 'Ne rastavljaj obloge niti polivaj auto; evidentiraj vlagu i traži nezavisan pregled uzroka.', 'Ako je vlaga prisutna, testiraj elektroniku i dijagnostiku pre bilo kakve kapare.'],
+                'tags' => ['voda u kabini', 'vlaga', 'zaptivke vrata', 'elektronika', 'provera vozila'],
+                'meta_title' => 'Voda u kabini polovnog auta: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proveriti vodu u kabini polovnog auta: mokar tepih, odvodi, zaptivke, gepek, vlaga, elektronika, dijagnostika i rizik.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0c4a6e', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Grčke: kada sunce i dobra cena traže proveru porekla, limarije i papira',
+                'slug' => 'uvoz-auta-iz-grcke-kada-sunce-i-dobra-cena-traze-proveru-porekla-limarije-i-papira',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aleksa je našao grčki oglas sa dobrom opremom i cenom ispod domaće, ali je pre puta povezao VIN, dokumenta i stanje karoserije da bi znao da li sunce zaista znači lakši uvoz.',
+                'content' => <<<'TEXT'
+Aleksa je pronašao grčki oglas za porodični karavan koji je imao mnogo opreme i cenu nižu od sličnih domaćih primeraka. Fotografije su pokazivale čist lak i vedro vreme, a prodavac je naglašavao da auto nije video ozbiljnu zimu. Aleksa je znao da sunce nije isto što i provereno stanje: morski vazduh, gradska gužva, parkiranja i nejasan prelazak između tržišta mogu promeniti računicu pre nego što auto krene ka Srbiji.
+
+Pre puta je tražio VIN, fotografije grčkog registracionog dokumenta, servisne račune, poslednje tehničke preglede i sled vlasništva. Uporedio je datume, kilometražu, opremu i imena na dokumentima, a za nejasne stavke potražio nezavisnu proveru. Ne šalji kaparu samo zato što prodavac obećava lak transport ili prevod papira; uvoz ima smisla tek kada dokumentacija prati konkretan automobil.
+
+Na licu mesta pregledaj pragove, rubove vrata, podvozje, nosače, kočione cevi i donji deo gepeka, pa zatim zazore, stakla i tragove lakiranja. U priobalnim uslovima so ne dolazi samo sa zimskih puteva, a gradska vožnja može ostaviti kočnice, kvačilo i trap umornijim nego što spoljašnji sjaj pokazuje. Probna vožnja, merač laka i pregled na dizalici deo su iste odluke, ne dodatni luksuz.
+
+Aleksa je izabrao drugi oglas tek kada su VIN, papiri i pregled pokazali urednu priču. Nastavi kada poreklo, limarija i troškovi puta imaju dokaz; pregovaraj za jednu jasno procenjenu stavku; odustani kada niža cena traži previše pretpostavki o dokumentima ili koroziji. Grčko sunce može biti prednost, ali ne sme postati zamena za pregled.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, grčke papire, račune, tehničke preglede i sled vlasništva.', 'Pregledaj podvozje, pragove, kočione cevi i gepek bez pretpostavke da topla klima isključuje koroziju.', 'Kaparu razmatraj tek posle proverljive dokumentacije i plana za nezavisan pregled.'],
+                'tags' => ['uvoz iz Grčke', 'uvoz auta', 'VIN', 'korozija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Grčke: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Grčke: VIN, papiri, poreklo, korozija, limarija, podvozje, transport i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a5f', '#f59e0b', '#fffbeb'],
+            ],
 
         ];
     }

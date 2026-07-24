@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.104] - 2026-07-24
+
+### Added
+
+- Added five non-duplicate production blog articles covering Hyundai i40 versus Opel Insignia, used Honda CR-Z and Fiat Idea buying guidance, cabin water-ingress inspection, and Greek import risk.
+
 ## [0.1.103] - 2026-07-22
 
 ### Added
