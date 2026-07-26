@@ -8135,6 +8135,121 @@ TEXT,
                 'published_at' => now()->subMinutes(4),
                 'palette' => ['#1f2937', '#38bdf8', '#f8fafc'],
             ],
+            [
+                'title' => 'Renault Wind ili Nissan Micra C+C: mali kabriolet kada leto ne sme da sakrije krov i trošak',
+                'slug' => 'renault-wind-ili-nissan-micra-cc-mali-kabriolet-kada-leto-ne-sme-da-sakrije-krov-i-trosak',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je birao mali kabriolet za vikend između Renaulta Winda i Nissana Micre C+C, ali je pre kapare proverio krov, odvod vode, kabinu i račun koji ostaje kada prođe leto.',
+                'content' => <<<'TEXT'
+Nikola je želeo mali auto za vikend koji će mu popraviti put do jezera, a ne napraviti drugi posao u garaži. U oglasima su mu ostali Renault Wind, sa kompaktnim dvosedim karakterom, i Nissan Micra C+C, koji nudi više poznate gradske osnove i zadnjih sedišta koja služe pre kao rezerva nego kao porodično rešenje. Oba su izgledala odlično sa spuštenim krovom, ali Nikola je znao da se kabriolet kupuje zatvoren, po kiši i sa pažnjom prema svakom detalju mehanizma.
+
+Kod Winda je prvo proverio rad tvrdog krova nekoliko puta, bez žurbe i bez pomoći prodavca. Gledao je da li se ciklus završava mirno, da li se poklopac gepeka poravna i da li gume zaptivki nisu ispucale ili lepljive. Wind ima smisla za kupca kome je važniji osećaj dvoseda nego praktičnost, ali ne prihvataj objašnjenje da se krov koristi retko ako nema računa, snimka rada ili jasnog razloga zašto se izbegava proba.
+
+Micra C+C Nikoli je delovala manje egzotično, ali je zato zahtevala isti pregled krova, odvoda, gepeka i tragova vlage iza sedišta i pod patosnicama. Na oba auta proveri hladan start, kvačilo ili automatik, trap na neravninama, klimu i sve prekidače. Mali kabriolet često vozi sezonski i kratko, pa nizak broj kilometara ne poništava stajanje, staru gumu, slab akumulator ili negovanu kabinu koja krije vodu.
+
+Nikola je izabrao primerak sa dokazivim servisom krova i suvom kabinom, iako je bio skuplji. Nastavi kada mehanizam radi ponovljivo, limarija i unutrašnjost su suve, a rezervni fond ostaje posle kupovine; pregovaraj za jasno procenjene gume ili servis; odustani kada prodavac ne dopušta pun ciklus krova ili vlažnost naziva sitnicom.
+TEXT,
+                'highlights' => ['Krov otvori i zatvori više puta, pa proveri zazore, zaptivke, odvode i pod gepeka.', 'Wind je stroži izbor za dvosedu namenu; Micra C+C traži isti pregled krova uprkos poznatijoj osnovi.', 'Vlažna kabina, izbegavanje probe krova ili nejasan servis nisu stavke za kaparu.'],
+                'tags' => ['Renault Wind', 'Nissan Micra C+C', 'mali kabriolet', 'tvrdi krov', 'poređenje modela'],
+                'meta_title' => 'Renault Wind ili Nissan Micra C+C: šta kupiti kao polovnjak',
+                'meta_description' => 'Poređenje polovnih Renault Wind i Nissan Micra C+C: tvrdi krov, odvodi, vlaga, kabina, trap, servis i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f3d56', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Subaru Trezia: mali porodični auto koji mora dokazati poreklo, kabinu i servis',
+                'slug' => 'polovni-subaru-trezia-mali-porodicni-auto-koji-mora-dokazati-poreklo-kabinu-i-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je tražila mali, viši auto za grad i decu, ali je kod Subaru Trezije proverila da li retkiji znak na haubi prati jasna istorija, stvarna kabina i lako dostupan servis.',
+                'content' => <<<'TEXT'
+Ana je tražila kratak auto u koji mogu stati dečje sedište, torbe i svakodnevna kupovina bez želje da plati crossover samo zbog visine. Subaru Trezia joj je delovala kao nenametljiv izbor: uspravna kabina, poznata racionalna osnova i ređi znak na haubi koji je spuštao cenu. Prvi primerak je bio uredan na slikama, ali bez računa i sa nejasnim odgovorom o poreklu, pa Ana nije dozvolila da retkost zameni proveru.
+
+Pre razgovora o ceni tražila je VIN, saobraćajnu istoriju, račune i tačnu specifikaciju motora i opreme. Kod ređeg modela proveri unapred ko nabavlja potrošne i specifične delove i koliko traje isporuka, ali ne pretvaraj to u automatski razlog za odustajanje. Trezia ima smisla kada ti raspored kabine, položaj sedenja i stvarna namena odgovaraju, a dokumenti objašnjavaju kako je auto održavan.
+
+Ana je otvorila sva vrata, pomerila zadnju klupu, smestila sedište i pregledala gepek pre nego što je sela za volan. Na hladnom startu pratila je ler i lampice, a na vožnji kvačilo, menjanje brzina, kočenje i trap preko šahtova. Sa majstorom je proverila pragove, pod, curenja, stanje guma, klimu i elektroniku; uredna kabina vredi tek kada se slaže sa kilometražom i donjim delom auta.
+
+Izabrala je drugi primerak koji nije bio najjeftiniji, ali je imao potpuniju istoriju i pregled bez iznenađenja. Nastavi kada poreklo, servis i fizičko stanje govore isto; pregovaraj za gume ili jasno utvrđenu sitnicu; odustani kada nema VIN-a, kada kabina ne prati kilometražu ili kada kupovina zavisi od obećanja da će se delovi nekako naći.
+TEXT,
+                'highlights' => ['Pre kapare proveri VIN, istoriju i dostupnost delova za konkretnu verziju, ne samo za marku.', 'Isprobaj zadnju klupu, dečje sedište i gepek pre nego što praktičnost prihvatiš kao činjenicu.', 'Hladan start, trap, podvozje i klima odlučuju više od retkog znaka na haubi.'],
+                'tags' => ['Subaru Trezia', 'mali porodični auto', 'benzinac', 'servisna istorija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Subaru Trezia: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Subaru Trezia: poreklo, kabina, motor, trap, klima, delovi, VIN i servisna istorija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a8a', '#22c55e', '#eff6ff'],
+            ],
+            [
+                'title' => 'Polovni Lancia Musa: gradski monovolumen koji mora dokazati elektroniku, kabinu i miran servis',
+                'slug' => 'polovni-lancia-musa-gradski-monovolumen-koji-mora-dokazati-elektroniku-kabinu-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Maja je želela mali auto sa udobnijom kabinom za grad i roditelje, ali je kod Lancie Muse proverila da li lep enterijer prati uredna elektronika, motor i dokumentovan servis.',
+                'content' => <<<'TEXT'
+Maja je tražila mali auto u koji njeni roditelji mogu lakše da uđu, a da joj parkiranje u gradu ne postane kazna. Lancia Musa joj je privukla pažnju visokom kabinom, mekšim sedištima i enterijerom koji na fotografijama izgleda skuplje od cene. Međutim, prvi oglas je imao sjajnu kabinu i nekoliko neaktivnih komandi koje je prodavac nazivao nebitnim. Maja je znala da kod polovnjaka sitna elektronika nije ukras kada se kvarovi sabiraju.
+
+Pre cene je proverila VIN, račune za redovan servis i šta je tačno menjano na motoru, kočnicama, akumulatoru i klimi. Musa ima smisla kada ti položaj sedenja i praktičnost rešavaju svakodnevicu, ali lepši materijali nisu dokaz održavanja. Otvori sva vrata, pomeri sedišta, proveri gepek i pogledaj habanje volana, prekidača i tapacirunga naspram prijavljene kilometraže.
+
+Na hladnom startu Maja je pratila lampice i miran rad motora, a zatim isprobala prozore, centralno zaključavanje, ventilaciju, klimu, radio i sve komande na volanu. Na vožnji je proverila kvačilo, menjač, kočenje i zvuk trapa preko neravnina, dok je majstor pregledao pragove, pod, curenja i kočione cevi. Jedna poznata stavka za servis je osnova za pregovor; niz malih neobjašnjenih kvarova je razlog da se traži drugi auto.
+
+Kupila je primerak sa skromnijom opremom, ali sa računima i svim funkcijama koje rade. Nastavi kada kabina, elektronika i servis pričaju istu priču; pregovaraj za jednu merljivu popravku; odustani kada se svaka neispravna komanda predstavlja kao normalna osobina starijeg auta.
+TEXT,
+                'highlights' => ['Isprobaj svaku komandu, prozor, bravu, ventilaciju i klimu pre bilo kakvog pregovora.', 'Uporedi habanje enterijera sa kilometražom i računima, ne sa sjajem na fotografijama.', 'Više sitnih električnih kvarova nije mala stavka: traži dijagnostiku ili drugi primerak.'],
+                'tags' => ['Lancia Musa', 'gradski monovolumen', 'elektronika', 'klima', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Lancia Musa: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Lancie Muse: kabina, elektronika, motor, klima, trap, VIN, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#4c1d95', '#f59e0b', '#faf5ff'],
+            ],
+            [
+                'title' => 'Ventilator kabine na polovnom autu: kada slabo duvanje otkriva otpornik, filter ili skuplju instalaciju',
+                'slug' => 'ventilator-kabine-na-polovnom-autu-kada-slabo-duvanje-otkriva-otpornik-filter-ili-skuplju-instalaciju',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ognjen je tokom pregleda polovnjaka primetio da ventilator radi samo na najjačoj brzini, pa je pre pregovora razdvojio zapušen filter od otpornika, motora ventilatora i vlage u instalaciji.',
+                'content' => <<<'TEXT'
+Ognjen je u julu gledao kompakt sa hladnom klimom i urednim enterijerom, pa je zamalo preskočio ventilator kabine kao nebitan detalj. Tek kada je prebacio brzine, shvatio je da duvanje radi samo na najjačem položaju. Prodavac je rekao da klima svakako hladi, ali Ognjen nije kupovao samo jedan letnji dan: ventilator utiče na odmagljivanje, grejanje i svakodnevnu bezbednost, a uzrok može biti sitan ili mnogo dublji.
+
+Auto testiraj sa uključenim kontaktom i motorom na svim brzinama ventilatora, zatim sa promenom smera duvanja i recirkulacije. Slab protok može početi od zapušenog kabinskog filtera, ali rad samo na jednoj brzini traži proveru otpornika, konektora ili komande. Ne pristaj na nagađanje kroz cenu: zatraži da se kvar jasno dijagnostikuje, jer miris paljevine, prekidi ili osigurač koji iskače menjaju priču.
+
+Ognjen je zatim otvorio pretinac, pogledao tragove vlage i lišća oko usisa, pa proverio da li ventilator struže ili menja zvuk pri skretanju. Sa majstorom je pregledao konektore, stanje kabinskog filtera, drenaže i rad klime i grejanja kada je auto zagrejan. Voda u području ventilatora ili tragovi improvizovanog spajanja nisu sitnica za popust, jer električni problem može prerasti u prekid ventilacije ili skuplju popravku instalacije.
+
+Primerak koji je Ognjen izabrao imao je samo star filter, a drugi je ostavio zbog mirisa paljevine i nejasnog ožičenja. Nastavi kada sve brzine rade tiho i protok je ujednačen; pregovaraj samo za jasno procenjen filter ili otpornik; odustani kada ventilator prekida, osigurači stradaju ili vlaga i spojene žice ostanu bez objašnjenja.
+TEXT,
+                'highlights' => ['Testiraj sve brzine, smerove duvanja, recirkulaciju, grejanje i klimu, ne samo hladan vazduh.', 'Rad samo na jednoj brzini traži dijagnostiku otpornika, konektora i komande pre pregovora.', 'Miris paljevine, vlaga kod usisa ili improvizovane žice su razlog za prekid kupovine.'],
+                'tags' => ['ventilator kabine', 'klima uređaj', 'elektronika', 'provera vozila', 'polovni auto'],
+                'meta_title' => 'Ventilator kabine polovnog auta: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proveriti ventilator kabine polovnog auta: brzine duvanja, kabinski filter, otpornik, vlaga, instalacija, klima i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#164e63', '#06b6d4', '#ecfeff'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Luksemburga: kada mala zemlja i dobra oprema traže proveru flote, kilometraže i porekla',
+                'slug' => 'uvoz-auta-iz-luksemburga-kada-mala-zemlja-i-dobra-oprema-traze-proveru-flote-kilometraze-i-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je našao dobro opremljen auto iz Luksemburga, ali je pre puta proverio da li mala kilometraža prati međunarodnu istoriju, flotnu upotrebu i dokumente koji objašnjavaju svaki prelazak granice.',
+                'content' => <<<'TEXT'
+Vladimir je našao karavan iz Luksemburga sa dobrom opremom, urednim enterijerom i cenom koja je izgledala razumno naspram domaćih oglasa. Prodavac je naglašavao malu zemlju i kratke relacije, ali Vladimir je znao da tržište u centru Evrope ne znači automatski jednostavnu istoriju. Auto može menjati vlasnika, firmu i zemlju brže nego što oglas kaže, a dobra oprema ne objašnjava kilometražu ni način korišćenja.
+
+Pre puta je tražio VIN, fotografije originalnih dokumenata, servisne račune, tehničke preglede i podatke o prethodnim vlasnicima ili firmi. Poveži datume, kilometre i zemlju svakog zapisa, naročito ako se auto pojavio u susednim državama ili je bio deo flote. Ne šalji kaparu zato što prodavac ima uredno preveden papir; prevod prati dokument, ali ne zamenjuje proverljivu putanju konkretnog vozila.
+
+Na licu mesta Vladimir je uporedio habanje volana, sedišta i pedala sa kilometražom, zatim pregledao pragove, podvozje, kočione cevi, gume i tragove parking oštećenja. Kratke gradske rute mogu ostaviti kočnice, akumulator, kvačilo ili dizel sistem umornijim nego što čist enterijer pokazuje. Probna vožnja, merač laka, dijagnostika i pregled na dizalici moraju biti deo istog plana, posebno kada niža cena zavisi od priče o flotnom održavanju.
+
+Vladimir je odustao od prvog oglasa jer su se servisni datumi prekidali, a kupio je skuplji primerak sa jasnim sledom vlasništva. Nastavi kada dokumenti, stanje i ukupni troškovi uvoza imaju istu logiku; pregovaraj za jednu dokazanu stavku; odustani kada mala zemlja služi kao zamena za VIN, račune i nezavisan pregled.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, originale dokumenata, račune, tehničke preglede i sled vlasništva ili flote.', 'Mala kilometraža mora odgovarati enterijeru, kočnicama, gumama i istoriji kretanja vozila.', 'Kaparu razmatraj tek kada su poreklo, pregled i svi troškovi uvoza proverljivi.'],
+                'tags' => ['uvoz iz Luksemburga', 'uvoz auta', 'flotno vozilo', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Luksemburga: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Luksemburga: VIN, flota, kilometraža, dokumentacija, podvozje, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e81', '#facc15', '#f8fafc'],
+            ],
         ];
     }
 

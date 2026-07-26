@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(310, $posts);
+        $this->assertCount(315, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(75, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(76, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'renault-wind-ili-nissan-micra-cc-mali-kabriolet-kada-leto-ne-sme-da-sakrije-krov-i-trosak'));
+        $this->assertTrue($posts->contains('slug', 'polovni-subaru-trezia-mali-porodicni-auto-koji-mora-dokazati-poreklo-kabinu-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-lancia-musa-gradski-monovolumen-koji-mora-dokazati-elektroniku-kabinu-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'ventilator-kabine-na-polovnom-autu-kada-slabo-duvanje-otkriva-otpornik-filter-ili-skuplju-instalaciju'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-luksemburga-kada-mala-zemlja-i-dobra-oprema-traze-proveru-flote-kilometraze-i-porekla'));
         $this->assertTrue($posts->contains('slug', 'volkswagen-fox-ili-daihatsu-charade-mali-polovnjak-kada-jednostavnost-mora-pobediti-retkost'));
         $this->assertTrue($posts->contains('slug', 'polovni-ford-fusion-mali-porodicni-auto-koji-mora-dokazati-prostor-motor-i-gradski-zivot'));
         $this->assertTrue($posts->contains('slug', 'polovni-peugeot-4008-crossover-koji-mora-dokazati-pogon-dizel-i-stvarnu-vrednost'));
