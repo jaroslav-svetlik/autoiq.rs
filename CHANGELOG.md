@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.106] - 2026-07-27
+
+### Added
+
+- Added five non-duplicate production blog articles covering Chevrolet Spark versus SEAT Mii, used Suzuki Liana and Nissan Almera buying guidance, fogged-headlight inspection, and Swiss import risk.
+
 ## [0.1.105] - 2026-07-26
 
 ### Added

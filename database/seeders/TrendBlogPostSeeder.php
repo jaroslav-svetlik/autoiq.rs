@@ -8871,6 +8871,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1e3a5f', '#f59e0b', '#fffbeb'],
             ],
+            [
+                'title' => 'Chevrolet Spark ili SEAT Mii: mali gradski auto kada niska cena ne sme da sakrije poslednji račun',
+                'slug' => 'chevrolet-spark-ili-seat-mii-mali-gradski-auto-kada-niska-cena-ne-sme-da-sakrije-poslednji-racun',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je birala između povoljnog Chevroleta Sparka i urednijeg SEAT-a Mii, pa je tek kroz probnu vožnju i račune videla koji mali auto ostavlja budžet za život posle kupovine.',
+                'content' => <<<'TEXT'
+Jelena je tražila prvi auto za posao i svakodnevne vožnje po Beogradu. U užem izboru su ostali Chevrolet Spark sa nižom cenom i SEAT Mii koji je koštao više, ali je izgledao urednije. Spark je na fotografijama imao više opreme, Mii manje sjaja, ali uredne račune. Pre nego što je počela da poredi boju i felne, odlučila je da za svaki primerak napravi istu listu: istorija, hladan start, grad, parking i trošak koji ostaje posle registracije.
+
+Kod Sparka je proverila miran rad benzinca, kvačilo, menjač i sva dugmad u kabini, jer se kod jeftinog gradskog auta sitni zanemareni kvarovi brzo sabiraju. Kod Mii-ja je gledala da li se priča o jednostavnosti poklapa sa stanjem trapa, kočnica, guma i servisnih računa. Niska potrošnja nije dokaz jeftinog vlasništva ako je prethodni vlasnik preskakao ulje, akumulator ili potrošne delove. VIN i računi vrede više od obećanja da je auto bio samo za grad.
+
+Na probnoj vožnji Jelena nije vozila samo ravnim putem. Parkirala je, krenula uzbrdo, prešla preko šahtova, uključila klimu i slušala kako se motor ponaša hladan i zagrejan. Spark joj je više odgovarao kada je konkretan primerak imao urednu mehaniku i realnu cenu, dok je Mii imao prednost kada su joj značili jednostavnija kabina, preglednost i jasna servisna priča. Nijedan nije automatski bolji; bolji je onaj koji nema skrivenu listu odloženih radova.
+
+Izabrala je Mii sa skromnijom opremom, ali novijim gumama i računima za servis, jer je razlika u ceni ostavljala manje nepoznatih stavki. Nastavi kada su pregled, vožnja i dokumentacija saglasni; pregovaraj za jasno procenjene kočnice, gume ili mali servis; odustani kada prodavac nisku cenu brani bez pregleda. Mali gradski auto je dobar tek kada ostane mali i njegov naredni račun.
+TEXT,
+                'highlights' => ['Uporedi konkretne primerke kroz VIN, račune, hladan start i probnu vožnju, ne kroz opremu iz oglasa.', 'Kod oba auta proveri kvačilo, menjač, trap, kočnice, gume i rad klime u gradskoj vožnji.', 'Pregovaraj samo za jasan potrošni rad; ne kupuj niz sitnih kvarova kao navodnu uštedu.'],
+                'tags' => ['Chevrolet Spark', 'SEAT Mii', 'gradski auto', 'benzinac', 'poređenje modela'],
+                'meta_title' => 'Chevrolet Spark ili SEAT Mii: šta kupiti kao polovnjak',
+                'meta_description' => 'Poređenje polovnih Chevrolet Sparka i SEAT-a Mii: grad, benzinac, kvačilo, trap, klima, servisna istorija i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Suzuki Liana: porodični kompakt koji mora dokazati 4x4, rđu i miran servis',
+                'slug' => 'polovni-suzuki-liana-porodicni-kompakt-koji-mora-dokazati-4x4-rdju-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je tražio povoljan kompakt sa višim sedenjem, ali je kod Suzukija Liane proverio da li neobičan oblik skriva koroziju, pogon bez održavanja ili samo poštenu starost.',
+                'content' => <<<'TEXT'
+Marko je želeo razuman porodični auto koji nije suv u svakom oglasu. Suzuki Liana mu je delovala zanimljivo zbog prostrane kabine i dostupnih verzija sa pogonom na sva četiri točka, ali prvi primerak je imao lep enterijer i nejasnu priču o servisu. Kod starijeg kompakta oblik nije najvažniji: važnije je da li limarija, motor i način korišćenja govore istu priču.
+
+Pre kapare je tražio VIN i račune, pa na hladnom startu slušao motor i gledao ima li curenja ili lampica. Kod verzije sa 4x4 nije prihvatio rečenicu da pogon radi zato što se auto "lepo vuče". Na bezbednom mestu i uz pregled majstora proveravaju se stanje guma istih dimenzija, rad pogona i podvozje, bez nasilnog testiranja sistema. Ako nema dokaza o održavanju, dodatna oprema nije razlog za optimizam.
+
+Na dizalici je pregledao pragove, rubove blatobrana, pod, nosače i kočione cevi, a zatim u vožnji trap, kvačilo, menjač i ponašanje pri kočenju. U kabini je isprobao klimu, podizače i brave, jer stariji praktičan auto često pokaže zanemarivanje kroz više malih kvarova. Jedan procenjen servis je pregovor; skup neobjašnjenih tragova korozije i elektronike je razlog da se ode.
+
+Marko je kupio Lianu tek kada su podvozje, računi i mirna vožnja potvrdili da godine nisu prikrivene. Nastavi kada je karoserija zdrava, servis proverljiv i pogon dokumentovan; pregovaraj za konkretne potrošne stavke; odustani kada rđa ili nejasan 4x4 ostanu bez pregleda. Neobičan kompakt ima smisla samo ako mu je stanje mnogo običnije od oglasa.
+TEXT,
+                'highlights' => ['Traži VIN i račune, pa hladan start i pregled motora obavi pre razgovora o ceni.', 'Kod 4x4 primerka proveri pogon, jednake gume i podvozje sa majstorom, bez agresivnog testiranja.', 'Na dizalici pogledaj pragove, rubove, pod, nosače i kočione cevi pre kapare.'],
+                'tags' => ['Suzuki Liana', '4x4', 'korozija', 'porodični kompakt', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Suzuki Liana: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Suzukija Liane: 4x4 pogon, korozija, motor, trap, gume, kabina, servisna istorija i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#14532d', '#facc15', '#fefce8'],
+            ],
+            [
+                'title' => 'Polovni Nissan Almera: miran porodični auto koji mora dokazati limariju, klimu i stvarnu kilometražu',
+                'slug' => 'polovni-nissan-almera-miran-porodicni-auto-koji-mora-dokazati-limariju-klimu-i-stvarnu-kilometrazu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je tražila nenametljiv porodični auto, ali je kod Nissana Almere proverila da li uredan enterijer prati zdravu limariju, rad klime i kilometražu koja ima dokaz.',
+                'content' => <<<'TEXT'
+Ana nije tražila auto koji će privlačiti pogled, već onaj u koji mogu stati kolica, namirnice i troškovi bez iznenađenja. Nissan Almera joj je delovala kao mirna opcija, ali prvi oglas je imao sumnjivo nisku kilometražu i prodavca bez računa. Kod ovakvog polovnjaka tišina u oglasu nije isto što i uredna istorija; moraš povezati stanje kabine, servis i limariju.
+
+Najpre je tražila VIN, račune i datume redovnih servisa, pa proverila da li volan, pedale, sedište i prekidači imaju smisla uz prijavljenu kilometražu. Hladan motor mora da upali ravnomerno, bez dima, neobičnog zvuka i lampica koje se objašnjavaju tek posle kupovine. Benzinac koji deluje jednostavno i dalje traži redovno ulje, rashladni sistem i uredan servis, a ne samo jeftin oglas.
+
+Sa majstorom je pregledala pragove, pod, rubove blatobrana i donji deo gepeka, zatim trap i kočnice. Na vožnji je uključila klimu, probala ventilator na svim brzinama, podizače, centralnu bravu i svaki signal na tabli. Klimu ne ocenjuj po tome da li samo duva; mora da hladi stabilno i bez čudnog zvuka, jer se odloženi mali kvarovi često pretvore u skup prvi mesec vlasništva.
+
+Ana je odustala od Almere sa sveže opranim motorom i bez pregleda, a kupila primerak sa vidljivim, ali pošteno procenjenim kozmetičkim manama. Nastavi kada kilometraža ima trag, limarija je zdrava i klima radi uredno; pregovaraj za konkretan servis; odustani kada se priča o maloj kilometraži ne poklapa sa stanjem auta. Miran porodični auto mora da smiri i budžet, ne samo vožnju.
+TEXT,
+                'highlights' => ['Poveži VIN, račune, enterijer i stanje pedala sa prijavljenom kilometražom.', 'Proveri hladan start, rashladni sistem i sve lampice pre nego što razgovaraš o popustu.', 'Pregledaj pragove, pod i gepek, pa testiraj klimu, ventilator i osnovnu elektroniku u vožnji.'],
+                'tags' => ['Nissan Almera', 'benzinac', 'klima', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Nissan Almera: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Nissana Almere: kilometraža, limarija, klima, motor, trap, kočnice, servisna istorija i rizici.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e81', '#60a5fa', '#eff6ff'],
+            ],
+            [
+                'title' => 'Zamagljeni farovi na polovnom autu: kada mutno staklo otkriva vlagu, lošu sijalicu ili udarac',
+                'slug' => 'zamagljeni-farovi-na-polovnom-autu-kada-mutno-staklo-otkriva-vlagu-losu-sijalicu-ili-udarac',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stefan je na polovnom autu video mutan far i kapljice iza stakla, pa je pre kapare utvrdio da li je u pitanju prolazna kondenzacija ili trag popravke posle udara.',
+                'content' => <<<'TEXT'
+Stefan je stigao da pogleda uredan hečbek predveče i tek kada su se upalila svetla primetio je da je desni far mutniji, sa sitnim kapljicama iznutra. Prodavac je rekao da je to normalno posle pranja. To može biti tačno, ali kupac ne treba da pogađa: far utiče na vidljivost, može otkriti vlagu ili loše zaptivanje, a razlika između levog i desnog često govori i o ranijoj popravci.
+
+Najpre je uporedio oba fara po bistrini, boji plastike, nosačima, šrafovima i zazorima prema braniku i haubi. Pogledao je oznake na kućištu, ali nije pokušavao da rastavlja far niti da ga zagreva na licu mesta. Kratka kondenzacija koja nestane može biti drugačija od stajaće vode, pukotine ili tragova oksidacije. Ako je jedan far nov, a drugi star, prodavac mora objasniti razlog i pregled treba da proveri okolni lim.
+
+Zatim je uključio kratka i duga svetla, poziciju, pokazivač pravca i podešavanje visine snopa, pa u vožnji proverio da li svetla trepere ili tabla javlja grešku. Ne stavljaj jaču sijalicu da bi prikrio loš snop i ne prihvataj vlagu kao ukrasnu manu bez procene. Kod modernijeg auta neodgovarajuća svetla ili elektronika mogu tražiti više od poliranja stakla.
+
+Stefan je pregovarao za primerak kod kog je majstor potvrdio samo površinsko matiranje, ali je odustao od auta sa vodom u faru i pomerenim zazorima. Nastavi kada uzrok bude jasan i svetla rade uredno; pregovaraj za procenjeno poliranje ili zamenu; odustani kada vlaga, nosači i karoserija ne pričaju istu priču. Mutan far je poziv na pregled, ne automatska prilika.
+TEXT,
+                'highlights' => ['Uporedi oba fara, nosače, šrafove i zazore prema braniku i haubi.', 'Testiraj sve funkcije svetala i podešavanje snopa, ali ne rastavljaj niti zagrevaj far na pregledu.', 'Nastavi tek kada majstor objasni vlagu ili matiranje; odustani kod vode, pukotina i nejasnih tragova udara.'],
+                'tags' => ['farovi', 'vlaga', 'karoserija', 'svetla', 'provera vozila'],
+                'meta_title' => 'Zamagljeni farovi na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti zamagljene farove na polovnom autu: vlaga, matiranje, nosači, zazori, svetla, karoserija, udarac i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172554', '#fbbf24', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Švajcarske: kada uredan oglas traži proveru carine, soli i servisne priče',
+                'slug' => 'uvoz-auta-iz-svajcarske-kada-uredan-oglas-trazi-proveru-carine-soli-i-servisne-price',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je našao švajcarski karavan sa kompletnim računima, ali je pre puta razdvojio urednu servisnu priču od carinskih obaveza, zimskih tragova i stvarnog stanja podvozja.',
+                'content' => <<<'TEXT'
+Vladimir je pronašao karavan iz Švajcarske sa jasnim fotografijama, bogatom opremom i fasciklom servisnih računa. Oglas je delovao sigurnije od prosečnog, ali ga je cena naterala da uspori. Švajcarska nije članica EU, pa uredan auto i uredan račun ne znače da su ukupni troškovi i dokumenti automatski jednostavni za kupca u Srbiji. Pre puta je hteo da zna šta tačno plaća i šta konkretan auto dokazuje.
+
+Tražio je VIN, švajcarski saobraćajni dokument, račune, poslednje tehničke zapise i sled vlasništva, pa je proverio da li se datumi, kilometraža i oprema poklapaju. Za carinske, poreske i registracione obaveze tražio je aktuelan obračun od nadležnog špeditera, umesto da ih procenjuje iz oglasa. Ne šalji kaparu na osnovu rečenice da su papiri laki; dokumentacija mora pripadati baš tom vozilu, a ukupan trošak mora stati u budžet.
+
+Na licu mesta je sa majstorom pogledao pragove, pod, nosače, kočione cevi, izduv i podvozje. Planinske rute, zimska so i česte promene vremena ne moraju značiti loš auto, ali zahtevaju pregled ispod uredne karoserije. Zatim je proverio grejanje, klimu, svetla, gume i probnu vožnju, jer dobra servisna knjižica ne zamenjuje stvarno stanje kočnica, trapa i elektronike.
+
+Vladimir je odustao od prvog oglasa kada se papiri nisu poklapali sa vlasnikom, a izabrao drugi tek kada su troškovi, VIN i pregled bili jasni. Nastavi kada carinska računica, poreklo i podvozje imaju dokaz; pregovaraj za jednu merljivu stavku; odustani kada uredan oglas traži previše pretpostavki. Švajcarski uvoz može biti dobra kupovina, ali samo kada je precizan i na papiru i na dizalici.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, švajcarske papire, račune, tehničke zapise i sled vlasništva.', 'Aktuelne carinske i registracione troškove proveri kod nadležnog špeditera za konkretan auto.', 'Na dizalici pregledaj podvozje, pragove, kočione cevi i izduv zbog zimskih i planinskih uslova.'],
+                'tags' => ['uvoz iz Švajcarske', 'uvoz auta', 'carina', 'korozija', 'servisna istorija'],
+                'meta_title' => 'Uvoz auta iz Švajcarske: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Švajcarske: VIN, dokumenti, carina, špediter, servisna istorija, so, podvozje i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7f1d1d', '#facc15', '#fff7ed'],
+            ],
 
         ];
     }

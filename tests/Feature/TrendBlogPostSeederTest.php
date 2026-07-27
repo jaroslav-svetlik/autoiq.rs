@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(315, $posts);
+        $this->assertCount(320, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(76, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(77, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'chevrolet-spark-ili-seat-mii-mali-gradski-auto-kada-niska-cena-ne-sme-da-sakrije-poslednji-racun'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-liana-porodicni-kompakt-koji-mora-dokazati-4x4-rdju-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-almera-miran-porodicni-auto-koji-mora-dokazati-limariju-klimu-i-stvarnu-kilometrazu'));
+        $this->assertTrue($posts->contains('slug', 'zamagljeni-farovi-na-polovnom-autu-kada-mutno-staklo-otkriva-vlagu-losu-sijalicu-ili-udarac'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-svajcarske-kada-uredan-oglas-trazi-proveru-carine-soli-i-servisne-price'));
         $this->assertTrue($posts->contains('slug', 'renault-wind-ili-nissan-micra-cc-mali-kabriolet-kada-leto-ne-sme-da-sakrije-krov-i-trosak'));
         $this->assertTrue($posts->contains('slug', 'polovni-subaru-trezia-mali-porodicni-auto-koji-mora-dokazati-poreklo-kabinu-i-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-lancia-musa-gradski-monovolumen-koji-mora-dokazati-elektroniku-kabinu-i-miran-servis'));
