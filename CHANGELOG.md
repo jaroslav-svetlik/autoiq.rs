@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.108] - 2026-07-29
+
+### Fixed
+
+- Documented the production blog-batch seed, individual WebP upload, cover binding, cache rebuild, and smoke-test steps so daily editorial releases do not stop after source publishing.
+
 ## [0.1.107] - 2026-07-28
 
 ### Added

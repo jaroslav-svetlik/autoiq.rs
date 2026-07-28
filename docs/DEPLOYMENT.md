@@ -140,6 +140,36 @@ php artisan queue:restart
 php artisan up
 ```
 
+## Production Blog Batch Data Delivery
+
+For a production editorial batch, run these additive, idempotent steps after
+the standard deployment. They are the approved way to publish the posts and
+their already-reviewed local WebP cover files; do not substitute a broad copy,
+delete, reset, or a destructive database command.
+
+```bash
+# Insert only missing TrendBlogPostSeeder posts; existing slugs are updated idempotently.
+php artisan db:seed --class=Database\\Seeders\\TrendBlogPostSeeder --force
+
+# Upload every reviewed cover individually from the local workspace.
+scp -P 9988 storage/app/public/blog/generated/<slug>.webp \
+  deploy@164.68.121.125:/www/wwwroot/autoiq.rs/storage/app/public/blog/generated/<slug>.webp
+
+# Bind every uploaded cover to its exact seeded post.
+php artisan tinker --execute='App\\Models\\BlogPost::where("slug", "<slug>")->update(["cover_image_path" => "blog/generated/<slug>.webp"]);'
+
+# Re-encode the bound covers if needed, rebuild caches, and restart workers.
+php artisan blog:optimize-covers --slug=<slug-1> --slug=<slug-2> --slug=<slug-3> --slug=<slug-4> --slug=<slug-5>
+php artisan optimize:clear
+php artisan optimize
+php artisan queue:restart
+```
+
+Use `curl -fsSIL` to smoke-test every article URL and cover URL. Each article
+must return `200`; every cover must return `200` with `Content-Type: image/webp`.
+If any individual upload, binding, optimization, or smoke test fails, keep the
+site up, report the exact failed target, and do not perform a broad rollback.
+
 Notes:
 
 - `git pull --ff-only` prevents merge commits and avoids rewriting history.
