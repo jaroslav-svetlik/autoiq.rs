@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(320, $posts);
+        $this->assertCount(325, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(77, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(78, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'nissan-pixo-ili-suzuki-celerio-mali-auto-kada-jednostavnost-mora-da-dokaze-svoje-racune'));
+        $this->assertTrue($posts->contains('slug', 'polovni-renault-latitude-velika-limuzina-koja-mora-dokazati-udobnost-servis-i-realnu-cenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-peugeot-408-porodicna-limuzina-koja-mora-dokazati-prostor-motor-i-mirnu-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'prskalice-vetrobrana-na-polovnom-autu-kada-slab-mlaz-otkriva-crevo-pumpu-ili-zanemareno-odrzavanje'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-albanije-kada-blizina-i-niza-cena-traze-proveru-porekla-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'chevrolet-spark-ili-seat-mii-mali-gradski-auto-kada-niska-cena-ne-sme-da-sakrije-poslednji-racun'));
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-liana-porodicni-kompakt-koji-mora-dokazati-4x4-rdju-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-almera-miran-porodicni-auto-koji-mora-dokazati-limariju-klimu-i-stvarnu-kilometrazu'));

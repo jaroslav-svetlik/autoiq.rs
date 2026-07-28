@@ -8986,6 +8986,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#7f1d1d', '#facc15', '#fff7ed'],
             ],
+            [
+                'title' => 'Nissan Pixo ili Suzuki Celerio: mali auto kada jednostavnost mora da dokaže svoje račune',
+                'slug' => 'nissan-pixo-ili-suzuki-celerio-mali-auto-kada-jednostavnost-mora-da-dokaze-svoje-racune',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Maja je birala između retkog Nissana Pixa i novijeg Suzukija Celerio, pa je kroz račune, parking i probnu vožnju proverila koji mali auto zaista ostavlja mirniji budžet.',
+                'content' => <<<'TEXT'
+Maja je tražila mali benzinac za posao, kupovinu i parkiranje ispred zgrade. Nissan Pixo joj je privukao pažnju nižom cenom, dok je Suzuki Celerio delovao novije i urednije, ali je koštao više. Na oglasima su oba izgledala kao jednostavna kupovina, pa je Maja pre poređenja opreme napravila isto pitanje za svaki primerak: šta je urađeno, šta će uskoro tražiti novac i da li joj auto stvarno odgovara u gradu.
+
+Kod Pixa je tražila VIN, račune za ulje, kočnice, akumulator i gume, pa proverila hladan start, kvačilo i menjanje brzina. Kod Celeria je gledala istu osnovu, uz posebno pažljivo isprobavanje klime, podizača, centralne brave i stanja enterijera. Jednostavan mali auto nije automatski jeftin ako mu prethodni vlasnik nije radio sitne stvari na vreme. Retkost Pixa takođe znači da pre kapare treba proveriti dostupnost konkretnog potrošnog ili limarskog dela.
+
+Na probnoj vožnji Maja nije vozila samo krug oko placa. Parkirala je oba auta, krenula uzbrdo, prešla preko šahtova i uključila klimu dok je slušala motor i trap. Pixo je imao smisla kada je primerak bio zdrav, dokumentovan i dovoljno jeftin da ostavi rezervu za početni servis. Celerio je dobijao prednost kada su joj više značili svežije stanje, preglednost i manje kompromisa, ali samo uz jasnu istoriju.
+
+Odabrala je uredniji Celerio jer je razlika u ceni bila manja od liste neposrednih ulaganja na Pixu. Nastavi kada se računi, vožnja i pregled slažu; pregovaraj za jasno procenjene gume, kočnice ili servis; odustani kada niska cena pokriva nejasne tragove održavanja. Kod malog auta najbolji rezultat nije najniža cena oglasa, već najmanje nepoznatih računa posle kupovine.
+TEXT,
+                'highlights' => ['Za oba primerka traži VIN i račune za redovan servis, kočnice, akumulator i gume.', 'Testiraj hladan start, kvačilo, menjanje brzina, klimu, parking i trap na neravninama.', 'Kod ređeg Pixa proveri dostupnost konkretnih delova pre kapare, ne tek posle kvara.'],
+                'tags' => ['Nissan Pixo', 'Suzuki Celerio', 'mali auto', 'benzinac', 'poređenje modela'],
+                'meta_title' => 'Nissan Pixo ili Suzuki Celerio: šta kupiti kao polovnjak',
+                'meta_description' => 'Poređenje polovnih Nissana Pixo i Suzukija Celerio: grad, benzinac, servis, delovi, klima, trap, računi i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e293b', '#f59e0b', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Renault Latitude: velika limuzina koja mora dokazati udobnost, servis i realnu cenu',
+                'slug' => 'polovni-renault-latitude-velika-limuzina-koja-mora-dokazati-udobnost-servis-i-realnu-cenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je želeo veliku limuzinu za put bez premium računa, ali je kod Renaulta Latitude proverio da li udobnost prati dokumentovan motor, automatik i urednu elektroniku.',
+                'content' => <<<'TEXT'
+Milan je želeo mirnu limuzinu za duža putovanja do porodice i more, bez ulaska u stariji premium automobil. Renault Latitude mu je nudio široka sedišta, tišu kabinu i cenu koja je ostavljala prostora u budžetu, ali prvi primerak je imao mnogo opreme i malo računa. Kod velike limuzine komfor nema vrednost ako se iza njega krije odložen servis ili elektronika koju niko nije proverio.
+
+Pre razgovora o ceni zatražio je VIN, servisne račune i podatke o motoru i menjaču koji su baš u tom automobilu. Na hladnom startu pratio je rad motora, upozorenja na tabli i stabilnost ler gasa, a zatim isprobao klimu, sedišta, ekran, senzore i svaku funkciju koju oglas posebno naglašava. Kod automatskog menjača nije prihvatio rečenicu da radi dobro bez vožnje i pregleda majstora.
+
+Na putu je vozio grad, otvoren put i lošiji asfalt, slušao trap i proverio kočenje, upravljanje i promene stepena prenosa. Posle toga je na dizalici pogledao podvozje, curenja, kočnice i gume, jer veliki auto često sakrije trošak kroz više skupih potrošnih stavki. U kabini je proverio i zadnja sedišta i gepek sa stvarima koje bi stvarno nosio.
+
+Milan je odustao od bogatije opreme bez istorije i kupio skromniji Latitude sa računima i jasnim pregledom. Nastavi kada udobnost prati dokaziv servis i mirna vožnja; pregovaraj za jednu procenjenu potrošnu stavku; odustani kada duga lista neproverenih funkcija treba da opravda nisku cenu. Velika limuzina je dobra kupovina tek kada njen komfor ne otvara veći račun.
+TEXT,
+                'highlights' => ['Traži VIN i račune za motor, menjač i redovne servise pre kapare.', 'Isprobaj svu oglašenu opremu, posebno klimu, sedišta, ekran, senzore i lampice na tabli.', 'Na vožnji i dizalici proveri automatik, trap, kočnice, gume, curenja i podvozje.'],
+                'tags' => ['Renault Latitude', 'velika limuzina', 'automatik', 'elektronika', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Renault Latitude: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Renaulta Latitude: motor, automatik, elektronika, klima, trap, podvozje, servisna istorija i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e81', '#a5b4fc', '#eef2ff'],
+            ],
+            [
+                'title' => 'Polovni Peugeot 408: porodična limuzina koja mora dokazati prostor, motor i mirnu istoriju',
+                'slug' => 'polovni-peugeot-408-porodicna-limuzina-koja-mora-dokazati-prostor-motor-i-mirnu-istoriju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tamara je tražila porodičnu limuzinu sa velikim gepekom, ali je kod Peugeota 408 proverila da li prostor prati zdrav motor, trap i istoriju bez preskočenih servisa.',
+                'content' => <<<'TEXT'
+Tamara je tražila auto u koji staju kolica, namirnice i vikend prtljag, a da dužina limuzine ne pretvori svako parkiranje u stres. Peugeot 408 joj je delovao kao razuman spoj velikog gepeka i poznatih mehaničkih osnova, ali prvi oglas je imao lep enterijer i praznu priču o održavanju. Kod porodične limuzine prostor je razlog da pogledaš auto, ne razlog da preskočiš pregled.
+
+Najpre je tražila VIN, račune i tačan podatak o motoru, pa povezala kilometražu sa stanjem volana, pedala, sedišta i prekidača. Hladan start morao je biti miran, bez dima, neobičnih lampica i objašnjenja da se sitnica rešava posle kupovine. Pre odluke je proverila intervale redovnog održavanja koje traži konkretan motor, kao i račune za kočnice, gume i rashladni sistem.
+
+Sa majstorom je pregledala pragove, pod, donji deo gepeka i trap, a na probnoj vožnji proverila kvačilo ili automatik, kočenje, upravljanje i klimu. Zatim je otvorila gepek, oborila naslon kada postoji i smestila stvari koje njena porodica stvarno nosi. Ako praktičnost zavisi od trikova sa pakovanjem, auto možda nije pravi odgovor čak i kada je cena privlačna.
+
+Tamara je izabrala primerak sa manjom opremom, ali urednim servisnim tragom i zdravim trapom. Nastavi kada motor, karoserija i kabina potvrđuju istu priču; pregovaraj za jasno procenjen potrošni rad; odustani kada veliki gepek pokušava da prekrije motor bez dokumentacije ili više neobjašnjenih sitnica. Porodični auto mora olakšati svaki dan, a ne samo izgledati prostrano na oglasu.
+TEXT,
+                'highlights' => ['Poveži VIN, motor, račune i habanje kabine sa prijavljenom kilometražom.', 'Proveri hladan start, lampice, rashladni sistem, kočnice i gume pre pregovora.', 'Pregledaj podvozje i trap, pa gepek isprobaj sa stvarima koje porodica stvarno nosi.'],
+                'tags' => ['Peugeot 408', 'porodična limuzina', 'gepek', 'benzinac', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Peugeot 408: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Peugeota 408: motor, servis, trap, karoserija, gepek, klima, kočnice, istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#164e63', '#22d3ee', '#ecfeff'],
+            ],
+            [
+                'title' => 'Prskalice vetrobrana na polovnom autu: kada slab mlaz otkriva crevo, pumpu ili zanemareno održavanje',
+                'slug' => 'prskalice-vetrobrana-na-polovnom-autu-kada-slab-mlaz-otkriva-crevo-pumpu-ili-zanemareno-odrzavanje',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ivan je pre probne vožnje uključio prskalice i video slab mlaz, pa je proverio da li je reč o tečnosti ili znaku zapuštenog sistema koji ne sme da ostane neobjašnjen.',
+                'content' => <<<'TEXT'
+Ivan je seo u uredan polovan auto i pre polaska uključio pranje vetrobrana. Brisači su krenuli, ali je tečnost stigla samo kao slab mlaz do donjeg dela stakla. Prodavac je rekao da je rezervoar verovatno prazan, što može biti tačno, ali Ivan nije hteo da pretvori pretpostavku u kaparu. Prskalice su mala stvar, ali mogu pokazati zapušteno održavanje, curenje, lošu pumpu ili oštećenje oko haube.
+
+Uz dozvolu prodavca proverio je nivo tečnosti i uključio sistem kratko, bez dugog rada na suvo. Poslušao je da li se pumpa čuje, pogledao da li se ispod auta ili oko haube pojavljuje curenje i da li su mlaznice zapušene ili pogrešno usmerene. Nije skidao obloge niti čistio iglama na licu mesta; cilj pregleda je da utvrdi simptom, ne da na placu radi popravku.
+
+Zatim je proverio rad prednjeg i, kada postoji, zadnjeg pranja, kao i brisače i stanje guma metlica. Ako se pumpa ne čuje, mlaz nestaje pod haubom ili sistem radi povremeno, majstor treba da proceni crevo, pumpu, osigurač i instalaciju. Posebno je važno da se vidljivost ne tretira kao luksuz: probna vožnja po prljavom ili mokrom staklu nije dobar test bez ispravnog pranja.
+
+Ivan je pregovarao tek kada je majstor potvrdio lokalizovan kvar na mlaznici, a od drugog auta odustao kada je curenje pratilo više neobjašnjenih električnih sitnica. Nastavi kada se uzrok jasno vidi i trošak je procenjen; pregovaraj za dokaziv kvar; odustani kada mala funkcija otvara širu priču bez pregleda. Čist vetrobran je bezbednost, a ne kozmetika oglasa.
+TEXT,
+                'highlights' => ['Uz dozvolu proveri nivo tečnosti i rad sistema kratko; ne puštaj pumpu dugo na suvo.', 'Slušaj pumpu i pogledaj da li ima curenja, zapušenih ili loše usmerenih mlaznica.', 'Ne rastavljaj i ne čisti na licu mesta; za povremen rad ili curenje traži procenu majstora.'],
+                'tags' => ['prskalice vetrobrana', 'pumpa za pranje', 'vidljivost', 'održavanje', 'provera vozila'],
+                'meta_title' => 'Prskalice vetrobrana: šta proveriti na polovnom autu',
+                'meta_description' => 'Kako proveriti prskalice vetrobrana polovnog auta: tečnost, pumpa, crevo, mlaznice, brisači, curenje, vidljivost i pregled pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0f766e', '#5eead4', '#f0fdfa'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Albanije: kada blizina i niža cena traže proveru porekla, papira i stanja',
+                'slug' => 'uvoz-auta-iz-albanije-kada-blizina-i-niza-cena-traze-proveru-porekla-papira-i-stanja',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nenad je pronašao povoljan oglas iz Albanije, ali je pre puta povezao VIN, dokumenta i pregled podvozja da bi znao da li blizina zaista donosi lakšu kupovinu.',
+                'content' => <<<'TEXT'
+Nenad je video oglas iz Albanije za porodični hečbek sa cenom nižom od sličnih primeraka kod nas. Put nije delovao komplikovano, a fotografije su pokazivale čist auto i puno opreme. Ipak, blizina tržišta ne rešava pitanje porekla, dokumentacije i stvarnog stanja. Pre nego što je krenuo, Nenad je hteo da zna ko je poslednji vlasnik, kroz koje je tržište auto prošao i koliko ga uvoz zaista košta.
+
+Tražio je VIN, albanski registracioni dokument, servisne račune, dokaz o vlasništvu i jasne fotografije svih papira. Uporedio je datume, kilometražu, opremu i podatke sa dokumentima, a za uvozne, carinske i registracione obaveze zatražio aktuelan obračun od nadležnog špeditera za konkretno vozilo. Ne šalji kaparu samo zato što prodavac obećava brz transport ili lako rešavanje papira; dokumentacija mora pratiti baš taj automobil.
+
+Na licu mesta plan je uključivao nezavisan pregled: pragovi, podvozje, kočione cevi, trap, gume, zazori i donji deo gepeka. Vožnja kroz grad, hladan start i dijagnostika proveravaju mehaniku, ali ne zamenjuju proveru istorije. Ako trag vlasništva preskače period, VIN ne odgovara opremi ili pregled nije dozvoljen, niža cena više nije prednost nego trošak neizvesnosti.
+
+Nenad je odustao od prvog oglasa zbog neusklađenih papira, a drugi razmatrao tek kada su VIN, dokumenta i pregled dali isti odgovor. Nastavi kada poreklo, ukupan trošak i stanje imaju dokaz; pregovaraj za jednu procenjenu stavku; odustani kada blizina treba da zameni jasne papire. Uvoz iz Albanije može biti razuman, ali samo kada je proverljiv pre puta i na licu mesta.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, albanske papire, račune, dokaz o vlasništvu i sled dokumentacije.', 'Aktuelne carinske i registracione obaveze proveri kod nadležnog špeditera za konkretan auto.', 'Na pregledu traži podvozje, kočione cevi, trap, gepek, zazore, vožnju i dijagnostiku.'],
+                'tags' => ['uvoz iz Albanije', 'uvoz auta', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Albanije: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Albanije: VIN, dokumenti, poreklo, špediter, podvozje, pregled, transport i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
+            ],
 
         ];
     }
