@@ -9101,6 +9101,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
             ],
+            [
+                'title' => 'Škoda Rapid ili SEAT Toledo: porodična limuzina kada veliki gepek ne sme da presudi kupovinu',
+                'slug' => 'skoda-rapid-ili-seat-toledo-porodicna-limuzina-kada-veliki-gepek-ne-sme-da-presudi-kupovinu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je birao između Škode Rapid i SEAT Toleda zbog velikog gepeka, ali je kroz račune, zadnju klupu i probnu vožnju utvrdio koji konkretan primerak nosi manje nepoznatih troškova.',
+                'content' => <<<'TEXT'
+Nikola je tražio porodičan auto koji može progutati kolica, alat i vikend kupovinu, a da ne zauzima pola parkinga. Škoda Rapid i SEAT Toledo su mu na oglasima izgledali skoro kao isto rešenje: praktična limuzina, poznata mehanika i veliki otvor gepeka. Ipak, jedan Rapid je imao uredne račune i ogrebanu ivicu utovara, dok je lepši Toledo nudio samo usmenu priču o servisu. Kod bliskih modela ne bira se značka, već trag koji konkretan automobil ostavlja iza sebe.
+
+Kod oba primerka Nikola je najpre tražio VIN, račune za redovan servis, dokaz o radu na motoru i, ako postoji automatik, servis menjača. Rapid može imati prednost kada je lakše naći slične oglase i uporediti stanje, dok Toledo ima smisla ako je cena stvarno bolja za jednako jasnu istoriju. Ne pretpostavljaj da zajednička osnova znači isti rizik: motor, menjač, oprema i način prethodne vožnje moraju se proveriti na baš tom autu.
+
+Zatim je otvorio gepek, podigao podnicu, proverio vlagu, šarke, bravu i tragove grubog utovara, pa seo iza vozača da proceni stvaran prostor. U vožnji je testirao hladan start, kvačilo ili promene automatika, trap preko neravnina, klimu i svetla. Veliki gepek nije popust za istrošene gume, nemiran trap ili lampicu na tabli; pregled majstora i dijagnostika pretvaraju obećanje o praktičnosti u odluku.
+
+Nikola je izabrao Rapid sa skromnijom opremom jer su računi, vožnja i pod gepeka bili mirni, a Toledo je ostavio kada prodavac nije dozvolio pregled. Nastavi kada istorija, funkcije i cena govore istu stvar; pregovaraj za jasno procenjene potrošne stavke; odustani kada prostor služi da sakrije nejasan servis. Kod ove dve limuzine bolji je auto koji posle kupovine ostavlja rezervu, ne onaj sa većim obećanjem na oglasu.
+TEXT,
+                'highlights' => ['Za oba auta traži VIN i račune za servis motora, a kod automatika i dokaz o održavanju menjača.', 'Proveri podnicu gepeka, vlagu, šarke i bravu, pa na zadnjoj klupi proceni stvarnu porodičnu upotrebljivost.', 'Hladan start, trap, klima, dijagnostika i pregled majstora vrede više od zajedničke platforme i velikog gepeka.'],
+                'tags' => ['Škoda Rapid', 'SEAT Toledo', 'porodična limuzina', 'veliki gepek', 'poređenje modela'],
+                'meta_title' => 'Škoda Rapid ili SEAT Toledo: koji polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Škode Rapid i SEAT Toleda: gepek, prostor, motor, menjač, servis, trap, klima i realan trošak kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a5f', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Hyundai Accent: limuzina koja mora dokazati benzinac, klimu i miran gradski život',
+                'slug' => 'polovni-hyundai-accent-limuzina-koja-mora-dokazati-benzinac-klimu-i-miran-gradski-zivot',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jovana je tražila pristupačnu limuzinu za posao i porodicu, ali je kod Hyundaija Accenta proverila da li uredna kabina prati zdrav benzinac, klimu i tragove gradske upotrebe.',
+                'content' => <<<'TEXT'
+Jovana je tražila jednostavnu limuzinu za svakodnevni odlazak na posao i vikend putovanja sa roditeljima. Hyundai Accent joj je bio zanimljiv zbog razumnog izgleda, gepeka i cene, ali prvi primerak je imao sjajnu karoseriju i klimu koja je hladila samo povremeno. Kod pristupačnog polovnjaka nije dovoljno da auto izgleda očuvano: treba utvrditi da li je prethodni vlasnik radio redovan servis ili je samo odlagao sitnice.
+
+Pre kapare je zatražila VIN, račune za ulje, rashladni sistem, svećice, kočnice i gume, pa je motor slušala pri hladnom startu. Benzinac treba da upali mirno, bez neobičnog dima, curenja ili lampica koje navodno nestaju same. Uredan volan i čista sedišta nisu dokaz kilometraže, zato stanje pedala, prekidača i servisnih datuma mora imati smisla kao celina.
+
+Sa majstorom je pregledala pragove, donji deo gepeka, trap i kočnice, a zatim probala klimu na više podešavanja, ventilator, podizače, brave i svetla. Na probnoj vožnji je pratila da li kvačilo hvata uredno, menjač ulazi bez otpora i auto mirno koči. Kratke gradske relacije često ostave umorne kočnice, akumulator i klimu, pa kvar koji se može jasno proceniti jeste pregovor, a niz malih izgovora nije.
+
+Jovana je kupila Accent tek kada su hladan start, klima i pregled podvozja potvrdili istu priču kao računi. Nastavi kada su benzinac, kabina i servis proverljivi; pregovaraj za konkretne gume, kočnice ili servis; odustani kada lep enterijer treba da zameni dokaz o održavanju. Mirna limuzina je dobra kupovina samo kada zaista donosi miran prvi račun.
+TEXT,
+                'highlights' => ['Poveži VIN i račune za ulje, hlađenje, svećice, kočnice i gume sa stvarnim stanjem auta.', 'Hladan start mora biti miran; dim, curenje i neobjašnjene lampice proveravaju se pre pregovora.', 'Testiraj klimu, ventilator, brave i podizače, pa trap, kočnice i kvačilo na probnoj vožnji.'],
+                'tags' => ['Hyundai Accent', 'benzinac', 'klima', 'gradska vožnja', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai Accent: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Hyundaija Accenta: benzinac, klima, kilometraža, pragovi, trap, kočnice, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#14532d', '#84cc16', '#f7fee7'],
+            ],
+            [
+                'title' => 'Polovni Honda City: limuzina koja mora dokazati CVT, gepek i stvarnu porodičnu namenu',
+                'slug' => 'polovni-honda-city-limuzina-koja-mora-dokazati-cvt-gepek-i-stvarnu-porodicnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je gledao Hondu City kao racionalnu porodičnu limuzinu, ali je pre odluke proverio da li veliki gepek prati dokumentovan CVT, zdrav trap i kabinu koja odgovara stvarnoj rutini.',
+                'content' => <<<'TEXT'
+Milan je želeo limuzinu koja neće biti prevelika za grad, ali će primiti porodični prtljag bez slagalice na zadnjem sedištu. Honda City mu je zapala za oko zbog praktičnog gepeka i reputacije, ali ga je prodavac odmah gurao ka brzom dogovoru. Milan je usporio: reputacija modela ne govori ništa o tome da li je konkretan auto vožen pažljivo, naročito kada menjač i servis ostanu bez papira.
+
+Tražio je VIN, servisne račune i datume održavanja, a kod primerka sa CVT-om i dokaz o pravilnom servisu menjača. Na hladnom startu je slušao motor, proverio tablu i pustio auto da se zagreje pre vožnje. Ne ocenjuj automatik jednim krugom oko placa: promene režima, kretanje, usporavanje i ponašanje pri manevru moraju biti mirni, a svaka zadrška ili lampica traži stručnu dijagnostiku.
+
+Milan je potom otvorio gepek, proverio podnicu, dihtunge, šarke i tragove vlage, pa namestio zadnju klupu i isprobao klimu, podizače i centralnu bravu. Na dizalici su pregledani trap, kočnice, donje ivice karoserije i gume, jer porodičan auto može nositi više ivičnjaka i punog tereta nego što fotografije pokazuju. Funkcionalan gepek je prednost samo ako voda, udarac ili loše zatvaranje nisu skriveni ispod prostirke.
+
+Milan je odustao od Cityja sa nejasnim servisom CVT-a, a kupio drugi kada su vožnja, dijagnostika i dokumenti bili usklađeni. Nastavi kada je rad menjača miran i istorija proverljiva; pregovaraj za merljiv potrošni trošak; odustani kada se praktičnost nudi kao zamena za pregled. Dobra porodična limuzina treba da primi prtljag, ali i da ostavi dovoljno sigurnosti u budžetu.
+TEXT,
+                'highlights' => ['Za City sa CVT-om traži dokaz o održavanju menjača i obaveznu probnu vožnju kroz više režima.', 'Proveri VIN, hladan start, lampice i dijagnostiku pre razgovora o atraktivnoj reputaciji modela.', 'U gepeku pogledaj podnicu, dihtunge, šarke i vlagu, a na dizalici trap, kočnice i gume.'],
+                'tags' => ['Honda City', 'CVT', 'porodična limuzina', 'gepek', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Honda City: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Honde City: CVT, gepek, benzinac, trap, kočnice, klima, dokumentacija i realni trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3f1d5f', '#c084fc', '#faf5ff'],
+            ],
+            [
+                'title' => 'Sirena na polovnom autu: kada tih signal otkriva osigurač, volan ili nejasnu popravku',
+                'slug' => 'sirena-na-polovnom-autu-kada-tih-signal-otkriva-osigurac-volan-ili-nejasnu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Luka je tokom pregleda primetio da sirena na polovnom autu ne radi, pa je pre kapare razdvojio sitan osigurač od problema sa instalacijom, prekidačem u volanu ili tragom ranije popravke.',
+                'content' => <<<'TEXT'
+Luka je pred probnu vožnju pritisnuo sredinu volana i nije čuo ništa. Prodavac je odmah rekao da je verovatno samo osigurač, što može biti tačno, ali Luka nije želeo da bezbednosnu funkciju pretvori u pretpostavku. Sirena je mala stavka, ali njen kvar može biti u samoj sireni, osiguraču, releju, instalaciji ili komandi u volanu, pa kontekst određuje da li je to pregovor ili signal za širi pregled.
+
+Uz dozvolu prodavca proverio je da li se sirena oglašava kratko i normalno, bez dugog držanja tastera i bez rastavljanja obloga. Zatim je pogledao tablu za lampice i isprobao osnovne komande na volanu, ako ih auto ima. Ne skidaj airbag, poklopac volana niti osigurače na licu mesta; oko volana postoje bezbednosni sistemi, a cilj kupca je da simptom dokumentuje i pošalje majstoru, ne da improvizuje popravku.
+
+Na pregledu je majstor proverio osigurač, relej, napajanje, konektore i stanje same sirene, a po potrebi i vezu sa spiralnim kablom i komandama. Luka je istovremeno tražio da se pogledaju zazori oko volana, poklopci airbaga i tragovi prethodnog rasklapanja, ali bez zaključivanja da svaki kvar znači udarac. Tih signal uz druge nejasne električne ili enterijerske tragove traži dijagnostiku, dok jasno potvrđen potrošni kvar može imati jednostavnu cenu.
+
+Luka je pregovarao za auto kod kog je kvar bio jasno lociran na sireni, a odustao od drugog sa ugašenom lampicom i improvizovanim žicama. Nastavi kada majstor objasni uzrok i funkcija bude vraćena bez rizika; pregovaraj za procenjen osigurač, relej ili sirenu; odustani kada se problem oko volana širi bez jasnog odgovora. Sirena nije dodatak komforu, već brz test koliko je prodavac iskren prema osnovnoj bezbednosti.
+TEXT,
+                'highlights' => ['Kratko proveri da li sirena radi, tablu i komande na volanu, ali ne rastavljaj obloge ni osigurače.', 'Kvar može biti sirena, osigurač, relej, instalacija ili komanda, zato pre pregovora traži dijagnostiku.', 'Improvizovane žice, nejasne lampice ili tragovi rasklapanja oko volana zahtevaju širi stručni pregled.'],
+                'tags' => ['sirena', 'osigurač', 'volan', 'elektronika', 'provera vozila'],
+                'meta_title' => 'Sirena na polovnom autu: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proveriti sirenu na polovnom autu: signal, osigurač, relej, instalacija, volan, airbag, dijagnostika i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7f1d1d', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Bosne i Hercegovine: kada blizina traži proveru porekla, carine i dokumentacije',
+                'slug' => 'uvoz-auta-iz-bosne-i-hercegovine-kada-blizina-trazi-proveru-porekla-carine-i-dokumentacije',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dejan je našao povoljan auto u Bosni i Hercegovini, ali je pre puta povezao VIN, vlasništvo i troškove sa pregledom vozila da bi znao da li blizina donosi uštedu ili samo bržu neizvesnost.',
+                'content' => <<<'TEXT'
+Dejan je pronašao karavan u Bosni i Hercegovini sa cenom nižom od domaćih oglasa i prodavcem koji je obećavao da je put do auta jednostavan. Blizina je bila privlačna, ali nije odgovorila na važnija pitanja: odakle je konkretno vozilo došlo, ko je vlasnik i koliko će ga stvarno koštati pre prvog kilometra u Srbiji. Kod prekogranične kupovine kratak put ne sme zameniti jasne papire i nezavisan pregled.
+
+Pre polaska je tražio VIN, originalne registracione dokumente, dokaz o vlasništvu, servisne račune i fotografije svih relevantnih papira. Uporedio je datume, kilometražu, opremu i ime prodavca, a za aktuelne carinske, poreske i registracione obaveze zatražio je obračun od nadležnog špeditera za baš taj auto. Ne šalji kaparu na osnovu obećanja da je procedura poznata; dokumentacija mora pratiti konkretno vozilo od porekla do prenosa.
+
+Na licu mesta Dejan je sa majstorom pogledao pragove, podvozje, kočione cevi, gume, trap, zazore i pod gepeka, pa uradio hladan start, dijagnostiku i probnu vožnju. Domaće ili regionalno poreklo ne znači da auto nije ranije prešao više tržišta ili bio popravljan pre dalje prodaje. Ako VIN, habanje enterijera i istorija ne govore isto, dobra cena nema dovoljno pokrića za put i uvoz.
+
+Dejan je odustao od prvog oglasa kada vlasništvo nije bilo jasno, a drugi je razmatrao tek uz potpunu dokumentaciju i procenjen ukupan trošak. Nastavi kada poreklo, papiri i pregled daju isti odgovor; pregovaraj za jednu dokazanu stavku; odustani kada blizina treba da nadomesti nedostajuće tragove. Uvoz iz Bosne i Hercegovine može biti racionalan, ali samo kada je ceo put vozila proverljiv na papiru i dizalici.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, originalne papire, vlasništvo, račune i svaki datum sa konkretnim vozilom.', 'Za tačan auto zatraži aktuelan obračun carinskih, poreskih i registracionih obaveza od nadležnog špeditera.', 'Pregledaj podvozje, pragove, kočnice, gepek, zazore, hladan start i dijagnostiku pre kapare.'],
+                'tags' => ['uvoz iz Bosne i Hercegovine', 'uvoz auta', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Bosne i Hercegovine: šta proveriti',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Bosne i Hercegovine: VIN, vlasništvo, carina, dokumentacija, pregled, podvozje i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#713f12', '#facc15', '#fffbeb'],
+            ],
 
         ];
     }

@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(325, $posts);
+        $this->assertCount(330, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(78, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(79, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'skoda-rapid-ili-seat-toledo-porodicna-limuzina-kada-veliki-gepek-ne-sme-da-presudi-kupovinu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hyundai-accent-limuzina-koja-mora-dokazati-benzinac-klimu-i-miran-gradski-zivot'));
+        $this->assertTrue($posts->contains('slug', 'polovni-honda-city-limuzina-koja-mora-dokazati-cvt-gepek-i-stvarnu-porodicnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'sirena-na-polovnom-autu-kada-tih-signal-otkriva-osigurac-volan-ili-nejasnu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-bosne-i-hercegovine-kada-blizina-trazi-proveru-porekla-carine-i-dokumentacije'));
         $this->assertTrue($posts->contains('slug', 'nissan-pixo-ili-suzuki-celerio-mali-auto-kada-jednostavnost-mora-da-dokaze-svoje-racune'));
         $this->assertTrue($posts->contains('slug', 'polovni-renault-latitude-velika-limuzina-koja-mora-dokazati-udobnost-servis-i-realnu-cenu'));
         $this->assertTrue($posts->contains('slug', 'polovni-peugeot-408-porodicna-limuzina-koja-mora-dokazati-prostor-motor-i-mirnu-istoriju'));
