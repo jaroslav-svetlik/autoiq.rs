@@ -9216,6 +9216,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#713f12', '#facc15', '#fffbeb'],
             ],
+            [
+                'title' => 'Renault Kangoo ili Citroën Nemo: mali radni auto kada klizna vrata ne smeju sakriti umor',
+                'slug' => 'renault-kangoo-ili-citroen-nemo-mali-radni-auto-kada-klizna-vrata-ne-smeju-sakriti-umor',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je tražio kompaktan auto za alat, dete i vikend kupovinu, pa je između Kangoa i Nema proveravao da li praktična vrata prate zdrav motor, pod i dokaziv radni život.',
+                'content' => <<<'TEXT'
+Nikola je želeo mali auto koji radnim danom može poneti alat, a vikendom kolica i dečji bicikl. Renault Kangoo i Citroën Nemo su mu delovali kao pametniji odgovor od velikog kombija: kratki su, imaju klizna vrata i mnogo korisnog prostora. Prvi oglas je, međutim, imao savršeno opranu kabinu i izlizanu podnicu tovarnog prostora. Tada je shvatio da ne bira samo oblik, već koliko je konkretan primerak već radio.
+
+Kangoo obično ima smisla kada kupac želi više ponude, pregledniju servisnu mrežu i kabinu koja može da služi porodici. Treba proveriti kako se otvaraju klizna vrata, da li dihtuju, rade li brave i da li pod, pragovi i zadnji trap nose tragove teškog tereta. Motor, kvačilo i menjač moraju se gledati hladni, a kod dizela su servisna istorija i način vožnje važniji od uredne fotografije.
+
+Nemo je kraći i spretniji za grad, što Nikoli odgovara za tesna parkiranja, ali njegova prednost nema vrednost ako su vrata teška, zadnji deo vlažan ili je kabina pretrpela dostavni ritam. Na probnoj vožnji proverio je kvačilo pri punom skretanju, kočenje bez tereta i ponašanje preko neravnina. Majstor je na dizalici pogledao pod, nosače, kočnice, trap i tragove popravke oko zadnjeg otvora.
+
+Nikola je izabrao Kangoo sa jasnim računima i zdravim podom, a Nemo sa nejasnim poreklom je ostavio bez kapare. Nastavi kada vrata, pod, motor i dokumenti pričaju istu priču; pregovaraj za potvrđen potrošni kvar; odustani kada praktičnost treba da prekrije radni umor. Kod ovih auta prostor je prednost tek kada nije nastao na račun održavanja.
+TEXT,
+                'highlights' => ['Kod oba modela proveri klizna vrata, brave, dihtunge, podnicu i pragove pre nego što računaš praktičnost.', 'Hladan start, kvačilo, menjač i servisni računi važniji su od sveže oprane kabine.', 'Na dizalici pregledaj pod, zadnji trap, kočnice i tragove teškog tereta ili popravke.'],
+                'tags' => ['Renault Kangoo', 'Citroën Nemo', 'klizna vrata', 'radni auto', 'poređenje modela'],
+                'meta_title' => 'Renault Kangoo ili Citroën Nemo: koji polovnjak kupiti',
+                'meta_description' => 'Poređenje polovnih Renault Kangoa i Citroëna Nema: klizna vrata, motor, podnica, teret, trap, servis i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a5f', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Polovni Renault Symbol: limuzina koja mora dokazati gepek, benzinac i miran prvi račun',
+                'slug' => 'polovni-renault-symbol-limuzina-koja-mora-dokazati-gepek-benzinac-i-miran-prvi-racun',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marija je tražila pristupačnu limuzinu za posao i porodicu, ali je kod Renaulta Symbol proverila da li veliki gepek i niska cena prate zdrav benzinac, trap i stvarnu istoriju.',
+                'content' => <<<'TEXT'
+Marija je tražila jednostavnu limuzinu za posao, odlazak kod roditelja i vikend kupovinu. Renault Symbol joj je delovao razumno: veliki gepek, poznata mehanika i cena koja ostavlja novac za prvi servis. Na prvom gledanju je sve izgledalo uredno, ali je ispod prostirke gepeka našla vlagu i rezervni točak bez jasne priče. Velik gepek je koristan samo ako nije poslednje mesto gde se vidi problem.
+
+Pre kapare je zatražila VIN, servisne račune i podatke o poslednjoj zameni ulja, svećica, kočnica i guma. Kod benzinca je sačekala hladan start, slušala ler i gledala da li se motor zagreva bez dima, curenja i lampica. Niska cena nije razlog da prihvati odgovor da se sitnica reši kasnije; prvo treba znati koja je sitnica i koliko stvarno košta.
+
+Sa majstorom je otvorila gepek, proverila podnicu, dihtunge, šarke i zatvaranje, a zatim pragove, donje ivice vrata i trap. Na probnoj vožnji je pratila kvačilo, menjanje brzina, kočenje, klimu i ponašanje preko neravnina. Symbol koji je služio kratkim gradskim relacijama može imati umorne kočnice, akumulator i ogrebotine, pa stanje mora odgovarati priči o kilometraži.
+
+Marija je pregovarala za set guma na drugom primerku, jer su motor, gepek i podvozje bili jasni. Od prvog je odustala zbog vlage bez objašnjenja. Nastavi kada su benzinac, pod gepeka i računi usklađeni; pregovaraj za procenjen potrošni trošak; odustani kada niska cena traži da zanemariš tragove vode ili zapuštenosti.
+TEXT,
+                'highlights' => ['Pre kupovine poveži VIN i račune za motor, kočnice i gume sa stvarnim stanjem auta.', 'U gepeku proveri podnicu, dihtunge, šarke i vlagu pre nego što te osvoji njegov volumen.', 'Hladan start, kvačilo, kočenje i trap na probnoj vožnji odlučuju da li je niska cena stvarna.'],
+                'tags' => ['Renault Symbol', 'benzinac', 'limuzina', 'gepek', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Renault Symbol: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Renaulta Symbol: benzinac, gepek, vlaga, trap, kočnice, klima, računi i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#14532d', '#a3e635', '#f7fee7'],
+            ],
+            [
+                'title' => 'Polovni SEAT Altea: porodični kompakt koji mora dokazati prostor, TDI i stvarnu namenu',
+                'slug' => 'polovni-seat-altea-porodicni-kompakt-koji-mora-dokazati-prostor-tdi-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je tražio viši porodični kompakt bez SUV cene, ali je kod SEAT Altee proverio da li praktična kabina prati dokumentovan TDI, zdrav trap i poštenu kilometražu.',
+                'content' => <<<'TEXT'
+Vladimiru je trebao porodični auto u kom se sedi malo više, ali nije želeo da plati SUV samo zbog izgleda. SEAT Altea mu je delovala kao dobra sredina: kompaktna spolja, prostranija iznutra i često pristupačnija od poznatijih rivala. Prodavac je naglašavao opremu, a Vladimir je prvo pogledao vozačko sedište, pedale i volan. Njihovo habanje nije presuda, ali mora imati smisla uz kilometražu i račune.
+
+Kod primerka sa TDI motorom tražio je dokaz o redovnom održavanju, ne samo pečate bez računa. Hladan start, miran rad, dim, curenje i ponašanje pri ubrzanju govore više od obećanja da je auto vožen samo na otvorenom putu. Ako postoje nejasne lampice, neravan ler ili prekidi snage, dijagnostika i pregled majstora dolaze pre razgovora o popustu.
+
+Vladimir je zatim namestio sedišta kao za svoju porodicu, otvorio gepek i proverio klimu, podizače, centralnu bravu i svaku komandu koju bi koristio svaki dan. Na putu je slušao trap preko neravnina, probao kvačilo i kočenje, a na dizalici proverio donji deo auta, gume i tragove lošeg popravka. Prostor ne vredi mnogo ako je prethodna porodica već ostavila niz odloženih kvarova.
+
+Kupio je Altea tek kada su dokumenti, dijagnostika i vožnja dali isti odgovor. Nastavi kada TDI, kabina i podvozje imaju proverljivu priču; pregovaraj za jasno izračunat servis; odustani kada bogata oprema treba da objasni odsustvo istorije. Porodični kompakt treba da olakša rutinu, a ne da je pretvori u niz radionica.
+TEXT,
+                'highlights' => ['Kod TDI-ja traži račune i proveri hladan start, dim, curenje, lampice i reakciju pri ubrzanju.', 'Uporedi habanje sedišta, volana i pedala sa kilometražom i dokumentima.', 'Isprobaj porodičnu kabinu, gepek, klimu i brave, pa na dizalici proveri trap, gume i podvozje.'],
+                'tags' => ['SEAT Altea', 'TDI', 'porodični kompakt', 'servisna istorija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni SEAT Altea: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog SEAT Altea modela: TDI, kilometraža, trap, kabina, klima, gepek, servis i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3f1d5f', '#d8b4fe', '#faf5ff'],
+            ],
+            [
+                'title' => 'Brava gepeka na polovnom autu: kada tvrd klik otkriva vlagu, udarac ili lošu popravku',
+                'slug' => 'brava-gepeka-na-polovnom-autu-kada-tvrd-klik-otkriva-vlagu-udarac-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je otvorila gepek polovnog auta i osetila tvrd klik, pa je pre kapare proverila zatvaranje, vlagu i zazore da bi razlikovala podešavanje brave od traga udara ili nejasne popravke.',
+                'content' => <<<'TEXT'
+Ana je na gledanju polovnog auta otvorila gepek i morala dva puta da povuče ručicu. Prodavac je rekao da se brava samo malo zaglavila od prašine, ali Ana nije želela da nagađa. Gepek povezuje bravu, instalaciju, dihtunge, šarke i zadnji deo karoserije, pa tvrd klik može biti sitno podešavanje, ali i trag vlage, udara ili loše sastavljenog zadnjeg kraja.
+
+Uz dozvolu prodavca otvorila je i zatvorila gepek nekoliko puta normalnom silom, bez udaranja poklopcem. Pogledala je da li brava hvata ravnomerno, rade li daljinsko i unutrašnje otključavanje, da li svetlo u gepeku reaguje i jesu li gumeni dihtunzi celi. Zatim je proverila podnicu i bunar rezervnog točka na vlagu, miris memle i sveže tragove lepka, ali nije skidala obloge niti rastavljala mehanizam na licu mesta.
+
+Majstor je posle pregleda zazora oko poklopca, šarki i kontra-brave proverio da li je problem u podešavanju, cilindru, instalaciji ili mehanizmu zaključavanja. Ana je tražila i pregled zadnjeg branika, unutrašnjih rubova i donjeg dela gepeka, jer jedna loše zatvorena brava sama po sebi nije dokaz udara. Međutim, kad je prati vlaga, različiti zazori ili više električnih sitnica, potreban je širi pregled pre bilo kakve kapare.
+
+Ana je pregovarala za auto sa jasno podešenom bravom, a od drugog je odustala kada su se tvrd klik i vlažna podnica pojavili zajedno. Nastavi kada uzrok i trošak budu potvrđeni; pregovaraj za lokalizovan kvar; odustani kada gepek otvara priču bez jasnog kraja. Dobar gepek mora se otvoriti lako, zatvoriti ravno i ostati suv.
+TEXT,
+                'highlights' => ['Nekoliko puta normalno otvori i zatvori gepek, pa proveri daljinsko otključavanje i svetlo.', 'Pogledaj dihtunge, podnicu, bunar rezervnog točka, vlagu i zazore bez rastavljanja obloga.', 'Tvrd klik uz vlagu, neravne zazore ili električne simptome zahteva pregled majstora pre kapare.'],
+                'tags' => ['brava gepeka', 'vlaga', 'zazori karoserije', 'prtljažnik', 'provera vozila'],
+                'meta_title' => 'Brava gepeka na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti bravu gepeka na polovnom autu: zatvaranje, dihtunzi, vlaga, zazori, instalacija, udarac i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7f1d1d', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Severne Makedonije: kada blizina traži proveru papira, porekla i ukupnog računa',
+                'slug' => 'uvoz-auta-iz-severne-makedonije-kada-blizina-trazi-proveru-papira-porekla-i-ukupnog-racuna',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stefan je našao povoljan auto u Severnoj Makedoniji, ali je pre puta povezao VIN, vlasništvo, dokumentaciju i pregled vozila kako bi znao da li kratka ruta zaista donosi uštedu.',
+                'content' => <<<'TEXT'
+Stefan je na oglasu iz Severne Makedonije našao porodični auto koji je bio jeftiniji od sličnih domaćih primeraka. Prodavac je naglašavao da je put kratak i da su papiri jednostavni, ali Stefan je prvo postavio važnije pitanje: koliki je ukupan račun do registracije u Srbiji i da li je poreklo konkretnog auta potpuno proverljivo. Blizina olakšava odlazak, ne menja obavezu da se kupovina proveri.
+
+Pre polaska je zatražio VIN, originalne registracione dokumente, dokaz o vlasništvu, servisne račune i jasne fotografije svih papira. Uporedio je ime prodavca, datume, kilometražu i opremu, pa za tačno vozilo zatražio aktuelan obračun relevantnih carinskih, poreskih i registracionih obaveza od nadležnog špeditera. Ne šalji kaparu zato što je procedura opisana kao laka; dokumenti moraju odgovarati baš automobilu koji gledaš.
+
+Na licu mesta Stefan je doveo nezavisnog majstora za hladan start, dijagnostiku i probnu vožnju, a zatim su pogledali pragove, podvozje, kočnice, trap, gume, zazore i pod gepeka. Auto iz regiona može imati složenu raniju putanju kroz više tržišta, zato uredan oglas ili lokalne tablice nisu dovoljni bez VIN provere i istorije održavanja.
+
+Stefan je odustao kada prodavac nije mogao da poveže vlasništvo sa dokumentima, a drugi auto je razmatrao tek kada su poreklo, pregled i ukupan trošak bili jasni. Nastavi kada VIN, papiri i stanje govore isto; pregovaraj za jednu dokazanu stavku; odustani kada blizina treba da zameni dokaz. Povoljan uvoz je onaj čiji je ceo put proverljiv pre puta i pre kapare.
+TEXT,
+                'highlights' => ['Pre puta proveri VIN, originalne papire, vlasništvo, račune i podudarnost svih datuma.', 'Za konkretno vozilo zatraži aktuelan obračun relevantnih uvoznih i registracionih obaveza od nadležnog špeditera.', 'Na licu mesta uradi hladan start, dijagnostiku, probnu vožnju i pregled podvozja pre kapare.'],
+                'tags' => ['uvoz iz Severne Makedonije', 'uvoz auta', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Severne Makedonije: šta proveriti',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Severne Makedonije: VIN, vlasništvo, dokumentacija, pregled, troškovi i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#713f12', '#fbbf24', '#fffbeb'],
+            ],
 
         ];
     }
