@@ -61,6 +61,38 @@
                     </div>
                 </article>
             @endif
+
+            <section class="space-y-6">
+                <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                    <div>
+                        <div class="data-kicker">Najnoviji članci</div>
+                        <h2 class="section-title mt-2">
+                            @if($category !== '')
+                                {{ $category }}
+                            @else
+                                Šta je trenutno važno na tržištu
+                            @endif
+                        </h2>
+                    </div>
+                    <p class="section-copy max-w-2xl sm:max-w-sm">
+                        Članci su kratki, konkretni i fokusirani na odluke koje se stvarno donose pri izboru polovnjaka.
+                    </p>
+                </div>
+
+                @if($posts->count() > 0)
+                    <div class="grid gap-6 lg:grid-cols-2">
+                        @foreach($posts as $post)
+                            <x-blog-post-card :post="$post" />
+                        @endforeach
+                    </div>
+
+                    <div class="pt-2">
+                        {{ $posts->links() }}
+                    </div>
+                @else
+                    <div class="panel p-8 text-slate-300">Članci za ovu temu uskoro stižu. Izaberi drugu temu ili se vrati na sve tekstove.</div>
+                @endif
+            </section>
         </div>
 
         <aside class="min-w-0 space-y-5">
@@ -119,37 +151,5 @@
                 </ul>
             </div>
         </aside>
-    </section>
-
-    <section class="space-y-6">
-        <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-                <div class="data-kicker">Najnoviji članci</div>
-                <h2 class="section-title mt-2">
-                    @if($category !== '')
-                        {{ $category }}
-                    @else
-                        Šta je trenutno važno na tržištu
-                    @endif
-                </h2>
-            </div>
-            <p class="section-copy max-w-2xl">
-                Članci su kratki, konkretni i fokusirani na odluke koje se stvarno donose pri izboru polovnjaka.
-            </p>
-        </div>
-
-        @if($posts->count() > 0)
-            <div class="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-                @foreach($posts as $post)
-                    <x-blog-post-card :post="$post" />
-                @endforeach
-            </div>
-
-            <div class="pt-2">
-                {{ $posts->links() }}
-            </div>
-        @else
-            <div class="panel p-8 text-slate-300">Članci za ovu temu uskoro stižu. Izaberi drugu temu ili se vrati na sve tekstove.</div>
-        @endif
     </section>
 </div>

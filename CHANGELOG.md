@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.112] - 2026-07-31
+
+### Fixed
+
+- Removed the oversized gap below the featured blog article by keeping the latest-articles section in the main content column independently of the taller sidebar.
+
 ## [0.1.111] - 2026-07-31
 
 ### Added
