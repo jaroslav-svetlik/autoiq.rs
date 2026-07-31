@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.113] - 2026-07-31
+
+### Changed
+
+- Replaced the informal home-page market-pulse heading with a clearer description of the currently most-searched models.
+
 ## [0.1.112] - 2026-07-31
 
 ### Fixed

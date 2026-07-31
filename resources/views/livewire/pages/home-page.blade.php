@@ -46,7 +46,7 @@
             <div class="flex items-center justify-between">
                 <div>
                     <div class="data-kicker">Puls tržišta</div>
-                    <h2 class="mt-2 font-display text-3xl font-bold text-white">Šta je sada vruće</h2>
+                    <h2 class="mt-2 font-display text-3xl font-bold text-white">Najtraženiji modeli trenutno</h2>
                 </div>
                 <a href="{{ route('listings.index') }}" wire:navigate class="btn-secondary">Svi oglasi</a>
             </div>
