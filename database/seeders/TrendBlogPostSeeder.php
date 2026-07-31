@@ -9331,6 +9331,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#713f12', '#fbbf24', '#fffbeb'],
             ],
+            [
+                'title' => 'Citroën C8 ili Peugeot 807: porodični van kada sedam sedišta ne sme sakriti godine',
+                'slug' => 'citroen-c8-ili-peugeot-807-porodicni-van-kada-sedam-sedista-ne-sme-sakriti-godine',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nemanja je tražio pristupačan van za troje dece, pa je između Citroëna C8 i Peugeota 807 birao primerak čija vrata, sedišta, elektronika i servis pričaju istu priču.',
+                'content' => <<<'TEXT'
+Nemanja je prestao da gleda SUV-ove kada je shvatio koliko koštaju tri dečja sedišta, kolica i vikend prtljag u stvarnom životu. Citroën C8 i Peugeot 807 otvorili su mu drugačiju računicu: mnogo mesta, klizna vrata i cena koja ostavlja novac za početni servis. Prvi C8 je imao blistavu kabinu, ali je jedno sedište zapinjalo, a vrata su se zatvarala uz drugi pokušaj. Kod velikog polovnog vana prostor je vrednost samo kada svi mehanizmi rade bez izgovora.
+
+Citroën C8 ima smisla kupcu kome prijaju pregledna kabina i fleksibilan raspored sedišta, ali baš zato treba proveriti svako pojedinačno sedište, šinu, pojas, preklapanje i komandu. Električna klizna vrata, ako ih primerak ima, moraju se otvoriti i zatvoriti više puta bez preskakanja, a klima treba ravnomerno da dopre i pozadi. Ne prihvataj da je neispravna komanda normalna za godine: traži dijagnostiku i procenu kvara pre pregovora.
+
+Peugeot 807 nudi sličnu porodičnu logiku, pa Nemanja nije birao po znaku na haubi. Na hladnom startu slušao je motor, pratio lampice i proverio račune za redovan servis. Zatim je oba auta provozao sa punim uglom volana, preko neravnina i pri kočenju, dok je majstor na dizalici gledao trap, kočnice, pragove, pod i tragove teškog tereta. Kod ovako velikog auta umorne gume, kočnice i ovjes mogu brzo pojesti prividno povoljnu cenu.
+
+Nemanja je izabrao 807 sa ručnim, ali lakim vratima i urednim računima, umesto C8 sa više opreme i nejasnim električnim kvarovima. Nastavi kada raspored sedišta, vrata, mehanika i dokumenti odgovaraju tvojoj porodici; pregovaraj za jasno procenjen potrošni trošak; odustani kada sedam sedišta služi da sakrije sedam otvorenih pitanja. Kod ovih vanova bolji je jednostavniji primerak koji radi nego bogatiji koji čeka radionicu.
+TEXT,
+                'highlights' => ['Proveri svako sedište, šinu, pojas i klizna vrata više puta, bez prihvatanja zaglavljivanja kao normalnog.', 'Testiraj klimu i elektroniku u celoj kabini, a svaku grešku potvrdi dijagnostikom pre pregovora.', 'Na dizalici pogledaj trap, kočnice, pragove i pod, jer teret i godine menjaju računicu velikog vana.'],
+                'tags' => ['Citroën C8', 'Peugeot 807', 'sedam sedišta', 'porodični van', 'poređenje modela'],
+                'meta_title' => 'Citroën C8 ili Peugeot 807: koji porodični van kupiti',
+                'meta_description' => 'Poređenje polovnih Citroëna C8 i Peugeota 807: sedišta, klizna vrata, klima, elektronika, motor, trap, servis i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a5f', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Polovni Kia Carens: porodični van koji mora dokazati sedišta, motor i miran raspored dana',
+                'slug' => 'polovni-kia-carens-porodicni-van-koji-mora-dokazati-sedista-motor-i-miran-raspored-dana',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je tražila pristupačan porodični van za školu i putovanja, ali je kod Kije Carens proverila da li praktična sedišta prate zdrav motor, klimu i održavanje bez rupa.',
+                'content' => <<<'TEXT'
+Jelena je tražila auto koji će radnim danom prevesti decu do škole, a vikendom primiti roditelje i torbe bez stalnog premeštanja stvari. Kia Carens joj je delovala kao razuman porodični van: viši ulazak, upotrebljiva kabina i često manje pompe od SUV-a. Prvi primerak je bio čist i lepo opremljen, ali su tragovi dečjih sedišta, istrošene šine i klima koja je slabo hladila otvorili važnije pitanje: da li je auto samo korišćen ili je održavanje stalno odlagano?
+
+Pre kapare je tražila VIN, račune za motor, ulje, hlađenje, kočnice i gume, pa je na hladnom startu slušala ler, dim i neobične zvuke. Kod dizela istorija i način vožnje moraju biti jasni, a kod benzinca miran rad ne sme zameniti dokumentaciju. Ako se lampica pali, motor neravnomerno vuče ili prodavac izbegava dijagnostiku, to nije prilika za brz popust nego razlog da se pregled završi pre razgovora o ceni.
+
+Jelena je zatim sama namestila drugi i, ako postoji, treći red: proverila je šine, naslone, pojaseve, ISOFIX, preklapanje i pod gepeka. Isprobala je klimu na svim otvorima, ventilator, brave, podizače i centralno zaključavanje, a na probnoj vožnji kvačilo, kočenje i trap preko neravnina. Porodičan auto može imati sasvim poštene tragove života, ali svi delovi koji se svakodnevno koriste moraju raditi pouzdano.
+
+Kupila je Carens tek kada su pregled, papiri i porodični raspored sedišta dali isti odgovor. Nastavi kada motor, klima i kabina imaju dokazivu priču; pregovaraj za gume, kočnice ili drugi merljiv servis; odustani kada prostranost treba da objasni lošu dijagnostiku ili nejasne račune. Dobar porodični van ne rešava samo problem mesta, već čuva i mir u prvom rasporedu dana.
+TEXT,
+                'highlights' => ['Poveži VIN i račune za motor, hlađenje, kočnice i gume sa hladnim startom i dijagnostikom.', 'Proveri šine, sedišta, pojaseve, ISOFIX i pod gepeka kao da sutra putuje cela porodica.', 'Testiraj klimu, ventilator, brave, kvačilo, kočenje i trap; praktičnost ne sme sakriti niz kvarova.'],
+                'tags' => ['Kia Carens', 'porodični van', 'sedišta', 'klima', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Kia Carens: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Kije Carens: motor, sedišta, ISOFIX, klima, trap, kočnice, servisna istorija i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#14532d', '#84cc16', '#f7fee7'],
+            ],
+            [
+                'title' => 'Polovni Fiat Stilo: kompakt koji mora dokazati elektroniku, trap i stvarnu vrednost niske cene',
+                'slug' => 'polovni-fiat-stilo-kompakt-koji-mora-dokazati-elektroniku-trap-i-stvarnu-vrednost-niske-cene',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Miloš je našao jeftin Fiat Stilo sa dobrom opremom, ali je pre kapare proverio da li lampice, komande, trap i računi potvrđuju da niska cena zaista ostavlja prostor za miran servis.',
+                'content' => <<<'TEXT'
+Miloš je tražio kompakt za posao i povremeni odlazak van grada, bez želje da plati popularniji model samo zbog značke. Fiat Stilo mu je delovao kao ponuda koja ima smisla: pristojna kabina, oprema i cena niža od mnogih rivala. Na prvom oglasu prodavac je hvalio felne i automatsku klimu, dok je na tabli kratko zasvetlela lampica koju je nazvao sitnicom. Miloš je zato odlučio da opremu tretira kao obavezu provere, ne kao poklon.
+
+Tražio je VIN i račune, zatim je motor gledao hladan i pustio ga da se zagreje pre vožnje. Proverio je instrument tablu, klimu, ventilator, podizače, centralnu bravu, radio i svaku komandu koju oglas navodi. Ne mora svaki električni simptom značiti skup kvar, ali lampice koje nestanu, prekidi rada ili improvizovane žice ne smeju ostati bez dijagnostike. Niska ulazna cena nema smisla ako se kupovina zasniva na nadi.
+
+Na probnoj vožnji Miloš je slušao trap preko rupa, probao kvačilo, menjanje brzina, kočenje i pravac volana, a majstor je na dizalici pogledao ramena, opruge, amortizere, gume, pragove i pod. Kompakt koji je dugo vozio grad može imati umorne kočnice i ovjes bez obzira na uredan enterijer. Uporedio je habanje sedišta, pedala i volana sa kilometražom i računima, jer jedna brojka na oglasu nije kompletna istorija.
+
+Miloš je pregovarao za Stilo kod kog je majstor jasno procenio gume i prednji trap, a odustao od drugog sa više neobjašnjenih lampica. Nastavi kada elektronika, mehanika i dokumenti govore isto; pregovaraj za potvrđeni potrošni trošak; odustani kada bogata oprema treba da prećuti lošu osnovu. Jeftin kompakt je dobra kupovina tek kada posle prve registracije ostane novca i za normalan život.
+TEXT,
+                'highlights' => ['Testiraj tablu, klimu, ventilator, brave, podizače i svaku ponuđenu komandu, pa lampice proveri dijagnostikom.', 'Hladan start, VIN i računi moraju pratiti stvarno habanje kabine i ponašanje motora.', 'Na probnoj vožnji i dizalici proveri trap, kvačilo, kočnice, gume, pragove i pod pre pregovora.'],
+                'tags' => ['Fiat Stilo', 'elektronika', 'kompakt', 'trap', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Stilo: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiata Stila: elektronika, lampice, klima, motor, trap, kočnice, dokumentacija i realan trošak.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3f1d5f', '#d8b4fe', '#faf5ff'],
+            ],
+            [
+                'title' => 'Krovne šine na polovnom autu: kada labav nosač otkriva vodu, teret ili lošu popravku',
+                'slug' => 'krovne-sine-na-polovnom-autu-kada-labav-nosac-otkriva-vodu-teret-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vanja je na krovu polovnog karavana primetio labavu šinu, pa je pre kapare proverio pričvršćenja, dihtunge i plafon kabine da bi razlikovao dodatak za teret od mogućeg prodora vode.',
+                'content' => <<<'TEXT'
+Vanja je gledao polovni karavan za bicikle i skijanje, a na prvi pogled mu se dopalo što auto već ima krovne šine. Kada je uz dozvolu lagano proverio jednu šinu, osetio je mali pomak. Prodavac je rekao da je to normalno jer je na krovu ranije bio kofer, ali Vanja nije želeo da pretvori praktičan dodatak u pretpostavku. Labav nosač može biti samo istrošen vijak, ali može pratiti loše dihtovanje, prevelik teret ili raniju limarsku intervenciju.
+
+Bez penjanja na auto i bez odvijanja bilo čega, proverio je da li su obe šine ravne, jednako čvrste i pravilno postavljene, pa pogledao gumene završetke i krov oko nosača. Zatim je iznutra opipao plafon, rubove vrata i stubove na vlagu, mrlje ili miris memle. Ne guraj alat pod obloge i ne zateži vijke na licu mesta: kupac treba da zabeleži simptom, a ne da preuzme rizik od oštećenja krova ili airbag zavesa.
+
+Majstor je proverio nosače, dihtunge, tragove boje i eventualne tačke korozije, kao i odvode i stanje plafona. Vanja je tražio da se pregledaju i šarke haube, zazori krova i druga mesta na kojima bi se videla šira popravka, ali nije zaključio da svaka šina znači udes. Važno je povezati signal: labavost uz vlagu, neravan lak ili različite zazore traži dublji pregled, dok jasno potvrđen potrošni deo može ostati stavka za pregovor.
+
+Vanja je kupio auto tek kada je majstor potvrdio zdrav krov i zamenjiv završetak šine. Nastavi kada su nosači, plafon i limarija suvi i objašnjivi; pregovaraj za konkretan deo; odustani kada voda ili nejasna popravka prate praktičan dodatak. Krovne šine vrede samo ako na put nose teret, a ne sumnju.
+TEXT,
+                'highlights' => ['Uz dozvolu proveri da li su obe šine ravne i jednako čvrste, ali ništa ne odvijaj niti zateži.', 'Pogledaj završetke, krov, plafon, stubove i rubove vrata na vlagu, mrlje i miris memle.', 'Labav nosač uz vlagu, neravan lak ili zazore zahteva stručan pregled; sam deo nije automatski dokaz udara.'],
+                'tags' => ['krovne šine', 'vlaga', 'karoserija', 'krovni nosač', 'provera vozila'],
+                'meta_title' => 'Krovne šine na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako proveriti krovne šine polovnog auta: nosači, dihtunzi, vlaga, plafon, lak, korozija, teret i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7f1d1d', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Crne Gore: kada blizina mora dokazati vlasništvo, poreklo i ceo račun',
+                'slug' => 'uvoz-auta-iz-crne-gore-kada-blizina-mora-dokazati-vlasnistvo-poreklo-i-ceo-racun',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Davor je našao povoljan auto u Crnoj Gori, ali je pre puta povezao VIN, vlasništvo, raniju putanju vozila i pregled sa obračunom troškova za baš taj primerak.',
+                'content' => <<<'TEXT'
+Davor je na oglasu iz Crne Gore našao dobro opremljen karavan po ceni nižoj od sličnih domaćih primeraka. Prodavac je naglašavao da je put kratak i da se dogovor može završiti za vikend, ali Davor je znao da blizina ne odgovara na važna pitanja: ko je vlasnik, odakle je konkretan auto stigao i koliko će stvarno koštati do registracije u Srbiji. Povoljan oglas nije ušteda dok se ne povežu papiri, stanje i ceo račun.
+
+Pre polaska zatražio je VIN, jasne fotografije originalne registracione dokumentacije, dokaz o vlasništvu, servisne račune i podatke o svakoj ranijoj zemlji registracije. Uporedio je imena, datume, kilometražu i opremu, pa je za baš taj auto zatražio aktuelan obračun relevantnih uvoznih, poreskih i registracionih obaveza od nadležnog špeditera. Ne šalji kaparu zato što neko obećava da je procedura poznata: dokumenti moraju odgovarati vozilu, ne samo zemlji iz oglasa.
+
+Na licu mesta Davor je poveo nezavisnog majstora za hladan start, dijagnostiku i probnu vožnju. Pregledali su pragove, podvozje, kočione cevi, trap, gume, zazore i pod gepeka, a zatim uporedili stanje kabine sa navedenom kilometražom. Regionalno poreklo može značiti jednostavniji put, ali auto i dalje može imati dugu raniju istoriju kroz druga tržišta ili popravke koje oglas ne objašnjava.
+
+Davor je odustao od prvog auta kada vlasništvo nije pratilo dokumente, a drugi je razmatrao tek kada su VIN, pregled i zbir troškova bili jasni. Nastavi kada su poreklo, papiri i mehanika proverljivi; pregovaraj za jednu dokazanu stavku; odustani kada blizina treba da nadomesti dokaz. Uvoz iz Crne Gore može biti racionalan, ali samo kada svaki korak ostane razumljiv i pre puta i pre kapare.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, originalne papire, vlasništvo, račune i svaku raniju zemlju registracije.', 'Za konkretno vozilo traži aktuelan obračun uvoznih, poreskih i registracionih obaveza od nadležnog špeditera.', 'Na licu mesta uradi hladan start, dijagnostiku, probnu vožnju i pregled podvozja pre kapare.'],
+                'tags' => ['uvoz iz Crne Gore', 'uvoz auta', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Crne Gore: šta proveriti',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Crne Gore: VIN, vlasništvo, poreklo, dokumentacija, pregled, troškovi i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#713f12', '#facc15', '#fffbeb'],
+            ],
 
         ];
     }

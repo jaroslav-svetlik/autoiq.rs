@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(335, $posts);
+        $this->assertCount(340, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(80, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(81, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'citroen-c8-ili-peugeot-807-porodicni-van-kada-sedam-sedista-ne-sme-sakriti-godine'));
+        $this->assertTrue($posts->contains('slug', 'polovni-kia-carens-porodicni-van-koji-mora-dokazati-sedista-motor-i-miran-raspored-dana'));
+        $this->assertTrue($posts->contains('slug', 'polovni-fiat-stilo-kompakt-koji-mora-dokazati-elektroniku-trap-i-stvarnu-vrednost-niske-cene'));
+        $this->assertTrue($posts->contains('slug', 'krovne-sine-na-polovnom-autu-kada-labav-nosac-otkriva-vodu-teret-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-crne-gore-kada-blizina-mora-dokazati-vlasnistvo-poreklo-i-ceo-racun'));
         $this->assertTrue($posts->contains('slug', 'renault-kangoo-ili-citroen-nemo-mali-radni-auto-kada-klizna-vrata-ne-smeju-sakriti-umor'));
         $this->assertTrue($posts->contains('slug', 'polovni-renault-symbol-limuzina-koja-mora-dokazati-gepek-benzinac-i-miran-prvi-racun'));
         $this->assertTrue($posts->contains('slug', 'polovni-seat-altea-porodicni-kompakt-koji-mora-dokazati-prostor-tdi-i-stvarnu-namenu'));
