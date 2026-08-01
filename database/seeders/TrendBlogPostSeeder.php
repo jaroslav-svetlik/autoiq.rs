@@ -9446,6 +9446,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#713f12', '#facc15', '#fffbeb'],
             ],
+            [
+                'title' => 'Kia Joice ili Nissan Almera Tino: porodični van kada prostor ne sme sakriti godine',
+                'slug' => 'kia-joice-ili-nissan-almera-tino-porodicni-van-kada-prostor-ne-sme-sakriti-godine',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je za veliku porodicu uporedio Kia Joice i Nissan Almera Tino, pa je tek pregled pokazao da praktična kabina ne vredi bez zdravog poda, jasnog servisa i rezerve za prvi račun.',
+                'content' => <<<'TEXT'
+Vladimiru je trebao auto za troje dece, vikend putovanja i svakodnevnu vožnju kroz grad, ali mu SUV nije bio ni potreban ni finansijski realan. Kia Joice i Nissan Almera Tino pojavili su se kao neobični, prostrani polovnjaci za isti novac. Na fotografijama su oba obećavala puno sedišta i veliki gepek, ali kod ovako starih porodičnih vanova prvo pitanje nije koji je širi, već koliko su ga prethodni vlasnici stvarno održavali.
+
+Kia Joice ima smisla kada želiš jednostavniju kabinu i primerak čija istorija može da se isprati bez praznina. Vladimir je kod prve Kije proverio hladan start, rad klime na svim otvorima, kvačilo, kočnice, tragove vlage ispod tepiha i pod vozila. Sedam sedišta nisu prednost ako su mehanika i limarija umorni; pregovaraj samo kada je mana jasno procenjena, a odustani kada prodavac ne dopušta pregled odozdo.
+
+Nissan Almera Tino je praktičniji za kupca kome znače pomerljiva zadnja sedišta i uredniji osećaj u kabini, ali traži isti oprez prema godinama. Na probnoj vožnji proveri menjač, mirnoću motora, trap preko neravnina, rad podizača i klime, a zatim uporedi habanje volana, pedala i sedišta sa kilometražom. Prostran enterijer često sakrije intenzivnu porodičnu upotrebu koju oglas prećuti.
+
+Vladimir je izabrao Almeru Tino tek kada je majstor potvrdio zdrav pod, ujednačene gume i razumne stavke za prvi servis; jeftinija Joice je tražila previše nejasnih ulaganja. Nastavi sa primerkom čiji su stanje i računi jasni, pregovaraj za dokazanu stavku kao što su gume ili klima, a odustani od auta koji prodaje prostor bez dokaza o održavanju.
+TEXT,
+                'highlights' => ['Kod oba vana pregledaj pod, pragove, vlagu u kabini i stanje trećeg reda pre dogovora o ceni.', 'Na probnoj vožnji proveri hladan start, kvačilo, menjač, klimu i trap preko neravnina.', 'Prednost daj jasnoj servisnoj istoriji i manjoj početnoj investiciji, ne većem broju sedišta na oglasu.'],
+                'tags' => ['Kia Joice', 'Nissan Almera Tino', 'porodični van', 'poređenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Kia Joice ili Nissan Almera Tino: šta kupiti',
+                'meta_description' => 'Poređenje polovnih Kia Joice i Nissan Almera Tino: prostor, sedišta, motor, klima, podvozje, servis i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a5f', '#60a5fa', '#eff6ff'],
+            ],
+            [
+                'title' => 'Polovni Mercedes Vaneo: mali van koji mora dokazati praktičnost i servis',
+                'slug' => 'polovni-mercedes-vaneo-mali-van-koji-mora-dokazati-prakticnost-i-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Maja je tražila mali auto sa lakim ulaskom za roditelje i decu, ali je kod Mercedes Vanea shvatila da praktična forma vredi samo kada motor, vrata i servis imaju jasnu priču.',
+                'content' => <<<'TEXT'
+Maja je tražila kompaktan auto za grad, pijacu i vožnju roditelja koji teško ulaze u nizak automobil. Mercedes Vaneo joj je delovao kao dobra niša: visok krov, uspravna kabina i klizna zadnja vrata bez dimenzija velikog vana. Međutim, oznaka na haubi nije razlog da se preskoči pregled. Kod starijeg Vanea praktičnost mora da opravda svaku stavku održavanja.
+
+Na prvom oglasu otvorila je oba klizna vrata više puta, proverila vođice, brave, dihtunge i tragove vode oko poda. Zatim je majstor pregledao hladan start, miran rad motora, kvačilo, menjač, trap i kočnice. Ako vrata zapinju, motor neravnomerno radi ili prodavac ne može objasniti račune, to nisu sitnice koje treba pokriti popustom bez procene.
+
+Vaneo je najzanimljiviji kupcu kome zaista treba visoko sedenje i fleksibilna kabina, a ne samo značkica. Proveri i klimu, podizače, centralno zaključavanje, instrumente, stanje sedišta i pragove, jer gradska i porodična upotreba ume da ostavi mnogo tragova. Kilometražu ne uzimaj zdravo za gotovo: uporedi je sa volanom, papučicama, servisnim zapisima i opštim stanjem enterijera.
+
+Maja je nastavila samo sa primerkom koji je imao uredne račune i dozvolio pregled na dizalici, iako nije bio najjeftiniji. Pregovaraj kada majstor jasno odvoji redovan servis od manjeg popravka; odustani kada praktična kabina treba da zameni dokaz o mehanici. Dobar Vaneo može olakšati svaki dan, ali zapušten će brzo pojesti razliku u ceni.
+TEXT,
+                'highlights' => ['Više puta otvori klizna vrata i pregledaj vođice, brave, dihtunge i pod oko ulaza.', 'Traži hladan start, pregled na dizalici i račune za motor, kvačilo, trap i kočnice.', 'Kupuj Vaneo zbog praktične kabine samo ako stanje opravdava trošak prve godine.'],
+                'tags' => ['Mercedes Vaneo', 'mali van', 'klizna vrata', 'servis', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mercedes Vaneo: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mercedes Vaneo modela: klizna vrata, motor, kvačilo, trap, klima, limarija, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#374151', '#9ca3af', '#f9fafb'],
+            ],
+            [
+                'title' => 'Polovni Hyundai Trajet: porodični van koji mora dokazati sedišta, motor i stanje',
+                'slug' => 'polovni-hyundai-trajet-porodicni-van-koji-mora-dokazati-sedista-motor-i-stanje',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nenad je tražio sedam sedišta bez cene modernog SUV-a, ali je kod Hyundai Trajeta morao da proveri da li su motor, klima i podvozje izdržali porodični i putnički ritam.',
+                'content' => <<<'TEXT'
+Nenad je želeo sedam sedišta za porodicu, goste i letnji put do mora, ali nije želeo da plati cenu novijeg SUV-a. Hyundai Trajet mu je privukao pažnju prostorom i često nižom cenom od popularnijih vanova. Ipak, veliki automobil za mali novac skoro uvek traži dodatna pitanja: koliko je bio opterećen, kako je održavan i šta moraš uraditi pre prvog dužeg puta.
+
+Prvo je pregledao raspored sedišta, mehanizme preklapanja, pojaseve, ISOFIX ako mu je potreban i pod gepeka. Istrošena kabina sama po sebi nije razlog za odustajanje, ali mora pratiti cenu. Vlažan tepih, tvrd sigurnosni pojas, polomljena ručica ili nejasna kilometraža pokazuju da porodični život auta može biti skuplji od onoga što prodavac priznaje.
+
+Sa majstorom je uradio hladan start, dijagnostiku, probnu vožnju i pregled podvozja. Posebno su proverili motor, rashladni sistem, kočnice, trap, gume i rad klime u svim redovima, jer se kvarovi na velikom porodičnom autu ne rešavaju uvek malim računom. Ne pristaj na objašnjenje da je slabija klima normalna za stariji van; procena popravke treba da stoji u tvojoj računici.
+
+Nenad je odustao od jeftinijeg primerka kada su tragovi korozije i pregrevanja ostali bez odgovora, a uzeo je skuplji Trajet sa jasnim servisnim računima. Nastavi kada prostor prati zdrava mehanika i realna rezerva u budžetu; pregovaraj za dokaziv servis; odustani kada sedam sedišta služe da sakriju previše nepoznatih ulaganja.
+TEXT,
+                'highlights' => ['Proveri mehanizme sedišta, pojaseve, pod gepeka i vlagu u svakom delu kabine.', 'Na pregledu uključi hladan start, rashladni sistem, klimu u svim redovima i podvozje.', 'Sedam sedišta imaju smisla samo ako nakon kupovine ostaje budžet za prvi servis i gume.'],
+                'tags' => ['Hyundai Trajet', 'porodični van', 'sedam sedišta', 'klima', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai Trajet: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Hyundai Trajet modela: sedam sedišta, motor, hlađenje, klima, trap, limarija i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#14532d', '#86efac', '#f0fdf4'],
+            ],
+            [
+                'title' => 'Originalna dizalica i alat u polovnom autu: kada mali komplet otkriva istoriju',
+                'slug' => 'originalna-dizalica-i-alat-u-polovnom-autu-kada-mali-komplet-otkriva-istoriju',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aleksa je pod podom gepeka našao neodgovarajuću dizalicu i mokar alat, pa je kratka provera otvorila pitanja o gumama, sudaru, vodi i načinu na koji je auto održavan.',
+                'content' => <<<'TEXT'
+Aleksa je pre kapare podigao pod gepeka da proveri rezervni točak, a tamo je našao dizalicu koja ne pripada vozilu, mokar ključ za točkove i prazno mesto za alat. Prodavac je to nazvao nevažnom sitnicom, ali mali komplet često govori više od uredno opranog motora. Ne dokazuje sam po sebi sudar ili loše održavanje, ali pokazuje gde treba postaviti dodatna pitanja.
+
+Uporedi dizalicu, ključ, kuku za vuču i eventualni sigurnosni nastavak za felne sa uputstvom ili opremom konkretnog modela. Proveri da li je alat suv, da li pod gepeka ima tragove vlage, rđe ili deformacije i da li rezervni točak odgovara dimenzijom i starošću ostalim gumama. Nedostajući alat može biti običan nemar, ali mokar ili korodiran prostor traži pregled zaptivki i karoserije.
+
+Aleksa je zatim proverio pragove, podvozje, felne i stanje guma, jer improvizovana dizalica može sakriti i način na koji je auto ranije servisiran pored puta. Ako je rezervni točak drugačiji, pitaj kada je poslednji put korišćen i zašto. Ako je dizalica savijena ili nebezbedna, nemoj je koristiti na licu mesta; majstor na dizalici treba da utvrdi da li postoje stvarna oštećenja.
+
+U ovom slučaju provera je otkrila vlagu ispod obloge, pa je Aleksa odustao kada prodavac nije dozvolio dodatni pregled. Nastavi kada su alat, prostor ispod poda i podvozje suvi i logični; pregovaraj za komplet koji jasno nedostaje; odustani kada mala nelogičnost povuče veći problem bez objašnjenja.
+TEXT,
+                'highlights' => ['Podigni pod gepeka i proveri da li su dizalica, ključ, kuka i rezervni točak odgovarajući i suvi.', 'Vlagu, rđu ili deformaciju ispod obloge poveži sa pregledom zaptivki, poda i podvozja.', 'Ne koristi savijenu ili sumnjivu dizalicu; za procenu oštećenja traži pregled kod majstora.'],
+                'tags' => ['dizalica', 'alat u gepeku', 'rezervni točak', 'provera vozila', 'kupovina polovnjaka'],
+                'meta_title' => 'Originalna dizalica i alat: šta otkrivaju',
+                'meta_description' => 'Kako proveriti dizalicu i alat polovnog auta: rezervni točak, vlaga u gepeku, rđa, podvozje, gume i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#78350f', '#fbbf24', '#fffbeb'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Turske: kada dobra cena traži proveru porekla i cele računice',
+                'slug' => 'uvoz-auta-iz-turske-kada-dobra-cena-trazi-proveru-porekla-i-cele-racunice',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je našla povoljan oglas iz Turske, ali je pre puta povezala VIN, vlasništvo, dokumente, pregled i konkretan obračun troškova umesto da veruje samo ceni.',
+                'content' => <<<'TEXT'
+Jelena je u turskom oglasu našla porodični automobil sa opremom i cenom koja je izgledala povoljnije od sličnih primeraka kod nas. Pre nego što je planirala put, zastala je kod važnijeg pitanja: koliko će baš taj automobil stvarno koštati kada se provere vlasništvo, poreklo, stanje i obaveze do registracije u Srbiji? Zemlja oglasa nije dovoljna informacija za odluku.
+
+Od prodavca je tražila VIN, fotografije originalnih dokumenata, dokaz o vlasništvu, servisne račune, podatke o ranijim registracijama i jasan odgovor da li je vozilo ranije stiglo iz druge države. Zatim je za taj konkretan VIN zatražila aktuelan obračun uvoznih, poreskih i registracionih obaveza od nadležnog špeditera. Ne šalji kaparu na osnovu opšte procene sa interneta ili obećanja da je procedura jednostavna.
+
+Na licu mesta ne preskači isti pregled koji bi uradila kod domaćeg oglasa: hladan start, dijagnostika, probna vožnja, podvozje, pragovi, zazori, gume, kočnice i tragovi popravke. Uporedi opremu i stanje kabine sa dokumentima i kilometražom. Niža cena može biti realna prednost, ali može biti i samo prva stavka računa koji se širi kroz transport, dokumentaciju i početne popravke.
+
+Jelena je odustala od prvog auta kada se vlasništvo nije jasno poklapalo sa papirima, a drugi je uzela u obzir tek kada su VIN, pregled i troškovi bili proverljivi. Nastavi kada su poreklo i računica jasni, pregovaraj za jednu dokazanu manu, a odustani kada cena treba da zameni odgovor o dokumentima ili stanju.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, originalne papire, vlasništvo, servisne račune i svaku raniju registraciju.', 'Za konkretan automobil traži aktuelan obračun uvoznih, poreskih i registracionih obaveza od nadležnog špeditera.', 'Pregled uživo mora uključiti dijagnostiku, probnu vožnju i podvozje pre bilo kakve kapare.'],
+                'tags' => ['uvoz iz Turske', 'uvoz auta', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Turske: šta proveriti',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Turske: VIN, vlasništvo, poreklo, dokumentacija, pregled, troškovi i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
+            ],
 
         ];
     }

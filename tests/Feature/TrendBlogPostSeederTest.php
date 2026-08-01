@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(340, $posts);
+        $this->assertCount(345, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(81, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(82, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'kia-joice-ili-nissan-almera-tino-porodicni-van-kada-prostor-ne-sme-sakriti-godine'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mercedes-vaneo-mali-van-koji-mora-dokazati-prakticnost-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hyundai-trajet-porodicni-van-koji-mora-dokazati-sedista-motor-i-stanje'));
+        $this->assertTrue($posts->contains('slug', 'originalna-dizalica-i-alat-u-polovnom-autu-kada-mali-komplet-otkriva-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-turske-kada-dobra-cena-trazi-proveru-porekla-i-cele-racunice'));
         $this->assertTrue($posts->contains('slug', 'citroen-c8-ili-peugeot-807-porodicni-van-kada-sedam-sedista-ne-sme-sakriti-godine'));
         $this->assertTrue($posts->contains('slug', 'polovni-kia-carens-porodicni-van-koji-mora-dokazati-sedista-motor-i-miran-raspored-dana'));
         $this->assertTrue($posts->contains('slug', 'polovni-fiat-stilo-kompakt-koji-mora-dokazati-elektroniku-trap-i-stvarnu-vrednost-niske-cene'));
