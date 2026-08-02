@@ -7525,6 +7525,141 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#0f172a', '#60a5fa', '#f8fafc'],
             ],
+            [
+                'title' => 'Saab 9-3 ili Alfa Romeo 159: limuzine kada karakter ne sme pobediti servis',
+                'slug' => 'saab-9-3-ili-alfa-romeo-159-limuzine-kada-karakter-ne-sme-pobediti-servis',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Saab 9-3 i Alfa Romeo 159 privlače kupca koji ne želi tipičnu limuzinu, ali oba traže jasnu istoriju, pregled mehanike i realan plan za delove.',
+                'content' => <<<'TEXT'
+Milan je želeo limuzinu za putovanja koja neće nestati u masi službenih automobila. U užem izboru ostali su Saab 9-3 sa mirnijim severnjačkim karakterom i Alfa Romeo 159 sa lepšim dizajnom. Obe su na oglasu izgledale kao kupovina srcem, pa je odlučio da pre utiska proveri ono što pravi razliku kod polovnjaka: račune, hladan start, podvozje i servis koji zna model.
+
+Saab 9-3 može odgovarati vozaču koji želi udobnu kabinu i stabilan auto za duži put, ali retkost ne sme biti opravdanje za nejasnu istoriju. Proveri motor, turbinu kod turbobenzinca ili dizela, kvačilo, zamajac, elektroniku, klimu i stanje vešanja. Ako prodavac nema dokaz o održavanju ili lokalni servis ne može da nabavi potreban deo u razumnom roku, cena mora ostaviti veću rezervu ili kupovinu treba preskočiti.
+
+Alfa Romeo 159 osvaja izgledom, osećajem za volanom i često bogatom opremom, ali njena masa traži pažnju prema trapu, kočnicama, gumama i kvačilu. Kod dizela treba proveriti DPF, EGR, turbinu i način prethodne vožnje, a kod svakog motora hladan rad, curenja i servisne račune. Uredan primerak može biti veoma prijatan, dok zanemaren auto brzo pretvara povoljnu početnu cenu u niz malih, skupih intervencija.
+
+Milan je na kraju odustao od Alfe sa lepim enterijerom, ali bez dokaza o trapu i velikom servisu, i izabrao Saab sa skromnijom opremom i urednim računima. To je prava logika ovog poređenja: Saab je bolji kada su dostupnost podrške i dokumentacija jasne, Alfa kada konkretan primerak ima bolju mehaniku i realnu cenu. Ako nijedan ne prođe pregled, karakter nije razlog da se rizik kupi.
+TEXT,
+                'highlights' => [
+                    'Kod oba modela servisni računi i stanje podvozja vrede više od izgleda i opreme.',
+                    'Saab 9-3 traži proveru pogonskog sklopa, elektronike i realne dostupnosti delova.',
+                    'Alfa 159 mora dokazati trap, kočnice, gume i istoriju dizel sistema pre kapare.',
+                ],
+                'tags' => ['Saab 9-3', 'Alfa Romeo 159', 'limuzina', 'poređenje modela', 'kupovina polovnjaka'],
+                'meta_title' => 'Saab 9-3 ili Alfa Romeo 159: šta kupiti',
+                'meta_description' => 'Poređenje polovnih Saab 9-3 i Alfa Romeo 159 limuzina: motori, trap, elektronika, delovi, dizel rizici i izbor urednijeg primerka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172033', '#f97316', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mazda CX-7: SUV koji mora dokazati turbo, pogon i realnu potrošnju',
+                'slug' => 'polovni-mazda-cx-7-suv-koji-mora-dokazati-turbo-pogon-i-realnu-potrosnju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mazda CX-7 nudi snažan izgled i mnogo opreme, ali kupac mora proveriti motor, turbinu, 4x4 pogon, koroziju, potrošnju i budžet za održavanje.',
+                'content' => <<<'TEXT'
+Ivana je tražila SUV koji izgleda ozbiljno, ali nije želela da plati cenu popularnijeg nemačkog modela. Mazda CX-7 joj je delovala kao odlična prilika: atraktivan oblik, snažan motor i oprema za manje novca. Na probnoj vožnji je zato preskočila priču o felnama i odmah pitala za hladan start, račune i koliko je auto stvarno trošio.
+
+Prvo proveri motor i turbinu na potpuno hladnom automobilu. Obrati pažnju na dim, neravnomeran rad, lampice, curenja ulja, odziv gasa i dokaze o redovnoj zameni ulja. Kod dizela pregled mora obuhvatiti DPF, EGR, turbinu, dizne i eventualne vibracije, dok kod benzinca treba proveriti da li potrošnja ulja ili goriva izlazi iz onoga što kupac može mirno da finansira.
+
+Druga tema su pogon i karoserija. Ako primerak ima pogon na sva četiri točka, proveri da li su sve gume istih dimenzija i slične istrošenosti, da nema trzaja pri manevru, zvukova iz kardana ili diferencijala i tragova vožnje van asfalta. Pregledaj pragove, pod, zadnji kraj, rubove, kočnice, trap i felne, jer težak SUV brzo pokaže posledice odlaganog održavanja.
+
+Ivana je odustala od jeftinijeg CX-7 bez računa za turbinu i gume, a sa prodavčevim nejasnim odgovorom o potrošnji. Dobra Mazda CX-7 može biti prijatan izbor za vozača koji prihvata gorivo i održavanje većeg SUV-a. Ako budžet pokriva samo kupovinu, a ne i prvi servis, gume ili kvar pogona, pametnije je potražiti jednostavniji primerak.
+TEXT,
+                'highlights' => [
+                    'Hladan start, dim, curenja i računi za ulje i turbinu prvi su filter za CX-7.',
+                    '4x4 pogon traži jednake gume, tihu vožnju i pregled kardana, diferencijala i trapa.',
+                    'Realna potrošnja i rezerva za prvi servis važnije su od niske cene oglasa.',
+                ],
+                'tags' => ['Mazda CX-7', 'SUV', 'turbo', '4x4', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mazda CX-7: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mazda CX-7 SUV-a: turbo, motor, 4x4 pogon, korozija, trap, potrošnja, gume i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#10263a', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Dodge Journey: porodični crossover koji mora dokazati sedišta, automatik i delove',
+                'slug' => 'polovni-dodge-journey-porodicni-crossover-koji-mora-dokazati-sedista-automatik-i-delove',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dodge Journey obećava mnogo prostora i sedam sedišta za novac, ali kupac mora proveriti automatik, motor, trap, klimu, poreklo i dostupnost delova.',
+                'content' => <<<'TEXT'
+Petar je tražio porodični auto sa sedam sedišta, ali nije želeo cenu modernog van-a. Dodge Journey mu je zapao za oko jer je za isti novac nudio veliku kabinu, povišen položaj i opremu. Pre kapare je poveo decu da provere poslednji red, a majstora da proveri ono što fotografije ne otkrivaju: menjač, motor, trap i poreklo.
+
+Prvo proveri koliko su sedišta zaista upotrebljiva i da li mehanizmi rade bez sile. Podigni i spusti svaki red, pogledaj pojaseve, kopče, plastike, pod gepeka, klimu pozadi i tragove vlage. Auto koji je dugo vozio punu porodicu može imati umornu kabinu, istrošene amortizere, kočnice i trap čak i kada kilometraža deluje prihvatljivo.
+
+Drugi deo pregleda je pogonski sklop. Automatik mora da prebaci mirno u D i R, bez kašnjenja, trzaja ili udaraca pri zagrevanju, a motor treba da pali hladan i radi bez dima i curenja. Proveri rashladni sistem, klimu, elektriku, stanje guma i servisne račune. Kod ređeg modela traži i konkretan odgovor gde se nabavljaju delovi, koliko čekaju i ko u mestu poznaje taj pogon.
+
+Petar je izabrao primerak sa manje opreme, ali sa dokazanim servisom automatika i urednim radom svih sedišta. Journey ima smisla za porodicu kojoj su prostor i fleksibilnost važniji od lake kasnije prodaje. Ako prodavac ne dopušta dijagnostiku, probnu vožnju ili proveru delova, sedam sedišta nisu dovoljan razlog da se kupovina nastavi.
+TEXT,
+                'highlights' => [
+                    'Proveri svaki red sedišta, pojaseve, klimu pozadi, gepek i tragove intenzivne porodične upotrebe.',
+                    'Automatik mora proći hladnu i zagrejanu probnu vožnju bez trzaja, kašnjenja i curenja.',
+                    'Kod ređeg modela unapred potvrdi delove i servisnu podršku pre dogovora o ceni.',
+                ],
+                'tags' => ['Dodge Journey', 'sedam sedišta', 'automatik', 'porodični crossover', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Dodge Journey: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Dodge Journey modela: sedam sedišta, automatik, motor, klima, trap, delovi, poreklo i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#231d36', '#c084fc', '#f8fafc'],
+            ],
+            [
+                'title' => 'Izduvni sistem na polovnom autu: kada tup zvuk otkriva koroziju, popravku ili skuplji račun',
+                'slug' => 'izduvni-sistem-na-polovnom-autu-kada-tup-zvuk-otkriva-koroziju-popravku-ili-skuplji-racun',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tup zvuk, miris izduva, zveckanje ili svež var ispod polovnog auta mogu pokazati koroziju, lošu popravku, problem sa katalizatorom ili račun veći od očekivanog.',
+                'content' => <<<'TEXT'
+Nemanja je gledao povoljan kompakt i prodavac je objasnio dubok zvuk tako što je rekao da je auto „malo sportskiji“. Kada je majstor podigao auto, ispod su se videli svež var, rđav spoj i labav nosač auspuha. Izduvni sistem nije samo estetika ili buka; on može pokazati način vožnje, koroziju i kvalitet prethodnih popravki.
+
+Počni sa hladnim startom na otvorenom. Slušaj da li auto šišti, lupa, zveči ili ima neobično glasan ton pri dodavanju gasa, a zatim proveri da li miris izduva ulazi u kabinu. Pogledaj dim i ponašanje motora, ali ne stavljaj ruku na vreo auspuh. Ako se čuje metalno zveckanje, uzrok može biti toplotni štit, nosač, unutrašnjost lonca ili katalizator, pa pregled odozdo ne sme da se preskoči.
+
+Na dizalici pregledaj cevi, spojeve, fleksibilni deo, nosače, tragove udara, rđu, varove i eventualno odsečene delove. Svež var nije automatski razlog za odustajanje ako postoji račun i popravka je uredna. Bez dokumentacije, loše postavljena cev, propuštanje ili uklonjen katalizator mogu značiti problem na tehničkom pregledu, loš rad motora i dodatni trošak.
+
+Nemanja nije kupio auto dok prodavac nije pristao na procenu kompletnog izduva, a ponuda za zamenu mu je promenila pregovaračku cenu. Ako je kvar ograničen na nosač ili zadnji lonac, to može biti korektna stavka za dogovor. Ako se problemi spajaju sa dimom, lampicom motora, nejasnim varovima ili izmenjenim katalizatorom, kupac treba da odustane dok stručan pregled ne objasni ceo sistem.
+TEXT,
+                'highlights' => [
+                    'Hladan start otkriva šištanje, zveckanje, dim i miris izduva koji ne sme ulaziti u kabinu.',
+                    'Na dizalici proveri cevi, fleksibilni spoj, nosače, rđu, varove, tragove udara i katalizator.',
+                    'Dokumentovana uredna popravka je pregovaračka stavka; nejasno uklanjanje delova je razlog za odustajanje.',
+                ],
+                'tags' => ['izduvni sistem', 'katalizator', 'korozija', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Izduvni sistem polovnog auta: šta proveriti',
+                'meta_description' => 'Kako proveriti izduvni sistem polovnog auta: hladan start, dim, miris, rđa, varovi, nosači, katalizator, tehnički pregled i trošak popravke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Malte: kada malo ostrvo traži proveru volana, vlage i papira',
+                'slug' => 'uvoz-auta-iz-malte-kada-malo-ostrvo-trazi-proveru-volana-vlage-i-papira',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Auto iz Malte može izgledati očuvano zbog blage klime, ali kupac mora proveriti stranu volana, obalnu vlagu, koroziju, dokumentaciju, transport i celu računicu.',
+                'content' => <<<'TEXT'
+Ognjen je našao zanimljiv porodični auto iz Malte sa dobrom opremom i fotografijama bez zimske prljavštine. Cena je izgledala primamljivo dok nije proverio da li je volan na levoj strani, koliko je auto bio blizu mora i šta sve ulazi u put do Srbije. Mali ostrvski oglas nije automatski mali rizik; upravo detalji koje kupac ne vidi na fotografiji odlučuju da li računica ima smisla.
+
+Prvo proveri identitet vozila i dokumente pre bilo kakve kapare. VIN, vlasnički sled, registracija, odjava, servisni računi, strana upravljača, prevoz, carina, porezi, homologacija i registracija moraju biti jasni. Ako je automobil desni volan, proveri da li je njegova upotreba i kasnija prodaja u Srbiji zaista praktična, umesto da pretpostaviš da niža cena rešava taj kompromis.
+
+Druga tema je morska klima. Pregledaj pod, pragove, rubove, kočione vodove, šrafove, konektore, nosače, gepek i prostor ispod patosnica. Sunce može izbledeti lak, farove, plastike i enterijer, dok slan vazduh može ostaviti oksidaciju na mestima koja nisu vidljiva bez dizalice. Klima uređaj, dihtunzi i elektrika zaslužuju pažnju jer su mogli mnogo raditi u toplim i vlažnim uslovima.
+
+Ognjen je odustao od prvog oglasa kada transport i adaptacija nisu više izgledali kao sitan dodatak, a drugi primerak je imao jasne papire i pregled podvozja. Uvoz iz Malte može imati smisla samo kada je automobil odgovarajuće specifikacije, dokumentacija potpuna i pregled potvrdi stanje. Bez toga egzotično poreklo nije prednost, već dodatni razlog za sporiju i strožu proveru.
+TEXT,
+                'highlights' => [
+                    'Pre kapare proveri VIN, stranu volana, vlasništvo, odjavu, transport, carinu, homologaciju i registraciju.',
+                    'Morska klima traži pregled poda, pragova, kočionih vodova, konektora, šrafova i gepeka.',
+                    'Niža cena ne rešava problem desnog volana, nejasnih papira ili skupog transporta.',
+                ],
+                'tags' => ['uvoz iz Malte', 'uvoz auta', 'desni volan', 'korozija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Malte: šta proveriti',
+                'meta_description' => 'Analiza uvoza auta iz Malte: VIN, strana volana, obalna vlaga, korozija, dokumentacija, transport, carina, homologacija i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#15324a', '#2dd4bf', '#f8fafc'],
+            ],
         ]);
     }
 

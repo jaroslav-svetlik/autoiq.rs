@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(345, $posts);
+        $this->assertCount(350, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(82, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(83, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'kia-joice-ili-nissan-almera-tino-porodicni-van-kada-prostor-ne-sme-sakriti-godine'));
         $this->assertTrue($posts->contains('slug', 'polovni-mercedes-vaneo-mali-van-koji-mora-dokazati-prakticnost-i-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-hyundai-trajet-porodicni-van-koji-mora-dokazati-sedista-motor-i-stanje'));
@@ -371,6 +371,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-fiat-idea-mali-monovolumen-koji-mora-dokazati-kabinu-motor-i-mirnu-istoriju'));
         $this->assertTrue($posts->contains('slug', 'voda-u-kabini-polovnog-auta-kada-mokar-tepih-otkriva-odvod-zaptivku-ili-skuplju-elektroniku'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-grcke-kada-sunce-i-dobra-cena-traze-proveru-porekla-limarije-i-papira'));
+        $this->assertTrue($posts->contains('slug', 'saab-9-3-ili-alfa-romeo-159-limuzine-kada-karakter-ne-sme-pobediti-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-cx-7-suv-koji-mora-dokazati-turbo-pogon-i-realnu-potrosnju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-dodge-journey-porodicni-crossover-koji-mora-dokazati-sedista-automatik-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'izduvni-sistem-na-polovnom-autu-kada-tup-zvuk-otkriva-koroziju-popravku-ili-skuplji-racun'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-malte-kada-malo-ostrvo-trazi-proveru-volana-vlage-i-papira'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
