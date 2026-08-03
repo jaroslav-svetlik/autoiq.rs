@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.116] - 2026-08-03
+
+### Added
+
+- Added five non-duplicate production blog articles covering Lada Vesta versus Dacia Sandero, used Opel Cascada and Daewoo Lacetti buying guidance, rear-window-defroster inspection, and Swedish import due diligence.
+
 ## [0.1.115] - 2026-08-02
 
 ### Added

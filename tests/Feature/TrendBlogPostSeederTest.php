@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(350, $posts);
+        $this->assertCount(355, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(83, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(84, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'lada-vesta-ili-dacia-sandero-kada-nova-godina-ne-sme-pobediti-jasnu-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-opel-cascada-kabriolet-koji-mora-dokazati-krov-vlagu-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-daewoo-lacetti-porodicni-auto-koji-mora-dokazati-limariju-delove-i-stvarnu-cenu'));
+        $this->assertTrue($posts->contains('slug', 'grejac-zadnjeg-stakla-na-polovnom-autu-kada-tanke-linije-otkrivaju-instalaciju-vlagu-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-svedske-kada-uredna-bezbednost-trazi-proveru-zime-soli-i-porekla'));
         $this->assertTrue($posts->contains('slug', 'kia-joice-ili-nissan-almera-tino-porodicni-van-kada-prostor-ne-sme-sakriti-godine'));
         $this->assertTrue($posts->contains('slug', 'polovni-mercedes-vaneo-mali-van-koji-mora-dokazati-prakticnost-i-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-hyundai-trajet-porodicni-van-koji-mora-dokazati-sedista-motor-i-stanje'));

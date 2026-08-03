@@ -9696,6 +9696,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
             ],
+            [
+                'title' => 'Lada Vesta ili Dacia Sandero: kada nova godina ne sme pobediti jasnu istoriju',
+                'slug' => 'lada-vesta-ili-dacia-sandero-kada-nova-godina-ne-sme-pobediti-jasnu-istoriju',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je birao između mlađe Lade Veste i proverljivije Dacije Sandero, pa je kroz papire, vožnju i dostupnost servisa odvojio dobru cenu od stvarne vrednosti.',
+                'content' => <<<'TEXT'
+Marko je tražio jednostavan benzinac za porodicu i posao, sa budžetom koji nije dozvoljavao grešku posle prenosa. U jednom oglasu našao je mlađu Ladu Vestu sa velikim gepekom i dobrom opremom, a u drugom Daciju Sandero sa više godina, ali urednim računima. Na fotografijama je Vesta izgledala kao više auta za isti novac, ali Marko nije želeo da godište zameni odgovor na pitanje ko će i kako održavati baš taj primerak.
+
+Vesta ima smisla kada joj se proveri konkretna servisna podrška: traži VIN, račune, hladan start, rad klime, kvačilo, menjač, trap i dostupnost delova u mestu gde ćeš je održavati. Pogledaj da li se oprema ponaša normalno i da li stanje volana, sedišta i papučica prati prijavljenu kilometražu. Veći auto i noviji izgled nisu popust na pregled; ako prodavac ne može da objasni istoriju, cena mora da ostane samo poziv na oprez.
+
+Kod Sandera Marko nije tražio savršenstvo, već logiku. Pregledao je tragove gradske vožnje, rubove karoserije, kvačilo, kočnice, gume i servisni sled, a zatim je proverio koliko lako može dobiti deo i majstora. Jednostavnija konstrukcija može olakšati kasniji život, ali loš Sandero je i dalje loš auto ako su osnovni servisi preskakani ili je kabina umornija od kilometraže.
+
+Na kraju je odabrao primerak sa manje privlačnom bojom, ali sa računima i urednim pregledom. Nastavi sa Vestom kada su istorija i servisna podrška proverljivi; izaberi Sandero kada mu stanje i troškovi ostavljaju rezervu u budžetu; odustani od oba kada godište, oprema ili niska cena treba da zamene dokumentaciju i pregled.
+TEXT,
+                'highlights' => ['Za oba auta poveži VIN, račune, kilometražu i istrošenost kabine pre poređenja cene.', 'Kod Veste unapred proveri dostupnost servisa i delova, pa tek onda opremu i godište.', 'Kod Sandera proceni osnovni servis, limariju i gradsko habanje, jer jednostavnost ne briše zanemarivanje.'],
+                'tags' => ['Lada Vesta', 'Dacia Sandero', 'poređenje modela', 'benzinac', 'kupovina polovnjaka'],
+                'meta_title' => 'Lada Vesta ili Dacia Sandero: šta kupiti',
+                'meta_description' => 'Poređenje polovnih Lada Vesta i Dacia Sandero: istorija, benzinac, servis, delovi, stanje, troškovi i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a5f', '#60a5fa', '#eff6ff'],
+            ],
+            [
+                'title' => 'Polovni Opel Cascada: kabriolet koji mora dokazati krov, vlagu i miran servis',
+                'slug' => 'polovni-opel-cascada-kabriolet-koji-mora-dokazati-krov-vlagu-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je želeo Opel Cascadu za vikend, ali je tek zatvoren krov, suva kabina i servisni trag pokazao da li lep kabriolet zaslužuje kaparu.',
+                'content' => <<<'TEXT'
+Nikola je našao Opel Cascadu koja je na slikama izgledala kao retka prilika: uredna boja, bogata oprema i cena niža od poznatijih kabrioleta. Nije je gledao otvorenu na suncu, već je zamolio da je vidi sa podignutim krovom i hladnim motorom. Kod polovnog kabrioleta lep prizor ne rešava pitanje da li mehanizam, zaptivke i kabina preživljavaju normalan svakodnevni život.
+
+Prvo je bez žurbe otvorio i zatvorio krov prema uputstvu prodavca, oslušnuo pumpu i pogledao da li se ciklus završava bez upozorenja na tabli. Pregledao je gumene zaptivke, rubove stakala, gepek i podnicu na vlagu, miris memle i tragove ranijih curenja. Ne vuci platno, ne rastavljaj obloge i ne polivaj auto vodom na licu mesta; svaka sumnja je razlog za pregled kod stručnog servisa za krovove.
+
+Zatim je Cascadu vozio dovoljno dugo da proveri motor, menjač, kvačilo ili automatik, trap, kočnice i klimu. Težak auto sa otvorenim krovom može sakriti umor kroz krckanje karoserije, neravne zazore ili loše gume, pa je uporedio stanje enterijera sa servisnim računima. Retkost nije prednost ako jedan deo krova ili elektronike čeka nedeljama i briše planirani budžet.
+
+Nikola je preskočio prvi primerak kada je pod gepeka bio vlažan i prodavac nije pristao na dodatni pregled, a drugi je kupio tek posle jasne istorije i mirnog rada krova. Nastavi kada su krov, kabina i servis proverljivi; pregovaraj za jasno procenjen potrošni rad; odustani kada voda, greške krova ili nejasna popravka traže veru umesto dokaza.
+TEXT,
+                'highlights' => ['Kabriolet gledaj najpre zatvoren: proveri ceo ciklus krova, lampice i zaptivke bez improvizacije.', 'Pregledaj gepek i podnicu na vlagu, miris memle i tragove curenja pre kapare.', 'Retkost modela uključi u proveru dostupnosti krova, elektronike, delova i stručnog servisa.'],
+                'tags' => ['Opel Cascada', 'kabriolet', 'meki krov', 'vlaga', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Cascada: šta proveriti',
+                'meta_description' => 'Vodič za Opel Cascada polovnjaka: krov, zaptivke, vlaga, gepek, motor, servis, dostupnost delova i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#4c1d3b', '#f472b6', '#fdf2f8'],
+            ],
+            [
+                'title' => 'Polovni Daewoo Lacetti: porodični auto koji mora dokazati limariju, delove i stvarnu cenu',
+                'slug' => 'polovni-daewoo-lacetti-porodicni-auto-koji-mora-dokazati-limariju-delove-i-stvarnu-cenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je u Daewoo Lacettiju video mnogo prostora za mali novac, ali je kroz limariju, stanje mehanike i nabavku delova proverio da li je to zaista povoljna kupovina.',
+                'content' => <<<'TEXT'
+Milan je tražio porodični auto sa većim gepekom i bez rate koja bi mu pojela rezervu za servis. Daewoo Lacetti mu je privukao pažnju jer je za isti novac nudio više prostora od mnogo traženijih kompaktnih modela. Međutim, prodavac je stalno ponavljao samo cenu, a Milan je znao da kod starijeg auta pitanje nije koliko košta oglas, već koliko je zdrav lim i koliko brzo možeš rešiti prvi kvar.
+
+Pregled je počeo od pragova, rubova vrata, blatobrana, poda gepeka i donjeg dela auta kod majstora. Tražio je razlike u boji, mehuriće, svež premaz preko prljavštine i neravne zazore, pa je tek onda gledao opremu. Limarija na jeftinom polovnjaku nije estetska sitnica: ako korozija napreduje kroz pragove ili pod, početna prednost cene može nestati mnogo pre sledeće registracije.
+
+Na probnoj vožnji proverio je hladan start, rad motora, kvačilo, menjač, trap, kočnice i klimu, a zatim je pre kapare pozvao lokalne prodavce delova za nekoliko osnovnih stavki. Nije dovoljno da postoji deo na internetu; važno je da su cena, rok i servis realni za grad u kome živiš. Uredna kabina i proverljivi računi vrede više od sjajnog laka na automobilu bez objašnjenja.
+
+Milan je odustao od prvog Lacettija kada su pragovi bili premazani bez računa za limarski rad, a drugi je uzeo u obzir nakon pregleda podvozja i potvrde delova. Nastavi kada su limarija, mehanika i podrška jasni; pregovaraj za dokazano ulaganje; odustani kada niska cena skriva rđu, nejasnu istoriju ili delove koje nema ko da reši.
+TEXT,
+                'highlights' => ['Pragove, pod, rubove vrata i gepek pregledaj kod majstora pre nego što cena postane glavni argument.', 'Proveri motor, kvačilo, trap, kočnice i klimu na hladnom startu i probnoj vožnji.', 'Pre kapare potvrdi cenu i rok osnovnih delova kod lokalnog prodavca ili servisa.'],
+                'tags' => ['Daewoo Lacetti', 'porodični auto', 'limarija', 'dostupnost delova', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Daewoo Lacetti: šta proveriti',
+                'meta_description' => 'Vodič za Daewoo Lacetti polovnjaka: limarija, pragovi, motor, trap, delovi, servis, stvarna cena i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#365314', '#a3e635', '#f7fee7'],
+            ],
+            [
+                'title' => 'Grejač zadnjeg stakla na polovnom autu: kada tanke linije otkrivaju instalaciju, vlagu ili lošu popravku',
+                'slug' => 'grejac-zadnjeg-stakla-na-polovnom-autu-kada-tanke-linije-otkrivaju-instalaciju-vlagu-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je tek po hladnom jutru primetila da grejač zadnjeg stakla radi samo delimično, pa je mali prekidač povezao sa instalacijom, vlagom i stanjem zadnjeg dela auta.',
+                'content' => <<<'TEXT'
+Ana je gledala porodični hečbek po hladnom jutru i uključila grejač zadnjeg stakla dok je prodavac pripremao probnu vožnju. Posle nekoliko minuta deo stakla se razbistrio, a kroz drugi deo je ostala magla. Prodavac je rekao da je to sitnica, ali Ana nije gledala samo jednu funkciju: slab grejač može biti mala popravka, a može i da otvori pitanje o prekidima na staklu, instalaciji, vlazi u gepeku ili ranijoj zameni zadnjeg stakla.
+
+Sa uključenim kontaktom proveri taster, lampicu i ravnomerno odmagljivanje kada uslovi to dozvoljavaju. Pogledaj pažljivo vodove na unutrašnjoj strani stakla, naročito uz konektore, bez struganja, lepljenja ili merenja na licu mesta. Zatim proveri da li rade brisač, svetlo u gepeku i odmagljivanje ogledala ako ih auto ima, jer više sitnih električnih simptoma zajedno traži dijagnostiku, ne nagađanje.
+
+Ana je uz dozvolu podigla pod gepeka i proverila dihtunge, vlagu, miris memle i tragove oksidacije oko dostupnih konektora. Nije skidala obloge niti rastavljala instalaciju. Ako je zadnje staklo menjano, traži objašnjenje i račun, pa poveži ga sa zazorima poklopca gepeka i stanjem lima. Sama zamena stakla nije presuda, ali nejasan odgovor uz električni problem zaslužuje pregled autoelektričara.
+
+Na prvom autu je kombinacija vlažne podnice i delimičnog grejača bila razlog da odustane, dok je na drugom račun za staklo i mali, jasno procenjeni popravak vodova postao predmet pregovora. Nastavi kada je uzrok proverljiv; pregovaraj za konkretnu dijagnozu; odustani kada se sitan kvar uklapa u širu priču o vodi, udarcu ili lošoj instalaciji.
+TEXT,
+                'highlights' => ['Proveri taster, lampicu i ravnomerno odmagljivanje bez struganja vodova ili rastavljanja auta.', 'Delimičan rad poveži sa brisačem, svetlom gepeka, vlagom i drugim električnim simptomima.', 'Za menjano staklo ili oksidaciju traži račun i pregled autoelektričara pre kapare.'],
+                'tags' => ['grejač zadnjeg stakla', 'provera vozila', 'instalacija', 'vlaga', 'elektrika'],
+                'meta_title' => 'Grejač zadnjeg stakla: šta otkriva',
+                'meta_description' => 'Kako proveriti grejač zadnjeg stakla polovnog auta: vodovi, instalacija, vlaga u gepeku, menjano staklo i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#164e63', '#22d3ee', '#ecfeff'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Švedske: kada uredna bezbednost traži proveru zime, soli i porekla',
+                'slug' => 'uvoz-auta-iz-svedske-kada-uredna-bezbednost-trazi-proveru-zime-soli-i-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je našla dobro opremljen auto iz Švedske, ali je pre kapare povezala VIN, zimske uslove, podvozje i ceo uvozni račun umesto da veruje reputaciji tržišta.',
+                'content' => <<<'TEXT'
+Jelena je u švedskom oglasu našla dobro opremljen karavan sa urednim enterijerom i cenom koja je delovala niže od domaćih primeraka. Prodavac je naglašavao bezbednosnu opremu i redovan servis, ali Jelena nije pretpostavila da uređeno tržište automatski znači uredan automobil. Zima, so, kratke relacije i put vozila pre Švedske mogu biti važniji od zastave na oglasu.
+
+Pre puta je zatražila VIN, originalne fotografije dokumenata, vlasnički sled, servisne račune, podatke tehničkih pregleda i jasan odgovor da li je auto ranije uvezen. Za baš taj automobil tražila je aktuelan obračun transporta, carinskih, poreskih, homologacionih i registracionih obaveza od nadležnog špeditera. Ne šalji kaparu na osnovu opšteg saveta ili poruke da je procedura jednostavna.
+
+Na pregledu je podigla auto kod majstora i gledala podvozje, pragove, kočione i gorivne vodove, nosače, izduv, rubove vrata i tragove svežeg zaštitnog premaza. Zatim je proverila hladan start, akumulator, grejanje, klimu, gume, dijagnostiku i probnu vožnju. Uredan enterijer ne poništava koroziju ispod auta, a niža cena ne briše prvi servis koji realno čeka kupca.
+
+Jelena je odustala od prvog oglasa kada VIN nije vodio do jasne istorije, a drugi je razmatrala tek nakon pregleda podvozja i potvrđene računice. Nastavi kada su poreklo, dokumenti i stanje proverljivi; pregovaraj za dokazano ulaganje; odustani kada priča o švedskom održavanju treba da zameni odgovor o soli, kilometraži ili vlasništvu.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, vlasnički sled, tehničke preglede, servisne račune i svaku raniju registraciju.', 'Za konkretan auto traži aktuelan obračun transporta, dažbina, homologacije i registracije.', 'Na dizalici proveri podvozje, pragove, vodove, izduv i svež premaz koji može sakriti koroziju.'],
+                'tags' => ['uvoz iz Švedske', 'uvoz auta', 'korozija', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Švedske: šta proveriti',
+                'meta_description' => 'Analiza uvoza polovnog auta iz Švedske: VIN, dokumenti, zima, so, podvozje, korozija, troškovi i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a8a', '#93c5fd', '#eff6ff'],
+            ],
 
         ];
     }
