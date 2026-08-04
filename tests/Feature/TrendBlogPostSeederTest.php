@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(355, $posts);
+        $this->assertCount(360, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(84, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(85, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'subaru-outback-ili-volvo-xc70-karavan-sa-pogonom-kada-bezbednost-ne-sme-sakriti-prethodni-zivot'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-trax-mali-crossover-koji-mora-dokazati-gradsku-istoriju-motor-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volkswagen-jetta-limuzina-koja-mora-dokazati-gepek-motor-i-stvarnu-kilometrazu'));
+        $this->assertTrue($posts->contains('slug', 'ogranicivac-vrata-na-polovnom-autu-kada-klik-pri-otvaranju-otkriva-sarku-limariju-ili-umoran-mehanizam'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-islanda-kada-mali-broj-oglasa-trazi-proveru-zime-soli-i-cele-putanje-vozila'));
         $this->assertTrue($posts->contains('slug', 'lada-vesta-ili-dacia-sandero-kada-nova-godina-ne-sme-pobediti-jasnu-istoriju'));
         $this->assertTrue($posts->contains('slug', 'polovni-opel-cascada-kabriolet-koji-mora-dokazati-krov-vlagu-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-daewoo-lacetti-porodicni-auto-koji-mora-dokazati-limariju-delove-i-stvarnu-cenu'));

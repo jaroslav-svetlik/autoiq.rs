@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.117] - 2026-08-04
+
+### Added
+
+- Added five non-duplicate production blog articles covering Subaru Outback versus Volvo XC70, used Chevrolet Trax and Volkswagen Jetta buying guidance, door-check-strap inspection, and Icelandic import due diligence.
+
 ## [0.1.116] - 2026-08-03
 
 ### Added

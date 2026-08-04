@@ -9811,6 +9811,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1e3a8a', '#93c5fd', '#eff6ff'],
             ],
+            [
+                'title' => 'Subaru Outback ili Volvo XC70: karavan sa pogonom kada bezbednost ne sme sakriti prethodni život',
+                'slug' => 'subaru-outback-ili-volvo-xc70-karavan-sa-pogonom-kada-bezbednost-ne-sme-sakriti-prethodni-zivot',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je birao između dva povišena karavana za put i sneg, ali je tek pregled pogona, automatika i računa pokazao da bezbedan imidž nije zamena za uredan primerak.',
+                'content' => <<<'TEXT'
+Milan je tražio karavan za porodicu, vikendicu i duži put, pa su mu Subaru Outback i Volvo XC70 delovali kao dva razumna odgovora. Oba nude povišenu poziciju, mnogo prostora i pogon koji uliva sigurnost kada asfalt nije savršen. Ipak, nije birao između oglasa, već između dva konkretna automobila: Outback je imao uredniju kabinu, a XC70 više opreme i prazniju fasciklu računa.
+
+Kod Outbacka je prvo tražio dokaz o redovnom održavanju motora, menjača i sistema pogona, pa na hladnom startu slušao rad motora i na vožnji proverio mirnoću pri punom skretanju. Pogon na sva četiri točka nije razlog da se preskoče gume, kočnice, podvozje i istorija ulja. Dobar primerak je onaj kod kog sva četiri pneumatika, servisni trag i ponašanje auta govore istu priču, ne onaj koji samo ima poznatu oznaku na gepeku.
+
+XC70 može više odgovarati kupcu koji želi komforan putnički auto i nađe primerak sa jasnom istorijom automatika, vešanja i elektronike. Milan je kod njega proverio rad svih komandi, klimu, upozorenja na tabli, ponašanje menjača pri sporom manevru i pregled donjeg postroja kod majstora. Bogata oprema povećava vrednost samo kada sve radi; nejasna greška ili izostanak računa nisu sitnica koju treba rešavati posle kapare.
+
+Milan je izabrao Outback sa dokazivim servisom i svežim, pravilno uparenim gumama, iako je XC70 na fotografijama izgledao luksuznije. Nastavi kada pogon, menjač i dokumenti imaju jasnu logiku; pregovaraj za potvrđene potrošne radove; odustani kada priča o bezbednosti treba da zameni pregled skupih sistema ili poreklo vozila.
+TEXT,
+                'highlights' => ['Pogon na sva četiri točka proveravaj uz iste, pravilno uparene gume i pregled podvozja.', 'Kod Outbacka i XC70 traži račune za motor, menjač i pogon pre nego što oprema odluči kupovinu.', 'Nejasna lampica, trzaj automatika ili prazna istorija razlog su za nezavisan pregled, ne za brz popust.'],
+                'tags' => ['Subaru Outback', 'Volvo XC70', 'karavan', 'pogon na sva četiri točka', 'poređenje modela'],
+                'meta_title' => 'Subaru Outback ili Volvo XC70: šta proveriti pre kupovine',
+                'meta_description' => 'Poređenje polovnih Subaru Outback i Volvo XC70: pogon, automatik, gume, podvozje, elektronika, servisna istorija i realna kupovina.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(4),
+                'palette' => ['#142c3d', '#67e8f9', '#ecfeff'],
+            ],
+            [
+                'title' => 'Polovni Chevrolet Trax: mali crossover koji mora dokazati gradsku istoriju, motor i limariju',
+                'slug' => 'polovni-chevrolet-trax-mali-crossover-koji-mora-dokazati-gradsku-istoriju-motor-i-limariju',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jovana je želela mali crossover za grad, ali je kod Chevrolet Traxa proverila da li povišeno sedenje i dobra cena kriju kratke relacije, umoran motor ili parking popravke.',
+                'content' => <<<'TEXT'
+Jovana je tražila manji crossover koji može lako u garažu, a da ne izgleda kao kompromis na otvorenom putu. Chevrolet Trax joj je privukao pažnju cenom, višim sedenjem i primerkom koji je spolja bio uredan. Prodavac je naglašavao da je auto vožen samo po gradu, a ona je baš zato tražila hladan start i račune pre nego što je sela za volan.
+
+Kod benzinca je proverila miran rad motora, odziv na gas i da li servisni zapisi imaju ritam koji odgovara kilometraži. Kod dizela bi isto pitanje uključilo relacije, DPF, EGR i turbinu, jer kratke vožnje ne nestaju iz istorije zato što auto ima malu karoseriju. Ne prihvataj izjavu da je sve servisirano bez računa, datuma i objašnjenja šta je tačno rađeno.
+
+Na probnoj vožnji je Trax vozila preko ležećih policajaca, parkirala do punog ugla volana i proverila kvačilo, menjač, kočnice, klimu i komande. Zatim je sa majstorom pogledala pragove, donji deo branika, felne, gume i zazore panela. Gradski auto lako sakrije udarce sa parkinga; uredna manja popravka može biti prihvatljiva, ali različita boja, nepravilan zazor i nejasna priča traže proveru limarije.
+
+Jovana je pregovarala za potvrđene gume i kočnice, ali je od drugog Traxa odustala kada hladan motor nije radio mirno, a računa nije bilo. Nastavi kada motor, vožnja i limarija potvrđuju priču o gradu; pregovaraj za merljiva ulaganja; odustani kada dobra visina sedenja pokušava da zameni servisnu istoriju.
+TEXT,
+                'highlights' => ['Hladan start i računi proveravaju da li je gradski život ostavio više od sitnih ogrebotina.', 'Na vožnji testiraj kvačilo, menjač, kočnice i puni ugao volana pre odluke.', 'Različiti zazori i boja na branicima traže pregled limarije, čak i kada je popravka opisana kao mala.'],
+                'tags' => ['Chevrolet Trax', 'mali crossover', 'gradska vožnja', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chevrolet Trax: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Chevrolet Traxa: motor, gradska vožnja, trap, limarija, servisna istorija, gume i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(3),
+                'palette' => ['#3a2420', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Volkswagen Jetta: limuzina koja mora dokazati gepek, motor i stvarnu kilometražu',
+                'slug' => 'polovni-volkswagen-jetta-limuzina-koja-mora-dokazati-gepek-motor-i-stvarnu-kilometrazu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nenad je želeo kompaktnu limuzinu sa velikim gepekom, ali je kod Volkswagen Jette proverio da li prostranost prati zdrav motor, uredan enterijer i kilometražu koju dokumenti mogu potvrditi.',
+                'content' => <<<'TEXT'
+Nenad je tražio limuzinu koja može da primi porodični prtljag bez kupovine velikog auta. Volkswagen Jetta mu je zato delovala kao dobra mera: poznata tehnika, veliki gepek i diskretniji izgled od hečbeka. Našao je primerak sa urednim spoljnim izgledom i privlačnom kilometražom, ali nije dopustio da velika zapremina gepeka pređe preko pitanja kako je auto stvarno održavan.
+
+Pre vožnje je tražio VIN, servisne račune, zapise tehničkih pregleda i objašnjenje za svaki duži prekid u istoriji. Kod benzinca je proverio hladan start, miran ler i dokaz o redovnim servisima; kod dizela je pitao za relacije, turbinu, DPF i EGR. Izbor motora ne treba donositi po jednoj rečenici iz oglasa, već prema načinu na koji će auto zaista voziti sledeći vlasnik.
+
+Nenad je otvorio gepek, podigao podnicu i pogledao dihtunge, stanje obloge, pod i tragove vlage ili udara pozadi. Zatim je na vožnji proverio kvačilo ili automatik, kočnice, trap, klimu i ponašanje na neravninama, a majstor je pregledao podvozje i lak. Veliki gepek vredi kada je suv, pravilan i prati ostatak auta; neujednačeni zazori ili mokra podnica traže odgovor pre pregovora.
+
+Nenad je kupio Jettu tek kada su dokumenti, enterijer i pregled mehanike potvrdili kilometražu, a mali račun za gume pretvorio u pošten pregovor. Nastavi kada motor, gepek i papiri pričaju isto; pregovaraj za jasno procenjene potrošne delove; odustani kada lep gepek služi kao izgovor za praznu istoriju ili sumnju na udarac.
+TEXT,
+                'highlights' => ['VIN, računi i tehnički zapisi moraju potvrditi kilometražu pre nego što porediš cenu Jette.', 'Podigni podnicu gepeka i proveri dihtunge, vlagu, zazore i tragove rada na zadnjem kraju.', 'Motor biraj prema budućim relacijama i dokazivom servisu, ne prema obećanju iz oglasa.'],
+                'tags' => ['Volkswagen Jetta', 'polovna limuzina', 'veliki gepek', 'kilometraža', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volkswagen Jetta: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Volkswagen Jette: motor, kilometraža, gepek, limarija, trap, servisna istorija i realna cena.',
+                'is_featured' => false,
+                'published_at' => now()->subMinutes(2),
+                'palette' => ['#30283b', '#c4b5fd', '#f5f3ff'],
+            ],
+            [
+                'title' => 'Ograničivač vrata na polovnom autu: kada klik pri otvaranju otkriva šarku, limariju ili umoran mehanizam',
+                'slug' => 'ogranicivac-vrata-na-polovnom-autu-kada-klik-pri-otvaranju-otkriva-sarku-limariju-ili-umoran-mehanizam',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stefan je čuo klik pri otvaranju vozačevih vrata i umesto da ga proglasi sitnicom, povezao je ograničivač sa šarkama, zazorima i pričom o ranijoj popravci.',
+                'content' => <<<'TEXT'
+Stefan je pri prvom razgledanju polovnog auta otvorio vozačeva vrata i čuo kratak, tvrd klik. Prodavac je rekao da je to normalno za stariji auto, što ponekad i jeste: ograničivač vrata radi pod opterećenjem i vremenom se istroši. Stefan ipak nije zaključio ni da je auto havarisan ni da je zvuk nebitan; iskoristio ga je kao razlog da pregled vrata uspori pre kapare.
+
+Uz dozvolu je nekoliko puta polako otvorio i zatvorio sva vrata, bez oslanjanja na njih i bez cimanja. Uporedio je otpor, zadržavanje položaja, zvuk, lak oko šarki i zazore prema blatobranima i pragovima. Ograničivač koji škripi može biti mali mehanički posao, ali vrata koja padaju, zapinju ili drugačije naležu traže širu proveru nego što jedna nova polugica može rešiti.
+
+Zatim je sa majstorom povezao nalaz sa bravom, gumama vrata, šarkama, instalacijom u pregibu i mogućim tragovima boje ili alata. Ako je prodavac objasnio raniju popravku, račun i ujednačeni zazori mogu dati smisao detalju. Ako priča ostane nejasna, proveri limariju i da li se vrata zatvaraju bez sile, jer udobnost i bezbednost ne treba plaćati naknadnim nagađanjem.
+
+Stefan je pregovarao za jasno dijagnostikovan ograničivač na autu čija su vrata bila ravna i uredna, a odustao od drugog primerka sa pomerenim zazorima i napuklim lakom kod šarke. Nastavi kada funkcija i limarija imaju objašnjenje; pregovaraj za mali potvrđeni kvar; odustani kada klik dolazi zajedno sa lošim naleganjem, tragovima udara ili promenljivom pričom.
+TEXT,
+                'highlights' => ['Polako uporedi sva vrata, njihov otpor, zadržavanje položaja, zvuk i zazore bez cimanja ili rastavljanja.', 'Sam klik ograničivača može biti mali kvar, ali vrata koja padaju ili zapinju traže pregled šarki i limarije.', 'Račun za raniju popravku i ravnomerni zazori vrede više od usmenog objašnjenja prodavca.'],
+                'tags' => ['ograničivač vrata', 'šarke vrata', 'limarija', 'provera vozila', 'polovan auto'],
+                'meta_title' => 'Ograničivač vrata polovnog auta: šta otkriva klik',
+                'meta_description' => 'Kako proveriti ograničivač vrata polovnog auta: klik, šarke, zazori, brava, limarija, ranija popravka i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now()->subMinute(),
+                'palette' => ['#34251d', '#fbbf24', '#fffbeb'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Islanda: kada mali broj oglasa traži proveru zime, soli i cele putanje vozila',
+                'slug' => 'uvoz-auta-iz-islanda-kada-mali-broj-oglasa-trazi-proveru-zime-soli-i-cele-putanje-vozila',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je našla islandski oglas sa bogatom opremom, ali je pre kapare proverila kako zima, so, trajekt, dokumenti i retkost takvog uvoza menjaju stvarnu cenu i rizik.',
+                'content' => <<<'TEXT'
+Ana je naišla na islandski oglas sa dobrom opremom i cenom koja je na prvi pogled izgledala povoljno. Kako je izbor takvih vozila mali, prodavac je žurio da odluku predstavi kao retku priliku. Ana je usporila: mala ponuda ne pretvara nepoznatu putanju, dugu zimu i prevoz preko mora u jednostavan uvoz.
+
+Pre puta je zatražila VIN, islandske registracione dokumente, dokaz vlasništva, servisne račune, tehničke zapise i fotografije podvozja bez svežeg premaza. Pitala je gde je auto tačno vožen, da li je ranije došao iz druge zemlje i da li dokumenti pokazuju kontinuitet kilometraže. Ne uplaćuj kaparu na osnovu dobre opreme ili fotografija; nejasan sled papira je veći problem od udaljenosti.
+
+Sa nezavisnim majstorom bi pregledala pragove, pod, kočione vodove, nosače, izduv, rubove vrata i tragove vlage, a zatim hladan start, akumulator, grejanje, klimu, gume i pogon ako postoji. Zima i obalski uslovi mogu ubrzati habanje bez obzira na urednu kabinu. Pre konačne odluke Ana bi od špeditera i nadležnih službi za konkretan VIN dobila aktuelan obračun prevoza, dažbina, homologacije i registracije.
+
+Ana je odustala od prvog oglasa kada vlasnički sled nije bio jasan, a drugi bi razmatrala tek uz pregled i potpunu računicu. Nastavi kada poreklo, stanje i troškovi imaju dokumentovan smisao; pregovaraj za dokazano početno ulaganje; odustani kada retkost islandskog oglasa treba da zameni odgovor o soli, transportu ili papirima.
+TEXT,
+                'highlights' => ['Pre puta traži VIN, islandske dokumente, vlasnički sled, servisne račune i jasnu putanju vozila.', 'Pregled na dizalici mora obuhvatiti podvozje, vodove, pragove, izduv i svaki svež zaštitni premaz.', 'Za baš taj auto proveri aktuelnu računicu transporta, dažbina, homologacije i registracije pre kapare.'],
+                'tags' => ['uvoz iz Islanda', 'uvoz auta', 'korozija', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Islanda: šta proveriti pre kupovine',
+                'meta_description' => 'Analiza uvoza polovnog auta iz Islanda: VIN, dokumenti, zima, so, podvozje, transport, troškovi i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f3345', '#5eead4', '#f0fdfa'],
+            ],
 
         ];
     }
