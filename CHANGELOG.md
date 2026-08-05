@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.118] - 2026-08-05
+
+### Added
+
+- Added five non-duplicate production blog articles covering Volkswagen Eos versus Peugeot 308 CC, used Škoda Yeti and Nissan Evalia buying guidance, windshield-wiper inspection, and Slovenian import due diligence.
+
 ## [0.1.117] - 2026-08-04
 
 ### Added

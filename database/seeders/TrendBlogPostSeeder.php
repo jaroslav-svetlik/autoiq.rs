@@ -9926,6 +9926,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#1f3345', '#5eead4', '#f0fdfa'],
             ],
+            [
+                'title' => 'Volkswagen Eos ili Peugeot 308 CC: kabriolet kada krov mora pobediti stil',
+                'slug' => 'volkswagen-eos-ili-peugeot-308-cc-kabriolet-kada-krov-mora-pobediti-stil',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Luka je tražio pristupačan kabriolet za vikend, ali su Volkswagen Eos i Peugeot 308 CC pokazali da se odluka donosi tek kada krov, gepek i suva kabina prođu isti pregled.',
+                'content' => <<<'TEXT'
+Luka je želeo kabriolet za vikend vožnje, ali nije želeo da plati samo lepu fotografiju sa spuštenim krovom. Volkswagen Eos i Peugeot 308 CC pojavili su se u sličnom budžetu: oba nude čvrsti sklopivi krov i upotrebljiv auto kada je zatvoren. Kod prvog Eosa prodavac je tvrdio da krov radi savršeno, ali je u gepeku bilo vlage; kod drugog 308 CC mehanizam je radio, ali bez jasnog računa za raniji servis. Zato Luka nije birao marku, već primerak čija priča može da se proveri.
+
+Eos odgovara kupcu kome znače mirniji izgled i preglednija kabina, ali svaki ciklus krova moraš gledati od početka do kraja. Traži da se krov otvori i zatvori nekoliko puta na ravnoj podlozi, bez žurbe i neobičnih zvukova. Pregledaj dihtunge, odvodne kanale, tepih gepeka i spojeve panela, a zatim proveri hladan start, klimu, podizače stakala i sve lampice. Ne prihvataj rečenicu da je sitno curenje normalno za godine bez pregleda i procene popravke.
+
+Peugeot 308 CC može biti bolji za kupca kome više odgovaraju sedišta i svakodnevna vožnja, ali ni njegova lepša oprema ne sme preskočiti istu kontrolu krova. Luka je na probnoj vožnji slušao trap preko neravnina, proverio kvačilo ili automatik, kočnice i ponašanje motora, pa sa majstorom pogledao donju stranu vozila i tragove vlage iza obloga. Kabriolet koji dugo stoji često sakrije slab akumulator, zaptivku ili mehanizam koji se pokaže tek kada promeniš vreme i ritam vožnje.
+
+Luka je odustao od jeftinijeg Eosa jer je vlaga ostala bez objašnjenja, a razmatrao je 308 CC tek kada je pregled dao jasnu listu prvog servisa. Nastavi kada se krov, kabina i servisna istorija slažu; pregovaraj za tačno procenjen potrošni rad; odustani kada stil treba da zameni suvu kabinu, normalan ciklus krova ili pravo na nezavisan pregled.
+TEXT,
+                'highlights' => ['Krov otvori i zatvori više puta na ravnoj podlozi, bez pristajanja na objašnjenje da je zastoj normalan.', 'Pregledaj dihtunge, odvode, gepek i tepih na vlagu pre bilo kakve kapare.', 'Prednost daj automobilu sa dokazivim servisom krova, čak i kada drugi ima privlačniju opremu ili cenu.'],
+                'tags' => ['Volkswagen Eos', 'Peugeot 308 CC', 'kabriolet', 'sklopivi krov', 'poređenje modela'],
+                'meta_title' => 'Volkswagen Eos ili Peugeot 308 CC: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Volkswagen Eos i Peugeot 308 CC: sklopivi krov, vlaga, gepek, mehanizam, servis i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e4b', '#fb7185', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Škoda Yeti: crossover koji mora dokazati pogon, stakleni krov i miran servis',
+                'slug' => 'polovni-skoda-yeti-crossover-koji-mora-dokazati-pogon-stakleni-krov-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Maja je želela kompaktan crossover za grad i vikendicu, ali je kod Škode Yeti proverila da li pogon, panoramski krov i servisna istorija opravdavaju neobičan oblik.',
+                'content' => <<<'TEXT'
+Maja je tražila kraći auto sa višim sedenjem za grad, a dovoljno praktičan za vikendicu i lošiji put. Škoda Yeti joj je privukla pažnju preglednom karoserijom i kabinom koja deluje veće nego spolja. Prvi primerak je imao panoramski krov i pogon na sva četiri točka, ali prodavac nije znao kada je poslednji put servisiran sistem pogona. Maja je zato stala pre kapare: dodatna oprema je vrednost samo kada iza nje stoji uredno održavanje.
+
+Pre vožnje je zatražila VIN, račune i objašnjenje motora prema svojim stvarnim relacijama. Kod benzinca je pratila hladan start i miran ler, a kod dizela bi tražila dokaz o načinu vožnje, redovnom servisu i stanju sistema izduva. Panoramski krov je otvorila, zatvorila i pregledala uz obloge, plafon i odvode, jer trag vlage nije estetski detalj kada se blizu nalaze električne komande.
+
+Na probnoj vožnji Maja je krenula polako, skrenula do punog ugla i prešla nekoliko neravnina, prateći menjač, kvačilo, trap i zvukove iz pogona. Ako primerak ima pogon na sva četiri točka, majstor treba da proveri stanje guma, ujednačenost dimenzija, podvozje i dokaz o održavanju sistema. Zatim je pogledala pragove, pod, kočnice, rubove vrata i zazore panela: viši auto nije izuzet od parking udaraca ili zapuštene limarije.
+
+Kupila bi Yeti samo kada dokumenti, suva kabina i pregled pogona daju isti odgovor. Nastavi kada su motor, krov i podvozje proverljivi; pregovaraj za merljivu stavku poput guma ili kočnica; odustani kada prodavac ne dozvoli pregled odozdo ili pokušava da nejasan servis pokrije pričom o retkoj opremi.
+TEXT,
+                'highlights' => ['Za primerak sa pogonom na sva četiri točka proveri račune, gume istih dimenzija i podvozje kod majstora.', 'Panoramski krov mora raditi glatko, a plafon, odvodi i obloge ostati potpuno suvi.', 'Motor biraj prema svojim relacijama i dokazima o servisu, ne prema jednoj rečenici iz oglasa.'],
+                'tags' => ['Škoda Yeti', 'crossover', 'pogon na sva četiri točka', 'panoramski krov', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Škoda Yeti: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Škode Yeti: motor, pogon, panoramski krov, gume, podvozje, servis i realna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#183a37', '#a3e635', '#f7fee7'],
+            ],
+            [
+                'title' => 'Polovni Nissan Evalia: porodični auto koji mora dokazati klizna vrata, prostor i radnu prošlost',
+                'slug' => 'polovni-nissan-evalia-porodicni-auto-koji-mora-dokazati-klizna-vrata-prostor-i-radnu-proslost',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nemanja je tražio prostor za decu i bicikle, ali je kod Nissana Evalia proverio da li klizna vrata, sedišta i stanje poda otkrivaju porodičan auto ili umoran radni život.',
+                'content' => <<<'TEXT'
+Nemanji je trebao auto koji bez preslaganja prima dvoje dece, kolica i vikend opremu. Nissan Evalia mu je delovala kao nenametljivo rešenje: visoka kabina, klizna vrata i više prostora od većine porodičnih hečbekova. Prvi oglas je izgledao uredno, ali su ogrebotine oko utovarnog praga i pohabana vozačka strana otvorile važno pitanje: da li je auto vozio porodicu ili je godinama radio teži posao koji oglas ne pominje?
+
+Pre nego što je seo za volan, Nemanja je otvorio oba klizna vrata više puta i proverio vođice, brave, dihtunge, pragove i mehanizme sedišta. Zatim je tražio VIN, račune i objašnjenje kako je auto korišćen. Praktična kabina ne vredi mnogo ako su vrata umorna, treći red zapinje ili je pod deformisan od stalnog tereta. Kada prodavac kaže da je trag korišćenja samo kozmetika, traži da to potvrdi pregled, ne obećanje.
+
+Na vožnji je slušao hladan start, proverio kvačilo, menjač, kočnice, trap i klimu na svim otvorima, a pri parkiranju je obratio pažnju na preglednost i puni ugao volana. Sa majstorom je pregledao podvozje, pragove, zadnju osovinu, gume i tragove tereta u gepeku. Kod vozila ovakvog oblika udarac ili korozija oko zadnjih vrata mogu napraviti skuplju priču nego što niska cena sugeriše.
+
+Nemanja je odustao od prvog primerka jer prodavac nije dozvolio pregled poda, a sačuvao je drugi sa jasnim računima i vratima koja rade bez napora. Nastavi kada su klizna vrata, pod i servisna istorija u skladu; pregovaraj za jednu procenjenu potrošnu stavku; odustani kada veliki prostor treba da opravda nejasnu radnu prošlost ili preskočen pregled.
+TEXT,
+                'highlights' => ['Oba klizna vrata, vođice, brave i dihtunge testiraj više puta pre probne vožnje.', 'Pogledaj utovarni prag, pod gepeka i podvozje na tragove stalnog tereta, udarca ili korozije.', 'Jasni računi i stvaran opis korišćenja vrede više od uredno očišćene prostrane kabine.'],
+                'tags' => ['Nissan Evalia', 'porodični auto', 'klizna vrata', 'radna istorija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Nissan Evalia: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Nissan Evalia: klizna vrata, sedišta, pod, motor, trap, servis i radna istorija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a5f', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Brisači na polovnom autu: kada preskakanje otkriva metlicu, mehanizam ili vlagu',
+                'slug' => 'brisaci-na-polovnom-autu-kada-preskakanje-otkriva-metlicu-mehanizam-ili-vlagu',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jovan je tokom kišnog pregleda polovnjaka primetio da brisači preskaču, pa je proverio da li se iza jeftine metlice kriju umoran mehanizam, motor ili vlaga oko vetrobrana.',
+                'content' => <<<'TEXT'
+Jovan je stigao da pogleda polovan auto baš kada je počela slaba kiša. Prodavac je uključio brisače, a oni su jednom preskočili preko stakla i zastali malo više nego što bi trebalo. Mogla je biti obična metlica, ali Jovan nije želeo da pretpostavi da je svaka sitnica jeftina. Brisači koriste staklo, poluge, motor, osigurače i odvodne kanale, pa njihovo ponašanje ponekad vodi do zanemarenog održavanja ili vlage.
+
+Tražio je da se vetrobran opere i da se brisači pokrenu na svim brzinama, uključujući povremeni rad i pranje stakla. Gledao je da li gumica ravnomerno naleže, da li ruke imaju luft, čuju li se škripa ili udarci i vraćaju li se brisači u pravilan položaj. Istovremeno je proverio prskalice, jer slab mlaz i preskakanje mogu imati različite uzroke. Nova metlica je prihvatljiv trošak; spor motor ili razlabavljen mehanizam traže procenu pre pregovora.
+
+Zatim je otvorio haubu i pogledao prostor ispod plastike pri dnu vetrobrana, kao i tepih ispred suvozača. Lišće, začepljeni odvodi, tragovi vode ili vlažan miris mogu značiti da voda ne odlazi tamo gde treba. Na probnoj vožnji proverio je rad brisača pri većoj brzini i slušao da li se mehanizam muči. Nemoj rastavljati auto na parkingu, ali prodavac koji odbija jednostavan pregled i test na vodi ne daje dobar razlog za poverenje.
+
+Jovan je pregovarao samo za istrošene metlice kada je sve ostalo radilo uredno. Nastavi kada je pokret tih, ravnomeran i kabina suva; pregovaraj za jasno utvrđenu sitnicu; odustani kada preskakanje prate vlaga, spor rad ili nejasan trag oko donjeg dela vetrobrana.
+TEXT,
+                'highlights' => ['Testiraj sve brzine, povremeni rad, pranje stakla i pravilan povratak brisača u početni položaj.', 'Razlikuj cenu metlica od procene za motor, poluge ili problem sa odvodima i vlagom.', 'Pogledaj odvode pri dnu vetrobrana i tepih u kabini pre nego što kvar nazoveš sitnicom.'],
+                'tags' => ['brisači', 'vetrobran', 'mehanizam brisača', 'vlaga', 'provera vozila'],
+                'meta_title' => 'Brisači na polovnom autu: šta otkriva preskakanje',
+                'meta_description' => 'Kako proveriti brisače polovnog auta: metlice, poluge, motor, prskalice, odvodi, vlaga i kada odustati od kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#67e8f9', '#ecfeff'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Slovenije: kada blizina traži proveru papira, relacija i prave računice',
+                'slug' => 'uvoz-auta-iz-slovenije-kada-blizina-trazi-proveru-papira-relacija-i-prave-racunice',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ivana je našla slovenački oglas blizu granice, ali je pre kapare proverila da li blizina puta prati VIN, servisnu putanju, stvarno stanje i ceo trošak uvoza.',
+                'content' => <<<'TEXT'
+Ivana je našla oglas iz Slovenije dovoljno blizu da joj je odlazak delovao kao jednostavan vikend-plan. Auto je imao uredne fotografije, poznatu opremu i cenu koja je delovala bolja od sličnih domaćih oglasa. Ipak, blizina granice ne skraćuje obavezu provere. Auto može imati više vlasnika, flotnu prošlost ili servisne prekide koje jedna uredna registracija ne objašnjava.
+
+Pre puta je zatražila VIN, fotografije originalnih dokumenata, servisne račune, tehničke zapise i podatke o vlasništvu. Uporedila je datume, kilometražu i zemlju svakog zapisa, pa proverila da li prodavac zaista može da potpiše dokumenta potrebna za prenos. Ne šalji kaparu zato što je auto geografski blizu; kapara ima smisla tek kada se identitet vozila, vlasnički sled i uslovi kupovine mogu proveriti za baš taj primerak.
+
+Na licu mesta Ivana bi sa nezavisnim majstorom uradila hladan start, dijagnostiku, probnu vožnju i pregled na dizalici. Pogledala bi pragove, podvozje, kočione vodove, gume, zazore panela i enterijer, a stanje povezala sa prijavljenom kilometražom i načinom korišćenja. Pre konačne odluke zatražila bi aktuelan obračun prevoza, dažbina, homologacije i registracije za konkretan VIN od špeditera i nadležnih službi, umesto da računa po starom forumskom savetu.
+
+Ivana je odustala od oglasa sa prekidom u servisnoj priči, iako je bio najbliži, a razmatrala bi skuplji auto sa potpunim papirima i pregledom. Nastavi kada dokumenti, stanje i ukupan trošak govore isto; pregovaraj za dokazano početno ulaganje; odustani kada blizina služi kao zamena za VIN, originalne papire i nezavisan pregled.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, originalne dokumente, račune, tehničke zapise i sled vlasništva.', 'Na licu mesta objedini dijagnostiku, probnu vožnju i pregled podvozja sa stanjem enterijera i kilometražom.', 'Za konkretan VIN proveri aktuelne troškove prevoza, dažbina, homologacije i registracije pre kapare.'],
+                'tags' => ['uvoz iz Slovenije', 'uvoz auta', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Slovenije: šta proveriti pre kupovine',
+                'meta_description' => 'Analiza uvoza polovnog auta iz Slovenije: VIN, dokumenti, servisna istorija, pregled, troškovi i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#243b53', '#f59e0b', '#fffbeb'],
+            ],
 
         ];
     }

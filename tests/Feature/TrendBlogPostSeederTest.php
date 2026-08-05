@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(360, $posts);
+        $this->assertCount(365, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(85, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(86, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'volkswagen-eos-ili-peugeot-308-cc-kabriolet-kada-krov-mora-pobediti-stil'));
+        $this->assertTrue($posts->contains('slug', 'polovni-skoda-yeti-crossover-koji-mora-dokazati-pogon-stakleni-krov-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-evalia-porodicni-auto-koji-mora-dokazati-klizna-vrata-prostor-i-radnu-proslost'));
+        $this->assertTrue($posts->contains('slug', 'brisaci-na-polovnom-autu-kada-preskakanje-otkriva-metlicu-mehanizam-ili-vlagu'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-slovenije-kada-blizina-trazi-proveru-papira-relacija-i-prave-racunice'));
         $this->assertTrue($posts->contains('slug', 'subaru-outback-ili-volvo-xc70-karavan-sa-pogonom-kada-bezbednost-ne-sme-sakriti-prethodni-zivot'));
         $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-trax-mali-crossover-koji-mora-dokazati-gradsku-istoriju-motor-i-limariju'));
         $this->assertTrue($posts->contains('slug', 'polovni-volkswagen-jetta-limuzina-koja-mora-dokazati-gepek-motor-i-stvarnu-kilometrazu'));
