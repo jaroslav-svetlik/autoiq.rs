@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(365, $posts);
+        $this->assertCount(370, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(86, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(87, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'datsun-on-do-ili-lada-kalina-mala-limuzina-kada-nepoznata-znacka-ne-sme-pobediti-proveru'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-verso-s-mali-porodicni-auto-koji-mora-dokazati-cvt-prostor-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-opel-meriva-b-mali-monovolumen-koji-mora-dokazati-vrata-trap-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'neravnomerno-trosenje-guma-na-polovnom-autu-kada-sara-otkriva-trap-pritisak-ili-udarac'));
+        $this->assertTrue($posts->contains('slug', 'demonstracioni-auto-sa-preostalom-fabrickom-garancijom-kada-mala-kilometraza-trazi-vecu-proveru'));
         $this->assertTrue($posts->contains('slug', 'volkswagen-eos-ili-peugeot-308-cc-kabriolet-kada-krov-mora-pobediti-stil'));
         $this->assertTrue($posts->contains('slug', 'polovni-skoda-yeti-crossover-koji-mora-dokazati-pogon-stakleni-krov-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-evalia-porodicni-auto-koji-mora-dokazati-klizna-vrata-prostor-i-radnu-proslost'));

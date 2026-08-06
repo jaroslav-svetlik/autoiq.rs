@@ -10041,6 +10041,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#243b53', '#f59e0b', '#fffbeb'],
             ],
+            [
+                'title' => 'Datsun on-DO ili Lada Kalina: mala limuzina kada nepoznata značka ne sme pobediti proveru',
+                'slug' => 'datsun-on-do-ili-lada-kalina-mala-limuzina-kada-nepoznata-znacka-ne-sme-pobediti-proveru',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aleksandar je tražio jednostavnu malu limuzinu, ali je između Datsuna on-DO i Lade Kaline shvatio da cena i poznata mehanika vrede samo kada su delovi, limarija i istorija konkretnog primerka jasni.',
+                'content' => <<<'TEXT'
+Aleksandar je tražio jeftinu limuzinu za svakodnevni odlazak na posao i povremeni put do porodice. U istom budžetu našao je Datsun on-DO i Ladu Kalinu: oba su mu delovala poznato po jednostavnoj ideji, ali je Datsun imao nepoznatiju značku i urednije fotografije. Umesto da odluči po izgledu, zapisao je pitanje koje važi za oba auta: ko će ih održavati, odakle dolaze delovi i šta je konkretan primerak već preživeo.
+
+Datsun on-DO ima smisla kada kupcu odgovaraju klasičan gepek, jednostavna kabina i primerak sa proverljivim tragom održavanja. Aleksandar bi pre kapare tražio VIN, račune, hladan start i pregled karoserije, naročito pragova, rubova blatobrana, poda gepeka i zazora panela. Zatim bi u lokalnom servisu proverio dostupnost potrošnih i specifičnih delova baš za taj broj šasije. Ne prihvataj obećanje da je sve isto kao na drugom modelu bez dela, računa ili majstorove potvrde.
+
+Lada Kalina može više odgovarati kupcu kome znače poznatija mreža majstora i jednostavnija svakodnevna popravka, ali ni to nije dozvola za preskočen pregled. Na probnoj vožnji Aleksandar bi slušao menjač, kvačilo, trap i rad ventilacije, a zatim proverio kočnice, gume i donju stranu auta. Kod oba kandidata važno je da se stanje kabine, pedala i volana slaže sa prijavljenom kilometražom, jer niska ulazna cena nema smisla ako odmah traži limariju, gume i veći servis.
+
+Aleksandar bi nastavio sa automobilom koji ima jasnu istoriju i dostupan plan prvog servisa, bez obzira na oznaku na haubi. Pregovaraj za procenjen potrošni rad; odustani kada prodavac nema VIN, krije podvozje ili ne može objasniti kako ćeš nabaviti potreban deo. Kod ova dva auta bolji primerak je važniji od poznatije priče.
+TEXT,
+                'highlights' => ['Za oba modela proveri VIN i dostupnost baš potrebnih delova pre kapare.', 'Pogledaj pragove, rubove, pod gepeka i zazore panela pre nego što cenu nazoveš povoljnom.', 'Nastavi samo kada hladan start, probna vožnja i računi daju istu priču o stanju.'],
+                'tags' => ['Datsun on-DO', 'Lada Kalina', 'mala limuzina', 'delovi', 'poređenje modela'],
+                'meta_title' => 'Datsun on-DO ili Lada Kalina: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Datsun on-DO i Lada Kalina: delovi, limarija, motor, trap, servis i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#2d3748', '#f6ad55', '#fffaf0'],
+            ],
+            [
+                'title' => 'Polovni Toyota Verso-S: mali porodični auto koji mora dokazati CVT, prostor i servis',
+                'slug' => 'polovni-toyota-verso-s-mali-porodicni-auto-koji-mora-dokazati-cvt-prostor-i-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milica je želela kratak auto za grad bez odricanja od porodične praktičnosti, pa je kod Toyote Verso-S proverila da li CVT, promenljiva kabina i servisna priča zaista prate uredan primerak.',
+                'content' => <<<'TEXT'
+Milica je tražila auto koji može stati u gradsku zonu, a vikendom poneti dečje stvari i kupovinu bez slagalice u gepeku. Toyota Verso-S joj je delovala kao razuman kompromis: kratka spolja, visoka iznutra i nenametljiva za vožnju. Prvi primerak imao je automatik i uredno usisanu kabinu, ali prodavac nije znao kada je poslednji put promenjeno ulje u menjaču. Milica nije htela da praktičnost plati pretpostavkom.
+
+Pre vožnje je tražila VIN, račune i objašnjenje kako je auto korišćen. Kod primerka sa CVT-om tražila bi dokaz o preporučenom održavanju i krenula bez naglog gasa, prateći da li se auto pokreće glatko, ubrzava ravnomerno i reaguje bez zadrške. Hladan start, miran ler, klima i sve komande kabine moraju raditi pre nego što kratka karoserija postane argument za kupovinu.
+
+Milica je zatim pomerila zadnju klupu, otvorila gepek i pregledala šine, mehanizme, brave i pod na vlagu ili tragove preopterećenja. Na probnoj vožnji je prešla preko neravnina, isprobala puni ugao volana i proverila kočnice, trap i gume. Sa majstorom bi pogledala podvozje, pragove i stanje tečnosti, jer gradski auto često preživi ivičnjake, kratke relacije i odložene sitne servise koje oglas ne opisuje.
+
+Milica bi kupila Verso-S kada se servis menjača, kabina i pregled podvozja potvrde jedni drugima. Pregovaraj kada je potrebno samo jasno procenjeno početno ulaganje; odustani kada automatik nema dokumentaciju, zadnja klupa zapinje ili prodavac ne dozvoli pregled. Mali porodični auto vredi kada praktičnost ostane jednako uredna kao i njegova spoljašnja mera.
+TEXT,
+                'highlights' => ['Za CVT traži dokaz o održavanju i testiraj polazak i ubrzanje bez trzaja.', 'Pomeraj zadnju klupu, brave i pod gepeka umesto da prostor proceniš samo pogledom.', 'Pregledaj podvozje, trap i gume jer kratke gradske relacije ostavljaju konkretan trag.'],
+                'tags' => ['Toyota Verso-S', 'CVT', 'porodični auto', 'mala kabina', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Toyota Verso-S: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Toyote Verso-S: CVT, kabina, gepek, trap, podvozje, servis i realna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#17324d', '#5eead4', '#ecfeff'],
+            ],
+            [
+                'title' => 'Polovni Opel Meriva B: mali monovolumen koji mora dokazati vrata, trap i stvarnu namenu',
+                'slug' => 'polovni-opel-meriva-b-mali-monovolumen-koji-mora-dokazati-vrata-trap-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je tražio lak ulazak za roditelje i dovoljno mesta za svakodnevicu, ali je kod Opela Merive B proverio da li su zadnja vrata, trap i servis jači argument od neobične praktičnosti.',
+                'content' => <<<'TEXT'
+Vladimiru je trebao auto u koji roditelji ulaze bez savijanja, a da i dalje ostane dovoljno kratak za gradsko parkiranje. Opel Meriva B ga je privukla višim sedenjem i zadnjim vratima koja se otvaraju na suprotnu stranu. Na prvom oglasu sve je izgledalo praktično, ali je jedno zadnje krilo tražilo jače povlačenje. Vladimir je stao: neobično rešenje ima vrednost samo kada radi lako i bez skrivene limarske priče.
+
+Pre probne vožnje otvorio je sva vrata više puta, proverio šarke, brave, dihtunge, ograničivače i zazore oko otvora. Tražio je VIN, račune i podatak da li je auto vozio porodicu, starije putnike ili posao sa čestim utovarom. Preglednost i lak ulazak nisu zamena za suvu kabinu, čvrste pragove i normalan rad električnih podizača, centralne brave i klime.
+
+Na vožnji je krenuo hladan, prešao preko neravnina i okrenuo volan do kraja, slušajući trap, kvačilo ili automatik i ponašanje motora. Zatim je sa majstorom pogledao prednju i zadnju osovinu, kočnice, gume, podvozje i rubove vrata. Kod višeg gradskog auta pohabano sedište ili udarci po točkovima mogu reći više o prethodnim relacijama nego sjajna plastika u kabini.
+
+Vladimir bi nastavio samo sa Merivom čija vrata rade bez otpora, čije stanje podvozja potvrđuje servisne račune i čiji motor odgovara njegovim relacijama. Pregovaraj za jasno procenjene gume ili kočnice; odustani kada vrata zapinju, zazori nisu ujednačeni ili pregled na dizalici postane problem. Praktičnost mora olakšati život i posle kupovine, ne samo na parkingu oglasa.
+TEXT,
+                'highlights' => ['Otvori svaka vrata više puta i proveri šarke, brave, dihtunge i zazore.', 'Na probnoj vožnji testiraj trap preko neravnina i puni ugao volana.', 'Stanje pragova i podvozja poveži sa stvarnom prethodnom namenom auta.'],
+                'tags' => ['Opel Meriva B', 'mali monovolumen', 'vrata', 'trap', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Meriva B: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Opela Merive B: vrata, kabina, motor, trap, pragovi, podvozje i servis.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#243b2a', '#a3e635', '#f7fee7'],
+            ],
+            [
+                'title' => 'Neravnomerno trošenje guma na polovnom autu: kada šara otkriva trap, pritisak ili udarac',
+                'slug' => 'neravnomerno-trosenje-guma-na-polovnom-autu-kada-sara-otkriva-trap-pritisak-ili-udarac',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je na polovnjaku video dobru šaru samo na prvi pogled, pa je dlanom prešao preko svake gume i otkrio da neravnomerno trošenje može voditi do pritiska, trapa ili udarca koji traži proveru.',
+                'content' => <<<'TEXT'
+Marko je našao polovan auto sa gumama koje su na fotografijama izgledale skoro nove. Kada je čučnuo pored prednjeg točka, video je da je unutrašnja ivica jedne gume znatno plića. Prodavac je rekao da je potreban samo balans, ali Marko nije prihvatio brz zaključak. Šara ne govori samo koliko je guma ostalo: njen oblik može pokazati pritisak, geometriju trapa, istrošen deo ili posledicu jačeg udarca.
+
+Tražio je da vidi sve četiri gume na dnevnom svetlu, pročitao dimenzije i prelazio dlanom preko unutrašnje i spoljne ivice. Različito trošenje levo i desno, zupčasta površina, ogreban bok ili mešane dimenzije nisu razlog da sam postavi dijagnozu, ali jesu razlog da se auto podigne. Uporedi i rezervni točak ako postoji, a pritisak proveri instrumentom umesto oslanjanja na pogled.
+
+Na probnoj vožnji Marko je pustio volan samo na bezbednom ravnom delu, pratio vuče li auto, vibrira li pri brzini i javlja li se lupanje preko neravnina. Zatim je sa majstorom pregledao felne, spone, krajeve, amortizere i geometriju, pa pitao za račun koji objašnjava raniju zamenu guma ili dela trapa. Jedna lošije potrošena guma može biti potrošni trošak; obrazac bez objašnjenja može promeniti celu računicu.
+
+Marko bi pregovarao kada pregled pokaže samo merljivu zamenu guma i podešavanje, a kupovinu nastavio tek posle jasne procene. Odustani kada bokovi kriju udarce, gume su mešane bez razloga ili prodavac odbija dizalicu i proveru geometrije. Dobra šara je početak pregleda, ne potvrda da je trap zdrav.
+TEXT,
+                'highlights' => ['Pregledaj unutrašnju i spoljašnju ivicu svake gume, ne samo vidljivu sredinu šare.', 'Različito trošenje, zupčasta površina ili oštećen bok zahtevaju pregled na dizalici.', 'Pregovaraj tek kada majstor razdvoji cenu guma od mogućeg trapa ili posledice udarca.'],
+                'tags' => ['gume', 'trap', 'geometrija trapa', 'felne', 'provera vozila'],
+                'meta_title' => 'Neravnomerno trošenje guma: šta otkriva na polovnjaku',
+                'meta_description' => 'Kako neravnomerno trošenje guma otkriva pritisak, geometriju trapa, udarac, felne i kada odustati od kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#292524', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Demonstracioni auto sa preostalom fabričkom garancijom: kada mala kilometraža traži veću proveru',
+                'slug' => 'demonstracioni-auto-sa-preostalom-fabrickom-garancijom-kada-mala-kilometraza-trazi-vecu-proveru',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je našla demonstracioni auto sa malo kilometara i preostalom fabričkom garancijom, ali je pre rezervacije proverila datum početka garancije, režim korišćenja i zapis svakog servisa.',
+                'content' => <<<'TEXT'
+Jelena je u salonu našla demonstracioni auto koji je bio mlađi i jeftiniji od novog, sa malom kilometražom i navodno preostalom fabričkom garancijom. Oprema je bila dobra, kabina mirisala na novo, a prodavac je isticao da je vozilo služilo samo za kratke probne vožnje. Jelena je znala da to može biti dobra prilika, ali i da mali broj kilometara ne govori koliko je hladnih startova, različitih vozača i kratkih ruta auto već imao.
+
+Pre odluke je tražila VIN, datum prve registracije, pisanu potvrdu preostalog trajanja i uslova garancije, servisne naloge i podatak ko je bio vlasnik. Garancija ne mora pokriti potrošne delove, oštećenja točkova, gume ili posledice nepravilne upotrebe, zato tačno pročitaj šta prelazi na sledećeg vlasnika. Uporedi istu specifikaciju sa novim automobilom: popust mora ostaviti mesto za raniji početak garancije i svako vidljivo početno ulaganje.
+
+Na licu mesta Jelena bi pregledala branike, felne, pragove, sedište vozača, pedale i ekran na tragove češćeg korišćenja, a zatim uradila punu probnu vožnju i nezavisan pregled. Tražila bi da se proveri dijagnostika, stanje guma, kočnica i akumulatora, kao i da se sva obećana oprema nalazi u vozilu. Demonstracioni auto može imati uredan salonski servis, ali i više kratkih vožnji koje ne vidiš u brojčaniku.
+
+Jelena bi nastavila kada VIN, garancija, stanje i ponuda daju istu vrednost kao jasan popust prema novom autu. Pregovaraj za dokumentovanu gumu, felnu ili rok garancije; odustani kada je početak garancije nejasan, nema zapisa korišćenja ili prodavac ne dozvoljava nezavisan pregled. Demonstracioni status nije mana, ali nije ni zamena za proverljiv ugovor.
+TEXT,
+                'highlights' => ['Traži pisanu potvrdu početka, trajanja, prenosa i ograničenja fabričke garancije za konkretan VIN.', 'Uporedi ukupnu ponudu sa novim autom iste specifikacije, ne samo sa cenom iz salona.', 'Pregledaj tragove probnih vožnji, gume, kočnice i dijagnostiku kao kod svakog polovnjaka.'],
+                'tags' => ['demonstracioni auto', 'fabrička garancija', 'VIN', 'salon', 'analiza tržišta'],
+                'meta_title' => 'Demonstracioni auto sa garancijom: šta proveriti',
+                'meta_description' => 'Kako proveriti demonstracioni auto sa preostalom fabričkom garancijom: VIN, uslovi garancije, stanje, popust i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#263247', '#c084fc', '#faf5ff'],
+            ],
 
         ];
     }
