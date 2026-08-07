@@ -10156,6 +10156,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#263247', '#c084fc', '#faf5ff'],
             ],
+            [
+                'title' => 'Volvo S80 ili Peugeot 607: velika limuzina kada udobnost mora dokazati održavanje',
+                'slug' => 'volvo-s80-ili-peugeot-607-velika-limuzina-kada-udobnost-mora-dokazati-odrzavanje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je za duga putovanja birao između Volva S80 i Peugeota 607, ali je shvatio da tiha kabina i bogata oprema vrede tek kada menjač, vešanje i elektronika imaju dokaziv servis.',
+                'content' => <<<'TEXT'
+Milan je želeo veliku limuzinu za put do porodice i povremene poslovne vožnje, bez kupovine novog automobila. Volvo S80 i Peugeot 607 delovali su primamljivo: oba nude mirnu vožnju, mnogo mesta i opremu koju kompakt često nema. Prvi Volvo je imao besprekoran enterijer, a Peugeot nižu cenu i sve račune na gomili. Milan zato nije pitao koji je udobniji na parkingu, već koji može da objasni kako je održavan.
+
+S80 odgovara kupcu kome su važni stabilnost na otvorenom putu, sedišta i osećaj čvrste kabine. Pre kapare traži VIN, račune za motor, automatik ako ga ima i radove na vešanju, pa proveri hladan start, lampice, klimu i svaku električnu komandu. Na probnoj vožnji slušaj da li menjač menja mirno i da li auto preko neravnina ostaje tih. Udobnost ne sme biti izgovor za upozorenje na tabli ili odsustvo dokumentacije.
+
+Peugeot 607 može imati smisla kada dobijaš jasnu istoriju, uredan rad elektronike i cenu koja ostavlja prostor za prvi servis. Milan bi otvorio svaka vrata, isprobao sedišta, podizače, senzore, ventilaciju i centralno zaključavanje, a zatim sa majstorom pogledao podvozje, curenja, kočnice i stanje guma. Kod velike limuzine mnogo opreme nije dodatak koji se proverava kasnije; svaka funkcija koja ne radi mora dobiti dijagnozu pre pregovora.
+
+Milan bi izabrao primerak čiji računi, ponašanje na vožnji i stanje kabine govore istu priču, bez obzira na značku. Nastavi kada su motor, menjač i vešanje pregledani; pregovaraj za jasno procenjen potrošni rad; odustani kada tišina u kabini pokušava da sakrije lampice, trzaj ili nejasnu servisnu pauzu. Kod oba modela bolja istorija vredi više od bogatije opreme.
+TEXT,
+                'highlights' => ['Traži VIN i račune za motor, menjač i vešanje, a ne samo uredan enterijer.', 'Na vožnji proveri hladan start, promene brzina, neravnine i rad svake električne komande.', 'Pregovaraj samo za procenjen kvar; odustani kada nema dozvole za dijagnostiku ili pregled na dizalici.'],
+                'tags' => ['Volvo S80', 'Peugeot 607', 'velika limuzina', 'automatik', 'poređenje modela'],
+                'meta_title' => 'Volvo S80 ili Peugeot 607: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Volvo S80 i Peugeot 607: udobnost, menjač, vešanje, elektronika, servis i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#243247', '#67e8f9', '#ecfeff'],
+            ],
+            [
+                'title' => 'Polovni Honda Stream: porodični kompakt koji mora dokazati treći red, motor i stvarnu namenu',
+                'slug' => 'polovni-honda-stream-porodicni-kompakt-koji-mora-dokazati-treci-red-motor-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je tražio porodičan auto koji nije glomazan, pa je kod Honde Stream proverio da li treći red, motor i stanje kabine zaista odgovaraju načinu na koji je auto ranije živeo.',
+                'content' => <<<'TEXT'
+Nikola je tražio auto za dvoje dece, vikend putovanja i svakodnevni grad, ali nije želeo veliki van. Honda Stream mu je delovala kao pametna sredina: oblik kompakta, a dodatna sedišta kada zatrebaju. Prvi primerak je izgledao uredno spolja, ali se zadnji red teško vraćao u položaj. Nikola je zastao pre kapare, jer praktičnost nije broj sedišta u oglasu već sve što ta sedišta i pod automobila mogu da izdrže.
+
+Pre vožnje je tražio VIN, servisne račune i podatak da li je Stream služio velikoj porodici, prevozu ljudi ili samo povremenim putovanjima. Otvorio je sva vrata, pomerio drugi i treći red, proverio brave, pojaseve, šine i pod gepeka na vlagu i tragove tereta. Ako se mehanizam zaglavljuje ili se obloga ne uklapa, ne zaključuj uzrok na licu mesta, već to uključi u pregled majstora.
+
+Na hladnom startu pratio je miran ler i lampice, a tokom vožnje slušao kvačilo ili automatik, trap preko neravnina, kočnice i puni ugao volana. Zatim je proverio klimu do zadnjih otvora, podizače, centralnu bravu i stanje guma. Sa majstorom bi pogledao pragove, podvozje, curenja i sve što se ne vidi iza čiste plastike. Porodični auto može biti odličan izbor, ali njegova upotreba ostavlja konkretan trag.
+
+Nikola bi kupio Stream kada su sedišta, motor i dokumentacija jednako uredni. Nastavi kada raspored kabine radi bez napora i pregled potvrdi stanje; pregovaraj za jasno procenjene kočnice, gume ili sitan mehanizam; odustani kada treći red, pod ili servisna istorija ostanu bez objašnjenja. Dodatna mesta vrede samo ako ne dolaze sa skrivenim računom.
+TEXT,
+                'highlights' => ['Pomeri drugi i treći red, proveri pojaseve, brave i pod gepeka umesto da prostor oceniš pogledom.', 'Hladan start, klima do zadnjih otvora i probna vožnja pokazuju više od urednih fotografija.', 'Poveži stanje kabine sa računima i pregledom podvozja pre kapare.'],
+                'tags' => ['Honda Stream', 'porodični auto', 'treći red sedišta', 'kabina', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Honda Stream: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Honde Stream: treći red, motor, kabina, trap, podvozje, servis i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#193b35', '#facc15', '#fefce8'],
+            ],
+            [
+                'title' => 'Polovni Renault Vel Satis: neobična limuzina koja mora dokazati elektroniku, komfor i servis',
+                'slug' => 'polovni-renault-vel-satis-neobicna-limuzina-koja-mora-dokazati-elektroniku-komfor-i-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je želela udobnu limuzinu za malo novca, ali je kod Renaulta Vel Satis proverila da li svaki ekran, prekidač, motor i servisni zapis podržavaju privlačnu cenu.',
+                'content' => <<<'TEXT'
+Jelena je našla Renault Vel Satis sa bogatom opremom i cenom nižom od mnogih običnijih limuzina. Privukli su je visoka sedišta, prostrana kabina i osećaj da za isti novac dobija više automobila. Na prvom razgledanju ekran se jednom ugasio pa ponovo pokrenuo, a prodavac je to nazvao sitnicom. Jelena nije htela da neobičan oblik i komfor pretvore svaku sitnicu u buduću pretpostavku.
+
+Pre vožnje je zatražila VIN, račune i spisak radova, a zatim polako prošla kroz svu opremu: karticu ili ključ, centralnu bravu, prozore, sedišta, ventilaciju, klimu, ekran, svetla i upozorenja. Svaki prekid rada zabeležila je za dijagnostiku umesto da traži brzo objašnjenje. Kod automobila sa mnogo komfora, uredan rad komandi je deo osnovnog stanja, ne luksuz koji se može preskočiti.
+
+Motor je gledala hladan, pustila ga da dostigne radnu temperaturu i na probnoj vožnji pratila odziv, menjanje brzina, kočenje, trap i buku iz kabine. Sa majstorom bi proverila tečnosti, curenja, podvozje, kočnice i račune za prethodne radove. Izbor motora treba uskladiti sa svojim relacijama, a ne sa obećanjem da je veliki auto jeftin samo zato što je redak.
+
+Jelena bi nastavila samo kada elektronika, mehanika i servisni trag daju miran odgovor. Pregovaraj za tačno procenjenu potrošnu stavku; odustani kada se greške gase bez dijagnostike, motor nema istoriju ili pregled postane problem. Vel Satis može pružiti mnogo udobnosti, ali kupac ne sme platiti nejasnoću kao da je oprema poklon.
+TEXT,
+                'highlights' => ['Isprobaj svaku komandu, ekran, klimu, brave i svetla pre probne vožnje.', 'Traži dijagnostiku za povremenu grešku umesto obećanja da će se sama rešiti.', 'Motor, menjač, trap i podvozje pregledaj kao i kod svakog polovnjaka.'],
+                'tags' => ['Renault Vel Satis', 'velika limuzina', 'elektronika', 'komfor', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Renault Vel Satis: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Renaulta Vel Satis: elektronika, motor, komfor, menjač, trap, servis i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#322659', '#f472b6', '#fdf2f8'],
+            ],
+            [
+                'title' => 'Nosači motora na polovnom autu: kada vibracija pri polasku traži pregled, ne pretpostavku',
+                'slug' => 'nosaci-motora-na-polovnom-autu-kada-vibracija-pri-polasku-trazi-pregled-ne-pretpostavku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Petar je na probnoj vožnji osetio podrhtavanje pri polasku, pa je umesto brzog zaključka proverio da li nosači motora, kvačilo ili neki drugi deo traže majstorovu procenu.',
+                'content' => <<<'TEXT'
+Petar je kod polovnog auta osetio kratku vibraciju kroz sedište kada je krenuo sa parkinga. Prodavac je rekao da je to normalno za stariji dizel, ali Petar nije pokušao da sam postavi dijagnozu. Nosači motora mogu vremenom izgubiti funkciju, ali sličan osećaj mogu pratiti kvačilo, ler, izduv ili drugi delovi. Zato je vibraciju tretirao kao razlog za sporiji pregled, ne kao gotov račun.
+
+Auto je prvo gledao hladan, bez naglog gasa i bez držanja motora u visokim obrtajima na mestu. Pratio je da li se pri paljenju, gašenju, polasku i promeni opterećenja javlja neuobičajen udar, podrhtavanje ili pomeranje koje se oseća u kabini. Proverio je i lampice, miran ler i da li se ponašanje menja kada se uključi klima. Ne guraj ruke blizu pokretnih delova i ne oslanjaj se na pogled ispod haube kao na konačan odgovor.
+
+Na bezbednoj probnoj vožnji Petar je nežno krenuo uzbrdo, promenio nekoliko brzina i slušao da li se javlja udar pri dodavanju ili puštanju gasa. Zatim je sa majstorom pregledao nosače, izduv, tragove curenja i okolne komponente na dizalici, povezujući nalaz sa stanjem kvačila i motora. Jasna procena razlikuje potrošni deo od kvara koji utiče na celu računicu.
+
+Petar bi pregovarao kada pregled potvrdi ograničen, cenovno procenjen rad i nema drugih simptoma. Nastavi kada hladan start, vožnja i pregled daju istu sliku; odustani kada se vibracija spaja sa udarima, lampicama, curenjem ili odbijanjem dijagnostike. Miran polazak nije luksuz, već koristan trag o načinu na koji je auto održavan.
+TEXT,
+                'highlights' => ['Posmatraj vibraciju pri paljenju, gašenju, polasku i promeni opterećenja bez forsiranja motora.', 'Sličan simptom može imati više uzroka, zato ga potvrdi pregledom majstora i vožnjom.', 'Pregovaraj tek uz jasnu procenu nosača i provere kvačila, izduva i curenja.'],
+                'tags' => ['nosači motora', 'vibracije', 'probna vožnja', 'kvačilo', 'provera vozila'],
+                'meta_title' => 'Nosači motora na polovnom autu: šta proveriti',
+                'meta_description' => 'Kako vibracija pri polasku polovnog auta usmerava pregled nosača motora, kvačila, izduva, curenja i kupovne odluke.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3b2f2f', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Gruzije: kada povoljna cena traži proveru putanje, papira i prevoza',
+                'slug' => 'uvoz-auta-iz-gruzije-kada-povoljna-cena-trazi-proveru-putanje-papira-i-prevoza',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je našla povoljan oglas iz Gruzije, ali je pre kapare proverila VIN, prethodne zemlje registracije, originalne papire, stanje vozila i aktuelnu računicu prevoza do Srbije.',
+                'content' => <<<'TEXT'
+Ana je naišla na oglas iz Gruzije sa cenom koja je delovala znatno niža od sličnih primeraka kod nas. Fotografije su bile uredne, oprema bogata, a prodavac je naglašavao da je uvoz jednostavan. Ana je znala da udaljenost nije jedino pitanje: automobil može imati raniju putanju kroz više zemalja, dokumenta na različitim jezicima i transport koji menja celu računicu. Povoljan oglas je zato bio poziv na proveru, ne razlog za žurbu.
+
+Pre puta je tražila VIN, fotografije originalne registracije, dokaz vlasništva, servisne račune, tehničke zapise i jasan sled zemalja u kojima je auto bio prijavljen. Uporedila bi datume, kilometražu i ime prodavca sa dokumentima, pa proverila da li baš ta osoba može uredno zaključiti prodaju. Ne šalji kaparu na osnovu prevoda oglasa ili tuđeg obećanja da će se papiri rešiti kasnije.
+
+Na licu mesta Ana bi sa nezavisnim majstorom uradila hladan start, dijagnostiku, probnu vožnju i pregled na dizalici. Pogledala bi pragove, pod, zazore, gume, kočnice, tragove ranijih popravki i stanje enterijera, a zatim ih povezala sa istorijom vozila. Pre konačne odluke od špeditera i nadležnih službi treba tražiti aktuelan obračun transporta, dažbina, homologacije i registracije za konkretan VIN, ne oslanjati se na stare procene sa foruma.
+
+Ana bi nastavila samo kada su identitet vozila, fizičko stanje i ukupan trošak dokumentovani. Pregovaraj za dokazano početno ulaganje; odustani kada se prekida sled vlasništva, originali nedostaju ili pregled nije moguć. Uvoz iz Gruzije može biti opcija, ali dobra cena ne sme zameniti proverljiv put auta do tvoje registracije.
+TEXT,
+                'highlights' => ['Poveži VIN, originalne dokumente, servisne zapise i sled prethodnih zemalja registracije.', 'Ne šalji kaparu pre nezavisnog pregleda, dijagnostike i provere ko sme da proda vozilo.', 'Za konkretan VIN traži aktuelan obračun prevoza, dažbina, homologacije i registracije.'],
+                'tags' => ['uvoz iz Gruzije', 'uvoz auta', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Gruzije: šta proveriti pre kupovine',
+                'meta_description' => 'Analiza uvoza polovnog auta iz Gruzije: VIN, papiri, prethodne registracije, pregled, transport, troškovi i rizici.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#263b4f', '#34d399', '#ecfdf5'],
+            ],
 
         ];
     }

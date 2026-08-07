@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(370, $posts);
+        $this->assertCount(375, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(87, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(88, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'volvo-s80-ili-peugeot-607-velika-limuzina-kada-udobnost-mora-dokazati-odrzavanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-honda-stream-porodicni-kompakt-koji-mora-dokazati-treci-red-motor-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-renault-vel-satis-neobicna-limuzina-koja-mora-dokazati-elektroniku-komfor-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'nosaci-motora-na-polovnom-autu-kada-vibracija-pri-polasku-trazi-pregled-ne-pretpostavku'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-gruzije-kada-povoljna-cena-trazi-proveru-putanje-papira-i-prevoza'));
         $this->assertTrue($posts->contains('slug', 'datsun-on-do-ili-lada-kalina-mala-limuzina-kada-nepoznata-znacka-ne-sme-pobediti-proveru'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-verso-s-mali-porodicni-auto-koji-mora-dokazati-cvt-prostor-i-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-opel-meriva-b-mali-monovolumen-koji-mora-dokazati-vrata-trap-i-stvarnu-namenu'));
