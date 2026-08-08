@@ -10271,6 +10271,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#263b4f', '#34d399', '#ecfdf5'],
             ],
+            [
+                'title' => 'Rover 75 ili Chrysler 300C: velika limuzina kada karakter mora imati pokriće u servisu',
+                'slug' => 'rover-75-ili-chrysler-300c-velika-limuzina-kada-karakter-mora-imati-pokrice-u-servisu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je birao Rover 75 zbog mirne kabine ili Chrysler 300C zbog prostora, ali je naučio da kod obe velike limuzine prvo mora povezati motor, elektroniku i dostupnost delova sa stvarnim računima.',
+                'content' => <<<'TEXT'
+Vladimir je želeo veliku limuzinu koja neće izgledati kao svaki drugi auto na parkingu. Rover 75 mu je privukao pažnju udobnim sedištima i klasičnom kabinom, dok je Chrysler 300C obećavao više prostora i upečatljiv nastup. Na dva oglasa cena je bila slična, ali nije birao po izgledu: pitao je koji prodavac može da pokaže kako je auto održavan i ko će sutra rešiti prvi neplanirani kvar.
+
+Kod Rovera 75 prvo traži VIN, račune i dokaz za motor, hlađenje, kvačilo ili automatik, a zatim polako proveri svaku komandu, klimu, brave i instrumente. Na hladnom startu motor mora mirno da radi, bez neobjašnjivih lampica i mirisa rashladne tečnosti. Sa majstorom proveri podvozje, curenja i stanje karoserije; lep enterijer ne popravlja praznu servisnu priču.
+
+Chrysler 300C ima smisla za kupca kome stvarno treba široka kabina i koji prihvata veću masu, gume i potrošnju kao deo odluke. Vladimir bi na probnoj vožnji pratio promene brzina, kočenje, trap i rad elektronike, pa zatražio pregled na dizalici i procenu dostupnosti delova za konkretan motor. Ne kupuj ga zato što izgleda skuplje od cene; kupi ga kada ukupni trošak posle prvog servisa ostaje jasan.
+
+Vladimir bi uzeo primerak sa proverljivim računima, mirnom vožnjom i majstorom koji zna šta gleda, bez obzira na značku. Nastavi kada dokumentacija i pregled potvrde priču; pregovaraj za tačno procenjen potrošni rad; odustani kada se karakter prodaje umesto istorije. Velika limuzina je uživanje tek kada ne postane nepoznat mesečni trošak.
+TEXT,
+                'highlights' => ['Traži VIN i račune za motor, hlađenje, menjač i podvozje pre nego što proceniš opremu.', 'Na oba modela proveri svaku električnu komandu, hladan start i ponašanje menjača na vožnji.', 'Odustani kada nema pregleda na dizalici ili plana za delove konkretnog motora.'],
+                'tags' => ['Rover 75', 'Chrysler 300C', 'velika limuzina', 'servis', 'poređenje modela'],
+                'meta_title' => 'Rover 75 ili Chrysler 300C: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Rover 75 i Chrysler 300C: motor, elektronika, menjač, delovi, servis, troškovi i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#302a3c', '#f59e0b', '#fffbeb'],
+            ],
+            [
+                'title' => 'Polovni Suzuki Wagon R+: mali auto koji mora dokazati kabinu, motor i gradsku prošlost',
+                'slug' => 'polovni-suzuki-wagon-r-plus-mali-auto-koji-mora-dokazati-kabinu-motor-i-gradsku-proslost',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milica je tražila mali auto sa visokim ulaskom, pa je kod Suzukija Wagon R+ proverila da li praktična kabina, motor i stanje karoserije mogu da opravdaju godine gradske vožnje.',
+                'content' => <<<'TEXT'
+Milica je tražila mali auto za grad, ali joj je bilo važno da se lako ulazi i da zadnja klupa ne bude samo dekoracija. Suzuki Wagon R+ joj je delovao praktično: visok krov, pregledna kabina i kompaktne dimenzije. Prvi primerak je imao uredne presvlake, ali izlizane pedale, težak volan i nekoliko različitih guma. Milica je shvatila da gradski auto ne troši samo kilometre, već i kvačilo, trap, rubove karoserije i unutrašnje mehanizme.
+
+Pre vožnje je tražila VIN, servisne račune i podatak o poslednjem većem radu, pa otvorila sva vrata i pomerila sedišta. Pregledala je pragove, rubove vrata, pod gepeka i donje ivice na rđu, vlagu ili neravne popravke. Visoka kabina je prednost samo ako brave, podizači, ventilacija i sedišta rade mirno; sitne smetnje sabrane na starijem autu brzo menjaju cenu.
+
+Na hladnom startu pratila je ler i lampice, a na vožnji kvačilo, kočnice, volan i trap preko kratkih neravnina. U gradu je namerno uradila nekoliko mirnih polazaka i parkiranja da oseti da li motor ravnomerno vuče i da li servo ima logičan otpor. Sa majstorom bi proverila curenja, podvozje i stanje guma, bez pretpostavke da je svaki zvuk samo posledica godina.
+
+Milica bi kupila Wagon R+ kada su kabina, limarija i mehanika jednako iskreni. Nastavi kada pregled potvrdi razuman prvi servis; pregovaraj za jasno procenjene gume, kočnice ili trap; odustani kada se rđa, težak volan i nejasna istorija pojavljuju zajedno. Mali auto može biti jednostavan, ali ne sme biti zanemaren.
+TEXT,
+                'highlights' => ['Pogledaj pragove, rubove vrata, pod gepeka i donje ivice karoserije pre nego što te osvoji visoka kabina.', 'Na gradskoj vožnji proveri polazak, kvačilo, volan, kočnice i trap preko kratkih neravnina.', 'Poveži izlizanu kabinu i različite gume sa računima i pregledom podvozja.'],
+                'tags' => ['Suzuki Wagon R+', 'gradski auto', 'korozija', 'kvačilo', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Suzuki Wagon R+: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Suzuki Wagon R+: kabina, motor, kvačilo, trap, korozija, gradska upotreba i servis.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#173b4d', '#22d3ee', '#ecfeff'],
+            ],
+            [
+                'title' => 'Polovni Kia Opirus: velika limuzina koja mora dokazati komfor, elektroniku i delove',
+                'slug' => 'polovni-kia-opirus-velika-limuzina-koja-mora-dokazati-komfor-elektroniku-i-delove',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Dragan je našao Kia Opirus sa mnogo opreme za malo novca, ali je pre kapare proverio da li komfor, elektronika, motor i dostupnost delova imaju stvarno pokriće.',
+                'content' => <<<'TEXT'
+Dragan je tražio udobnu limuzinu za duža putovanja i našao Kia Opirus koja je nudila kožu, automatik i mnogo opreme za cenu običnog kompakta. Kabina je delovala tiho i očuvano, ali je znao da jeftin ulaz u veliku limuzinu ne znači automatski i jeftino vlasništvo. Zato nije pitao samo šta radi danas, već šta će se desiti ako sutra zatreba elektronika, deo vešanja ili rad na pogonu.
+
+Najpre je zatražio VIN, račune i spisak radova, pa uključio svaku funkciju: sedišta, klimu, ventilaciju, prozore, retrovizore, ekran, brave i svetla. Povremeni prekid rada nije sitnica koju treba ostaviti za posle kupovine; zapiši ga i traži dijagnostiku. Kod bogato opremljenog polovnjaka svaka komanda je deo stanja koje plaćaš, a ne poklon uz automobil.
+
+Motor je gledao hladan i topao, a na vožnji je pratio mirne promene automatika, kočenje, pravac i buku preko neravnina. Sa majstorom bi pregledao podvozje, curenja, kočnice i gume, a pre odluke bi proverio gde se za konkretan deo dobija rok i cena. Ne oslanjaj se na opštu reputaciju marke kada retka specifikacija ima svoj poseban lanac nabavke.
+
+Dragan bi nastavio kada komfor, mehanika i plan za delove daju jednu jasnu računicu. Pregovaraj za dokumentovan prvi servis ili potrošni deo; odustani kada se greške gase bez objašnjenja, nema računa ili prodavac odbija nezavisan pregled. Opirus može biti vredan izbor, ali samo ako luksuz ne skriva nepoznatu obavezu.
+TEXT,
+                'highlights' => ['Pre kapare isprobaj sva sedišta, klimu, ventilaciju, brave, prozore, svetla i ekrane.', 'Traži dijagnostiku za svaku povremenu električnu grešku i račune za motor i automatik.', 'Za konkretne delove proveri rok i cenu pre odluke, ne tek posle kupovine.'],
+                'tags' => ['Kia Opirus', 'velika limuzina', 'elektronika', 'automatik', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Kia Opirus: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovne Kia Opirus: komfor, elektronika, automatik, motor, delovi, servis i realna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e4f', '#a78bfa', '#f5f3ff'],
+            ],
+            [
+                'title' => 'Klizači vozačevog sedišta na polovnom autu: kada težak pokret otkriva habanje, udarac ili lošu popravku',
+                'slug' => 'klizaci-vozacevog-sedista-na-polovnom-autu-kada-tezak-pokret-otkriva-habanje-udarac-ili-losu-popravku',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stefan je primetio da se vozačevo sedište pomera uz napor, pa je umesto brzog podmazivanja proverio da li klizači, pod ili tragovi ranije popravke traže širi pregled.',
+                'content' => <<<'TEXT'
+Stefan je seo u polovan auto i pokušao da namesti vozačevo sedište pre probne vožnje. Poluga je radila, ali se sedište pomeralo u trzajima i na kraju nije delovalo jednako čvrsto sa obe strane. Prodavac je rekao da treba samo malo spreja. Stefan nije prihvatio objašnjenje bez pregleda: klizači se mogu zaprljati ili istrošiti, ali težak hod može otvoriti i pitanje poda, vijaka ili neuredne demontaže.
+
+Uz dozvolu prodavca nekoliko puta normalno pomeri sedište napred-nazad i proveri da li se ravnomerno zaključa u svakom položaju. Pogledaj da li je poluga cela, da li su šrafovi oko šina iste boje i da li oko njih ima sveže boje, tragova alata ili neravnog tepiha. Ne odvijaj vijke, ne prskaj mazivo i ne guraj prste u mehanizam; cilj pregleda je da opišeš simptom, ne da na licu mesta radiš popravku.
+
+Zatim proveri naslon, visinu sedišta ako postoji, pojas i položaj za vožnju, pa obrati pažnju na upozorenja na tabli. Ako se sedište klima, blokira ili ima nelogične zazore, traži pregled kod majstora koji može bezbedno proveriti šine, pod i električne priključke. Poveži nalaz sa stanjem pragova i poda, naročito ako su vidljivi tragovi udarca ili vlage.
+
+Stefan bi pregovarao samo kada je uzrok ograničen i procenjen. Nastavi kada se sedište čvrsto zaključava, pod je logičan i pregled ne pokaže širu posledicu; odustani kada problem prati nejasne šrafove, oštećen pod ili lampicu airbaga. Udoban položaj nije sitnica: on je i bezbednosni deo svakog kilometra.
+TEXT,
+                'highlights' => ['Nekoliko puta normalno pomeri sedište i proveri da li se ravnomerno i čvrsto zaključa.', 'Pogledaj polugu, šrafove, tepih i zazore bez odvijanja, mazanja ili rastavljanja mehanizma.', 'Klimanje, blokiranje, tragovi alata ili lampica airbaga zahtevaju stručan pregled pre kapare.'],
+                'tags' => ['vozačevo sedište', 'klizači sedišta', 'bezbednost', 'enterijer', 'provera vozila'],
+                'meta_title' => 'Klizači vozačevog sedišta: šta proveriti',
+                'meta_description' => 'Kako proveriti klizače vozačevog sedišta polovnog auta: hod, zaključavanje, šrafovi, pod, airbag i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3f2c22', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Bivše taksi vozilo: kada niska cena mora dokazati stvarnu kilometražu i radnu prošlost',
+                'slug' => 'bivse-taksi-vozilo-kada-niska-cena-mora-dokazati-stvarnu-kilometrazu-i-radnu-proslost',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ivan je našao povoljan auto sa urednom spoljašnjošću, ali je pre kapare proverio da li nekadašnja taksi upotreba, kilometraža, održavanje i početna ulaganja imaju dokumentovan odgovor.',
+                'content' => <<<'TEXT'
+Ivan je našao limuzinu koja je bila jeftinija od sličnih oglasa, uredno oprana i sa navodno redovnim servisima. Prodavac nije krio da je auto ranije radio kao taksi, ali je isticao da je sada "sređen". Ivan nije automatski odustao, jer radni auto može imati uredne servise, ali nije ni poverovao maloj ceni. Kod bivšeg taksija kilometraža, broj radnih sati i habanje kabine moraju govoriti istu priču.
+
+Pre gledanja je tražio VIN, račune, servisne naloge, zapis o vlasništvu i datum kada je auto prestao da radi. Uporedio je kilometražu sa stanjem volana, sedišta, pedala, ručica, zadnjih vrata, gepeka i komandama klime. Sređena presvlaka ili nov volan nisu dokaz prevare, ali jesu razlog da se tragovi upotrebe povežu sa dokumentima i dijagnostikom, ne sa usmenim obećanjem.
+
+Na probnoj vožnji Ivan bi pratio hladan start, motor pri radnoj temperaturi, menjač, kvačilo, kočnice, trap i klimu, jer gradske smene ostavljaju drugačiji umor od povremenog porodičnog puta. Sa nezavisnim majstorom bi pregledao podvozje, curenja, stanje guma i kočnica, pa izračunao prvi servis bez pretpostavke da je nedavna registracija dokaz dobrog stanja.
+
+Ivan bi kupio bivši taksi samo kada su istorija, pregled i cena dovoljno jasni da pokriju početno ulaganje. Pregovaraj za dokazano habanje; odustani kada kilometraža, kabina i dijagnostika ne govore isto ili kada nema dozvole za nezavisan pregled. Niska cena može biti poštena, ali samo ako je i radna prošlost pošteno prikazana.
+TEXT,
+                'highlights' => ['Traži VIN, servisne naloge, istoriju vlasništva i datum prestanka taksi upotrebe.', 'Uporedi kilometražu sa stanjem kabine, pedala, vrata, gepeka i dijagnostikom.', 'Probna vožnja i pregled moraju obuhvatiti motor, menjač, kočnice, trap, gume i klimu.'],
+                'tags' => ['bivši taksi', 'radna upotreba', 'kilometraža', 'servisna istorija', 'analiza tržišta'],
+                'meta_title' => 'Bivše taksi vozilo: šta proveriti pre kupovine',
+                'meta_description' => 'Kako proceniti bivše taksi vozilo: kilometraža, kabina, servisni nalozi, dijagnostika, pregled i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#203b3c', '#facc15', '#fefce8'],
+            ],
 
         ];
     }

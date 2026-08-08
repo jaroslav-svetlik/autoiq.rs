@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(375, $posts);
+        $this->assertCount(380, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(88, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(89, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'rover-75-ili-chrysler-300c-velika-limuzina-kada-karakter-mora-imati-pokrice-u-servisu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-wagon-r-plus-mali-auto-koji-mora-dokazati-kabinu-motor-i-gradsku-proslost'));
+        $this->assertTrue($posts->contains('slug', 'polovni-kia-opirus-velika-limuzina-koja-mora-dokazati-komfor-elektroniku-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'klizaci-vozacevog-sedista-na-polovnom-autu-kada-tezak-pokret-otkriva-habanje-udarac-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'bivse-taksi-vozilo-kada-niska-cena-mora-dokazati-stvarnu-kilometrazu-i-radnu-proslost'));
         $this->assertTrue($posts->contains('slug', 'volvo-s80-ili-peugeot-607-velika-limuzina-kada-udobnost-mora-dokazati-odrzavanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-stream-porodicni-kompakt-koji-mora-dokazati-treci-red-motor-i-stvarnu-namenu'));
         $this->assertTrue($posts->contains('slug', 'polovni-renault-vel-satis-neobicna-limuzina-koja-mora-dokazati-elektroniku-komfor-i-servis'));
