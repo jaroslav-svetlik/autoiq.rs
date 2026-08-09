@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.122] - 2026-08-09
+
+### Added
+
+- Added five non-duplicate production blog articles covering Kia Magentis versus Hyundai Sonata, used Alfa Romeo GT and Suzuki Splash buying guidance, seat-belt-buckle inspection, and former driving-school vehicle due diligence.
+
 ## [0.1.121] - 2026-08-08
 
 ### Added

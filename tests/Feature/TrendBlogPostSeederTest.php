@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(380, $posts);
+        $this->assertCount(385, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(89, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(90, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'kia-magentis-ili-hyundai-sonata-kada-udobna-limuzina-mora-dokazati-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-alfa-romeo-gt-kupe-koji-mora-dokazati-limariju-motor-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-splash-mali-auto-koji-mora-dokazati-kabinu-motor-i-gradsku-proslost'));
+        $this->assertTrue($posts->contains('slug', 'kopca-sigurnosnog-pojasa-na-polovnom-autu-kada-mali-klik-trazi-vecu-proveru'));
+        $this->assertTrue($posts->contains('slug', 'bivse-vozilo-auto-skole-kada-dodatne-pedale-otkrivaju-radnu-proslost'));
         $this->assertTrue($posts->contains('slug', 'rover-75-ili-chrysler-300c-velika-limuzina-kada-karakter-mora-imati-pokrice-u-servisu'));
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-wagon-r-plus-mali-auto-koji-mora-dokazati-kabinu-motor-i-gradsku-proslost'));
         $this->assertTrue($posts->contains('slug', 'polovni-kia-opirus-velika-limuzina-koja-mora-dokazati-komfor-elektroniku-i-delove'));

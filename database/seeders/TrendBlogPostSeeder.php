@@ -10386,6 +10386,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#203b3c', '#facc15', '#fefce8'],
             ],
+            [
+                'title' => 'Kia Magentis ili Hyundai Sonata: kada udobna limuzina mora dokazati servis',
+                'slug' => 'kia-magentis-ili-hyundai-sonata-kada-udobna-limuzina-mora-dokazati-servis',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Miloš je birao između Kia Magentis i Hyundai Sonate za mirna putovanja, ali je shvatio da prostor i oprema vrede tek kada motor, automatik i istorija održavanja daju isti odgovor.',
+                'content' => <<<'TEXT'
+Miloš je želeo udobnu limuzinu za put do porodice i povremeni odlazak na more, a da ne plati premijum značku. Kia Magentis i Hyundai Sonata su mu za isti budžet nudile više prostora i opreme od kompakta koje je ranije gledao. Prva Magentis je imala tiha sedišta, ali bez računa za prethodne radove; Sonata je bila skromnije opremljena, ali sa urednom fasciklom. Zato nije birao automobil koji lepše izgleda na parkingu, već onaj koji može da objasni kako je održavan.
+
+Magentis odgovara kupcu kome su važni mirna kabina, jednostavan osećaj vožnje i realan plan za delove. Pre kapare traži VIN, račune za motor, hlađenje, vešanje i menjač ako je automatik, pa na hladnom startu proveri ler, lampice i rad klime. Na vožnji slušaj trap preko neravnina, proveri pravac pri kočenju i uključi svaku komandu. Udobnost nije dokaz stanja kada prodavac ne može da pokaže servisnu priču.
+
+Sonata može imati više smisla kada je konkretan primerak uredniji, čak i ako nema najatraktivniji paket opreme. Miloš bi otvorio sva vrata, pregledao stanje sedišta, pojaseva, podizača, ventilacije i pod gepeka, a zatim sa majstorom pogledao podvozje, curenja, kočnice i gume. Kod obe limuzine izbor motora treba povezati sa sopstvenim relacijama, a ne sa jednom rečenicom da je auto "malo vožen".
+
+Miloš bi kupio primerak čiji računi, ponašanje na vožnji i stanje kabine govore istu priču. Nastavi kada su motor, menjač i podvozje pregledani; pregovaraj za jasno procenjen prvi servis; odustani kada bogata oprema pokušava da zameni VIN, račune ili dijagnostiku. Kod ove dve limuzine bolja istorija vredi više od lepše felne.
+TEXT,
+                'highlights' => ['Traži VIN i račune za motor, hlađenje, menjač i vešanje pre nego što proceniš opremu.', 'Na vožnji proveri hladan start, kočenje, trap, klimu i svaku električnu komandu.', 'Prednost daj urednijoj istoriji i jasnom pregledu, ne većoj limuzini za isti novac.'],
+                'tags' => ['Kia Magentis', 'Hyundai Sonata', 'velika limuzina', 'servis', 'poređenje modela'],
+                'meta_title' => 'Kia Magentis ili Hyundai Sonata: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Kia Magentis i Hyundai Sonata: motor, automatik, vešanje, elektronika, servis i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#26354a', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Polovni Alfa Romeo GT: kupe koji mora dokazati limariju, motor i stvarnu namenu',
+                'slug' => 'polovni-alfa-romeo-gt-kupe-koji-mora-dokazati-limariju-motor-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je želeo Alfa Romeo GT zbog izgleda i osećaja u vožnji, ali je pre kapare proverio da li limarija, motor, trap i računi podržavaju kupe koji će koristiti svakog dana.',
+                'content' => <<<'TEXT'
+Nikola je tražio auto koji će mu svaki odlazak na posao učiniti zanimljivijim, a Alfa Romeo GT mu je privukla pažnju kupe linijom i niskim sedenjem. Prvi oglas je imao sjajne fotografije i novu presvlaku volana, ali su pragovi bili sveže premazani, a prodavac nije znao kada je rađen poslednji veći servis. Nikola je zato zastao: sportski izgled nije razlog da kupi nejasnu mehaniku ili limariju.
+
+Pre vožnje je tražio VIN, servisne račune i podatke o motoru, pa pregledao zazore, pragove, rubove blatobrana, pod gepeka i donju stranu vrata. Kupe često živi uz ivičnjake, tesna parkiranja i tvrđi ritam vožnje, pa tragove popravke ne treba objašnjavati napamet. Ako boja, vijci ili zazori nisu logični, uključi merač laka i pregled majstora pre pregovora.
+
+Na hladnom startu Nikola je pratio miran ler, upozorenja i dim, a na vožnji odziv motora, kvačilo ili menjač, kočenje, puni ugao volana i trap preko neravnina. Otvorio je oba velika vrata, pomerio sedišta i proverio pristup zadnjoj klupi, prozore, klimu i brave. Sa majstorom bi pogledao podvozje, curenja, gume i kočnice, jer kupe za svaki dan mora biti praktično zdrav, ne samo lep.
+
+Nikola bi nastavio kada limarija, mehanika i računi potvrde da auto nije održavan samo za oglas. Pregovaraj za jasno procenjene gume, kočnice ili potrošni rad; odustani kada se nejasni zazori, lampice i prazna istorija pojave zajedno. Alfa Romeo GT može biti odličan izbor za vozača koji prihvata kupe kompromis, ali ne i nepoznat prvi račun.
+TEXT,
+                'highlights' => ['Pogledaj pragove, rubove, zazore, pod gepeka i donju stranu vrata pre nego što presudi izgled.', 'Traži VIN i račune, pa na vožnji proveri hladan start, kvačilo, kočenje, trap i puni ugao volana.', 'Kupuj kada pregled potvrdi stanje; odustani kada limarija i servisna priča ostanu bez odgovora.'],
+                'tags' => ['Alfa Romeo GT', 'kupe', 'limarija', 'motor', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Alfa Romeo GT: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Alfa Romeo GT: limarija, motor, trap, kvačilo, kabina, servis i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#401f2f', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Polovni Suzuki Splash: mali auto koji mora dokazati kabinu, motor i gradsku prošlost',
+                'slug' => 'polovni-suzuki-splash-mali-auto-koji-mora-dokazati-kabinu-motor-i-gradsku-proslost',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jelena je tražila mali auto sa višim ulaskom, pa je kod Suzukija Splash proverila da li uredna kabina, benzinac i gradski tragovi mogu da opravdaju kupovinu.',
+                'content' => <<<'TEXT'
+Jelena je želela mali auto za grad koji se lako parkira, ali da se u njega ulazi bez spuštanja na pod. Suzuki Splash joj je delovao kao dobra mera: kratak spolja, viši iznutra i jednostavan za svakodnevne relacije. Prvi primerak je imao čistu kabinu, ali neravnomerno istrošene gume i nekoliko ogrebanih uglova branika. Jelena nije zaključila da je auto loš, već da gradski život mora biti objašnjen pre kapare.
+
+Najpre je tražila VIN, račune i podatak o poslednjem servisu, pa otvorila sva vrata i podigla patosnice u kabini i gepeku. Pogledala je pragove, rubove vrata, donje ivice, felne i tragove parkiranja. Visoka kabina vredi samo kada sedešta, pojasevi, brave, podizači i ventilacija rade bez napora; sitni kvarovi sabrani na malom autu lako promene stvarnu cenu.
+
+Na hladnom startu pratila je ler i lampice, a na kratkoj gradskoj vožnji mirne polaske, kvačilo, kočnice, volan i trap preko šahtova. Namerno je parkirala nekoliko puta da oseti servo i preglednost, pa proverila rad klime i svih svetala. Majstor bi zatim pogledao podvozje, curenja, kočnice i gume, bez pretpostavke da je svaki gradski zvuk samo posledica godina.
+
+Jelena bi kupila Splash kada kabina, karoserija i mehanika imaju istu mirnu priču. Nastavi kada pregled potvrdi razuman prvi servis; pregovaraj za jasno procenjene gume ili kočnice; odustani kada neravne gume, nejasna kilometraža i tragovi loših popravki dođu zajedno. Mali auto može biti jednostavan, ali ne sme biti zapušten.
+TEXT,
+                'highlights' => ['Poveži ogrebotine, felne i gume sa stvarnom gradskom upotrebom, a ne samo sa urednim enterijerom.', 'Na vožnji proveri polazak, kvačilo, servo, kočnice, trap i klimu u uslovima koji liče na tvoju svakodnevicu.', 'Traži VIN, račune i pregled podvozja pre nego što niska potrošnja presudi kupovinu.'],
+                'tags' => ['Suzuki Splash', 'gradski auto', 'benzinac', 'kabina', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Suzuki Splash: šta proveriti pre kupovine',
+                'meta_description' => 'Vodič za kupovinu polovnog Suzuki Splash: kabina, benzinac, gradska upotreba, gume, trap, servis i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#173c39', '#2dd4bf', '#f0fdfa'],
+            ],
+            [
+                'title' => 'Kopča sigurnosnog pojasa na polovnom autu: kada mali klik traži veću proveru',
+                'slug' => 'kopca-sigurnosnog-pojasa-na-polovnom-autu-kada-mali-klik-trazi-vecu-proveru',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je primetila da se pojas teško zakopčava, pa umesto da prihvati objašnjenje o prašini proverila da li kopča, traka, sedište i upozorenja traže stručnu procenu.',
+                'content' => <<<'TEXT'
+Ana je sela u polovan auto i pre vožnje pokušala da zakopča pojas. Jezičak je ušao tek iz drugog pokušaja, a prodavac je rekao da se to desi kada ima prašine. Ana nije prihvatila brzo objašnjenje: kopča može biti prljava ili istrošena, ali pojas i njegov signal su bezbednosni sklop koji ne treba popravljati nagađanjem na parkingu.
+
+Uz dozvolu prodavca normalno zakopčaj i otkopčaj svaki dostupan pojas, bez cimanja trake i bez unošenja predmeta u kopču. Obrati pažnju da li se jezičak jasno zaključa, da li se pojas uredno uvlači, ima li zasečenih vlakana, tragova boje, vlage ili neobičnog položaja oko sedišta. Pogledaj i da li se lampica pojasa ponaša logično. Ne rastavljaj plastiku i ne pokušavaj podmazivanje; cilj je da opišeš simptom za pregled.
+
+Ana je zatim proverila da li se sedište čvrsto zaključava, da li su tepih i šrafovi oko njega uredni i da li se na tabli pojavljuje bilo kakvo upozorenje. Ako kopča zapinje, pojas se ne uvlači ili lampica ostaje nelogična, traži stručnu procenu zajedno sa pregledom sedišta i instalacije. Kod polovnog auta sitan klik može biti samo ograničen kvar, ali ne sme ostati bez dijagnoze.
+
+Ana bi pregovarala samo kada se utvrdi tačan uzrok i bezbedan način popravke. Nastavi kada se svi pojasevi normalno zaključavaju, uvlače i prate logiku upozorenja; odustani kada problem prati lampicu airbaga, oštećen pod ili odbijanje pregleda. Bezbednosni pojas nije stavka za obećanje da će se rešiti kasnije.
+TEXT,
+                'highlights' => ['Normalno proveri zakopčavanje, otkopčavanje i uvlačenje svakog dostupnog pojasa bez rastavljanja ili podmazivanja.', 'Pogledaj traku, kopču, položaj oko sedišta i logiku lampice pojasa.', 'Zapinjuća kopča, oštećena traka ili nelogično upozorenje zahtevaju stručnu procenu pre kapare.'],
+                'tags' => ['sigurnosni pojas', 'kopča pojasa', 'bezbednost', 'sedište', 'provera vozila'],
+                'meta_title' => 'Kopča sigurnosnog pojasa: šta proveriti',
+                'meta_description' => 'Kako proveriti kopču i pojas na polovnom autu: zakopčavanje, uvlačenje, traka, upozorenja, sedište i bezbedna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3a3024', '#fbbf24', '#fffbeb'],
+            ],
+            [
+                'title' => 'Bivše vozilo auto-škole: kada dodatne pedale otkrivaju radnu prošlost',
+                'slug' => 'bivse-vozilo-auto-skole-kada-dodatne-pedale-otkrivaju-radnu-proslost',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je našao uredan gradski auto po dobroj ceni, ali je pre kapare proverio da li dodatne pedale, mnogo početnika i uklonjena oprema ostavljaju trag koji cena mora da prizna.',
+                'content' => <<<'TEXT'
+Marko je našao mali gradski auto sa urednim fotografijama, dobrim gumama i cenom nižom od sličnih oglasa. Prodavac je tek na pitanje rekao da je vozilo ranije služilo u auto-školi i da su dodatne pedale uklonjene. Marko nije automatski odustao, ali je znao da mnogo časova vožnje znači mnogo polazaka, kočenja, parkiranja i različitih vozača. Radna prošlost mora ući u pregled i cenu, ne ostati fusnota oglasa.
+
+Pre vožnje je tražio VIN, servisne naloge, istoriju vlasništva i podatak kada je vozilo prestalo da radi u obuci. U kabini je proverio prostor oko pedala i suvozačeve strane bez rastavljanja obloga, zatim stanje volana, ručice menjača, kvačila, sedišta, pojaseva i vrata. Trag uklanjanja dodatne opreme nije sam po sebi presuda, ali nejednaki šrafovi, oštećena plastika ili nejasne instalacije zaslužuju stručan pregled.
+
+Na probnoj vožnji Marko je pratio da li kvačilo hvata mirno, kočnice drže pravac, menjač ulazi bez otpora i trap ostaje tih preko neravnina. Sa nezavisnim majstorom bi pregledao podvozje, curenja, gume, kočnice i dijagnostiku, a zatim povezao nalaz sa računima. Mnogi kratki polasci mogu drugačije umoriti kvačilo i kočnice od autoput kilometara, zato sama brojka na satu nije dovoljna.
+
+Marko bi kupio bivše vozilo auto-škole samo kada istorija, pregled i cena zajedno ostavljaju zdrav budžet za prvi servis. Pregovaraj za dokazano habanje; odustani kada uklonjene komande, kabina i dijagnostika ne pričaju istu priču ili kada nema dozvole za nezavisan pregled. Dobra cena može biti poštena, ali samo kada je i radna prošlost pošteno prikazana.
+TEXT,
+                'highlights' => ['Traži VIN, servisne naloge, istoriju vlasništva i datum prestanka korišćenja u auto-školi.', 'Bez rastavljanja pregledaj prostor oko pedala, kabinu, kvačilo, menjač, kočnice i tragove uklanjanja dodatne opreme.', 'Poveži stanje sa pregledom i cenom; radna prošlost nije mana ako je transparentna i uračunata.'],
+                'tags' => ['auto-škola', 'radna upotreba', 'kvačilo', 'kočnice', 'analiza tržišta'],
+                'meta_title' => 'Bivše vozilo auto-škole: šta proveriti',
+                'meta_description' => 'Kako proceniti bivše vozilo auto-škole: dodatne pedale, kabina, kvačilo, kočnice, servisni nalozi, pregled i cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#243447', '#60a5fa', '#eff6ff'],
+            ],
 
         ];
     }
