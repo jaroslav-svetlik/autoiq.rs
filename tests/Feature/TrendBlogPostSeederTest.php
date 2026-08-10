@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(385, $posts);
+        $this->assertCount(390, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(90, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(91, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'opel-signum-ili-citroen-c6-kada-neobicna-limuzina-mora-dokazati-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-grandis-porodicni-van-koji-mora-dokazati-sedista-dizel-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chrysler-sebring-kabriolet-koji-mora-dokazati-krov-motor-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'unutrasnje-osvetljenje-na-polovnom-autu-kada-mala-sijalica-trazi-vecu-proveru'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-jermenije-kada-nepoznato-trziste-trazi-proveru-papira-i-putanje'));
         $this->assertTrue($posts->contains('slug', 'kia-magentis-ili-hyundai-sonata-kada-udobna-limuzina-mora-dokazati-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-alfa-romeo-gt-kupe-koji-mora-dokazati-limariju-motor-i-stvarnu-namenu'));
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-splash-mali-auto-koji-mora-dokazati-kabinu-motor-i-gradsku-proslost'));

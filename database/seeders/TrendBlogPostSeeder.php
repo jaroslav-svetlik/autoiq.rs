@@ -10501,6 +10501,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#243447', '#60a5fa', '#eff6ff'],
             ],
+            [
+                'title' => 'Opel Signum ili Citroën C6: kada neobična limuzina mora dokazati servis',
+                'slug' => 'opel-signum-ili-citroen-c6-kada-neobicna-limuzina-mora-dokazati-servis',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je birao između prostranog Opela Signuma i udobnog Citroëna C6, ali je shvatio da retka limuzina vredi samo kada elektronika, podvozje i računi daju isti odgovor.',
+                'content' => <<<'TEXT'
+Vladimir je tražio udoban auto za duža putovanja i našao dva oglasa koja nisu ličila jedan na drugi: Opel Signum sa velikim zadnjim prostorom i Citroën C6 sa mirnom vožnjom i bogatom opremom. Signum je delovao praktičnije, dok je C6 privlačio osećajem posebnosti. Međutim, oba su bila starija i neuobičajena, pa se Vladimir nije pitao koji izgleda skuplje, već koji konkretan primerak ima dokazano održavanje.
+
+Kod Signuma bi prvo tražio VIN i račune za motor, hlađenje, trap i elektriku, pa proverio rad sedišta, klime, prozora i komandi na volanu. Na vožnji bi slušao prednji trap i proverio pravac pri kočenju. Velika kabina je prednost samo ako prodavac može da objasni kako su održavani motor, menjač i sitni električni kvarovi koji se vremenom saberu.
+
+Kod C6 bi pažnju usmerio na uredan start, lampice, rad klima-uređaja, podizače, zaključavanje i svaki položaj vešanja koji auto nudi. Ne treba donositi zaključak po jednoj poruci na tabli, ali upozorenje bez jasne dijagnoze jeste razlog za nezavisan pregled. Sa majstorom bi pogledao podvozje, curenja, gume i kočnice, a ne samo tišinu kabine na kratkom krugu.
+
+Vladimir bi izabrao Signum kada mu je potrebna praktičnost i istorija primerka je čistija; C6 kada pregled potvrdi da je komfor održavan, ne samo prikazan. Pregovaraj za tačno procenjen prvi servis; odustani kada nedostaju računi, lampice ostaju bez objašnjenja ili pregled nije dozvoljen. Kod retke limuzine bolja dokumentacija je važnija od atraktivnije opreme.
+TEXT,
+                'highlights' => ['Traži VIN i račune za motor, trap, hlađenje i elektriku pre procene opreme.', 'Na oba automobila proveri sve komande, hladan start, kočenje, trap i podvozje.', 'Izaberi praktičniji ili udobniji model tek kada pregled i servisna istorija potvrde konkretan primerak.'],
+                'tags' => ['Opel Signum', 'Citroën C6', 'velika limuzina', 'elektronika', 'poređenje modela'],
+                'meta_title' => 'Opel Signum ili Citroën C6: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Opel Signum i Citroën C6: elektronika, vešanje, motor, trap, servisna istorija i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#283445', '#a78bfa', '#f5f3ff'],
+            ],
+            [
+                'title' => 'Polovni Mitsubishi Grandis: porodični van koji mora dokazati sedišta, dizel i stvarnu namenu',
+                'slug' => 'polovni-mitsubishi-grandis-porodicni-van-koji-mora-dokazati-sedista-dizel-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Petar je tražio porodični van sa trećim redom, pa je kod Mitsubishi Grandisa proverio da li sedišta, dizel i tragovi porodičnih putovanja opravdavaju kupovinu.',
+                'content' => <<<'TEXT'
+Petar je želeo auto u koji mogu stati deca, kolica i vikend prtljag bez stalnog premeštanja stvari. Mitsubishi Grandis mu je odgovarao rasporedom kabine i nižim ulaskom od velikog SUV-a. Prvi oglas je imao uredne fotografije, ali treći red nije bio otvoren, a prodavac nije znao kada su menjani važni potrošni delovi. Petar je zato prvo proverio da li praktičnost postoji i van oglasa.
+
+Uz VIN i račune, otvorio bi i pomerio svako sedište, proverio mehanizme preklapanja, pojaseve, brave, klimu pozadi i pod prtljažnika. Tragovi porodične upotrebe nisu mana ako su kabina i mehanizmi zdravi, ali polomljene ručice, vlaga ili sedište koje ne zaključava menjaju računicu. Posebno bi proverio da li broj mesta zaista odgovara njegovoj rutini, a ne samo jednom putovanju godišnje.
+
+Ako je primerak dizel, na hladnom startu bi slušao motor, posmatrao lampice i na probnoj vožnji proverio vuču, kvačilo ili automatik, kočenje i trap preko neravnina. Nezavisni majstor treba da pregleda podvozje, curenja, gume, kočnice i dijagnostiku. Veliki van lako prikrije umor kada je kabina oprana, zato vožnja mora biti duža od kruga oko bloka.
+
+Petar bi kupio Grandis kada sedišta rade bez napora, motor ima jasnu istoriju i pregled ostavlja iznos za prvi servis. Pregovaraj za dokazano habanje guma, kočnica ili mehanizama; odustani kada se nejasna kilometraža, ukočena sedišta i prazni računi pojave zajedno. Porodični prostor vredi tek kada je i bezbedno upotrebljiv.
+TEXT,
+                'highlights' => ['Otvori, pomeri i zaključaj svako sedište, pa proveri pojaseve, klimu pozadi i pod prtljažnika.', 'Traži VIN i račune, a dizel proveri na hladnom startu i dužoj vožnji.', 'Pregled podvozja, dijagnostika i realan prvi servis odlučuju više od broja sedišta.'],
+                'tags' => ['Mitsubishi Grandis', 'porodični van', 'treći red', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mitsubishi Grandis: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mitsubishi Grandis: sedišta, dizel, klima, trap, podvozje, servis i porodična namena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#234052', '#34d399', '#ecfdf5'],
+            ],
+            [
+                'title' => 'Polovni Chrysler Sebring: kabriolet koji mora dokazati krov, motor i miran servis',
+                'slug' => 'polovni-chrysler-sebring-kabriolet-koji-mora-dokazati-krov-motor-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mina je želela pristupačan kabriolet za vikend vožnje, ali je kod Chryslera Sebringa proverila da li krov, zaptivke, motor i računi mogu da podnesu život van sunčanog oglasa.',
+                'content' => <<<'TEXT'
+Mina je želela auto za mirne vikend vožnje, a Chrysler Sebring joj je ponudio otvoren krov i više prostora od malih kabrioleta koje je gledala. Jedan primerak je blistao na suncu, ali je tepih iza vozača bio sumnjivo sveže očišćen. Mina nije odbacila auto zbog jednog traga, ali je znala da kod kabrioleta voda, krov i limarija moraju biti provereni pre emocije.
+
+Pre vožnje je tražila VIN i račune, zatim uz dozvolu prodavca proverila logičan rad krova, gumene zaptivke, ivice gepeka i mesta oko prozora. Krov ne treba forsirati niti rasklapati po lošem vremenu; cilj je da se uoče zastajkivanje, neujednačen zazor, vlaga ili tragovi improvizovane popravke. Pogledala bi i rubove, pragove, pod gepeka i odvodne kanale koje može videti bez rastavljanja.
+
+Na hladnom startu Mina bi pratila miran ler, dim i upozorenja, pa na vožnji odziv motora, menjač, kočnice i trap. Klima, stakla, brave i grejanje moraju raditi jer kabriolet provodi više vremena izložen vremenu. Majstor bi potom pregledao podvozje, curenja, gume, kočnice i dijagnostiku, bez pretpostavke da mala kilometraža rešava godine.
+
+Mina bi kupila Sebring kada krov radi mirno, kabina je suva, a istorija održavanja podržava pregled. Pregovaraj za jasno procenjene zaptivke ili potrošni materijal; odustani kada voda, lampice i odbijanje nezavisne provere dođu zajedno. Kabriolet treba da donese slobodu na putu, ne nepoznat račun posle prve kiše.
+TEXT,
+                'highlights' => ['Uz dozvolu proveri miran rad krova, zaptivke, zazore, tepih, gepek i vidljive odvode.', 'Na hladnom startu i vožnji proveri motor, menjač, kočnice, trap, klimu i elektriku.', 'Kupuj tek kada su kabina suva, servisni računi jasni i nezavisan pregled dozvoljen.'],
+                'tags' => ['Chrysler Sebring', 'kabriolet', 'krov', 'zaptivke', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chrysler Sebring: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Chrysler Sebring: krov, zaptivke, vlaga, motor, trap, servis i odluka pre kapare.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3d2a3b', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Unutrašnje osvetljenje na polovnom autu: kada mala sijalica traži veću proveru',
+                'slug' => 'unutrasnje-osvetljenje-na-polovnom-autu-kada-mala-sijalica-trazi-vecu-proveru',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Luka je na večernjem gledanju primetio da deo kabinskog osvetljenja ne radi, pa je umesto brze zamene sijalice proverio da li prekidači, vrata i instalacija zaslužuju dijagnozu.',
+                'content' => <<<'TEXT'
+Luka je došao da pogleda polovan auto pred sumrak i primetio da se plafonsko svetlo ne pali kada otvori zadnja vrata. Prodavac je rekao da je verovatno samo sijalica. Luka nije dramatizovao, ali nije ni prihvatio objašnjenje bez provere: unutrašnje svetlo može biti sitnica, ali može pokazati problem sa prekidačem vrata, kontaktom, osiguračem ili ranijom popravkom.
+
+Uz dozvolu prodavca otvorio bi svaka vrata i proverio plafonsko svetlo, čitaće lampe, osvetljenje gepeka i pretinca, koristeći fabričke prekidače bez skidanja obloga. Posmatrao bi da li se svetlo pali i gasi dosledno, da li prekidač ima jasan hod i da li se na instrument-tabli logično prikazuju otvorena vrata. Ne treba spajati žice, rastavljati plafonjeru ili menjati osigurače na parkingu.
+
+Luka bi zatim proverio da li rade centralna brava, podizači, ogledala i drugi potrošači povezani sa vratima. Ako nekoliko stvari otkazuje na istim vratima, zatražio bi dijagnostiku i pregled instalacije sa majstorom. Tragovi vlage, oštećene plastike ili neurednih spojeva nisu konačna presuda, ali menjaju pregovor i zahtevaju jasnu procenu troška.
+
+Nastavi kada je kvar tačno opisan i pregled ne pokaže širi električni problem; pregovaraj za potvrđenu sitnu popravku; odustani kada uz svetlo ne rade brave, prozori ili se vide nejasni prepravci. Jedna sijalica nije razlog za paniku, ali je dobar razlog da ne kupuješ instalaciju na poverenje.
+TEXT,
+                'highlights' => ['Proveri plafonsko, čitaće, gepek i pretinac otvaranjem vrata i fabričkim prekidačima.', 'Uporedi ponašanje svetla sa prikazom otvorenih vrata, bravama, prozorima i ogledalima.', 'Ne rastavljaj instalaciju na parkingu; više simptoma na istim vratima traži dijagnostiku.'],
+                'tags' => ['unutrašnje osvetljenje', 'elektrika', 'vrata', 'instalacija', 'provera vozila'],
+                'meta_title' => 'Unutrašnje osvetljenje auta: šta proveriti',
+                'meta_description' => 'Kako proveriti unutrašnje osvetljenje polovnog auta: vrata, prekidači, gepek, instalacija, simptomi i bezbedna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e293b', '#fbbf24', '#fffbeb'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Jermenije: kada nepoznato tržište traži proveru papira i putanje',
+                'slug' => 'uvoz-auta-iz-jermenije-kada-nepoznato-trziste-trazi-proveru-papira-i-putanje',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Stefan je našao povoljan oglas iz Jermenije, ali je pre kapare proverio poreklo, vlasništvo, prevoz, carinske obaveze i tragove puta koji cena mora da objasni.',
+                'content' => <<<'TEXT'
+Stefan je na internetu našao dobro opremljen polovan auto iz Jermenije po ceni koja je delovala niže od sličnih oglasa u Srbiji. Fotografije su bile uredne, ali je put do domaće registracije bio duži od jedne poruke prodavcu. Umesto da računa samo cenu auta, Stefan je najpre otvorio pitanje porekla, vlasništva, dokumentacije i prevoza, jer uvoz nije dobra kupovina ako važan trošak ostane van papira.
+
+Pre kapare bi tražio VIN, saobraćajnu dokumentaciju, dokaz o vlasništvu, servisne račune i jasnu informaciju ko izvozi vozilo. Broj šasije treba uporediti kroz dokumente i nezavisne provere koje su dostupne, a originalna dokumenta i prevode proveriti pre plaćanja. Ako prodavac žuri sa uplatom ili izbegava VIN, to nije popust već razlog da se stane.
+
+Stefan bi unapred izračunao transport, osiguranje, carinske i poreske obaveze, homologaciju i registraciju sa stručnim posrednikom, bez oslanjanja na okvirnu poruku. Pregled pre kupovine treba da obuhvati limariju, podvozje, hladan start, dijagnostiku, gume i kočnice. Duga putanja vozila može značiti više prevoza i prekograničnih koraka, pa stanje i dokumenti moraju govoriti istu priču.
+
+Kupovina ima smisla samo kada je ukupna računica jasna, poreklo dokazivo i nezavisan pregled dostupan. Pregovaraj kada imaš dokumentovan troškovnik; odustani kada nedostaju originali, VIN ili objašnjenje putanje. Nepoznato tržište nije automatski loše, ali traži više dokaza nego oglas koji izgleda povoljno.
+TEXT,
+                'highlights' => ['Traži VIN, dokaz vlasništva, dokumentaciju vozila, servisne račune i identitet izvoznika pre kapare.', 'Pre plaćanja proveri ukupne troškove transporta, uvoza, homologacije i registracije sa stručnim posrednikom.', 'Poveži dokumenta sa nezavisnim pregledom limarije, podvozja, dijagnostike, guma i kočnica.'],
+                'tags' => ['uvoz iz Jermenije', 'uvoz automobila', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Jermenije: šta proveriti',
+                'meta_description' => 'Kako proceniti uvoz polovnog auta iz Jermenije: VIN, vlasništvo, dokumentacija, prevoz, troškovi i pregled vozila.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#31424e', '#f97316', '#fff7ed'],
+            ],
 
         ];
     }

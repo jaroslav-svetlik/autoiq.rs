@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.123] - 2026-08-10
+
+### Added
+
+- Added five non-duplicate production blog articles covering Opel Signum versus Citroën C6, used Mitsubishi Grandis and Chrysler Sebring buying guidance, interior-light inspection, and Armenian import due diligence.
+
 ## [0.1.122] - 2026-08-09
 
 ### Added
