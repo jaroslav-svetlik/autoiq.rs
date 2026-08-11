@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(390, $posts);
+        $this->assertCount(395, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(91, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(92, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'peugeot-4007-ili-citroen-c-crosser-blizanci-kada-pogon-i-istorija-moraju-pobediti-znacku'));
+        $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-trevis-mali-auto-koji-mora-dokazati-da-retkost-nije-problem'));
+        $this->assertTrue($posts->contains('slug', 'polovni-renault-avantime-neobican-kupe-koji-mora-opravdati-svaki-elektricni-detalj'));
+        $this->assertTrue($posts->contains('slug', 'spoljna-kvaka-vrata-na-polovnom-autu-kada-lagan-potez-otkriva-tezi-problem'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-sa-kipra-kada-sunce-i-volan-ne-resavaju-papire-ni-vlagu'));
         $this->assertTrue($posts->contains('slug', 'opel-signum-ili-citroen-c6-kada-neobicna-limuzina-mora-dokazati-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-grandis-porodicni-van-koji-mora-dokazati-sedista-dizel-i-stvarnu-namenu'));
         $this->assertTrue($posts->contains('slug', 'polovni-chrysler-sebring-kabriolet-koji-mora-dokazati-krov-motor-i-miran-servis'));

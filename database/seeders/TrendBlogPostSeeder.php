@@ -10616,6 +10616,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#31424e', '#f97316', '#fff7ed'],
             ],
+            [
+                'title' => 'Peugeot 4007 ili Citroën C-Crosser: blizanci kada pogon i istorija moraju pobediti značku',
+                'slug' => 'peugeot-4007-ili-citroen-c-crosser-blizanci-kada-pogon-i-istorija-moraju-pobediti-znacku',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nikola je birao između dva gotovo ista SUV-a, ali je shvatio da kod Peugeota 4007 i Citroëna C-Crossera presuđuju pogon, motor, održavanje i konkretan primerak.',
+                'content' => <<<'TEXT'
+Nikola je tražio porodični SUV sa četiri pogonska točka, a na placu su stajali Peugeot 4007 i Citroën C-Crosser sličnog godišta i cene. Prodavac ih je opisao kao praktično iste automobile, pa je Nikola umalo izabrao po boji i opremi. Tek kada je otvorio servisne račune, postalo je jasno da zajednička osnova ne briše razliku između urednog i zanemarenog primerka.
+
+Kod oba auta prvo bi proverio VIN, motor, menjač i servisni trag. Hladan start mora biti miran, bez dima i poruka na tabli, dok probna vožnja treba da obuhvati grad, otvoren put i puno skretanje. Prati rad kvačila ili automatika, zvukove iz trapa i ponašanje pogona. Ako postoji izbor između sličnih auta, prednost ima onaj sa dokazivim održavanjem, ne onaj sa više hroma.
+
+Peugeot može biti lakše naći u određenoj opremi, a Citroën nekome više odgovara položajem sedenja ili stanjem kabine. Ipak, oznaka na haubi nije razlog da se preskoče dijagnostika, pregled podvozja i provera guma. SUV koji je vukao prikolicu, prolazio loše puteve ili vozio mnogo kratkih relacija može skupo naplatiti pogon, kočnice i dizel opremu.
+
+Nikola bi kupio samo automobil čiji se računi, stanje i vožnja podudaraju. Pregovaraj kada majstor potvrdi konkretne potrošne stavke; odustani kada se uz nejasnu istoriju pojave vibracije, lampice ili otpor prema pregledu. Kod blizanaca nije pametnije ime — pametniji je proverljiv primerak.
+TEXT,
+                'highlights' => ['Uporedi VIN, motor, menjač i servisne račune pre nego što gledaš opremu.', 'Na probnoj vožnji proveri pogon, kvačilo ili automatik, trap, kočnice i upozorenja.', 'Biraj uredan primerak; odustani od kombinacije nejasne istorije i odbijenog pregleda.'],
+                'tags' => ['Peugeot 4007', 'Citroën C-Crosser', 'SUV', '4x4', 'poređenje'],
+                'meta_title' => 'Peugeot 4007 ili Citroën C-Crosser: polovni SUV',
+                'meta_description' => 'Poređenje polovnih Peugeot 4007 i Citroën C-Crosser: motor, pogon, menjač, trap, servisna istorija i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#25364a', '#f59e0b', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Daihatsu Trevis: mali auto koji mora dokazati da retkost nije problem',
+                'slug' => 'polovni-daihatsu-trevis-mali-auto-koji-mora-dokazati-da-retkost-nije-problem',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jovana je našla uredan Daihatsu Trevis za grad, ali je pre kapare proverila motor, koroziju, dostupnost delova i da li retka pojava ima stvarno pokriće.',
+                'content' => <<<'TEXT'
+Jovana je želela mali benzinac za Beograd, lako parkiranje i povremeni odlazak van grada. Daihatsu Trevis joj je delovao simpatično i očuvano, sa manje kilometara nego uobičajeni gradski modeli. Ipak, retko ime nije dokaz da je auto bio pošteđen rada; ona je prvo htela da razume kako je održavan i koliko će realno koštati posle kupovine.
+
+Tražila je VIN, račune i podatak kada su menjani ulje, svećice, tečnosti i potrošni delovi. Na hladnom startu prati miran rad, dim, curenja i lampice. Kratka vožnja treba da pokaže kvačilo, menjač, kočnice, trap i klimu, a majstor da pogleda podvozje, pragove i mesta na kojima se retko vožen auto može sakriti iza lepog laka.
+
+Pre kapare Jovana bi pozvala prodavnicu delova ili servis sa brojem šasije, ne da bi unapred naručivala, nego da proveri dostupnost osnovnih potrošnih stavki. Ne treba pretpostaviti da je svaki deo nedostupan, ali ni kupovati bez odgovora. Razlika između povoljnog malog auta i dugog čekanja često je samo u tome da li je prethodni vlasnik čuvao račune i birao pravilne delove.
+
+Trevis ima smisla kada je mehanika mirna, limarija zdrava, a održavanje dokumentovano. Pregovaraj za potvrđene gume ili servis; odustani kada se retkost spoji sa korozijom, nejasnim računima i prodavčevim obećanjem da je sve lako. Mali auto mora biti lak i za posedovanje, ne samo za parkiranje.
+TEXT,
+                'highlights' => ['Traži VIN i račune za redovan servis, ne samo priču o maloj kilometraži.', 'Na hladnom startu i vožnji proveri motor, kvačilo, menjač, kočnice, trap i klimu.', 'Pre kapare proveri dostupnost osnovnih delova prema broju šasije.'],
+                'tags' => ['Daihatsu Trevis', 'mali auto', 'benzinac', 'retki model', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Daihatsu Trevis: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Daihatsu Trevis: motor, korozija, delovi, servisna istorija, trap, klima i realna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#4a2932', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Polovni Renault Avantime: neobičan kupe koji mora opravdati svaki električni detalj',
+                'slug' => 'polovni-renault-avantime-neobican-kupe-koji-mora-opravdati-svaki-elektricni-detalj',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Marko je želeo Renault Avantime zbog dizajna, ali je pre kupovine proverio vrata, stakla, elektroniku, motor i plan održavanja koji ne sme ostati samo želja.',
+                'content' => <<<'TEXT'
+Marko nije tražio običan auto. Renault Avantime mu je privukao pažnju zbog neobične siluete, velikih vrata i kabine koja deluje kao spoj kupea i putnog salona. Na prvom gledanju je zato namerno usporio: kod ovakvog polovnjaka uzbuđenje je dozvoljeno tek posle provere, jer svaki poseban detalj mora imati normalno objašnjenje i uredan servisni trag.
+
+Pre vožnje bi otvorio i zatvorio vrata nekoliko puta, proverio stakla, brave, sedišta, klimatizaciju, komande i sve poruke na instrument-tabli. Ne rastavlja ništa na parkingu, ali prati neujednačen hod, buku, vlagu i improvizovane prekidače. Ako više električnih stvari ne radi ili prodavac ne dozvoljava dovoljno vremena za proveru, priča o retkom modelu tu staje.
+
+Na hladnom startu Marko bi oslušnuo motor i pratio dim, ler i curenja, zatim na vožnji menjač, kočnice, trap i stabilnost. Nezavisan majstor treba da pregleda podvozje, dijagnostiku i dokumentovane servise. Kod ovakvog auta nije dovoljno da deo danas radi; važno je i da kupac unapred zna kako će rešiti sledeći servis.
+
+Kupovina ima smisla kada je automobil potpun, funkcionalan i potkrepljen računima. Pregovaraj za jasno procenjene sitnice; odustani kada se nejasna istorija, električni kvarovi i nedostajući delovi pojave zajedno. Avantime treba kupiti iz pažnje prema dobrom primerku, ne iz straha da se drugi neće pojaviti.
+TEXT,
+                'highlights' => ['Proveri vrata, stakla, brave, sedišta, klimu, komande i poruke na instrument-tabli.', 'Hladan start i probna vožnja moraju obuhvatiti motor, menjač, kočnice i trap.', 'Kod retkog modela traži račune i realan plan za naredni servis pre kapare.'],
+                'tags' => ['Renault Avantime', 'kupe', 'elektronika', 'retki model', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Renault Avantime: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Renault Avantime: vrata, stakla, elektronika, motor, trap, servis i odluka pre kapare.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e81', '#a78bfa', '#f5f3ff'],
+            ],
+            [
+                'title' => 'Spoljna kvaka vrata na polovnom autu: kada lagan potez otkriva teži problem',
+                'slug' => 'spoljna-kvaka-vrata-na-polovnom-autu-kada-lagan-potez-otkriva-tezi-problem',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vladimir je na obilasku primetio tvrdu kvaku na zadnjim vratima, pa je umesto da je proglasi sitnicom proverio bravu, zazore, centralno zaključavanje i tragove popravke.',
+                'content' => <<<'TEXT'
+Vladimir je obilazio polovan auto i zadnja leva vrata otvorio tek iz drugog pokušaja. Prodavac je rekao da kvaka samo traži podmazivanje. To zaista može biti mala stavka, ali Vladimir nije zaključio pre vremena: različit otpor, loš povratak ručke ili vrata koja ne naležu lepo mogu govoriti o bravi, sajli, korišćenju ili ranijoj limarijskoj intervenciji.
+
+Uz dozvolu prodavca otvorio bi i zatvorio svaka vrata iznutra i spolja, bez trzanja i sile. Prati da li kvake vraćaju isti hod, da li centralno zaključavanje reaguje dosledno i da li vrata zatvaraju bez udarca. Pogledaj zazore, gumice, šrafove na prihvatnim mestima i razliku u tonu laka oko kvake, ali ne skidaj oblogu niti rastavljaj mehanizam na parkingu.
+
+Zatim poveži tragove. Ako uz kvaku ne rade prozor, ogledalo ili brava, treba dijagnostika i pregled instalacije. Ako se vrata teško zatvaraju ili se vide neujednačeni zazori, majstor mora proveriti šarku i limariju. Samo potvrđena sitna sajla ili mehanizam je pregovaračka stavka; skup simptoma nije nešto što treba rešavati obećanjem da će se podmazati.
+
+Vladimir bi nastavio kada sva vrata rade uredno ili je kvar jasno procenjen. Pregovaraj za poznat deo i rad; odustani kada tvrda kvaka dolazi uz loše zazore, nejasne popravke ili odbijanje pregleda. Jedan potez ruke može sačuvati mnogo više od jedne brave.
+TEXT,
+                'highlights' => ['Bez sile proveri svaka vrata iznutra i spolja, povratak kvake i centralno zaključavanje.', 'Uporedi rad kvake sa zazorima, gumicama, šrafovima, lakom i zatvaranjem vrata.', 'Više simptoma na istim vratima traži majstora, ne podmazivanje na reč.'],
+                'tags' => ['kvaka vrata', 'brava', 'limarija', 'centralno zaključavanje', 'provera vozila'],
+                'meta_title' => 'Spoljna kvaka vrata auta: šta proveriti',
+                'meta_description' => 'Kako proveriti spoljnu kvaku polovnog auta: brava, zazori, centralno zaključavanje, limarija i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1f2937', '#22c55e', '#f0fdf4'],
+            ],
+            [
+                'title' => 'Uvoz auta sa Kipra: kada sunce i volan ne rešavaju papire ni vlagu',
+                'slug' => 'uvoz-auta-sa-kipra-kada-sunce-i-volan-ne-resavaju-papire-ni-vlagu',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ana je našla povoljan auto sa Kipra, ali je pre kapare proverila položaj volana, vlasništvo, transport, vlagu i računicu uvoza koja mora biti jasna na papiru.',
+                'content' => <<<'TEXT'
+Ana je videla oglas za polovan auto sa Kipra koji je izgledao odlično na fotografijama: sjajan lak, čista kabina i privlačna cena. Sunce i blaga klima zvuče kao prednost, ali ona nije stala na tome. Ostrvsko poreklo, obalna vlaga i vozila sa volanom na desnoj strani mogu promeniti i upotrebljivost i ukupan trošak kupovine.
+
+Pre kapare Ana bi tražila VIN, originalnu saobraćajnu dokumentaciju, dokaz vlasništva, servisne račune i jasan identitet izvoznika. Posebno bi proverila specifikaciju vozila i mogućnost domaće registracije sa stručnim posrednikom, bez oslanjanja na poruke prodavca. Ako dokumenti, prevodi, put transporta ili stanje volana nisu jasno objašnjeni, jeftin oglas nije osnova za uplatu.
+
+Pregled treba da uključi limariju, podvozje, pragove, konektore, enterijer i tragove vlage ili soli, kao i hladan start, dijagnostiku, gume i kočnice. Sunce može oštetiti lak, plastiku i zaptivke, a blizina mora ne isključuje koroziju. Transport, carinske i poreske obaveze, homologacija i registracija moraju ući u račun pre nego što cena izgleda povoljno.
+
+Uvoz ima smisla tek kada je vozilo podobno za registraciju, poreklo proverljivo, a ukupni trošak poznat. Pregovaraj kada imaš dokumentovan troškovnik; odustani kada nema VIN-a, originala ili jasnog odgovora o volanu i putu vozila. Klima nije zamena za papire, a cena nije zamena za pregled.
+TEXT,
+                'highlights' => ['Pre kapare proveri VIN, originalne papire, vlasništvo, izvoznika i mogućnost registracije.', 'Uračunaj transport, uvozne obaveze, homologaciju i registraciju pre poređenja cene.', 'Pregledaj podvozje, pragove, enterijer, zaptivke i elektriku zbog sunca, obale i vlage.'],
+                'tags' => ['uvoz sa Kipra', 'uvoz automobila', 'dokumentacija', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta sa Kipra: šta proveriti',
+                'meta_description' => 'Kako proceniti uvoz polovnog auta sa Kipra: VIN, volan, papiri, vlaga, transport, troškovi i registracija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#164e63', '#38bdf8', '#ecfeff'],
+            ],
 
         ];
     }

@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.124] - 2026-08-11
+
+### Added
+
+- Added five non-duplicate production blog articles covering Peugeot 4007 versus Citroën C-Crosser, used Daihatsu Trevis and Renault Avantime buying guidance, exterior-door-handle inspection, and Cypriot import due diligence.
+
 ## [0.1.123] - 2026-08-10
 
 ### Added
