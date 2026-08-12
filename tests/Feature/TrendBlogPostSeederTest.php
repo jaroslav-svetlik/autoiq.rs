@@ -433,6 +433,37 @@ class TrendBlogPostSeederTest extends TestCase
         });
     }
 
+    public function test_seeded_articles_use_professional_reader_focused_language_without_named_personas(): void
+    {
+        Storage::fake('public');
+
+        $this->seed(TrendBlogPostSeeder::class);
+
+        $names = [
+            'Aleksa', 'Aleksandar', 'Aleksandra', 'Ana', 'Bojan', 'Davor',
+            'Dejan', 'Dragan', 'Ivan', 'Ivana', 'Jelena', 'Jovan', 'Jovana',
+            'Katarina', 'Luka', 'Maja', 'Marija', 'Marko', 'Milan', 'Milica',
+            'Miloš', 'Mina', 'Nemanja', 'Nenad', 'Nikola', 'Ognjen', 'Petar',
+            'Saša', 'Sara', 'Stefan', 'Tamara', 'Vanja', 'Vladan', 'Vladimir',
+            'Zoran',
+        ];
+        $pattern = '/\\b(?:'.implode('|', $names).')\\b/u';
+
+        BlogPost::query()->get()->each(function (BlogPost $post) use ($pattern): void {
+            $text = implode("\n", [
+                $post->title,
+                $post->excerpt,
+                $post->content,
+                $post->meta_title,
+                $post->meta_description,
+                implode("\n", $post->highlights ?? []),
+                implode("\n", $post->tags ?? []),
+            ]);
+
+            $this->assertDoesNotMatchRegularExpression($pattern, $text, $post->slug);
+        });
+    }
+
     public function test_trend_blog_post_seeder_keeps_existing_generated_cover_images(): void
     {
         Storage::fake('public');

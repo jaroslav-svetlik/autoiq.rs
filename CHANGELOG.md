@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.126] - 2026-08-12
+
+### Changed
+
+- Rewrote all seeded buyer narratives to use neutral, professional, reader-focused language without fictional personal names, and added editorial and test safeguards that prevent named personas in future articles.
+
 ## [0.1.125] - 2026-08-12
 
 ### Added

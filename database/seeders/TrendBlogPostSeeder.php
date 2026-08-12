@@ -12,6 +12,7 @@ class TrendBlogPostSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->posts() as $index => $post) {
+            $post = $this->neutralizePersonalNames($post);
             $palette = $post['palette'];
             unset($post['palette']);
 
@@ -49,6 +50,38 @@ class TrendBlogPostSeeder extends Seeder
                 ])->saveQuietly();
             }
         }
+    }
+
+    /**
+     * Editorial articles address the reader directly; fictional named buyers
+     * are not part of the AutoIQ voice.
+     */
+    protected function neutralizePersonalNames(array $post): array
+    {
+        $names = [
+            'Aleksa', 'Aleksandar', 'Aleksandra', 'Ana', 'Bojan', 'Davor',
+            'Dejan', 'Dragan', 'Ivan', 'Ivana', 'Jelena', 'Jovan', 'Jovana',
+            'Katarina', 'Luka', 'Maja', 'Marija', 'Marko', 'Milan', 'Milica',
+            'Miloš', 'Mina', 'Nemanja', 'Nenad', 'Nikola', 'Ognjen', 'Petar',
+            'Saša', 'Sara', 'Stefan', 'Tamara', 'Vanja', 'Vladan', 'Vladimir',
+            'Zoran',
+        ];
+        $pattern = '\\b(?:'.implode('|', $names).')\\b';
+        $replace = static function (mixed $value) use (&$replace, $pattern): mixed {
+            if (is_array($value)) {
+                return array_map($replace, $value);
+            }
+
+            if (! is_string($value)) {
+                return $value;
+            }
+
+            $value = preg_replace('/(^|[.!?]\\s+)'.$pattern.'/um', '$1Kupac', $value) ?? $value;
+
+            return preg_replace('/'.$pattern.'/u', 'kupac', $value) ?? $value;
+        };
+
+        return array_map($replace, $post);
     }
 
     protected function posts(): array
