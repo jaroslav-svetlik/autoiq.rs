@@ -12,7 +12,7 @@ class TrendBlogPostSeeder extends Seeder
     public function run(): void
     {
         foreach ($this->posts() as $index => $post) {
-            $post = $this->neutralizePersonalNames($post);
+            $post = $this->professionalizeEditorialVoice($post);
             $palette = $post['palette'];
             unset($post['palette']);
 
@@ -53,10 +53,10 @@ class TrendBlogPostSeeder extends Seeder
     }
 
     /**
-     * Editorial articles address the reader directly; fictional named buyers
-     * are not part of the AutoIQ voice.
+     * AutoIQ articles use an impersonal, technical editorial voice. They do
+     * not frame advice through named people or imagined buyer/seller scenes.
      */
-    protected function neutralizePersonalNames(array $post): array
+    protected function professionalizeEditorialVoice(array $post): array
     {
         $names = [
             'Aleksa', 'Aleksandar', 'Aleksandra', 'Ana', 'Bojan', 'Davor',
@@ -66,22 +66,84 @@ class TrendBlogPostSeeder extends Seeder
             'Saša', 'Sara', 'Stefan', 'Tamara', 'Vanja', 'Vladan', 'Vladimir',
             'Zoran',
         ];
-        $pattern = '\\b(?:'.implode('|', $names).')\\b';
-        $replace = static function (mixed $value) use (&$replace, $pattern): mixed {
-            if (is_array($value)) {
-                return array_map($replace, $value);
+        $namePattern = '/\\b(?:'.implode('|', $names).')\\b/u';
+        $personaPattern = '/\\b(?:kupac(?:a|u|em|ima|i)?|vozač(?:a|u|em|i)?|vlasnik(?:a|u|om|e)?|prodavac(?:a|u|em|i)?)\\b/iu';
+        $category = (string) ($post['category'] ?? '');
+        $paragraph = 0;
+
+        foreach (['content', 'excerpt', 'meta_description'] as $field) {
+            if (! isset($post[$field]) || ! is_string($post[$field])) {
+                continue;
             }
 
-            if (! is_string($value)) {
-                return $value;
+            if ($field !== 'content') {
+                if (preg_match($namePattern, $post[$field]) || preg_match($personaPattern, $post[$field])) {
+                    $post[$field] = $this->professionalSummary($post['title'], $category);
+                }
+
+                continue;
             }
 
-            $value = preg_replace('/(^|[.!?]\\s+)'.$pattern.'/um', '$1Kupac', $value) ?? $value;
+            $post[$field] = implode("\n\n", array_map(function (string $block) use ($namePattern, $personaPattern, $category, &$paragraph): string {
+                if (preg_match($namePattern, $block)) {
+                    return $this->professionalParagraph($category, $paragraph++);
+                }
 
-            return preg_replace('/'.$pattern.'/u', 'kupac', $value) ?? $value;
+                $sentences = preg_split('/(?<=[.!?])\\s+/u', $block) ?: [$block];
+
+                return implode(' ', array_map(function (string $sentence) use ($personaPattern, $category, &$paragraph): string {
+                    if (preg_match($personaPattern, $sentence)) {
+                        return $this->professionalParagraph($category, $paragraph++);
+                    }
+
+                    return $sentence;
+                }, $sentences));
+            }, explode("\n\n", $post[$field])));
+        }
+
+        return $post;
+    }
+
+    protected function professionalSummary(string $title, string $category): string
+    {
+        return match ($category) {
+            'Poređenje modela' => 'Stručno poređenje: stanje, servisna istorija, tipične slabe tačke i ukupni troškovi odlučuju pre kupovine.',
+            'Provera vozila' => 'Stručni vodič: sistematska provera, dijagnostika i pregled kod majstora pre konačne odluke.',
+            'Analiza tržišta' => 'Stručna analiza: dokumentacija, poreklo, stanje vozila i ukupna računica pre kupovine.',
+            default => 'Stručni vodič: stanje primerka, servisna istorija, tipične tačke pregleda i realni troškovi pre kupovine.',
+        };
+    }
+
+    protected function professionalParagraph(string $category, int $index): string
+    {
+        $paragraphs = match ($category) {
+            'Poređenje modela' => [
+                'Poređenje treba zasnivati na stanju konkretnog primerka, servisnoj istoriji, dostupnosti delova i realnim početnim ulaganjima, a ne na opremi ili reputaciji modela.',
+                'Hladan start, probna vožnja, dijagnostika i pregled na dizalici daju pouzdaniju osnovu za poređenje od fotografija i opštih utisaka.',
+                'Prednost ima primerak čija se kilometraža, stanje enterijera, podvozja i računi međusobno potvrđuju.',
+                'Nejasna istorija, odbijen pregled ili više nepovezanih simptoma opravdavaju odustajanje, bez obzira na cenu i opremu.',
+            ],
+            'Provera vozila' => [
+                'Pregled treba izvesti sistematski, bez improvizovanih popravki ili rastavljanja na licu mesta.',
+                'Vidljive tragove treba povezati sa probnom vožnjom, dijagnostikom i pregledom kod majstora, jer jedan simptom sam po sebi retko daje potpun odgovor.',
+                'Potvrđena manja stavka može biti deo pregovora, dok kombinacija više simptoma zahteva stručnu procenu pre svake odluke.',
+                'Bezbednosni sistemi, limarija i mehanika moraju imati jasno objašnjenje i proverljiv obim potrebnih radova.',
+            ],
+            'Analiza tržišta' => [
+                'Poreklo vozila, VIN, originalna dokumentacija i sled vlasništva moraju biti proverljivi pre bilo kakve uplate.',
+                'Ukupna računica obuhvata transport, dažbine, homologaciju, registraciju, prvi servis i potvrđeno stanje vozila.',
+                'Dokumentaciju treba povezati sa nezavisnim pregledom limarije, podvozja, dijagnostike i kilometraže.',
+                'Nejasni originali, prekidi u istoriji ili neobjašnjena putanja vozila predstavljaju razlog za odustajanje.',
+            ],
+            default => [
+                'Procena polovnog automobila počinje stanjem konkretnog primerka, kompletnom servisnom istorijom i jasnim planom početnih ulaganja.',
+                'Hladan start, probna vožnja, dijagnostika i pregled podvozja treba da potvrde stanje motora, menjača, trapa, kočnica i elektronike.',
+                'Oprema i dizajn imaju vrednost tek kada su limarija, mehanika i dokumentacija međusobno usklađeni.',
+                'Potvrđene potrošne stavke mogu biti osnov za pregovor; nejasna istorija i odbijen pregled zahtevaju odustajanje.',
+            ],
         };
 
-        return array_map($replace, $post);
+        return $paragraphs[$index % count($paragraphs)];
     }
 
     protected function posts(): array

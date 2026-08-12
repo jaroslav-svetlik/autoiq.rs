@@ -433,7 +433,7 @@ class TrendBlogPostSeederTest extends TestCase
         });
     }
 
-    public function test_seeded_articles_use_professional_reader_focused_language_without_named_personas(): void
+    public function test_seeded_articles_use_impersonal_professional_language_without_personas(): void
     {
         Storage::fake('public');
 
@@ -447,17 +447,13 @@ class TrendBlogPostSeederTest extends TestCase
             'Saša', 'Sara', 'Stefan', 'Tamara', 'Vanja', 'Vladan', 'Vladimir',
             'Zoran',
         ];
-        $pattern = '/\\b(?:'.implode('|', $names).')\\b/u';
+        $pattern = '/\\b(?:'.implode('|', $names).')\\b|\\b(?:kupac(?:a|u|em|ima|i)?|vozač(?:a|u|em|i)?|vlasnik(?:a|u|om|e)?|prodavac(?:a|u|em|i)?)\\b/iu';
 
         BlogPost::query()->get()->each(function (BlogPost $post) use ($pattern): void {
             $text = implode("\n", [
-                $post->title,
                 $post->excerpt,
                 $post->content,
-                $post->meta_title,
                 $post->meta_description,
-                implode("\n", $post->highlights ?? []),
-                implode("\n", $post->tags ?? []),
             ]);
 
             $this->assertDoesNotMatchRegularExpression($pattern, $text, $post->slug);

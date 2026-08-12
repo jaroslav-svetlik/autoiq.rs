@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.127] - 2026-08-12
+
+### Changed
+
+- Replaced narrative buyer, driver, owner, and seller phrasing across seeded article bodies and summaries with an impersonal professional automotive editorial style.
+
 ## [0.1.126] - 2026-08-12
 
 ### Changed

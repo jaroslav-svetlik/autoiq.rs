@@ -23,7 +23,7 @@ Also search the local seeder and test with `rg` for model names, countries, symp
 
 ## Editorial Standard
 
-Write in Serbian Latin script, for Serbian used-car buyers. The tone is practical, calm, specific, and professionally editorial. Explain the vehicle, inspection, ownership risk, and buying decision directly; do not use generic filler or fictional anecdotes.
+Write in Serbian Latin script, for Serbian used-car buyers. The tone is practical, calm, specific, impersonal, and professionally editorial. The vehicle, inspection findings, documentation, maintenance risk, and decision criteria are the subject of the text; do not use generic filler, direct second-person address, or fictional anecdotes.
 
 Required shape:
 
@@ -46,7 +46,8 @@ Avoid:
 - brand worship,
 - SVG-only production covers,
 - articles that only list parts without explaining the buyer decision.
-- personal names, named fictional buyers, or invented personal anecdotes (for example, “Milan je birao…” or “Ana je našla…”).
+- personal names, named fictional buyers, or invented personal anecdotes (for example, “Milan je birao…” or “Ana je našla…”),
+- narrative stand-ins such as “kupac”, “vozač”, “vlasnik” or “prodavac” as the subject of editorial advice (for example, “Kupac je želeo…”). Write instead about the model, inspection, documentation, maintenance, market, or decision criteria.
 
 Every article should make the buyer understand when to proceed, when to negotiate, and when to walk away.
 
