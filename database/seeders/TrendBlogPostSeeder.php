@@ -10731,6 +10731,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#164e63', '#38bdf8', '#ecfeff'],
             ],
+            [
+                'title' => 'Daewoo Nubira ili Kia Shuma: porodični kompakt kada jednostavnost mora dokazati stanje',
+                'slug' => 'daewoo-nubira-ili-kia-shuma-porodicni-kompakt-kada-jednostavnost-mora-dokazati-stanje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Milan je birao između Daewoo Nubire i Kia Shume za prvi porodični auto, ali su limarija, servis i stvarno stanje odlučili više od niske cene.',
+                'content' => <<<'TEXT'
+Milan je tražio pristupačan porodični auto sa normalnim gepekom i mestom za dvoje dece, pa su mu Daewoo Nubira i Kia Shuma delovale kao pošteni, zaboravljeni izbori. Oba oglasa su obećavala malo kilometara i jeftino održavanje. Kada ih je pogledao uživo, shvatio je da kod automobila ovih godina jednostavna mehanika nema vrednost ako pragovi, pod i računi ne izdrže isti pregled.
+
+Nubira ima prednost kada ti više znače limuzinski prostor i mirna porodična vožnja, ali prvo proveri rubove, pragove, pod, gepek i tragove ranijih limarskih radova. Shuma može bolje odgovarati kupcu koji želi kompaktnije mere, ali ni kod nje ne preskači koroziju, stanje kvačila, trapa, kočnica i klima-uređaja. Niska cena nije opravdanje da se pregled svede na paljenje motora.
+
+Milan je za oba primerka tražio VIN i račune, zatim hladan start, probnu vožnju preko neravnina i pregled na dizalici. Uporedio je da li gume, sedišta, volan i pedale odgovaraju prijavljenoj kilometraži, a majstor je proverio curenja, kočione vodove i podvozje. Kod starijeg auta jedan uredan račun za veliki servis znači više od dodatne opreme koja ne radi.
+
+Na kraju je izabrao manje atraktivnu Shumu sa zdravijim pragovima i jasnim računima. Nastavi kada su limarija i mehanika proverljive; pregovaraj za konkretan servis ili gume; odustani kada niska cena dolazi uz rđu, nejasne papire i odbijen pregled. Između ova dva modela bolji nije poznatiji, već zdraviji primerak.
+TEXT,
+                'highlights' => ['Kod oba modela prvo pregledaj pragove, pod, rubove, gepek i tragove ranije limarije.', 'Poveži VIN i račune sa hladnim startom, probnom vožnjom i pregledom na dizalici.', 'Pregovaraj samo za potvrđene stavke; odustani od jeftinog auta sa rđom i nejasnom istorijom.'],
+                'tags' => ['Daewoo Nubira', 'Kia Shuma', 'porodični kompakt', 'korozija', 'poređenje modela'],
+                'meta_title' => 'Daewoo Nubira ili Kia Shuma: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Daewoo Nubira i Kia Shuma: limarija, korozija, motor, trap, klima, servis i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#263543', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Fiat Barchetta: kabriolet koji mora dokazati krov, pragove i miran servis',
+                'slug' => 'polovni-fiat-barchetta-kabriolet-koji-mora-dokazati-krov-pragove-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Aleksandra je želela Fiat Barchettu za vikend vožnje, ali je pre kapare proverila platneni krov, pragove, odvodne kanale, motor i troškove održavanja.',
+                'content' => <<<'TEXT'
+Aleksandra je na placu videla crvenu Fiat Barchettu i već zamišljala otvorenu vožnju do Fruške gore. Prodavac je brzo spustio krov i rekao da je auto vožen samo leti, ali ona je znala da kod starijeg kabrioleta najvažnije stvari često nisu vidljive dok ne počneš redom da proveravaš zaptivke, odvodne kanale i lim ispod lepog laka.
+
+Najpre bi nekoliko puta podigla i spustila krov, bez sile, pa pregledala da li se zaključava ravnomerno, da li su zaptivke cele i ima li vlažnih tragova iza sedišta, u gepeku ili pod patosnicama. Pogledaj pragove, rubove i pod na dizalici; voda koja je dugo ostajala u odvodima može napraviti veći problem od jedne izbledele tkanine. Ne prihvataj priču da je malo curenje normalan deo kabrioleta.
+
+Na hladnom startu Aleksandra bi pratila motor, ler, dim i curenja, a na vožnji kvačilo, menjač, kočnice, trap i temperaturu. Tražila bi VIN, račune i dokaz kada su menjani važni potrošni delovi. Pregled kod majstora treba da uključi podvozje i dijagnostiku, jer vikend auto nekada manje vozi, ali može dugo stajati bez pravilnog održavanja.
+
+Kupovina ima smisla kada je krov suv i potpun, lim zdrav, a servisni trag razumljiv. Pregovaraj za jasno procenjene gume, zaptivku ili servis; odustani kada se vlaga, rđa i nejasna istorija pojave zajedno. Barchetta treba da kupi sunčan dan, a ne da ti svaki pljusak napravi novi račun.
+TEXT,
+                'highlights' => ['Više puta proveri rad krova, brave, zaptivke i tragove vlage u kabini, gepeku i ispod patosnica.', 'Na dizalici pregledaj pragove, rubove, pod i odvodne kanale pre nego što proceniš lak.', 'Hladan start, probna vožnja i računi moraju potvrditi motor, menjač, trap i plan održavanja.'],
+                'tags' => ['Fiat Barchetta', 'kabriolet', 'platneni krov', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Fiat Barchetta: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Fiat Barchetta: platneni krov, vlaga, pragovi, korozija, motor, trap i servisna istorija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#4c1d2f', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Polovni Volvo C70: kupe-kabriolet koji mora dokazati krov, elektroniku i bezbednu prošlost',
+                'slug' => 'polovni-volvo-c70-kupe-kabriolet-koji-mora-dokazati-krov-elektroniku-i-bezbednu-proslost',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nemanja je želeo Volvo C70 zbog komfora i čvrstog krova, ali je pre kapare proverio mehanizam, elektroniku, limariju i servis koji mora pratiti skuplji model.',
+                'content' => <<<'TEXT'
+Nemanja je tražio auto koji preko zime može biti miran kupe, a leti otvoren kabriolet, pa mu je Volvo C70 delovao kao razuman kompromis. Oglas je imao uredan enterijer i bogatu opremu, ali kod složenog polovnjaka lep prvi utisak nije dovoljan. Električni krov, moduli i premium delovi traže konkretnu proveru, ne nadu da će se svaki problem rešiti resetovanjem.
+
+Pre vožnje bi tražio da krov prođe ceo ciklus na ravnom mestu, bez žurbe i prekidanja. Posmatraj poruke na tabli, neujednačen rad, zvukove, zazore panela i tragove vlage u gepeku i iza obloga. Zatim proveri prozore, sedišta, klimu, svetla i ostalu elektroniku. Jedna poznata sitnica može biti pregovaračka stavka; više nepovezanih grešaka je razlog za dijagnostiku pre bilo kakve kapare.
+
+Nemanja bi na hladnom startu pratio miran rad motora, a na probnoj vožnji menjač, kočnice, trap i upravljanje. Nezavisan pregled treba da obuhvati podvozje, limariju, dijagnostiku i račune za redovne servise. Kod C70 proveri i da li su gume ravnomerno potrošene i da li stanje kabine odgovara kilometraži, jer skupa oprema ne popravlja posledice zanemarenog održavanja.
+
+Nastavi samo kada krov radi bez greške, elektronika ima urednu dijagnostiku, a servis je dokaziv. Pregovaraj za jednu jasno procenjenu stavku; odustani kada se uz upozorenja pojave vlaga, loši zazori ili prazni računi. C70 je dobar kompromis samo kada se svaki njegov složeni deo ponaša kao celina.
+TEXT,
+                'highlights' => ['Traži da se električni krov ceo otvori i zatvori, uz proveru poruka, zvukova, zazora i vlage.', 'Proveri svu komfornu elektroniku, zatim uradi dijagnostiku pre kapare.', 'Pregled podvozja, limarije, guma i računa odlučuje više od bogate opreme.'],
+                'tags' => ['Volvo C70', 'kupe-kabriolet', 'električni krov', 'elektronika', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volvo C70: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Volvo C70: električni krov, elektronika, vlaga, limarija, motor, trap i servisna istorija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#172554', '#60a5fa', '#eff6ff'],
+            ],
+            [
+                'title' => 'Posuda kočione tečnosti na polovnom autu: kada nivo i boja traže pregled kočnica',
+                'slug' => 'posuda-kocione-tecnosti-na-polovnom-autu-kada-nivo-i-boja-traze-pregled-kocnica',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ivana je pod haubom primetila taman sadržaj i nizak nivo kočione tečnosti, pa je umesto dolivanja tražila pregled kočnica, curenja i servisne istorije.',
+                'content' => <<<'TEXT'
+Ivana je gledala polovan auto i dok je prodavac proveravao ulje, primetila je da je posuda kočione tečnosti skoro na minimumu, a tečnost tamna. Prodavac je rekao da će samo doliti. Ona nije pravila zaključak na parkingu, ali nije ni prihvatila brzo rešenje: nivo može pasti zbog potrošenih pločica, curenja ili zanemarenog servisa, a boja može otvoriti pitanje kada je sistem poslednji put održavan.
+
+Sa ugašenim motorom i bez otvaranja vrele ili prljave instalacije, pogledaj oznake minimuma i maksimuma, tragove vlage oko glavnog cilindra i kočionih cevi koje su vidljive. Ne mešaj tečnosti i ne dolivaj ništa radi probe. Ako je nivo nizak, pitaj za račune i datum poslednje zamene, pa na probnoj vožnji obrati pažnju na hod pedale, pravac kočenja, vibracije i upozoravajuće lampice.
+
+Ivana bi zatim zakazala pregled kod majstora: stanje pločica, diskova, cevi, čeljusti, curenja i po potrebi merenje sadržaja vlage u kočionoj tečnosti. Pregled na dizalici daje odgovor koji pogled kroz otvorenu haubu ne može. Auto koji ravno koči i ima uredne račune može tražiti običan servis; mekanu pedalu, lampicu ili curenje ne treba pretvarati u pregovor bez stručne procene.
+
+Nastavi kada pregled potvrdi bezbedan sistem i jasnu stavku za održavanje. Pregovaraj za dokumentovanu zamenu potrošnih delova; odustani kada nizak nivo prati curenje, loša pedala ili odbijanje pregleda. Kočnice nisu mesto na kojem se popust pretvara u improvizaciju.
+TEXT,
+                'highlights' => ['Pogledaj nivo, boju i vidljive tragove vlage, ali ne dolivaj niti mešaj tečnost na parkingu.', 'Na vožnji prati hod pedale, pravac kočenja, vibracije i lampice.', 'Nizak nivo zahteva pregled pločica, diskova, cevi, čeljusti i mogućeg curenja kod majstora.'],
+                'tags' => ['kočiona tečnost', 'kočnice', 'glavni cilindar', 'bezbednost', 'provera vozila'],
+                'meta_title' => 'Kočiona tečnost polovnog auta: šta proveriti',
+                'meta_description' => 'Kako proveriti posudu kočione tečnosti kod polovnog auta: nivo, boja, curenje, pedala, kočnice i bezbedna odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3f2a1d', '#f59e0b', '#fffbeb'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Moldavije: kada nepoznata ruta traži jaču proveru papira i stanja',
+                'slug' => 'uvoz-auta-iz-moldavije-kada-nepoznata-ruta-trazi-jacu-proveru-papira-i-stanja',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Bojan je našao povoljan auto iz Moldavije, ali je pre kapare proverio VIN, sled vlasništva, dokumente, transport i stanje koje putanja mora da objasni.',
+                'content' => <<<'TEXT'
+Bojan je pronašao oglas za dobro opremljen polovan auto iz Moldavije po ceni nižoj od sličnih ponuda u Srbiji. Prodavac je naglašavao da je auto samo prošao kroz zemlju, ali Bojan je znao da jedna rečenica ne objašnjava vlasništvo, putanju ni način korišćenja. Kod manje poznate rute prava vrednost počinje tek kada svaki dokument i trag na vozilu potvrđuju istu priču.
+
+Pre kapare bi tražio VIN, fotografije originalne saobraćajne dokumentacije, dokaz vlasništva, servisne račune, zapis o izvozu i identitet prodavca. Datume, kilometre i zemlje iz svakog dokumenta treba povezati pre puta, uz proveru da li vozilo može uredno proći uvozni postupak, homologaciju i registraciju u Srbiji. Ako se odgovor o poreklu menja ili VIN nedostaje, ne postoji popust koji to popravlja.
+
+Na licu mesta Bojan bi spojio papirnu proveru sa nezavisnim pregledom: merač laka, dijagnostiku, hladan start, podvozje, pragove, kočione vodove, gume i enterijer. Duga ili složena putanja može značiti više vlasnika, transporta i popravki, pa habanje mora odgovarati kilometraži. U račun unapred ulaze prevoz, osiguranje, carinske i poreske obaveze, homologacija, registracija i prvi servis.
+
+Uvoz ima smisla samo kada su poreklo, stanje i ukupan trošak proverljivi. Pregovaraj kada nezavisan pregled potvrdi jednu stavku; odustani kada originali, VIN ili sled vlasništva ostanu nejasni. Neobična ruta nije automatska prepreka, ali jeste razlog da kupovina ide sporije od oglasa.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, originale dokumenata, vlasništvo, servisne račune i izvoznu putanju.', 'Proveri registraciju, homologaciju, transport i sve uvozne troškove pre kapare.', 'Papire obavezno poveži sa nezavisnim pregledom limarije, podvozja, dijagnostike i kilometraže.'],
+                'tags' => ['uvoz iz Moldavije', 'uvoz automobila', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Moldavije: šta proveriti',
+                'meta_description' => 'Kako proceniti uvoz polovnog auta iz Moldavije: VIN, vlasništvo, dokumentacija, transport, homologacija i pregled vozila.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#283a4a', '#38bdf8', '#ecfeff'],
+            ],
 
         ];
     }

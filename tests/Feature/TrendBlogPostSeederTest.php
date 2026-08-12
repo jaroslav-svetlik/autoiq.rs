@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(395, $posts);
+        $this->assertCount(400, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(92, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(93, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'daewoo-nubira-ili-kia-shuma-porodicni-kompakt-kada-jednostavnost-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-fiat-barchetta-kabriolet-koji-mora-dokazati-krov-pragove-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volvo-c70-kupe-kabriolet-koji-mora-dokazati-krov-elektroniku-i-bezbednu-proslost'));
+        $this->assertTrue($posts->contains('slug', 'posuda-kocione-tecnosti-na-polovnom-autu-kada-nivo-i-boja-traze-pregled-kocnica'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-moldavije-kada-nepoznata-ruta-trazi-jacu-proveru-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'peugeot-4007-ili-citroen-c-crosser-blizanci-kada-pogon-i-istorija-moraju-pobediti-znacku'));
         $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-trevis-mali-auto-koji-mora-dokazati-da-retkost-nije-problem'));
         $this->assertTrue($posts->contains('slug', 'polovni-renault-avantime-neobican-kupe-koji-mora-opravdati-svaki-elektricni-detalj'));
