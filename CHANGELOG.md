@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.128] - 2026-08-12
+
+### Fixed
+
+- Extended the impersonal editorial safeguard to remove every grammatical form of buyer, driver, owner, and seller narrative language from seeded article bodies and summaries.
+
 ## [0.1.127] - 2026-08-12
 
 ### Changed
