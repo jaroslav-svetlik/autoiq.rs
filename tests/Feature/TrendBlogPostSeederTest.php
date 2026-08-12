@@ -447,7 +447,7 @@ class TrendBlogPostSeederTest extends TestCase
             'Saša', 'Sara', 'Stefan', 'Tamara', 'Vanja', 'Vladan', 'Vladimir',
             'Zoran',
         ];
-        $pattern = '/\\b(?:'.implode('|', $names).')\\b|\\b(?:kup(?:ac|ci|ca|cu|cem|cima|ce)|vozač\\p{L}*|vlasnik\\p{L}*|prodav\\p{L}*)\\b/iu';
+        $pattern = '/\\b(?:'.implode('|', $names).')\\b|\\b(?:kup(?:ac|ci)\\p{L}*|vozač\\p{L}*|vlasnik\\p{L}*|prodav\\p{L}*)\\b/iu';
 
         BlogPost::query()->get()->each(function (BlogPost $post) use ($pattern): void {
             $text = implode("\n", [

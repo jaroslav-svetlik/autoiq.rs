@@ -67,7 +67,7 @@ class TrendBlogPostSeeder extends Seeder
             'Zoran',
         ];
         $namePattern = '/\\b(?:'.implode('|', $names).')\\b/u';
-        $personaPattern = '/\\b(?:kup(?:ac|ci|ca|cu|cem|cima|ce)|vozač\\p{L}*|vlasnik\\p{L}*|prodav\\p{L}*)\\b/iu';
+        $personaPattern = '/\\b(?:kup(?:ac|ci)\\p{L}*|vozač\\p{L}*|vlasnik\\p{L}*|prodav\\p{L}*)\\b/iu';
         $category = (string) ($post['category'] ?? '');
         $paragraph = 0;
 

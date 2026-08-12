@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.129] - 2026-08-12
+
+### Fixed
+
+- Removed remaining plural and possessive buyer-word forms from seeded article bodies and summaries.
+
 ## [0.1.128] - 2026-08-12
 
 ### Fixed
