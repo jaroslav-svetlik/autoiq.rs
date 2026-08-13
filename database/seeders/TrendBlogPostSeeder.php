@@ -10941,6 +10941,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#283a4a', '#38bdf8', '#ecfeff'],
             ],
+            [
+                'title' => 'Chrysler Crossfire ili Mercedes SLK: kupe-kabriolet kada stil mora imati pokriće u stanju',
+                'slug' => 'chrysler-crossfire-ili-mercedes-slk-kupe-kabriolet-kada-stil-mora-imati-pokrice-u-stanju',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Chrysler Crossfire i Mercedes SLK nude drugačiji put do polovnog kupea ili kabrioleta, ali krov, elektronika, limarija i dokumentovan servis moraju odlučiti pre izgleda.',
+                'content' => <<<'TEXT'
+Chrysler Crossfire i Mercedes SLK često privlače pažnju oblikom i cenom koja obećava više karaktera od običnog kompakta. Crossfire deli deo tehničke osnove sa starijim SLK-om, ali nije zamena za njega, dok SLK ima širi izbor primeraka i opreme. Kod oba modela odluka počinje tek kada se odvoje atraktivne fotografije od stvarnog stanja krova, limarije i održavanja.
+
+Crossfire ima smisla kada su dostupnost specifičnih delova, stanje enterijera i dokumentovan servis jasno pokriveni budžetom. Pregled mora obuhvatiti hladan start, automatik ako ga ima, trap, curenja i elektroniku, uz proveru zazora karoserije i stanja pragova. SLK traži ceo ciklus rada krova bez prekida, vlagu u gepeku, rad prozora i dijagnostiku svih upozorenja; jedan mali kvar nije isto što i više nepovezanih grešaka.
+
+Na probnoj vožnji oba auta treba da pokažu miran motor, precizan menjač, ravno kočenje i tih trap. Računi za redovan servis, gume, kočnice i prethodne popravke krova imaju veću težinu od felni i boje. Nezavisan pregled na dizalici povezuje podvozje, koroziju i tragove udara sa VIN-om i servisnim tragom, pa procena ne ostaje na pretpostavci.
+
+Nastavi kada konkretan primerak ima ispravan krov ili jasnu kupe-konstrukciju, urednu dijagnostiku i realan servisni plan. Pregovaraj za pojedinačno procenjen kvar; odustani kada lepa karoserija prati vlagu, neujednačene zazore ili praznu istoriju. Između Crossfirea i SLK-a bolji je automobil sa manje nepoznatih računa, ne onaj sa upečatljivijim oblikom.
+TEXT,
+                'highlights' => ['Kod SLK-a traži ceo ciklus rada krova, proveru vlage u gepeku i kompletnu dijagnostiku.', 'Kod Crossfirea proveri specifične delove, enterijer, pogon, trap i limariju pre procene retkosti.', 'Pregled na dizalici, VIN i računi treba da potvrde gume, kočnice, koroziju i servisni plan.'],
+                'tags' => ['Chrysler Crossfire', 'Mercedes SLK', 'kupe-kabriolet', 'električni krov', 'poređenje modela'],
+                'meta_title' => 'Chrysler Crossfire ili Mercedes SLK: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Chrysler Crossfire i Mercedes SLK: krov, elektronika, limarija, motor, menjač, servis i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#292524', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Citroën C3 Pluriel: kabriolet koji mora dokazati krov, zaptivke i kompletnost',
+                'slug' => 'polovni-citroen-c3-pluriel-kabriolet-koji-mora-dokazati-krov-zaptivke-i-kompletnost',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Citroën C3 Pluriel je zanimljiv gradski kabriolet samo kada uklonjivi elementi krova, zaptivke, odvodni kanali i elektrika imaju potpunu i proverljivu priču.',
+                'content' => <<<'TEXT'
+Citroën C3 Pluriel se pojavljuje kao mali gradski auto koji može promeniti karakter otvaranjem krova, ali taj koncept nije razlog da se preskoči redovna kupovna procedura. Cena i retkost često usmere pažnju na izgled, dok nedostajući elementi krova, istrošene zaptivke ili vlaga u kabini menjaju i upotrebljivost i prvu računicu.
+
+Pre vožnje treba proveriti da li su svi krovni elementi prisutni, pravilno označeni i bez pukotina, kao i da li se sklapaju i zaključavaju bez sile. Pregled obuhvata zaptivke, odvodne kanale, rubove krova, patosnice, gepek i električne podizače stakala. Vlažan trag, nepravilan zazor ili nedostajući deo nisu kozmetika dok se ne dobije tačna procena popravke i dostupnosti.
+
+Hladan start, klima, servo, menjač, kvačilo, trap i kočnice moraju se proveriti kao kod svakog drugog polovnjaka. Dijagnostika i pregled na dizalici daju odgovor o elektrici, curenjima, koroziji i stanju poda, dok VIN i računi povezuju redovan servis sa prijavljenom kilometražom. Mali auto može dugo provesti u gradu, pa gume, felne i rubovi branika traže dodatnu pažnju.
+
+Kupovina ima smisla kada je Pluriel kompletan, suv, mehanički uredan i kada su specifični delovi proverljivo dostupni. Pregovaraj za jednu jasno procenjenu zaptivku ili servisnu stavku; odustani kada se uz nekompletnost pojave vlaga, električne greške i odbijen pregled. Otvoren krov vredi samo kada se posle kiše ne pretvara u otvoren trošak.
+TEXT,
+                'highlights' => ['Proveri prisustvo, stanje i zaključavanje svih uklonjivih elemenata krova.', 'Pregledaj zaptivke, odvode, patosnice, gepek i električne podizače zbog vlage.', 'Dijagnostika, pregled na dizalici i računi moraju potvrditi elektriku, podvozje i servis.'],
+                'tags' => ['Citroën C3 Pluriel', 'kabriolet', 'zaptivke', 'vlaga', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Citroën C3 Pluriel: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Citroën C3 Pluriel: krov, zaptivke, vlaga, elektrika, limarija, servis i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e81', '#a78bfa', '#f5f3ff'],
+            ],
+            [
+                'title' => 'Polovni Jeep Compass: SUV koji mora dokazati pogon, automatik i stvarnu namenu',
+                'slug' => 'polovni-jeep-compass-suv-koji-mora-dokazati-pogon-automatik-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Jeep Compass može izgledati kao pristupačan SUV, ali pogon, automatik, podvozje, limarija i servisna istorija moraju opravdati cenu pre kapare.',
+                'content' => <<<'TEXT'
+Jeep Compass se u oglasima često izdvaja višim položajem sedenja, robusnim izgledom i obećanjem pogona koji može podneti lošiji put. Takva slika nije dovoljna za kupovinu: primerci sa mnogo gradske vožnje, vuče prikolice ili povremenog terena mogu imati sasvim različite tragove na mehanici. Stvarna namena mora biti jasna pre nego što oprema i oznake pogona počnu da utiču na cenu.
+
+Pregled počinje hladnim startom, radom motora i proverom da li menjač uključuje brzine bez kašnjenja, udarca ili upozorenja. Kod verzija sa pogonom na sva četiri točka treba proveriti da li sistem reaguje pravilno i da li su sve četiri gume istog tipa i sličnog habanja. Podvozje, nosači, zaštite, pragovi i donje ivice branika otkrivaju da li je automobil stvarno korišćen van asfalta ili je samo dobio izgled SUV-a.
+
+Na probnoj vožnji prate se upravljanje, trap, kočnice, vibracije i temperatura, a dijagnostika treba da očita motor, menjač, pogon i bezbednosne sisteme pre brisanja grešaka. VIN, računi i dokaz o servisima ulja u motoru i menjaču daju osnovu za procenu, dok nezavisan pregled na dizalici potvrđuje curenja i koroziju. Prvi servis, gume i eventualni rad na pogonu moraju biti deo budžeta, ne kasnije iznenađenje.
+
+Nastavi kada su pogon i automatik provereni, donji deo zdrav, a istorija održavanja potpuna. Pregovaraj za potvrđenu stavku kao što su gume ili redovan servis; odustani kada se uz greške pojave neravnomerne gume, curenja i nejasan razlog prethodnog korišćenja. Compass treba kupiti zbog potvrđenog stanja, ne zbog znaka na maski.
+TEXT,
+                'highlights' => ['Proveri hladan start, automatik, pogon na sva četiri točka i upozorenja na tabli.', 'Sve četiri gume moraju biti uporedive; pregledaj podvozje, pragove i zaštite na dizalici.', 'VIN, dijagnostika i računi treba da potvrde motor, menjač, pogon i realnu upotrebu.'],
+                'tags' => ['Jeep Compass', 'SUV', '4x4', 'automatik', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Jeep Compass: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Jeep Compassa: 4x4 pogon, automatik, podvozje, gume, dijagnostika, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#365314', '#84cc16', '#f7fee7'],
+            ],
+            [
+                'title' => 'Senzor kiše na polovnom autu: kada automatski brisači traže proveru stakla i instalacije',
+                'slug' => 'senzor-kise-na-polovnom-autu-kada-automatski-brisaci-traze-proveru-stakla-i-instalacije',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Senzor kiše može delovati kao mala stavka opreme, ali nepravilan rad automatskih brisača može otvoriti pitanje vetrobrana, gela senzora, ručice ili instalacije.',
+                'content' => <<<'TEXT'
+Senzor kiše se pri pregledu polovnog auta često preskoči jer automatski brisači nisu presudni za paljenje motora. Ipak, nepravilan rad može ukazati na loše zalepljen ili zamenjen vetrobran, istrošen gel između senzora i stakla, problem ručice ili električne instalacije. To ne mora biti razlog za odustajanje, ali mora imati objašnjenje pre kapare.
+
+Uz uključen kontakt treba proveriti da li režim automatskih brisača reaguje dosledno na vodu preko dela stakla kod senzora i da li se osetljivost menja preko ručice. Pregledaj unutrašnju stranu vetrobrana oko kućišta senzora, spoljašnje stanje stakla i tragove nestručne zamene. Brisači, prskalice i grejač stakla nisu ista funkcija, ali zajednički simptomi mogu pomoći da se odvoji mehanički problem od električnog.
+
+Dijagnostika treba da očita greške karoserijske elektronike bez brisanja, a majstor može proveriti napajanje, konektor i kompatibilnost vetrobrana ako je staklo menjano. Na probnoj vožnji treba pratiti da li se brisači aktiviraju bez komande ili kasne, uz proveru svih drugih funkcija na ručici. Račun za vetrobran ili raniji rad na krovu može objasniti stanje, ali ne zamenjuje funkcionalnu proveru.
+
+Nastavi kada senzor radi predvidivo, staklo je pravilno ugrađeno, a dijagnostika nema aktivnu grešku. Pregovaraj za procenjen gel, senzor ili podešavanje; odustani kada nepravilan rad prati loše ugrađeno staklo, više električnih grešaka i odbijanje dijagnostike. Mala automatika ne sme sakriti veliku nepoznanicu u elektronici.
+TEXT,
+                'highlights' => ['Proveri automatski režim, reakciju na vodu i podešavanje osetljivosti preko ručice.', 'Pregledaj vetrobran, kućište senzora i tragove loše ili nekompatibilne zamene stakla.', 'Dijagnostika i stručni pregled razlikuju problem senzora, gela, ručice i instalacije.'],
+                'tags' => ['senzor kiše', 'automatski brisači', 'vetrobran', 'elektrika', 'provera vozila'],
+                'meta_title' => 'Senzor kiše polovnog auta: šta proveriti',
+                'meta_description' => 'Kako proveriti senzor kiše kod polovnog auta: automatski brisači, vetrobran, gel senzora, ručica, instalacija i dijagnostika.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0c4a6e', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Belorusije: kada tranzit i papiri traže potpunu proveru porekla',
+                'slug' => 'uvoz-auta-iz-belorusije-kada-tranzit-i-papiri-traze-potpunu-proveru-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Uvoz auta iz Belorusije zahteva da VIN, sled vlasništva, izvozna dokumenta, transport, podobnost za registraciju i stanje vozila potvrde istu priču.',
+                'content' => <<<'TEXT'
+Oglas za polovan auto iz Belorusije može delovati povoljno zbog opreme, cene ili kratkog opisa o urednoj istoriji, ali nepoznata putanja ne sme se rešavati pretpostavkom. Tranzit kroz više država, promena tržišta i razlike u dokumentaciji traže da poreklo bude dokazano korak po korak pre bilo kakve uplate.
+
+Pre kapare treba prikupiti VIN, originalne dokumente, dokaz vlasništva, servisne račune, izvoznu dokumentaciju i identitet subjekta koji prodaje vozilo. Datumi, kilometraža i zemlja iz svakog zapisa moraju se poklapati sa nezavisnim VIN izveštajem i proverom da li vozilo može uredno proći homologaciju i registraciju u Srbiji. Ako nedostaje original, sled vlasništva ili odgovor o ruti, cena ne može nadoknaditi rizik.
+
+Pregled vozila povezuje papire sa stvarnim stanjem: merač laka, hladan start, dijagnostika, podvozje, pragovi, kočioni vodovi, gume i enterijer treba da odgovaraju prijavljenoj kilometraži i načinu upotrebe. U ukupni trošak ulaze prevoz, osiguranje, carinske i poreske obaveze, prevodi, homologacija, registracija i prvi servis. Ponuda se poredi tek posle tog zbira, ne samo po oglašenoj ceni.
+
+Uvoz ima smisla kada su poreklo, dokumenti, registracija i stanje proverljivi bez praznina. Pregovaraj kada nezavisan pregled potvrdi jednu konkretnu stavku; odustani kada VIN, originali ili izvozna putanja ostanu nejasni. Kod ovakve rute najvažnija oprema je kompletna dokumentacija.
+TEXT,
+                'highlights' => ['Pre kapare poveži VIN, originale, vlasništvo, servisne račune i izvoznu putanju.', 'Potvrdi homologaciju, registraciju, transport i sve uvozne obaveze pre poređenja cena.', 'Papirnu proveru poveži sa pregledom limarije, podvozja, dijagnostike i kilometraže.'],
+                'tags' => ['uvoz iz Belorusije', 'uvoz automobila', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Belorusije: šta proveriti',
+                'meta_description' => 'Kako proceniti uvoz polovnog auta iz Belorusije: VIN, dokumentacija, poreklo, transport, homologacija, pregled i registracija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3f3f46', '#facc15', '#fefce8'],
+            ],
 
         ];
     }

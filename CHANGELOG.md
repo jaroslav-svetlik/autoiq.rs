@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.130] - 2026-08-13
+
+### Added
+
+- Added five non-duplicate production blog articles covering Chrysler Crossfire versus Mercedes SLK, used Citroën C3 Pluriel and Jeep Compass buying guidance, rain-sensor inspection, and Belarusian import due diligence.
+
 ## [0.1.129] - 2026-08-12
 
 ### Fixed

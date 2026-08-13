@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(400, $posts);
+        $this->assertCount(405, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(93, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(94, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'chrysler-crossfire-ili-mercedes-slk-kupe-kabriolet-kada-stil-mora-imati-pokrice-u-stanju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-citroen-c3-pluriel-kabriolet-koji-mora-dokazati-krov-zaptivke-i-kompletnost'));
+        $this->assertTrue($posts->contains('slug', 'polovni-jeep-compass-suv-koji-mora-dokazati-pogon-automatik-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'senzor-kise-na-polovnom-autu-kada-automatski-brisaci-traze-proveru-stakla-i-instalacije'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-belorusije-kada-tranzit-i-papiri-traze-potpunu-proveru-porekla'));
         $this->assertTrue($posts->contains('slug', 'daewoo-nubira-ili-kia-shuma-porodicni-kompakt-kada-jednostavnost-mora-dokazati-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-fiat-barchetta-kabriolet-koji-mora-dokazati-krov-pragove-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-volvo-c70-kupe-kabriolet-koji-mora-dokazati-krov-elektroniku-i-bezbednu-proslost'));
