@@ -11056,6 +11056,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#3f3f46', '#facc15', '#fefce8'],
             ],
+            [
+                'title' => 'Ford StreetKa ili Opel Tigra TwinTop: mali kabriolet kada krov ne sme pobediti stanje',
+                'slug' => 'ford-streetka-ili-opel-tigra-twintop-mali-kabriolet-kada-krov-ne-sme-pobediti-stanje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Ford StreetKa i Opel Tigra TwinTop nude dva različita pristupa malom polovnom kabrioletu, ali krov, limarija, vlaga i servis moraju odlučiti pre izgleda.',
+                'content' => <<<'TEXT'
+Ford StreetKa i Opel Tigra TwinTop pojavljuju se u oglasima kao pristupačan ulazak u svet otvorene vožnje, ali ne nose isti rizik. StreetKa ima jednostavniji platneni krov i kraću, specifičnu tržišnu priču, dok Tigra TwinTop donosi složen tvrdi sklopivi krov. Kod oba modela godište i izgled moraju ostati u drugom planu dok se ne utvrdi da li su krov, odvodni kanali i karoserija zdravi.
+
+StreetKa traži pažljiv pregled platna, šavova, zadnjeg prozora, mehanizma zaključavanja i rubova pragova. Kod Tigare je neophodno nekoliko puta provesti ceo ciklus krova, poslušati pumpe i motore, proveriti poravnanje panela i suvoću gepeka. Nepravilno zatvaranje, zadržavanje vode ili nedostajuća servisna evidencija nisu estetski nedostaci dok se ne dobije stručna procena uzroka i cene popravke.
+
+Hladan start, kvačilo, menjač, kočnice, trap i klima proveravaju se jednako strogo kao i krov. Pregled na dizalici treba da obuhvati pragove, pod, prihvate vešanja i tragove popravke, dok dijagnostika kod Tigare proverava električne greške. VIN i računi za zaptivke, krovne radove, gume i redovan servis određuju da li je niža cena zaista ušteda ili samo odložen trošak.
+
+Nastavi kada konkretan auto ostaje suv, krov radi bez prekida, a limarija i održavanje imaju dokazivu istoriju. Pregovaraj samo za jasno procenjenu stavku; odustani kada se vlaga, korozija i nejasan rad krova pojavljuju zajedno. Između StreetKa i Tigare prednost ima primerak sa manje tehničkih nepoznanica, ne atraktivnija silueta.
+TEXT,
+                'highlights' => ['Kod StreetKa proveri platno, šavove, zadnji prozor, zaključavanje i odvod vode.', 'Kod Tigare ponovi ceo ciklus tvrdog krova i pregledaj gepek, panele, pumpe i dijagnostiku.', 'Pregled na dizalici, VIN i računi moraju potvrditi pragove, podvozje i servisnu računicu.'],
+                'tags' => ['Ford StreetKa', 'Opel Tigra TwinTop', 'kabriolet', 'krov', 'poređenje modela'],
+                'meta_title' => 'Ford StreetKa ili Opel Tigra TwinTop: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Ford StreetKa i Opel Tigra TwinTop: krov, vlaga, limarija, elektronika, trap, servis i odluka pre kupovine.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#3f1d2e', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Polovni Lancia Thesis: limuzina koja mora dokazati elektroniku, ogibljenje i miran servis',
+                'slug' => 'polovni-lancia-thesis-limuzina-koja-mora-dokazati-elektroniku-ogibljenje-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lancia Thesis može privući komforom i neobičnim dizajnom, ali elektronika, ogibljenje, motor, limarija i dostupnost delova moraju opravdati svaki dinar.',
+                'content' => <<<'TEXT'
+Lancia Thesis je polovna limuzina za koju komfor, oprema i oblik lako stvore utisak da se za mali novac dobija mnogo automobila. Taj utisak ima vrednost samo kada postoji realan plan održavanja. Retka oprema i mali broj primeraka znače da se odluka ne zasniva na poređenju fotografija, već na potpunosti rada svakog sistema i proverljivoj istoriji konkretnog auta.
+
+Pregled počinje hladnim startom, stabilnim lerom i radom motora bez upozorenja, zatim se redom proveravaju klima, sedišta, ekran, instrumenti, brave, stakla, svetla i svi prekidači. Ogibljenje treba da podiže i spušta vozilo bez neobičnog zvuka, naginjanja ili upozorenja. Vlažan enterijer, povremene električne greške ili nejasan odziv vešanja zahtevaju dijagnostiku i procenu pre bilo kakve kapare.
+
+Na probnoj vožnji prate se mirno upravljanje, rad menjača, kočenje, vibracije i ponašanje preko neravnina. Nezavisan servis treba da pregleda podvozje, curenja, kočione vodove, gume i tragove korozije, a VIN i računi moraju povezati servis ulja, rashladnog sistema i već urađene radove. Pre odluke treba proveriti dostupnost potrošnih i specifičnih delova prema tačnoj verziji i broju šasije.
+
+Kupovina ima smisla kada je elektronika potpuna, ogibljenje mirno, a servisna istorija dovoljno jasna za sledeći račun. Pregovaraj za pojedinačno potvrđen kvar sa procenom; odustani kada više sistema povremeno otkazuje, pregled na dizalici nije moguć ili delovi ostanu samo pretpostavka. Thesis treba kupiti kao proverenu limuzinu, ne kao jeftinu listu opreme.
+TEXT,
+                'highlights' => ['Proveri redom svu komfornu opremu, instrumente, klimu, brave, sedišta i svetla.', 'Ogibljenje, upozorenja i ponašanje preko neravnina zahtevaju dijagnostiku i pregled na dizalici.', 'Pre kapare proveri dostupnost delova po VIN-u i račune za motor, hlađenje i vešanje.'],
+                'tags' => ['Lancia Thesis', 'limuzina', 'elektronika', 'ogibljenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Lancia Thesis: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Lancia Thesis: elektronika, ogibljenje, motor, limarija, dijagnostika, delovi, servis i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#312e81', '#818cf8', '#eef2ff'],
+            ],
+            [
+                'title' => 'Polovni Isuzu Trooper: terenac koji mora dokazati šasiju, pogon i stvarnu namenu',
+                'slug' => 'polovni-isuzu-trooper-terenac-koji-mora-dokazati-sasiju-pogon-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Isuzu Trooper može biti ozbiljan polovni terenac, ali šasija, pogon, reduktor, podvozje, korozija i servis moraju potvrditi da niska cena nema skrivenu posledicu.',
+                'content' => <<<'TEXT'
+Isuzu Trooper je interesantan tamo gde su potrebni prostor, viši položaj sedenja i robusnija konstrukcija, ali upravo ta namena može ostaviti težak trag. Stariji terenci često su vukli prikolice, prolazili lošim putevima ili dugo stajali, pa izgled kabine i visina karoserije ne govore dovoljno o stanju. Pre kupovine treba ustanoviti stvarnu upotrebu, ne pretpostaviti je po oznaci pogona.
+
+Pregled na dizalici je obavezan: šasija, nosači karoserije, pragovi, pod, rezervoar, kočioni vodovi i zaštite moraju biti vidljivi bez skrivanja svežim premazom. Pogon na sva četiri točka i reduktor testiraju se po propisanom postupku, uz proveru da li se uključuju bez lupanja, upozorenja ili vibracija. Različite gume, curenja na diferencijalima ili tragovi teškog udara zahtevaju tačnu dijagnozu pre pregovora.
+
+Hladan start, temperatura motora, menjač, kvačilo ili automatik, upravljanje i kočnice proveravaju se na vožnji sa ravnim i neravnim delom puta. Dijagnostika, VIN i računi treba da potvrde redovne izmene ulja u motoru, menjaču i pogonima, kao i radove na hlađenju. Gume, trap i prvi preventivni servis ulaze u budžet pre odluke, jer kod velikog terenca jedna zanemarena stavka brzo menja celu računicu.
+
+Nastavi kada je šasija zdrava, pogon radi predvidivo, a istorija održavanja objašnjava namenu vozila. Pregovaraj za jasno izmeren servis ili potrošni deo; odustani kada korozija, curenja i nejasan pogon dolaze u istom paketu. Trooper treba da opravda teren dokazima odozdo, ne samo visokim položajem za volanom.
+TEXT,
+                'highlights' => ['Pregledaj šasiju, pragove, pod, kočione vodove i nosače na dizalici bez prečica.', 'Testiraj pogon i reduktor po propisanom postupku, uz proveru guma, curenja i vibracija.', 'VIN, dijagnostika i računi moraju potvrditi servis motora, menjača, diferencijala i hlađenja.'],
+                'tags' => ['Isuzu Trooper', 'terenac', '4x4', 'šasija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Isuzu Trooper: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Isuzu Trooper: šasija, 4x4 pogon, reduktor, korozija, podvozje, motor, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#365314', '#a3e635', '#f7fee7'],
+            ],
+            [
+                'title' => 'Zaštita podvozja na polovnom autu: kada svež premaz traži pregled korozije i popravke',
+                'slug' => 'zastita-podvozja-na-polovnom-autu-kada-svez-premaz-trazi-pregled-korozije-i-popravke',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Sveža zaštita podvozja može biti uredno preventivno održavanje, ali bez pregleda može sakriti koroziju, lošu limarsku popravku, curenja ili ozbiljniju štetu.',
+                'content' => <<<'TEXT'
+Svež, taman premaz na podvozju polovnog auta može značiti da je karoserija preventivno zaštićena, ali može i prekriti ono što pregled treba da otkrije. Razlika se ne vidi iz oglasa niti kroz kratak pogled sa strane. Donji deo vozila je mesto gde se susreću korozija, loše popravke, tragovi udara i curenja, pa premaz mora biti početak pitanja, a ne odgovor o stanju.
+
+Na dizalici treba proveriti da li je nanos ujednačen i logičan oko pragova, poda, nosača, tačaka podizanja, rubova blatobrana i spojeva panela. Sveže nanet materijal preko gumenih čaura, kočionih vodova, vijaka, oznaka ili mokrih tragova zahteva dodatno objašnjenje. Dobro urađena zaštita ne sprečava pregled konstrukcije; neuredan premaz koji sakriva detalje traži pažljiviji postupak i po potrebi stručno mišljenje.
+
+Pregled treba povezati sa merenjem laka, zazorima karoserije, stanjem pragova iz kabine i gepeka, kao i sa curenjima motora, menjača i amortizera. Račun za raniju antikorozivnu obradu može biti koristan dokaz, ali nije zamena za pogled na osnovni metal i noseće delove. Probna vožnja preko neravnina, kočenje i dijagnostika dopunjuju sliku kada podvozje krije više od površinskog premaza.
+
+Nastavi kada je zaštita dokumentovana, konstrukcija čitljiva, a pregled ne pokazuje aktivnu koroziju, pukotine ili curenja. Pregovaraj kada postoji jedna jasno procenjena stavka; odustani kada prodavac odbije dizalicu ili premaz onemogućava pregled ključnih tačaka. Uredna zaštita produžava vek auta, ali ne sme da zameni dokaz o zdravoj osnovi.
+TEXT,
+                'highlights' => ['Na dizalici proveri ujednačenost premaza na pragovima, podu, nosačima i tačkama podizanja.', 'Premaz preko vodova, vijaka, gumenih delova ili mokrih tragova zahteva dodatno objašnjenje.', 'Zaštitu poveži sa lakom, zazorima, curenjima i dokumentovanim antikorozivnim radovima.'],
+                'tags' => ['zaštita podvozja', 'korozija', 'limarija', 'pregled na dizalici', 'provera vozila'],
+                'meta_title' => 'Zaštita podvozja polovnog auta: šta otkriva',
+                'meta_description' => 'Kako proveriti svežu zaštitu podvozja polovnog auta: korozija, pragovi, pod, curenja, limarska popravka, dizalica i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#334155', '#f59e0b', '#fffbeb'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Ujedinjenih Arapskih Emirata: kada klima i oprema traže proveru porekla',
+                'slug' => 'uvoz-auta-iz-ujedinjenih-arapskih-emirata-kada-klima-i-oprema-traze-proveru-porekla',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Uvoz iz Ujedinjenih Arapskih Emirata može ponuditi opremu i očuvanu karoseriju, ali VIN, specifikacija, hlađenje, istorija šteta i dokumentacija moraju biti proverljivi.',
+                'content' => <<<'TEXT'
+Oglas za polovan auto iz Ujedinjenih Arapskih Emirata može privući opremom, urednim lakom i cenom koja deluje povoljnije od lokalne ponude. Topla klima i drugačije tržište nisu dokaz mirne kupovine. Potrebno je prvo utvrditi celu putanju vozila, originalnu specifikaciju i da li je konkretan primerak ranije bio oštećen, osiguran kao totalna šteta ili prilagođen za uslove koji nisu isti kao domaći.
+
+Pre kapare treba povezati VIN sa originalnim dokumentima, izvozom, dokazom vlasništva, servisnim računima i nezavisnim istorijskim izveštajem. Posebnu pažnju traže oznake specifikacije, svetla, instrumenti, bezbednosna oprema i potvrda da vozilo može uredno proći homologaciju i registraciju u Srbiji. Ako izvor dokumentacije nije jasan ili se opis opreme ne poklapa sa brojem šasije, ponuda nema osnov za uplatu.
+
+Tehnički pregled obuhvata hladan start, dijagnostiku, rad klima-uređaja pod opterećenjem, rashladni sistem, gume, plastike, zaptivke, enterijer i donji deo vozila. Jaka toplota može ubrzati starenje pojedinih gumenih i plastičnih delova, dok fotografije ne govore o ranijim popravkama. U ukupnu računicu ulaze prevoz, osiguranje, carinske i poreske obaveze, homologacija, registracija i prvi servis, pre poređenja sa domaćom cenom.
+
+Uvoz ima smisla kada VIN, dokumenti, specifikacija, podobnost za registraciju i stvarno stanje čine proverljivu celinu. Pregovaraj kada nezavisan pregled potvrdi konkretnu početnu stavku; odustani kada nema originala, istorija štete ostaje nejasna ili homologacija nije potvrđena. Kod udaljenog tržišta oprema vredi samo ako je ceo put vozila dokaziv.
+TEXT,
+                'highlights' => ['Poveži VIN sa originalnim dokumentima, vlasništvom, izvozom, servisom i nezavisnom istorijom.', 'Proveri specifikaciju, svetla, instrumente i homologaciju pre bilo kakve kapare.', 'Pregledaj hlađenje, klimu, gume, zaptivke, dijagnostiku i ukupan trošak prevoza i registracije.'],
+                'tags' => ['uvoz iz Ujedinjenih Arapskih Emirata', 'uvoz automobila', 'VIN', 'homologacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz UAE: šta proveriti',
+                'meta_description' => 'Vodič za uvoz polovnog auta iz Ujedinjenih Arapskih Emirata: VIN, specifikacija, klima, hlađenje, istorija, homologacija i troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7c2d12', '#f97316', '#fff7ed'],
+            ],
 
         ];
     }

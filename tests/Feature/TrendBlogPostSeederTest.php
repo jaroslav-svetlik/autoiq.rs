@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(405, $posts);
+        $this->assertCount(410, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(94, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(95, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'ford-streetka-ili-opel-tigra-twintop-mali-kabriolet-kada-krov-ne-sme-pobediti-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-lancia-thesis-limuzina-koja-mora-dokazati-elektroniku-ogibljenje-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-isuzu-trooper-terenac-koji-mora-dokazati-sasiju-pogon-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'zastita-podvozja-na-polovnom-autu-kada-svez-premaz-trazi-pregled-korozije-i-popravke'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-ujedinjenih-arapskih-emirata-kada-klima-i-oprema-traze-proveru-porekla'));
         $this->assertTrue($posts->contains('slug', 'chrysler-crossfire-ili-mercedes-slk-kupe-kabriolet-kada-stil-mora-imati-pokrice-u-stanju'));
         $this->assertTrue($posts->contains('slug', 'polovni-citroen-c3-pluriel-kabriolet-koji-mora-dokazati-krov-zaptivke-i-kompletnost'));
         $this->assertTrue($posts->contains('slug', 'polovni-jeep-compass-suv-koji-mora-dokazati-pogon-automatik-i-stvarnu-namenu'));
