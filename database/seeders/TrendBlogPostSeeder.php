@@ -11171,6 +11171,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#7c2d12', '#f97316', '#fff7ed'],
             ],
+            [
+                'title' => 'Toyota Paseo ili Mazda MX-3: kupe kada retkost ne sme pobediti stanje',
+                'slug' => 'toyota-paseo-ili-mazda-mx-3-kupe-kada-retkost-ne-sme-pobediti-stanje',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Toyota Paseo i Mazda MX-3 nude lagan, redak kupe za ograničen budžet, ali limarija, delovi, motor i istorija konkretnog primerka moraju voditi odluku.',
+                'content' => <<<'TEXT'
+Toyota Paseo i Mazda MX-3 često privlače pažnju kao mali kupei iz vremena kada je oblik imao prednost nad praktičnošću. Oba modela danas su retka, pa dobra fotografija ili kratka lista opreme lako deluju važnije nego što jesu. Prava dilema nije koji kupe izgleda zanimljivije, već da li konkretan primerak ima zdravu karoseriju, proverljivu mehaniku i realan put do delova.
+
+Paseo ima smisla kada su benzinac, ručni menjač i limarija mirni, uz proveru rubova blatobrana, pragova, poda gepeka i donjih ivica vrata. MX-3 traži isti pregled, a dodatno pažnju za motor, hlađenje, trap i stanje specifičnih elemenata enterijera. Hladan start, stabilan ler, ujednačen rad kvačila i kočenje moraju se proveriti pre nego što retkost postane argument za preskakanje pregleda.
+
+Na dizalici treba pregledati podvozje, kočione vodove, nosače, pragove, izduv i tragove ranijih limarskih radova. VIN, računi i dostupnost potrošnih i karoserijskih delova za tačnu verziju menjaju računicu više od boje ili felni. Različit lak, nejasni zazori i umorne gume nisu sitnice kada se kod retkog kupea već traži rezerva za prvi servis.
+
+Nastavi kada je limarija zdrava, motor uredan, a delovi i servis imaju proverljiv plan. Pregovaraj samo za jasno izmeren potrošni trošak; odustani kada korozija, nejasna popravka i nedostupni delovi dolaze zajedno. Između Pasea i MX-3 prednost ima primerak sa manje tehničkih nepoznanica, ne upečatljivija silueta.
+TEXT,
+                'highlights' => ['Pregledaj pragove, rubove, pod gepeka i donje ivice vrata pre odluke o retkom kupeu.', 'Hladan start, hlađenje, kvačilo, kočnice i trap proveravaju se jednako strogo kod oba modela.', 'VIN, računi i dostupnost delova za tačnu verziju moraju imati prednost nad izgledom i opremom.'],
+                'tags' => ['Toyota Paseo', 'Mazda MX-3', 'kupe', 'retki modeli', 'poređenje modela'],
+                'meta_title' => 'Toyota Paseo ili Mazda MX-3: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Toyota Paseo i Mazda MX-3: limarija, motor, trap, delovi, servisna istorija i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7f1d1d', '#38bdf8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Mitsubishi Pajero Pinin: terenac koji mora dokazati pogon, koroziju i stvarnu namenu',
+                'slug' => 'polovni-mitsubishi-pajero-pinin-terenac-koji-mora-dokazati-pogon-koroziju-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mitsubishi Pajero Pinin može biti koristan mali terenac, ali 4x4 pogon, šasija, korozija, gume i stvarna istorija upotrebe moraju opravdati kupovinu.',
+                'content' => <<<'TEXT'
+Mitsubishi Pajero Pinin deluje kao kompaktan odgovor za loš put, vikendicu ili zimske relacije, ali mali gabarit ne znači mali rizik. Primerci ovog tipa često su radili po lošijoj podlozi, vukli teret ili dugo stajali, pa uredna kabina ne govori dovoljno o stanju konstrukcije. Odluka počinje utvrđivanjem stvarne namene, ne pretpostavkom na osnovu oznake 4x4.
+
+Pregled na dizalici treba da obuhvati pragove, pod, nosače karoserije, kočione i gorivne vodove, rezervoar, izduv i tragove sveže zaštite. Pogon na sva četiri točka testira se po propisanom postupku, uz proveru uključenja, diferencijala, vibracija i curenja. Neujednačene ili različite gume mogu opteretiti pogon, zato dimenzija, starost i stanje pneumatika moraju biti deo istog pregleda.
+
+Hladan start, temperatura motora, kvačilo ili automatik, upravljanje i kočenje proveravaju se na ravnom i neravnom putu. Dijagnostika, VIN i računi treba da potvrde servis motora, hlađenja, menjača i pogona. Prvi budžet mora sadržati gume, kočnice, tečnosti i svaki potvrđeni rad na podvozju, jer kod starijeg terenca zanemarena stavka brzo preraste početnu prednost cene.
+
+Nastavi kada je konstrukcija čitljiva, pogon radi predvidivo, a održavanje objašnjava prethodnu namenu. Pregovaraj za jednu jasno procenjenu stavku; odustani kada korozija, curenja i nejasan rad pogona dolaze zajedno. Pinin vredi kao proverena alatka za stvarnu potrebu, ne kao jeftin ukras sa višim klirensom.
+TEXT,
+                'highlights' => ['Na dizalici proveri pragove, pod, vodove, nosače, rezervoar i tragove sveže zaštite.', 'Testiraj 4x4 pogon po propisanom postupku i proveri gume, curenja, vibracije i diferencijale.', 'VIN, dijagnostika i računi moraju potvrditi servis motora, hlađenja, menjača i pogona.'],
+                'tags' => ['Mitsubishi Pajero Pinin', 'terenac', '4x4', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mitsubishi Pajero Pinin: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Mitsubishi Pajero Pinin: 4x4 pogon, korozija, podvozje, gume, motor, servis i realna cena.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#365314', '#facc15', '#fefce8'],
+            ],
+            [
+                'title' => 'Polovni Subaru Justy: mali auto koji mora dokazati pogon, kabinu i miran servis',
+                'slug' => 'polovni-subaru-justy-mali-auto-koji-mora-dokazati-pogon-kabinu-i-miran-servis',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Subaru Justy može ponuditi preglednu kabinu i jednostavan gradski format, ali motor, menjač, limarija, oprema i dostupnost delova moraju potvrditi računicu.',
+                'content' => <<<'TEXT'
+Subaru Justy se pojavljuje kao mali auto za grad, kraće relacije i lakši ulazak, ali retkost značke ne sme da zameni proveru konkretnog primerka. Visoka kabina i kompaktne mere mogu odgovarati svakodnevnoj upotrebi, dok godine često ostave trag u trapu, limariji i svakom delu koji se stalno koristi. Prvo pitanje je da li stanje opravdava praktičnost, ne da li oblik odudara od uobičajene ponude.
+
+Pregled počinje hladnim startom, mirnim lerom, radom kvačila ili automatika, servo-upravljanja, kočnica i klime. Treba proveriti brave, podizače, ventilator, instrumente, preklapanje zadnje klupe i stanje poda gepeka. Istrošeni volan, pedale i sedišta porede se sa kilometražom i računima, jer gradski auto može imati mnogo intenzivniji ritam nego što broj na oglasu pokazuje.
+
+Na probnoj vožnji prate se trap preko kratkih neravnina, pravac volana, kočenje i ponašanje pri punom uglu. Pregled na dizalici obuhvata pragove, pod, rubove vrata, kočione vodove, gume i curenja, dok VIN i servisna dokumentacija potvrđuju verziju i dostupnost potrošnih delova. Jasna procena za prvi servis treba da postoji pre poređenja sa prividno jeftinijim gradskim modelima.
+
+Nastavi kada motor, kabina i limarija daju istu priču kao dokumentacija. Pregovaraj za potvrđene gume, kočnice ili servis; odustani kada se sabiraju korozija, nejasna kilometraža i delovi bez realnog roka. Justy ima smisla kao uredan mali auto, ne kao retka značka bez plana održavanja.
+TEXT,
+                'highlights' => ['Proveri hladan start, menjač, klimu, brave, ventilator i svaki svakodnevno korišćen deo kabine.', 'Uporedi habanje volana, pedala i sedišta sa kilometražom, računima i ukupnim stanjem.', 'Na dizalici proveri limariju, podvozje, vodove, gume i dostupnost delova po VIN-u.'],
+                'tags' => ['Subaru Justy', 'gradski auto', 'kompakt', 'servis', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Subaru Justy: šta proveriti',
+                'meta_description' => 'Vodič za kupovinu polovnog Subaru Justy: motor, menjač, kabina, klima, limarija, trap, delovi i realni troškovi.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a8a', '#60a5fa', '#eff6ff'],
+            ],
+            [
+                'title' => 'Podkrilo na polovnom autu: kada skrivena plastika traži pregled trapa i limarije',
+                'slug' => 'podkrilo-na-polovnom-autu-kada-skrivena-plastika-trazi-pregled-trapa-i-limarije',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Podkrilo štiti točak i unutrašnji deo blatobrana, ali nedostajući klinovi, pukotine, vlaga i tragovi trenja mogu otkriti udarac, zapušten trap ili lošu popravku.',
+                'content' => <<<'TEXT'
+Podkrilo je plastična obloga koju oglas retko pokazuje, a upravo iza nje ostaju tragovi udarca, lošeg parkiranja, vožnje po blatu i neuredne popravke. Pukotina sama po sebi ne znači da je auto loš, jer je deo izložen ivičnjacima i kamenčićima. Ipak, obloga dobija značenje kada se poveže sa položajem točka, stanjem blatobrana, trapa i pričom o ranijim radovima.
+
+Pregled se radi na dizalici ili uz skinut točak u servisu, bez čupanja kopči i rastavljanja na licu mesta. Treba proveriti da li podkrilo ravnomerno naleže, da li nedostaju pričvršćivači, postoje li sveži tragovi trenja, nepravilno isečeni rubovi ili blato iza obloge. Vlažni izolacioni materijal, ogoljen lim ili napukla plastika oko tačaka vezivanja traže pogled na unutrašnji blatobran i susedne spojeve.
+
+Nalaz treba povezati sa gumom, felgom, amortizerom, oprugom, ramenima, kočionim crevom i zazorima karoserije. Različit lak ili pomeren blatobran uz oštećeno podkrilo može ukazati na raniji udarac, dok uredno zamenjena obloga uz račun često ima jednostavno objašnjenje. Probna vožnja, pravac volana i pregled geometrije dopunjuju tehničku sliku pre pregovora.
+
+Nastavi kada je obloga pravilno postavljena, lim zdrav, a trap i guma ne pokazuju posledice udara. Pregovaraj za jedan potvrđen plastični deo ili kopču; odustani kada se oštećeno podkrilo spaja sa pomerenim limom, lošim zazorima i neravnomernim trošenjem gume. Skrivena plastika nije presuda, ali može otvoriti pregled koji štedi veću grešku.
+TEXT,
+                'highlights' => ['Podkrilo proveravaj na dizalici ili u servisu, bez čupanja kopči i rastavljanja na licu mesta.', 'Traži pukotine, nedostajuće klinove, vlagu, tragove trenja i ogoljen lim iza obloge.', 'Poveži nalaz sa gumom, felgom, trapom, zazorima, lakom i eventualnim računom za popravku.'],
+                'tags' => ['podkrilo', 'trap', 'limarija', 'pregled vozila', 'provera vozila'],
+                'meta_title' => 'Podkrilo polovnog auta: šta proveriti',
+                'meta_description' => 'Kako proveriti podkrilo polovnog auta: pukotine, kopče, tragovi udara, trap, gume, unutrašnji blatobran i kada odustati.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#334155', '#22c55e', '#f0fdf4'],
+            ],
+            [
+                'title' => 'Auto sa sudske licitacije: kada niža cena traži papire, ključeve i pregled',
+                'slug' => 'auto-sa-sudske-licitacije-kada-niza-cena-trazi-papire-kljuceve-i-pregled',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vozilo sa sudske licitacije može imati nižu početnu cenu, ali dokumentacija, rokovi, ključevi, stvarno stanje, preuzimanje i trošak osposobljavanja odlučuju da li ponuda ima smisla.',
+                'content' => <<<'TEXT'
+Vozilo ponuđeno na sudskoj licitaciji može izgledati kao prilika zbog početne cene, ali takav oglas nije isto što i redovna prodaja polovnog auta. Pre odluke mora biti jasno šta se tačno kupuje, u kakvom je pravnom i fizičkom stanju, koji dokumenti postoje i da li je vozilo moguće pregledati pre davanja ponude. Cena nema vrednost ako se kasnije pojave prepreke za preuzimanje, registraciju ili osnovno osposobljavanje.
+
+Pre licitacije treba pažljivo pročitati javni poziv, podatke o vozilu, uslove učešća, rokove, depozit, način uplate i postupak preuzimanja. Broj šasije, saobraćajna dokumentacija, broj ključeva, eventualna ograničenja i status registracije moraju biti proverljivi kroz zvanične izvore. Ako pregled nije moguć, odluka mora računati veći rizik i realnu rezervu, a ne pretpostavljati da nekoliko fotografija opisuje tehničko stanje.
+
+Kada je pregled dozvoljen, treba proveriti limariju, podvozje, gume, enterijer, hladan start ako postoji mogućnost, dijagnostiku i kompletno stanje opreme. Vozilo koje je duže stajalo može tražiti akumulator, gume, kočnice, tečnosti ili ozbiljnije radove bez obzira na kilometražu. Ukupan trošak obuhvata kupoprodajnu cenu, administrativne obaveze, prevoz, eventualno otključavanje, prvi servis i registraciju.
+
+Nastavi samo kada su pravni osnov, dokumentacija, preuzimanje i tehnički rizik dovoljno jasni za ukupnu računicu. Pregovaraj ne postoji u klasičnom smislu licitacije, zato maksimalna ponuda mora unapred sadržati rezervu za potvrđene nedostatke. Odustani kada VIN, papiri, ključevi ili pregled ostanu nejasni; niža početna cena ne popravlja rizik koji nije moguće izmeriti.
+TEXT,
+                'highlights' => ['Pre licitacije proveri javni poziv, VIN, dokumentaciju, rokove, depozit i uslove preuzimanja.', 'Ako pregled nije moguć, maksimalna ponuda mora sadržati veću rezervu za nepoznato stanje.', 'U računicu uključi prevoz, administrativne obaveze, ključeve, prvi servis, gume i registraciju.'],
+                'tags' => ['sudska licitacija', 'polovni automobil', 'dokumentacija', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Auto sa sudske licitacije: šta proveriti',
+                'meta_description' => 'Kako proceniti auto sa sudske licitacije: VIN, dokumentacija, depozit, ključevi, pregled, preuzimanje, servis i registracija.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#78350f', '#f59e0b', '#fffbeb'],
+            ],
 
         ];
     }

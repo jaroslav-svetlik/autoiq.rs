@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.132] - 2026-08-15
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota Paseo versus Mazda MX-3, used Mitsubishi Pajero Pinin and Subaru Justy buying guidance, wheel-arch-liner inspection, and court-auction vehicle due diligence.
+
 ## [0.1.131] - 2026-08-14
 
 ### Added

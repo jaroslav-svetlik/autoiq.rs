@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(410, $posts);
+        $this->assertCount(415, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(95, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(96, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'toyota-paseo-ili-mazda-mx-3-kupe-kada-retkost-ne-sme-pobediti-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-pajero-pinin-terenac-koji-mora-dokazati-pogon-koroziju-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-subaru-justy-mali-auto-koji-mora-dokazati-pogon-kabinu-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'podkrilo-na-polovnom-autu-kada-skrivena-plastika-trazi-pregled-trapa-i-limarije'));
+        $this->assertTrue($posts->contains('slug', 'auto-sa-sudske-licitacije-kada-niza-cena-trazi-papire-kljuceve-i-pregled'));
         $this->assertTrue($posts->contains('slug', 'ford-streetka-ili-opel-tigra-twintop-mali-kabriolet-kada-krov-ne-sme-pobediti-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-lancia-thesis-limuzina-koja-mora-dokazati-elektroniku-ogibljenje-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-isuzu-trooper-terenac-koji-mora-dokazati-sasiju-pogon-i-stvarnu-namenu'));
