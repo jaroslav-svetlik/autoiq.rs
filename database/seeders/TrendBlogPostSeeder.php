@@ -11287,6 +11287,101 @@ TEXT,
                 'palette' => ['#78350f', '#f59e0b', '#fffbeb'],
             ],
 
+            [
+                'title' => 'Peugeot 108 ili Škoda Citigo: gradski auto kada jednostavnost mora dokazati stanje',
+                'slug' => 'peugeot-108-ili-skoda-citigo-gradski-auto-kada-jednostavnost-mora-dokazati-stanje',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Peugeot 108 i Škoda Citigo obećavaju jednostavnu gradsku kupovinu, ali motor, menjač, vrata, trap i istorija konkretnog primerka odlučuju koji mali auto ima smisla.',
+                'content' => <<<'TEXT'
+Peugeot 108 i Škoda Citigo često ulaze u isti budžet kada su važni laki parking, mala potrošnja i jednostavna svakodnevna upotreba. Oglas ne može potvrditi da li prostor, motor i stanje odgovaraju stvarnim relacijama. Dilemu zato treba voditi kroz stanje konkretnog primerka, ne kroz značku ili boju.
+
+Kod Peugeota treba proveriti hladan start benzinca, kvačilo, menjač, vrata, prozore i klimu. Citigo traži istu osnovu, uz proveru kočnica, upravljanja, električne opreme i redovnog servisa. Probna vožnja preko neravnina i pri punom uglu volana mora pokazati miran trap, pravilan pravac i ujednačeno kočenje.
+
+Na dizalici pregledaj pragove, pod, donje ivice vrata, kočione vodove, gume i curenja. VIN, računi i habanje volana, pedala i sedišta moraju imati istu logiku kao kilometraža. U računicu ulaze prvi servis, gume, kočnice i svaka potvrđena sitna popravka.
+
+Nastavi kada mehanika, dokumentacija i limarija daju istu priču. Pregovaraj za jednu jasno procenjenu potrošnu stavku; odustani kada se nejasna kilometraža, trap i niz neispravnih funkcija pojavljuju zajedno. Prednost ima uredniji primerak sa dokazivim održavanjem.
+TEXT,
+                'highlights' => ['Proveri hladan start, kvačilo, menjač, kočnice, trap i klimu.', 'Uporedi habanje kabine sa kilometražom, VIN-om i računima.', 'Na dizalici pregledaj pragove, pod, vodove, gume i curenja.'],
+                'tags' => ['Peugeot 108', 'Škoda Citigo', 'gradski auto', 'benzinac', 'poređenje modela'],
+                'meta_title' => 'Peugeot 108 ili Škoda Citigo: šta proveriti', 'meta_description' => 'Poređenje polovnih Peugeot 108 i Škoda Citigo: motor, menjač, klima, trap, limarija, servisna istorija i realna cena.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#1e3a5f', '#f59e0b', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Citroën C-Zero: električni gradski auto koji mora dokazati bateriju, punjenje i domet',
+                'slug' => 'polovni-citroen-c-zero-elektricni-gradski-auto-koji-mora-dokazati-bateriju-punjenje-i-domet',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Citroën C-Zero može biti racionalan električni auto za kratke relacije, ali baterija, punjenje, kablovi, grejanje i stvarni domet moraju biti proverljivi.',
+                'content' => <<<'TEXT'
+Citroën C-Zero ima smisla za kratke, predvidive relacije sa dostupnim punjenjem. Kompaktan oblik i tiha vožnja ne smeju skrenuti pažnju sa baterije, koja određuje upotrebljivost više nego izgled kabine. Oglas treba povezati sa realnim dnevnim rutama i uslovima punjenja.
+
+Pregled počinje dijagnostikom pogonske baterije i visokonaponskog sistema kod stručnog servisa. Treba proveriti poklopac priključka, utičnicu, kablove, fabrički punjač i da li se punjenje pokreće i završava bez upozorenja. Grejanje, klima, 12-voltni sistem, kočnice, gume i trap takođe utiču na domet i prvi budžet.
+
+Probna vožnja prati stabilnost prikaza napunjenosti, odziv, regenerativno kočenje i poruke o grešci. VIN, servisni računi, kampanje proizvođača i poreklo moraju objasniti održavanje. Računica uključuje električnu instalaciju na mestu punjenja, kabl, gume, kočnice i potvrđene radove.
+
+Nastavi kada dijagnostika, punjenje i vožnja potvrđuju domet dovoljan za namenu. Pregovaraj za jasno procenjen kabl ili potrošni deo; odustani kada se greške sistema, nejasna baterija i ograničeno punjenje pojavljuju bez objašnjenja. C-Zero se kupuje po proverljivom dometu, ne po pretpostavljenoj uštedi.
+TEXT,
+                'highlights' => ['Traži stručnu dijagnostiku pogonske baterije.', 'Isprobaj utičnicu, poklopac, kablove i punjenje bez upozorenja.', 'U računicu uključi domet, grejanje, gume, kočnice i opremu za punjenje.'],
+                'tags' => ['Citroën C-Zero', 'električni automobil', 'baterija', 'punjenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Citroën C-Zero: šta proveriti', 'meta_description' => 'Vodič za polovni Citroën C-Zero: baterija, punjenje, kablovi, domet, grejanje, dijagnostika, servis i troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#0f766e', '#2dd4bf', '#ecfeff'],
+            ],
+            [
+                'title' => 'Polovni Mitsubishi i-MiEV: električni mali auto koji mora dokazati bateriju, punjenje i bezbednost',
+                'slug' => 'polovni-mitsubishi-i-miev-elektricni-mali-auto-koji-mora-dokazati-bateriju-punjenje-i-bezbednost',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mitsubishi i-MiEV donosi mali električni format, ali baterija, podvozje, punjač, visokonaponski sistem i mogućnost punjenja moraju potvrditi kupovinu.',
+                'content' => <<<'TEXT'
+Mitsubishi i-MiEV je mali električni automobil čija se vrednost meri upotrebljivošću na tačnim dnevnim relacijama, ne samo niskom cenom oglasa. Okretnost odgovara gradu, dok domet i prostor traže realan plan. Dostupno punjenje, potrebna udaljenost i sezonski uslovi moraju odgovarati konkretnom primerku.
+
+Pregled obuhvata dijagnostiku baterije i pogonske elektronike kod servisa koji poznaje električna vozila. Proveravaju se priključak, zaptivke, kablovi, fabrička oprema, punjač i statusne lampice bez rastavljanja. Na dizalici treba pregledati podvozje, zaštitu baterije, pragove, vodove, gume i tragove udarca.
+
+Probna vožnja obuhvata ubrzanje, kočenje, upravljanje, klimu i stabilnost pokazivača napunjenosti. VIN i računi treba da potvrde verziju, radove, opozive i poreklo, dok kilometraža ne zamenjuje procenu baterije. Budžet uključuje pregled, punjačku opremu, gume, kočnice i instalaciju na mestu punjenja.
+
+Nastavi kada je podvozje zdravo, punjenje uredno, a domet bezbedno pokriva dnevnu rutinu. Pregovaraj za potvrđene gume ili kabl; odustani kada nema procene baterije, postoje greške punjenja ili donji deo krije nejasan udarac. i-MiEV može biti dobar drugi auto samo uz dokumentovano stanje.
+TEXT,
+                'highlights' => ['Proveri bateriju i pogonsku elektroniku kod stručnog servisa.', 'Na dizalici pregledaj podvozje, zaštitu baterije, vodove, gume i tragove udarca.', 'Probaj punjenje, klimu, kočenje i stvarni domet pre odluke.'],
+                'tags' => ['Mitsubishi i-MiEV', 'električni automobil', 'punjenje', 'podvozje', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mitsubishi i-MiEV: šta proveriti', 'meta_description' => 'Vodič za polovni Mitsubishi i-MiEV: baterija, punjenje, podvozje, domet, bezbednost, dijagnostika i troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#312e81', '#818cf8', '#eef2ff'],
+            ],
+            [
+                'title' => 'Utičnica za prikolicu na polovnom autu: kada dodatni priključak traži proveru instalacije i zadnjeg dela',
+                'slug' => 'uticnica-za-prikolicu-na-polovnom-autu-kada-dodatni-prikljucak-trazi-proveru-instalacije-i-zadnjeg-dela',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Utičnica za prikolicu može ukazati na korisnu opremu ili nejasnu ugradnju; konektor, kablovi, kuka, zadnja svetla i zadnji deo vozila traže proveru.',
+                'content' => <<<'TEXT'
+Utičnica za prikolicu je detalj koji oglas često prećuti, iako može pokazati kako je vozilo korišćeno i da li je instalacija menjana. Sama kuka ili priključak nisu razlog za odustajanje; uredno ugrađena oprema sa dokumentacijom može biti prednost. Potrebno je utvrditi namenu, teret i poreklo ugradnje.
+
+Bez rastavljanja instalacije treba pogledati kućište, pukotine, oksidaciju, vlagu i poklopac. Kabal i pričvršćivači moraju biti uredni, bez izolir-trake i trenja o izduv ili vešanje. Kada postoji odgovarajući ispitivač ili servis, proverava se rad svetala prikolice i eventualne greške na instrument-tabli.
+
+Pregled na dizalici povezuje priključak sa kukom, nosačima, zadnjim podom, pragom gepeka, izduvom i tragovima udara. Nepravilan zazor branika, savijeni nosači, korozija oko vezivanja i oštećeni kablovi zahtevaju objašnjenje. VIN, dokumentacija o opremi i tehnički pregled razlikuju kvalitetnu ugradnju od električnog ili bezbednosnog rizika.
+
+Nastavi kada su utičnica, kablovi, kuka i zadnji deo čitljivi, a funkcije rade bez greške. Pregovaraj za jednu procenjenu zamenu konektora; odustani kada loša instalacija dolazi sa tragovima udara, korozije ili nepoznatim poreklom kuke. Dodatni priključak ima vrednost samo kada je uredan i dokumentovan.
+TEXT,
+                'highlights' => ['Proveri namenu kuke, teret i dokumentaciju o ugradnji.', 'Proveri kućište, poklopac, oksidaciju, kablove i rad zadnjih svetala.', 'Na dizalici poveži nalaz sa kukom, nosačima, zadnjim podom, izduvom i udarcima.'],
+                'tags' => ['utičnica za prikolicu', 'kuka za prikolicu', 'električna instalacija', 'podvozje', 'provera vozila'],
+                'meta_title' => 'Utičnica za prikolicu: šta proveriti', 'meta_description' => 'Kako proveriti utičnicu za prikolicu: kablovi, oksidacija, kuka, zadnja svetla, nosači, korozija i tragovi udara.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#374151', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Vozilo sa diplomatskim poreklom: kada mala kilometraža traži papire, opremu i proverljivu istoriju',
+                'slug' => 'vozilo-sa-diplomatskim-poreklom-kada-mala-kilometraza-trazi-papire-opremu-i-proverljivu-istoriju',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vozilo sa diplomatskim poreklom može imati malu kilometražu i dobru opremu, ali vlasništvo, odjava, porezi, servis, specifikacija i stanje moraju biti dokumentovani.',
+                'content' => <<<'TEXT'
+Vozilo koje je bilo u diplomatskoj upotrebi može privući malom kilometražom, urednom kabinom i opremom, ali posebna istorija ne sme zameniti proveru. Potrebno je utvrditi status vozila, kontinuitet vlasništva, odjavu i mogućnost uredne registracije u Srbiji. VIN, dokumenti i uslovi prenosa moraju činiti jasnu celinu.
+
+Pre kapare treba pregledati saobraćajne i vlasničke dokumente, potvrde za prenos, podatke o porezu i servisnu istoriju. Specifikacija se povezuje sa brojem šasije: svetla, radio-oprema, navigacija, bezbednosni sistemi i izmene ne smeju ostati pretpostavljeni. Nejasan redosled administrativnih koraka ne pruža osnov za uplatu.
+
+Tehnički pregled obuhvata hladan start, dijagnostiku, kočnice, gume, trap, klimu, elektroniku, limariju i podvozje. Malu kilometražu treba uporediti sa habanjem volana, pedala, sedišta i komandi, dok stajanje može ostaviti posledice na akumulatoru, gumama, kočnicama i zaptivkama. Ukupan trošak uključuje obaveze, registraciju, prvi servis i potvrđene radove.
+
+Nastavi kada su prenos, poreklo, specifikacija i tehničko stanje dokumentovani bez praznina. Pregovaraj za jednu procenjenu posledicu stajanja; odustani kada papiri, registracija ili održavanje ostanu nejasni. Diplomatsko poreklo ne daje izuzetak od pune provere i računice.
+TEXT,
+                'highlights' => ['Proveri VIN, vlasništvo, odjavu i administrativne korake pre kapare.', 'Uporedi specifikaciju i bezbednosne sisteme sa brojem šasije.', 'Malu kilometražu potvrdi dijagnostikom, habanjem kabine, gumama i podvozjem.'],
+                'tags' => ['diplomatsko vozilo', 'dokumentacija', 'VIN', 'registracija', 'analiza tržišta'],
+                'meta_title' => 'Vozilo sa diplomatskim poreklom: šta proveriti', 'meta_description' => 'Kako proveriti vozilo sa diplomatskim poreklom: dokumentacija, VIN, prenos, registracija, oprema, kilometraža, servis i rizici.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#581c87', '#c084fc', '#faf5ff'],
+            ],
         ];
     }
 

@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.133] - 2026-08-16
+
+### Added
+
+- Added five non-duplicate production blog articles covering Peugeot 108 versus Škoda Citigo, used Citroën C-Zero and Mitsubishi i-MiEV buying guidance, trailer-socket inspection, and diplomatic-vehicle due diligence.
+
 ## [0.1.132] - 2026-08-15
 
 ### Added

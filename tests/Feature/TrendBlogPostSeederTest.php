@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(415, $posts);
+        $this->assertCount(420, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(96, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(97, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'peugeot-108-ili-skoda-citigo-gradski-auto-kada-jednostavnost-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-citroen-c-zero-elektricni-gradski-auto-koji-mora-dokazati-bateriju-punjenje-i-domet'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-i-miev-elektricni-mali-auto-koji-mora-dokazati-bateriju-punjenje-i-bezbednost'));
+        $this->assertTrue($posts->contains('slug', 'uticnica-za-prikolicu-na-polovnom-autu-kada-dodatni-prikljucak-trazi-proveru-instalacije-i-zadnjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'vozilo-sa-diplomatskim-poreklom-kada-mala-kilometraza-trazi-papire-opremu-i-proverljivu-istoriju'));
         $this->assertTrue($posts->contains('slug', 'toyota-paseo-ili-mazda-mx-3-kupe-kada-retkost-ne-sme-pobediti-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-pajero-pinin-terenac-koji-mora-dokazati-pogon-koroziju-i-stvarnu-namenu'));
         $this->assertTrue($posts->contains('slug', 'polovni-subaru-justy-mali-auto-koji-mora-dokazati-pogon-kabinu-i-miran-servis'));
