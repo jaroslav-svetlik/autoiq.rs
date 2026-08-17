@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.134] - 2026-08-17
+
+### Added
+
+- Added five non-duplicate production blog articles covering Lancia Delta versus Alfa Romeo MiTo, used Opel Antara and Daewoo Tacuma buying guidance, OBD diagnostic-port inspection, and former rent-a-car fleet due diligence.
+
 ## [0.1.133] - 2026-08-16
 
 ### Added

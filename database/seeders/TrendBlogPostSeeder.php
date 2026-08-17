@@ -11382,6 +11382,81 @@ TEXT,
                 'meta_title' => 'Vozilo sa diplomatskim poreklom: šta proveriti', 'meta_description' => 'Kako proveriti vozilo sa diplomatskim poreklom: dokumentacija, VIN, prenos, registracija, oprema, kilometraža, servis i rizici.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#581c87', '#c084fc', '#faf5ff'],
             ],
+            [
+                'title' => 'Lancia Delta ili Alfa Romeo MiTo: kompakt kada stil mora imati pokriće u stanju', 'slug' => 'lancia-delta-ili-alfa-romeo-mito-kompakt-kada-stil-mora-imati-pokrice-u-stanju', 'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lancia Delta i Alfa Romeo MiTo nude različit italijanski kompakt, ali limarija, motor, elektronika, trap i računi konkretnog primerka moraju voditi odluku.',
+                'content' => <<<'TEXT'
+Lancia Delta i Alfa Romeo MiTo mogu stati u sličan budžet, ali Delta daje više prostora, a MiTo gradski format. Oglas zato mora biti povezan sa stvarnim relacijama i stanjem konkretnog primerka.
+
+Kod Delte proveravaju se motor, menjač, klima, podizači i elektronika duže kabine. MiTo traži hladan start, upravljanje, kočnice, klimu i vrata; probna vožnja mora pokazati miran trap i pravilan pravac.
+
+Na dizalici se pregledaju pragovi, pod, vrata, curenja, vodovi i gume. VIN, dijagnostika, računi i habanje kabine moraju odgovarati kilometraži, uz rezervu za prvi servis i potvrđene električne stavke.
+
+Nastavi kada su mehanika, dokumentacija i limarija saglasne. Pregovaraj za jednu procenjenu stavku; odustani kada se spoje nejasna kilometraža, električne greške i loša limarija. Prednost ima dokazivo održavan primerak, ne upečatljiviji oblik.
+TEXT,
+                'highlights' => ['Deltu proceni kroz prostor, elektroniku, trap i karoseriju.', 'Na MiTu proveri hladan start, menjač, upravljanje i gradsko habanje.', 'VIN, dijagnostika i računi moraju potvrditi stanje.'], 'tags' => ['Lancia Delta', 'Alfa Romeo MiTo', 'kompakt', 'poređenje modela'],
+                'meta_title' => 'Lancia Delta ili Alfa Romeo MiTo: šta proveriti', 'meta_description' => 'Poređenje polovnih Lancia Delta i Alfa Romeo MiTo: motor, elektronika, trap, limarija, servis i rizici.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#7c2d12', '#fb7185', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Opel Antara: SUV koji mora dokazati pogon, koroziju i miran servis', 'slug' => 'polovni-opel-antara-suv-koji-mora-dokazati-pogon-koroziju-i-miran-servis', 'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Opel Antara može ponuditi više prostora, ali motor, automatik, pogon, podvozje, korozija i servisna istorija moraju opravdati kupovinu.',
+                'content' => <<<'TEXT'
+Opel Antara je stariji SUV za više prtljaga i lošiji put, ali masa i moguća vuča opterećuju trap, kočnice i podvozje. Stvarna namena mora imati tehničko pokriće.
+
+Pregled počinje hladnim startom, temperaturom, dimom, menjačem, upravljanjem i klimom. Pogon na sve točkove proverava se po propisanom postupku, a dijagnostika i vožnja ne smeju pokazati vibracije ni upozorenja.
+
+Na dizalici se proveravaju pragovi, pod, nosači, diferencijal, vodovi, izduv, gume i curenja. VIN i računi treba da potvrde servis motora, menjača, pogona, hlađenja i kočnica.
+
+Nastavi kada je podvozje čitljivo, pogon predvidiv, a održavanje dokumentovano. Pregovaraj za jednu izmerenu stavku; odustani kada se korozija, curenja i nejasan menjač ili pogon spoje. Antara nije jeftin ulaz u SUV klasu bez plana servisa.
+TEXT,
+                'highlights' => ['Proveri motor, menjač, klimu, kočnice i pogon.', 'Na dizalici pregledaj podvozje, diferencijal i vodove.', 'VIN i računi moraju potvrditi održavanje.'], 'tags' => ['Opel Antara', 'SUV', '4x4', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Antara: šta proveriti', 'meta_description' => 'Vodič za polovni Opel Antara: motor, automatik, 4x4 pogon, podvozje, korozija i servis.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#1f2937', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Daewoo Tacuma: porodični van koji mora dokazati prostor, limariju i delove', 'slug' => 'polovni-daewoo-tacuma-porodicni-van-koji-mora-dokazati-prostor-limariju-i-delove', 'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Daewoo Tacuma nudi porodični prostor po nižoj ceni, ali limarija, motor, trap, kabina, delovi i održavanje određuju stvarnu vrednost.',
+                'content' => <<<'TEXT'
+Daewoo Tacuma nudi viši položaj sedenja i promenljiv raspored kabine, ali godine i retkija značka traže plan za delove. Prostor mora odgovarati stvarnoj nameni, ne samo oglasu.
+
+Pregled obuhvata hladan start, motor, kvačilo, menjač, servo, kočnice i klimu. Sedišta, brave, prozori, ventilator, instrumenti i pod gepeka proveravaju se jer kvarovi kabine menjaju računicu.
+
+Na dizalici se gledaju pragovi, pod, vrata, vodovi, curenja, gume i izduv. VIN, računi i habanje kabine moraju pratiti kilometražu, a dostupnost delova proverava se prema tačnoj verziji.
+
+Nastavi kada kabina, limarija i mehanika daju proverljivu celinu. Pregovaraj za jednu stavku; odustani kada se spoje korozija, nejasna kilometraža i delovi bez roka. Tacuma vredi zbog prostora samo uz izvodljivo održavanje.
+TEXT,
+                'highlights' => ['Proveri sedišta, brave, prozore i pod gepeka.', 'Na vožnji proceni motor, menjač, trap i kočenje.', 'Proveri limariju i delove prema VIN-u.'], 'tags' => ['Daewoo Tacuma', 'porodični van', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Daewoo Tacuma: šta proveriti', 'meta_description' => 'Vodič za polovni Daewoo Tacuma: motor, kabina, limarija, trap, delovi, servis i troškovi.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#84cc16', '#f7fee7'],
+            ],
+            [
+                'title' => 'OBD dijagnostički priključak na polovnom autu: kada mali poklopac traži proveru elektronike i istorije', 'slug' => 'obd-dijagnosticki-prikljucak-na-polovnom-autu-kada-mali-poklopac-trazi-proveru-elektronike-i-istorije', 'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'OBD priključak omogućava uvid u greške i rad sistema, ali utičnica, dijagnostika i istorija vozila moraju se tumačiti zajedno.',
+                'content' => <<<'TEXT'
+OBD priključak je mali detalj kabine kroz koji stručan pregled povezuje oglas sa stanjem elektronike. Sam priključak nije dokaz kvara, ali utičnica mora biti čitava i bez neurednih dodatnih instalacija.
+
+Pregledavaju se poklopac, kućište, pinovi i kablovi, pa se povezuje odgovarajuća dijagnostika. Greške, status sistema i podaci modula tumače se uz hladan start, lampice i probnu vožnju.
+
+Nalaz se povezuje sa VIN-om, računima, klimom, motorom, menjačem, ABS-om i bezbednosnim sistemima. Neuredna multimedija ili alarm mogu ostaviti trag na instalaciji, zato očitavanje nije jedini dokaz.
+
+Nastavi kada priključak, moduli, vožnja i dokumentacija daju istu priču. Pregovaraj za jednu dijagnostikovanu stavku; odustani kada se spoje trajne greške, nepoznata instalacija i odbijen stručni pregled. OBD je ulaz u proveru, ne zamena za nju.
+TEXT,
+                'highlights' => ['Pregledaj kućište, pinove i okolne kablove.', 'Dijagnostiku poveži sa vožnjom i dokumentacijom.', 'Trajne greške zahtevaju stručno objašnjenje.'], 'tags' => ['OBD priključak', 'dijagnostika', 'elektronika', 'provera vozila'],
+                'meta_title' => 'OBD priključak polovnog auta: šta proveriti', 'meta_description' => 'Kako proveriti OBD priključak: greške, moduli, instalacija, VIN, lampice i rizici.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#0f172a', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Vozilo iz rent-a-car flote: kada uredna spoljašnjost traži proveru kilometraže i radne prošlosti', 'slug' => 'vozilo-iz-rent-a-car-flote-kada-uredna-spoljasnjost-trazi-proveru-kilometraze-i-radne-proslosti', 'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vozilo iz rent-a-car flote može imati uredan servis, ali kilometraža, popravke, kabina, dokumentacija i stvarna upotreba moraju biti proverljivi.',
+                'content' => <<<'TEXT'
+Vozilo iz rent-a-car flote može delovati privlačno zbog poznatog porekla i uredne spoljašnjosti, ali česta smena vožnji traži potpunu proveru. Poreklo, VIN i kontinuitet evidencije moraju biti jasni.
+
+Pre kapare proveravaju se servisna knjiga, računi, tehnički pregledi, ključevi, registracija i veće popravke. Kilometraža se poredi sa habanjem volana, pedala, sedišta, prekidača i praga vrata.
+
+Tehnički pregled obuhvata hladan start, dijagnostiku, kočnice, trap, gume, klimu, limariju i podvozje. Različite gume, neujednačen lak i sitni radovi moraju imati dokumentovano objašnjenje.
+
+Nastavi kada su kilometraža, servisni niz i stanje proverljivi. Pregovaraj za jednu procenjenu stavku; odustani kada poreklo, računi, ključevi ili dijagnostika ostanu nejasni. Flota je prednost samo uz dokaze, ne uredne fotografije.
+TEXT,
+                'highlights' => ['Proveri VIN, servisni niz, tehničke preglede i ključeve.', 'Uporedi kilometražu sa habanjem kabine i lakom.', 'U računicu uključi servis, gume i kočnice.'], 'tags' => ['rent-a-car flota', 'servisna istorija', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Vozilo iz rent-a-car flote: šta proveriti', 'meta_description' => 'Kako proveriti vozilo iz rent-a-car flote: kilometraža, servis, limarija, gume, dijagnostika i dokumentacija.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#3f3f46', '#eab308', '#fefce8'],
+            ],
         ];
     }
 

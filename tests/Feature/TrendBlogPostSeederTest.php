@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(420, $posts);
+        $this->assertCount(425, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(97, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(98, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'lancia-delta-ili-alfa-romeo-mito-kompakt-kada-stil-mora-imati-pokrice-u-stanju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-opel-antara-suv-koji-mora-dokazati-pogon-koroziju-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-daewoo-tacuma-porodicni-van-koji-mora-dokazati-prostor-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'obd-dijagnosticki-prikljucak-na-polovnom-autu-kada-mali-poklopac-trazi-proveru-elektronike-i-istorije'));
+        $this->assertTrue($posts->contains('slug', 'vozilo-iz-rent-a-car-flote-kada-uredna-spoljasnjost-trazi-proveru-kilometraze-i-radne-proslosti'));
         $this->assertTrue($posts->contains('slug', 'peugeot-108-ili-skoda-citigo-gradski-auto-kada-jednostavnost-mora-dokazati-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-citroen-c-zero-elektricni-gradski-auto-koji-mora-dokazati-bateriju-punjenje-i-domet'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-i-miev-elektricni-mali-auto-koji-mora-dokazati-bateriju-punjenje-i-bezbednost'));
