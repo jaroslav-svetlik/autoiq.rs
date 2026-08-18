@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(425, $posts);
+        $this->assertCount(430, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(98, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(99, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'tata-indica-ili-proton-gen-2-jeftin-kompakt-kada-retkost-mora-dokazati-delove-i-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-ssangyong-rodius-veliki-van-koji-mora-dokazati-prostor-pogon-i-odrzivu-racunicu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chery-kimo-mali-auto-koji-mora-dokazati-limariju-bezbednost-i-dostupnost-delova'));
+        $this->assertTrue($posts->contains('slug', 'senzor-spoljne-temperature-na-polovnom-autu-kada-mali-podatak-trazi-proveru-branika-i-instalacije'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-juzne-koreje-kada-oprema-i-cena-traze-proveru-specifikacije-puta-i-papira'));
         $this->assertTrue($posts->contains('slug', 'lancia-delta-ili-alfa-romeo-mito-kompakt-kada-stil-mora-imati-pokrice-u-stanju'));
         $this->assertTrue($posts->contains('slug', 'polovni-opel-antara-suv-koji-mora-dokazati-pogon-koroziju-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-daewoo-tacuma-porodicni-van-koji-mora-dokazati-prostor-limariju-i-delove'));

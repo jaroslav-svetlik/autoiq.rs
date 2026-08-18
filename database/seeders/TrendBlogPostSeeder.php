@@ -8480,6 +8480,96 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#312e81', '#facc15', '#f8fafc'],
             ],
+            [
+                'title' => 'Tata Indica ili Proton Gen-2: jeftin kompakt kada retkost mora dokazati delove i stanje',
+                'slug' => 'tata-indica-ili-proton-gen-2-jeftin-kompakt-kada-retkost-mora-dokazati-delove-i-stanje',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Tata Indica i Proton Gen-2 mogu delovati kao jeftin ulaz u kompakt klasu, ali dostupnost delova, limarija, motor i dokumentovana istorija određuju stvarnu računicu.',
+                'content' => <<<'TEXT'
+Tata Indica i Proton Gen-2 pojavljuju se kao retki kompaktni automobili sa nižom početnom cenom, ali ne rešavaju isti zadatak. Indica je manji i jednostavnije postavljen gradski izbor, dok Gen-2 nudi veći format i drugačiji osećaj u vožnji. Pre bilo kakve odluke, ponuda delova za tačnu verziju, broj šasije i urednost dokumentacije moraju biti provereni.
+
+Kod Indice pregled obuhvata hladan start, kvačilo, menjač, hlađenje, servo i elektriku kabine, uz posebno poređenje zazora, pragova i poda. Gen-2 traži miran rad motora, upravljanje, kočnice, klimu, podizače i stabilan trap na neravnini. Probna vožnja mora otkriti svaki zvuk, lampicu ili odstupanje pravca pre nego što se oblik ili oprema uzmu kao prednost.
+
+Na dizalici se pregledaju pragovi, pod, nosači, curenja, izduv, kočioni vodovi i gume. VIN, računi i servisni intervali treba da potvrde motor, potrošne delove i ranije popravke, dok se dostupnost ključnih delova proverava pre uplate. Niska oglasna cena nema vrednost ako rok i cena osnovne popravke ostanu nepoznati.
+
+Nastavi kada su limarija, mehanika, dokumentacija i nabavka delova proverljivi. Pregovaraj za jednu procenjenu stavku; odustani kada se spoje korozija, nejasna istorija i delovi bez izvora. Prednost ima primerak sa jasnim održavanjem, ne model sa nižom početnom cenom.
+TEXT,
+                'highlights' => ['Uporedi stvarnu namenu, VIN i dostupnost delova za tačnu verziju.', 'Na probnoj vožnji proveri hladan start, menjač, upravljanje, kočnice i klimu.', 'Na dizalici poveži pragove, pod, curenja i gume sa računima i servisom.'],
+                'tags' => ['Tata Indica', 'Proton Gen-2', 'kompakt', 'retki modeli', 'poređenje modela'],
+                'meta_title' => 'Tata Indica ili Proton Gen-2: šta proveriti', 'meta_description' => 'Poređenje polovnih Tata Indica i Proton Gen-2: delovi, motor, limarija, trap, servisna istorija i stvarna računica.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#312e81', '#f59e0b', '#fffbeb'],
+            ],
+            [
+                'title' => 'Polovni SsangYong Rodius: veliki van koji mora dokazati prostor, pogon i održivu računicu',
+                'slug' => 'polovni-ssangyong-rodius-veliki-van-koji-mora-dokazati-prostor-pogon-i-odrzivu-racunicu',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'SsangYong Rodius nudi veliki prostor i mogući pogon na sve točkove, ali motor, automatik, podvozje, korozija i dostupnost delova moraju opravdati kupovinu.',
+                'content' => <<<'TEXT'
+SsangYong Rodius privlači velikom kabinom i rasporedom sedišta koji može odgovarati redovnom prevozu više osoba ili tereta. Stariji veliki van ne treba procenjivati po broju sedišta, već po stanju svakog mehaničkog i kabinskog sklopa. Tačna verzija, broj šasije, poreklo i mogućnost registracije moraju biti jasni pre pregleda detalja.
+
+Pregled počinje hladnim startom, temperaturom motora, dimom, radom automatika ili kvačila, upravljanjem, kočenjem i klimom. Ako primerak ima pogon na sve točkove, probna vožnja i dijagnostika moraju potvrditi rad sistema bez vibracija, upozorenja i kašnjenja. Treći red, brave, zadnji otvor, ventilacija i svi pojasevi proveravaju se kao funkcionalni delovi, ne kao oprema iz oglasa.
+
+Na dizalici se gledaju pragovi, pod, nosači, diferencijal, vodovi, izduv, curenja, gume i tragovi teške upotrebe. Računi treba da potvrde održavanje motora, menjača, pogona, hlađenja i kočnica, a pre kapare treba proveriti rok i cenu ključnih delova prema VIN-u. U budžet ulaze prvi servis, gume i svaka potvrđena stavka podvozja.
+
+Nastavi kada su pogon, podvozje, kabina i servisna istorija saglasni. Pregovaraj za jednu izmerenu popravku; odustani kada korozija, nejasan menjač i neproverljivi delovi dolaze zajedno. Prostor vredi samo kada održavanje ostaje izvodljivo.
+TEXT,
+                'highlights' => ['Proveri VIN, broj sedišta, registraciju i nabavku ključnih delova.', 'Na vožnji proceni hladan start, menjač, pogon, kočnice, klimu i sve pojaseve.', 'Na dizalici pregledaj pragove, pod, diferencijal, vodove, curenja i tragove teške upotrebe.'],
+                'tags' => ['SsangYong Rodius', 'veliki van', '4x4', 'podvozje', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni SsangYong Rodius: šta proveriti', 'meta_description' => 'Vodič za polovni SsangYong Rodius: motor, automatik, 4x4 pogon, sedišta, podvozje, korozija, delovi i servis.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#1f2937', '#22c55e', '#f0fdf4'],
+            ],
+            [
+                'title' => 'Polovni Chery Kimo: mali auto koji mora dokazati limariju, bezbednost i dostupnost delova',
+                'slug' => 'polovni-chery-kimo-mali-auto-koji-mora-dokazati-limariju-bezbednost-i-dostupnost-delova',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Chery Kimo može delovati kao povoljan gradski auto, ali limarija, kočnice, bezbednosni sistemi, elektronika i dostupnost delova moraju potvrditi stvarnu vrednost.',
+                'content' => <<<'TEXT'
+Chery Kimo se pojavljuje kao mali automobil za kratke relacije i tesan parking, ali retka značka menja redosled provere. Osnovna cena mora biti povezana sa stanjem konkretnog primerka, brojem šasije i mogućnošću nabavke potrošnih i bezbednosnih delova. Kompaktne dimenzije nisu dovoljan razlog kada poreklo, servis i oprema ostanu nejasni.
+
+Pregled obuhvata hladan start, miran ler, kvačilo, menjač, servo, kočnice, klimu i rad svih lampica. Posebno se proveravaju pojasevi, airbag upozorenje, ABS, svetla, podizači, ventilator i zaključavanje jer mali električni kvarovi menjaju računicu starijeg gradskog auta. Probna vožnja treba da pokaže pravilan pravac, tih trap i ujednačeno kočenje.
+
+Na dizalici se pregledaju pragovi, pod, tačke dizanja, rubovi blatobrana, vodovi, curenja, izduv i gume. VIN, dijagnostika i računi moraju potvrditi verziju, održavanje i ranije radove, dok se pre kapare proverava dobavljivost kočionih, limarskih i električnih delova. Prvi servis i potvrđeni radovi ulaze u ukupni budžet.
+
+Nastavi kada bezbednosni sistemi, limarija, dokumentacija i delovi daju jasnu celinu. Pregovaraj za jednu procenjenu stavku; odustani kada se spoje korozija, stalna lampica i delovi bez realnog roka. Jeftin gradski auto mora ostati bezbedan i održiv nakon kupovine.
+TEXT,
+                'highlights' => ['Proveri VIN, verziju i nabavku kočionih, limarskih i električnih delova.', 'Testiraj hladan start, kvačilo, kočnice, ABS, airbag lampicu, klimu i zaključavanje.', 'Na dizalici pregledaj pragove, pod, tačke dizanja, rubove blatobrana i vodove.'],
+                'tags' => ['Chery Kimo', 'gradski auto', 'bezbednost', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chery Kimo: šta proveriti', 'meta_description' => 'Vodič za polovni Chery Kimo: limarija, kočnice, bezbednosni sistemi, elektronika, delovi, servis i gradska upotreba.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#7f1d1d', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Senzor spoljne temperature na polovnom autu: kada mali podatak traži proveru branika i instalacije',
+                'slug' => 'senzor-spoljne-temperature-na-polovnom-autu-kada-mali-podatak-trazi-proveru-branika-i-instalacije',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Senzor spoljne temperature može pokazati mali električni kvar ili trag loše popravke prednjeg dela, zato prikaz, položaj senzora, branik i instalacija traže zajedničku proveru.',
+                'content' => <<<'TEXT'
+Prikaz spoljne temperature deluje kao sporedan podatak, ali njegovo očigledno odstupanje može povezati senzor, instalaciju i prednji deo vozila. Kod polovnog auta nema smisla posmatrati broj na instrument tabli odvojeno od položaja senzora, branika i istorije popravki. Razlika u temperaturi zahteva pregled, a ne pretpostavku da je samo računar pogrešio.
+
+Provera počinje poređenjem prikaza sa uslovima nakon dovoljno vremena u mestu, bez zaključka odmah po izlasku iz garaže ili nakon vožnje. Zatim se pregledavaju obaveštenja na tabli, rad automatske klime i dostupni podaci dijagnostike. Senzor i njegov konektor pregledaju se samo na pristupačnom mestu, bez izvlačenja obloga, dok se svako oštećenje kabla beleži za stručan pregled.
+
+Položaj senzora treba povezati sa donjom maskom, branikom, nosačima, kopčama, zazorima i mogućim tragovima udara ili nestručne ugradnje. VIN, računi za limarske radove i dijagnostika dopunjuju pregled, jer pogrešan prikaz može biti posledica jednostavne zamene, ali i dela šire električne ili limarske priče. Trošak se procenjuje tek nakon utvrđenog uzroka.
+
+Nastavi kada su prikaz, senzor, instalacija i prednji deo uredni ili kada postoji jasna procena jedne stavke. Pregovaraj za potvrđenu zamenu senzora ili konektora; odustani kada netačan prikaz dolazi sa tragovima udara, presečenim kablovima i odbijenim pregledom. Mali podatak vredi upravo zato što može otvoriti važnije pitanje.
+TEXT,
+                'highlights' => ['Uporedi prikaz sa uslovima nakon stajanja, ne odmah posle vožnje.', 'Proveri tablu, automatsku klimu, dijagnostiku i pristupačan konektor bez rastavljanja.', 'Poveži senzor sa branikom, maskom, kopčama, zazorima i dokumentacijom o radovima.'],
+                'tags' => ['senzor spoljne temperature', 'elektronika', 'branik', 'dijagnostika', 'provera vozila'],
+                'meta_title' => 'Senzor spoljne temperature: šta proveriti', 'meta_description' => 'Kako proveriti senzor spoljne temperature polovnog auta: prikaz, klima, dijagnostika, branik, konektor, instalacija i tragovi udara.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#0c4a6e', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Južne Koreje: kada oprema i cena traže proveru specifikacije, puta i papira',
+                'slug' => 'uvoz-auta-iz-juzne-koreje-kada-oprema-i-cena-traze-proveru-specifikacije-puta-i-papira',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Auto iz Južne Koreje može privući opremom i cenom, ali VIN, originalna specifikacija, prevoz, homologacija, istorija i puna računica moraju biti proverljivi.',
+                'content' => <<<'TEXT'
+Auto iz Južne Koreje može delovati privlačno zbog opreme, starosti i početne cene, ali udaljeno tržište uvodi više tačaka provere. Potrebno je povezati VIN sa originalnom specifikacijom, istorijom, dokumentima izvoza i celim putem do registracije u Srbiji. Oglas, fotografije i oprema ne mogu zameniti proverljiv niz podataka.
+
+Pre kapare proveravaju se broj šasije, vlasnička dokumentacija, račun ili ugovor, podaci o izvozu, transportu, carinskom postupku i homologaciji. Originalna specifikacija mora objasniti svetla, radio-opremu, navigaciju, bezbednosne sisteme i dostupnost jezika ili mapa, bez pretpostavke da je svaka funkcija ista kao na evropskoj verziji. Nejasan dokument ili nedostajući korak prekida računicu pre slanja novca.
+
+Tehnički pregled obuhvata limariju, podvozje, koroziju, gume, kočnice, klimu, elektroniku, hladan start i dijagnostiku. Istorija oštećenja, fotografije pre transporta i servisni zapisi moraju se uporediti sa stvarnim stanjem, posebno na donjem delu vozila i prednjim sigurnosnim sistemima. Ukupan trošak uključuje prevoz, dažbine, homologaciju, registraciju, prvi servis i potvrđene radove.
+
+Nastavi kada su specifikacija, dokumenti, put vozila i tehničko stanje dokumentovani bez praznina. Pregovaraj samo za jednu jasno procenjenu stavku; odustani kada VIN, izvozna dokumentacija ili homologacija ostanu nejasni. Uvoz ima smisla tek kada cela računica ostane proverljiva.
+TEXT,
+                'highlights' => ['Proveri VIN, izvozne papire, transport, carinski postupak i homologaciju pre kapare.', 'Uporedi originalnu specifikaciju svetala, multimedije i bezbednosnih sistema sa konkretnim primerkom.', 'U računicu uključi prevoz, dažbine, registraciju, prvi servis i potvrđene radove.'],
+                'tags' => ['uvoz iz Južne Koreje', 'VIN', 'homologacija', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Južne Koreje: šta proveriti', 'meta_description' => 'Vodič za uvoz polovnog auta iz Južne Koreje: VIN, specifikacija, dokumentacija, transport, homologacija, servis i troškovi.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#4c1d95', '#a78bfa', '#faf5ff'],
+            ],
         ];
     }
 
