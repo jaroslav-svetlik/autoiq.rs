@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(430, $posts);
+        $this->assertCount(435, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(99, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(100, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'tata-indica-ili-proton-gen-2-jeftin-kompakt-kada-retkost-mora-dokazati-delove-i-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-ssangyong-rodius-veliki-van-koji-mora-dokazati-prostor-pogon-i-odrzivu-racunicu'));
         $this->assertTrue($posts->contains('slug', 'polovni-chery-kimo-mali-auto-koji-mora-dokazati-limariju-bezbednost-i-dostupnost-delova'));
@@ -37,6 +37,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-daewoo-tacuma-porodicni-van-koji-mora-dokazati-prostor-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'obd-dijagnosticki-prikljucak-na-polovnom-autu-kada-mali-poklopac-trazi-proveru-elektronike-i-istorije'));
         $this->assertTrue($posts->contains('slug', 'vozilo-iz-rent-a-car-flote-kada-uredna-spoljasnjost-trazi-proveru-kilometraze-i-radne-proslosti'));
+        $this->assertTrue($posts->contains('slug', 'fiat-bravo-ili-nissan-primera-porodicni-polovnjak-kada-oprema-ne-sme-da-sakrije-godine'));
+        $this->assertTrue($posts->contains('slug', 'polovni-lancia-ypsilon-gradski-auto-koji-mora-dokazati-elektroniku-limariju-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volvo-s40-kompaktna-limuzina-koja-mora-dokazati-bezbednost-motor-i-realan-servis'));
+        $this->assertTrue($posts->contains('slug', 'stitnik-za-sunce-na-polovnom-autu-kada-spustena-klapna-otkriva-vlagu-habanje-ili-losu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'vozilo-iz-car-sharing-flote-kada-kratke-relacije-traze-proveru-kabine-kocnica-i-istorije'));
         $this->assertTrue($posts->contains('slug', 'peugeot-108-ili-skoda-citigo-gradski-auto-kada-jednostavnost-mora-dokazati-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-citroen-c-zero-elektricni-gradski-auto-koji-mora-dokazati-bateriju-punjenje-i-domet'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-i-miev-elektricni-mali-auto-koji-mora-dokazati-bateriju-punjenje-i-bezbednost'));

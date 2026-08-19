@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.136] - 2026-08-19
+
+### Added
+
+- Added five non-duplicate production blog articles covering Fiat Bravo versus Nissan Primera, used Lancia Ypsilon and Volvo S40 buying guidance, sun-visor inspection, and car-sharing fleet due diligence.
+
 ## [0.1.135] - 2026-08-18
 
 ### Added

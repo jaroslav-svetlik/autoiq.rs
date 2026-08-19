@@ -11547,6 +11547,101 @@ TEXT,
                 'highlights' => ['Proveri VIN, servisni niz, tehničke preglede i ključeve.', 'Uporedi kilometražu sa habanjem kabine i lakom.', 'U računicu uključi servis, gume i kočnice.'], 'tags' => ['rent-a-car flota', 'servisna istorija', 'kilometraža', 'analiza tržišta'],
                 'meta_title' => 'Vozilo iz rent-a-car flote: šta proveriti', 'meta_description' => 'Kako proveriti vozilo iz rent-a-car flote: kilometraža, servis, limarija, gume, dijagnostika i dokumentacija.', 'is_featured' => false, 'published_at' => now(), 'palette' => ['#3f3f46', '#eab308', '#fefce8'],
             ],
+            [
+                'title' => 'Fiat Bravo ili Nissan Primera: porodični polovnjak kada oprema ne sme da sakrije godine',
+                'slug' => 'fiat-bravo-ili-nissan-primera-porodicni-polovnjak-kada-oprema-ne-sme-da-sakrije-godine',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Fiat Bravo i Nissan Primera često nude opremu i prostor za razuman budžet, ali limarija, motor, elektronika, delovi i proverljiva istorija određuju stvarnu vrednost.',
+                'content' => <<<'TEXT'
+Fiat Bravo i Nissan Primera pojavljuju se u istom budžetu kada porodična upotreba traži više prostora i opreme od gradskog auta. Bravo nudi noviju osnovu i poznate benzinske i dizel motore, dok Primera često privlači udobnošću i nižom početnom cenom. Konkretan primerak mora dokazati da godine, oprema i servisna priča imaju istu logiku pre nego što se porede izgled i spisak dodataka.
+
+Kod Brava pregled obuhvata hladan start, rad turbine i DPF-a kod dizela, kvačilo, menjač, trap, klimu i električne komande. Primera zahteva posebnu pažnju na koroziju, rad motora, automatski menjač kada ga ima, instrumente, kameru i centralne funkcije. Probna vožnja preko neravnina i pri punom uglu volana treba da pokaže miran trap, pravilan pravac i ujednačeno kočenje.
+
+Pregled na dizalici povezuje podvozje, pragove, kočione vodove, gume i curenja sa stanjem karoserije. VIN, servisni računi, tehnički pregledi i habanje kabine moraju objasniti kilometražu i održavanje. U računicu ulaze veliki servis prema motoru, gume, kočnice, potvrđeni električni radovi i dostupnost specifičnih delova, posebno kada je oprema složenija.
+
+Nastavi kada su mehanika, limarija i dokumentacija proverljivi bez otvorenih pitanja. Pregovaraj za jednu jasno procenjenu potrošnu stavku ili manji kvar opreme; odustani kada se korozija, električne greške i nejasna istorija pojavljuju zajedno. Prednost ima uredniji primerak, bez obzira na značku ili bogatiji spisak opreme.
+TEXT,
+                'highlights' => ['Kod Brava proveri motor, kvačilo, DPF kod dizela, trap, klimu i električne komande.', 'Kod Primere proveri koroziju, instrumente, centralne funkcije i menjač kada je automatski.', 'Poveži VIN, račune, habanje kabine, podvozje i gume pre procene početnog budžeta.'],
+                'tags' => ['Fiat Bravo', 'Nissan Primera', 'porodični auto', 'poređenje modela', 'polovni automobil'],
+                'meta_title' => 'Fiat Bravo ili Nissan Primera: šta proveriti', 'meta_description' => 'Poređenje polovnih Fiat Bravo i Nissan Primera: motor, elektronika, korozija, trap, servisna istorija, delovi i početni troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#1e3a5f', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Lancia Ypsilon: gradski auto koji mora dokazati elektroniku, limariju i miran servis',
+                'slug' => 'polovni-lancia-ypsilon-gradski-auto-koji-mora-dokazati-elektroniku-limariju-i-miran-servis',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lancia Ypsilon može ponuditi mali gradski format i bogatu opremu, ali motor, menjač, elektronika, limarija i servisni trag moraju opravdati kupovinu.',
+                'content' => <<<'TEXT'
+Lancia Ypsilon privlači kompaktnim merama, lakim parkiranjem i enterijerom koji često izgleda bogatije od proseka klase. Na polovnom tržištu takav utisak vredi samo kada model odgovara stvarnim gradskim relacijama i kada cena ostavlja prostor za prvi servis. Oglas mora objasniti motor, menjač, poreklo i održavanje, a ne samo boju, paket opreme i izgled kabine.
+
+Tehnička provera počinje hladnim startom, mirnim lerom, kvačilom ili robotizovanim menjačem kada ga ima, radom upravljača i kočnica. Potrebno je proveriti klimu, podizače stakala, centralno zaključavanje, instrumente, komande i svaku funkciju opreme bez pretpostavke da je električni kvar sitnica. Probna vožnja kroz neravnine i pri parkiranju treba da potvrdi tih trap i pravilan rad menjača.
+
+Na dizalici se proveravaju pragovi, pod, donje ivice vrata, nosači, gume, curenja i tragovi ranijih popravki. VIN, računi i stanje volana, pedala i sedišta treba da odgovaraju kilometraži i ritmu servisa. U početni budžet ulaze ulje, filteri, kočnice, gume, akumulator i svaka potvrđena električna ili limarska stavka.
+
+Nastavi kada su motor, menjač, elektronika i limarija uredni ili kada postoji jasna procena jednog manjeg rada. Pregovaraj za potrošni deo sa poznatom cenom; odustani kada se greške opreme, vlaga u kabini i nejasni računi spajaju u istu priču. Ypsilon ima smisla kao mali gradski auto samo uz proverljivo održavanje.
+TEXT,
+                'highlights' => ['Proveri hladan start, kvačilo ili robotizovani menjač, kočnice i trap.', 'Testiraj klimu, podizače, zaključavanje, instrumente i sve komande opreme.', 'Na dizalici proveri pragove, pod, vrata, gume, curenja i tragove popravki.'],
+                'tags' => ['Lancia Ypsilon', 'gradski auto', 'elektronika', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Lancia Ypsilon: šta proveriti', 'meta_description' => 'Vodič za polovni Lancia Ypsilon: motor, menjač, elektronika, klima, limarija, trap, servisna istorija i troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#4c1d95', '#c084fc', '#faf5ff'],
+            ],
+            [
+                'title' => 'Polovni Volvo S40: kompaktna limuzina koja mora dokazati bezbednost, motor i realan servis',
+                'slug' => 'polovni-volvo-s40-kompaktna-limuzina-koja-mora-dokazati-bezbednost-motor-i-realan-servis',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Volvo S40 nudi bezbednosni ugled i udobnu limuzinsku formu, ali motor, menjač, podvozje, elektronika i servisna dokumentacija moraju opravdati cenu.',
+                'content' => <<<'TEXT'
+Volvo S40 može biti zanimljiva alternativa traženijim kompaktnim limuzinama kada su važni bezbednost, stabilnost i mirnija vožnja. Ugled marke ne menja činjenicu da su primerci uglavnom stariji i da razlike u održavanju mogu biti velike. Oglas treba povezati sa tačnim motorom, menjačem, kilometražom, poreklom i računima pre nego što bezbednosna oprema postane glavni argument.
+
+Pregled obuhvata hladan start, rad motora, kvačilo ili automatski menjač, turbinu i DPF kod dizela, klimu i električne funkcije. Posebno treba proveriti upozoravajuće lampice, stanje sedišta, rad pojaseva, centralno zaključavanje i dijagnostiku bez brisanja grešaka. Probna vožnja mora potvrditi miran upravljač, tišinu trapa, stabilno kočenje i odsustvo vibracija pri ubrzanju.
+
+Na dizalici se pregledaju podvozje, pragovi, nosači, opruge, amortizeri, kočioni vodovi, gume i moguća curenja. VIN, servisni zapisi i računi za veće radove treba da prate habanje kabine i kilometražu. Budžet uključuje preventivni servis, potrošne delove, gume i potvrđene radove na motoru, menjaču ili elektronici.
+
+Nastavi kada dijagnostika, vožnja, podvozje i dokumentacija potvrđuju isto stanje. Pregovaraj za jednu procenjenu potrošnu stavku; odustani kada se trajne greške, loš trap i nejasan servisni niz pojavljuju zajedno. S40 treba kupiti zbog dokaza o stanju, ne samo zbog bezbednosne reputacije.
+TEXT,
+                'highlights' => ['Proveri motor, kvačilo ili automatik, turbinu i DPF kod dizela, klimu i dijagnostiku.', 'Testiraj lampice, pojaseve, centralno zaključavanje, sedišta i sve električne funkcije.', 'Na dizalici pregledaj podvozje, opruge, amortizere, vodove, gume i curenja.'],
+                'tags' => ['Volvo S40', 'limuzina', 'bezbednost', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Volvo S40: šta proveriti', 'meta_description' => 'Vodič za polovni Volvo S40: motor, automatik, DPF, bezbednosni sistemi, podvozje, elektronika, servis i troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#164e63', '#22d3ee', '#ecfeff'],
+            ],
+            [
+                'title' => 'Štitnik za sunce na polovnom autu: kada spuštena klapna otkriva vlagu, habanje ili lošu popravku',
+                'slug' => 'stitnik-za-sunce-na-polovnom-autu-kada-spustena-klapna-otkriva-vlagu-habanje-ili-losu-popravku',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Štitnik za sunce deluje kao mala stavka, ali šarka, ogledalo, svetlo, obloga krova i tragovi vlage mogu otvoriti važniji pregled kabine i bezbednosti.',
+                'content' => <<<'TEXT'
+Štitnik za sunce je detalj kabine koji se retko proverava, iako njegov položaj otkriva svakodnevno habanje, vlagu u krovu ili nestručan rad oko vetrobrana i obloge. Labava šarka ili polomljena klapna ne znače sami po sebi ozbiljan kvar. Značenje dobijaju kada se povežu sa stanjem ogledala, osvetljenja, krova, A-stubova i mirisom u kabini.
+
+Pregled se radi bez čupanja obloge: štitnik se spušta, vraća, zakreće ako konstrukcija to dopušta i proverava da li mirno ostaje u položaju. Treba pogledati kopče, šarku, ogledalo, poklopac ogledala i lampicu kada postoji, kao i eventualne pukotine ili neujednačene zazore. Vlažne fleke, otvrdnuta obloga ili oksidacija vidljivih kontakata zahtevaju pažnju, ali ne opravdavaju rastavljanje na licu mesta.
+
+Nalaz treba povezati sa rubom vetrobrana, oblogom krova, sunčanim krovištem kada postoji, A-stubovima, dihtunzima vrata i radom unutrašnjeg osvetljenja. Dijagnostika, računi za zamenu vetrobrana i pregled kod majstora dopunjuju sliku ako je prisutna vlaga ili trag popravke. Trošak se računa tek nakon što je jasno da li je problem samo potrošni deo ili deo šireg prodora vode.
+
+Nastavi kada su štitnik, obloga krova i kabina suvi, funkcionalni i bez tragova improvizacije. Pregovaraj za jedan potvrđen plastični deo ili lampicu; odustani kada se vlaga, tragovi curenja i nejasna popravka vetrobrana spajaju bez objašnjenja. Mala klapna vredi kao trag, ne kao samostalna presuda.
+TEXT,
+                'highlights' => ['Spusti, vrati i proveri šarku, kopče, ogledalo, poklopac i lampicu bez rastavljanja obloge.', 'Traži vlagu, fleke, pukotine, neujednačene zazore i oksidaciju vidljivih kontakata.', 'Poveži nalaz sa vetrobranom, oblogom krova, A-stubovima, dihtunzima i unutrašnjim osvetljenjem.'],
+                'tags' => ['štitnik za sunce', 'kabina', 'vlaga', 'vetrobran', 'provera vozila'],
+                'meta_title' => 'Štitnik za sunce polovnog auta: šta proveriti', 'meta_description' => 'Kako proveriti štitnik za sunce polovnog auta: šarka, ogledalo, lampica, obloga krova, vetrobran, vlaga i tragovi popravke.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#713f12', '#fbbf24', '#fffbeb'],
+            ],
+            [
+                'title' => 'Vozilo iz car-sharing flote: kada kratke relacije traže proveru kabine, kočnica i istorije',
+                'slug' => 'vozilo-iz-car-sharing-flote-kada-kratke-relacije-traze-proveru-kabine-kocnica-i-istorije',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vozilo iz car-sharing flote može imati evidentirane servise, ali veliki broj kratkih relacija, različita upotreba, kabina, kočnice i dokumentacija traže strogu proveru.',
+                'content' => <<<'TEXT'
+Vozilo iz car-sharing flote može izgledati sveže zbog redovnog čišćenja i čestih servisa, ali takav format upotrebe ima drugačiji ritam od privatnog automobila. Mnogo kratkih relacija, česta parkiranja i veliki broj različitih vožnji ostavljaju trag na kabini, kočnicama, gumama, kvačilu i karoseriji. Poreklo flote je korisna informacija samo kada se može povezati sa kompletnom dokumentacijom i stanjem konkretnog primerka.
+
+Pre odluke treba proveriti VIN, vlasnički sled, servisne zapise, kilometražu, tehničke preglede, zapisnike o štetama i broj ključeva. Važno je utvrditi da li evidencija navodi redovne preglede kočnica, guma, trapa, akumulatora i čišćenja kabine, bez pretpostavke da uredan raspored servisa objašnjava svaku popravku. Nejasne praznine u istoriji ili neuobičajeno česta zamena delova zahtevaju dodatno objašnjenje.
+
+Tehnički pregled obuhvata hladan start, dijagnostiku, kočnice, trap, gume, felne, branik, pragove, vrata, centralno zaključavanje, podizače i unutrašnje obloge. Probna vožnja mora pokazati pravilan pravac, mirno kočenje i uredan rad svih funkcija. U računicu ulaze prvi servis, gume, kočnice, potvrđena limarija i radovi na opremi koja je intenzivno korišćena.
+
+Nastavi kada dokumentacija, dijagnostika, kabina i mehanika dosledno potvrđuju kilometražu i način upotrebe. Pregovaraj za jednu precizno procenjenu potrošnu stavku; odustani kada se nejasne štete, umorna kabina i više mehaničkih simptoma pojavljuju zajedno. Car-sharing poreklo nije mana, ali mora biti vidljivo u ceni i proverljivo u istoriji.
+TEXT,
+                'highlights' => ['Proveri VIN, vlasnički sled, servisne zapise, tehničke preglede, štete i broj ključeva.', 'Poveži kratke relacije sa stanjem kabine, kočnica, guma, kvačila, branika i pragova.', 'Urađeni pregledi nisu zamena za dijagnostiku, probnu vožnju i pregled na dizalici.'],
+                'tags' => ['car-sharing', 'flotno vozilo', 'servisna istorija', 'kratke relacije', 'analiza tržišta'],
+                'meta_title' => 'Vozilo iz car-sharing flote: šta proveriti', 'meta_description' => 'Kako proveriti vozilo iz car-sharing flote: istorija, kratke relacije, kabina, kočnice, gume, štete, dijagnostika i cena.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#4ade80', '#f0fdf4'],
+            ],
         ];
     }
 
