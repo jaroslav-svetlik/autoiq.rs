@@ -11642,6 +11642,101 @@ TEXT,
                 'meta_title' => 'Vozilo iz car-sharing flote: šta proveriti', 'meta_description' => 'Kako proveriti vozilo iz car-sharing flote: istorija, kratke relacije, kabina, kočnice, gume, štete, dijagnostika i cena.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#4ade80', '#f0fdf4'],
             ],
+            [
+                'title' => 'Citroën Xantia ili Peugeot 406: udobna limuzina kada istorija vredi više od komfora',
+                'slug' => 'citroen-xantia-ili-peugeot-406-udobna-limuzina-kada-istorija-vredi-vise-od-komfora',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Xantia i 406 nude veliki komfor za mali budžet, ali izbor zavisi od podvozja, motora, limarije, servisnih računa i dostupnosti stručnog održavanja.',
+                'content' => <<<'TEXT'
+Citroën Xantia i Peugeot 406 pojavljuju se u istoj potrazi kada je potreban udoban, prostran i cenovno pristupačan stariji automobil. Xantia privlači hidropneumatskim oslanjanjem i izraženim komforom, dok 406 daje klasičniju mehaniku i širu bazu poznatih delova. Početna cena nije presudna: prednost ima primerak čija istorija objašnjava godine, kilometražu i dosadašnja ulaganja.
+
+Kod Xantie pregled počinje visinom vozila, mirnim podizanjem i spuštanjem, curenjima hidraulične tečnosti i stanjem sfera, pumpi i cevi. Kod 406 treba obratiti pažnju na trap, servo, curenja, kvačilo i stanje rashladnog sistema. Hladan start, probna vožnja preko neravnina i pregled na dizalici otkrivaju više od uredne kabine ili sjajnog laka.
+
+Motor, limarija i dokumentacija određuju ukupnu računicu za oba modela. Računi za veliki servis, kočnice, gume i radove na oslanjanju imaju veću težinu od opreme. Korozija pragova, poda, nosača i rubova, nejasna temperatura motora ili više različitih curenja traže stručno objašnjenje pre svake kapare.
+
+Nastavi kada Xantia ima potvrđeno zdravo oslanjanje ili kada 406 ima miran trap, a oba modela jasne račune i zdravu karoseriju. Pregovaraj za jednu precizno procenjenu potrošnu stavku. Odustani kada udobnost prikriva zapuštenu hidrauliku, pregrevanje, koroziju ili odbijen pregled; tada ni nizak ulazni iznos ne čuva budžet.
+TEXT,
+                'highlights' => ['Kod Xantie proveri visinu, hidrauliku, sfere, pumpe i curenja pre procene komfora.', 'Kod Peugeota 406 pregledaj trap, servo, hlađenje, kvačilo i podvozje na dizalici.', 'Računi za održavanje, zdrava limarija i prihvaćen pregled vredniji su od opreme i niske cene.'],
+                'tags' => ['Citroën Xantia', 'Peugeot 406', 'limuzina', 'oslanjanje', 'poređenje'],
+                'meta_title' => 'Citroën Xantia ili Peugeot 406: polovno poređenje', 'meta_description' => 'Poređenje Citroën Xantia i Peugeot 406 polovnjaka: oslanjanje, trap, motor, limarija, servisna istorija i realni troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#172554', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Polovni Audi A2: aluminijumski mali auto koji mora dokazati servis i računicu',
+                'slug' => 'polovni-audi-a2-aluminijumski-mali-auto-koji-mora-dokazati-servis-i-racunicu',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Audi A2 je neobičan i štedljiv mali automobil, ali aluminijumska karoserija, pristup mehanici, elektronika i specifični delovi traže strpljivu proveru.',
+                'content' => <<<'TEXT'
+Audi A2 ima smisla kao mali automobil za grad i put kada su niska potrošnja, pregledna kabina i neobična aluminijumska konstrukcija važniji od klasičnog izgleda. Retkost ne sme biti razlog za preskakanje pregleda. Primerak mora dokazati da su karoserija, motor, dokumentacija i logistika delova usklađeni sa traženom cenom.
+
+Pregled limarije obuhvata razmake panela, pragove, pod, nosače, vrata i tragove popravke koji se na aluminijumu procenjuju drugačije nego na čeliku. Hladan start, rad turbine kod dizela, kvačilo, menjač, klima, servo i svaka električna komanda proveravaju se bez žurbe. Kod verzija sa robotizovanim menjačem dijagnostika i probna vožnja su obavezni.
+
+Servisna istorija treba da pokaže kada su rađeni veliki servis, kočnice, trap, akumulator i radovi na elektronici. Potrebno je unapred proveriti dostupnost konkretnog dela i servis koji razume model, posebno ako su vidljivi tragovi sudara ili improvizovanih popravki. Niska potrošnja ne nadoknađuje nejasan kvar koji zahteva skup specifičan rad.
+
+Nastavi kada su paneli ravni, mehanika mirna, dijagnostika čista i računi logični. Pregovaraj za potvrđenu potrošnu stavku sa jasnim predračunom. Odustani kada se retkost pretvara u neobjašnjenu havariju, nepostojeće delove ili nedostupnu servisnu podršku; tada mali auto lako postaje veliki trošak.
+TEXT,
+                'highlights' => ['Aluminijumske panele, pragove i tragove popravke pregledaj precizno, bez oslanjanja na sjaj laka.', 'Proveri motor, menjač, klimu, elektroniku i dijagnostiku, posebno kod robotizovanih verzija.', 'Pre kapare potvrdi dostupnost specifičnih delova i servis koji poznaje Audi A2.'],
+                'tags' => ['Audi A2', 'aluminijum', 'mali auto', 'dizel', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Audi A2: šta proveriti pre kupovine', 'meta_description' => 'Vodič za kupovinu polovnog Audi A2: aluminijumska karoserija, motor, menjač, elektronika, delovi, servis i realni troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#334155', '#94a3b8', '#f8fafc'],
+            ],
+            [
+                'title' => 'Polovni Rover 45: limuzina koja mora dokazati motor, limariju i dostupnost delova',
+                'slug' => 'polovni-rover-45-limuzina-koja-mora-dokazati-motor-limariju-i-dostupnost-delova',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Rover 45 može ponuditi klasičnu limuzinu za malo novca, ali rashladni sistem, stanje motora, korozija i nabavka delova odlučuju da li je ponuda održiva.',
+                'content' => <<<'TEXT'
+Rover 45 može izgledati kao privlačna limuzina za ograničen budžet zbog opreme, udobnosti i manje gužve na tržištu. Kod ovako starog modela stanje konkretnog primerka ima potpunu prednost nad oznakom, opremom i spoljnim utiskom. Pre odluke treba povezati servisnu istoriju, limariju i plan dostupnosti delova.
+
+Tehnički pregled počinje hladnim startom, stabilnim lerom, temperaturom motora i stanjem rashladne tečnosti. Potrebno je proveriti tragove pregrevanja, curenja, mešanja ulja i rashladne tečnosti, rad ventilatora i istoriju radova na motoru. Probna vožnja treba da potvrdi kvačilo, menjač, kočnice, trap i pravilan smer vozila.
+
+Limarija zahteva pregled pragova, poda, rubova blatobrana, donjih ivica vrata i nosača vešanja na dizalici. Računi za održavanje vrede samo ako su povezani sa stvarnim stanjem i datumima. Pre kapare treba proveriti nabavku potrošnih i specifičnih delova, jer lep enterijer ne rešava problem kada je važna komponenta nedostupna ili preskupa.
+
+Nastavi kada motor mirno drži temperaturu, podvozje je zdravo, a servisni trag i delovi imaju jasnu pokrivenost. Pregovaraj kada postoji jedna potvrđena stavka sa realnim iznosom popravke. Odustani kada pregrevanje, korozija i nejasna istorija dolaze zajedno; najniža cena tada samo prebacuje trošak na prvi servis.
+TEXT,
+                'highlights' => ['Hladan start, temperatura, rashladna tečnost i ventilator ključni su za procenu motora.', 'Na dizalici pregledaj pragove, pod, rubove blatobrana, vrata i nosače vešanja.', 'Pre kapare proveri realnu nabavku delova, ne samo obećanje da je model jeftin za održavanje.'],
+                'tags' => ['Rover 45', 'limuzina', 'rashladni sistem', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Rover 45: šta proveriti pre kupovine', 'meta_description' => 'Vodič za kupovinu polovnog Rover 45: motor, rashladni sistem, limarija, korozija, trap, delovi i servisna istorija.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#3f1d2e', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Krovna antena na polovnom autu: kada mala osnova otkriva vlagu i nejasnu popravku',
+                'slug' => 'krovna-antena-na-polovnom-autu-kada-mala-osnova-otkriva-vlagu-i-nejasnu-popravku',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Osnova krovne antene može pokazati loš dihtung, prodor vode, oštećen lak ili improvizovanu zamenu, pa pregled treba povezati sa oblogom krova i elektronikom.',
+                'content' => <<<'TEXT'
+Krovna antena je sitan spoljašnji detalj, ali njena osnova prolazi kroz lim i može povezati stanje krova, zaptivanja i električne instalacije. Napukla plastika, tragovi lepka ili neujednačen lak ne dokazuju sami po sebi veliku štetu, ali traže objašnjenje pre procene ukupnog stanja vozila.
+
+Pregled se radi bez rastavljanja: proveravaju se čvrstina antene, gumeni dihtung, zazori, pukotine, oksidacija, tragovi curenja i nijansa laka oko osnove. Zatim se proverava prijem radija, GPS ili hands-free funkcije kada postoje. Labava antena, slab prijem i svež zaptivač zajedno opravdavaju dodatni pregled kod majstora.
+
+Nalaz treba povezati sa oblogom krova, plafonskom lampicom, zadnjim delom kabine, rubovima vrata i eventualnim flekama od vlage. Pregled odozgo i iz kabine, računi za zamenu krova ili antene i dijagnostika daju kontekst ako elektronika prijavljuje grešku. Trošak je mali samo kada je potvrđeno da je problem ograničen na dihtung ili samu antenu.
+
+Nastavi kada su osnova, krov i obloga kabine suvi, čvrsti i bez nejasnih tragova popravke. Pregovaraj za jedan potvrđen dihtung ili antenu sa poznatom cenom. Odustani kada vlaga, oštećen lim, loš prijem i improvizovana zaptivanja ukazuju na širi problem koji nema jasan uzrok.
+TEXT,
+                'highlights' => ['Proveri čvrstinu antene, gumeni dihtung, zazore, pukotine, oksidaciju i lak oko osnove.', 'Poveži prijem radija i funkcije antene sa oblogom krova, lampicom i tragovima vlage u kabini.', 'Jedan dihtung je pregovor; vlaga, lim i nejasno zaptivanje zajedno zahtevaju stručno objašnjenje.'],
+                'tags' => ['krovna antena', 'vlaga', 'krov', 'elektronika', 'provera vozila'],
+                'meta_title' => 'Krovna antena polovnog auta: šta proveriti', 'meta_description' => 'Kako proveriti krovnu antenu polovnog auta: osnova, dihtung, vlaga, lak, obloga krova, prijem radija i tragovi popravke.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#312e81', '#818cf8', '#eef2ff'],
+            ],
+            [
+                'title' => 'Vozilo sa ekonomskom totalnom štetom: kada niska cena traži izveštaj i strog pregled',
+                'slug' => 'vozilo-sa-ekonomskom-totalnom-stetom-kada-niska-cena-trazi-izvestaj-i-strog-pregled',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vozilo proglašeno ekonomskom totalnom štetom može biti popravljeno i upotrebljivo, ali izveštaj o šteti, kvalitet radova, geometrija i dokumentacija moraju biti proverljivi.',
+                'content' => <<<'TEXT'
+Vozilo sa ekonomskom totalnom štetom nije automatski neupotrebljivo; oznaka često znači da je procenjeni trošak popravke premašio ekonomsku vrednost u trenutku štete. Ipak, niska cena ima smisla samo ako je obim udarca, tok popravke i sadašnje stanje moguće dokazati dokumentima i nezavisnim pregledom.
+
+Pre odluke treba tražiti zapisnik osiguravača, fotografije pre popravke, račune za delove i radove, VIN istoriju i kontinuitet registracije. Važno je utvrditi da li su pogođeni noseći elementi, vazdušni jastuci, pojasevi, hladnjaci, vešanje ili elektronika. Izostanak dokaza ne može se zameniti uverenjem da je automobil samo imao lakši udarac.
+
+Pregled na dizalici i merenje geometrije karoserije dopunjuju proveru zazora, nijanse laka, šrafova, podvozja, trapa i guma. Dijagnostika mora potvrditi rad bezbednosnih sistema, dok probna vožnja otkriva pravac, kočenje, vibracije i buku. U računicu ulaze mogući naknadni radovi, osiguranje, kasnija prodaja i gubitak vrednosti.
+
+Nastavi samo kada dokumentacija i stručni pregled dosledno objašnjavaju štetu i kvalitet popravke. Pregovaraj kada je jedna jasno potvrđena stavka uračunata u cenu. Odustani kada nedostaju izveštaj, fotografije, dokazi o bezbednosnim sistemima ili kada geometrija i dijagnostika ostaju nejasne; tada niska cena nema pokriće.
+TEXT,
+                'highlights' => ['Traži izveštaj osiguravača, fotografije pre popravke, račune, VIN istoriju i kontinuitet registracije.', 'Proveri noseće elemente, vazdušne jastuke, pojaseve, hladnjake, vešanje i elektroniku.', 'Merenje geometrije, dijagnostika i probna vožnja odlučuju da li popravka ima proverljivo pokriće.'],
+                'tags' => ['ekonomska totalna šteta', 'osiguranje', 'VIN', 'karoserija', 'analiza tržišta'],
+                'meta_title' => 'Ekonomska totalna šteta: šta proveriti pre kupovine', 'meta_description' => 'Kako proveriti vozilo sa ekonomskom totalnom štetom: izveštaj osiguravača, VIN, geometrija, bezbednosni sistemi, popravka i cena.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
+            ],
         ];
     }
 

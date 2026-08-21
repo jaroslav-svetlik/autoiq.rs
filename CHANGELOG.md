@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.137] - 2026-08-20
+
+### Added
+
+- Added five non-duplicate production blog articles covering Citroën Xantia versus Peugeot 406, used Audi A2 and Rover 45 buying guidance, roof-antenna inspection, and economic-total-loss vehicle due diligence.
+
 ## [0.1.136] - 2026-08-19
 
 ### Added

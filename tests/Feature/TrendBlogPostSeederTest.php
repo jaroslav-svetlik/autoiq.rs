@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(435, $posts);
+        $this->assertCount(440, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(100, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(101, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'citroen-xantia-ili-peugeot-406-udobna-limuzina-kada-istorija-vredi-vise-od-komfora'));
+        $this->assertTrue($posts->contains('slug', 'polovni-audi-a2-aluminijumski-mali-auto-koji-mora-dokazati-servis-i-racunicu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-rover-45-limuzina-koja-mora-dokazati-motor-limariju-i-dostupnost-delova'));
+        $this->assertTrue($posts->contains('slug', 'krovna-antena-na-polovnom-autu-kada-mala-osnova-otkriva-vlagu-i-nejasnu-popravku'));
+        $this->assertTrue($posts->contains('slug', 'vozilo-sa-ekonomskom-totalnom-stetom-kada-niska-cena-trazi-izvestaj-i-strog-pregled'));
         $this->assertTrue($posts->contains('slug', 'tata-indica-ili-proton-gen-2-jeftin-kompakt-kada-retkost-mora-dokazati-delove-i-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-ssangyong-rodius-veliki-van-koji-mora-dokazati-prostor-pogon-i-odrzivu-racunicu'));
         $this->assertTrue($posts->contains('slug', 'polovni-chery-kimo-mali-auto-koji-mora-dokazati-limariju-bezbednost-i-dostupnost-delova'));
