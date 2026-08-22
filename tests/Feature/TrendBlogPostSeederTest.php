@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(440, $posts);
+        $this->assertCount(445, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(101, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(102, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'toyota-starlet-ili-mazda-121-mali-klasik-kada-jednostavnost-mora-dokazati-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hyundai-coupe-kupe-koji-mora-dokazati-limariju-motor-i-stvarni-trosak-stila'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-100nx-mali-kupe-koji-mora-dokazati-krov-podvozje-i-dostupnost-delova'));
+        $this->assertTrue($posts->contains('slug', 'nalepnica-pritiska-guma-na-polovnom-autu-kada-mali-podatak-trazi-proveru-vrata-tockova-i-opreme'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-portugala-kada-sunce-i-niza-cena-traze-proveru-klime-limarije-i-papira'));
         $this->assertTrue($posts->contains('slug', 'citroen-xantia-ili-peugeot-406-udobna-limuzina-kada-istorija-vredi-vise-od-komfora'));
         $this->assertTrue($posts->contains('slug', 'polovni-audi-a2-aluminijumski-mali-auto-koji-mora-dokazati-servis-i-racunicu'));
         $this->assertTrue($posts->contains('slug', 'polovni-rover-45-limuzina-koja-mora-dokazati-motor-limariju-i-dostupnost-delova'));

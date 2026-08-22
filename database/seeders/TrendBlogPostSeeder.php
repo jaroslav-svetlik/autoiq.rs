@@ -11737,6 +11737,101 @@ TEXT,
                 'meta_title' => 'Ekonomska totalna šteta: šta proveriti pre kupovine', 'meta_description' => 'Kako proveriti vozilo sa ekonomskom totalnom štetom: izveštaj osiguravača, VIN, geometrija, bezbednosni sistemi, popravka i cena.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
             ],
+            [
+                'title' => 'Toyota Starlet ili Mazda 121: mali klasik kada jednostavnost mora dokazati limariju i delove',
+                'slug' => 'toyota-starlet-ili-mazda-121-mali-klasik-kada-jednostavnost-mora-dokazati-limariju-i-delove',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Toyota Starlet i Mazda 121 nude jednostavnu mehaniku i male dimenzije, ali korozija, stanje motora, delovi i proverljiva istorija odlučuju da li klasik ima smisla.',
+                'content' => <<<'TEXT'
+Toyota Starlet i Mazda 121 dolaze u obzir kada mali, lagan i tehnički jednostavan automobil ima veću vrednost od savremene opreme. Starlet se oslanja na reputaciju izdržljivog benzinca i neposrednu vožnju, dok Mazda 121 privlači kratkom karoserijom, preglednošću i jednostavnom gradskom namenom. Kod oba modela godine imaju veću težinu od značke: konkretan primerak mora objasniti limariju, poreklo i održavanje pre poređenja potrošnje ili opreme.
+
+Tehnički pregled Starleta obuhvata hladan start, stabilan ler, rad menjača, kvačila, kočnica i trapa, kao i stanje sistema hlađenja. Kod Mazde 121 proveravaju se isti temelji, uz pažnju na rad krova kod verzije sa platnenim preklopom, dihtunge i eventualnu vlagu u kabini. Probna vožnja preko neravnina treba da potvrdi miran upravljač, pravac bez povlačenja i odsustvo vibracija pri kočenju.
+
+Na dizalici su presudni pragovi, pod, rubovi blatobrana, nosači vešanja, donje ivice vrata i tragovi ranijih limarskih radova. VIN, računi i tehnički pregledi treba da povežu kilometražu sa stvarnim stanjem. U početni budžet ulaze preventivni servis, gume, kočnice, moguća limarija i unapred potvrđena dostupnost specifičnih delova, naročito plastika i enterijerskih komponenti.
+
+Nastavi kada su karoserija zdrava, motor miran i dokumentacija logična. Pregovaraj za jednu procenjenu potrošnu stavku; odustani kada korozija zahvata nosive delove, hlađenje nije uverljivo ili delovi nemaju realnu nabavku. Kod malog klasika uredna osnova vredi više od niže početne cene.
+TEXT,
+                'highlights' => ['Kod Starleta proveri motor, hlađenje, menjač, kvačilo, kočnice i trap.', 'Kod Mazde 121 pregledaj dihtunge i vlagu, posebno ako postoji platneni preklop krova.', 'Pragovi, pod, nosači vešanja i rubovi odlučuju više od uredne kabine ili sjajnog laka.'],
+                'tags' => ['Toyota Starlet', 'Mazda 121', 'mali klasik', 'korozija', 'poređenje modela'],
+                'meta_title' => 'Toyota Starlet ili Mazda 121: šta proveriti', 'meta_description' => 'Poređenje Toyota Starlet i Mazda 121 polovnjaka: motor, limarija, korozija, hlađenje, trap, delovi i početni troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#1e3a5f', '#eab308', '#fefce8'],
+            ],
+            [
+                'title' => 'Polovni Hyundai Coupé: kupe koji mora dokazati limariju, motor i stvarni trošak stila',
+                'slug' => 'polovni-hyundai-coupe-kupe-koji-mora-dokazati-limariju-motor-i-stvarni-trosak-stila',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Hyundai Coupé može ponuditi izgled sportskog auta za razumnu cenu, ali limarija, benzinac, kvačilo, trap i tragovi modifikacija moraju imati pokriće u stanju.',
+                'content' => <<<'TEXT'
+Hyundai Coupé se pojavljuje kao pristupačan kupe kada su izgled, niži položaj sedenja i benzinski motor važniji od zadnje praktičnosti. Oglas sa felnama, spojlerom i sjajnim lakom ne govori dovoljno o načinu korišćenja. Godine, eventualne prepravke i niži klirens znače da primerak mora dokazati zdravu osnovu, uredan servis i cenu koja ostavlja rezervu za prvi pregled.
+
+Tehnička provera počinje hladnim startom, stabilnim lerom, temperaturom motora, kvačilom, izborom stepena prenosa i odzivom pri umerenome ubrzanju. Potrebno je proveriti klimu, podizače, centralno zaključavanje, instrumente i svaku električnu komandu. Probna vožnja preko neravnina i pri punom uglu volana treba da pokaže miran trap, odsustvo udaraca i ravnomerno kočenje bez vibracija.
+
+Na dizalici se pregledaju pragovi, pod, rubovi blatobrana, nosači, izduv, curenja, gume i donja ivica prednjeg branika. Posebnu pažnju traže neoriginalno vešanje, veći točkovi, izmenjen izduv i tragovi kontakta sa ivičnjacima, jer modifikacije menjaju i računicu održavanja. VIN, računi za veliki servis i stanje volana, pedala i sedišta moraju imati isti tok kao oglašena kilometraža.
+
+Nastavi kada su limarija, motor, trap i dokumentacija uredni ili kada postoji jedna jasno procenjena potrošna stavka. Pregovaraj za gume, kočnice ili potvrđeni manji rad; odustani kada se prepravke, korozija i nejasna istorija spajaju bez računa. Stil ima smisla tek kada ne ugrožava početni budžet.
+TEXT,
+                'highlights' => ['Proveri hladan start, temperaturu motora, kvačilo, menjač, klimu i električne komande.', 'Na dizalici pregledaj pragove, pod, rubove, izduv, gume i donju ivicu branika.', 'Svaka modifikacija vešanja, točkova ili izduva traži račun i proveru usklađenosti.'],
+                'tags' => ['Hyundai Coupé', 'kupe', 'benzinac', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai Coupé: šta proveriti', 'meta_description' => 'Vodič za polovni Hyundai Coupé: motor, kvačilo, trap, limarija, modifikacije, gume, servisna istorija i troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#4c1d1d', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Polovni Nissan 100NX: mali kupe koji mora dokazati krov, podvozje i dostupnost delova',
+                'slug' => 'polovni-nissan-100nx-mali-kupe-koji-mora-dokazati-krov-podvozje-i-dostupnost-delova',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nissan 100NX je retki mali kupe sa uklonjivim krovnim panelom, ali korozija, zaptivanje, motor, podvozje i delovi odlučuju da li je primerak održiv.',
+                'content' => <<<'TEXT'
+Nissan 100NX privlači kompaktnom kupe formom i krovnim panelom koji menja doživljaj vožnje bez složene konstrukcije pravog kabrioleta. Retkost ne sme da zameni pregled: niska početna cena ima vrednost samo ako karoserija, mehanika i zaptivanje nisu odložili trošak za prvi period posedovanja. Pre odluke treba utvrditi da li komplet krova, bravice i prateći delovi postoje i rade bez improvizacije.
+
+Tehnički pregled počinje hladnim startom, ravnim radom benzinca, odzivom gasa, kvačilom, menjačem i temperaturom motora. Zatim se proveravaju rad ventilacije, stakala, centralnog zaključavanja, svetala i instrumenta. Probna vožnja treba da potvrdi tih trap, stabilno kočenje, pravilan smer i odsustvo vibracija, naročito na neravninama gde se vide zamor nosača i neujednačena karoserijska krutost.
+
+Krovni panel se pregledava bez sile: proveravaju se dihtunzi, bravice, odvodni kanali, prtljažnik, obloga krova i miris kabine. Na dizalici se pregledaju pod, pragovi, zadnji nosači, rubovi, kočioni vodovi, izduv i tačke podizanja. VIN, računi i dostupnost potrošnih i specifičnih delova treba da budu potvrđeni pre kapare, jer retki plastični ili krovni elementi ne rešavaju se lako samo opštim servisom.
+
+Nastavi kada je kupe suv, konstrukcija zdrava, motor miran i kompletan krov funkcionalan. Pregovaraj za jednu potrošnu stavku sa jasnim predračunom; odustani kada vlaga, korozija poda i nedostajući krovni delovi dolaze zajedno. Retkost vredi samo kada je kompletna i održiva.
+TEXT,
+                'highlights' => ['Proveri hladan start, motor, kvačilo, menjač, hlađenje, trap i kočenje.', 'Krovni panel, dihtunzi, bravice, odvodi i obloga krova moraju biti suvi i kompletni.', 'Na dizalici pregledaj pod, pragove, nosače, kočione vodove, izduv i tačke podizanja.'],
+                'tags' => ['Nissan 100NX', 'kupe', 'krovni panel', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Nissan 100NX: šta proveriti', 'meta_description' => 'Vodič za polovni Nissan 100NX: krovni panel, dihtunzi, motor, podvozje, korozija, delovi i servisna istorija.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#164e63', '#22d3ee', '#ecfeff'],
+            ],
+            [
+                'title' => 'Nalepnica pritiska guma na polovnom autu: kada mali podatak traži proveru vrata, točkova i opreme',
+                'slug' => 'nalepnica-pritiska-guma-na-polovnom-autu-kada-mali-podatak-trazi-proveru-vrata-tockova-i-opreme',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nalepnica sa propisanim pritiskom guma može otkriti neodgovarajuće točkove, tragove rada na vratima ili nedostajuću opremu, pa je treba povezati sa širim pregledom.',
+                'content' => <<<'TEXT'
+Nalepnica sa propisanim pritiskom guma, najčešće na okviru vrata, poklopcu rezervoara ili u uputstvu, deluje kao nevažan detalj. Ona ipak povezuje fabričku specifikaciju točkova, dimenzije pneumatika i stanje mesta na kome je zalepljena. Izbledela ili zamenjena nalepnica nije dokaz štete, ali neujednačen lak, trag lepka ili pogrešne informacije zahtevaju pregled vrata, pragova i konkretne konfiguracije vozila.
+
+Pregled počinje poređenjem dimenzija sa nalepnice, oznaka na gumama, felni i rezervnog točka kada postoji. Treba proveriti da li su sve četiri gume iste ili smisleno uparene po osovinama, da li imaju ravnomerno habanje i odgovarajući indeks nosivosti i brzine. Pritisak se meri hladan, a signal sistema za nadzor pritiska proverava se kroz instrument tablu i dijagnostiku kada vozilo tu opremu ima.
+
+Nalaz se zatim povezuje sa šarkama vrata, vijcima, zazorima, dihtunzima, pragom i unutrašnjom oblogom bez skidanja delova. Tragovi ponovnog lakiranja, pomereni vijci ili vlaga ne znače sami po sebi havariju, ali traže objašnjenje kroz račun, fotografiju ili stručni pregled. Različite dimenzije točkova, neodgovarajuće gume ili ponovljena upozorenja sistema mogu otvoriti trošak koji je veći od same nalepnice.
+
+Nastavi kada specifikacija, točkovi i tragovi na okviru vrata daju istu priču. Pregovaraj za komplet guma ili jednu potvrđenu korekciju senzora; odustani kada se nejasna limarija, nepravilne gume i aktivne greške sistema pojavljuju zajedno. Mali podatak vredi kao početak provere, ne kao samostalna presuda.
+TEXT,
+                'highlights' => ['Uporedi nalepnicu sa dimenzijom, indeksom i stanjem svake gume, felne i rezervnog točka.', 'Izmeri hladan pritisak i proveri upozorenje sistema za nadzor pritiska kada postoji.', 'Poveži tragove lepka ili laka sa šarkama, vijcima, zazorima, dihtunzima i pragom vrata.'],
+                'tags' => ['pritisak guma', 'točkovi', 'vrata', 'TPMS', 'provera vozila'],
+                'meta_title' => 'Nalepnica pritiska guma: šta proveriti', 'meta_description' => 'Kako proveriti nalepnicu pritiska guma: specifikacija pneumatika, felne, TPMS, okvir vrata, prag i tragovi popravke.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#713f12', '#fbbf24', '#fffbeb'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Portugala: kada sunce i niža cena traže proveru klime, limarije i papira',
+                'slug' => 'uvoz-auta-iz-portugala-kada-sunce-i-niza-cena-traze-proveru-klime-limarije-i-papira',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Auto iz Portugala može izgledati privlačno zbog klime i ponude, ali servisna istorija, stanje klime, limarija, transport, dokumentacija i ukupna računica traže proveru.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Portugala može privući kombinacijom blaže klime, manje izloženosti zimskom putu i oglasne cene koja deluje niže od domaće. To nije zamena za proveru konkretnog vozila. Sunce, obalna vlaga, gradske relacije i duži transport stvaraju drugačiju sliku rizika, pa VIN, poreklo i stvarno stanje moraju biti jasni pre nego što cena postane odlučujući argument.
+
+Dokumentacija treba da poveže portugalsku registraciju, vlasnički sled, odjavu, servisne račune, tehničke preglede i izvoznu dokumentaciju sa istim VIN-om. Potrebno je proveriti broj ključeva, uputstva, kodove opreme i eventualne zapise o šteti. Praznina u istoriji, nejasan posrednik ili nepovezana faktura traže dodatnu proveru; udaljenost tržišta nije razlog da se prihvati slabiji dokaz.
+
+Tehnički pregled obuhvata rad klime pri različitim režimima, stanje ventilatora, kompresora i kabinskog filtera, kao i lak, zaptivke, rubove vrata, podvozje i kočione vodove. Vozila sa obale mogu imati tragove soli, vlage ili izbledele plastike, dok intenzivne gradske relacije ostavljaju habanje na kvačilu, kočnicama i trapu. Probna vožnja, dijagnostika i pregled na dizalici daju stvarnu sliku uz fotografije oglasa.
+
+Nastavi kada dokumenti, klima, karoserija i mehanika potvrđuju istu istoriju, a ukupan iznos i posle transporta, dažbina, registracije i prvog servisa ostaje razuman. Pregovaraj za jednu potvrđenu potrošnu stavku; odustani kada istorija, limarija ili klima ostanu neobjašnjene. Portugal je poreklo, ne garancija stanja.
+TEXT,
+                'highlights' => ['Poveži VIN sa registracijom, odjavom, vlasničkim sledom, servisima, tehničkim pregledima i izvozom.', 'Proveri klimu, ventilator, kompresor, zaptivke, lak, podvozje i kočione vodove.', 'U ukupnu cenu uključi transport, dažbine, registraciju, prvi servis i potvrđene radove.'],
+                'tags' => ['uvoz iz Portugala', 'uvoz auta', 'klima', 'servisna istorija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Portugala: šta proveriti', 'meta_description' => 'Analiza uvoza auta iz Portugala: VIN, dokumentacija, klima, limarija, podvozje, transport, dažbine i ukupna računica.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#4ade80', '#f0fdf4'],
+            ],
         ];
     }
 

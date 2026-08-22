@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.138] - 2026-08-22
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota Starlet versus Mazda 121, used Hyundai Coupé and Nissan 100NX buying guidance, tire-pressure-label inspection, and Portuguese import due diligence.
+
 ## [0.1.137] - 2026-08-20
 
 ### Added
