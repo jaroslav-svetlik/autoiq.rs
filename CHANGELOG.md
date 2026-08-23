@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.139] - 2026-08-23
+
+### Added
+
+- Added five non-duplicate production blog articles covering Chrysler PT Cruiser versus Mitsubishi Colt CZC, used Lancia Lybra and SsangYong Kyron buying guidance, door-drain inspection, and temporary-export-plate due diligence.
+
 ## [0.1.138] - 2026-08-22
 
 ### Added

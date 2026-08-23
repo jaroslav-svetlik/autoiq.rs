@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(445, $posts);
+        $this->assertCount(450, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(102, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(103, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'chrysler-pt-cruiser-ili-mitsubishi-colt-czc-stil-kada-krov-i-delovi-moraju-dokazati-racunicu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-lancia-lybra-limuzina-koja-mora-dokazati-elektroniku-limariju-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-ssangyong-kyron-suv-koji-mora-dokazati-pogon-sasiju-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'odvodni-cepovi-vrata-na-polovnom-autu-kada-mali-otvor-trazi-proveru-korozije-i-vlage'));
+        $this->assertTrue($posts->contains('slug', 'auto-sa-privremenim-izvoznim-tablicama-kada-brz-prelaz-granice-trazi-potpunu-proveru-papira'));
         $this->assertTrue($posts->contains('slug', 'toyota-starlet-ili-mazda-121-mali-klasik-kada-jednostavnost-mora-dokazati-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-hyundai-coupe-kupe-koji-mora-dokazati-limariju-motor-i-stvarni-trosak-stila'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-100nx-mali-kupe-koji-mora-dokazati-krov-podvozje-i-dostupnost-delova'));

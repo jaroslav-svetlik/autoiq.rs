@@ -11832,6 +11832,101 @@ TEXT,
                 'meta_title' => 'Uvoz auta iz Portugala: šta proveriti', 'meta_description' => 'Analiza uvoza auta iz Portugala: VIN, dokumentacija, klima, limarija, podvozje, transport, dažbine i ukupna računica.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#4ade80', '#f0fdf4'],
             ],
+            [
+                'title' => 'Chrysler PT Cruiser ili Mitsubishi Colt CZC: stil kada krov i delovi moraju dokazati računicu',
+                'slug' => 'chrysler-pt-cruiser-ili-mitsubishi-colt-czc-stil-kada-krov-i-delovi-moraju-dokazati-racunicu',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Chrysler PT Cruiser i Mitsubishi Colt CZC nude upečatljiv izgled, ali stanje krova, limarije, mehanike i realna dostupnost delova odlučuju da li stil ima održivu cenu.',
+                'content' => <<<'TEXT'
+Chrysler PT Cruiser i Mitsubishi Colt CZC privlače pažnju drugačijim pristupom polovnom automobilu: PT Cruiser nosi retro karoseriju i praktičniju kabinu, dok Colt CZC nudi mali kupe-kabriolet sa čvrstim sklopivim krovom. Nijedan ne treba birati samo po izgledu. Oglas mora pokazati da oblik, oprema i cena odgovaraju stvarnoj nameni, dostupnosti delova i budžetu za prvi servis.
+
+Kod PT Cruisera pregled počinje hladnim startom, radom motora, hlađenjem, menjačem, kvačilom ili automatikom, klimom i električnim komandama. Kod Colta CZC obavezno se proverava kompletan ciklus krova: bravice, senzori, hidraulika ili motorni pogon, dihtunzi i odvod vode moraju raditi bez zastajkivanja. Probna vožnja kod oba modela treba da potvrdi miran trap, pravac, kočenje i odsustvo vibracija.
+
+Na dizalici su važni pod, pragovi, rubovi blatobrana, nosači vešanja, curenja i stanje kočionih vodova. Kod Colta se pregledaju prostor prtljažnika, obloga krova i tragovi vlage; kod PT Cruisera karoserijski zazori, instalacija i stanje enterijera govore koliko je automobil bio održavan. VIN, računi i prethodno potvrđena nabavka specifičnih delova daju meru rizika koju fotografije ne mogu pokazati.
+
+Nastavi sa PT Cruiserom kada praktičnost, motor i limarija imaju jasnu istoriju, a sa Coltom CZC kada je krov suv, kompletan i dokazano funkcionalan. Pregovaraj za jednu potvrđenu potrošnu stavku. Odustani kada krov, korozija, elektrika ili delovi ostanu na obećanju; upečatljiv polovnjak ne sme trošiti rezervu namenjenu sigurnom održavanju.
+TEXT,
+                'highlights' => ['Kod PT Cruisera proveri motor, hlađenje, menjač, klimu, elektriku i stanje karoserije.', 'Kod Colta CZC krov mora proći ceo ciklus bez greške, vlage, zapinjanja ili improvizovanih popravki.', 'Pre kapare potvrdi pod, pragove, trap, dokumentaciju i nabavku specifičnih delova.'],
+                'tags' => ['Chrysler PT Cruiser', 'Mitsubishi Colt CZC', 'kabriolet', 'retki modeli', 'poređenje modela'],
+                'meta_title' => 'PT Cruiser ili Mitsubishi Colt CZC: šta proveriti', 'meta_description' => 'Poređenje polovnih Chrysler PT Cruiser i Mitsubishi Colt CZC: motor, krov, korozija, trap, delovi, dokumentacija i početna računica.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#3b1d2f', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Polovni Lancia Lybra: limuzina koja mora dokazati elektroniku, limariju i miran servis',
+                'slug' => 'polovni-lancia-lybra-limuzina-koja-mora-dokazati-elektroniku-limariju-i-miran-servis',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Lancia Lybra nudi komfor i karakter za skroman novac, ali elektronika, limarija, motor, trap i dostupnost delova moraju imati proverljivo pokriće.',
+                'content' => <<<'TEXT'
+Lancia Lybra dolazi u obzir kada komforna limuzina ili karavan treba da ponudi više karaktera od uobičajenog porodičnog polovnjaka. Niska cena i bogata oprema nisu dovoljan razlog za odluku, jer godine povećavaju važnost svake električne komande, rashladnog sistema i limarijskog detalja. Dobar primerak mora objasniti održavanje pre nego što iznenadi opremom ili enterijerom.
+
+Tehnički pregled počinje hladnim startom, stabilnim radom motora, temperaturom, kvačilom, menjačem i odzivom pri umerenom ubrzanju. Potrebno je proveriti klimu, ventilator, instrumente, centralno zaključavanje, podizače stakala, svetla i rad svake komande. Probna vožnja preko neravnina i pri kočenju treba da potvrdi miran trap, pravilan smer i odsustvo vibracija ili poruka greške.
+
+Na dizalici se pregledaju pragovi, pod, rubovi blatobrana, nosači vešanja, kočioni vodovi, izduv i eventualna curenja. VIN i računi za redovan i veliki servis moraju imati logičan odnos sa stanjem volana, pedala, sedišta i oglašenom kilometražom. Pre kapare treba proveriti lokalnu nabavku elektronskih, karoserijskih i enterijerskih delova, a ne samo cenu potrošnog materijala.
+
+Nastavi kada motor, elektronika, limarija i dokumentacija potvrđuju istu urednu istoriju. Pregovaraj za jednu potvrđenu potrošnu stavku sa predračunom. Odustani kada više električnih kvarova, korozija i nejasni računi dolaze zajedno; komfor tada postaje odloženi trošak, ne prednost.
+TEXT,
+                'highlights' => ['Proveri hladan start, hlađenje, kvačilo, menjač, trap, kočenje i probnu vožnju.', 'Isprobaj klimu, ventilator, instrumente, brave, podizače, svetla i svaku električnu komandu.', 'Na dizalici pregledaj pragove, pod, rubove, nosače, vodove, izduv i curenja.'],
+                'tags' => ['Lancia Lybra', 'limuzina', 'elektronika', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Lancia Lybra: šta proveriti', 'meta_description' => 'Vodič za kupovinu polovnog Lancia Lybra: motor, elektronika, limarija, trap, klima, servisna istorija, delovi i troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#312e81', '#a78bfa', '#f5f3ff'],
+            ],
+            [
+                'title' => 'Polovni SsangYong Kyron: SUV koji mora dokazati pogon, šasiju i stvarnu namenu',
+                'slug' => 'polovni-ssangyong-kyron-suv-koji-mora-dokazati-pogon-sasiju-i-stvarnu-namenu',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'SsangYong Kyron može ponuditi pogon i prostor za manje novca, ali šasija, prenos, automatik, korozija i servisna podrška moraju biti pregledani pre odluke.',
+                'content' => <<<'TEXT'
+SsangYong Kyron može delovati kao povoljan ulazak u veći SUV sa pogonom, prostorom i opremom. Takva ponuda ima smisla samo kada je stvarna namena jasna: asfalt, sneg, prikolica ili lakši teren ostavljaju različite tragove na pogonu, šasiji i automatskom menjaču. Oznaka SUV nije dokaz da je svaki primerak spreman za isti posao niti da je ranije korišćenje bilo blago.
+
+Tehnička provera obuhvata hladan start, ravnomeran rad motora, turbinu kod dizela, temperaturu, automatik ili kvačilo i rad svih režima pogona. Na bezbednoj podlozi proveravaju se uključivanje pogona, odsustvo udaraca i upozorenja na instrument tabli. Probna vožnja mora pokazati stabilan pravac, mirno kočenje, tih trap i promene stepena prenosa bez trzaja ili kašnjenja.
+
+Pregled na dizalici je obavezan: proveravaju se šasija, pod, nosači, pragovi, diferencijali, kardansko vratilo, curenja, zaštite, kočioni vodovi i gume. VIN, računi za ulja u prenosu i menjaču, kao i dokaz o radovima na trapu ili pogonu, daju kontekst za nalaz. Pre odluke treba potvrditi servis koji poznaje model i rokove za specifične delove.
+
+Nastavi kada su pogon, šasija, motor i dokumentacija mirni i proverljivi, a namena odgovara stvarnoj potrebi. Pregovaraj za jednu izmerenu potrošnu stavku. Odustani kada se zvukovi iz prenosa, korozija šasije, curenja i nejasna servisna istorija pojave zajedno; povoljna cena tada ne pokriva rizik.
+TEXT,
+                'highlights' => ['Proveri hladan start, turbinu, temperaturu, automatik ili kvačilo i sve režime pogona.', 'Probna vožnja mora potvrditi pravac, kočenje, trap i promene stepena prenosa bez trzaja.', 'Na dizalici pregledaj šasiju, prenos, kardansko vratilo, diferencijale, curenja, vodove i gume.'],
+                'tags' => ['SsangYong Kyron', 'SUV', '4x4', 'šasija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni SsangYong Kyron: šta proveriti', 'meta_description' => 'Vodič za kupovinu polovnog SsangYong Kyron: motor, 4x4 pogon, automatik, šasija, korozija, trap, servis i delovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#84cc16', '#f7fee7'],
+            ],
+            [
+                'title' => 'Odvodni čepovi vrata na polovnom autu: kada mali otvor traži proveru korozije i vlage',
+                'slug' => 'odvodni-cepovi-vrata-na-polovnom-autu-kada-mali-otvor-trazi-proveru-korozije-i-vlage',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Odvodni čepovi i otvori na dnu vrata pomažu da voda izađe iz karoserije; zapušen otvor, rđa ili tragovi silikona traže pregled vrata, pragova i kabine.',
+                'content' => <<<'TEXT'
+Odvodni čepovi i mali otvori na dnu vrata ostaju van pogleda dok se automobil ne pregleda pažljivo. Njihova uloga je da vlaga iz unutrašnjosti vrata izađe pre nego što ošteti lim, instalaciju ili oblogu. Nedostajući čep nije sam po sebi dokaz loše popravke, ali zapušen otvor, rđa, svež silikon ili voda u vratima menjaju tok pregleda.
+
+Vrata se otvaraju i zatvaraju bez sile, zatim se proveravaju donja ivica, otvori, gumene zaštite, dihtunzi, zazori, tragovi laka i miris kabine. Voda ne treba da se zadržava, a unutrašnja obloga ne sme pokazivati vlagu, deformaciju ili koroziju na vijcima. Podizači stakala, zvučnici i centralno zaključavanje proveravaju se jer vlaga može zahvatiti i električne komponente.
+
+Nalaz se povezuje sa pragovima, šarkama, donjim rubovima blatobrana, patosnicama i podom vozila. Na dizalici se pregledaju tačke podizanja, zaštita poda i tragovi ranijih limarskih radova. Račun za zamenu vrata ili popravku oštećenja ima vrednost samo kada objašnjava zazore, lak i sadašnje stanje bez novih nejasnoća.
+
+Nastavi kada su otvori prohodni, vrata suva, lim zdrav i elektronika uredna. Pregovaraj za jedan čep, dihtung ili čišćenje sa jasnom procenom. Odustani kada se voda, rđa, loši zazori i improvizovana zaptivanja pojavljuju zajedno; mali otvor tada otkriva veći problem.
+TEXT,
+                'highlights' => ['Proveri donju ivicu vrata, prohodnost otvora, čepove, dihtunge, zazore, lak i tragove silikona.', 'Isprobaj podizače, zvučnike i centralno zaključavanje, a unutrašnju oblogu proveri na vlagu i deformacije.', 'Poveži stanje vrata sa pragovima, šarkama, patosnicama, podom i tačkama podizanja.'],
+                'tags' => ['odvodni čepovi vrata', 'vlaga', 'korozija', 'limarija', 'provera vozila'],
+                'meta_title' => 'Odvodni čepovi vrata: šta proveriti', 'meta_description' => 'Kako proveriti odvodne čepove vrata polovnog auta: voda, korozija, dihtunzi, limarija, elektronika, pragovi i tragovi popravke.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#0f3d4c', '#2dd4bf', '#f0fdfa'],
+            ],
+            [
+                'title' => 'Auto sa privremenim izvoznim tablicama: kada brz prelaz granice traži potpunu proveru papira',
+                'slug' => 'auto-sa-privremenim-izvoznim-tablicama-kada-brz-prelaz-granice-trazi-potpunu-proveru-papira',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Privremene izvozne tablice mogu pratiti uredan transport vozila, ali datum važenja, osiguranje, VIN, odjava i kontinuitet dokumentacije moraju biti proverljivi.',
+                'content' => <<<'TEXT'
+Auto sa privremenim izvoznim tablicama može izgledati kao sveža i jednostavna prilika: vozilo je stiglo nedavno, papiri su pri ruci, a put od prethodnog tržišta do domaće registracije deluje kratak. Tablice same ne potvrđuju istoriju niti stanje. One samo označavaju administrativni korak, pa svaki datum, pečat i broj dokumenta mora imati vezu sa konkretnim VIN-om i vlasničkim sledom.
+
+Pre odluke proveravaju se saobraćajna dozvola, potvrda o odjavi, izvozni dokument, datum i teritorija važenja tablica, dokaz o osiguranju, kupoprodajni trag i identitet izvoznika. VIN na vozilu, staklu i dokumentima mora biti isti, bez nejasnih dopisivanja ili prekida u istoriji. Ako je u priči posrednik, njegova uloga i datum preuzimanja moraju biti jasni pre bilo kakve kapare.
+
+Administrativna provera ne zamenjuje tehničku: na vozilu se pregledaju limarija, gume, trap, kočnice, podvozje, klima i dijagnostika, a probna vožnja se radi samo uz važeće i odgovarajuće uslove. U ukupnu računicu ulaze registracija, dažbine, prevod dokumenata, prvi servis i svi potvrđeni radovi. Kratak rok tablica nije razlog da se pregled skrati niti da se odluka donese pod pritiskom.
+
+Nastavi kada dokumenti i VIN daju neprekinutu priču, tablice su važeće, a pregled potvrđuje stanje i realnu računicu. Pregovaraj za jednu jasno procenjenu stavku. Odustani kada rokovi, vlasništvo, osiguranje ili identitet vozila ostanu nejasni; brz prelaz granice nije zamena za dokazivo poreklo.
+TEXT,
+                'highlights' => ['Poveži VIN sa saobraćajnom dozvolom, odjavom, izvoznim dokumentom, osiguranjem i kupoprodajnim sledom.', 'Proveri datum, teritoriju važenja tablica, izvoznika i svaku ulogu posrednika pre kapare.', 'U računicu uključi registraciju, dažbine, prevod, prvi servis i potvrđene tehničke radove.'],
+                'tags' => ['privremene izvozne tablice', 'uvoz auta', 'dokumentacija', 'VIN', 'analiza tržišta'],
+                'meta_title' => 'Privremene izvozne tablice: šta proveriti', 'meta_description' => 'Kako proveriti auto sa privremenim izvoznim tablicama: VIN, odjava, osiguranje, dokumentacija, rokovi, registracija i ukupna cena.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
+            ],
         ];
     }
 
