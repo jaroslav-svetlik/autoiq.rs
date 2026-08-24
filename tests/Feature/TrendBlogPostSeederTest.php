@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(450, $posts);
+        $this->assertCount(455, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(103, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(104, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'suzuki-x-90-ili-daihatsu-copen-mali-kabriolet-kada-retkost-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-feroza-terenac-koji-mora-dokazati-sasiju-pogon-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chrysler-neon-limuzina-koja-mora-dokazati-motor-limariju-i-dostupnost-delova'));
+        $this->assertTrue($posts->contains('slug', 'etiketa-sigurnosnog-pojasa-na-polovnom-autu-kada-mali-datum-trazi-proveru-bezbednosti-i-kabine'));
+        $this->assertTrue($posts->contains('slug', 'vozilo-iz-operativnog-lizinga-kada-redovni-servisi-traze-proveru-radne-proslosti-i-ugovora'));
         $this->assertTrue($posts->contains('slug', 'chrysler-pt-cruiser-ili-mitsubishi-colt-czc-stil-kada-krov-i-delovi-moraju-dokazati-racunicu'));
         $this->assertTrue($posts->contains('slug', 'polovni-lancia-lybra-limuzina-koja-mora-dokazati-elektroniku-limariju-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-ssangyong-kyron-suv-koji-mora-dokazati-pogon-sasiju-i-stvarnu-namenu'));

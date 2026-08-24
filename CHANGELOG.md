@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.140] - 2026-08-24
+
+### Added
+
+- Added five non-duplicate production blog articles covering Suzuki X-90 versus Daihatsu Copen, used Daihatsu Feroza and Chrysler Neon buying guidance, seat-belt-label inspection, and operational-leasing vehicle due diligence.
+
 ## [0.1.139] - 2026-08-23
 
 ### Added

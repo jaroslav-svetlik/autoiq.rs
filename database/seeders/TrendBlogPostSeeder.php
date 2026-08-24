@@ -11927,6 +11927,101 @@ TEXT,
                 'meta_title' => 'Privremene izvozne tablice: šta proveriti', 'meta_description' => 'Kako proveriti auto sa privremenim izvoznim tablicama: VIN, odjava, osiguranje, dokumentacija, rokovi, registracija i ukupna cena.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
             ],
+            [
+                'title' => 'Suzuki X-90 ili Daihatsu Copen: mali kabriolet kada retkost mora dokazati stanje',
+                'slug' => 'suzuki-x-90-ili-daihatsu-copen-mali-kabriolet-kada-retkost-mora-dokazati-stanje',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Suzuki X-90 i Daihatsu Copen nude neobičan otvoreni automobil, ali krov, limarija, podvozje, delovi i jasna servisna istorija odlučuju da li retkost ima smisla.',
+                'content' => <<<'TEXT'
+Suzuki X-90 i Daihatsu Copen pripadaju malom delu tržišta na kome oblik i retkost lako potisnu osnovnu računicu. X-90 je viši i robusnije zamišljen dvosed sa uklonjivim panelima krova, dok je Copen mali roadster sa sklopivim krovom i ograničenim prostorom. Pre odluke treba utvrditi da li konkretan automobil zaista rešava željenu vikend-namenu i da li ostavlja dovoljno rezerve za održavanje retkog modela.
+
+Tehnički pregled kod X-90 obuhvata hladan start, rad motora, menjač, kvačilo, stanje pogona i potpunost krovnih panela, bravica i dihtunga. Kod Copena se krov otvara i zatvara više puta, bez zastoja, upozorenja, vlage ili neuobičajenih zvukova; zatim se proveravaju motor, turbo kod odgovarajuće verzije, hlađenje, klima i električne komande. Probna vožnja mora potvrditi pravac, kočenje, trap i odsustvo vibracija.
+
+Na dizalici se pregledaju pragovi, pod, tačke dizanja, rubovi blatobrana, nosači vešanja, curenja, kočioni vodovi i tragovi popravke posle udara. Kod oba modela treba proveriti odvod vode, stanje obloge krova i nabavku specifičnih karoserijskih, krovnih i električnih delova pre kapare. VIN, računi i fotografije ranijih radova moraju objasniti svaku razliku u laku, zazorima i opremi.
+
+Nastavi sa X-90 kada su pogon, limarija i krovni elementi kompletni, odnosno sa Copenom kada krov radi mirno, kabina je suva, a servis je proverljiv. Pregovaraj za jednu izmerenu potrošnu stavku. Odustani kada korozija, nekompletan krov, nedostupni delovi i nejasna istorija dolaze zajedno; retkost tada nije prednost nego ograničenje.
+TEXT,
+                'highlights' => ['Kod X-90 proveri pogon, komplet krovnih panela, bravice, dihtunge i stanje podvozja.', 'Kod Copena krov mora proći više ciklusa bez zastoja, vlage, poruka greške ili improvizovanih popravki.', 'Pre kapare potvrdi VIN, limariju, odvod vode, račune i dobavljivost specifičnih delova.'],
+                'tags' => ['Suzuki X-90', 'Daihatsu Copen', 'kabriolet', 'retki modeli', 'poređenje modela'],
+                'meta_title' => 'Suzuki X-90 ili Daihatsu Copen: šta proveriti', 'meta_description' => 'Poređenje polovnih Suzuki X-90 i Daihatsu Copen: krov, limarija, motor, podvozje, delovi, servisna istorija i odluka pre kupovine.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#312e81', '#f59e0b', '#fffbeb'],
+            ],
+            [
+                'title' => 'Polovni Daihatsu Feroza: terenac koji mora dokazati šasiju, pogon i miran servis',
+                'slug' => 'polovni-daihatsu-feroza-terenac-koji-mora-dokazati-sasiju-pogon-i-miran-servis',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Daihatsu Feroza može biti jednostavan mali terenac, ali šasija, korozija, pogon, hlađenje i dostupnost delova moraju imati proverljivo pokriće pre kupovine.',
+                'content' => <<<'TEXT'
+Daihatsu Feroza ima smisla samo kada je namena jasna: povremeni makadam, vikendica ili lagan teren traže drugačiji automobil od svakodnevnog putovanja autoputem. Mala dimenzija i jednostavna mehanika ne znače da su godine bez posledica. Cena oglasa mora obuhvatiti stanje šasije, pogona, karoserije i realnu mogućnost nabavke delova, a ne samo privlačnu oznaku terenca.
+
+Pregled počinje hladnim startom, stabilnim radom motora, temperaturom, menjačem, kvačilom i radom svih režima pogona na bezbednoj podlozi. Probna vožnja proverava pravac, kočenje, mirnoću trapa i odsustvo udaraca iz prenosa. Posebnu pažnju traže zvukovi pri punom zakretanju, uključivanju pogona i prelasku preko neravnina, jer nejasan mehanički zvuk ne treba pokrivati pretpostavkom da je karakterističan za stariji terenac.
+
+Pregled na dizalici je presudan: šasija, pod, nosači karoserije, pragovi, diferencijali, kardansko vratilo, kočioni vodovi, rezervoar i tačke vešanja moraju biti čisti od kritične korozije i improvizovanih varova. VIN i računi za hlađenje, kočnice, ulja u prenosu i radove na šasiji daju kontekst za nalaz. Pre kapare treba potvrditi lokalnu nabavku potrošnih i specifičnih delova.
+
+Nastavi kada šasija, pogon, motor i dokumentacija potvrđuju istu urednu istoriju. Pregovaraj za jednu jasnu potrošnu stavku sa predračunom. Odustani kada korozija šasije, curenja, zvukovi iz prenosa i nedostupni delovi ostanu bez objašnjenja; tada mala početna cena ne čuva budžet.
+TEXT,
+                'highlights' => ['Proveri hladan start, temperaturu, menjač, kvačilo i rad svih režima pogona na bezbednoj podlozi.', 'Probna vožnja mora otkriti zvukove iz prenosa, ponašanje pri punom zakretanju, kočenje i trap.', 'Na dizalici pregledaj šasiju, nosače, pragove, diferencijale, kardansko vratilo, vodove i rezervoar.'],
+                'tags' => ['Daihatsu Feroza', 'terenac', '4x4', 'šasija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Daihatsu Feroza: šta proveriti', 'meta_description' => 'Vodič za polovni Daihatsu Feroza: šasija, 4x4 pogon, motor, korozija, trap, kočioni vodovi, delovi i servisna istorija.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#84cc16', '#f7fee7'],
+            ],
+            [
+                'title' => 'Polovni Chrysler Neon: limuzina koja mora dokazati motor, limariju i dostupnost delova',
+                'slug' => 'polovni-chrysler-neon-limuzina-koja-mora-dokazati-motor-limariju-i-dostupnost-delova',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Chrysler Neon može ponuditi jednostavnu limuzinu za skroman novac, ali motor, hlađenje, limarija, trap i dobavljivost delova moraju biti provereni pre odluke.',
+                'content' => <<<'TEXT'
+Chrysler Neon se pojavljuje kao retka, pristupačna limuzina čija cena lako stvori utisak da je odluka jednostavna. Takav primerak ima smisla samo ako stanje nadjača retkost: motor, rashladni sistem, limarija i servisna logistika moraju imati jasnu i proverljivu priču. Oprema, očuvan enterijer i niska cifra na oglasu ne mogu zameniti pregled starije mehanike.
+
+Tehnička provera obuhvata hladan start, ujednačen ler, temperaturu, ventilator, curenja, kvačilo ili automatski menjač i odziv pri umerenom ubrzanju. Potrebno je isprobati klimu, svetla, instrumente, centralno zaključavanje i podizače stakala, a probna vožnja mora pokazati pravilan smer, miran trap i kočenje bez povlačenja ili vibracija. Svaka lampica upozorenja traži dijagnostiku pre pregovora.
+
+Na dizalici se pregledaju pragovi, pod, rubovi blatobrana, nosači vešanja, kočioni vodovi, izduv i mesta mogućeg curenja. VIN, računi i stanje volana, pedala i sedišta treba da daju istu sliku o kilometraži i održavanju. Pre kapare se proverava ponuda karoserijskih, električnih i mehaničkih delova, uključujući rokove isporuke i servis koji model prihvata bez improvizacije.
+
+Nastavi kada motor, hlađenje, limarija i dokumentacija imaju logičan kontinuitet. Pregovaraj za jednu potvrđenu potrošnu stavku. Odustani kada se pregrevanje, korozija, električni kvarovi i nejasna nabavka delova pojave zajedno; niska cena tada samo odlaže prvi veliki račun.
+TEXT,
+                'highlights' => ['Proveri hladan start, temperaturu, ventilator, curenja, kvačilo ili automatik i odziv motora.', 'Isprobaj klimu, instrumente, brave, podizače, svetla i uradi dijagnostiku svih lampica upozorenja.', 'Na dizalici pregledaj pragove, pod, rubove, trap, kočione vodove, izduv i curenja; zatim potvrdi delove.'],
+                'tags' => ['Chrysler Neon', 'limuzina', 'hlađenje', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chrysler Neon: šta proveriti', 'meta_description' => 'Vodič za polovni Chrysler Neon: motor, hlađenje, menjač, limarija, trap, elektronika, delovi, servisna istorija i troškovi.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#7f1d1d', '#fb7185', '#fff1f2'],
+            ],
+            [
+                'title' => 'Etiketa sigurnosnog pojasa na polovnom autu: kada mali datum traži proveru bezbednosti i kabine',
+                'slug' => 'etiketa-sigurnosnog-pojasa-na-polovnom-autu-kada-mali-datum-trazi-proveru-bezbednosti-i-kabine',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Etiketa na sigurnosnom pojasu može pomoći da se razume starost i poreklo sklopa, ali datum, mehanizam, kopča, airbag sistem i kabina moraju se proveravati kao celina.',
+                'content' => <<<'TEXT'
+Etiketa na sigurnosnom pojasu obično nosi podatke o proizvođaču i vremenu proizvodnje sklopa. Ona nije samostalan dokaz da je vozilo bilo bez nezgode niti da je pojas originalan, ali postaje važan trag kada se datum ili oznaka ne uklapaju u godište vozila i stanje kabine. Pregled se zato vodi od tog malog podatka ka kompletnom bezbednosnom sistemu, bez rastavljanja ili improvizovanog testiranja.
+
+Svaki pojas se izvlači i vraća ravnomerno, bez zasecanja, uvrtanja, oštećenih vlakana, fleka, mirisa vlage ili sporog namotavanja. Proveravaju se kopča, upozorenje na instrument tabli, visina gornjeg oslonca gde postoji i obloge stubova oko mehanizma. Razlika u etiketi može imati uredno objašnjenje kroz račun za zamenu, ali odsustvo dokumentacije zahteva širi pregled umesto brzog zaključka.
+
+Nalaz se povezuje sa airbag lampicom, dijagnostikom, stanjem volana, table, sedišta, kopči, obloga krova i zazora vrata. Na stručnom pregledu proveravaju se tragovi aktiviranja zatezača, nestručne zamene, popravke instalacije i limarijski radovi oko stubova. Bezbednosni sklopovi se ne rastavljaju na licu mesta i ne prihvata se ugašena lampica kao dovoljan dokaz ispravnosti.
+
+Nastavi kada etikete, rad pojaseva, dijagnostika i stanje kabine daju usklađenu priču. Pregovaraj samo za jasno dokumentovanu manju stavku. Odustani kada oštećeni pojasevi, nejasne oznake, airbag greške i tragovi udarca ostanu bez stručnog objašnjenja; bezbednost nema prostor za pretpostavku.
+TEXT,
+                'highlights' => ['Proveri da se svaki pojas izvlači i vraća ravnomerno, bez zasecanja, uvrtanja, oštećenih vlakana ili sporog namotavanja.', 'Poveži etiketu sa godištem vozila, računom za eventualnu zamenu, kopčom, upozorenjem i oblogama stubova.', 'Za razlike u oznakama uradi dijagnostiku i stručni pregled airbag sistema, zatezača, instalacije i limarije.'],
+                'tags' => ['sigurnosni pojas', 'airbag', 'etiketa pojasa', 'bezbednost', 'provera vozila'],
+                'meta_title' => 'Etiketa sigurnosnog pojasa: šta proveriti', 'meta_description' => 'Kako proveriti etiketu sigurnosnog pojasa polovnog auta: datum, mehanizam, kopča, airbag, zatezači, kabina i tragovi udara.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#0f172a', '#38bdf8', '#f0f9ff'],
+            ],
+            [
+                'title' => 'Vozilo iz operativnog lizinga: kada redovni servisi traže proveru radne prošlosti i ugovora',
+                'slug' => 'vozilo-iz-operativnog-lizinga-kada-redovni-servisi-traze-proveru-radne-proslosti-i-ugovora',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vozilo iz operativnog lizinga može imati uredne servise, ali radna namena, kilometraža, zapisnici o štetama, vraćanje vozila i dokumentacija odlučuju da li cena ima pokriće.',
+                'content' => <<<'TEXT'
+Vozilo iz operativnog lizinga može privući pažnju redovnim servisima, poznatim periodom korišćenja i jasno označenim poreklom. Ipak, ugovoreni servisni ritam ne govori sam po sebi koliko je automobil radio kratke relacije, autoput, gradsku dostavu ili službene obaveze. Ponuda ima smisla tek kada se istorija rada, kilometraža, stanje kabine i dokumentacija vraćanja vozila mogu povezati u jednu proverljivu celinu.
+
+Pre odluke proveravaju se VIN, saobraćajna dozvola, sled vlasništva, servisni računi, zapisnici o redovnim pregledima, evidentirane štete i dokumentacija o razduženju. Potrebno je utvrditi da li su radovi navedeni kao održavanje ili posledica oštećenja, kao i da li je kilometraža dosledna terminima servisa i stanju volana, sedišta, pedala, gepeka i točkova. Svaki prekid u dokumentima zahteva pisano objašnjenje.
+
+Nezavisan tehnički pregled obuhvata limariju, zazore, gume, kočnice, trap, podvozje, dijagnostiku, klimu i probnu vožnju. U ukupnu računicu ulaze prvi servis, potrošni materijal, mogući radovi posle intenzivne upotrebe, registracija i trošak prenosa. Uredno održavanje je prednost samo ako se potvrdi i stvarnim stanjem, bez oslanjanja na oznaku lizinga kao garanciju.
+
+Nastavi kada ugovorena istorija, dokumenti i pregled potvrđuju isti uredan primerak. Pregovaraj za jednu izmerenu potrošnu stavku ili jasno evidentiran rad. Odustani kada su štete, kilometraža, korišćenje ili razduženje vozila nejasni; redovni servisi tada nisu dovoljni da ponište radnu prošlost.
+TEXT,
+                'highlights' => ['Proveri VIN, sled vlasništva, servisne račune, zapisnike o pregledima, štetama i razduženju vozila.', 'Poveži kilometražu sa terminima servisa, habanjem kabine, gepeka, pedala, točkova i stanjem limarije.', 'U nezavisni pregled uključi dijagnostiku, trap, kočnice, gume, podvozje, klimu, probnu vožnju i prvi servis.'],
+                'tags' => ['operativni lizing', 'službeno vozilo', 'servisna istorija', 'kilometraža', 'analiza tržišta'],
+                'meta_title' => 'Vozilo iz operativnog lizinga: šta proveriti', 'meta_description' => 'Kako proveriti vozilo iz operativnog lizinga: ugovor, VIN, servisi, štete, kilometraža, radna prošlost, pregled i ukupna računica.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#3f3f46', '#eab308', '#fefce8'],
+            ],
         ];
     }
 
