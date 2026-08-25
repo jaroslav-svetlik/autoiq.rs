@@ -12022,6 +12022,101 @@ TEXT,
                 'meta_title' => 'Vozilo iz operativnog lizinga: šta proveriti', 'meta_description' => 'Kako proveriti vozilo iz operativnog lizinga: ugovor, VIN, servisi, štete, kilometraža, radna prošlost, pregled i ukupna računica.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#3f3f46', '#eab308', '#fefce8'],
             ],
+            [
+                'title' => 'Kia Cadenza ili Hyundai Azera: velika limuzina kada komfor mora dokazati servis i računicu',
+                'slug' => 'kia-cadenza-ili-hyundai-azera-velika-limuzina-kada-komfor-mora-dokazati-servis-i-racunicu',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Kia Cadenza i Hyundai Azera nude mnogo komfora za novac, ali automatik, elektronika, limarija i dobavljivost delova odlučuju da li velika limuzina ima smisla.',
+                'content' => <<<'TEXT'
+Kia Cadenza i Hyundai Azera ulaze u uži izbor kada velika limuzina treba da ponudi tišinu, prostor i bogatu opremu bez premijum oznake. Cadenza češće deluje savremenije i formalnije, dok Azera može privući jednostavnijom ponudom i nižom početnom cenom. Nijedan model ne treba posmatrati kao jeftinu zamenu za skuplju klasu: odluka zavisi od verzije motora, istorije održavanja i rezerve koja ostaje posle kupovine.
+
+Tehnički pregled počinje hladnim startom, mirnim radom motora, stabilnom temperaturom i probnom vožnjom na kojoj automatski menjač mora menjati bez kašnjenja, trzaja ili poruka greške. Kod oba modela proveravaju se klima, grejanje sedišta, električna podešavanja, kamera, senzori, multimedija, instrumenti i sve funkcije koje opravdavaju nivo opreme. Dijagnostika je obavezna kada se pojavi i najmanja lampica ili nepravilan rad komande.
+
+Na dizalici se pregledaju pragovi, pod, nosači vešanja, kočnice, gume, curenja i tragovi udara, a merenje laka povezuje se sa zazorima i računima za radove. VIN i servisna istorija moraju objasniti intervale ulja, rashladni sistem, menjač i prethodne popravke. Pre kapare se potvrđuju cena i rok za specifične elektronske, karoserijske i pogonske delove, jer velika limuzina bez logistike delova nema realnu računicu.
+
+Nastavi sa onim modelom čiji su motor, menjač, elektronika i dokumentacija najusklađeniji sa cenom. Pregovaraj za jednu potvrđenu potrošnu stavku ili uredno evidentiran servis. Odustani kada nejasna istorija, kvarovi opreme, udarci i nedostupni delovi dolaze zajedno; komfor tada postaje obaveza umesto prednosti.
+TEXT,
+                'highlights' => ['Na hladnom startu i vožnji proveri motor, temperaturu, automatik, kočenje, pravac i sve poruke na instrumentima.', 'Isprobaj klimu, sedišta, kamere, senzore, multimediju i električne komande; svaku nepravilnost poveži sa dijagnostikom.', 'Pre kapare potvrdi VIN, račune, lak, podvozje i nabavku specifičnih elektronskih, karoserijskih i pogonskih delova.'],
+                'tags' => ['Kia Cadenza', 'Hyundai Azera', 'velika limuzina', 'automatik', 'poređenje modela'],
+                'meta_title' => 'Kia Cadenza ili Hyundai Azera: šta proveriti', 'meta_description' => 'Poređenje polovnih Kia Cadenza i Hyundai Azera: motor, automatik, elektronika, limarija, podvozje, delovi, servis i ukupna računica.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#1e3a5f', '#67a8d8', '#eff6ff'],
+            ],
+            [
+                'title' => 'Polovni Opel Sintra: veliki van koji mora dokazati prostor, motor i bezbednu osnovu',
+                'slug' => 'polovni-opel-sintra-veliki-van-koji-mora-dokazati-prostor-motor-i-bezbednu-osnovu',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Opel Sintra nudi veliki prostor za mali novac, ali starost, korozija, motor, hlađenje, kočnice i dostupnost delova moraju imati proverljivo pokriće.',
+                'content' => <<<'TEXT'
+Opel Sintra ima smisla samo kada je potreba za velikim prostorom stvarna, a niska početna cena ne istiskuje trošak prvog uređenja. Stariji van može privući rasporedom sedišta i velikim otvorom prtljažnika, ali godine menjaju prioritet: stanje karoserije, osnove i mehanike važnije je od broja pretinaca ili očuvane presvlake. Namena, broj sedišta i stvarna nosivost proveravaju se pre nego što oblik vozila postane presudan argument.
+
+Pregled obuhvata hladan start, stabilan ler, temperaturu, ventilator, curenja, kvačilo ili automatski menjač i rad motora pod opterećenjem. Otvaraju se sva vrata, pomeraju i zaključavaju sedišta, proveravaju pojasevi, brave, klima i ventilacija pozadi. Probna vožnja mora obuhvatiti kočenje, upravljanje, zvukove trapa i ponašanje pri punom opterećenju, bez prihvatanja lupanja kao normalne osobine starijeg vana.
+
+Na dizalici se gledaju pragovi, pod, rubovi, tačke dizanja, nosači vešanja, kočioni vodovi, rezervoar, izduv i svako mesto sa svežim premazom ili varom. VIN, računi i stanje volana, pedala i šina sedišta treba da daju istu sliku o održavanju. Pre kapare potrebno je potvrditi lokalnu nabavku delova za hlađenje, kočnice, trap, stakla i unutrašnje mehanizme.
+
+Nastavi kada karoserija, motor, hlađenje, sedišta i dokumentacija daju urednu celinu. Pregovaraj za jedan poznat potrošni rad sa predračunom. Odustani kada korozija, pregrevanje, istrošeni mehanizmi i nejasna nabavka delova ostanu bez objašnjenja; prostor tada ne rešava trošak.
+TEXT,
+                'highlights' => ['Proveri hladan start, temperaturu, ventilator, curenja, menjač i rad motora pod opterećenjem.', 'Otvori sva vrata, pomeri i zaključaj sedišta, pa isprobaj pojaseve, brave, klimu i ventilaciju pozadi.', 'Na dizalici pregledaj pragove, pod, rubove, tačke dizanja, trap, kočione vodove, rezervoar, izduv i tragove varenja.'],
+                'tags' => ['Opel Sintra', 'porodični van', 'korozija', 'hlađenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Opel Sintra: šta proveriti', 'meta_description' => 'Vodič za polovni Opel Sintra: motor, hlađenje, sedišta, korozija, podvozje, kočnice, delovi, servis i realan trošak.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#3f6212', '#a3e635', '#f7fee7'],
+            ],
+            [
+                'title' => 'Polovni Mitsubishi Space Wagon: porodični van koji mora dokazati pogon, limariju i servis',
+                'slug' => 'polovni-mitsubishi-space-wagon-porodicni-van-koji-mora-dokazati-pogon-limariju-i-servis',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mitsubishi Space Wagon može ponuditi praktičnu kabinu i pouzdanu osnovu, ali motor, menjač, korozija, sedišta i dostupnost delova traže temeljnu proveru.',
+                'content' => <<<'TEXT'
+Mitsubishi Space Wagon može biti zanimljiv izbor kada su promenljiva kabina i porodični prostor važniji od modernog izgleda. Retka ponuda na tržištu znači da stanje konkretnog primerka ima veću težinu od reputacije marke: uredan motor i kompletna kabina vrede više od niske cene bez računa. Pre odluke treba utvrditi da li broj sedišta, prtljažnik i ukupne dimenzije zaista odgovaraju svakodnevnoj nameni.
+
+Tehnička provera počinje hladnim startom, ujednačenim radom, temperaturom, rashladnim sistemom, kvačilom ili automatskim menjačem i odzivom pri umerenim ubrzanjima. Sedišta se pomeraju, preklapaju i zaključavaju bez prevelike sile, dok se proveravaju pojasevi, klizači, brave, klima i ventilacija. Na probnoj vožnji se slušaju trap i pogonski sklop, a kočenje i upravljanje moraju ostati mirni i pod opterećenjem.
+
+Pregled na dizalici obuhvata pragove, pod, rubove blatobrana, nosače, kočione vodove, izduv, curenja i stanje guma. VIN, računi, kilometraža i habanje kabine moraju biti međusobno usklađeni, posebno kod vozila koja su godinama prevozila više putnika ili teret. Pre kapare proveravaju se izvori i rokovi za specifične karoserijske, staklarske i unutrašnje delove, kao i servis koji poznaje model.
+
+Nastavi kada motor, menjač, karoserija, sedišta i istorija daju proverljivu celinu. Pregovaraj za jednu izmerenu stavku uz realan rok nabavke. Odustani kada korozija, problemi sa hlađenjem, istrošena kabina i nejasna logistika delova ostanu zajedno; praktičnost ne nadoknađuje neizvestan servis.
+TEXT,
+                'highlights' => ['Proveri hladan start, temperaturu, rashladni sistem, kvačilo ili automatik i odziv motora pri umerenim ubrzanjima.', 'Pomeraj, preklapaj i zaključaj sva sedišta; proveri pojaseve, klizače, brave, klimu i ventilaciju.', 'Na dizalici pregledaj pragove, pod, rubove, nosače, kočione vodove, izduv, curenja i gume, pa potvrdi delove.'],
+                'tags' => ['Mitsubishi Space Wagon', 'porodični van', 'sedišta', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mitsubishi Space Wagon: šta proveriti', 'meta_description' => 'Vodič za polovni Mitsubishi Space Wagon: motor, menjač, sedišta, limarija, podvozje, hlađenje, delovi, servis i rizici.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#7c2d12', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Vođice naslona za glavu na polovnom autu: kada mali otvor traži proveru sedišta i bezbednosti',
+                'slug' => 'vodjice-naslona-za-glavu-na-polovnom-autu-kada-mali-otvor-trazi-proveru-sedista-i-bezbednosti',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vođice naslona za glavu mogu otkriti neusklađeno sedište, lom plastike, vlagu ili nestručnu popravku, pa se proveravaju zajedno sa zaključavanjem i airbag sistemom.',
+                'content' => <<<'TEXT'
+Vođice naslona za glavu su mali, često zanemaren deo sedišta, ali mogu pokazati da li su presvlaka, ram i mehanizam ostali u skladnoj celini. Puknuta plastika, različita boja, prevelik zazor ili naslon koji ne zadržava položaj ne dokazuju sami po sebi udarac, ali menjaju tok pregleda. Najpre se porede levo i desno sedište, zadnji red gde postoji i opšte stanje kabine bez rastavljanja naslona.
+
+Naslon se podiže, spušta i zaključava ravnomerno, bez naglog propadanja, krivog položaja ili metalnog zvuka iz unutrašnjosti sedišta. Proveravaju se tkanina, šavovi, bočni oslonci, ručice za podešavanje, položaj sedišta i rad pojasa, dok se za aktivna sedišta proveravaju grejanje, električna podešavanja i upozorenja na tabli. Ne koristi se sila niti se izvlači deo koji ima zaključavanje bez uputstva konkretnog modela.
+
+Nalaz se povezuje sa dijagnostikom airbag sistema, stanjem podnih šina, konektorima ispod sedišta, oblogama stubova i tragovima vode u kabini. Stručan pregled treba da objasni svaku vidljivu zamenu, nepravilno zaključavanje ili grešku sistema bočnog airbaga. Različita vođica može imati uredan razlog kroz račun za popravku, ali bez dokumentacije ne treba pretpostaviti da je bezbednosni sklop ispravan.
+
+Nastavi kada nasloni, sedišta, pojasevi, dijagnostika i kabina daju usklađenu sliku. Pregovaraj za jedan jasno procenjen plastični ili presvlakaški rad. Odustani kada se nejasne zamene, labavo zaključavanje, airbag greške i tragovi udara pojave zajedno; bezbednosna oprema ne prihvata nagađanje.
+TEXT,
+                'highlights' => ['Uporedi vođice, položaj i zaključavanje svih dostupnih naslona za glavu bez rastavljanja ili primene sile.', 'Proveri tkaninu, šavove, bočne oslonce, položaj sedišta, pojas i sve električne funkcije gde postoje.', 'Poveži nalaz sa dijagnostikom airbaga, šinama, konektorima, oblogama i mogućim tragovima vode ili popravke.'],
+                'tags' => ['naslon za glavu', 'sedišta', 'airbag', 'bezbednost', 'provera vozila'],
+                'meta_title' => 'Vođice naslona za glavu: šta proveriti', 'meta_description' => 'Kako proveriti vođice naslona za glavu polovnog auta: sedišta, zaključavanje, pojasevi, airbag, šine, konektori i tragovi popravke.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#312e81', '#a78bfa', '#f5f3ff'],
+            ],
+            [
+                'title' => 'Auto u komisionoj prodaji: kada izloženi primerak traži proveru vlasništva, mandata i stanja',
+                'slug' => 'auto-u-komisionoj-prodaji-kada-izlozeni-primerak-trazi-proveru-vlasnistva-mandata-i-stanja',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Komisiona prodaja može pojednostaviti ponudu polovnjaka, ali vlasništvo, ovlašćenje za prodaju, VIN, dokumentacija, depozit i nezavisan pregled moraju biti jasni pre odluke.',
+                'content' => <<<'TEXT'
+Auto u komisionoj prodaji može izgledati urednije od privatnog oglasa jer je izložen, opran i administrativno posredovan. Ipak, izložbeni prostor ne govori koje je lice upisano u dokumentima, ko prima novac, koje je ovlašćenje dato posredniku i da li se istorija vozila može proveriti. Odluka počinje povezivanjem konkretnog automobila, VIN-a i dokumentacije, a ne oslanjanjem na naziv prodajnog mesta.
+
+Pre kapare proveravaju se saobraćajna dozvola, identitet upisanog lica, ugovor ili pisano ovlašćenje za komisiju, VIN, servisni računi, datum prijema vozila i uslovi depozita. Svaka stavka mora navesti potpisnika, račun za uplatu i uslove pod kojima se depozit vraća ako nezavisan pregled pronađe bitan nedostatak. Nejasan mandat ili pritisak da se dokumenti pregledaju tek posle uplate prekidaju postupak.
+
+Administrativni red ne zamenjuje tehnički pregled: mere se lak i zazori, proveravaju gume, kočnice, trap, podvozje, dijagnostika, klima i probna vožnja u dozvoljenim uslovima. Stanje kabine, ključeva, točkova i servisnih intervala mora imati logiku sa kilometražom i dokumentima. U ukupnu računicu ulaze prvi servis, registracija, prenos, potvrđeni radovi i uslovi reklamacije koji stoje u dokumentu, ne samo usmeno obećanje.
+
+Nastavi kada vlasništvo, ovlašćenje, VIN, ugovor i pregled potvrđuju istu priču. Pregovaraj za jednu pisano evidentiranu stavku sa jasnim troškom. Odustani kada novac, potpisnik, depozit, istorija ili tehnički nalaz ostanu nejasni; uredan salon nije zamena za proverljiv posao.
+TEXT,
+                'highlights' => ['Poveži saobraćajnu dozvolu, upisano lice, ovlašćenje za komisiju, VIN, ugovor i servisne račune.', 'Pre depozita proveri potpisnika, račun za uplatu, uslove povraćaja depozita i nalaz koji prekida kupovinu.', 'Uradi nezavisan pregled laka, podvozja, dijagnostike, klime i probne vožnje, pa uračunaj prenos i prvi servis.'],
+                'tags' => ['komisiona prodaja', 'vlasništvo vozila', 'VIN', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Auto u komisionoj prodaji: šta proveriti', 'meta_description' => 'Kako proveriti auto u komisionoj prodaji: vlasništvo, ovlašćenje, VIN, depozit, ugovor, servis, pregled i uslovi prenosa.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#134e4a', '#2dd4bf', '#f0fdfa'],
+            ],
         ];
     }
 

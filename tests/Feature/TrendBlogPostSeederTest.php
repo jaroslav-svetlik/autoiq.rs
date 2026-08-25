@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(455, $posts);
+        $this->assertCount(460, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(104, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(105, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'kia-cadenza-ili-hyundai-azera-velika-limuzina-kada-komfor-mora-dokazati-servis-i-racunicu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-opel-sintra-veliki-van-koji-mora-dokazati-prostor-motor-i-bezbednu-osnovu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-space-wagon-porodicni-van-koji-mora-dokazati-pogon-limariju-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'vodjice-naslona-za-glavu-na-polovnom-autu-kada-mali-otvor-trazi-proveru-sedista-i-bezbednosti'));
+        $this->assertTrue($posts->contains('slug', 'auto-u-komisionoj-prodaji-kada-izlozeni-primerak-trazi-proveru-vlasnistva-mandata-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'suzuki-x-90-ili-daihatsu-copen-mali-kabriolet-kada-retkost-mora-dokazati-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-feroza-terenac-koji-mora-dokazati-sasiju-pogon-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-chrysler-neon-limuzina-koja-mora-dokazati-motor-limariju-i-dostupnost-delova'));
