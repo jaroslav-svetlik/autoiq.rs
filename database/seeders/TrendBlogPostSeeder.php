@@ -12117,6 +12117,101 @@ TEXT,
                 'meta_title' => 'Auto u komisionoj prodaji: šta proveriti', 'meta_description' => 'Kako proveriti auto u komisionoj prodaji: vlasništvo, ovlašćenje, VIN, depozit, ugovor, servis, pregled i uslovi prenosa.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#134e4a', '#2dd4bf', '#f0fdfa'],
             ],
+            [
+                'title' => 'Fiat Albea ili SEAT Cordoba: limuzina kada veliki gepek ne sme sakriti stanje',
+                'slug' => 'fiat-albea-ili-seat-cordoba-limuzina-kada-veliki-gepek-ne-sme-sakriti-stanje',
+                'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Fiat Albea i SEAT Cordoba nude klasičan gepek za ograničen budžet, ali motor, limarija, trap i proverljiva istorija odlučuju koja limuzina ima smisla.',
+                'content' => <<<'TEXT'
+Fiat Albea i SEAT Cordoba pojavljuju se u istoj računici kada je potreban pristupačan automobil sa odvojenim prtljažnikom za svakodnevne obaveze i povremeni put. Albea naginje jednostavnijoj, praktičnoj postavci, dok Cordoba može delovati čvršće i ozbiljnije, naročito u bogatije opremljenim verzijama. Veliki gepek nije dovoljan razlog za odluku: stanje konkretnog primerka, motor i urednost papira imaju veću vrednost od oblika karoserije.
+
+Tehnički pregled počinje hladnim startom, ravnomernim radom motora, kvačilom, menjačem, temperaturom i probnom vožnjom preko neravnina. Kod Albee se proveravaju motor, hlađenje, trap i tragovi gradske upotrebe, dok Cordoba zahteva istu pažnju prema tačnoj verziji motora, elektronici, turbini kod dizela i radu klime. U oba slučaja kočenje, upravljanje, svetla, podizači i instrument tabla moraju raditi bez kašnjenja, lampica ili objašnjenja da je sitnica normalna.
+
+Na dizalici se pregledaju pragovi, rubovi blatobrana, pod, tačke dizanja, nosači vešanja, kočioni vodovi, izduv i curenja. Merenje laka i zazori panela povezuju se sa datumima stakala, stanjem branika i računima za eventualne radove. VIN, servisni računi i habanje volana, pedala, sedišta i gepeka moraju dati logičnu sliku kilometraže; pre kapare potvrđuju se cena delova i prvi servis.
+
+Nastavi sa automobilom čiji su motor, limarija, podvozje i dokumentacija najusklađeniji sa cenom. Pregovaraj za jednu izmerenu potrošnu stavku sa predračunom. Odustani kada korozija, nejasna kilometraža, greške elektronike i tragovi udara ostanu bez računa; gepek tada ne nadoknađuje rizik.
+TEXT,
+                'highlights' => ['Na hladnom startu i vožnji proveri motor, temperaturu, kvačilo, menjač, trap, kočenje, upravljanje i sve lampice.', 'Na dizalici pregledaj pragove, rubove, pod, tačke dizanja, nosače, kočione vodove, izduv, curenja i tragove udara.', 'Poveži VIN, račune, lak, zazore, stakla i habanje kabine, pa pre kapare potvrdi prvi servis i cenu delova.'],
+                'tags' => ['Fiat Albea', 'SEAT Cordoba', 'limuzina', 'veliki gepek', 'poređenje modela'],
+                'meta_title' => 'Fiat Albea ili SEAT Cordoba: šta proveriti', 'meta_description' => 'Poređenje polovnih Fiat Albea i SEAT Cordoba: motor, menjač, limarija, trap, klima, gepek, servis, delovi i odluka.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#1e3a5f', '#60a5fa', '#eff6ff'],
+            ],
+            [
+                'title' => 'Polovni Toyota Picnic: porodični van koji mora dokazati prostor, podvozje i servis',
+                'slug' => 'polovni-toyota-picnic-porodicni-van-koji-mora-dokazati-prostor-podvozje-i-servis',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Toyota Picnic može ponuditi sedam sedišta i jednostavnu osnovu, ali godine, korozija, hlađenje, kabina i dostupnost delova moraju imati proverljivo pokriće.',
+                'content' => <<<'TEXT'
+Toyota Picnic ima smisla kada su stvarni prostor, broj sedišta i jednostavnija mehanika važniji od modernog izgleda. Kod ovako starog porodičnog vana niska početna cena nikada ne sme biti jedini argument: kabina, podvozje i servisna istorija moraju pokazati da je vozilo održavano i da raspored sedišta odgovara svakodnevnoj nameni. Očuvana presvlaka nije dokaz stanja ako pod, šine i mehanizmi ostanu neprovereni.
+
+Pregled počinje hladnim startom, stabilnim lerom, radnom temperaturom, ventilatorom i proverom curenja. Na probnoj vožnji motor mora ravnomerno primati gas, kvačilo i menjač menjati bez otpora, a kočenje i upravljanje ostati mirni preko neravnina. Otvaraju se sva vrata, pomeraju i zaključavaju sedišta, proveravaju pojasevi, brave, klima, ventilacija i stanje gepeka; svaki težak ili labav mehanizam traži procenu pre pregovora.
+
+Na dizalici se gledaju pragovi, pod, rubovi, tačke dizanja, nosači vešanja, kočioni vodovi, rezervoar, izduv i svež premaz. VIN, servisni računi, kilometraža i habanje volana, pedala, šina sedišta i točkova moraju se uklapati. Pre kapare potvrđuju se lokalna nabavka stakala, kočnica, delova hlađenja, trapa i specifičnih kabinskih mehanizama, kao i trošak prvog servisa.
+
+Nastavi kada motor, hlađenje, karoserija, sedišta i dokumentacija daju urednu celinu. Pregovaraj za jedan potvrđen potrošni rad uz predračun. Odustani kada korozija, pregrevanje, istrošena kabina i nejasna nabavka delova dolaze zajedno; porodični prostor tada postaje skupa obaveza.
+TEXT,
+                'highlights' => ['Proveri hladan start, temperaturu, ventilator, curenja, kvačilo, menjač, kočenje, upravljanje i rad motora pod opterećenjem.', 'Pomeraj i zaključaj sva sedišta, proveri pojaseve, brave, klimu, ventilaciju, šine i stanje gepeka.', 'Na dizalici pregledaj pragove, pod, rubove, tačke dizanja, trap, vodove, rezervoar i izduv, pa potvrdi delove.'],
+                'tags' => ['Toyota Picnic', 'porodični van', 'sedam sedišta', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Toyota Picnic: šta proveriti', 'meta_description' => 'Vodič za polovni Toyota Picnic: motor, hlađenje, sedišta, korozija, podvozje, kočnice, delovi, servis i računica.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#365314', '#84cc16', '#f7fee7'],
+            ],
+            [
+                'title' => 'Polovni Hyundai Terracan: terenac koji mora dokazati šasiju, pogon i miran servis',
+                'slug' => 'polovni-hyundai-terracan-terenac-koji-mora-dokazati-sasiju-pogon-i-miran-servis',
+                'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Hyundai Terracan može ponuditi pravi terenac za manje novca, ali šasija, 4x4 pogon, korozija, dizel i istorija opterećenja odlučuju da li ima održivu računicu.',
+                'content' => <<<'TEXT'
+Hyundai Terracan privlači ponudom prostora, visine i ozbiljnijeg pogona po ceni koja je često niža od poznatijih terenaca. Takva računica ima smisla samo kada je stvarna namena jasna: loš put, vuča ili potreba za većim vozilom moraju opravdati troškove goriva, registracije i održavanja. Kod primerka koji je radio težak posao stanje šasije i pogona važnije je od spoljašnjeg sjaja ili dodatne opreme.
+
+Tehnička provera počinje hladnim startom, mirnim radom dizela, dimom iz auspuha, temperaturom i proverom curenja. Na sigurnoj podlozi proveravaju se uključivanje pogona, rad reduktora gde postoji, diferencijali, menjač i kvačilo ili automatik bez naglih zvukova, trzaja i lampica. Probna vožnja obuhvata kočenje, pravac, trap, vibracije pri ubrzanju i ponašanje pri punom uglu volana, bez pokušaja terenske vožnje na javnom mestu.
+
+Pregled na dizalici obuhvata šasiju, nosače karoserije, pragove, pod, rezervoar, kočione i gorivne vodove, kardane, manžetne, diferencijale, curenja i tragove varenja. VIN, računi, servisni intervali i habanje vučne kuke, gepeka, kabine i točkova moraju dati istu sliku prethodne upotrebe. Pre kapare proveravaju se cena i rok za delove pogona, hlađenja, kočnica i karoserije, kao i realan prvi servis.
+
+Nastavi kada šasija, pogon, motor i dokumentacija potvrđuju mirnu istoriju. Pregovaraj za jednu jasno izmerenu potrošnu stavku. Odustani kada korozija šasije, problemi sa pogonom, curenja i nejasna radna prošlost stoje zajedno; visok automobil tada nije prednost nego otvoren trošak.
+TEXT,
+                'highlights' => ['Proveri hladan start, dim, temperaturu, curenja, menjač i ponašanje motora bez prihvatanja lampica ili trzaja kao normalnih.', 'Na bezbednom mestu proveri pogon, reduktor gde postoji, diferencijale, kardane, vibracije, kočenje, trap i upravljanje.', 'Na dizalici pregledaj šasiju, nosače, pragove, pod, vodove, rezervoar, manžetne, curenja i tragove varenja, pa potvrdi delove.'],
+                'tags' => ['Hyundai Terracan', 'terenac', '4x4 pogon', 'šasija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Hyundai Terracan: šta proveriti', 'meta_description' => 'Vodič za polovni Hyundai Terracan: dizel, šasija, 4x4 pogon, reduktor, korozija, podvozje, delovi, servis i rizici.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#78350f', '#f59e0b', '#fffbeb'],
+            ],
+            [
+                'title' => 'Nosač fara na polovnom autu: kada mali plastični detalj traži proveru prednjeg dela',
+                'slug' => 'nosac-fara-na-polovnom-autu-kada-mali-plasticni-detalj-trazi-proveru-prednjeg-dela',
+                'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nosač fara može biti mali trag skidanja ili popravke prednjeg dela, pa se svetlo, branik, zazori, nosač hladnjaka i dokumentacija proveravaju kao celina.',
+                'content' => <<<'TEXT'
+Nosač fara je mali plastični ili metalni deo koji drži svetlo u tačnom položaju, ali pukotina, lepak, različit vijak ili prevelik zazor mogu promeniti tok pregleda. Sam nalaz ne dokazuje ozbiljan udarac: far se ponekad skida zbog sijalice, kondenzacije ili uredne manje popravke. Važno je porediti levu i desnu stranu, bez skidanja delova i bez zaključivanja samo na osnovu jednog detalja.
+
+Najpre se proverava da li far ravnomerno naleže uz haubu, krilo i branik, da li su svetlosni snop, dnevna svetla, pokazivači pravca i podešavanje visine ispravni. Zatim se gledaju vijci, plastike, kopče, zazori, datumi stakala i tragovi vlage u kućištu. Različit far ili nosač može imati uredno objašnjenje kroz račun, ali kriv branik, loše naleganje i nejasna optika zahtevaju pregled kompletnog prednjeg dela.
+
+Na stručnom pregledu proveravaju se nosač hladnjaka, vezni lim, hladnjaci, ventilator, brave haube, paneli, dijagnostika i geometrija trapa. Merenje laka na haubi, krilima i braniku povezuje se sa zazorima i eventualnim zapisima o popravci. Ne oslanja se na sjaj plastike ili ugašene lampice, jer skrivena oštećenja mogu uticati na hlađenje, senzore, svetla i ponašanje vozila.
+
+Nastavi kada nosači, farovi, zazori, hlađenje, dijagnostika i dokumentacija daju usklađenu priču. Pregovaraj za jasno procenjen manji rad sa računom. Odustani kada pukotine, lepak, krivi paneli, problemi sa svetlima i neobjašnjeni tragovi udara ostanu zajedno; mali nosač tada upozorava na veći rizik.
+TEXT,
+                'highlights' => ['Uporedi položaj fara, zazore, vijke, kopče i kućišta sa obe strane bez skidanja delova.', 'Proveri svetlosni snop, dnevna svetla, pokazivače, nivelaciju, vlagu u faru, branik, krilo, haubu i datume stakala.', 'Za sumnjiv nalaz uradi stručan pregled nosača hladnjaka, veznog lima, hlađenja, geometrije, laka, dijagnostike i dokumentacije.'],
+                'tags' => ['nosač fara', 'prednji deo', 'limarija', 'svetla', 'provera vozila'],
+                'meta_title' => 'Nosač fara: šta proveriti na polovnom autu', 'meta_description' => 'Kako proveriti nosač fara polovnog auta: svetla, branik, zazori, vezni lim, hlađenje, lak, dijagnostika i tragovi udara.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#312e81', '#818cf8', '#eef2ff'],
+            ],
+            [
+                'title' => 'Nasleđeno vozilo: kada povoljan oglas traži proveru ostavine, vlasništva i stanja',
+                'slug' => 'nasledjeno-vozilo-kada-povoljan-oglas-trazi-proveru-ostavine-vlasnistva-i-stanja',
+                'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nasleđeno vozilo može imati malu kilometražu i urednu kabinu, ali ostavinsko rešenje, pravo raspolaganja, dokumentacija, stajanje i tehničko stanje odlučuju da li je oglas siguran.',
+                'content' => <<<'TEXT'
+Nasleđeno vozilo često izgleda primamljivo zbog male kilometraže, poznate domaće istorije ili cene koja deluje niže od sličnih oglasa. Ipak, duže stajanje, nejasan sled dokumentacije i više lica sa pravom raspolaganja mogu promeniti inače dobru računicu. Odluka počinje proverom da je vozilo zaista obuhvaćeno ostavinskim rešenjem i da lice koje potpisuje ugovor ima jasno pravo da ga proda.
+
+Pre kapare proveravaju se saobraćajna dozvola, ostavinsko rešenje, identitet potpisnika, eventualna punomoć, VIN, polisa, servisni računi, broj ključeva i status registracije. Dokumenti moraju povezati vozilo sa ostavinskim postupkom bez precrtavanja, usmenih obećanja ili pritiska da se novac da pre uvida. Ako više naslednika učestvuje u postupku, potpis i način prenosa moraju biti razjašnjeni u skladu sa važećom dokumentacijom.
+
+Administrativna urednost ne zamenjuje tehnički pregled. Posle stajanja proveravaju se akumulator, gume, kočnice, tečnosti, curenja, gorivo, klima, hlađenje, podvozje, korozija i dijagnostika, a probna vožnja se radi tek kada je vozilo bezbedno za put. Kilometraža se povezuje sa računima, datumima servisa, stanjem kabine i gumama, dok ukupna računica uključuje registraciju, prenos, prvi servis i potvrđene radove.
+
+Nastavi kada ostavinsko rešenje, pravo raspolaganja, VIN, dokumenti i pregled potvrđuju istu priču. Pregovaraj za jedan izmeren trošak nastao zbog stajanja. Odustani kada vlasništvo, potpisi, kilometraža ili tehnički nalaz ostanu nejasni; povoljna cena tada ne smanjuje rizik prenosa ni prvog računa.
+TEXT,
+                'highlights' => ['Poveži saobraćajnu dozvolu, ostavinsko rešenje, potpisnika, eventualnu punomoć, VIN, ključeve, polisu i servisne račune.', 'Pre novca proveri da dokumenti jasno potvrđuju pravo raspolaganja vozilom i uslove prenosa bez oslanjanja na usmena obećanja.', 'Posle stajanja pregledaj akumulator, gume, kočnice, tečnosti, gorivo, hlađenje, klimu, koroziju, dijagnostiku i prvi servis.'],
+                'tags' => ['nasleđeno vozilo', 'ostavinsko rešenje', 'vlasništvo vozila', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Nasleđeno vozilo: šta proveriti pre kupovine', 'meta_description' => 'Kako proveriti nasleđeno vozilo: ostavinsko rešenje, pravo prodaje, VIN, dokumentacija, stajanje, servis, pregled i prenos.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#164e63', '#22d3ee', '#ecfeff'],
+            ],
         ];
     }
 

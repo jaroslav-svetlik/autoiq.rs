@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.142] - 2026-08-26
+
+### Added
+
+- Added five non-duplicate production blog articles covering Fiat Albea versus SEAT Cordoba, used Toyota Picnic and Hyundai Terracan buying guidance, headlight-mount inspection, and inherited-vehicle due diligence.
+
 ## [0.1.141] - 2026-08-25
 
 ### Added

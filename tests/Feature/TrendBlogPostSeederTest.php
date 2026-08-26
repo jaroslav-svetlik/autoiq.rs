@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(460, $posts);
+        $this->assertCount(465, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(105, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(106, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'fiat-albea-ili-seat-cordoba-limuzina-kada-veliki-gepek-ne-sme-sakriti-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-picnic-porodicni-van-koji-mora-dokazati-prostor-podvozje-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-hyundai-terracan-terenac-koji-mora-dokazati-sasiju-pogon-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'nosac-fara-na-polovnom-autu-kada-mali-plasticni-detalj-trazi-proveru-prednjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'nasledjeno-vozilo-kada-povoljan-oglas-trazi-proveru-ostavine-vlasnistva-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'kia-cadenza-ili-hyundai-azera-velika-limuzina-kada-komfor-mora-dokazati-servis-i-racunicu'));
         $this->assertTrue($posts->contains('slug', 'polovni-opel-sintra-veliki-van-koji-mora-dokazati-prostor-motor-i-bezbednu-osnovu'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-space-wagon-porodicni-van-koji-mora-dokazati-pogon-limariju-i-servis'));
