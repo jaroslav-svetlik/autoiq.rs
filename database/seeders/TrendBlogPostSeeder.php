@@ -12212,6 +12212,96 @@ TEXT,
                 'meta_title' => 'Nasleđeno vozilo: šta proveriti pre kupovine', 'meta_description' => 'Kako proveriti nasleđeno vozilo: ostavinsko rešenje, pravo prodaje, VIN, dokumentacija, stajanje, servis, pregled i prenos.',
                 'is_featured' => false, 'published_at' => now(), 'palette' => ['#164e63', '#22d3ee', '#ecfeff'],
             ],
+            [
+                'title' => 'Subaru Tribeca ili Mazda CX-9: veliki SUV kada pogon i prostor traže dokaz o servisu',
+                'slug' => 'subaru-tribeca-ili-mazda-cx-9-veliki-suv-kada-pogon-i-prostor-traze-dokaz-o-servisu', 'category' => 'Poređenje modela', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Subaru Tribeca i Mazda CX-9 nude sedam mesta i veliki benzinac, ali pogon, automatik, korozija, potrošnja i dokaziv servis odlučuju koji SUV ima održivu računicu.',
+                'content' => <<<'TEXT'
+Subaru Tribeca i Mazda CX-9 dolaze u obzir kada su potrebni veliki prostor i dodatna sedišta, a budžet ne prati cenu novijeg SUV-a. Tribeca se izdvaja stalnim pogonom na sva četiri točka, dok CX-9 češće nudi prostraniji raspored. Potrošnja, registracija i održavanje moraju imati smisla pre nego što oprema ili treći red postanu razlog odluke.
+
+Pregled počinje hladnim startom, radnom temperaturom, tečnostima i odsustvom dima ili curenja. Na probnoj vožnji automatik mora menjati mirno, a upravljanje, kočenje i trap ostati tihi. Kod Tribeke se proveravaju pogon i jednake gume, dok CX-9 traži istu pažnju prema automatskom menjaču, hlađenju, klimi, sedištima i elektronici.
+
+Na dizalici se gledaju pragovi, pod, vodovi, izduv, manžetne, curenja i tragovi udarca ili vuče. VIN, računi, intervali ulja, pneumatici i habanje kabine moraju dati istu sliku kilometraže. Pre kapare potvrđuju se prvi servis i rokovi za delove pogona, kočnica, hlađenja i karoserije.
+
+Nastavi sa primerkom čiji motor, menjač, pogon, podvozje i dokumentacija imaju najjasniju celinu. Pregovaraj za jedan potvrđen potrošni rad sa predračunom. Odustani kada trzaji menjača, korozija i nejasni računi stoje zajedno.
+TEXT,
+                'highlights' => ['Uporedi potrebu za prostorom sa troškovima goriva, registracije i prvog servisa.', 'Na vožnji proveri motor, automatik, pogon, trap, kočenje, gume, klimu i elektroniku.', 'Na dizalici pregledaj podvozje i poveži VIN sa računima i habanjem kabine.'],
+                'tags' => ['Subaru Tribeca', 'Mazda CX-9', 'veliki SUV', 'automatski menjač', 'poređenje modela'],
+                'meta_title' => 'Subaru Tribeca ili Mazda CX-9: šta proveriti', 'meta_description' => 'Poređenje polovnih Subaru Tribeca i Mazda CX-9: motor, automatik, pogon, prostor, korozija, servis, delovi i odluka.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#1f2937', '#f97316', '#fff7ed'],
+            ],
+            [
+                'title' => 'Polovni Chevrolet Rezzo: porodični van koji mora dokazati prostor, limariju i delove',
+                'slug' => 'polovni-chevrolet-rezzo-porodicni-van-koji-mora-dokazati-prostor-limariju-i-delove', 'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Chevrolet Rezzo može ponuditi široku kabinu za skroman budžet, ali motor, hlađenje, korozija, sedišta i dostupnost delova moraju biti provereni pre kapare.',
+                'content' => <<<'TEXT'
+Chevrolet Rezzo ima smisla kada su široka kabina i lak ulazak važniji od savremenog izgleda. Takav van često dolazi sa gradskim kilometrima i odlaganim sitnim popravkama, pa početna cena mora uključiti prvi servis i proveru dostupnosti delova.
+
+Pregled počinje hladnim startom, temperaturom, ventilatorom i curenjima. Na vožnji motor mora ravnomerno primati gas, kvačilo i menjač raditi bez otpora, a upravljanje, kočenje i trap ostati tihi. Proveravaju se vrata, stakla, brave, klima, ventilacija, pojasevi i zadnja sedišta.
+
+Na dizalici se pregledaju pragovi, rubovi, pod, tačke dizanja, nosači, kočioni vodovi, izduv i svež premaz. VIN, računi, lak, stakla i habanje kabine moraju se uklapati. Pre kapare potvrđuju se cena delova za hlađenje, kočnice, trap, kvačilo i karoseriju.
+
+Nastavi kada motor, hlađenje, podvozje, kabina i dokumentacija potvrđuju uredno korišćenje. Pregovaraj za jednu izmerenu potrošnu stavku. Odustani kada korozija, pregrevanje i nejasna nabavka delova dolaze zajedno.
+TEXT,
+                'highlights' => ['Proveri hladan start, hlađenje, motor, menjač, trap i kočenje.', 'Isprobaj vrata, stakla, brave, klimu, ventilaciju, pojaseve i zadnja sedišta.', 'Na dizalici pregledaj limariju i potvrdi cenu prvih delova.'],
+                'tags' => ['Chevrolet Rezzo', 'porodični van', 'korozija', 'hlađenje', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Chevrolet Rezzo: šta proveriti', 'meta_description' => 'Vodič za polovni Chevrolet Rezzo: motor, hlađenje, kabina, korozija, trap, kočnice, delovi, servis i računica.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#14532d', '#4ade80', '#f0fdf4'],
+            ],
+            [
+                'title' => 'Polovni Pontiac Vibe: kompakt koji mora dokazati poreklo, limariju i miran servis',
+                'slug' => 'polovni-pontiac-vibe-kompakt-koji-mora-dokazati-poreklo-limariju-i-miran-servis', 'category' => 'Kupovina polovnjaka', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Pontiac Vibe može privući praktičnim oblikom i mehanikom bliskom Toyoti, ali poreklo, homologacija, limarija, motor i dostupnost specifičnih delova zahtevaju strogu proveru.',
+                'content' => <<<'TEXT'
+Pontiac Vibe je redak kompakt čija praktična kabina ne sme sakriti pitanje porekla. Pre odluke mora biti jasno da li su svetla, instrumenti i dokumentacija usklađeni sa registracijom, kao i koji su delovi zajednički, a koji specifični za model.
+
+Provera počinje hladnim startom, radnom temperaturom, uljem i rashladnom tečnošću. Na vožnji motor, menjač, kvačilo, upravljanje, kočenje i trap moraju raditi mirno. Ispituju se klima, svetla, pokazivači, brisači, instrument tabla i tragovi naknadne instalacije.
+
+Na dizalici se gledaju pragovi, pod, rubovi, vodovi, izduv, curenja i tragovi varenja. VIN se poredi sa dokumentima, računima, staklima, lakom i habanjem kabine. Pre kapare potvrđuju se rokovi za svetla, stakla, plastike i električne delove.
+
+Nastavi kada poreklo, papiri, motor, limarija i delovi daju jasnu celinu. Pregovaraj za jednu potvrđenu stavku sa predračunom. Odustani kada dokumenti, svetla, korozija i servisna istorija ostanu neusklađeni.
+TEXT,
+                'highlights' => ['Poveži tržište porekla, VIN, dokumente, svetla i status registracije.', 'Proveri motor, menjač, trap, kočenje, klimu, svetla i dijagnostiku.', 'Potvrdi dostupnost specifičnih svetala, stakala, plastika i električnih delova.'],
+                'tags' => ['Pontiac Vibe', 'retki kompakt', 'poreklo vozila', 'limarija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Pontiac Vibe: šta proveriti', 'meta_description' => 'Vodič za polovni Pontiac Vibe: poreklo, dokumentacija, motor, limarija, svetla, trap, delovi, servis i odluka.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#4c1d95', '#c084fc', '#faf5ff'],
+            ],
+            [
+                'title' => 'Nosač motora na polovnom autu: kada vibracija traži proveru pogona i podvozja',
+                'slug' => 'nosac-motora-na-polovnom-autu-kada-vibracija-trazi-proveru-pogona-i-podvozja', 'category' => 'Provera vozila', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nosač motora može objasniti vibraciju ili udar pri promeni opterećenja, ali motor, menjač, izduv, poluosovine i tragovi udarca proveravaju se kao povezana celina.',
+                'content' => <<<'TEXT'
+Nosač motora drži pogonski sklop i prigušuje pokrete, pa vibracija na leru ili udar pri polasku zaslužuju pažnju. Istrošen nosač nije automatski razlog za prekid, ali sličan simptom mogu dati motor, menjač, izduv ili raniji udar.
+
+Na hladnom i zagrejanom motoru posmatraju se ler, vibracije kroz volan, promena pri uključenju klime i zvuk pri blagom polasku. Na vožnji se proveravaju polazak, brzine, dodavanje gasa, kočenje motorom i neravnine. Snažan udar, metalni zvuk ili lampica vode na dijagnostiku.
+
+Na dizalici se pregledaju nosači motora i menjača, gumeni ulošci, poluosovine, manžetne, izduv, pomoćni ram, curenja i tragovi varenja. Proveravaju se i zazori prednjih panela, jer je položaj sklopa ponekad promenjen posle popravke.
+
+Nastavi kada je uzrok vibracije potvrđen, ostatak pogona uredan, a cena rada jasna. Pregovaraj za jedan izmeren rad uz predračun. Odustani kada udar, curenje, buka menjača i tragovi udara ostanu zajedno.
+TEXT,
+                'highlights' => ['Uporedi vibracije na hladnom i zagrejanom leru, sa uključenom klimom i pri polasku.', 'Na vožnji proveri polazak, brzine, gas, kočenje motorom, neravnine i lampice.', 'Na dizalici pregledaj nosače, poluosovine, izduv, ram, curenja i tragove popravke.'],
+                'tags' => ['nosač motora', 'vibracije', 'pogon', 'menjač', 'provera vozila'],
+                'meta_title' => 'Nosač motora: šta proveriti na polovnom autu', 'meta_description' => 'Kako proveriti nosač motora polovnog auta: vibracije, pogon, menjač, poluosovine, izduv, curenja, dijagnostika i tragovi udara.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Vozilo iz stečajne mase: kada niska cena traži proveru papira, stajanja i stanja',
+                'slug' => 'vozilo-iz-stecajne-mase-kada-niska-cena-trazi-proveru-papira-stajanja-i-stanja', 'category' => 'Analiza tržišta', 'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Vozilo iz stečajne mase može imati privlačnu cenu, ali pravo raspolaganja, dokumentacija, depozit, stajanje, ključevi i nezavisan pregled odlučuju da li ponuda ima smisla.',
+                'content' => <<<'TEXT'
+Vozilo iz stečajne mase može imati nižu cenu, ali administrativni put i stajanje menjaju računicu. Mora biti jasno ko raspolaže vozilom, po kom aktu, kako se zaključuje ugovor i kada je moguć prenos. Odluka počinje dokumentima, a ne izgledom na placu.
+
+Pre kapare proveravaju se saobraćajna dozvola, VIN, akt o prodaji, ovlašćenje potpisnika, rokovi, depozit, račun za uplatu, ključevi i dokumenti za prenos. Svaka uplata mora imati pisani uslov povraćaja ako pravni ili tehnički nalaz ne odgovara opisu.
+
+Stajanje zahteva nezavisan pregled akumulatora, guma, kočnica, tečnosti, goriva, hlađenja, klime, curenja, podvozja, korozije i dijagnostike. Kilometraža se poredi sa računima, servisima, kabinom i gumama, a računica uključuje prenos, registraciju i prvi servis.
+
+Nastavi kada pravo raspolaganja, VIN, uplata, dokumentacija i pregled potvrđuju istu priču. Pregovaraj za jedan izmeren trošak stajanja. Odustani kada potpisnik, depozit, ključevi, papiri ili tehničko stanje ostanu nejasni.
+TEXT,
+                'highlights' => ['Poveži dozvolu, VIN, akt o prodaji, ovlašćenje, rokove, ključeve i uslove prenosa.', 'Pre uplate proveri račun primaoca i pisane uslove depozita.', 'Zbog stajanja pregledaj akumulator, gume, kočnice, tečnosti, hlađenje, klimu, koroziju i dijagnostiku.'],
+                'tags' => ['stečajna masa', 'dokumentacija', 'vlasništvo vozila', 'stajanje vozila', 'analiza tržišta'],
+                'meta_title' => 'Vozilo iz stečajne mase: šta proveriti', 'meta_description' => 'Kako proveriti vozilo iz stečajne mase: ovlašćenje, VIN, depozit, dokumentacija, stajanje, tehnički pregled, prenos i rizici.',
+                'is_featured' => false, 'published_at' => now(), 'palette' => ['#0f3d4c', '#38bdf8', '#f0f9ff'],
+            ],
         ];
     }
 

@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(465, $posts);
+        $this->assertCount(470, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(106, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(107, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'subaru-tribeca-ili-mazda-cx-9-veliki-suv-kada-pogon-i-prostor-traze-dokaz-o-servisu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-rezzo-porodicni-van-koji-mora-dokazati-prostor-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-pontiac-vibe-kompakt-koji-mora-dokazati-poreklo-limariju-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'nosac-motora-na-polovnom-autu-kada-vibracija-trazi-proveru-pogona-i-podvozja'));
+        $this->assertTrue($posts->contains('slug', 'vozilo-iz-stecajne-mase-kada-niska-cena-trazi-proveru-papira-stajanja-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'fiat-albea-ili-seat-cordoba-limuzina-kada-veliki-gepek-ne-sme-sakriti-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-picnic-porodicni-van-koji-mora-dokazati-prostor-podvozje-i-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-hyundai-terracan-terenac-koji-mora-dokazati-sasiju-pogon-i-miran-servis'));

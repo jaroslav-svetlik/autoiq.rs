@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.143] - 2026-08-27
+
+### Added
+
+- Added five non-duplicate production blog articles covering Subaru Tribeca versus Mazda CX-9, used Chevrolet Rezzo and Pontiac Vibe buying guidance, engine-mount inspection, and liquidation-estate vehicle due diligence.
+
 ## [0.1.142] - 2026-08-26
 
 ### Added
