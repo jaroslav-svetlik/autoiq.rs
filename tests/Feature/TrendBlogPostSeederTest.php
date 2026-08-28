@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(470, $posts);
+        $this->assertCount(475, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(107, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(108, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'hyundai-ix55-ili-kia-mohave-veliki-suv-kada-pogon-i-odrzavanje-traze-jasan-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-cadillac-bls-limuzina-koja-mora-dokazati-poreklo-elektroniku-i-dostupnost-delova'));
+        $this->assertTrue($posts->contains('slug', 'polovni-chrysler-pacifica-porodicni-krosover-koji-mora-dokazati-prostor-automatik-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'poklopac-navoja-za-vucu-na-polovnom-autu-kada-mali-detalj-trazi-proveru-branika-i-prednjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-azerbejdzana-kada-udaljeno-trziste-trazi-proveru-porekla-papira-i-racunice'));
         $this->assertTrue($posts->contains('slug', 'subaru-tribeca-ili-mazda-cx-9-veliki-suv-kada-pogon-i-prostor-traze-dokaz-o-servisu'));
         $this->assertTrue($posts->contains('slug', 'polovni-chevrolet-rezzo-porodicni-van-koji-mora-dokazati-prostor-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-pontiac-vibe-kompakt-koji-mora-dokazati-poreklo-limariju-i-miran-servis'));
