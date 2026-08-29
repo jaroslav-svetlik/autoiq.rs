@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(475, $posts);
+        $this->assertCount(480, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(108, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(109, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'mercedes-citan-ili-ford-tourneo-courier-mali-van-kada-prostor-ne-sme-sakriti-radnu-proslost'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-eclipse-cross-crossover-koji-mora-dokazati-turbo-cvt-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-jimny-terenac-koji-mora-dokazati-sasiju-pogon-i-stvarnu-namenu'));
+        $this->assertTrue($posts->contains('slug', 'leziste-akumulatora-na-polovnom-autu-kada-kiselina-i-korozija-traze-proveru-prednjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-san-marina-kada-mala-zemlja-trazi-proveru-porekla-papira-i-ukupnog-racuna'));
         $this->assertTrue($posts->contains('slug', 'hyundai-ix55-ili-kia-mohave-veliki-suv-kada-pogon-i-odrzavanje-traze-jasan-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-cadillac-bls-limuzina-koja-mora-dokazati-poreklo-elektroniku-i-dostupnost-delova'));
         $this->assertTrue($posts->contains('slug', 'polovni-chrysler-pacifica-porodicni-krosover-koji-mora-dokazati-prostor-automatik-i-servis'));

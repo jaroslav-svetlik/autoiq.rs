@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.145] - 2026-08-29
+
+### Added
+
+- Added five non-duplicate production blog articles covering Mercedes Citan versus Ford Tourneo Courier, used Mitsubishi Eclipse Cross and Suzuki Jimny buying guidance, battery-tray inspection, and San Marino import due diligence.
+
 ## [0.1.144] - 2026-08-28
 
 ### Added
