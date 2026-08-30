@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(480, $posts);
+        $this->assertCount(485, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(109, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(110, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'hyundai-veloster-ili-kia-pro-ceed-kupe-kada-stil-ne-sme-sakriti-servis-i-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-murano-suv-koji-mora-dokazati-cvt-pogon-i-miran-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-volkswagen-phaeton-limuzina-koja-mora-dokazati-vazdusno-ogibljenje-elektroniku-i-racune'));
+        $this->assertTrue($posts->contains('slug', 'sajla-za-otvaranje-haube-na-polovnom-autu-kada-tezak-potez-trazi-proveru-brave-i-prednjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-lihtenstajna-kada-malo-trziste-trazi-proveru-porekla-papira-i-ukupnog-racuna'));
         $this->assertTrue($posts->contains('slug', 'mercedes-citan-ili-ford-tourneo-courier-mali-van-kada-prostor-ne-sme-sakriti-radnu-proslost'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-eclipse-cross-crossover-koji-mora-dokazati-turbo-cvt-i-stvarnu-namenu'));
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-jimny-terenac-koji-mora-dokazati-sasiju-pogon-i-stvarnu-namenu'));
