@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(485, $posts);
+        $this->assertCount(490, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(110, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(111, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'dodge-caliber-ili-honda-element-neobicni-porodicni-auto-kada-oblik-ne-sme-sakriti-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mercedes-r-klasa-porodicni-van-koji-mora-dokazati-ogibljenje-prostor-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-subaru-baja-pikap-koji-mora-dokazati-poreklo-pogon-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'posuda-za-tecnost-brisaca-na-polovnom-autu-kada-mali-poklopac-trazi-proveru-prednjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'vozilo-vraceno-banci-kada-niska-cena-trazi-proveru-papira-stajanja-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'hyundai-veloster-ili-kia-pro-ceed-kupe-kada-stil-ne-sme-sakriti-servis-i-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-murano-suv-koji-mora-dokazati-cvt-pogon-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-volkswagen-phaeton-limuzina-koja-mora-dokazati-vazdusno-ogibljenje-elektroniku-i-racune'));

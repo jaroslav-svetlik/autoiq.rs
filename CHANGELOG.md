@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.147] - 2026-08-31
+
+### Added
+
+- Added five non-duplicate production blog articles covering Dodge Caliber versus Honda Element, used Mercedes R-Class and Subaru Baja buying guidance, washer-fluid-reservoir inspection, and returned-to-bank vehicle due diligence.
+
 ## [0.1.146] - 2026-08-30
 
 ### Added
