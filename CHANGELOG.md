@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.148] - 2026-09-02
+
+### Added
+
+- Added five non-duplicate production blog articles covering Subaru Levorg versus Chery Tiggo 3, used Proton Persona and Great Wall Hover buying guidance, wheel-bolt inspection, and Ukraine import due diligence.
+
 ## [0.1.147] - 2026-08-31
 
 ### Added

@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(490, $posts);
+        $this->assertCount(495, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(111, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(112, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'subaru-levorg-ili-chery-tiggo-3-porodicni-auto-kada-pogon-i-poreklo-traze-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-proton-persona-limuzina-koja-mora-dokazati-poreklo-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-great-wall-hover-terenac-koji-mora-dokazati-sasiju-pogon-i-dostupnost-delova'));
+        $this->assertTrue($posts->contains('slug', 'srafovi-tockova-na-polovnom-autu-kada-mali-metalni-detalj-trazi-proveru-tockova-i-kocnica'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-ukrajine-kada-ruta-papiri-i-stanje-traze-potpunu-proveru'));
         $this->assertTrue($posts->contains('slug', 'dodge-caliber-ili-honda-element-neobicni-porodicni-auto-kada-oblik-ne-sme-sakriti-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-mercedes-r-klasa-porodicni-van-koji-mora-dokazati-ogibljenje-prostor-i-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-subaru-baja-pikap-koji-mora-dokazati-poreklo-pogon-i-limariju'));
