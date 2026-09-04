@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.149] - 2026-09-04
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota bB versus Scion xB, used Hummer H3 and Acura TSX buying guidance, door-striker inspection, and Kazakhstan import due diligence.
+
 ## [0.1.148] - 2026-09-02
 
 ### Added
