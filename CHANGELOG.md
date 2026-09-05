@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.150] - 2026-09-05
+
+### Added
+
+- Added five non-duplicate production blog articles covering Subaru SVX versus Mazda MX-6, used Saab 9-2X and Isuzu VehiCROSS buying guidance, interior rear-view-mirror inspection, and Kyrgyzstan import due diligence.
+
 ## [0.1.149] - 2026-09-04
 
 ### Added

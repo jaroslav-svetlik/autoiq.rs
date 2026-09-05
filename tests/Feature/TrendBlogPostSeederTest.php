@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(500, $posts);
+        $this->assertCount(505, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(113, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(114, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'subaru-svx-ili-mazda-mx-6-kupe-kada-retkost-ne-sme-sakriti-servis-i-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-saab-9-2x-karavan-koji-mora-dokazati-poreklo-pogon-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-isuzu-vehicross-terenac-koji-mora-dokazati-sasiju-pogon-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'unutrasnji-retrovizor-na-polovnom-autu-kada-mali-detalj-trazi-proveru-stakla-kabine-i-bezbednosti'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-kirgistana-kada-udaljena-ruta-trazi-proveru-porekla-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'subaru-levorg-ili-chery-tiggo-3-porodicni-auto-kada-pogon-i-poreklo-traze-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-proton-persona-limuzina-koja-mora-dokazati-poreklo-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-great-wall-hover-terenac-koji-mora-dokazati-sasiju-pogon-i-dostupnost-delova'));
