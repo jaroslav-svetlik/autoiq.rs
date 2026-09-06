@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.151] - 2026-09-06
+
+### Added
+
+- Added five non-duplicate production blog articles covering Dodge Nitro versus Jeep Patriot, used Infiniti EX37 and Chevrolet HHR buying guidance, trunk-weatherstrip inspection, and Uzbekistan import due diligence.
+
 ## [0.1.150] - 2026-09-05
 
 ### Added
