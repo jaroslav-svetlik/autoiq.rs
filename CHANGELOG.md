@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.152] - 2026-09-07
+
+### Added
+
+- Added five non-duplicate production blog articles covering Mazda Verisa versus Daihatsu Cuore, used SsangYong Tivoli and Tata Nano buying guidance, VIN-identification-plate inspection, and Tajikistan import due diligence.
+
 ## [0.1.151] - 2026-09-06
 
 ### Added
