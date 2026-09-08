@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.153] - 2026-09-08
+
+### Added
+
+- Added five non-duplicate production blog articles covering Changan CS35 versus Brilliance V5, used Lifan X60 and Zotye T600 buying guidance, air-conditioner condensate-drain inspection, and Vietnam import due diligence.
+
 ## [0.1.152] - 2026-09-07
 
 ### Added
