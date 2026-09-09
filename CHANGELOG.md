@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.154] - 2026-09-09
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota Opa versus Honda Mobilio, used Nissan Prairie and Mitsubishi Freeca buying guidance, tow-hitch mounting inspection, and Bhutan import due diligence.
+
 ## [0.1.153] - 2026-09-08
 
 ### Added
