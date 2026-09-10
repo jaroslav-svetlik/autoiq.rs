@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(525, $posts);
+        $this->assertCount(530, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(118, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(119, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'honda-crossroad-ili-isuzu-ascender-suv-kada-retkost-trazi-dokaz-o-poreklu-i-pogonu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-aerio-kompakt-koji-mora-dokazati-motor-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-seat-arosa-mali-auto-koji-mora-dokazati-limariju-motor-i-gradsku-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'vodjice-sedista-na-polovnom-autu-kada-montaza-trazi-proveru-poda-i-bezbednosti'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-nepala-kada-planinska-ruta-trazi-proveru-porekla-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'toyota-opa-ili-honda-mobilio-porodicni-auto-kada-prostor-mora-dokazati-poreklo-i-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-prairie-porodicni-van-koji-mora-dokazati-limariju-motor-i-prostor'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-freeca-porodicni-van-koji-mora-dokazati-poreklo-sedista-i-pogon'));
