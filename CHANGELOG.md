@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.156] - 2026-09-11
+
+### Added
+
+- Added five non-duplicate production blog articles covering Honda That’s versus Mitsubishi Toppo, used Toyota Raum and Daihatsu YRV buying guidance, thermostat-housing inspection, and Oman import due diligence.
+
 ## [0.1.155] - 2026-09-10
 
 ### Added
