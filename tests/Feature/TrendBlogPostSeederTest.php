@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(535, $posts);
+        $this->assertCount(540, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(120, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(121, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'suzuki-xbee-ili-daihatsu-thor-mali-prakticni-auto-kada-retkost-trazi-dokaz-o-poreklu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-laputa-mali-auto-koji-mora-dokazati-turbo-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-figaro-klasik-koji-mora-dokazati-limariju-motor-i-bezbednu-osnovu'));
+        $this->assertTrue($posts->contains('slug', 'nosac-opruge-na-polovnom-autu-kada-pukotina-trazi-proveru-trapa-i-korozije'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-jordana-kada-topla-klima-trazi-proveru-hladjenja-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'honda-thats-ili-mitsubishi-toppo-mali-auto-kada-retkost-trazi-dokaz-o-stanju'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-raum-mali-porodicni-auto-koji-mora-dokazati-vrata-motor-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-yrv-mali-turbo-auto-koji-mora-dokazati-motor-prenos-i-delove'));

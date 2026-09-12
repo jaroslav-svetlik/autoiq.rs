@@ -7755,6 +7755,121 @@ TEXT,
                 'published_at' => now(),
                 'palette' => ['#15324a', '#2dd4bf', '#f8fafc'],
             ],
+            [
+                'title' => 'Suzuki XBee ili Daihatsu Thor: mali praktični auto kada retkost traži dokaz o poreklu',
+                'slug' => 'suzuki-xbee-ili-daihatsu-thor-mali-prakticni-auto-kada-retkost-trazi-dokaz-o-poreklu',
+                'category' => 'Poređenje modela',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Suzuki XBee i Daihatsu Thor nude visoku kabinu u malim merama, ali poreklo, specifikacija, klizna vrata, motor, CVT i dostupnost delova odlučuju o održivoj kupovini.',
+                'content' => <<<'TEXT'
+Suzuki XBee i Daihatsu Thor pripadaju retkim malim automobilima sa visokom kabinom i praktičnim ulaskom. XBee je više usmeren na izgled i povišen položaj, dok Thor stavlja naglasak na unutrašnji prostor i klizna vrata. Pre nego što oblik ili oprema postanu razlog odluke, VIN mora potvrditi tržište porekla, specifikaciju, status registracije i dostupnost delova.
+
+Kod oba modela pregled počinje hladnim startom, stabilnim lerom, temperaturom i radom ventilatora. Na probnoj vožnji CVT mora kretati i ubrzavati bez zadrške, a upravljanje, kočenje, trap, klima, kamere i električne komande moraju raditi bez poruka na tabli. Kod Thora se posebno proveravaju klizna vrata, šine, senzori i ravnomernost zatvaranja, dok XBee traži isti pregled pogona i karoserijskih dodataka.
+
+Na dizalici se gledaju pragovi, pod, tačke dizanja, curenja, manžetne, kočioni vodovi, izduv i tragovi udara. Datumi stakala, zazori, lak, habanje kabine, dijagnostika i računi moraju pratiti prijavljenu kilometražu. Pre kapare potvrđuju se rok i cena za svetla, stakla, module, gume, delove CVT-a i mehanizme vrata.
+
+Nastavi sa primerkom čiji su poreklo, dokumentacija, CVT, vrata i podvozje proverljivi. Pregovaraj za jednu potvrđenu potrošnu stavku sa predračunom. Odustani kada nejasna specifikacija, lampice, problematična vrata i neizvesna nabavka delova ostanu zajedno.
+TEXT,
+                'highlights' => ['Poveži VIN, tržišnu specifikaciju, status registracije i dostupnost delova pre procene opreme.', 'Na vožnji proveri hladan start, CVT, kočenje, trap, klimu, kamere i sve električne komande.', 'Kod Thora proveri klizna vrata, šine, senzore i zazore, a kod oba modela podvozje i tragove udara.'],
+                'tags' => ['Suzuki XBee', 'Daihatsu Thor', 'retki auto', 'CVT', 'poređenje modela'],
+                'meta_title' => 'Suzuki XBee ili Daihatsu Thor: šta proveriti',
+                'meta_description' => 'Poređenje polovnih Suzuki XBee i Daihatsu Thor: poreklo, CVT, klizna vrata, elektronika, podvozje, delovi i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#1e3a8a', '#60a5fa', '#eff6ff'],
+            ],
+            [
+                'title' => 'Polovni Mazda Laputa: mali auto koji mora dokazati turbo, limariju i delove',
+                'slug' => 'polovni-mazda-laputa-mali-auto-koji-mora-dokazati-turbo-limariju-i-delove',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Mazda Laputa može delovati kao neobičan gradski auto, ali poreklo, motor, turbo gde postoji, korozija, automatik i nabavka specifičnih delova traže strogu proveru.',
+                'content' => <<<'TEXT'
+Mazda Laputa je redak mali automobil čije kompaktne mere i povišena forma ne rešavaju pitanje porekla konkretnog primerka. VIN, tržišna specifikacija, svetla, dokumentacija i status registracije moraju biti jasni, jer su mnogi delovi zajednički sa drugim modelima, dok su karoserijski i električni detalji specifični.
+
+Provera počinje hladnim startom, mirnim lerom, radnom temperaturom, uljem i rashladnom tečnošću. Kod turbomotora se prate dim, zvižduk, odziv i curenja, a na vožnji motor, ručni ili automatski menjač, upravljanje, kočenje, trap, klima i instrumenti moraju raditi bez trzaja ili upozorenja. Neujednačen rad, plav dim ili nestabilna temperatura zahtevaju dijagnostiku.
+
+Na dizalici se pregledaju pragovi, pod, rubovi, nosači, manžetne, curenja, vodovi, kočnice, izduv i tragovi varenja. Lak, stakla, zazori i habanje kabine porede se sa računima i prijavljenom kilometražom. Pre kapare potvrđuju se cena i rok za turbinu gde postoji, svetla, stakla, plastike, senzore i delove karoserije.
+
+Nastavi kada su poreklo, motor, limarija, podvozje i delovi proverljivi. Pregovaraj za jednu izmerenu potrošnu stavku. Odustani kada dim, korozija, lampice i nejasna nabavka ostanu zajedno.
+TEXT,
+                'highlights' => ['Poveži VIN, svetla, dokumente, status registracije i nabavku specifičnih delova.', 'Kod turbomotora proveri hladan start, dim, odziv, temperaturu i tragove curenja.', 'Na dizalici pregledaj pragove, pod, rubove, vodove, izduv, varove i koroziju.'],
+                'tags' => ['Mazda Laputa', 'mali auto', 'turbo motor', 'korozija', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Mazda Laputa: šta proveriti',
+                'meta_description' => 'Vodič za polovni Mazda Laputa: poreklo, turbo motor, limarija, automatik, podvozje, korozija, delovi i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#4c1d95', '#c084fc', '#faf5ff'],
+            ],
+            [
+                'title' => 'Polovni Nissan Figaro: klasik koji mora dokazati limariju, motor i bezbednu osnovu',
+                'slug' => 'polovni-nissan-figaro-klasik-koji-mora-dokazati-limariju-motor-i-bezbednu-osnovu',
+                'category' => 'Kupovina polovnjaka',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nissan Figaro privlači dizajnom i retkošću, ali korozija, krov, motor, hlađenje, kočnice, poreklo i nabavka delova moraju imati prednost nad izgledom.',
+                'content' => <<<'TEXT'
+Nissan Figaro je mali klasik kod kog boja, enterijer i oblik lako potisnu važnije pitanje: da li je osnovno vozilo zdravo i održivo. Poreklo, VIN, tržišna specifikacija, status registracije, istorija radova i dostupnost specifičnih delova moraju biti jasni pre nego što retkost opravda cenu.
+
+Hladan start pokazuje rad motora, lera, dima, hlađenja i ventilatora. Na vožnji se proveravaju motor, menjač, kvačilo, upravljanje, kočenje, trap, instrumenti, brisači, svetla i rad krova prema uputstvu. Krov mora da se otvara i zatvara bez zapinjanja, vlage ili oštećenja obloge; pregrevanje, buka trapa ili nejasan rad kočnica traže stručan pregled.
+
+Na dizalici se gledaju pragovi, pod, rubovi, tačke dizanja, kočioni vodovi, nosači, izduv, curenja i tragovi varenja. Kanali krova, gepek, podne obloge, datumi stakala, zazori i lak daju kontekst mogućoj vlazi ili ranijoj popravci. Računi moraju potvrditi obim radova, a cena delova za krov, svetla, stakla i limariju mora biti poznata pre kapare.
+
+Nastavi kada su limarija, hlađenje, kočnice, krov i dokumentacija uredni. Pregovaraj za jednu potvrđenu potrošnu stavku. Odustani kada korozija, vlaga, varovi i nejasna istorija ostanu zajedno.
+TEXT,
+                'highlights' => ['Pre odluke poveži VIN, tržišnu specifikaciju, status registracije, račune i dostupnost delova.', 'Na vožnji proveri motor, hlađenje, menjač, kočenje, trap, svetla i rad krova prema uputstvu.', 'Na dizalici pregledaj pragove, pod, rubove, vodove, gepek, kanale krova i tragove varenja.'],
+                'tags' => ['Nissan Figaro', 'klasik', 'korozija', 'krov', 'kupovina polovnjaka'],
+                'meta_title' => 'Polovni Nissan Figaro: šta proveriti',
+                'meta_description' => 'Vodič za polovni Nissan Figaro: limarija, krov, motor, hlađenje, kočnice, poreklo, delovi i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#78350f', '#f59e0b', '#fffbeb'],
+            ],
+            [
+                'title' => 'Nosač opruge na polovnom autu: kada pukotina traži proveru trapa i korozije',
+                'slug' => 'nosac-opruge-na-polovnom-autu-kada-pukotina-trazi-proveru-trapa-i-korozije',
+                'category' => 'Provera vozila',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Nosač opruge može otkriti pukotinu, koroziju ili raniji udar, pa opruga, amortizer, kupola, ram, guma i geometrija traže povezanu proveru.',
+                'content' => <<<'TEXT'
+Nosač opruge prenosi opterećenje između ogibljenja i karoserije, pa pukotina, rđa ili neobičan položaj opruge nisu sitnica. Sam trag ne dokazuje uzrok, ali se povezuje sa amortizerom, kupolom, pomoćnim ramom, limarijom, gumama i mogućim ranijim udarom.
+
+Pregled počinje bez rastavljanja. Gledaju se visina vozila, položaj opruge, tragovi rđe, naprsline, neravnomerno trošenje guma, zvuk pri punom zakretanju i lupanje preko neravnina. Na probnoj vožnji upravljanje, stabilnost, kočenje i prelazak preko blagih neravnina moraju biti mirni; metalni zvuk, povlačenje ili neujednačena visina zahtevaju pregled na dizalici.
+
+Stručan pregled obuhvata oprugu, gornji i donji nosač, amortizer, kupolu, ležaj, rame, sponu, pomoćni ram, pod, prag, tačke dizanja i meru geometrije. Korozija oko kupole ili nosača ne procenjuje se samo bojom; mora se utvrditi nosivost lima i obim rada. Račun za urednu zamenu opruge ili amortizera može objasniti nalaz, ali varovi i deformacije traže širi pregled.
+
+Nastavi kada su nosač, lim, amortizer, gume i geometrija uredni. Pregovaraj za potvrđenu potrošnu stavku sa predračunom. Odustani kada pukotina, ozbiljna korozija, deformacija i nejasni tragovi udara ostanu zajedno.
+TEXT,
+                'highlights' => ['Proveri visinu vozila, položaj opruge, rđu, naprsline, gume i zvuk pri zakretanju bez rastavljanja.', 'Na vožnji prati upravljanje, stabilnost, kočenje, lupanje i svako povlačenje vozila.', 'Na dizalici poveži nosač sa amortizerom, kupolom, ramom, pragovima, geometrijom i tragovima udara.'],
+                'tags' => ['nosač opruge', 'ogibljenje', 'korozija', 'trap', 'provera vozila'],
+                'meta_title' => 'Nosač opruge: šta proveriti na polovnom autu',
+                'meta_description' => 'Kako proveriti nosač opruge polovnog auta: pukotina, korozija, amortizer, kupola, trap, gume, geometrija i tragovi udara.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#7c2d12', '#fb923c', '#fff7ed'],
+            ],
+            [
+                'title' => 'Uvoz auta iz Jordana: kada topla klima traži proveru hlađenja, papira i stanja',
+                'slug' => 'uvoz-auta-iz-jordana-kada-topla-klima-trazi-proveru-hladjenja-papira-i-stanja',
+                'category' => 'Analiza tržišta',
+                'author_name' => 'AutoIQ redakcija',
+                'excerpt' => 'Uvoz auta iz Jordana zahteva proveru VIN-a, prethodnih registracija, rashladnog sistema, klime, dokumentacije, transportne rute i ukupne računice pre uplate.',
+                'content' => <<<'TEXT'
+Uvoz auta iz Jordana ne procenjuje se samo kroz cenu oglasa i fotografije očuvane karoserije. Topla klima, prethodna tržišta, saobraćajne navike i transportna putanja moraju objasniti stanje konkretnog vozila. VIN, sled vlasništva, specifikacija, originalni dokumenti i mogućnost registracije u Srbiji proveravaju se pre bilo kakve uplate.
+
+Pre puta se proveravaju saobraćajna dozvola, dokaz prava raspolaganja, izvozni papiri, servisni računi, broj ključeva, prethodne registracije i uslovi plaćanja. Kilometraža, datum proizvodnje, specifikacija svetala i eventualne prepravke moraju imati pisani trag. Ugovor, depozit i prenos novca dolaze tek kada je pravni status proverljiv i kada su obaveze transporta jasno određene.
+
+Nezavisan pregled povezuje dokumente sa hladnim startom, radnom temperaturom, ventilatorom, hlađenjem, klimom, dijagnostikom, gumama, kočnicama, limarijom i podvozjem. Na dizalici se traže curenja, korozija, varovi, zazori, tragovi udara i stanje vodova. Ukupan račun uključuje transport, dažbine, homologaciju, registraciju, osiguranje i prvi servis, uključujući sve potvrđene radove na hlađenju i klimi.
+
+Nastavi kada poreklo, VIN, dokumenti, hlađenje, klima i računica potvrđuju istu priču. Pregovaraj za jednu potvrđenu tehničku stavku. Odustani kada vlasništvo, originali, ruta ili pregled ostanu nejasni.
+TEXT,
+                'highlights' => ['Pre puta poveži VIN, dozvolu, pravo raspolaganja, izvozne papire, račune, ključeve i uslove plaćanja.', 'Proveri hlađenje, ventilator, klimu, dijagnostiku, gume, kočnice, podvozje, curenja i tragove udara.', 'U računicu uključi transport, dažbine, homologaciju, registraciju, osiguranje, prvi servis i radove na hlađenju.'],
+                'tags' => ['uvoz iz Jordana', 'VIN', 'hlađenje', 'dokumentacija', 'analiza tržišta'],
+                'meta_title' => 'Uvoz auta iz Jordana: šta proveriti',
+                'meta_description' => 'Kako proveriti auto iz Jordana: VIN, vlasništvo, dokumenti, hlađenje, klima, podvozje, transport, troškovi i odluka.',
+                'is_featured' => false,
+                'published_at' => now(),
+                'palette' => ['#0c4a6e', '#38bdf8', '#f0f9ff'],
+            ],
         ]);
     }
 

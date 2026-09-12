@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.157] - 2026-09-12
+
+### Added
+
+- Added five non-duplicate production blog articles covering Suzuki XBee versus Daihatsu Thor, used Mazda Laputa and Nissan Figaro buying guidance, spring-seat inspection, and Jordan import due diligence.
+
 ## [0.1.156] - 2026-09-11
 
 ### Added
