@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.158] - 2026-09-13
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota Cynos versus Mazda Familia Neo, used Honda Orthia and Nissan Rasheen buying guidance, brake-disc splash-shield inspection, and Malta import due diligence.
+
 ## [0.1.157] - 2026-09-12
 
 ### Added
