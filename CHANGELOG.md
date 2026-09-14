@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.159] - 2026-09-14
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota Sera versus Nissan 180SX, used Mazda Bongo Friendee and Suzuki Cappuccino buying guidance, bump-stop inspection, and Suriname import due diligence.
+
 ## [0.1.158] - 2026-09-13
 
 ### Added

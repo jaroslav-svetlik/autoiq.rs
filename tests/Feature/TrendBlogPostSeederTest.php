@@ -22,16 +22,21 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(545, $posts);
+        $this->assertCount(550, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(122, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(123, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'toyota-cynos-ili-mazda-familia-neo-kupe-kada-stil-mora-dokazati-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-orthia-karavan-koji-mora-dokazati-pod-motor-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-rasheen-terenac-koji-mora-dokazati-pogon-podvozje-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'zastitni-lim-kocionog-diska-na-polovnom-autu-kada-struganje-trazi-proveru-kocnica-i-trapa'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-malte-kada-ostrvska-klima-trazi-proveru-korozije-papira-i-transporta'));
+        $this->assertTrue($posts->contains('slug', 'toyota-sera-ili-nissan-180sx-japanski-kupe-kada-stakleni-krov-i-pogon-moraju-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-bongo-friendee-van-koji-mora-dokazati-krov-hladjenje-i-podvozje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-cappuccino-mali-roadster-koji-mora-dokazati-turbo-krov-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'odbojnik-amortizera-na-polovnom-autu-kada-gumeni-kraj-trazi-proveru-vesanja-i-hoda-tocka'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-surinama-kada-tropska-klima-trazi-proveru-korozije-papira-i-hladjenja'));
         $this->assertTrue($posts->contains('slug', 'suzuki-xbee-ili-daihatsu-thor-mali-prakticni-auto-kada-retkost-trazi-dokaz-o-poreklu'));
         $this->assertTrue($posts->contains('slug', 'polovni-mazda-laputa-mali-auto-koji-mora-dokazati-turbo-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-figaro-klasik-koji-mora-dokazati-limariju-motor-i-bezbednu-osnovu'));
