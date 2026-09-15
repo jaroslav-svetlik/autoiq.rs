@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(550, $posts);
+        $this->assertCount(555, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(123, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(124, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'toyota-cynos-ili-mazda-familia-neo-kupe-kada-stil-mora-dokazati-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-orthia-karavan-koji-mora-dokazati-pod-motor-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-rasheen-terenac-koji-mora-dokazati-pogon-podvozje-i-poreklo'));
@@ -37,6 +37,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-cappuccino-mali-roadster-koji-mora-dokazati-turbo-krov-i-limariju'));
         $this->assertTrue($posts->contains('slug', 'odbojnik-amortizera-na-polovnom-autu-kada-gumeni-kraj-trazi-proveru-vesanja-i-hoda-tocka'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-surinama-kada-tropska-klima-trazi-proveru-korozije-papira-i-hladjenja'));
+        $this->assertTrue($posts->contains('slug', 'honda-s-mx-ili-mitsubishi-rvr-porodicni-japanci-kada-prostor-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-succeed-radni-karavan-koji-mora-dokazati-kilometrazu-pod-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-avenir-karavan-koji-mora-dokazati-turbo-automatik-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'sarka-haube-na-polovnom-autu-kada-mali-zglob-trazi-proveru-prednjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-gvajane-kada-tropska-vlaga-trazi-proveru-papira-korozije-i-specifikacije'));
         $this->assertTrue($posts->contains('slug', 'suzuki-xbee-ili-daihatsu-thor-mali-prakticni-auto-kada-retkost-trazi-dokaz-o-poreklu'));
         $this->assertTrue($posts->contains('slug', 'polovni-mazda-laputa-mali-auto-koji-mora-dokazati-turbo-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-figaro-klasik-koji-mora-dokazati-limariju-motor-i-bezbednu-osnovu'));

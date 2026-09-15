@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.160] - 2026-09-15
+
+### Added
+
+- Added five non-duplicate production blog articles covering Honda S-MX versus Mitsubishi RVR, used Toyota Succeed and Nissan Avenir buying guidance, hood-hinge inspection, and Guyana import due diligence.
+
 ## [0.1.159] - 2026-09-14
 
 ### Added
