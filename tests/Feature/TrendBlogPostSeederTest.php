@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(555, $posts);
+        $this->assertCount(560, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(124, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(125, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'toyota-cynos-ili-mazda-familia-neo-kupe-kada-stil-mora-dokazati-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-orthia-karavan-koji-mora-dokazati-pod-motor-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-rasheen-terenac-koji-mora-dokazati-pogon-podvozje-i-poreklo'));
@@ -581,6 +581,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-dodge-journey-porodicni-crossover-koji-mora-dokazati-sedista-automatik-i-delove'));
         $this->assertTrue($posts->contains('slug', 'izduvni-sistem-na-polovnom-autu-kada-tup-zvuk-otkriva-koroziju-popravku-ili-skuplji-racun'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-malte-kada-malo-ostrvo-trazi-proveru-volana-vlage-i-papira'));
+        $this->assertTrue($posts->contains('slug', 'daihatsu-terios-kid-ili-mitsubishi-pajero-io-mali-4x4-kada-pogon-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-tino-porodicni-monovolumen-koji-mora-dokazati-prostor-motor-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-honda-capa-mali-auto-koji-mora-dokazati-kabinu-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'drenazni-otvori-vrata-na-polovnom-autu-kada-voda-trazi-proveru-korozije-i-kabine'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-sa-zelenortskih-ostrva-kada-slani-vazduh-trazi-proveru-korozije-i-papira'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);

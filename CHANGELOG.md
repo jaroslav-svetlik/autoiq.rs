@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.161] - 2026-09-16
+
+### Added
+
+- Added five non-duplicate production blog articles covering Daihatsu Terios Kid versus Mitsubishi Pajero iO, used Nissan Tino and Honda Capa buying guidance, door-drain inspection, and Cape Verde import due diligence.
+
 ## [0.1.160] - 2026-09-15
 
 ### Added
