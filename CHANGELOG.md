@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.162] - 2026-09-17
+
+### Added
+
+- Added five non-duplicate production blog articles covering Mitsubishi Colt Plus versus Honda Airwave, used Toyota Passo Sette and Mazda Familia Van buying guidance, fuse-box inspection, and Fiji import due diligence.
+
 ## [0.1.161] - 2026-09-16
 
 ### Added

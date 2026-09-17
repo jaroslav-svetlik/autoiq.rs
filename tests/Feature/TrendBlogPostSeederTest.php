@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(560, $posts);
+        $this->assertCount(565, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(125, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(126, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'toyota-cynos-ili-mazda-familia-neo-kupe-kada-stil-mora-dokazati-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-orthia-karavan-koji-mora-dokazati-pod-motor-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-rasheen-terenac-koji-mora-dokazati-pogon-podvozje-i-poreklo'));
@@ -586,6 +586,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-honda-capa-mali-auto-koji-mora-dokazati-kabinu-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'drenazni-otvori-vrata-na-polovnom-autu-kada-voda-trazi-proveru-korozije-i-kabine'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-sa-zelenortskih-ostrva-kada-slani-vazduh-trazi-proveru-korozije-i-papira'));
+        $this->assertTrue($posts->contains('slug', 'mitsubishi-colt-plus-ili-honda-airwave-porodicni-auto-kada-prostor-mora-dokazati-poreklo-i-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-passo-sette-porodicni-auto-koji-mora-dokazati-sedista-motor-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-familia-van-radni-karavan-koji-mora-dokazati-pod-motor-i-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'kutija-osiguraca-na-polovnom-autu-kada-vlaga-i-neuredna-instalacija-traze-proveru'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-fidzija-kada-ostrvska-klima-trazi-proveru-korozije-papira-i-specifikacije'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
