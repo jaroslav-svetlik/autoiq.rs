@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.163] - 2026-09-18
+
+### Added
+
+- Added five non-duplicate production blog articles covering Honda Edix versus Toyota Isis, used Mazda Tribute and Isuzu D-Max buying guidance, windscreen scuttle-drain inspection, and Madagascar import due diligence.
+
 ## [0.1.162] - 2026-09-17
 
 ### Added

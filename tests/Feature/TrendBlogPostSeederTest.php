@@ -22,11 +22,11 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(565, $posts);
+        $this->assertCount(570, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(126, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(127, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'toyota-cynos-ili-mazda-familia-neo-kupe-kada-stil-mora-dokazati-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-orthia-karavan-koji-mora-dokazati-pod-motor-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-rasheen-terenac-koji-mora-dokazati-pogon-podvozje-i-poreklo'));
@@ -591,6 +591,11 @@ class TrendBlogPostSeederTest extends TestCase
         $this->assertTrue($posts->contains('slug', 'polovni-mazda-familia-van-radni-karavan-koji-mora-dokazati-pod-motor-i-istoriju'));
         $this->assertTrue($posts->contains('slug', 'kutija-osiguraca-na-polovnom-autu-kada-vlaga-i-neuredna-instalacija-traze-proveru'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-fidzija-kada-ostrvska-klima-trazi-proveru-korozije-papira-i-specifikacije'));
+        $this->assertTrue($posts->contains('slug', 'honda-edix-ili-toyota-isis-porodicni-auto-kada-raspored-sedista-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-tribute-suv-koji-mora-dokazati-motor-pogon-i-podvozje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-isuzu-d-max-pikap-koji-mora-dokazati-sasiju-teret-i-pogon'));
+        $this->assertTrue($posts->contains('slug', 'odvodni-kanal-ispod-vetrobrana-kada-lisce-trazi-proveru-vlage-i-instalacije'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-madagaskara-kada-ostrvske-rute-traze-proveru-papira-i-korozije'));
 
         $posts->each(function (BlogPost $post) {
             $this->assertNotEmpty($post->cover_image_path);
