@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.164] - 2026-09-19
+
+### Added
+
+- Added five non-duplicate production blog articles covering Mazda Lantis versus Nissan Presea, used Toyota Sienta and Mitsubishi Dion buying guidance, temporary tire-repair-kit inspection, and Belize import due diligence.
+
 ## [0.1.163] - 2026-09-18
 
 ### Added
