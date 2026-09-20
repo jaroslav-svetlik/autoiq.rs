@@ -22,16 +22,21 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(575, $posts);
+        $this->assertCount(580, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(128, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(129, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'mazda-lantis-ili-nissan-presea-retka-limuzina-kada-poreklo-mora-dokazati-odrzavanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-sienta-porodicni-van-koji-mora-dokazati-vrata-pogon-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-dion-porodicni-monovolumen-koji-mora-dokazati-kabinu-motor-i-limariju'));
         $this->assertTrue($posts->contains('slug', 'set-za-privremenu-popravku-gume-kada-kompresor-i-pena-traze-proveru-tockova'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-belizea-kada-tropska-ruta-trazi-proveru-papira-i-korozije'));
+        $this->assertTrue($posts->contains('slug', 'toyota-will-vs-ili-nissan-cube-cubic-neobicni-porodicni-auto-kada-prostor-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-kei-mali-auto-koji-mora-dokazati-turbo-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'polovni-subaru-dex-gradski-auto-koji-mora-dokazati-poreklo-motor-i-kabinu'));
+        $this->assertTrue($posts->contains('slug', 'pricvrscenje-zadnje-torzione-grede-kada-korozija-trazi-proveru-trapa-i-poda'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-sao-tome-i-prinsipea-kada-ostrvska-ruta-trazi-proveru-papira-i-korozije'));
         $this->assertTrue($posts->contains('slug', 'toyota-cynos-ili-mazda-familia-neo-kupe-kada-stil-mora-dokazati-limariju-i-delove'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-orthia-karavan-koji-mora-dokazati-pod-motor-i-miran-servis'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-rasheen-terenac-koji-mora-dokazati-pogon-podvozje-i-poreklo'));
