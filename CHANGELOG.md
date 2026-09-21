@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.166] - 2026-09-21
+
+### Added
+
+- Added five non-duplicate production blog articles covering Nissan Wingroad versus Toyota Caldina, used Nissan Bluebird Sylphy and Daihatsu Naked buying guidance, fuel-filler-door latch inspection, and Mauritius import due diligence.
+
 ## [0.1.165] - 2026-09-20
 
 ### Added
