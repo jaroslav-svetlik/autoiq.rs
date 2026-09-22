@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.167] - 2026-09-22
+
+### Added
+
+- Added five non-duplicate production blog articles covering Mitsubishi Airtrek versus Toyota Kluger, used Toyota Platz and Nissan R'nessa buying guidance, panoramic-roof drain inspection, and Macau import due diligence.
+
 ## [0.1.166] - 2026-09-21
 
 ### Added

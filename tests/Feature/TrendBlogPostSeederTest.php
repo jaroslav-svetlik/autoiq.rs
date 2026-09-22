@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(585, $posts);
+        $this->assertCount(590, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(130, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(131, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'mitsubishi-airtrek-ili-toyota-kluger-suv-kada-pogon-i-poreklo-traze-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-platz-mali-sedan-koji-mora-dokazati-motor-limariju-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-rnessa-karavan-koji-mora-dokazati-pogon-kabinu-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'odvod-panoramskog-krova-kada-voda-trazi-proveru-kabine-i-stubova'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-makaa-kada-luka-i-desni-volan-traze-proveru-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'mazda-lantis-ili-nissan-presea-retka-limuzina-kada-poreklo-mora-dokazati-odrzavanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-sienta-porodicni-van-koji-mora-dokazati-vrata-pogon-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-dion-porodicni-monovolumen-koji-mora-dokazati-kabinu-motor-i-limariju'));
