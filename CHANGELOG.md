@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.168] - 2026-09-22
+
+### Added
+
+- Added public ads.txt with the authorized Google AdSense publisher declaration.
+
 ## [0.1.167] - 2026-09-22
 
 ### Added
