@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.169] - 2026-09-23
+
+### Added
+
+- Added five non-duplicate production blog articles covering Honda Logo versus Nissan Pino, used Toyota Brevis and Mitsubishi eK-Wagon buying guidance, reverse-light-switch inspection, and Greenland import due diligence.
+
 ## [0.1.168] - 2026-09-22
 
 ### Added

@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(590, $posts);
+        $this->assertCount(595, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(131, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(132, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'honda-logo-ili-nissan-pino-mali-auto-kada-jednostavnost-mora-dokazati-stanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-brevis-limuzina-koja-mora-dokazati-automatik-elektroniku-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-ek-wagon-gradski-auto-koji-mora-dokazati-motor-limariju-i-specifikaciju'));
+        $this->assertTrue($posts->contains('slug', 'prekidac-svetla-za-voznju-unazad-kada-mali-kontakt-trazi-proveru-menjaca-i-instalacije'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-grenlanda-kada-hladna-klima-trazi-proveru-papira-korozije-i-stajanja'));
         $this->assertTrue($posts->contains('slug', 'mitsubishi-airtrek-ili-toyota-kluger-suv-kada-pogon-i-poreklo-traze-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-platz-mali-sedan-koji-mora-dokazati-motor-limariju-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-rnessa-karavan-koji-mora-dokazati-pogon-kabinu-i-delove'));
