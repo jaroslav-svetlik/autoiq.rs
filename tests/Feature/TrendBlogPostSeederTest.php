@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(595, $posts);
+        $this->assertCount(600, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(132, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(133, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'honda-zest-ili-nissan-otti-gradski-auto-kada-mala-mera-trazi-veliku-proveru'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-origin-limuzina-koja-mora-dokazati-poreklo-limariju-i-cenu-retkosti'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-crew-limuzina-koja-mora-dokazati-radnu-proslost-motor-i-podvozje'));
+        $this->assertTrue($posts->contains('slug', 'kadica-rezervnog-tocka-na-polovnom-autu-kada-skriveni-pod-trazi-proveru-zadnjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-vanuatua-kada-ostrvska-ruta-trazi-proveru-korozije-papira-i-specifikacije'));
         $this->assertTrue($posts->contains('slug', 'honda-logo-ili-nissan-pino-mali-auto-kada-jednostavnost-mora-dokazati-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-brevis-limuzina-koja-mora-dokazati-automatik-elektroniku-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-ek-wagon-gradski-auto-koji-mora-dokazati-motor-limariju-i-specifikaciju'));

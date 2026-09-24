@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.170] - 2026-09-24
+
+### Added
+
+- Added five non-duplicate production blog articles covering Honda Zest versus Nissan Otti, used Toyota Origin and Nissan Crew buying guidance, spare-wheel-well inspection, and Vanuatu import due diligence.
+
 ## [0.1.169] - 2026-09-23
 
 ### Added
