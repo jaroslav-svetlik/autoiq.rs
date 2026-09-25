@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(600, $posts);
+        $this->assertCount(605, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(133, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(134, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'subaru-r2-ili-mazda-carol-mali-auto-kada-poreklo-i-prenos-traze-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-honda-mobilio-spike-porodicni-van-koji-mora-dokazati-vrata-motor-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-probox-radni-karavan-koji-mora-dokazati-kilometrazu-pod-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'kupole-amortizera-na-polovnom-autu-kada-korozija-trazi-proveru-vezanja-i-trapa'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-esvatinija-kada-udaljena-ruta-trazi-proveru-porekla-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'honda-zest-ili-nissan-otti-gradski-auto-kada-mala-mera-trazi-veliku-proveru'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-origin-limuzina-koja-mora-dokazati-poreklo-limariju-i-cenu-retkosti'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-crew-limuzina-koja-mora-dokazati-radnu-proslost-motor-i-podvozje'));
