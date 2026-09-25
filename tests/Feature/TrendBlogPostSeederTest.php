@@ -22,11 +22,21 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(595, $posts);
+        $this->assertCount(605, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(132, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(134, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'subaru-r2-ili-mazda-carol-mali-auto-kada-poreklo-i-prenos-traze-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-honda-mobilio-spike-porodicni-van-koji-mora-dokazati-vrata-motor-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-probox-radni-karavan-koji-mora-dokazati-kilometrazu-pod-i-servis'));
+        $this->assertTrue($posts->contains('slug', 'kupole-amortizera-na-polovnom-autu-kada-korozija-trazi-proveru-vezanja-i-trapa'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-esvatinija-kada-udaljena-ruta-trazi-proveru-porekla-papira-i-stanja'));
+        $this->assertTrue($posts->contains('slug', 'honda-zest-ili-nissan-otti-gradski-auto-kada-mala-mera-trazi-veliku-proveru'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-origin-limuzina-koja-mora-dokazati-poreklo-limariju-i-cenu-retkosti'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-crew-limuzina-koja-mora-dokazati-radnu-proslost-motor-i-podvozje'));
+        $this->assertTrue($posts->contains('slug', 'kadica-rezervnog-tocka-na-polovnom-autu-kada-skriveni-pod-trazi-proveru-zadnjeg-dela'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-vanuatua-kada-ostrvska-ruta-trazi-proveru-korozije-papira-i-specifikacije'));
         $this->assertTrue($posts->contains('slug', 'honda-logo-ili-nissan-pino-mali-auto-kada-jednostavnost-mora-dokazati-stanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-brevis-limuzina-koja-mora-dokazati-automatik-elektroniku-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-ek-wagon-gradski-auto-koji-mora-dokazati-motor-limariju-i-specifikaciju'));
