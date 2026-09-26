@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(605, $posts);
+        $this->assertCount(610, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(134, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(135, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'daihatsu-mira-gino-ili-subaru-vivio-mali-klasici-kada-stanje-vredi-vise-od-retkosti'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-town-box-kei-van-koji-mora-dokazati-prostor-motor-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-az-offroad-terenac-koji-mora-dokazati-sasiju-pogon-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'unutrasnja-ivica-felne-na-polovnom-autu-kada-skriveni-rub-trazi-proveru-gume-i-tocka'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-tunisa-kada-mediteranska-ruta-trazi-proveru-papira-klime-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'subaru-r2-ili-mazda-carol-mali-auto-kada-poreklo-i-prenos-traze-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-honda-mobilio-spike-porodicni-van-koji-mora-dokazati-vrata-motor-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-probox-radni-karavan-koji-mora-dokazati-kilometrazu-pod-i-servis'));
