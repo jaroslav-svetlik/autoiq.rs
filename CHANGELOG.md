@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.172] - 2026-09-26
+
+### Added
+
+- Added five non-duplicate production blog articles covering Daihatsu Mira Gino versus Subaru Vivio, used Mitsubishi Town Box and Mazda AZ-Offroad buying guidance, inner-rim inspection, and Tunisia import due diligence.
+
 ## [0.1.171] - 2026-09-25
 
 ### Added
