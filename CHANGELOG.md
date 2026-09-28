@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.174] - 2026-09-28
+
+### Added
+
+- Added five non-duplicate production blog articles covering Mitsubishi Proudia versus Nissan Cima, used Suzuki Alto Lapin and Daihatsu Boon Luminas buying guidance, tire-valve inspection, and Liberia import due diligence.
+
 ## [0.1.173] - 2026-09-27
 
 ### Added

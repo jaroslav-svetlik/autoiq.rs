@@ -22,16 +22,21 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(615, $posts);
+        $this->assertCount(620, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(136, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(137, $posts->where('category', 'Poređenje modela'));
         $this->assertTrue($posts->contains('slug', 'toyota-will-vi-ili-nissan-pao-mali-klasici-kada-poreklo-i-limarija-traze-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-wagon-r-solio-van-koji-mora-dokazati-prostor-motor-i-vrata'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-moco-mali-auto-koji-mora-dokazati-motor-automatik-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'prednji-pomocni-ram-na-polovnom-autu-kada-korozija-trazi-proveru-vesanja-i-geometrije'));
         $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-gabona-kada-tropska-ruta-trazi-proveru-papira-korozije-i-stanja'));
+        $this->assertTrue($posts->contains('slug', 'mitsubishi-proudia-ili-nissan-cima-limuzine-kada-poreklo-i-automatik-traze-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-suzuki-alto-lapin-mali-auto-koji-mora-dokazati-motor-cvt-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-boon-luminas-porodicni-auto-koji-mora-dokazati-prostor-motor-i-vrata'));
+        $this->assertTrue($posts->contains('slug', 'ventil-gume-na-polovnom-autu-kada-mali-detalj-trazi-proveru-tocka-i-pritiska'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-liberije-kada-tropska-ruta-trazi-proveru-papira-vlage-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'daihatsu-mira-gino-ili-subaru-vivio-mali-klasici-kada-stanje-vredi-vise-od-retkosti'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-town-box-kei-van-koji-mora-dokazati-prostor-motor-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-mazda-az-offroad-terenac-koji-mora-dokazati-sasiju-pogon-i-limariju'));
