@@ -84,6 +84,8 @@ class ListingShowPageGalleryTest extends TestCase
 
     public function test_unpublished_related_listing_cannot_be_favorited(): void
     {
+        $this->withoutExceptionHandling();
+
         $listing = Listing::factory()->create();
         $draft = Listing::factory()->create(['status' => ListingStatus::Draft]);
         $viewer = User::factory()->create();
