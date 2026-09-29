@@ -97,24 +97,18 @@
 
                     @if(!$shownContextualLinks && $paragraphCount >= 2 && $contextualLinks->isNotEmpty())
                         @php($shownContextualLinks = true)
-                        <nav aria-label="Povezani vodiči u tekstu" class="rounded-xl border border-brand/20 bg-brand/5 p-5 sm:p-6">
-                            <div class="data-kicker text-brand">Povezani vodiči</div>
-                            <h2 class="mt-2 font-display text-2xl font-bold text-ink">Pročitaj pre sledećeg oglasa</h2>
-                            <div class="mt-5 grid gap-3">
+                        <nav id="povezani-vodici" aria-labelledby="related-guides-title" class="article-guides">
+                            <h2 id="related-guides-title" class="article-guides-title"><x-icon name="book" />Povezani vodiči</h2>
+                            <ul class="article-guides-list">
                                 @foreach($contextualLinks as $link)
-                                    <a href="{{ $link['url'] }}" wire:navigate class="group rounded-lg border border-line bg-white p-4 transition hover:border-brand/20 hover:bg-white">
-                                        <div class="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand">
-                                            @if($link['category'])
-                                                <span>{{ $link['category'] }}</span>
-                                            @endif
-                                            <span>·</span>
-                                            <span>Interni vodič</span>
-                                        </div>
-                                        <div class="mt-2 font-display text-xl font-bold leading-tight text-ink transition group-hover:text-brand">{{ $link['title'] }}</div>
-                                        <p class="mt-2 line-clamp-2 text-sm leading-6 text-muted">{{ $link['description'] }}</p>
-                                    </a>
+                                    <li>
+                                        <a href="{{ $link['url'] }}" wire:navigate class="article-guide-link">
+                                            <span>{{ $link['title'] }}</span>
+                                            <x-icon name="arrow" />
+                                        </a>
+                                    </li>
                                 @endforeach
-                            </div>
+                            </ul>
                         </nav>
                     @endif
                 @endforeach

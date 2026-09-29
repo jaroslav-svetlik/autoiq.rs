@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.179] - 2026-09-29
+
+### Changed
+
+- Replaced the oversized related-guide cards inside blog posts with a compact list of linked titles that matches the light design and preserves existing recommendations.
+
 ## [0.1.178] - 2026-09-29
 
 ### Changed

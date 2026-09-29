@@ -247,6 +247,16 @@
     .blog-card p { margin-top: 10px; font-size: 13px; line-height: 1.55; color: #435087; }
     .blog-card-link { display: flex; gap: 8px; align-items: center; font-size: 13px; color: #2442ff; margin-top: 14px; }
     .blog-card-link .icon { width: 15px; height: 15px; }
+    .article-guides { padding: 14px 16px 4px; border: 1px solid #e4ebfa; border-radius: 10px; background: #f8faff; }
+    .article-guides-title { display: flex; align-items: center; gap: 7px; color: #616e9f; font-size: 12px; font-weight: 600; line-height: 1.5; }
+    .article-guides-title .icon { width: 16px; height: 16px; color: #2442ff; }
+    .article-guides-list { margin-top: 5px; }
+    .article-guides-list > li + li { border-top: 1px solid #e4ebfa; }
+    .article-guide-link { display: flex; align-items: center; gap: 14px; min-height: 44px; padding-block: 10px; border-radius: 3px; color: #172766; font-size: 14px; font-weight: 500; line-height: 1.5; }
+    .article-guide-link > span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+    .article-guide-link > .icon { width: 16px; height: 16px; flex-shrink: 0; color: #6178c1; }
+    .article-guide-link:hover, .article-guide-link:focus-visible { color: #2442ff; }
+    .article-guide-link:hover > .icon, .article-guide-link:focus-visible > .icon { color: #2442ff; }
     .blog-sidebar { display: flex; flex-direction: column; gap: 18px; }
     .blog-sidebar .panel { padding: 20px; }
     .blog-sidebar h2 { font-size: 20px; font-weight: 700; margin-bottom: 15px; }
