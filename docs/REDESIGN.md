@@ -47,3 +47,7 @@ Basic information and equipment use a locally bundled subset of [Lucide](https:/
 ## Contextual blog guides
 
 The guides inserted inside article content use a compact navigation list with one small heading, full linked titles and subtle separators. Repeated category labels, descriptions and nested cards have been removed from this block. The existing recommendation service, three-link limit, placement and destination URLs are preserved. Links wrap naturally on small screens and retain visible keyboard focus.
+
+## Supplied brand logo
+
+`x-brand` uses `public/images/autoiq-logo.webp` in the shared header, footer and error-page header. The user-supplied original artwork was cropped to `(122, 395, 1202, 264)` from the 1448 × 1086 source, resized to 728 × 160 and encoded as lossless WebP (about 67 KiB). Its lettering, gradients and brain symbol are preserved. The displayed width is 182 px in the desktop header and 164 px on mobile and in the footer, with an intrinsic aspect ratio to prevent layout shifts. Multiply blending integrates the original near-white background with the existing light surfaces. The image has descriptive alternative text; the existing home links are retained.

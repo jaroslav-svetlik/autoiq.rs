@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.180] - 2026-09-29
+
+### Changed
+
+- Replaced the text wordmark in the shared header and footer with the supplied AutoIQ.rs logo, cropped and optimized for desktop and mobile layouts.
+
 ## [0.1.179] - 2026-09-29
 
 ### Changed
