@@ -34,6 +34,7 @@
                 <h3><a href="{{ route('listings.show', $listing) }}" wire:navigate>{{ $listing->brand }} {{ $listing->model }}</a></h3>
                 <strong class="listing-price">{{ number_format($listing->price, 0, ',', '.') }} €</strong>
             </div>
+            <x-score-badge :listing="$listing" class="listing-score" />
             <div class="listing-specs">
                 <span><x-icon name="calendar" />{{ $listing->year }}</span>
                 <span><x-icon name="gauge" />{{ number_format($listing->mileage, 0, ',', '.') }} km</span>
@@ -45,7 +46,7 @@
             <div class="listing-bottom">
                 <div class="listing-seller">
                     <x-icon :name="$verified ? 'shield' : 'user'" />
-                    <div><span>{{ $externalSource ? $listing->sellerContactName() : ($verified ? 'Proveren prodavac' : $listing->seller_type?->label()) }}</span><small>AutoIQ procena <b>{{ $listing->autoiq_score }}/100</b></small></div>
+                    <div><span>{{ $externalSource ? $listing->sellerContactName() : ($verified ? 'Proveren prodavac' : $listing->seller_type?->label()) }}</span></div>
                 </div>
                 <a href="{{ route('listings.show', $listing) }}" wire:navigate class="card-arrow" aria-label="Pogledaj {{ $listing->brand }} {{ $listing->model }}"><x-icon name="arrow" /></a>
             </div>

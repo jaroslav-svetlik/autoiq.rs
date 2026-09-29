@@ -61,10 +61,10 @@
             <div class="detail-share-feedback" role="status" x-text="shareStatus" x-show="shareStatus" x-cloak></div>
             <input x-cloak x-show="showShareLink" x-ref="shareLink" type="text" readonly value="{{ route('listings.show', $listing) }}" aria-label="Link oglasa za deljenje" class="input-shell w-full">
             <div class="detail-price" aria-label="Tražena cena">{{ number_format($listing->price, 0, ',', '.') }} €</div>
+            <a href="#procena-cene" class="detail-score-link" aria-label="Pogledaj objašnjenje AutoIQ procene"><x-score-badge :listing="$listing" /><x-icon name="chevron" /></a>
             <div class="detail-location-line"><a href="#lokacija-vozila"><x-icon name="pin" />{{ $listing->city }}</a><span>ID oglasa: #{{ $listing->id }}</span></div>
             <div class="detail-badges">
                 @if($verified)<span><x-icon name="shield" />Proveren prodavac</span>@endif
-                <a href="#procena-cene"><x-icon name="chart" />AutoIQ {{ $listing->autoiq_score }}/100</a>
                 <span><x-icon name="user" />{{ $listing->seller_type?->label() }}</span>
             </div>
             @if(auth()->id() === $listing->user_id || auth()->user()?->isAdmin())
@@ -114,7 +114,7 @@
             @endif
 
             <div class="detail-panel detail-services">
-                <a href="#procena-cene" class="detail-service"><span class="detail-service-icon"><x-icon name="chart" /></span><span><strong>AutoIQ procena cene</strong><small>{{ $listing->scoreLabel() }}. Pogledajte poređenje sa tržištem i istoriju cene.</small></span><span class="detail-service-arrow"><x-icon name="arrow" /></span></a>
+                <a href="#procena-cene" class="detail-service"><span class="detail-service-icon"><x-icon name="chart" /></span><span><strong>AutoIQ procena</strong><small>{{ $listing->scoreLabel() }}. Pogledajte poređenje sa tržištem i istoriju cene.</small></span><span class="detail-service-arrow"><x-icon name="arrow" /></span></a>
                 <a href="{{ route('blog.index', ['tema' => 'Kupovina polovnjaka']) }}" wire:navigate class="detail-service"><span class="detail-service-icon"><x-icon name="book" /></span><span><strong>Saveti za kupovinu</strong><small>Pripremite se za pregled vozila i razgovor sa prodavcem.</small></span><span class="detail-service-arrow"><x-icon name="arrow" /></span></a>
             </div>
 
@@ -164,8 +164,10 @@
             </section>
 
             <section id="procena-cene" class="detail-panel detail-market">
-                <div class="detail-section-heading"><h2>AutoIQ analiza cene</h2><span class="detail-score">{{ $listing->autoiq_score }}/100</span></div>
-                <div class="detail-market-stats"><div><span>Tržišni signal</span><strong>{{ $listing->scoreLabel() }}</strong></div><div><span>Prosek tržišta</span><strong>{{ $listing->market_average_price ? number_format($listing->market_average_price, 0, ',', '.').' €' : 'Nedovoljno podataka' }}</strong></div></div>
+                <div class="detail-section-heading"><h2>AutoIQ procena</h2></div>
+                <x-score-badge :listing="$listing" :expanded="true" />
+                <p class="score-explanation">Ocena uzima u obzir cenu u odnosu na slične oglase, godište, kilometražu i tip prodavca. Viša ocena označava povoljniju ponudu prema ovim podacima.</p>
+                <div class="detail-market-stats"><div><span>Cena oglasa</span><strong>{{ number_format($listing->price, 0, ',', '.') }} €</strong></div><div><span>Prosek tržišta</span><strong>{{ $listing->market_average_price ? number_format($listing->market_average_price, 0, ',', '.').' €' : 'Nedovoljno podataka' }}</strong></div></div>
                 <p>
                     @if($listing->price_deviation_percentage !== null)
                         Cena oglasa je {{ $listing->marketDifferenceLabel() }} u odnosu na prosečnu vrednost za {{ $listing->brand }} {{ $listing->model }} {{ $listing->year }}.

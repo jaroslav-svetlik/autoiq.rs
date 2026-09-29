@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.193] - 2026-09-30
+
+### Changed
+
+- Replaced numeric AutoIQ badges with a five-segment meter and position marker on listing cards and detail pages.
+- Added an expanded score scale with accessible values and an explanation of the existing scoring factors, preserving the calculation and listing data.
+
 ## [0.1.192] - 2026-09-30
 
 ### Added

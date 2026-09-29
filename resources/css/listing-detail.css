@@ -120,7 +120,6 @@
 .detail-listing-meta span { display: flex; align-items: center; gap: 6px; }
 .detail-listing-meta .icon { width: 15px; height: 15px; }
 .detail-market { scroll-margin-top: 100px; }
-.detail-score { color: #2442ff; font-size: 12px; font-weight: 700; padding: 6px 9px; background: #eef3ff; border-radius: 6px; }
 .detail-market-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; padding: 12px; border-radius: 6px; background: #f5f8ff; }
 .detail-market-stats span { font-size: 11px; display: block; color: #616e9f; }
 .detail-market-stats strong { font-size: 18px; font-weight: 700; display: block; margin-top: 4px; }

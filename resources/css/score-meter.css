@@ -1,0 +1,38 @@
+.score-meter {
+    --score-color: #d36942;
+    --score-text: #a84827;
+    min-width: 0;
+    width: 100%;
+}
+.score-meter-emerald { --score-color: #16a47b; --score-text: #087858; }
+.score-meter-amber { --score-color: #c4a12b; --score-text: #806719; }
+.score-meter-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-size: 10px; line-height: 1.4; }
+.score-meter-heading > span { color: #616e9f; }
+.score-meter-heading > strong { color: var(--score-text); font-weight: 600; text-align: right; }
+.score-meter-track { position: relative; display: flex; gap: 3px; height: 6px; margin-top: 8px; }
+.score-meter-segment { flex: 1; min-width: 0; overflow: hidden; border-radius: 2px; background: #e9edf5; }
+.score-meter-segment > span { display: block; height: 100%; border-radius: inherit; background: var(--score-color); }
+.score-meter-pointer { position: absolute; top: -4px; left: clamp(2px, var(--score-position), calc(100% - 2px)); width: 2px; height: 14px; border-radius: 2px; background: #17224c; box-shadow: 0 0 0 1.5px white; transform: translateX(-50%); }
+.listing-score { margin-top: 12px; margin-bottom: 16px; }
+.score-meter-expanded { padding: 18px; border: 1px solid #e4ebfa; border-radius: 12px; background: #fafbff; }
+.score-meter-expanded .score-meter-heading { font-size: 13px; }
+.score-meter-expanded .score-meter-heading > span { color: var(--score-text); font-size: 18px; font-weight: 700; }
+.score-meter-expanded .score-meter-heading > strong { color: #616e9f; font-weight: 500; }
+.score-meter-expanded .score-meter-track { height: 10px; margin-top: 17px; gap: 5px; }
+.score-meter-expanded .score-meter-pointer { top: -5px; height: 20px; width: 3px; }
+.score-meter-legend { display: flex; justify-content: space-between; gap: 12px; color: #616e9f; font-size: 11px; line-height: 1.4; margin-top: 12px; }
+.detail-score-link { display: flex; align-items: center; gap: 17px; padding: 13px 14px 15px; margin: 12px 0 15px; border: 1px solid #e4ebfa; border-radius: 10px; background: #fafbff; }
+.detail-score-link:hover { border-color: #bdcaff; background: #f3f6ff; }
+.detail-score-link:focus-visible { outline: 2px solid #2442ff; outline-offset: 3px; }
+.detail-score-link > .icon { flex-shrink: 0; width: 16px; height: 16px; color: #2442ff; }
+.detail-score-link .score-meter-heading { font-size: 12px; }
+.detail-market > .score-explanation { margin: 13px 0 18px; font-size: 12px; line-height: 1.7; }
+@media (max-width: 639px) {
+    .score-meter-heading { gap: 4px; font-size: 9px; }
+    .score-meter-expanded { padding: 15px; }
+    .score-meter-expanded .score-meter-heading > span { font-size: 16px; }
+}
+@media (forced-colors: active) {
+    .score-meter-segment { outline: 1px solid CanvasText; }
+    .score-meter-segment > span, .score-meter-pointer { background: Highlight; forced-color-adjust: none; }
+}

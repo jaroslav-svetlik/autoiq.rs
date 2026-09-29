@@ -1,14 +1,25 @@
-@props(['listing'])
+@props(['listing', 'expanded' => false])
 
 @php
-    $classes = match ($listing->scoreTone()) {
-        'emerald' => 'border-emerald-300/40 bg-emerald-400/15 text-emerald-700',
-        'amber' => 'border-brand/20 bg-brand/5 text-brand',
-        default => 'border-rose-300/40 bg-rose-400/15 text-rose-700',
-    };
+    $score = max(0, min(100, (int) $listing->autoiq_score));
+    $label = $listing->scoreLabel();
 @endphp
 
-<span class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold {{ $classes }}">
-    <span>{{ $listing->autoiq_score }}/100</span>
-    <span>{{ $listing->scoreLabel() }}</span>
-</span>
+<div {{ $attributes->class(['score-meter', 'score-meter-'.$listing->scoreTone(), 'score-meter-expanded' => $expanded]) }}
+    role="meter" aria-label="AutoIQ procena" aria-valuemin="0" aria-valuemax="100"
+    aria-valuenow="{{ $score }}" aria-valuetext="{{ $label }} — {{ $score }} od 100"
+    style="--score-position: {{ $score }}%">
+    <div class="score-meter-heading" aria-hidden="true">
+        <span>{{ $expanded ? $label : 'AutoIQ procena' }}</span>
+        <strong>{{ $expanded ? $score.'/100' : $label }}</strong>
+    </div>
+    <div class="score-meter-track" aria-hidden="true">
+        @foreach(range(0, 4) as $segment)
+            <span class="score-meter-segment"><span style="width: {{ max(0, min(100, ($score - $segment * 20) * 5)) }}%"></span></span>
+        @endforeach
+        <span class="score-meter-pointer"></span>
+    </div>
+    @if($expanded)
+        <div class="score-meter-legend" aria-hidden="true"><span>Manje povoljno</span><span>Povoljnije</span></div>
+    @endif
+</div>
