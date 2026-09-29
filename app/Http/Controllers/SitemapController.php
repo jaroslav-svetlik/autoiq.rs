@@ -46,6 +46,12 @@ class SitemapController extends Controller
             [
                 'loc' => route('contact'),
             ],
+            [
+                'loc' => route('privacy'),
+            ],
+            [
+                'loc' => route('terms'),
+            ],
         ])
             ->merge(BlogPost::query()
                 ->published()
