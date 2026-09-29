@@ -6,6 +6,16 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.189] - 2026-09-29
+
+### Added
+
+- Added dedicated privacy policy and terms of use pages in the shared light design, with contact links and sitemap entries.
+
+### Changed
+
+- Replaced the vehicle brands and sitemap footer links with privacy policy and terms of use links.
+
 ## [0.1.188] - 2026-09-29
 
 ### Changed

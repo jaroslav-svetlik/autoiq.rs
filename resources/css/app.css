@@ -246,6 +246,13 @@
     .footer-about > small { display: block; margin-top: 18px; }
     .footer-grid > div > a:not(.btn-secondary) { display: block; font-size: 12px; color: #616e9f; margin-bottom: 5px; }
     .footer-grid a:hover { color: #2442ff; }
+    .legal-document h2 { color: #10154c; font-size: 18px; font-weight: 700; line-height: 1.5; margin-bottom: 12px; }
+    .legal-document p, .legal-document li { color: #616e9f; font-size: 15px; line-height: 1.85; overflow-wrap: anywhere; }
+    .legal-document p + p, .legal-document ul + p { margin-top: 12px; }
+    .legal-document ul { padding-left: 20px; list-style: disc; }
+    .legal-document li + li { margin-top: 8px; }
+    .legal-document strong { color: #172766; font-weight: 600; }
+    .legal-document a { color: #2442ff; text-decoration: underline; text-underline-offset: 3px; }
     .footer-guide { padding-left: 24px; border-left: 1px solid #e4ebfa; }
     .footer-guide .btn-secondary { font-size: 12px; width: 100%; padding: 9px 12px; margin-top: 11px; }
     .footer-guide .icon { width: 16px; height: 16px; }

@@ -195,9 +195,9 @@
                     </div>
                     <div><h2>Brzi linkovi</h2>
                         <a href="{{ route('home') }}" wire:navigate>Oglasi</a>
-                        <a href="{{ route('home') }}#marke">Marke automobila</a>
                         <a href="{{ route('blog.index') }}" wire:navigate>Blog i saveti</a>
-                        <a href="{{ route('sitemap') }}">Mapa sajta</a>
+                        <a href="{{ route('privacy') }}" wire:navigate>Politika privatnosti</a>
+                        <a href="{{ route('terms') }}" wire:navigate>Uslovi korišćenja</a>
                     </div>
                     <div><h2>Za korisnike</h2>
                         <a href="{{ route('account.dashboard') }}" wire:navigate>Moj nalog</a>

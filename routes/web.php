@@ -33,6 +33,8 @@ Route::get('/polovni-automobili/{brandSlug}/{modelSlug}', ListingIndexPage::clas
 Route::get('/auto/{listing}', ListingShowPage::class)->name('listings.show');
 Route::get('/dileri/{dealerProfile}', DealerShowPage::class)->name('dealers.show');
 Route::get('/kontakt', ContactPage::class)->name('contact');
+Route::view('/politika-privatnosti', 'pages.privacy')->name('privacy');
+Route::view('/uslovi-koriscenja', 'pages.terms')->name('terms');
 Route::get('/sitemap.xml', SitemapController::class)
     ->withoutMiddleware([
         AddQueuedCookiesToResponse::class,
