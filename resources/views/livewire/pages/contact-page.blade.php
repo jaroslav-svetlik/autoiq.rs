@@ -19,8 +19,8 @@
                     <p class="mt-3 text-sm leading-7 text-muted">Poruke pregledamo po prioritetu i odgovaramo na email koji ostavite u formi.</p>
                 </div>
                 <div class="panel-soft p-5">
-                    <div class="data-kicker">Sigurno slanje</div>
-                    <p class="mt-3 text-sm leading-7 text-muted">Navedite samo podatke potrebne za odgovor; lozinke, kartice i dokumenta nisu potrebni u prvom kontaktu.</p>
+                    <div class="data-kicker">Detalji upita</div>
+                    <p class="mt-3 text-sm leading-7 text-muted">Ukratko opišite pitanje, a ako se odnosi na određeni oglas, dodajte i link.</p>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
 
                 <div class="md:col-span-2 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                     <p class="text-sm leading-7 text-muted">
-                        Ne šaljite lozinke, podatke kartica ili druge osetljive podatke.
+                        Proverite email adresu pre slanja kako bismo mogli da vam odgovorimo.
                     </p>
                     <button
                         type="submit"

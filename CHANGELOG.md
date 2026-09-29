@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.187] - 2026-09-29
+
+### Changed
+
+- Replaced contact-page security warnings with helpful guidance about enquiry details, listing links and the reply email address.
+
 ## [0.1.186] - 2026-09-29
 
 ### Changed
