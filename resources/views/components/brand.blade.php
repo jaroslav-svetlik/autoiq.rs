@@ -1,1 +1,8 @@
-<span {{ $attributes->class('brand-wordmark') }}>Auto<span>IQ</span><small>.rs</small></span>
+<img
+    src="{{ asset('images/autoiq-logo.webp') }}"
+    alt="AutoIQ.rs"
+    width="728"
+    height="160"
+    decoding="async"
+    {{ $attributes->class('brand-logo') }}
+>
