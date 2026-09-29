@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.190] - 2026-09-29
+
+### Changed
+
+- Replaced the shared header and footer logo with the latest supplied blue-gradient design, cropped and optimized for responsive display.
+
 ## [0.1.189] - 2026-09-29
 
 ### Added
