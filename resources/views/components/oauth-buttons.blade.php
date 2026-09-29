@@ -8,7 +8,7 @@
         'google' => [
             'label' => 'Google',
             'accent' => 'from-[#4285f4] via-[#34a853] to-[#fbbc05]',
-            'iconBorder' => 'border-white/12 bg-white',
+            'iconBorder' => 'border-line bg-white',
         ],
     ];
 @endphp
@@ -18,7 +18,7 @@
         @foreach($providers as $provider => $data)
             <a
                 href="{{ route('oauth.redirect', $provider) }}"
-                class="group relative flex min-h-16 items-center justify-between gap-4 overflow-hidden rounded-2xl border border-white/10 bg-slate-950/55 px-4 py-3 text-left shadow-[0_18px_45px_rgba(2,6,23,0.22)] transition hover:border-cyan-300/35 hover:bg-white/8 focus:outline-none focus:ring-2 focus:ring-cyan-400/25"
+                class="group relative flex min-h-16 items-center justify-between gap-4 overflow-hidden rounded-2xl border border-line bg-white px-4 py-3 text-left shadow-[0_18px_45px_rgba(28,59,136,0.06)] transition hover:border-brand/20 hover:bg-wash focus:outline-none focus:ring-2 focus:ring-brand/20"
                 aria-label="{{ $action }} preko {{ $data['label'] }} naloga"
             >
                 <span class="absolute inset-x-0 top-0 h-px bg-gradient-to-r {{ $data['accent'] }} opacity-70"></span>
@@ -36,29 +36,29 @@
                     </span>
 
                     <span class="min-w-0">
-                        <span class="block text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-slate-500">
+                        <span class="block text-[0.68rem] font-semibold uppercase tracking-[0.18em] text-muted">
                             {{ $mode === 'register' ? 'Registracija' : 'Prijava' }}
                         </span>
-                        <span class="block truncate text-sm font-bold text-white">
+                        <span class="block truncate text-sm font-bold text-ink">
                             Nastavi preko {{ $data['label'] }}
                         </span>
                     </span>
                 </span>
 
-                <svg class="h-4 w-4 shrink-0 text-slate-500 transition group-hover:translate-x-0.5 group-hover:text-cyan-200" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <svg class="h-4 w-4 shrink-0 text-muted transition group-hover:translate-x-0.5 group-hover:text-brand" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.69l-3.22-3.22a.75.75 0 1 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 1 1-1.06-1.06l3.22-3.22H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd" />
                 </svg>
             </a>
         @endforeach
     </div>
 
-    <p class="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 text-xs leading-6 text-slate-400">
-        Google prijava vas vodi na <span class="font-semibold text-slate-200">accounts.google.com</span>. AutoIQ.rs ne vidi i ne čuva vašu Google lozinku.
+    <p class="rounded-2xl border border-line bg-wash px-4 py-3 text-xs leading-6 text-muted">
+        Google prijava vas vodi na <span class="font-semibold text-ink">accounts.google.com</span>. AutoIQ.rs ne vidi i ne čuva vašu Google lozinku.
     </p>
 
-    <div class="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
-        <span class="h-px flex-1 bg-white/10"></span>
+    <div class="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-muted">
+        <span class="h-px flex-1 bg-wash"></span>
         <span>{{ $mode === 'register' ? 'ili unesite podatke' : 'ili koristite email' }}</span>
-        <span class="h-px flex-1 bg-white/10"></span>
+        <span class="h-px flex-1 bg-wash"></span>
     </div>
 </div>

@@ -1,0 +1,42 @@
+.select-field { position: relative; min-width: 0; }
+.select-field > select[hidden] { display: none; }
+.select-ui { width: 100%; }
+.select-trigger { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; min-height: 43px; padding: 10px 12px; border: 1px solid #dbe3f7; border-radius: 8px; background: #fff; color: #090e49; font-family: inherit; font-size: 14px; line-height: 1.5; text-align: left; transition: border-color .15s, box-shadow .15s, background .15s; }
+.select-value { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.select-trigger > .icon { width: 16px; height: 16px; flex-shrink: 0; color: #616e9f; transition: transform .15s; }
+.select-trigger:hover:not(:disabled) { border-color: #aebeed; background: #fbfcff; }
+.select-trigger:focus-visible, .select-field.is-open .select-trigger { border-color: #2442ff; outline: none; box-shadow: 0 0 0 3px #2442ff14; }
+.select-field.is-open .select-trigger > .icon { transform: rotate(180deg); color: #2442ff; }
+.select-field.is-disabled .select-trigger { background: #f2f5fa; border-color: #e4e9f2; color: #939db7; cursor: not-allowed; box-shadow: none; }
+.select-field.is-invalid .select-trigger { border-color: #e05272; }
+.select-field.is-invalid .select-trigger:focus-visible { box-shadow: 0 0 0 3px #e0527218; }
+.select-popup { position: fixed; z-index: 100; display: flex; flex-direction: column; overflow: hidden; border: 1px solid #dfe7fa; border-radius: 11px; background: #fff; padding: 5px; box-shadow: 0 12px 35px #1c317b20, 0 2px 5px #1c317b08; color: #090e49; font-size: 14px; line-height: 1.45; }
+.select-search { display: flex; align-items: center; flex-shrink: 0; gap: 8px; border-bottom: 1px solid #e4ebfa; padding: 7px 8px 11px; margin: 0 3px 4px; color: #616e9f; }
+.select-search > .icon { width: 17px; height: 17px; }
+.select-search input { width: 100%; min-width: 0; padding: 3px 0; font: inherit; font-size: 13px; color: #090e49; outline: none; border: 0; background: transparent; }
+.select-search input::placeholder { color: #8793b2; }
+.select-search:focus-within { border-color: #7a90ff; }
+.select-options { min-height: 0; overflow-y: auto; overscroll-behavior: contain; margin: 0; padding: 0; scrollbar-width: thin; scrollbar-color: #c5d1ef transparent; }
+.select-option { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 37px; border-radius: 6px; padding: 8px 10px; margin: 1px 0; cursor: pointer; overflow-wrap: anywhere; }
+.select-option > .icon { width: 16px; height: 16px; flex-shrink: 0; color: #2442ff; }
+.select-option.is-selected { background: #f0f4ff; color: #2442ff; font-weight: 500; }
+.select-option.is-active { background: #e7eeff; color: #173bdf; }
+.select-option.is-disabled { color: #a0a9bf; cursor: not-allowed; background: transparent; }
+.select-empty { padding: 17px 10px; font-size: 13px; color: #616e9f; }
+.select-field-compact .select-trigger { min-height: 22px; padding: 2px 0 0; border: 0; border-radius: 3px; background: transparent; color: #616e9f; font-size: 12px; }
+.select-field-compact .select-trigger > .icon { width: 13px; height: 13px; color: #090e49; }
+.select-field-compact .select-trigger:focus-visible, .select-field-compact.is-open .select-trigger { box-shadow: none; outline: 2px solid #7a90ff; outline-offset: 3px; }
+.results-controls > .select-field { width: 143px; }
+.results-controls .select-trigger { min-height: 39px; font-size: 12px; }
+.quick-field .select-field { width: 100%; margin-top: 3px; }
+/* The account and mobile menus share the same surface and soft shadow. */
+.site-dropdown { position: absolute; right: 0; top: 100%; z-index: 50; margin-top: 12px; border: 1px solid #dfe7fa; border-radius: 12px; background: #fff; box-shadow: 0 12px 35px #1c317b20, 0 2px 5px #1c317b08; }
+.quick-popover { border-color: #dfe7fa; box-shadow: 0 12px 35px #1c317b20, 0 2px 5px #1c317b08; }
+@media (max-width: 640px) {
+    .select-option { min-height: 43px; padding-block: 10px; }
+    .select-search input { font-size: 16px; }
+    .select-popup { border-radius: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .select-trigger, .select-trigger > .icon { transition: none; }
+}

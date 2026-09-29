@@ -9,7 +9,7 @@
     $canonical = $meta['canonical'] ?? request()->fullUrl();
     $robots = $meta['robots'] ?? 'index,follow';
     $type = $meta['type'] ?? 'website';
-    $image = $meta['image'] ?? 'https://placehold.co/1200x630/0f172a/f8fafc?text=AutoIQ';
+    $image = $meta['image'] ?? asset('images/alpine-drive.webp');
     $user = auth()->user();
     $notificationsCount = $user ? $user->unreadNotifications()->count() : 0;
     $userInitials = $user
@@ -19,15 +19,16 @@
             ->map(fn (string $namePart) => mb_strtoupper(mb_substr($namePart, 0, 1)))
             ->implode('')
         : '';
-    $navActiveClass = 'border border-white/10 bg-white/8 text-white';
-    $listingBrowseIsActive = request()->routeIs('listings.index', 'listings.show');
+    $navActiveClass = 'is-active';
+    $listingBrowseIsActive = request()->routeIs('home', 'listings.index', 'listings.model', 'listings.show');
     $listingCreateIsActive = request()->routeIs('listings.create');
 @endphp
 
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="sr" data-theme="light">
     <head>
         <meta charset="utf-8">
+        <meta name="color-scheme" content="light">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ $title }}</title>
         <meta name="description" content="{{ $description }}">
@@ -45,7 +46,7 @@
         <meta name="twitter:image" content="{{ $image }}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         @production
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TMX1CMMRS"></script>
             <script>
@@ -66,50 +67,40 @@
         @endforeach
     </head>
     <body>
+        <a class="skip-link" href="#main-content">Preskoči na sadržaj</a>
         <div class="shell">
-            <header class="sticky top-0 z-40 border-b border-white/8 bg-slate-950/70 backdrop-blur-xl">
-                <div class="container-frame flex items-center justify-between gap-4 py-3 sm:py-4">
-                    <a href="{{ route('home') }}" wire:navigate class="flex items-center gap-3">
-                        <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-300 via-amber-400 to-orange-500 text-base font-black text-slate-950 shadow-lg shadow-amber-500/20">AIQ</div>
-                        <div>
-                            <div class="font-display text-lg font-bold tracking-tight text-white">AutoIQ</div>
-                            <div class="hidden text-xs uppercase tracking-[0.28em] text-slate-400 sm:block">Pametnije tržište vozila</div>
-                        </div>
+            <header class="site-header">
+                <div class="container-frame header-inner">
+                    <a href="{{ route('home') }}" wire:navigate class="brand-link" aria-label="AutoIQ.rs — početna">
+                        <x-brand />
+                        <span class="brand-tagline">Pametniji izbor<br>na svakom putu</span>
                     </a>
-
-                    <nav class="hidden items-center gap-2 lg:flex" data-desktop-primary-nav>
-                        <a href="{{ route('home') }}" wire:navigate class="btn-ghost {{ request()->routeIs('home') ? $navActiveClass : '' }}">Početna</a>
-                        <a href="{{ route('blog.index') }}" wire:navigate class="btn-ghost {{ request()->routeIs('blog.*') ? $navActiveClass : '' }}">Blog</a>
-                        <a href="{{ route('listings.index') }}" wire:navigate class="btn-ghost {{ $listingBrowseIsActive ? $navActiveClass : '' }}">Oglasi</a>
-                        <a href="{{ route('contact') }}" wire:navigate class="btn-ghost {{ request()->routeIs('contact') ? $navActiveClass : '' }}">Kontakt</a>
+                    <nav class="desktop-nav" aria-label="Glavna navigacija" data-desktop-primary-nav>
+                        <a href="{{ route('home') }}" wire:navigate class="nav-link {{ $listingBrowseIsActive ? 'is-active' : '' }}">Oglasi</a>
+                        <a href="{{ route('blog.index') }}" wire:navigate class="nav-link {{ request()->routeIs('blog.*') ? 'is-active' : '' }}">Blog</a>
+                        <a href="{{ route('contact') }}" wire:navigate class="nav-link {{ request()->routeIs('contact') ? 'is-active' : '' }}">Kontakt</a>
                     </nav>
-
-                    <div class="hidden items-center gap-2 lg:flex">
-                        <a href="{{ route('listings.create') }}" wire:navigate class="btn-primary gap-2 {{ $listingCreateIsActive ? 'ring-2 ring-amber-200/40' : '' }}" data-header-add-listing>
-                            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                                <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                            Dodaj oglas
-                        </a>
-
+                    <div class="header-actions">
+                        <a href="{{ route('home') }}#pretraga" class="icon-button" aria-label="Pretraži oglase"><x-icon name="search" /></a>
+                        <a href="{{ auth()->check() ? route('account.dashboard', ['tab' => 'favoriti']) : route('login') }}" wire:navigate class="icon-button" aria-label="Sačuvani oglasi"><x-icon name="heart" /></a>
                         @auth
                             <details class="group relative" data-nav-menu>
-                                <summary class="btn-secondary cursor-pointer gap-2 pr-3" data-user-menu>
-                                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-xs font-bold text-white">{{ $userInitials }}</span>
+                                <summary class="account-trigger" data-user-menu>
+                                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-wash text-xs font-bold text-ink">{{ $userInitials }}</span>
                                     <span class="hidden xl:inline">Moj nalog</span>
                                     @if($notificationsCount > 0)
-                                        <span class="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-400 px-1.5 text-[11px] font-bold text-slate-950">{{ $notificationsCount }}</span>
+                                        <span class="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-brand px-1.5 text-[11px] font-bold text-white">{{ $notificationsCount }}</span>
                                     @endif
-                                    <svg class="h-4 w-4 text-slate-300 transition group-open:rotate-180" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <svg class="h-4 w-4 text-muted transition group-open:rotate-180" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                                         <path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </summary>
 
-                                <div class="absolute right-0 top-full z-50 mt-3 w-72 rounded-2xl border border-white/10 bg-slate-950/95 p-3 shadow-2xl shadow-slate-950/50 backdrop-blur-xl">
-                                    <div class="border-b border-white/8 px-3 pb-3">
-                                        <div class="truncate text-sm font-semibold text-white">{{ $user->name }}</div>
-                                        <div class="mt-1 truncate text-xs text-slate-400">{{ $user->email }}</div>
-                                        <div class="mt-2 inline-flex rounded-full border border-white/10 bg-white/6 px-2.5 py-1 text-xs font-semibold text-cyan-200">{{ $user->roleLabel() }}</div>
+                                <div class="site-dropdown w-72 p-3">
+                                    <div class="border-b border-line px-3 pb-3">
+                                        <div class="truncate text-sm font-semibold text-ink">{{ $user->name }}</div>
+                                        <div class="mt-1 truncate text-xs text-muted">{{ $user->email }}</div>
+                                        <div class="mt-2 inline-flex rounded-full border border-line bg-wash px-2.5 py-1 text-xs font-semibold text-brand">{{ $user->roleLabel() }}</div>
                                     </div>
 
                                     <div class="grid gap-1 py-3">
@@ -117,7 +108,7 @@
                                         @if($notificationsCount > 0)
                                             <a href="{{ route('account.dashboard', ['tab' => 'obavestenja']) }}" wire:navigate class="btn-ghost justify-between">
                                                 Obaveštenja
-                                                <span class="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-amber-400 px-1.5 text-[11px] font-bold text-slate-950">{{ $notificationsCount }}</span>
+                                                <span class="inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-brand px-1.5 text-[11px] font-bold text-white">{{ $notificationsCount }}</span>
                                             </a>
                                         @endif
                                         @can('view admin dashboard')
@@ -129,40 +120,39 @@
                                 </div>
                             </details>
                         @else
-                            <a href="{{ route('login') }}" wire:navigate class="btn-ghost">Prijava</a>
+                            <a href="{{ route('login') }}" wire:navigate class="account-trigger"><x-icon name="user" /><span>Moj nalog</span></a>
                         @endauth
+                        <a href="{{ route('listings.create') }}" wire:navigate class="btn-primary header-cta" data-header-add-listing><x-icon name="plus" />Postavi oglas</a>
                     </div>
-
                     <details class="relative lg:hidden" data-nav-menu data-mobile-menu>
-                        <summary class="flex h-11 w-11 cursor-pointer items-center justify-center rounded-2xl border border-white/10 bg-white/6 text-white transition hover:bg-white/10" aria-label="Otvori meni">
+                        <summary class="flex h-11 w-11 cursor-pointer items-center justify-center rounded-2xl border border-line bg-wash text-ink transition hover:bg-wash" aria-label="Otvori meni">
                             <span class="sr-only">Meni</span>
                             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                                 <path d="M5 7h14M5 12h14M5 17h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                             </svg>
                         </summary>
 
-                        <div class="absolute right-0 top-full z-50 mt-3 w-[min(22rem,calc(100vw-2rem))] rounded-2xl border border-white/10 bg-slate-950/95 p-4 shadow-2xl shadow-slate-950/50 backdrop-blur-xl">
-                            <a href="{{ route('listings.create') }}" wire:navigate class="btn-primary w-full gap-2 {{ $listingCreateIsActive ? 'ring-2 ring-amber-200/40' : '' }}" data-mobile-add-listing>
+                        <div class="site-dropdown w-[min(22rem,calc(100vw-2rem))] p-4">
+                            <a href="{{ route('listings.create') }}" wire:navigate class="btn-primary w-full gap-2 {{ $listingCreateIsActive ? 'ring-2 ring-brand/20' : '' }}" data-mobile-add-listing>
                                 <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                                     <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                                 </svg>
-                                Dodaj oglas
+                                Postavi oglas
                             </a>
 
-                            <nav class="mt-4 grid gap-2" data-mobile-primary-nav>
-                                <a href="{{ route('home') }}" wire:navigate class="btn-ghost justify-start {{ request()->routeIs('home') ? $navActiveClass : '' }}">Početna</a>
+                            <nav class="mt-4 grid gap-2" aria-label="Mobilna navigacija" data-mobile-primary-nav>
+                                <a href="{{ route('home') }}" wire:navigate class="btn-ghost justify-start {{ $listingBrowseIsActive ? $navActiveClass : '' }}">Oglasi</a>
                                 <a href="{{ route('blog.index') }}" wire:navigate class="btn-ghost justify-start {{ request()->routeIs('blog.*') ? $navActiveClass : '' }}">Blog</a>
-                                <a href="{{ route('listings.index') }}" wire:navigate class="btn-ghost justify-start {{ $listingBrowseIsActive ? $navActiveClass : '' }}">Oglasi</a>
                                 <a href="{{ route('contact') }}" wire:navigate class="btn-ghost justify-start {{ request()->routeIs('contact') ? $navActiveClass : '' }}">Kontakt</a>
                             </nav>
 
                             @auth
-                                <div class="mt-4 border-t border-white/8 pt-4">
-                                    <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-3">
-                                        <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/10 text-xs font-bold text-white">{{ $userInitials }}</span>
+                                <div class="mt-4 border-t border-line pt-4">
+                                    <div class="flex items-center gap-3 rounded-2xl border border-line bg-wash p-3">
+                                        <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-wash text-xs font-bold text-ink">{{ $userInitials }}</span>
                                         <div class="min-w-0">
-                                            <div class="truncate text-sm font-semibold text-white">{{ $user->name }}</div>
-                                            <div class="truncate text-xs text-slate-400">{{ $user->roleLabel() }}</div>
+                                            <div class="truncate text-sm font-semibold text-ink">{{ $user->name }}</div>
+                                            <div class="truncate text-xs text-muted">{{ $user->roleLabel() }}</div>
                                         </div>
                                     </div>
 
@@ -175,7 +165,7 @@
                                     </div>
                                 </div>
                             @else
-                                <div class="mt-4 grid gap-2 border-t border-white/8 pt-4">
+                                <div class="mt-4 grid gap-2 border-t border-line pt-4">
                                     <a href="{{ route('login') }}" wire:navigate class="btn-secondary w-full">Prijava</a>
                                 </div>
                             @endauth
@@ -186,30 +176,45 @@
 
             @if (session('status'))
                 <div class="container-frame pt-6">
-                    <div class="rounded-2xl border border-emerald-400/30 bg-emerald-400/10 px-4 py-3 text-sm text-emerald-100">
+                    <div class="rounded-2xl border border-emerald-400/30 bg-emerald-400/10 px-4 py-3 text-sm text-emerald-700">
                         {{ session('status') }}
                     </div>
                 </div>
             @endif
 
-            <main class="container-frame py-8 sm:py-10">
+            <main id="main-content" class="site-main {{ request()->routeIs('home', 'listings.index', 'listings.model', 'blog.index') ? '' : 'container-frame py-8 sm:py-10' }}">
                 {{ $slot }}
             </main>
 
-            <footer class="border-t border-white/8 bg-slate-950/40 py-10">
-                <div class="container-frame flex flex-col gap-6 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
-                    <div class="max-w-xl">
-                        <div class="font-display text-lg font-semibold text-white">AutoIQ</div>
-                        <p class="mt-2 leading-7">Pametna platforma za kupovinu i prodaju automobila u Srbiji: oglasi, analiza cena, favoriti, alarmi i AutoIQ procena.</p>
+            <footer class="site-footer">
+                <div class="container-frame footer-grid">
+                    <div class="footer-about">
+                        <a href="{{ route('home') }}" wire:navigate aria-label="AutoIQ.rs — početna"><x-brand /></a>
+                        <p>Pametniji izbor na svakom putu.</p>
+                        <p>AutoIQ.rs je platforma za kupovinu i prodaju automobila u Srbiji. Povezujemo ljude, automobile i bolje prilike.</p>
+                        <small>© {{ date('Y') }} AutoIQ.rs. Sva prava zadržana.</small>
                     </div>
-                    <div class="flex flex-wrap items-center gap-3">
-                        <a href="{{ route('blog.index') }}" wire:navigate class="btn-ghost">Blog</a>
-                        <a href="{{ route('listings.index') }}" wire:navigate class="btn-ghost">Tržište</a>
-                        <a href="{{ route('contact') }}" wire:navigate class="btn-ghost">Kontakt</a>
-                        @auth
-                            <a href="{{ route('account.dashboard') }}" wire:navigate class="btn-ghost">Profil</a>
-                        @endauth
-                        <a href="{{ route('sitemap') }}" class="btn-ghost">Mapa sajta</a>
+                    <div><h2>Brzi linkovi</h2>
+                        <a href="{{ route('home') }}" wire:navigate>Oglasi</a>
+                        <a href="{{ route('home') }}#marke">Marke automobila</a>
+                        <a href="{{ route('blog.index') }}" wire:navigate>Blog i saveti</a>
+                        <a href="{{ route('sitemap') }}">Mapa sajta</a>
+                    </div>
+                    <div><h2>Za korisnike</h2>
+                        <a href="{{ route('account.dashboard') }}" wire:navigate>Moj nalog</a>
+                        <a href="{{ route('account.dashboard', ['tab' => 'favoriti']) }}" wire:navigate>Sačuvani oglasi</a>
+                        <a href="{{ route('contact') }}" wire:navigate>Kontakt i pomoć</a>
+                        <a href="{{ route('register') }}" wire:navigate>Registracija</a>
+                    </div>
+                    <div><h2>Za prodavce</h2>
+                        <a href="{{ route('listings.create') }}" wire:navigate>Postavi oglas</a>
+                        <a href="{{ route('account.dashboard', ['tab' => 'oglasi']) }}" wire:navigate>Moji oglasi</a>
+                        <a href="{{ route('contact') }}" wire:navigate>Za auto kuće</a>
+                        <a href="{{ route('blog.index') }}" wire:navigate>Saveti za prodaju</a>
+                    </div>
+                    <div class="footer-guide"><h2>Budite u toku</h2>
+                        <p>Praktični vodiči, poređenja i saveti za vašu sledeću vožnju.</p>
+                        <a href="{{ route('blog.index') }}" wire:navigate class="btn-secondary">Istražite AutoIQ Blog <x-icon name="arrow" /></a>
                     </div>
                 </div>
             </footer>

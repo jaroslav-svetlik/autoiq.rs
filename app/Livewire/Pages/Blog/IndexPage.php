@@ -16,6 +16,20 @@ class IndexPage extends PageComponent
     #[Url(as: 'tema')]
     public string $category = '';
 
+    #[Url(as: 'pretraga')]
+    public string $search = '';
+
+    public function updatedSearch(): void
+    {
+        $this->resetPage();
+    }
+
+    public function clearSearch(): void
+    {
+        $this->reset('search', 'category');
+        $this->resetPage();
+    }
+
     public function updatedCategory(): void
     {
         $this->resetPage();
@@ -45,6 +59,7 @@ class IndexPage extends PageComponent
                 'tema' => $this->category,
             ])),
             'type' => 'website',
+            'robots' => $this->search !== '' ? 'noindex,follow' : 'index,follow',
         ];
     }
 
@@ -78,7 +93,10 @@ class IndexPage extends PageComponent
     {
         $baseQuery = BlogPost::query()
             ->published()
-            ->when($this->category !== '', fn ($query) => $query->where('category', $this->category));
+            ->when($this->category !== '', fn ($query) => $query->where('category', $this->category))
+            ->when(trim($this->search) !== '', fn ($query) => $query->where(fn ($query) => $query
+                ->where('title', 'like', '%'.trim($this->search).'%')
+                ->orWhere('excerpt', 'like', '%'.trim($this->search).'%')));
 
         $featuredPost = (clone $baseQuery)
             ->orderByDesc('is_featured')
@@ -104,7 +122,7 @@ class IndexPage extends PageComponent
             'featuredPost' => $featuredPost,
             'posts' => $posts,
             'categories' => $categories,
-            'priorityGuides' => $this->category === ''
+            'priorityGuides' => $this->category === '' && $this->search === ''
                 ? app(BlogSeoLinkService::class)->priorityGuides(6)
                 : collect(),
         ]));

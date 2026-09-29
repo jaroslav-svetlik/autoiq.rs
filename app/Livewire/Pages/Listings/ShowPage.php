@@ -32,16 +32,19 @@ class ShowPage extends PageComponent
         $this->recordView();
     }
 
-    public function toggleFavorite(): void
+    public function toggleFavorite(?int $listingId = null): void
     {
         abort_unless(auth()->check(), 403);
 
         $user = auth()->user();
+        $target = $listingId === null || $listingId === $this->listing->id
+            ? $this->listing
+            : Listing::query()->published()->findOrFail($listingId);
 
-        if ($user->hasFavorited($this->listing)) {
-            $user->favoriteListings()->detach($this->listing->id);
+        if ($user->hasFavorited($target)) {
+            $user->favoriteListings()->detach($target->id);
         } else {
-            $user->favoriteListings()->syncWithoutDetaching([$this->listing->id]);
+            $user->favoriteListings()->syncWithoutDetaching([$target->id]);
         }
     }
 
@@ -113,12 +116,16 @@ class ShowPage extends PageComponent
             ->whereKeyNot($this->listing->id)
             ->where('brand', $this->listing->brand)
             ->where('model', $this->listing->model)
-            ->with(['images', 'priceHistories'])
+            ->with(['images', 'priceHistories', 'dealerProfile'])
+            ->latest('published_at')
             ->limit(4)
             ->get();
 
         return $this->page(view('livewire.pages.listings.show-page', [
             'similarListings' => $similarListings,
+            'favoriteIds' => auth()->check()
+                ? auth()->user()->favoriteListings()->whereIn('listings.id', $similarListings->modelKeys())->pluck('listings.id')->all()
+                : [],
         ]));
     }
 }

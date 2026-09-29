@@ -4,6 +4,7 @@ namespace App\Livewire\Pages;
 
 use App\Livewire\Concerns\ThrottlesRequests;
 use App\Mail\ContactMessageMail;
+use App\Models\Listing;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
@@ -32,6 +33,17 @@ class ContactPage extends PageComponent
     public function mount(): void
     {
         $this->refreshBotTimer();
+
+        $slug = request()->query('oglas');
+
+        if (is_string($slug) && $slug !== '') {
+            $listing = Listing::query()->published()->where('slug', $slug)->first();
+
+            if ($listing) {
+                $this->topic = 'Pitanje o oglasu';
+                $this->message = "Prijava oglasa: {$listing->title}\n".route('listings.show', $listing)."\n\nRazlog prijave: ";
+            }
+        }
     }
 
     public function send(): void

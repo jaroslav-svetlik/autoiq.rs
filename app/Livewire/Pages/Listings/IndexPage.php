@@ -43,6 +43,12 @@ class IndexPage extends PageComponent
     #[Url(as: 'min_year')]
     public ?string $minYear = null;
 
+    #[Url(as: 'max_year')]
+    public ?string $maxYear = null;
+
+    #[Url(as: 'min_mileage')]
+    public ?string $minMileage = null;
+
     #[Url(as: 'max_mileage')]
     public ?string $maxMileage = null;
 
@@ -103,6 +109,12 @@ class IndexPage extends PageComponent
         $this->recordSearch();
     }
 
+    public function applyFilters(): void
+    {
+        $this->resetPage();
+        $this->recordSearch();
+    }
+
     public function clearFilters(): void
     {
         if ($this->modelLandingPage()) {
@@ -121,6 +133,8 @@ class IndexPage extends PageComponent
             'minPrice',
             'maxPrice',
             'minYear',
+            'maxYear',
+            'minMileage',
             'maxMileage',
             'equipment',
             'saveSearchName',
@@ -133,6 +147,8 @@ class IndexPage extends PageComponent
     public function toggleFavorite(int $listingId): void
     {
         abort_unless(auth()->check(), 403);
+
+        Listing::query()->published()->findOrFail($listingId);
 
         $user = auth()->user();
 
@@ -178,6 +194,8 @@ class IndexPage extends PageComponent
             'min_price' => $this->minPrice,
             'max_price' => $this->maxPrice,
             'min_year' => $this->minYear,
+            'max_year' => $this->maxYear,
+            'min_mileage' => $this->minMileage,
             'max_mileage' => $this->maxMileage,
             'equipment' => $this->equipment,
             'sort' => $this->sort,
@@ -348,18 +366,21 @@ class IndexPage extends PageComponent
         $landingPage = $this->modelLandingPage();
 
         return $this->page(view('livewire.pages.listings.index-page', [
-            'listings' => $this->searchService->search($this->filters()),
+            'listings' => $this->searchService->search($this->filters(), 9),
             'brands' => $this->searchService->brands(),
+            'brandCounts' => $this->searchService->brandCounts(),
+            'fuelCounts' => $this->searchService->fuelCounts(),
+            'favoriteIds' => auth()->user()?->favoriteListings()->pluck('listings.id')->all() ?? [],
             'models' => $this->searchService->models($this->brand),
             'cities' => config('autoiq.cities'),
             'fuelTypes' => config('autoiq.fuel_types'),
             'transmissionTypes' => config('autoiq.transmission_types'),
             'equipmentCatalog' => Listing::equipmentCatalog(),
             'selectedEquipmentLabels' => collect($this->equipment)->map(fn (string $key) => $equipmentLabelMap[$key] ?? $key)->values(),
-            'pageHeading' => $landingPage ? VehicleLandingPages::heading($landingPage) : 'Auto oglasi i analiza tržišta',
+            'pageHeading' => $landingPage ? VehicleLandingPages::heading($landingPage) : 'Auto oglasi',
             'pageIntro' => $landingPage
                 ? VehicleLandingPages::intro($landingPage)
-                : 'Filtrirajte po budžetu, godištu, kilometraži, lokaciji i opremi, pa odmah vidite gde cena odstupa od proseka.',
+                : 'Pronađite svoj sledeći automobil. Uporedite oglase i izaberite pravi za sebe.',
             'landingHighlights' => $landingPage ? VehicleLandingPages::highlights($landingPage) : [],
         ]));
     }

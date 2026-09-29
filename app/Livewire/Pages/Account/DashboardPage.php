@@ -5,8 +5,6 @@ namespace App\Livewire\Pages\Account;
 use App\Enums\UserRole;
 use App\Livewire\Pages\PageComponent;
 use App\Models\DealerProfile;
-use App\Models\Listing;
-use App\Models\SavedSearch;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
 use Livewire\Attributes\Url;
@@ -17,12 +15,19 @@ class DashboardPage extends PageComponent
     public string $tab = 'profil';
 
     public string $name = '';
+
     public string $email = '';
+
     public ?string $phone = null;
+
     public ?string $city = null;
+
     public ?string $bio = null;
+
     public ?string $dealerCompanyName = null;
+
     public ?string $dealerWebsite = null;
+
     public ?string $dealerDescription = null;
 
     public function mount(): void
@@ -164,8 +169,10 @@ class DashboardPage extends PageComponent
         $user = auth()->user()->load([
             'dealerProfile',
             'listings.images',
+            'listings.dealerProfile',
             'listings.priceHistories',
             'favoriteListings.images',
+            'favoriteListings.dealerProfile',
             'favoriteListings.priceHistories',
             'savedSearches',
         ]);

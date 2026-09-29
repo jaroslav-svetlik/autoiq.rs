@@ -1,0 +1,37 @@
+@props(['name'])
+@php
+    $paths = [
+        'search' => '<circle cx="10.8" cy="10.8" r="7.3"/><path d="m16.2 16.2 5 5"/>',
+        'heart' => '<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>',
+        'user' => '<circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2Z"/>',
+        'plus' => '<path d="M12 5v14M5 12h14"/>',
+        'arrow' => '<path d="M4 12h16m-6-6 6 6-6 6"/>',
+        'chevron' => '<path d="m6 9 6 6 6-6"/>',
+        'car' => '<path d="m5 6-3 7v6h3v-3h14v3h3v-6l-3-7ZM3 12h18M7 6V4h10v2"/><path d="M6 14h2m8 0h2"/>',
+        'calendar' => '<rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 3v5m8-5v5M4 11h16m-12 4h1m3 0h1m3 0h1m-9 3h1m3 0h1"/>',
+        'gauge' => '<circle cx="12" cy="12" r="9"/><path d="m12 12 4-5M6 15h2m8 0h2M12 3v2"/>',
+        'fuel' => '<path d="M4 21V4h10v17M3 21h12M4 10h10m0-5 5 4v8a2 2 0 0 0 4 0v-5l-4-4"/>',
+        'gear' => '<path d="M6 3v18M18 3v9H6m6-9v18M4 3h4m8 0h4M4 21h4m2 0h4"/>',
+        'pin' => '<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
+        'shield' => '<path d="m12 2 9 4v6c0 5-9 10-9 10S3 17 3 12V6Z"/><path d="m8 12 3 3 5-6"/>',
+        'tag' => '<path d="M3 3h9l10 10-9 9L3 12Z"/><circle cx="8" cy="8" r="1"/>',
+        'users' => '<circle cx="9" cy="7" r="3"/><path d="M2 21v-4a7 7 0 0 1 14 0v4ZM17 4a3 3 0 0 1 0 6m2 3a5 5 0 0 1 3 5v3"/>',
+        'layers' => '<path d="m12 3 10 6-10 6L2 9Zm-10 11 10 6 10-6M2 19l10 5 10-5"/>',
+        'filter' => '<path d="M3 6h5m4 0h9M3 12h11m4 0h3M3 18h3m4 0h11M8 3v6m6 0v6m-8 0v6"/>',
+        'grid' => '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
+        'list' => '<path d="M9 5h12M9 12h12M9 19h12M3 5h1m-1 7h1m-1 7h1"/>',
+        'book' => '<path d="M12 5C9 2 4 3 2 4v16c3-1 7-1 10 1 3-2 7-2 10-1V4c-3-1-7-2-10 1Zm0 0v16"/>',
+        'mail' => '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7L22 6"/>',
+        'clock' => '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+        'close' => '<path d="m6 6 12 12M6 18 18 6"/>',
+        'menu' => '<path d="M3 6h18M3 12h18M3 18h18"/>',
+        'camera' => '<path d="m8 5 2-3h4l2 3h4a2 2 0 0 1 2 2v12H2V7a2 2 0 0 1 2-2Z"/><circle cx="12" cy="12" r="4"/>',
+        'phone' => '<path d="M5 3H3v4c0 8 6 14 14 14h4v-5l-5-2-2 3a15 15 0 0 1-7-7l3-2-2-5Z"/>',
+        'message' => '<path d="M21 11a9 9 0 0 1-9 9H4l-3 2 2-6a9 9 0 1 1 18-5Z"/>',
+        'share' => '<circle cx="18" cy="4" r="3"/><circle cx="5" cy="12" r="3"/><circle cx="18" cy="20" r="3"/><path d="m8 11 7-5M8 13l7 5"/>',
+        'flag' => '<path d="M4 22V3m0 1c5-5 11 5 16 0v11c-5 5-11-5-16 0"/>',
+        'check' => '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',
+        'chart' => '<path d="M3 3v18h18M7 15l4-5 4 3 6-8"/>',
+    ];
+@endphp
+<svg {{ $attributes->class('icon') }} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{!! $paths[$name] ?? $paths['car'] !!}</svg>

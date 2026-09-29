@@ -15,6 +15,6 @@ class ExampleTest extends TestCase
 
         $response
             ->assertStatus(200)
-            ->assertSee('Pametniji auto oglasi');
+            ->assertSee('Auto oglasi');
     }
 }

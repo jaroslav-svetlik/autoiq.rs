@@ -2,9 +2,9 @@
 
 @php
     $classes = match ($listing->scoreTone()) {
-        'emerald' => 'border-emerald-300/40 bg-emerald-400/15 text-emerald-100',
-        'amber' => 'border-amber-300/40 bg-amber-400/15 text-amber-50',
-        default => 'border-rose-300/40 bg-rose-400/15 text-rose-50',
+        'emerald' => 'border-emerald-300/40 bg-emerald-400/15 text-emerald-700',
+        'amber' => 'border-brand/20 bg-brand/5 text-brand',
+        default => 'border-rose-300/40 bg-rose-400/15 text-rose-700',
     };
 @endphp
 

@@ -23,7 +23,7 @@
             >
                 {{ $label }}
                 @if($value === 'obavestenja' && $user->unreadNotifications->count())
-                    <span class="ml-2 rounded-full bg-amber-400 px-2 py-0.5 text-xs font-bold text-slate-950">{{ $user->unreadNotifications->count() }}</span>
+                    <span class="ml-2 rounded-full bg-brand px-2 py-0.5 text-xs font-bold text-white">{{ $user->unreadNotifications->count() }}</span>
                 @endif
             </button>
         @endforeach
@@ -35,12 +35,12 @@
                 <div>
                     <label class="field-label">Ime i prezime</label>
                     <input type="text" wire:model.live="name" class="input-shell w-full">
-                    @error('name') <p class="mt-2 text-sm text-rose-300">{{ $message }}</p> @enderror
+                    @error('name') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
                 </div>
                 <div>
                     <label class="field-label">Email</label>
                     <input type="email" wire:model.live="email" class="input-shell w-full">
-                    @error('email') <p class="mt-2 text-sm text-rose-300">{{ $message }}</p> @enderror
+                    @error('email') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
                 </div>
                 <div>
                     <label class="field-label">Telefon</label>
@@ -48,12 +48,12 @@
                 </div>
                 <div>
                     <label class="field-label">Grad</label>
-                    <select wire:model.live="city" class="input-shell w-full">
+                    <x-select wire:model.live="city" class="input-shell w-full">
                         <option value="">Izaberite grad</option>
                         @foreach($cities as $option)
                             <option value="{{ $option }}">{{ $option }}</option>
                         @endforeach
-                    </select>
+                    </x-select>
                 </div>
                 <div class="md:col-span-2">
                     <label class="field-label">O meni</label>
@@ -61,7 +61,7 @@
                 </div>
 
                 @if($user->isDealer())
-                    <div class="md:col-span-2 grid gap-6 rounded-3xl border border-amber-300/15 bg-amber-400/5 p-6 md:grid-cols-2">
+                    <div class="md:col-span-2 grid gap-6 rounded-xl border border-brand/20 bg-brand/5 p-6 md:grid-cols-2">
                         <div>
                             <label class="field-label">Naziv dilera</label>
                             <input type="text" wire:model.live="dealerCompanyName" class="input-shell w-full">
@@ -89,10 +89,10 @@
             @forelse($user->listings as $listing)
                 <div class="space-y-3" wire:key="my-listing-{{ $listing->id }}">
                     <x-listing-card :listing="$listing" editable />
-                    <button type="button" wire:click="deleteListing({{ $listing->id }})" class="btn-ghost w-full text-rose-200 hover:text-rose-100">Obriši oglas</button>
+                    <button type="button" wire:click="deleteListing({{ $listing->id }})" class="btn-ghost w-full text-rose-700 hover:text-rose-700">Obriši oglas</button>
                 </div>
             @empty
-                <div class="panel p-8 text-slate-300 lg:col-span-3">Još nemate objavljenih oglasa.</div>
+                <div class="panel p-8 text-muted lg:col-span-3">Još nemate objavljenih oglasa.</div>
             @endforelse
         </div>
     @endif
@@ -105,7 +105,7 @@
                     <button type="button" wire:click="removeFavorite({{ $listing->id }})" class="btn-secondary w-full">Ukloni iz favorita</button>
                 </div>
             @empty
-                <div class="panel p-8 text-slate-300 lg:col-span-3">Lista favorita je prazna.</div>
+                <div class="panel p-8 text-muted lg:col-span-3">Lista favorita je prazna.</div>
             @endforelse
         </div>
     @endif
@@ -116,26 +116,26 @@
                 <div class="panel p-6" wire:key="search-{{ $search->id }}">
                     <div class="flex items-start justify-between gap-4">
                         <div>
-                            <h2 class="font-display text-2xl font-bold text-white">{{ $search->name }}</h2>
-                            <p class="mt-2 text-sm text-slate-400">{{ $search->summary() }}</p>
+                            <h2 class="font-display text-2xl font-bold text-ink">{{ $search->name }}</h2>
+                            <p class="mt-2 text-sm text-muted">{{ $search->summary() }}</p>
                         </div>
                         <a href="{{ route('listings.index') }}?{{ $search->queryString() }}" wire:navigate class="btn-secondary">Otvori</a>
                     </div>
 
                     <div class="mt-5 flex flex-wrap gap-3">
-                        <button type="button" wire:click="toggleSavedSearchFlag({{ $search->id }}, 'notify_new_matches')" class="btn-ghost {{ $search->notify_new_matches ? 'text-emerald-200' : 'text-slate-400' }}">
+                        <button type="button" wire:click="toggleSavedSearchFlag({{ $search->id }}, 'notify_new_matches')" class="btn-ghost {{ $search->notify_new_matches ? 'text-emerald-700' : 'text-muted' }}">
                             Obaveštenja za nove oglase: {{ $search->notify_new_matches ? 'uključeno' : 'isključeno' }}
                         </button>
-                        <button type="button" wire:click="toggleSavedSearchFlag({{ $search->id }}, 'notify_price_drops')" class="btn-ghost {{ $search->notify_price_drops ? 'text-cyan-200' : 'text-slate-400' }}">
+                        <button type="button" wire:click="toggleSavedSearchFlag({{ $search->id }}, 'notify_price_drops')" class="btn-ghost {{ $search->notify_price_drops ? 'text-brand' : 'text-muted' }}">
                             Pad cene: {{ $search->notify_price_drops ? 'uključeno' : 'isključeno' }}
                         </button>
-                        <button type="button" wire:click="deleteSavedSearch({{ $search->id }})" class="btn-ghost text-rose-200 hover:text-rose-100">
+                        <button type="button" wire:click="deleteSavedSearch({{ $search->id }})" class="btn-ghost text-rose-700 hover:text-rose-700">
                             Obriši
                         </button>
                     </div>
                 </div>
             @empty
-                <div class="panel p-8 text-slate-300 lg:col-span-2">Još nemate sačuvanih pretraga. Sačuvajte ih direktno sa stranice oglasa.</div>
+                <div class="panel p-8 text-muted lg:col-span-2">Još nemate sačuvanih pretraga. Sačuvajte ih direktno sa stranice oglasa.</div>
             @endforelse
         </div>
     @endif
@@ -151,13 +151,13 @@
                     <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
                         <div>
                             <div class="flex items-center gap-3">
-                                <h2 class="text-lg font-semibold text-white">{{ $notification->data['title'] ?? 'Obaveštenje' }}</h2>
+                                <h2 class="text-lg font-semibold text-ink">{{ $notification->data['title'] ?? 'Obaveštenje' }}</h2>
                                 @if(!$notification->read_at)
-                                    <span class="rounded-full bg-amber-400 px-2 py-0.5 text-xs font-bold text-slate-950">Novo</span>
+                                    <span class="rounded-full bg-brand px-2 py-0.5 text-xs font-bold text-white">Novo</span>
                                 @endif
                             </div>
-                            <p class="mt-2 text-sm leading-7 text-slate-300">{{ $notification->data['message'] ?? '' }}</p>
-                            <div class="mt-3 text-xs uppercase tracking-[0.18em] text-slate-500">{{ $notification->created_at->diffForHumans() }}</div>
+                            <p class="mt-2 text-sm leading-7 text-muted">{{ $notification->data['message'] ?? '' }}</p>
+                            <div class="mt-3 text-xs uppercase tracking-[0.18em] text-muted">{{ $notification->created_at->diffForHumans() }}</div>
                         </div>
                         <div class="flex gap-2">
                             @if(isset($notification->data['url']))
@@ -170,7 +170,7 @@
                     </div>
                 </div>
             @empty
-                <div class="panel p-8 text-slate-300">Trenutno nema obaveštenja.</div>
+                <div class="panel p-8 text-muted">Trenutno nema obaveštenja.</div>
             @endforelse
         </div>
     @endif

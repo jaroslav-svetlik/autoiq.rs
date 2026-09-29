@@ -2,47 +2,14 @@
 
 namespace App\Livewire\Pages;
 
-use App\Models\BlogPost;
-use App\Services\BlogSeoLinkService;
-use App\Services\MarketInsightsService;
-use App\Support\Seo\VehicleLandingPages;
-use Illuminate\Contracts\View\View;
+use App\Livewire\Pages\Listings\IndexPage;
 
-class HomePage extends PageComponent
+/** The home page and the listings directory share one searchable catalog. */
+class HomePage extends IndexPage
 {
-    public string $heroSearch = '';
-
-    public function search(): void
-    {
-        $this->redirectRoute('listings.index', ['search' => trim($this->heroSearch)], navigate: true);
-    }
-
-    public function exploreModel(string $brand, string $model): void
-    {
-        if (VehicleLandingPages::for($brand, $model)) {
-            $this->redirectRoute('listings.model', VehicleLandingPages::routeParameters($brand, $model), navigate: true);
-
-            return;
-        }
-
-        $this->redirectRoute('listings.index', [
-            'brand' => $brand,
-            'model' => $model,
-        ], navigate: true);
-    }
-
-    protected function title(): string
-    {
-        return 'AutoIQ | Pametna kupovina automobila u Srbiji';
-    }
-
     protected function meta(): array
     {
-        return [
-            ...parent::meta(),
-            'description' => 'AutoIQ analizira tržište polovnih automobila u Srbiji, meri isplativost oglasa i pomaže pri donošenju odluke.',
-            'canonical' => route('home'),
-        ];
+        return [...parent::meta(), 'canonical' => route('home')];
     }
 
     protected function jsonLd(): array
@@ -53,20 +20,5 @@ class HomePage extends PageComponent
             'name' => 'AutoIQ',
             'url' => route('home'),
         ]];
-    }
-
-    public function render(): View
-    {
-        $seoLinks = app(BlogSeoLinkService::class);
-
-        return $this->page(view('livewire.pages.home-page', [
-            'insights' => app(MarketInsightsService::class)->home(),
-            'priorityGuides' => $seoLinks->priorityGuides(6),
-            'latestBlogPosts' => BlogPost::query()
-                ->published()
-                ->latest('published_at')
-                ->limit(3)
-                ->get(),
-        ]));
     }
 }
