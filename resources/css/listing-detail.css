@@ -104,7 +104,7 @@
 .detail-spec-icon .icon { width: 19px; height: 19px; }
 .detail-spec-grid dt { color: #616e9f; font-size: 11px; }
 .detail-spec-grid dd { font-size: 13px; line-height: 1.4; margin-top: 2px; overflow-wrap: anywhere; }
-.detail-description-text { margin-top: 10px; font-size: 13px; line-height: 1.65; color: #435087; white-space: pre-line; overflow-wrap: anywhere; }
+.detail-description-text { margin-top: 10px; font-size: 13px; line-height: 1.65; color: #435087; overflow-wrap: anywhere; }
 .detail-equipment-group { margin-top: 18px; }
 .detail-equipment-group + .detail-equipment-group { border-top: 1px solid #edf1fb; padding-top: 17px; }
 .detail-equipment-group h3 { color: #616e9f; font-size: 11px; line-height: 1.4; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }

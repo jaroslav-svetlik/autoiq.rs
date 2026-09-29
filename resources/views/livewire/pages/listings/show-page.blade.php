@@ -142,7 +142,7 @@
 
             <section class="detail-panel detail-description">
                 <h2>Opis oglasa</h2>
-                <p class="detail-description-text">{{ $listing->description }}</p>
+                <div class="detail-description-text rich-text-content">{!! $listing->descriptionHtml() !!}</div>
                 <div class="detail-listing-meta"><span><x-icon name="calendar" />{{ $listing->published_at ? 'Objavljen '.$listing->published_at->format('d.m.Y.') : 'Oglas u pripremi' }}</span><span><x-icon name="users" />Pregledi: {{ number_format($listing->views_count, 0, ',', '.') }}</span></div>
             </section>
 

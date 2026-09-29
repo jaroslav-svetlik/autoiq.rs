@@ -70,7 +70,7 @@ class ShowPage extends PageComponent
     {
         return [
             ...parent::meta(),
-            'description' => str($this->listing->description)->limit(155)->toString(),
+            'description' => str($this->listing->descriptionText())->limit(155)->toString(),
             'canonical' => route('listings.show', $this->listing),
             'type' => 'article',
             'image' => $this->listing->primaryImageUrl(),
@@ -104,7 +104,7 @@ class ShowPage extends PageComponent
                 'availability' => 'https://schema.org/InStock',
                 'url' => route('listings.show', $this->listing),
             ],
-            'description' => $this->listing->description,
+            'description' => $this->listing->descriptionText(),
             'image' => $this->listing->images->map->url()->all(),
         ]];
     }

@@ -7,6 +7,7 @@ use App\Enums\SellerType;
 use App\Livewire\Concerns\ThrottlesRequests;
 use App\Livewire\Pages\PageComponent;
 use App\Models\Listing;
+use App\Rules\ListingDescriptionLength;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
@@ -273,7 +274,7 @@ class FormPage extends PageComponent
             'fuelType' => ['required', 'in:'.implode(',', array_keys(config('autoiq.fuel_types')))],
             'transmission' => ['required', 'in:'.implode(',', array_keys(config('autoiq.transmission_types')))],
             'city' => ['required', 'string', 'max:80'],
-            'description' => ['required', 'string', 'min:30', 'max:5000'],
+            'description' => ['bail', 'required', 'string', new ListingDescriptionLength],
             'sellerType' => ['required', 'in:private,dealer'],
             'sellerName' => ['required', 'string', 'min:2', 'max:120'],
             'sellerPhones' => [

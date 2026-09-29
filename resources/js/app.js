@@ -1,5 +1,6 @@
 import './bootstrap';
 import selectField from './select-field';
+import richTextEditor from './rich-text-editor';
 
 const dropdownSelector = 'details[data-nav-menu], details.quick-range, details[data-listing-menu]';
 const dropdownMenus = () => document.querySelectorAll(dropdownSelector);
@@ -30,6 +31,7 @@ document.addEventListener('keydown', (event) => {
 
 document.addEventListener('alpine:init', () => {
     window.Alpine.data('selectField', selectField);
+    window.Alpine.data('richTextEditor', richTextEditor);
     window.Alpine.data('listingDeletionDialog', () => ({
         returnFocus: null,
         init() {

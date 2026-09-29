@@ -6,7 +6,9 @@ use App\Enums\FuelType;
 use App\Enums\ListingStatus;
 use App\Enums\SellerType;
 use App\Enums\TransmissionType;
+use App\Support\ListingDescription;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -66,6 +68,21 @@ class Listing extends Model
             'last_price_drop_at' => 'datetime',
             'price_deviation_percentage' => 'float',
         ];
+    }
+
+    protected function description(): Attribute
+    {
+        return Attribute::make(set: fn (string $value) => ListingDescription::sanitize($value));
+    }
+
+    public function descriptionHtml(): string
+    {
+        return ListingDescription::html($this->description);
+    }
+
+    public function descriptionText(): string
+    {
+        return ListingDescription::text($this->description);
     }
 
     public function user(): BelongsTo
@@ -144,7 +161,7 @@ class Listing extends Model
             'autoiq_score' => $this->autoiq_score,
             'equipment' => $equipmentLabels->all(),
             'equipment_keys' => $this->equipmentKeys()->all(),
-            'description' => str($this->description)->limit(500)->toString(),
+            'description' => str($this->descriptionText())->limit(500)->toString(),
             'created_at' => optional($this->created_at)->timestamp,
         ];
     }

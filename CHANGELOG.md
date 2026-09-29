@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.183] - 2026-09-29
+
+### Added
+
+- Added a reusable, lazy-loaded Tiptap editor for listing descriptions with bold, italic, underline, lists, clear formatting, undo/redo and a visible-text character counter.
+- Added server-side HTML sanitization and visible-text validation while preserving legacy plain-text descriptions and clean search/SEO previews.
+
 ## [0.1.182] - 2026-09-29
 
 ### Added
