@@ -1,15 +1,15 @@
 <div class="space-y-8">
     <section class="panel p-8 sm:p-10">
         <div class="grid gap-8 lg:grid-cols-[auto_1fr_auto] lg:items-center">
-            <img src="{{ $dealerProfile->logoUrl() }}" alt="{{ $dealerProfile->company_name }}" class="h-24 w-24 rounded-3xl object-cover">
+            <img src="{{ $dealerProfile->logoUrl() }}" alt="{{ $dealerProfile->company_name }}" class="h-24 w-24 rounded-xl object-cover">
 
             <div>
                 <div class="data-kicker">Dilerski profil</div>
-                <h1 class="font-display mt-2 text-4xl font-bold text-white">{{ $dealerProfile->company_name }}</h1>
-                <p class="mt-3 max-w-3xl text-sm leading-8 text-slate-300">{{ $dealerProfile->description ?: 'Diler još nije uneo detaljan opis poslovanja.' }}</p>
+                <h1 class="font-display mt-2 text-4xl font-bold text-ink">{{ $dealerProfile->company_name }}</h1>
+                <p class="mt-3 max-w-3xl text-sm leading-8 text-muted">{{ $dealerProfile->description ?: 'Diler još nije uneo detaljan opis poslovanja.' }}</p>
             </div>
 
-            <div class="space-y-2 text-sm text-slate-300">
+            <div class="space-y-2 text-sm text-muted">
                 @if($dealerProfile->phone)
                     <div>Telefon: {{ $dealerProfile->phone }}</div>
                 @endif
@@ -33,7 +33,7 @@
             @forelse($dealerProfile->listings as $listing)
                 <x-listing-card :listing="$listing" />
             @empty
-                <div class="panel p-8 text-slate-300 lg:col-span-3">Ovaj diler još nema aktivne oglase.</div>
+                <div class="panel p-8 text-muted lg:col-span-3">Ovaj diler još nema aktivne oglase.</div>
             @endforelse
         </div>
     </section>

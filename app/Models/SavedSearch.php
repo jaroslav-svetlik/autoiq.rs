@@ -2,8 +2,6 @@
 
 namespace App\Models;
 
-use App\Enums\FuelType;
-use App\Enums\TransmissionType;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -58,6 +56,14 @@ class SavedSearch extends Model
         }
 
         if (($filters['min_year'] ?? null) && $listing->year < (int) $filters['min_year']) {
+            return false;
+        }
+
+        if (($filters['max_year'] ?? null) && $listing->year > (int) $filters['max_year']) {
+            return false;
+        }
+
+        if (($filters['min_mileage'] ?? null) && $listing->mileage < (int) $filters['min_mileage']) {
             return false;
         }
 

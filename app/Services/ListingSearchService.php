@@ -38,6 +38,8 @@ class ListingSearchService
             ->when($filters['min_price'] ?? null, fn (Builder $builder, $price) => $builder->where('price', '>=', (int) $price))
             ->when($filters['max_price'] ?? null, fn (Builder $builder, $price) => $builder->where('price', '<=', (int) $price))
             ->when($filters['min_year'] ?? null, fn (Builder $builder, $year) => $builder->where('year', '>=', (int) $year))
+            ->when($filters['max_year'] ?? null, fn (Builder $builder, $year) => $builder->where('year', '<=', (int) $year))
+            ->when($filters['min_mileage'] ?? null, fn (Builder $builder, $mileage) => $builder->where('mileage', '>=', (int) $mileage))
             ->when($filters['max_mileage'] ?? null, fn (Builder $builder, $mileage) => $builder->where('mileage', '<=', (int) $mileage));
 
         foreach ($this->equipmentFilters($filters) as $equipmentKey) {
@@ -57,7 +59,19 @@ class ListingSearchService
             $this->applyIdOrdering($query, $scoutIds);
         }
 
-        return $query->paginate($perPage);
+        return $query->orderBy('id')->paginate($perPage);
+    }
+
+    public function brandCounts(): array
+    {
+        return Listing::query()->published()->select('brand')->selectRaw('count(*) as total')
+            ->groupBy('brand')->pluck('total', 'brand')->all();
+    }
+
+    public function fuelCounts(): array
+    {
+        return Listing::query()->published()->select('fuel_type')->selectRaw('count(*) as total')
+            ->groupBy('fuel_type')->pluck('total', 'fuel_type')->all();
     }
 
     public function brands(): array

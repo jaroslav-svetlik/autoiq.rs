@@ -14,7 +14,7 @@ class ShowPage extends PageComponent
     {
         $this->dealerProfile = $dealerProfile->load([
             'user',
-            'listings' => fn ($query) => $query->published()->with(['images', 'priceHistories'])->orderByDesc('published_at'),
+            'listings' => fn ($query) => $query->published()->with(['images', 'priceHistories', 'dealerProfile'])->orderByDesc('published_at'),
         ]);
     }
 

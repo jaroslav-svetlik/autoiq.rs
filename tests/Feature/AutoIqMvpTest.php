@@ -20,8 +20,8 @@ class AutoIqMvpTest extends TestCase
 
         $response
             ->assertOk()
-            ->assertSee('Analiziraj tržište')
-            ->assertSee('Najbolje ponude')
+            ->assertSee('Auto oglasi')
+            ->assertSee('Pronađi automobile')
             ->assertSee('"@type": "WebSite"', false)
             ->assertDontSee('SearchAction', false)
             ->assertDontSee('search_term_string', false);

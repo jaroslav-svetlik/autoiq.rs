@@ -1,11 +1,77 @@
 import './bootstrap';
+import selectField from './select-field';
+
+const dropdownMenus = () => document.querySelectorAll('details[data-nav-menu], details.quick-range');
+
+document.addEventListener('click', (event) => {
+    dropdownMenus().forEach((menu) => {
+        if (menu.open && !menu.contains(event.target)) menu.open = false;
+    });
+});
+
+document.addEventListener('toggle', (event) => {
+    if (!event.target.matches('details[data-nav-menu], details.quick-range') || !event.target.open) return;
+    dropdownMenus().forEach((menu) => { if (menu !== event.target) menu.open = false; });
+}, true);
+
+document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    dropdownMenus().forEach((menu) => {
+        if (!menu.open) return;
+        menu.open = false;
+        if (menu.contains(document.activeElement)) menu.querySelector('summary')?.focus();
+    });
+});
 
 document.addEventListener('alpine:init', () => {
+    window.Alpine.data('selectField', selectField);
+    window.Alpine.data('listingActions', () => ({
+        shareStatus: '',
+        showShareLink: false,
+        async copyLink() {
+            const url = this.$root.dataset.listingUrl;
+            try {
+                await navigator.clipboard.writeText(url);
+                this.shareStatus = 'Link oglasa je kopiran.';
+                this.showShareLink = false;
+            } catch {
+                this.showShareLink = true;
+                this.shareStatus = 'Kopirajte link oglasa ispod.';
+                this.$nextTick(() => this.$refs.shareLink.select());
+            }
+        },
+    }));
+
+    window.Alpine.data('paginationControls', () => ({
+        scrollToTarget() {
+            const selector = this.$root.dataset.scrollTarget;
+            if (selector) {
+                document.querySelector(selector)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        },
+    }));
+
+    window.Alpine.data('catalogBrowser', () => ({
+        filtersOpen: false,
+        listMode: false,
+        get gridMode() { return !this.listMode; },
+        get filterPanelClass() { return this.filtersOpen ? 'filters-open' : ''; },
+        get resultLayout() { return this.listMode ? 'is-list' : ''; },
+        get gridButtonClass() { return this.listMode ? '' : 'is-active'; },
+        get listButtonClass() { return this.listMode ? 'is-active' : ''; },
+        closeFilters() { this.filtersOpen = false; this.scrollToResults(); },
+        scrollToResults() {
+            this.$el.querySelectorAll('details.quick-range[open]').forEach((range) => range.removeAttribute('open'));
+            document.getElementById('rezultati')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        },
+    }));
+
     window.Alpine.data('listingGallery', () => ({
         active: 0,
         lightboxOpen: false,
         zoom: 1,
         images: [],
+        returnFocus: null,
 
         init() {
             this.images = this.parseImages();
@@ -45,14 +111,16 @@ document.addEventListener('alpine:init', () => {
             this.setActive(this.active + 1);
         },
 
-        previousWhenOpen() {
+        previousWhenOpen(event) {
             if (this.lightboxOpen) {
+                event.preventDefault();
                 this.previous();
             }
         },
 
-        nextWhenOpen() {
+        nextWhenOpen(event) {
             if (this.lightboxOpen) {
+                event.preventDefault();
                 this.next();
             }
         },
@@ -74,17 +142,40 @@ document.addEventListener('alpine:init', () => {
         },
 
         openLightbox(index = this.active) {
+            this.returnFocus = document.activeElement;
             this.setActive(index, { scroll: false });
             this.lightboxOpen = true;
             this.zoom = 1;
             document.body.classList.add('overflow-hidden');
             this.scrollActiveThumbnail('auto');
+            this.$nextTick(() => this.$refs.galleryDialog?.querySelector('button[aria-label="Umanji fotografiju"]')?.focus());
         },
 
         closeLightbox() {
+            const wasOpen = this.lightboxOpen;
             this.lightboxOpen = false;
             this.resetZoom();
             document.body.classList.remove('overflow-hidden');
+            if (wasOpen) this.returnFocus?.focus();
+        },
+
+        destroy() {
+            if (this.lightboxOpen) document.body.classList.remove('overflow-hidden');
+        },
+
+        trapFocus(event) {
+            if (!this.lightboxOpen) return;
+            const buttons = [...(this.$refs.galleryDialog?.querySelectorAll('button, a[href], input') || [])]
+                .filter((element) => element.getClientRects().length && !element.disabled);
+            const first = buttons[0];
+            const last = buttons[buttons.length - 1];
+            if (event.shiftKey && document.activeElement === first) {
+                event.preventDefault();
+                last?.focus();
+            } else if (!event.shiftKey && document.activeElement === last) {
+                event.preventDefault();
+                first?.focus();
+            }
         },
 
         zoomIn() {

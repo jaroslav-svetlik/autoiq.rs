@@ -2,8 +2,10 @@
 
 namespace Tests\Feature;
 
+use App\Enums\ListingStatus;
 use App\Livewire\Pages\ContactPage;
 use App\Mail\ContactMessageMail;
+use App\Models\Listing;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Livewire;
@@ -13,6 +15,27 @@ use Tests\TestCase;
 class ContactPageTest extends TestCase
 {
     use RefreshDatabase;
+
+    public function test_report_link_prefills_public_listing_context_without_sending_a_message(): void
+    {
+        Mail::fake();
+        $listing = Listing::factory()->create();
+
+        Livewire::withQueryParams(['oglas' => $listing->slug])->test(ContactPage::class)
+            ->assertSet('topic', 'Pitanje o oglasu')
+            ->assertSet('message', "Prijava oglasa: {$listing->title}\n".route('listings.show', $listing)."\n\nRazlog prijave: ");
+
+        Mail::assertNothingSent();
+    }
+
+    public function test_report_link_does_not_expose_unpublished_listing_details(): void
+    {
+        $listing = Listing::factory()->create(['status' => ListingStatus::Draft]);
+
+        Livewire::withQueryParams(['oglas' => $listing->slug])->test(ContactPage::class)
+            ->assertSet('topic', '')
+            ->assertSet('message', '');
+    }
 
     public function test_contact_page_renders_livewire_form_with_bot_protection_and_loading_state(): void
     {

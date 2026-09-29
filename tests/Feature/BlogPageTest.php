@@ -2,9 +2,11 @@
 
 namespace Tests\Feature;
 
+use App\Livewire\Pages\Blog\IndexPage;
 use App\Models\BlogPost;
 use App\Support\Seo\VehicleLandingPages;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Livewire\Livewire;
 use Tests\TestCase;
 
 class BlogPageTest extends TestCase
@@ -30,6 +32,19 @@ class BlogPageTest extends TestCase
             ->assertSee('AutoIQ Blog')
             ->assertSee($featured->title)
             ->assertSee($latest->title);
+    }
+
+    public function test_blog_search_filters_published_articles_and_can_be_cleared(): void
+    {
+        $match = BlogPost::factory()->create(['title' => 'Pregled BMW motora', 'excerpt' => 'Održavanje motora.']);
+        $other = BlogPost::factory()->create(['title' => 'Vodič za gume', 'excerpt' => 'Zimska oprema.']);
+        BlogPost::factory()->create(['title' => 'BMW nacrt', 'published_at' => null]);
+
+        Livewire::test(IndexPage::class)
+            ->set('search', 'BMW')->assertSee($match->title)->assertDontSee($other->title)
+            ->assertDontSee('BMW nacrt')
+            ->set('search', 'nepostojecipojam')->assertSee('Nema članaka za ovu pretragu')
+            ->call('clearSearch')->assertSee($match->title)->assertSee($other->title);
     }
 
     public function test_google_tag_is_not_rendered_outside_production(): void
@@ -146,7 +161,7 @@ class BlogPageTest extends TestCase
 
         $this->get(route('blog.show', $post))
             ->assertOk()
-            ->assertSee('<h2 class="font-display text-3xl font-bold leading-tight text-white">Provera dokumentacije</h2>', false)
+            ->assertSee('<h2 class="font-display text-3xl font-bold leading-tight text-ink">Provera dokumentacije</h2>', false)
             ->assertSee('Da li dati kaparu pre pregleda?')
             ->assertSee('"@type": "FAQPage"', false)
             ->assertSee('"@type": "Question"', false)
@@ -173,7 +188,7 @@ class BlogPageTest extends TestCase
             ->assertSee('D/R kašnjenje');
     }
 
-    public function test_home_page_and_sitemap_include_blog_content(): void
+    public function test_home_page_links_to_blog_and_sitemap_includes_articles(): void
     {
         $post = BlogPost::factory()->create([
             'title' => 'Kako uporediti oglase istog modela',
@@ -182,11 +197,9 @@ class BlogPageTest extends TestCase
 
         $this->get(route('home'))
             ->assertOk()
-            ->assertSee('Praktični vodiči za pametniju kupovinu')
-            ->assertSee('Vodiči za kupovinu')
-            ->assertDontSee('Najtraženiji vodiči')
-            ->assertDontSee('Google signal')
-            ->assertSee($post->title);
+            ->assertSee('Niste sigurni koji automobil je pravi za vas?')
+            ->assertSee('Posetite naš blog')
+            ->assertSee(route('blog.index'), false);
 
         $this->get(route('sitemap'))
             ->assertOk()
@@ -199,7 +212,7 @@ class BlogPageTest extends TestCase
             ->assertHeaderMissing('Set-Cookie');
     }
 
-    public function test_priority_guides_are_visible_on_home_and_blog_index(): void
+    public function test_priority_guides_are_visible_on_blog_index(): void
     {
         $priority = BlogPost::factory()->create([
             'title' => 'Golf 7 ili Audi A3: šta je pametnija kupovina u Srbiji',
@@ -212,12 +225,6 @@ class BlogPageTest extends TestCase
             'slug' => 'obican-najnoviji-tekst',
             'published_at' => now(),
         ]);
-
-        $this->get(route('home'))
-            ->assertOk()
-            ->assertSee('Poređenja koja pomažu da izabereš pravi polovan auto')
-            ->assertDontSee('Google signal')
-            ->assertSee($priority->title);
 
         $this->get(route('blog.index'))
             ->assertOk()

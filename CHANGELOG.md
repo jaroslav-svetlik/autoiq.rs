@@ -6,6 +6,15 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.176] - 2026-09-29
+
+### Changed
+
+- Redesigned the site with a shared light theme and made the home page the vehicle catalog, preserving existing search, saved searches, favorites and account workflows.
+- Rebuilt listing details with a responsive gallery, seller contacts, vehicle information and related listings; refreshed the blog and remaining application pages.
+- Added consistent accessible dropdowns with keyboard navigation, search and Livewire synchronization throughout the site.
+- Removed the Marke and Saveti header links and the footer slogan.
+
 ## [0.1.175] - 2026-09-29
 
 ### Added

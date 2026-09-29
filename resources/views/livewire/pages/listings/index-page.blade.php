@@ -1,229 +1,120 @@
-<div class="space-y-8">
-    <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-        <div>
-            <div class="data-kicker">Pretraga uživo</div>
-            <h1 class="section-title mt-2">{{ $pageHeading }}</h1>
-            <p class="section-copy mt-3">{{ $pageIntro }}</p>
-        </div>
-
-        <div class="flex flex-wrap items-center gap-3">
-            @auth
-                <a href="{{ route('listings.create') }}" wire:navigate class="btn-primary">Dodaj oglas</a>
-            @endauth
-            <button type="button" wire:click="clearFilters" class="btn-secondary">Poništi filtere</button>
-        </div>
-    </div>
-
-    @if(!empty($landingHighlights))
-        <section class="grid gap-4 md:grid-cols-3">
-            @foreach($landingHighlights as $highlight)
-                <div class="panel-soft p-4 text-sm leading-7 text-slate-200">{{ $highlight }}</div>
-            @endforeach
-        </section>
-    @endif
-
-    <div class="grid gap-8 xl:grid-cols-[320px_1fr]">
-        <aside class="space-y-4 xl:sticky xl:top-28 xl:self-start">
-            <div class="panel p-5">
-                <div class="mb-4 flex items-center justify-between">
-                    <h2 class="font-display text-2xl font-bold text-white">Filteri</h2>
-                    <span class="chip">Pametna pretraga</span>
-                </div>
-
-                <div class="space-y-4">
-                    <div>
-                        <label class="field-label">Pretražite oglase</label>
-                        <input type="text" wire:model.live.debounce.350ms="search" class="input-shell w-full" placeholder="Audi A4, SUV, automatik...">
-                    </div>
-
-                    <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-1">
-                        <div>
-                            <label class="field-label">Marka</label>
-                            <select wire:model.live="brand" class="input-shell w-full">
-                                <option value="">Sve marke</option>
-                                @foreach($brands as $item)
-                                    <option value="{{ $item }}">{{ $item }}</option>
-                                @endforeach
-                            </select>
-                        </div>
-                        <div>
-                            <label class="field-label">Model</label>
-                            <select wire:model.live="model" class="input-shell w-full">
-                                <option value="">Svi modeli</option>
-                                @foreach($models as $item)
-                                    <option value="{{ $item }}">{{ $item }}</option>
-                                @endforeach
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-1">
-                        <div>
-                            <label class="field-label">Cena od (€)</label>
-                            <input type="number" wire:model.live.debounce.400ms="minPrice" class="input-shell w-full" placeholder="3000">
-                        </div>
-                        <div>
-                            <label class="field-label">Cena do (€)</label>
-                            <input type="number" wire:model.live.debounce.400ms="maxPrice" class="input-shell w-full" placeholder="15000">
-                        </div>
-                    </div>
-
-                    <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-1">
-                        <div>
-                            <label class="field-label">Godište od</label>
-                            <input type="number" wire:model.live.debounce.400ms="minYear" class="input-shell w-full" placeholder="2015">
-                        </div>
-                        <div>
-                            <label class="field-label">Kilometraža do</label>
-                            <input type="number" wire:model.live.debounce.400ms="maxMileage" class="input-shell w-full" placeholder="180000">
-                        </div>
-                    </div>
-
-                    <div>
-                        <label class="field-label">Gorivo</label>
-                        <select wire:model.live="fuelType" class="input-shell w-full">
-                            <option value="">Sve opcije</option>
-                            @foreach($fuelTypes as $value => $label)
-                                <option value="{{ $value }}">{{ $label }}</option>
-                            @endforeach
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="field-label">Menjač</label>
-                        <select wire:model.live="transmission" class="input-shell w-full">
-                            <option value="">Svi menjači</option>
-                            @foreach($transmissionTypes as $value => $label)
-                                <option value="{{ $value }}">{{ $label }}</option>
-                            @endforeach
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="field-label">Lokacija</label>
-                        <select wire:model.live="city" class="input-shell w-full">
-                            <option value="">Cela Srbija</option>
-                            @foreach($cities as $option)
-                                <option value="{{ $option }}">{{ $option }}</option>
-                            @endforeach
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="field-label">Sortiranje</label>
-                        <select wire:model.live="sort" class="input-shell w-full">
-                            <option value="newest">Najnoviji</option>
-                            <option value="price_asc">Cena rastuće</option>
-                            <option value="price_desc">Cena opadajuće</option>
-                            <option value="best">Najbolja ponuda</option>
-                            <option value="relevance">Relevantnost</option>
-                        </select>
-                    </div>
-
-                    <div class="panel-soft p-4">
-                        <div class="flex items-center justify-between gap-3">
-                            <div>
-                                <div class="field-label">Oprema</div>
-                                <p class="mt-2 text-xs leading-6 text-slate-400">Prikazujemo samo oglase koji imaju sve odabrane stavke.</p>
-                            </div>
-                            <div class="text-xs text-slate-400">{{ count($equipment) }} izabrano</div>
-                        </div>
-
-                        @if($selectedEquipmentLabels->isNotEmpty())
-                            <div class="mt-4 flex flex-wrap gap-2">
-                                @foreach($selectedEquipmentLabels as $label)
-                                    <span class="chip">{{ $label }}</span>
-                                @endforeach
-                            </div>
-                        @endif
-
-                        <div class="mt-4 space-y-3">
-                            @foreach($equipmentCatalog as $group)
-                                <details class="rounded-2xl border border-white/10 bg-white/5 p-4" @if($loop->first) open @endif>
-                                    <summary class="cursor-pointer list-none text-sm font-semibold text-white">{{ $group['label'] }}</summary>
-                                    <div class="mt-4 grid gap-3">
-                                        @foreach($group['options'] as $option)
-                                            <label class="flex items-start gap-3 rounded-2xl border border-white/10 bg-slate-950/40 px-3 py-3 text-sm text-slate-200 transition hover:border-cyan-400/30 hover:bg-cyan-400/5">
-                                                <input
-                                                    type="checkbox"
-                                                    value="{{ $option['key'] }}"
-                                                    wire:model.live="equipment"
-                                                    class="mt-1 h-4 w-4 rounded border-white/20 bg-slate-950/60 text-cyan-400 focus:ring-cyan-400/30"
-                                                >
-                                                <span>{{ $option['label'] }}</span>
-                                            </label>
-                                        @endforeach
-                                    </div>
-                                </details>
-                            @endforeach
-                        </div>
-                    </div>
+<div x-data="catalogBrowser" class="catalog-page">
+    <section class="catalog-hero {{ !empty($landingHighlights) ? 'catalog-hero-model' : '' }}">
+        <img class="hero-image" src="{{ asset('images/alpine-drive.webp') }}" alt="" fetchpriority="high" width="2172" height="724">
+        <div class="container-frame hero-content">
+            <div class="hero-copy">
+                <p class="hero-eyebrow">PRONAĐI. UPOREDI. VOZI.</p>
+                <h1>{{ $pageHeading }}</h1>
+                <p class="hero-intro">{{ $pageIntro }}</p>
+                <div class="hero-benefits">
+                    <div><span class="feature-icon"><x-icon name="shield" /></span><span><b>Pametnija kupovina</b><small>AutoIQ procena</small></span></div>
+                    <div><span class="feature-icon"><x-icon name="tag" /></span><span><b>Uporedite ponude</b><small>Jasan pregled cena</small></span></div>
+                    <div><span class="feature-icon"><x-icon name="users" /></span><span><b>Sve na jednom mestu</b><small>Vaša sledeća vožnja</small></span></div>
                 </div>
             </div>
+            <p class="hero-signature" aria-hidden="true">Više<br><span>od vožnje.</span></p>
+        </div>
+    </section>
 
-            @auth
-                <div class="panel p-5">
-                    <h3 class="font-display text-xl font-bold text-white">Sačuvaj pretragu</h3>
-                    <p class="mt-2 text-sm leading-7 text-slate-300">Aktivirajte alarm za nove oglase i pad cene.</p>
+    <div class="container-frame">
+        <form wire:submit="applyFilters" class="quick-search" id="pretraga">
+            <label class="quick-field"><x-icon name="car" /><span><b>Marka</b><x-select wire:model.live="brand" aria-label="Marka automobila" variant="compact"><option value="">Sve marke</option>@foreach($brands as $item)<option value="{{ $item }}">{{ $item }}</option>@endforeach</x-select></span></label>
+            <label class="quick-field"><x-icon name="layers" /><span><b>Model</b><x-select wire:model.live="model" aria-label="Model automobila" variant="compact"><option value="">Svi modeli</option>@foreach($models as $item)<option value="{{ $item }}">{{ $item }}</option>@endforeach</x-select></span></label>
+            <details class="quick-field quick-range">
+                <summary><x-icon name="calendar" /><span><b>Godište</b><small>{{ $minYear ?: 'Od' }} – {{ $maxYear ?: 'Do' }}</small></span><x-icon name="chevron" /></summary>
+                <div class="quick-popover"><label>Od<input type="number" min="1900" max="{{ date('Y') + 1 }}" wire:model.live.debounce.400ms="minYear" class="input-shell" aria-label="Godište od"></label><label>Do<input type="number" min="1900" max="{{ date('Y') + 1 }}" wire:model.live.debounce.400ms="maxYear" class="input-shell" aria-label="Godište do"></label></div>
+            </details>
+            <details class="quick-field quick-range">
+                <summary><x-icon name="tag" /><span><b>Cena (€)</b><small>{{ $minPrice ?: 'Od' }} – {{ $maxPrice ?: 'Do' }}</small></span><x-icon name="chevron" /></summary>
+                <div class="quick-popover"><label>Od<input type="number" min="0" wire:model.live.debounce.400ms="minPrice" class="input-shell" aria-label="Cena od u evrima"></label><label>Do<input type="number" min="0" wire:model.live.debounce.400ms="maxPrice" class="input-shell" aria-label="Cena do u evrima"></label></div>
+            </details>
+            <button type="submit" class="btn-primary quick-submit" x-on:click="scrollToResults()"><x-icon name="search" />Pronađi automobile<x-icon name="arrow" /></button>
+        </form>
 
-                    <div class="mt-4 space-y-4">
-                        <input type="text" wire:model.live="saveSearchName" class="input-shell w-full" placeholder="Npr. Golf 7 do 9000 €">
-                        <button type="button" wire:click="saveCurrentSearch" class="btn-primary w-full">Sačuvaj i uključi alarme</button>
+        @if(!empty($landingHighlights))
+            <section class="grid gap-4 md:grid-cols-3 mb-6">@foreach($landingHighlights as $highlight)<div class="panel-soft p-4 text-sm leading-7">{{ $highlight }}</div>@endforeach</section>
+        @endif
+
+        <div class="catalog-layout" id="rezultati">
+            <button type="button" class="btn-secondary mobile-filter-toggle" x-on:click="filtersOpen = !filtersOpen" x-bind:aria-expanded="filtersOpen" aria-controls="catalog-filters"><x-icon name="filter" />Filteri i pretraga<x-icon name="chevron" /></button>
+            <aside id="catalog-filters" class="catalog-filters" x-bind:class="filterPanelClass">
+                <div class="panel filter-panel">
+                    <div class="filter-heading"><h2><x-icon name="filter" />Filteri</h2><button type="button" wire:click="clearFilters">Obriši sve</button></div>
+                    <label class="filter-search"><x-icon name="search" /><input type="search" wire:model.live.debounce.350ms="search" placeholder="Pretraži oglase…" aria-label="Pretraži oglase"></label>
+                    <details class="filter-section" open id="marke">
+                        <summary><x-icon name="car" />Marka<x-icon name="chevron" /></summary>
+                        <div class="filter-options brand-options">
+                            <label><input type="radio" wire:model.live="brand" value="" name="brand">Sve marke</label>
+                            @foreach($brands as $item)
+                                <label><input type="radio" wire:model.live="brand" value="{{ $item }}" name="brand"><span>{{ $item }} <small>({{ number_format($brandCounts[$item] ?? 0, 0, ',', '.') }})</small></span></label>
+                            @endforeach
+                        </div>
+                    </details>
+                    <details class="filter-section" @if($model) open @endif>
+                        <summary><x-icon name="layers" />Model<x-icon name="chevron" /></summary>
+                        <x-select wire:model.live="model" class="input-shell w-full" aria-label="Filter po modelu"><option value="">Svi modeli</option>@foreach($models as $item)<option value="{{ $item }}">{{ $item }}</option>@endforeach</x-select>
+                    </details>
+                    <details class="filter-section" open>
+                        <summary><x-icon name="calendar" />Godište<x-icon name="chevron" /></summary>
+                        <div class="filter-range"><input type="number" wire:model.live.debounce.400ms="minYear" class="input-shell" placeholder="Od" aria-label="Filter godište od" min="1900" max="{{ date('Y') + 1 }}"><input type="number" wire:model.live.debounce.400ms="maxYear" class="input-shell" placeholder="Do" aria-label="Filter godište do" min="1900" max="{{ date('Y') + 1 }}"></div>
+                    </details>
+                    <details class="filter-section" open>
+                        <summary><x-icon name="tag" />Cena (€)<x-icon name="chevron" /></summary>
+                        <div class="filter-range"><input type="number" wire:model.live.debounce.400ms="minPrice" class="input-shell" placeholder="Od" aria-label="Filter cena od" min="0"><input type="number" wire:model.live.debounce.400ms="maxPrice" class="input-shell" placeholder="Do" aria-label="Filter cena do" min="0"></div>
+                    </details>
+                    <details class="filter-section" open>
+                        <summary><x-icon name="gauge" />Kilometraža<x-icon name="chevron" /></summary>
+                        <div class="filter-range"><input type="number" wire:model.live.debounce.400ms="minMileage" class="input-shell" placeholder="Od" aria-label="Kilometraža od" min="0"><input type="number" wire:model.live.debounce.400ms="maxMileage" class="input-shell" placeholder="Do" aria-label="Kilometraža do" min="0"></div>
+                    </details>
+                    <details class="filter-section" open>
+                        <summary><x-icon name="fuel" />Gorivo<x-icon name="chevron" /></summary>
+                        <div class="filter-options">
+                            <label><input type="radio" wire:model.live="fuelType" value="" name="fuel">Sva goriva</label>
+                            @foreach($fuelTypes as $value => $label)<label><input type="radio" wire:model.live="fuelType" value="{{ $value }}" name="fuel"><span>{{ $label }} <small>({{ number_format($fuelCounts[$value] ?? 0, 0, ',', '.') }})</small></span></label>@endforeach
+                        </div>
+                    </details>
+                    <details class="filter-section" @if($transmission) open @endif>
+                        <summary><x-icon name="gear" />Menjač<x-icon name="chevron" /></summary>
+                        <x-select wire:model.live="transmission" class="input-shell w-full" aria-label="Menjač"><option value="">Svi menjači</option>@foreach($transmissionTypes as $value => $label)<option value="{{ $value }}">{{ $label }}</option>@endforeach</x-select>
+                    </details>
+                    <details class="filter-section" @if($city) open @endif>
+                        <summary><x-icon name="pin" />Lokacija<x-icon name="chevron" /></summary>
+                        <x-select wire:model.live="city" class="input-shell w-full" aria-label="Lokacija"><option value="">Cela Srbija</option>@foreach($cities as $option)<option value="{{ $option }}">{{ $option }}</option>@endforeach</x-select>
+                    </details>
+                    <details class="filter-section" @if(count($equipment)) open @endif>
+                        <summary><x-icon name="filter" />Oprema @if(count($equipment)) ({{ count($equipment) }}) @endif<x-icon name="chevron" /></summary>
+                        <p class="text-xs text-muted mb-3">Oglasi sa svim odabranim stavkama.</p>
+                        @if(count($equipment))<p class="text-xs text-brand mb-3">{{ count($equipment) }} odabrane stavke</p>@endif
+                        @foreach($equipmentCatalog as $group)
+                            <details class="equipment-group"><summary>{{ $group['label'] }}<x-icon name="chevron" /></summary><div class="filter-options">@foreach($group['options'] as $option)<label><input type="checkbox" value="{{ $option['key'] }}" wire:model.live="equipment"><span>{{ $option['label'] }}</span></label>@endforeach</div></details>
+                        @endforeach
+                    </details>
+                    <button type="button" wire:click="applyFilters" x-on:click="closeFilters()" class="btn-primary filter-submit"><x-icon name="search" /><span>Prikaži rezultate<small>({{ number_format($listings->total(), 0, ',', '.') }} oglasa)</small></span></button>
+                </div>
+                @auth
+                    <div class="panel save-search-panel"><h3>Sačuvaj pretragu</h3><p>Obaveštenja o novim oglasima i promenama cena.</p><label class="sr-only" for="save-search-name">Naziv pretrage</label><input id="save-search-name" type="text" wire:model="saveSearchName" class="input-shell w-full" placeholder="Naziv pretrage"><button type="button" wire:click="saveCurrentSearch" class="btn-secondary w-full">Sačuvaj i uključi alarme</button></div>
+                @endauth
+            </aside>
+
+            <section class="catalog-results" aria-label="Rezultati pretrage">
+                <div class="results-toolbar">
+                    <div aria-live="polite"><h2>{{ number_format($listings->total(), 0, ',', '.') }} oglasa</h2><p>{{ $search || $brand || $model || $city || $fuelType || $transmission || $minPrice || $maxPrice || $minYear || $maxYear || $minMileage || $maxMileage || count($equipment) ? 'Oglasi prema odabranim filterima' : 'Prikazani su svi dostupni oglasi' }}</p></div>
+                    <div class="results-controls"><label for="listing-sort">Sortiraj po</label><x-select id="listing-sort" wire:model.live="sort" class="input-shell"><option value="newest">Najnoviji</option><option value="price_asc">Cena rastuće</option><option value="price_desc">Cena opadajuće</option><option value="best">Najbolja ponuda</option><option value="relevance">Relevantnost</option></x-select>
+                        <div class="view-switch" aria-label="Prikaz oglasa"><button type="button" x-on:click="listMode = false" x-bind:class="gridButtonClass" x-bind:aria-pressed="gridMode" aria-label="Prikaz u mreži"><x-icon name="grid" /><span>Mreža</span></button><button type="button" x-on:click="listMode = true" x-bind:class="listButtonClass" x-bind:aria-pressed="listMode" aria-label="Prikaz u listi"><x-icon name="list" /><span>Lista</span></button></div>
                     </div>
                 </div>
-            @endauth
-        </aside>
-
-        <section class="space-y-6">
-            <div class="panel flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between">
-                <div>
-                    <div class="text-sm text-slate-400">Rezultati</div>
-                    <div class="font-display text-3xl font-bold text-white">{{ number_format($listings->total(), 0, ',', '.') }}</div>
-                </div>
-                    <div class="grid gap-3 sm:grid-cols-3">
-                        <div class="panel-soft px-4 py-3 text-sm text-slate-300">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500">Redosled</div>
-                        <div class="mt-1 font-semibold text-white">
-                            {{
-                                match($sort) {
-                                    'price_asc' => 'Cena rastuće',
-                                    'price_desc' => 'Cena opadajuće',
-                                    'best' => 'Najbolja ponuda',
-                                    'relevance' => 'Relevantnost',
-                                    default => 'Najnoviji',
-                                }
-                            }}
-                        </div>
+                @if($selectedEquipmentLabels->isNotEmpty())<div class="flex flex-wrap gap-2 mb-4">@foreach($selectedEquipmentLabels as $label)<span class="chip">{{ $label }}</span>@endforeach</div>@endif
+                <div wire:loading.delay role="status" class="text-brand text-sm mb-3">Osvežavanje oglasa…</div>
+                @if($listings->count())
+                    <div class="listing-grid" x-bind:class="resultLayout" wire:loading.class="opacity-60">
+                        @foreach($listings as $listing)<div wire:key="listing-{{ $listing->id }}"><x-listing-card :listing="$listing" :favorite="in_array($listing->id, $favoriteIds, true)" favouritable /></div>@endforeach
                     </div>
-                    <div class="panel-soft px-4 py-3 text-sm text-slate-300">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500">AutoIQ procena</div>
-                        <div class="mt-1 font-semibold text-white">Ocena 0-100</div>
-                        </div>
-                        <div class="panel-soft px-4 py-3 text-sm text-slate-300">
-                            <div class="text-xs uppercase tracking-[0.18em] text-slate-500">Oprema</div>
-                            <div class="mt-1 font-semibold text-white">{{ $selectedEquipmentLabels->isNotEmpty() ? $selectedEquipmentLabels->count().' odabrane stavke' : 'Bez ograničenja' }}</div>
-                        </div>
-                    </div>
-                </div>
-
-            @if($listings->count())
-                <div class="grid gap-6 lg:grid-cols-2 2xl:grid-cols-3">
-                    @foreach($listings as $listing)
-                        <div wire:key="listing-{{ $listing->id }}">
-                            <x-listing-card :listing="$listing" favouritable />
-                        </div>
-                    @endforeach
-                </div>
-
-                <div class="pt-2">
-                    {{ $listings->links() }}
-                </div>
-            @else
-                <div class="panel p-10 text-center">
-                    <h2 class="font-display text-3xl font-bold text-white">Nema rezultata</h2>
-                    <p class="mt-3 text-sm leading-7 text-slate-300">Probajte širi budžet, drugačiji grad ili uklonite deo filtera.</p>
-                </div>
-            @endif
-        </section>
+                    <div class="catalog-pagination">{{ $listings->links(data: ['scrollTo' => '#rezultati']) }}@unless($listings->hasPages())<p>Prikazano {{ $listings->count() }} od {{ number_format($listings->total(), 0, ',', '.') }} oglasa</p>@endunless</div>
+                @else
+                    <div class="panel empty-results"><span class="feature-icon"><x-icon name="search" /></span><h2>Nema rezultata</h2><p>Probajte širi budžet, drugačiji grad ili uklonite deo filtera.</p><button type="button" wire:click="clearFilters" class="btn-primary">Obriši filtere</button></div>
+                @endif
+                <x-drive-banner />
+            </section>
+        </div>
     </div>
 </div>

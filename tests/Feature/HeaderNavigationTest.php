@@ -25,14 +25,15 @@ class HeaderNavigationTest extends TestCase
         $desktopNav = $this->extractAttributeBlock($html, 'data-desktop-primary-nav');
         $mobileNav = $this->extractAttributeBlock($html, 'data-mobile-primary-nav');
 
-        $this->assertStringContainsString('Početna', $desktopNav);
+        $this->assertStringNotContainsString('Marke', $desktopNav);
+        $this->assertStringNotContainsString('Marke', $mobileNav);
         $this->assertStringContainsString('Blog', $desktopNav);
         $this->assertStringContainsString('Oglasi', $desktopNav);
         $this->assertStringEndsWith('</nav>', trim($desktopNav));
         $this->assertLessThan(strpos($desktopNav, 'Kontakt'), strpos($desktopNav, 'Oglasi'));
         $this->assertLessThan(strpos($mobileNav, 'Kontakt'), strpos($mobileNav, 'Oglasi'));
-        $this->assertStringNotContainsString('Dodaj oglas', $desktopNav);
-        $this->assertStringContainsString('Dodaj oglas', $html);
+        $this->assertStringNotContainsString('Postavi oglas', $desktopNav);
+        $this->assertStringContainsString('Postavi oglas', $html);
     }
 
     public function test_authenticated_user_controls_are_inside_account_dropdown(): void
