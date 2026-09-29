@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.184] - 2026-09-29
+
+### Changed
+
+- Removed the decorative “Više od vožnje.” tagline from the listings and blog hero sections.
+
 ## [0.1.183] - 2026-09-29
 
 ### Added
