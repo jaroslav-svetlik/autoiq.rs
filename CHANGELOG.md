@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.185] - 2026-09-29
+
+### Added
+
+- Clearly attribute reviewed external catalog listings to their original site and direct buyer enquiries to the original ad, without showing the import account as a seller or a verified AutoIQ dealer.
+- Validate source links and retain existing contact details for ads posted directly on AutoIQ.
+
 ## [0.1.184] - 2026-09-29
 
 ### Changed

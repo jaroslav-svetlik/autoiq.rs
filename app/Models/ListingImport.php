@@ -53,6 +53,40 @@ class ListingImport extends Model
         return $this->belongsTo(Listing::class);
     }
 
+    public function sourceLabel(): string
+    {
+        return match ($this->source_name) {
+            'mojauto_rs' => 'MojAuto',
+            'polovni_automobili' => 'Polovni automobili',
+            default => 'Spoljni izvor',
+        };
+    }
+
+    public function publicSourceUrl(): ?string
+    {
+        $url = parse_url($this->source_url ?? '');
+        $host = match ($this->source_name) {
+            'mojauto_rs' => 'www.mojauto.rs',
+            'polovni_automobili' => 'www.polovniautomobili.com',
+            default => null,
+        };
+        $id = (string) $this->source_listing_id;
+
+        if (! $host || ! ctype_digit($id) || ! is_array($url)
+            || ($url['scheme'] ?? '') !== 'https'
+            || ($url['host'] ?? '') !== $host
+            || isset($url['user']) || isset($url['pass']) || isset($url['port'])) {
+            return null;
+        }
+
+        $pattern = $this->source_name === 'mojauto_rs'
+            ? '~^/polovni-automobili/'.$id.'_[a-zA-Z0-9_+.-]+/?$~'
+            : '~^/auto-oglasi/'.$id.'/[a-zA-Z0-9_-]+/?$~';
+        $path = $url['path'] ?? '';
+
+        return preg_match($pattern, $path) ? 'https://'.$host.$path : null;
+    }
+
     public function isReadyForDraft(): bool
     {
         return filled($this->title)

@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Collection;
 use Laravel\Scout\Searchable;
@@ -23,6 +24,8 @@ class Listing extends Model
     use HasFactory;
     use Searchable;
     use SoftDeletes;
+
+    protected $with = ['externalSource'];
 
     protected $fillable = [
         'user_id',
@@ -108,6 +111,12 @@ class Listing extends Model
     public function imports(): HasMany
     {
         return $this->hasMany(ListingImport::class);
+    }
+
+    public function externalSource(): HasOne
+    {
+        return $this->hasOne(ListingImport::class)
+            ->ofMany(['id' => 'max'], fn (Builder $query) => $query->where('payload->external_catalog', true));
     }
 
     public function equipmentItems(): HasMany
@@ -258,6 +267,10 @@ class Listing extends Model
 
     public function sellerContactName(): string
     {
+        if ($this->externalSource) {
+            return $this->seller_name ?: 'Prodavac na '.$this->externalSource->sourceLabel();
+        }
+
         $sellerName = trim((string) $this->seller_name);
 
         if ($sellerName !== '') {
@@ -273,6 +286,10 @@ class Listing extends Model
 
     public function sellerContactPhones(): Collection
     {
+        if ($this->externalSource) {
+            return collect();
+        }
+
         $phones = collect($this->seller_phones ?? [])
             ->map(fn (mixed $phone) => preg_replace('/\s+/', ' ', trim((string) $phone)))
             ->filter()
