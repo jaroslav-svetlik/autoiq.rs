@@ -12,7 +12,6 @@
                     <div><span class="feature-icon"><x-icon name="car" /></span><span><b>Analize tržišta</b><small>Prava vrednost vozila</small></span></div>
                 </div>
             </div>
-            <p class="hero-signature" aria-hidden="true">Više<br><span>od vožnje.</span></p>
         </div>
     </section>
     <div class="container-frame blog-content">

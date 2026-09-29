@@ -92,8 +92,6 @@
     .feature-icon { display: inline-flex; width: 42px; height: 42px; flex-shrink: 0; align-items: center; justify-content: center; background: #e7eeff; color: #2442ff; border-radius: 14px; }
     .hero-benefits b { display: block; font-size: 10px; font-weight: 600; }
     .hero-benefits small { display: block; font-size: 10px; color: #616e9f; margin-top: 2px; }
-    .hero-signature { position: absolute; right: 35px; top: 20px; color: white; font-family: Georgia, serif; font-style: italic; font-size: 29px; line-height: 1.05; transform: rotate(-10deg); text-shadow: 0 1px 9px #090e4970; }
-    .hero-signature span { margin-left: 12px; }
     .quick-search { position: relative; z-index: 5; display: grid; grid-template-columns: 1fr 1fr 1fr 1.05fr 1.6fr; gap: 9px; margin: -33px 10px 30px; padding: 9px; background: white; border: 1px solid #e4ebfa; border-radius: 14px; box-shadow: 0 7px 22px #233f8710; scroll-margin-top: 110px; }
     .quick-field { display: flex; align-items: center; gap: 14px; min-width: 0; min-height: 61px; padding: 10px 14px; border: 1px solid #dce5f8; border-radius: 8px; background: linear-gradient(120deg, white, #fafbff); }
     .quick-field > span { min-width: 0; width: 100%; }
@@ -350,7 +348,6 @@
     .hero-intro { max-width: 310px; font-size: 16px; }
     .hero-benefits { margin-top: 20px; gap: 16px; }
     .hero-benefits b, .hero-benefits small { font-size: 10px; }
-    .hero-signature { display: none; }
     .quick-search { margin-top: -43px; margin-bottom: 21px; gap: 7px; }
     .quick-field { padding: 10px; }
     .quick-search { grid-template-columns: 1fr 1fr; }

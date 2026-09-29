@@ -12,7 +12,6 @@
                     <div><span class="feature-icon"><x-icon name="users" /></span><span><b>Sve na jednom mestu</b><small>Vaša sledeća vožnja</small></span></div>
                 </div>
             </div>
-            <p class="hero-signature" aria-hidden="true">Više<br><span>od vožnje.</span></p>
         </div>
     </section>
 
