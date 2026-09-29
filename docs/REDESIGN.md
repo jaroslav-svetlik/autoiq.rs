@@ -38,6 +38,8 @@ Popups are teleported outside clipping containers, fit the viewport and open abo
 
 Browser checks cover contact-form selection/validation, linked make/model filters, filter resets, registration's conditional dealer fields, searchable city options, keyboard selection and mobile bounds.
 
+Quick price and year range menus use `wire:ignore.self` to preserve the browser-owned `open` state during Livewire updates. Their children still update, keeping summary labels, inputs, sidebar filters and results synchronized. Outside clicks, Escape, switching menus and submitting the search still close the menu normally.
+
 ## Equipment and icons
 
 Listing equipment is a separate panel immediately after basic information and before the description. It uses the existing selected equipment groups and only shows stored selections. Empty groups and the entire empty panel are omitted.

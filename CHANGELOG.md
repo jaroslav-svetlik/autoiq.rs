@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.181] - 2026-09-29
+
+### Fixed
+
+- Keep price and year range menus open during live filter updates, preserving input focus so both bounds can be entered without reopening the menu.
+
 ## [0.1.180] - 2026-09-29
 
 ### Changed
