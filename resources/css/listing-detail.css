@@ -105,10 +105,14 @@
 .detail-spec-grid dt { color: #616e9f; font-size: 11px; }
 .detail-spec-grid dd { font-size: 13px; line-height: 1.4; margin-top: 2px; overflow-wrap: anywhere; }
 .detail-description-text { margin-top: 10px; font-size: 13px; line-height: 1.65; color: #435087; white-space: pre-line; overflow-wrap: anywhere; }
-.detail-description h2:not(:first-child) { margin-top: 22px; }
-.detail-equipment { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px 16px; margin-top: 12px; }
-.detail-equipment li { display: flex; gap: 8px; align-items: flex-start; color: #435087; font-size: 12px; line-height: 1.4; }
-.detail-equipment .icon { width: 14px; height: 14px; margin-top: 1px; color: #2442ff; }
+.detail-equipment-group { margin-top: 18px; }
+.detail-equipment-group + .detail-equipment-group { border-top: 1px solid #edf1fb; padding-top: 17px; }
+.detail-equipment-group h3 { color: #616e9f; font-size: 11px; line-height: 1.4; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
+.detail-equipment { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 18px; margin-top: 12px; }
+.detail-equipment li { display: flex; gap: 10px; align-items: center; min-width: 0; color: #172766; font-size: 12px; line-height: 1.45; }
+.detail-equipment li > span:last-child { overflow-wrap: anywhere; }
+.detail-equipment-icon { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; flex-shrink: 0; border: 1px solid #e4ebfa; border-radius: 10px; color: #2442ff; background: #f6f9ff; }
+.detail-equipment-icon .icon { width: 19px; height: 19px; }
 .detail-listing-meta { display: flex; flex-wrap: wrap; gap: 10px 22px; border-top: 1px solid #eaf0fc; padding-top: 14px; margin-top: 20px; color: #616e9f; font-size: 11px; }
 .detail-listing-meta span { display: flex; align-items: center; gap: 6px; }
 .detail-listing-meta .icon { width: 15px; height: 15px; }
@@ -208,6 +212,9 @@
     .detail-drive-banner .drive-banner-content > div { flex: 1; min-width: 180px; }
     .detail-drive-banner .btn-primary { margin: 0 0 0 50px; }
     .detail-drive-banner h2 { font-size: 18px; }
+}
+@media (max-width: 359px) {
+    .detail-equipment { grid-template-columns: minmax(0, 1fr); }
 }
 @media (prefers-reduced-motion: reduce) {
     .detail-thumbnails > button { transition: none; }

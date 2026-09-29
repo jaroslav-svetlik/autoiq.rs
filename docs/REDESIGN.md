@@ -37,3 +37,9 @@ All select fields use `x-select`, backed by `resources/js/select-field.js` and `
 Popups are teleported outside clipping containers, fit the viewport and open above the field when needed. Outside clicks, Escape and navigation close them. The original native select remains available if enhancement has not initialized. Account menus and quick-search range popovers use matching surfaces and dismissal behavior.
 
 Browser checks cover contact-form selection/validation, linked make/model filters, filter resets, registration's conditional dealer fields, searchable city options, keyboard selection and mobile bounds.
+
+## Equipment and icons
+
+Listing equipment is a separate panel immediately after basic information and before the description. It uses the existing selected equipment groups and only shows stored selections. Empty groups and the entire empty panel are omitted.
+
+Basic information and equipment use a locally bundled subset of [Lucide](https://lucide.dev/guide/static) 1.48.0, imported from the official `lucide-static` npm package. `x-lucide-icon` renders the SVG paths directly in Blade; `x-equipment-icon` maps the existing equipment keys to icons, with a generic badge fallback for future keys. The original path data is preserved, with the stroke width set to 1.75 to match the site. The included ISC/MIT license is in `resources/licenses/lucide.txt`. No icon font, client-side initialization or external requests are required.

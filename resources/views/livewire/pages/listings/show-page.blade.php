@@ -14,15 +14,16 @@
         ? route('listings.model', \App\Support\Seo\VehicleLandingPages::routeParameters($listing->brand, $listing->model))
         : route('listings.index', ['brand' => $listing->brand, 'model' => $listing->model]);
     $mapUrl = 'https://www.google.com/maps/search/?api=1&query='.rawurlencode($listing->city.', Srbija');
+    $equipmentGroups = $listing->selectedEquipmentGroups();
     $specifications = [
-        ['calendar', 'Godište', $listing->year],
+        ['calendar-days', 'Godište', $listing->year],
         ['gauge', 'Kilometraža', number_format($listing->mileage, 0, ',', '.').' km'],
         ['fuel', 'Gorivo', $listing->fuel_type?->label()],
-        ['gear', 'Menjač', $listing->transmission?->label()],
-        ['car', 'Marka', $listing->brand],
-        ['layers', 'Model', $listing->model],
-        ['user', 'Prodavac', $listing->seller_type?->label()],
-        ['pin', 'Lokacija', $listing->city],
+        ['cog', 'Menjač', $listing->transmission?->label()],
+        ['car-front', 'Marka', $listing->brand],
+        ['layers-2', 'Model', $listing->model],
+        ['user-round', 'Prodavac', $listing->seller_type?->label()],
+        ['map-pin', 'Lokacija', $listing->city],
     ];
 @endphp
 
@@ -111,24 +112,37 @@
         </div>
 
         <div class="detail-information">
-            <section class="detail-panel detail-specifications">
-                <h2>Osnovne informacije</h2>
+            <section class="detail-panel detail-specifications" aria-labelledby="listing-specifications-title">
+                <h2 id="listing-specifications-title">Osnovne informacije</h2>
                 <dl class="detail-spec-grid">
                     @foreach($specifications as [$icon, $label, $value])
-                        @if(filled($value))<div><span class="detail-spec-icon"><x-icon :name="$icon" /></span><div><dt>{{ $label }}</dt><dd>{{ $value }}</dd></div></div>@endif
+                        @if(filled($value))<div><span class="detail-spec-icon"><x-lucide-icon :name="$icon" /></span><div><dt>{{ $label }}</dt><dd>{{ $value }}</dd></div></div>@endif
                     @endforeach
                 </dl>
             </section>
 
+            @if($equipmentGroups->isNotEmpty())
+                <section class="detail-panel detail-equipment-panel" aria-labelledby="listing-equipment-title">
+                    <h2 id="listing-equipment-title">Oprema</h2>
+                    @foreach($equipmentGroups as $group)
+                        <div class="detail-equipment-group">
+                            <h3 id="equipment-{{ $group['key'] }}">{{ $group['label'] }}</h3>
+                            <ul class="detail-equipment" aria-labelledby="equipment-{{ $group['key'] }}">
+                                @foreach($group['options'] as $option)
+                                    <li>
+                                        <span class="detail-equipment-icon"><x-equipment-icon :equipment="$option['key']" /></span>
+                                        <span>{{ $option['label'] }}</span>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endforeach
+                </section>
+            @endif
+
             <section class="detail-panel detail-description">
                 <h2>Opis oglasa</h2>
                 <p class="detail-description-text">{{ $listing->description }}</p>
-                @if($listing->equipmentLabels()->isNotEmpty())
-                    <h2>Oprema</h2>
-                    <ul class="detail-equipment" aria-label="Izdvojene stavke opreme">
-                        @foreach($listing->equipmentLabels() as $label)<li><x-icon name="check" />{{ $label }}</li>@endforeach
-                    </ul>
-                @endif
                 <div class="detail-listing-meta"><span><x-icon name="calendar" />{{ $listing->published_at ? 'Objavljen '.$listing->published_at->format('d.m.Y.') : 'Oglas u pripremi' }}</span><span><x-icon name="users" />Pregledi: {{ number_format($listing->views_count, 0, ',', '.') }}</span></div>
             </section>
 
