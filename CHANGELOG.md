@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.177] - 2026-09-29
+
+### Changed
+
+- Removed the tagline beside the header logo across application and error pages.
+
 ## [0.1.176] - 2026-09-29
 
 ### Changed

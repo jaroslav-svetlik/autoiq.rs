@@ -70,7 +70,6 @@
     .brand-wordmark { display: inline-block; color: #090e49; font-size: 34px; line-height: 1; font-weight: 900; letter-spacing: -1.5px; white-space: nowrap; }
     .brand-wordmark > span { color: #173bff; }
     .brand-wordmark small { font-size: .82em; }
-    .brand-tagline { font-size: 12px; line-height: 1.45; color: #616e9f; }
     .desktop-nav { display: flex; align-self: stretch; align-items: stretch; gap: 24px; }
     .nav-link { display: flex; align-items: center; font-size: 13px; position: relative; white-space: nowrap; }
     .nav-link:hover { color: #2442ff; }
@@ -261,7 +260,6 @@
     .hero-image { object-position: center 58%; }
 }
 @media (max-width: 1199px) {
-    .brand-tagline { display: none; }
     .header-inner { gap: 16px; }
     .desktop-nav { gap: 19px; }
     .header-actions { gap: 9px; }
@@ -281,7 +279,6 @@
 @media (max-width: 1023px) {
     .header-inner { min-height: 66px; }
     .desktop-nav, .header-actions { display: none; }
-    .brand-tagline { display: block; }
     .catalog-hero { height: 305px; }
     .hero-copy { max-width: 520px; }
     .hero-benefits { gap: 12px; }
@@ -305,7 +302,6 @@
 }
 @media (max-width: 767px) {
     .brand-wordmark { font-size: 29px; }
-    .brand-tagline { font-size: 10px; }
     .hero-content { padding-top: 26px; }
     .catalog-hero { height: 335px; }
     .hero-image { object-position: 69% 50%; opacity: .65; }
@@ -375,7 +371,6 @@
     .blog-sidebar { display: grid; grid-template-columns: 1fr; }
 }
 @media (max-width: 379px) {
-    .brand-tagline { display: none; }
     .listing-grid, .blog-card-grid { grid-template-columns: 1fr; }
     .results-toolbar { flex-wrap: wrap; }
     .results-controls { width: 100%; justify-content: space-between; }

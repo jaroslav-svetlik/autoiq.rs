@@ -73,7 +73,6 @@
                 <div class="container-frame header-inner">
                     <a href="{{ route('home') }}" wire:navigate class="brand-link" aria-label="AutoIQ.rs — početna">
                         <x-brand />
-                        <span class="brand-tagline">Pametniji izbor<br>na svakom putu</span>
                     </a>
                     <nav class="desktop-nav" aria-label="Glavna navigacija" data-desktop-primary-nav>
                         <a href="{{ route('home') }}" wire:navigate class="nav-link {{ $listingBrowseIsActive ? 'is-active' : '' }}">Oglasi</a>
