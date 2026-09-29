@@ -12,7 +12,7 @@ class ExternalCatalogListingTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_external_listing_attributes_the_source_and_never_uses_import_account_contacts(): void
+    public function test_external_listing_shows_the_seller_without_source_branding_or_import_account_contacts(): void
     {
         $owner = User::factory()->create(['name' => 'Internal import account', 'phone' => '+381641234567']);
         $listing = Listing::factory()->for($owner)->create([
@@ -28,9 +28,9 @@ class ExternalCatalogListingTest extends TestCase
 
         $this->get(route('listings.show', $listing))
             ->assertOk()
-            ->assertSee('Oglas sa sajta MojAuto')
+            ->assertDontSee('MojAuto')
             ->assertSee('Originalni auto plac')
-            ->assertSee('Pogledaj originalni oglas')
+            ->assertSee('Kontaktiraj prodavca')
             ->assertSee($record->source_url, false)
             ->assertDontSee('Internal import account')
             ->assertDontSee('tel:', false)
@@ -38,7 +38,7 @@ class ExternalCatalogListingTest extends TestCase
             ->assertDontSee('Član od')
             ->assertDontSee('Proveren prodavac');
 
-        $this->get(route('home'))->assertOk()->assertSee('Izvor: MojAuto');
+        $this->get(route('home'))->assertOk()->assertSee('Originalni auto plac')->assertDontSee('Izvor:')->assertDontSee('MojAuto');
     }
 
     public function test_an_unmarked_import_keeps_the_existing_seller_contact_flow(): void
@@ -53,7 +53,7 @@ class ExternalCatalogListingTest extends TestCase
         $this->get(route('listings.show', $listing))
             ->assertOk()
             ->assertSee('tel:+381641234567', false)
-            ->assertDontSee('Pogledaj originalni oglas');
+            ->assertDontSee('Kontaktiraj prodavca');
     }
 
     public function test_later_unmarked_imports_do_not_remove_external_provenance(): void
