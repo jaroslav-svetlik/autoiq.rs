@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.186] - 2026-09-29
+
+### Changed
+
+- Replaced the shared header and footer logo with the supplied car-silhouette design, cropped and optimized as WebP with responsive sizing.
+
 ## [0.1.185] - 2026-09-29
 
 ### Added
