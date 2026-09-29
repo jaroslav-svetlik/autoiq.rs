@@ -20,11 +20,11 @@
         <form wire:submit="applyFilters" class="quick-search" id="pretraga">
             <label class="quick-field"><x-icon name="car" /><span><b>Marka</b><x-select wire:model.live="brand" aria-label="Marka automobila" variant="compact"><option value="">Sve marke</option>@foreach($brands as $item)<option value="{{ $item }}">{{ $item }}</option>@endforeach</x-select></span></label>
             <label class="quick-field"><x-icon name="layers" /><span><b>Model</b><x-select wire:model.live="model" aria-label="Model automobila" variant="compact"><option value="">Svi modeli</option>@foreach($models as $item)<option value="{{ $item }}">{{ $item }}</option>@endforeach</x-select></span></label>
-            <details class="quick-field quick-range">
+            <details class="quick-field quick-range" wire:ignore.self>
                 <summary><x-icon name="calendar" /><span><b>Godište</b><small>{{ $minYear ?: 'Od' }} – {{ $maxYear ?: 'Do' }}</small></span><x-icon name="chevron" /></summary>
                 <div class="quick-popover"><label>Od<input type="number" min="1900" max="{{ date('Y') + 1 }}" wire:model.live.debounce.400ms="minYear" class="input-shell" aria-label="Godište od"></label><label>Do<input type="number" min="1900" max="{{ date('Y') + 1 }}" wire:model.live.debounce.400ms="maxYear" class="input-shell" aria-label="Godište do"></label></div>
             </details>
-            <details class="quick-field quick-range">
+            <details class="quick-field quick-range" wire:ignore.self>
                 <summary><x-icon name="tag" /><span><b>Cena (€)</b><small>{{ $minPrice ?: 'Od' }} – {{ $maxPrice ?: 'Do' }}</small></span><x-icon name="chevron" /></summary>
                 <div class="quick-popover"><label>Od<input type="number" min="0" wire:model.live.debounce.400ms="minPrice" class="input-shell" aria-label="Cena od u evrima"></label><label>Do<input type="number" min="0" wire:model.live.debounce.400ms="maxPrice" class="input-shell" aria-label="Cena do u evrima"></label></div>
             </details>
