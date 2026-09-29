@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.178] - 2026-09-29
+
+### Changed
+
+- Moved listing equipment into its own panel below basic information, grouped by the existing equipment categories.
+- Added locally bundled Lucide icons for equipment and vehicle specifications, with responsive layouts for mobile screens.
+
 ## [0.1.177] - 2026-09-29
 
 ### Changed

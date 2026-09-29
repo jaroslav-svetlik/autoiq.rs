@@ -61,7 +61,7 @@ class ListingEquipmentFeatureTest extends TestCase
 
         $this->get(route('listings.show', $listing))
             ->assertOk()
-            ->assertSee('Izdvojene stavke')
+            ->assertSee('Oprema')
             ->assertSee('Dvozonska klima')
             ->assertSee('Kamera za rikverc')
             ->assertSee('Apple CarPlay');
