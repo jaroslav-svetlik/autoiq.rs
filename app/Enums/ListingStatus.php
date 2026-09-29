@@ -6,6 +6,7 @@ enum ListingStatus: string
 {
     case Draft = 'draft';
     case Published = 'published';
+    case Paused = 'paused';
     case Rejected = 'rejected';
     case Sold = 'sold';
 
@@ -14,8 +15,9 @@ enum ListingStatus: string
         return match ($this) {
             self::Draft => 'Nacrt',
             self::Published => 'Aktivan',
+            self::Paused => 'Pauziran',
             self::Rejected => 'Odbijen',
-            self::Sold => 'Prodat',
+            self::Sold => 'Prodato',
         };
     }
 }

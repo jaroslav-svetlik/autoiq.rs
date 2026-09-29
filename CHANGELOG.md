@@ -6,6 +6,18 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.182] - 2026-09-29
+
+### Added
+
+- Added a three-dot menu to each listing in My Listings with edit, pause, mark as sold, reactivate and delete actions.
+- Added clear listing status badges and a styled deletion confirmation dialog with keyboard support.
+
+### Fixed
+
+- Hide paused and sold listings from public browsing and favorites while retaining them for their owners.
+- Prevent duplicate new-listing alerts when reactivating listings and price-drop alerts for hidden listings.
+
 ## [0.1.181] - 2026-09-29
 
 ### Fixed

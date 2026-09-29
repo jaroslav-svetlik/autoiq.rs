@@ -2,11 +2,13 @@
 
 namespace App\Livewire\Pages\Account;
 
+use App\Enums\ListingStatus;
 use App\Enums\UserRole;
 use App\Livewire\Pages\PageComponent;
 use App\Models\DealerProfile;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Str;
+use Livewire\Attributes\Locked;
 use Livewire\Attributes\Url;
 
 class DashboardPage extends PageComponent
@@ -29,6 +31,9 @@ class DashboardPage extends PageComponent
     public ?string $dealerWebsite = null;
 
     public ?string $dealerDescription = null;
+
+    #[Locked]
+    public ?int $pendingListingDeletion = null;
 
     public function mount(): void
     {
@@ -121,10 +126,46 @@ class DashboardPage extends PageComponent
         $search->save();
     }
 
+    public function requestListingDeletion(int $listingId): void
+    {
+        $this->pendingListingDeletion = auth()->user()->listings()->findOrFail($listingId)->id;
+    }
+
+    public function cancelListingDeletion(): void
+    {
+        $this->pendingListingDeletion = null;
+    }
+
     public function deleteListing(int $listingId): void
     {
         $listing = auth()->user()->listings()->findOrFail($listingId);
         $listing->delete();
+        $this->pendingListingDeletion = null;
+
+        session()->flash('status', 'Oglas je obrisan.');
+    }
+
+    public function setListingStatus(int $listingId, string $status): void
+    {
+        $listing = auth()->user()->listings()->findOrFail($listingId);
+        $nextStatus = ListingStatus::tryFrom($status);
+        $allowedStatuses = match ($listing->status) {
+            ListingStatus::Published => [ListingStatus::Paused, ListingStatus::Sold],
+            ListingStatus::Paused => [ListingStatus::Published, ListingStatus::Sold],
+            ListingStatus::Sold => [ListingStatus::Published],
+            default => [],
+        };
+
+        abort_unless(in_array($nextStatus, $allowedStatuses, true), 422);
+        abort_if($nextStatus === ListingStatus::Published && ! $listing->published_at, 422);
+
+        $listing->update(['status' => $nextStatus]);
+
+        session()->flash('status', match ($nextStatus) {
+            ListingStatus::Paused => 'Oglas je pauziran i više nije javno vidljiv.',
+            ListingStatus::Sold => 'Vozilo je označeno kao prodato. Oglas je sklonjen iz javne pretrage.',
+            default => 'Oglas je ponovo aktivan i vidljiv u pretrazi.',
+        });
     }
 
     public function markNotificationRead(string $notificationId): void
@@ -171,6 +212,7 @@ class DashboardPage extends PageComponent
             'listings.images',
             'listings.dealerProfile',
             'listings.priceHistories',
+            'favoriteListings' => fn ($query) => $query->published(),
             'favoriteListings.images',
             'favoriteListings.dealerProfile',
             'favoriteListings.priceHistories',
@@ -179,6 +221,7 @@ class DashboardPage extends PageComponent
 
         return $this->page(view('livewire.pages.account.dashboard-page', [
             'user' => $user,
+            'listingToDelete' => $this->pendingListingDeletion ? $user->listings->firstWhere('id', $this->pendingListingDeletion) : null,
             'notifications' => $user->notifications()->latest()->limit(20)->get(),
             'cities' => config('autoiq.cities'),
         ]));

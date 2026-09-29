@@ -19,6 +19,7 @@
             <button
                 type="button"
                 wire:click="$set('tab', '{{ $value }}')"
+                @if($value === 'oglasi') data-my-listings-tab @endif
                 class="tab-button {{ $tab === $value ? 'tab-button-active' : 'tab-button-inactive' }}"
             >
                 {{ $label }}
@@ -28,6 +29,21 @@
             </button>
         @endforeach
     </div>
+
+    @if($listingToDelete)
+        <div class="contents">
+            <dialog x-data="listingDeletionDialog" x-on:cancel.prevent="cancel" class="listing-delete-dialog" aria-labelledby="delete-listing-title" aria-describedby="delete-listing-description" wire:key="delete-dialog-{{ $listingToDelete->id }}">
+                <span class="listing-delete-icon"><x-lucide-icon name="trash-2" /></span>
+                <h2 id="delete-listing-title">Obriši oglas?</h2>
+                <p id="delete-listing-description">Oglas će biti uklonjen sa sajta i iz vaših oglasa.</p>
+                <div class="listing-delete-summary">{{ $listingToDelete->title }}<strong>{{ number_format($listingToDelete->price, 0, ',', '.') }} €</strong></div>
+                <div class="listing-delete-buttons">
+                    <button type="button" wire:click="cancelListingDeletion" wire:loading.attr="disabled" class="btn-secondary" autofocus>Odustani</button>
+                    <button type="button" wire:click="deleteListing({{ $listingToDelete->id }})" wire:loading.attr="disabled" class="btn-danger">Obriši oglas</button>
+                </div>
+            </dialog>
+        </div>
+    @endif
 
     @if($tab === 'profil')
         <div class="panel p-6 sm:p-8">
@@ -87,12 +103,11 @@
     @if($tab === 'oglasi')
         <div class="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
             @forelse($user->listings as $listing)
-                <div class="space-y-3" wire:key="my-listing-{{ $listing->id }}">
+                <div wire:key="my-listing-{{ $listing->id }}">
                     <x-listing-card :listing="$listing" editable />
-                    <button type="button" wire:click="deleteListing({{ $listing->id }})" class="btn-ghost w-full text-rose-700 hover:text-rose-700">Obriši oglas</button>
                 </div>
             @empty
-                <div class="panel p-8 text-muted lg:col-span-3">Još nemate objavljenih oglasa.</div>
+                <div class="panel p-8 text-muted lg:col-span-2 xl:col-span-3">Još nemate oglasa. Dodajte prvi oglas kada budete spremni.</div>
             @endforelse
         </div>
     @endif

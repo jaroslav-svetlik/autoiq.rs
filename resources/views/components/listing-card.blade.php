@@ -12,7 +12,9 @@
             <a href="{{ route('listings.show', $listing) }}" wire:navigate tabindex="-1" aria-hidden="true">
                 <img src="{{ $listing->primaryImageUrl() }}" alt="{{ $listing->title }}" loading="lazy" width="480" height="300">
             </a>
-            @if($featured || $goodPrice || $new)
+            @if($editable)
+                <span class="listing-badge listing-status listing-status-{{ $listing->status->value }}" aria-live="polite">{{ $listing->status->label() }}</span>
+            @elseif($featured || $goodPrice || $new)
                 <span class="listing-badge {{ $featured ? '' : 'listing-badge-teal' }}">{{ $featured ? 'Top ponuda' : ($goodPrice ? 'Odlična cena' : 'Novo') }}</span>
             @endif
             @if($favouritable)
@@ -23,6 +25,9 @@
                 @endauth
             @endif
         </div>
+        @if($editable)
+            <x-listing-owner-menu :listing="$listing" />
+        @endif
         <div class="listing-body">
             <div class="listing-heading">
                 <h3><a href="{{ route('listings.show', $listing) }}" wire:navigate>{{ $listing->brand }} {{ $listing->model }}</a></h3>
@@ -41,9 +46,11 @@
                     <x-icon :name="$verified ? 'shield' : 'user'" />
                     <div><span>{{ $verified ? 'Proveren prodavac' : $listing->seller_type?->label() }}</span><small>AutoIQ procena <b>{{ $listing->autoiq_score }}/100</b></small></div>
                 </div>
-                @if($editable)<a href="{{ route('listings.edit', $listing) }}" wire:navigate class="text-brand text-sm">Izmeni</a>@endif
                 <a href="{{ route('listings.show', $listing) }}" wire:navigate class="card-arrow" aria-label="Pogledaj {{ $listing->brand }} {{ $listing->model }}"><x-icon name="arrow" /></a>
             </div>
+            @if($editable && $listing->status !== \App\Enums\ListingStatus::Published)
+                <p class="listing-visibility-note"><x-lucide-icon name="eye-off" />Oglas nije javno vidljiv.</p>
+            @endif
         </div>
     </article>
 @endif
