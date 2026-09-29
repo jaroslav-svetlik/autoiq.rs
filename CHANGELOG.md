@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.175] - 2026-09-29
+
+### Added
+
+- Added five non-duplicate production blog articles covering Toyota ist versus Nissan Tiida Latio, used Mitsubishi Dignity and Daihatsu Tanto Exe buying guidance, brake-hose inspection, and Senegal import due diligence.
+
 ## [0.1.174] - 2026-09-28
 
 ### Added
