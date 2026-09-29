@@ -74,17 +74,17 @@
 
         <aside class="detail-sidebar" aria-label="Prodavac i informacije o kupovini">
             @if($externalSource)
-            <section class="detail-panel seller-panel external-listing-panel" aria-label="Izvor oglasa i kontakt prodavca">
-                <div class="detail-section-heading"><h2>Oglas sa sajta {{ $externalSource->sourceLabel() }}</h2></div>
+            <section class="detail-panel seller-panel external-listing-panel" aria-label="Kontakt prodavca">
+                <div class="detail-section-heading"><h2>Prodavac</h2></div>
                 <div class="seller-profile">
                     <div class="seller-identity">
                         <span class="seller-avatar" aria-hidden="true"><x-icon name="car" /></span>
                         <div><h3>{{ $sellerName }}</h3><p><x-icon name="pin" />{{ $listing->city }}</p></div>
                     </div>
-                    @if($externalSource->fetched_at)<div class="seller-facts"><span><x-icon name="clock" />Podaci preuzeti {{ $externalSource->fetched_at->format('d.m.Y.') }}</span></div>@endif
+                    @if($externalSource->fetched_at)<div class="seller-facts"><span><x-icon name="clock" />Podaci od {{ $externalSource->fetched_at->format('d.m.Y.') }}</span></div>@endif
                 </div>
-                <p class="external-listing-note">Ovaj oglas je preuzet sa drugog sajta. Aktuelnu cenu, dostupnost vozila i kontakt prodavca proverite u originalnom oglasu.</p>
-                @if($sourceUrl)<a href="{{ $sourceUrl }}" target="_blank" rel="noopener noreferrer" class="btn-primary external-listing-link">Pogledaj originalni oglas <x-icon name="arrow" /></a>@endif
+                <p class="external-listing-note">Za aktuelnu cenu, dostupnost vozila i uslove kupovine obratite se prodavcu. Kontakt se otvara na stranici prodavca.</p>
+                @if($sourceUrl)<a href="{{ $sourceUrl }}" target="_blank" rel="noopener noreferrer" class="btn-primary external-listing-link">Kontaktiraj prodavca <x-icon name="arrow" /></a>@endif
             </section>
             @else
             <section class="detail-panel seller-panel" aria-label="Kontakt prodavca">

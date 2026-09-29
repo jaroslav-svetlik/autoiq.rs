@@ -268,7 +268,7 @@ class Listing extends Model
     public function sellerContactName(): string
     {
         if ($this->externalSource) {
-            return $this->seller_name ?: 'Prodavac na '.$this->externalSource->sourceLabel();
+            return trim((string) $this->seller_name) ?: 'Prodavac';
         }
 
         $sellerName = trim((string) $this->seller_name);

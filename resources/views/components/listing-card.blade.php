@@ -45,7 +45,7 @@
             <div class="listing-bottom">
                 <div class="listing-seller">
                     <x-icon :name="$verified ? 'shield' : 'user'" />
-                    <div><span>{{ $externalSource ? 'Izvor: '.$externalSource->sourceLabel() : ($verified ? 'Proveren prodavac' : $listing->seller_type?->label()) }}</span><small>AutoIQ procena <b>{{ $listing->autoiq_score }}/100</b></small></div>
+                    <div><span>{{ $externalSource ? $listing->sellerContactName() : ($verified ? 'Proveren prodavac' : $listing->seller_type?->label()) }}</span><small>AutoIQ procena <b>{{ $listing->autoiq_score }}/100</b></small></div>
                 </div>
                 <a href="{{ route('listings.show', $listing) }}" wire:navigate class="card-arrow" aria-label="Pogledaj {{ $listing->brand }} {{ $listing->model }}"><x-icon name="arrow" /></a>
             </div>

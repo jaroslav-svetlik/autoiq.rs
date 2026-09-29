@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.188] - 2026-09-29
+
+### Changed
+
+- Show seller names and neutral contact actions on external catalog listings, retaining validated contact links and private import provenance.
+- Updated the reviewed catalog to use cropped photos without source watermarks and neutral descriptions, preserving the original media.
+
 ## [0.1.187] - 2026-09-29
 
 ### Changed
