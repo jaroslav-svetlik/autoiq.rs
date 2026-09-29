@@ -57,7 +57,6 @@
                 <div class="container-frame flex items-center justify-between gap-4 py-4">
                     <a href="{{ route('home') }}" class="flex items-center gap-3">
                         <x-brand />
-                        <span class="brand-tagline">Pametniji izbor<br>na svakom putu</span>
                     </a>
 
                     <nav class="hidden items-center gap-2 sm:flex" aria-label="Glavna navigacija">
