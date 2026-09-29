@@ -43,3 +43,7 @@ Browser checks cover contact-form selection/validation, linked make/model filter
 Listing equipment is a separate panel immediately after basic information and before the description. It uses the existing selected equipment groups and only shows stored selections. Empty groups and the entire empty panel are omitted.
 
 Basic information and equipment use a locally bundled subset of [Lucide](https://lucide.dev/guide/static) 1.48.0, imported from the official `lucide-static` npm package. `x-lucide-icon` renders the SVG paths directly in Blade; `x-equipment-icon` maps the existing equipment keys to icons, with a generic badge fallback for future keys. The original path data is preserved, with the stroke width set to 1.75 to match the site. The included ISC/MIT license is in `resources/licenses/lucide.txt`. No icon font, client-side initialization or external requests are required.
+
+## Contextual blog guides
+
+The guides inserted inside article content use a compact navigation list with one small heading, full linked titles and subtle separators. Repeated category labels, descriptions and nested cards have been removed from this block. The existing recommendation service, three-link limit, placement and destination URLs are preserved. Links wrap naturally on small screens and retain visible keyboard focus.
