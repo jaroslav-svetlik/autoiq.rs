@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(620, $posts);
+        $this->assertCount(625, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(137, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(138, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'toyota-ist-ili-nissan-tiida-latio-kada-oblik-karoserije-ne-sme-zameniti-proveru'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-dignity-limuzina-koja-mora-dokazati-motor-automatik-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-tanto-exe-mali-auto-koji-mora-dokazati-prostor-vrata-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'kociona-creva-na-polovnom-autu-kada-gumeni-vod-trazi-proveru-kocenja-i-korozije'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-senegala-kada-obalska-ruta-trazi-proveru-papira-korozije-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'toyota-will-vi-ili-nissan-pao-mali-klasici-kada-poreklo-i-limarija-traze-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-suzuki-wagon-r-solio-van-koji-mora-dokazati-prostor-motor-i-vrata'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-moco-mali-auto-koji-mora-dokazati-motor-automatik-i-poreklo'));
