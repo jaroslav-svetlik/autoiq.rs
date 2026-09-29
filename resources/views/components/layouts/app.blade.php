@@ -189,7 +189,6 @@
                 <div class="container-frame footer-grid">
                     <div class="footer-about">
                         <a href="{{ route('home') }}" wire:navigate aria-label="AutoIQ.rs — početna"><x-brand /></a>
-                        <p>Pametniji izbor na svakom putu.</p>
                         <p>AutoIQ.rs je platforma za kupovinu i prodaju automobila u Srbiji. Povezujemo ljude, automobile i bolje prilike.</p>
                         <small>© {{ date('Y') }} AutoIQ.rs. Sva prava zadržana.</small>
                     </div>

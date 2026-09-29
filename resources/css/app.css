@@ -67,7 +67,7 @@
     .skip-link:focus { top: 12px; }
     .site-header { position: sticky; top: 0; z-index: 40; border-bottom: 1px solid #e4ebfa; background: #ffffffed; backdrop-filter: blur(14px); }
     .header-inner { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 22px; }
-    .brand-link { display: flex; align-items: center; gap: 18px; flex-shrink: 0; }
+    .brand-link { display: flex; align-items: center; gap: 18px; flex-shrink: 0; padding-block: 6px; }
     .brand-logo { display: block; width: 200px; max-width: 100%; height: auto; mix-blend-mode: multiply; }
     .desktop-nav { display: flex; align-self: stretch; align-items: stretch; gap: 24px; }
     .nav-link { display: flex; align-items: center; font-size: 13px; position: relative; white-space: nowrap; }
@@ -239,7 +239,7 @@
     .drive-banner .btn-primary .icon { width: 15px; height: 15px; }
     .site-footer { border-top: 1px solid #e4ebfa; background: white; padding: 26px 0 30px; }
     .footer-grid { display: grid; grid-template-columns: 1.4fr .9fr .95fr .95fr 1.4fr; gap: 32px; }
-    .site-footer .brand-logo { width: 176px; }
+    .site-footer .brand-logo { width: 200px; }
     .site-footer h2 { font-size: 12px; font-weight: 700; margin-bottom: 9px; }
     .site-footer p, .footer-about > small { color: #616e9f; font-size: 11px; line-height: 1.45; }
     .footer-about p { margin-top: 8px; max-width: 230px; }
