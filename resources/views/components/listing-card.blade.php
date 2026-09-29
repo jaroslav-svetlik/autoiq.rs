@@ -40,7 +40,7 @@
                 <span><x-icon name="gear" />{{ $listing->transmission?->label() }}</span>
                 <span class="listing-location"><x-icon name="pin" />{{ $listing->city }}</span>
             </div>
-            <p class="listing-description">{{ \Illuminate\Support\Str::limit($listing->description, 180) }}</p>
+            <p class="listing-description">{{ \Illuminate\Support\Str::limit($listing->descriptionText(), 180) }}</p>
             <div class="listing-bottom">
                 <div class="listing-seller">
                     <x-icon :name="$verified ? 'shield' : 'user'" />

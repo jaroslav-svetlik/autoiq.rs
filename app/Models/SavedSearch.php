@@ -101,7 +101,7 @@ class SavedSearch extends Model
             $listing->title,
             $listing->brand,
             $listing->model,
-            $listing->description,
+            $listing->descriptionText(),
             $listing->city,
             $listing->equipmentLabels()->implode(' '),
         ]));

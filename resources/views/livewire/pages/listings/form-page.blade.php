@@ -133,10 +133,9 @@
                             @error('city') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
                         </div>
 
-                        <div class="md:col-span-2">
-                            <label class="field-label">Opis</label>
-                            <textarea wire:model.live="description" class="textarea-shell min-h-44 w-full" placeholder="Stanje vozila, servisna istorija, oprema, vlasništvo, ulaganja..."></textarea>
-                            @error('description') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
+                        <div @class(['md:col-span-2', 'has-error' => $errors->has('description')])>
+                            <x-rich-text-editor model="description" :value="$description" label="Opis oglasa" />
+                            <p id="description-error" class="mt-2 text-sm text-rose-700" role="status">@error('description'){{ $message }}@enderror</p>
                         </div>
                     </div>
                 </div>
