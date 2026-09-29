@@ -1,6 +1,8 @@
 @php
     $isFavorite = auth()->check() && auth()->user()->hasFavorited($listing);
-    $dealer = $listing->dealerProfile;
+    $externalSource = $listing->externalSource;
+    $sourceUrl = $externalSource?->publicSourceUrl();
+    $dealer = $externalSource ? null : $listing->dealerProfile;
     $verified = $dealer?->verified_at !== null;
     $sellerName = $listing->sellerContactName();
     $sellerPhones = $listing->sellerContactPhones();
@@ -71,6 +73,20 @@
         </section>
 
         <aside class="detail-sidebar" aria-label="Prodavac i informacije o kupovini">
+            @if($externalSource)
+            <section class="detail-panel seller-panel external-listing-panel" aria-label="Izvor oglasa i kontakt prodavca">
+                <div class="detail-section-heading"><h2>Oglas sa sajta {{ $externalSource->sourceLabel() }}</h2></div>
+                <div class="seller-profile">
+                    <div class="seller-identity">
+                        <span class="seller-avatar" aria-hidden="true"><x-icon name="car" /></span>
+                        <div><h3>{{ $sellerName }}</h3><p><x-icon name="pin" />{{ $listing->city }}</p></div>
+                    </div>
+                    @if($externalSource->fetched_at)<div class="seller-facts"><span><x-icon name="clock" />Podaci preuzeti {{ $externalSource->fetched_at->format('d.m.Y.') }}</span></div>@endif
+                </div>
+                <p class="external-listing-note">Ovaj oglas je preuzet sa drugog sajta. Aktuelnu cenu, dostupnost vozila i kontakt prodavca proverite u originalnom oglasu.</p>
+                @if($sourceUrl)<a href="{{ $sourceUrl }}" target="_blank" rel="noopener noreferrer" class="btn-primary external-listing-link">Pogledaj originalni oglas <x-icon name="arrow" /></a>@endif
+            </section>
+            @else
             <section class="detail-panel seller-panel" aria-label="Kontakt prodavca">
                 <div class="detail-section-heading"><h2>Prodavac</h2>@if($dealer)<a href="{{ route('dealers.show', $dealer) }}" wire:navigate>Svi oglasi prodavca <x-icon name="arrow" /></a>@endif</div>
                 <div class="seller-profile">
@@ -95,6 +111,7 @@
                 </div>
                 @if($messageUrl)<p class="seller-contact-note">{{ $contactEmail ? 'Poruka se otvara u vašoj email aplikaciji.' : 'Poruka se otvara u vašoj SMS aplikaciji.' }}</p>@endif
             </section>
+            @endif
 
             <div class="detail-panel detail-services">
                 <a href="#procena-cene" class="detail-service"><span class="detail-service-icon"><x-icon name="chart" /></span><span><strong>AutoIQ procena cene</strong><small>{{ $listing->scoreLabel() }}. Pogledajte poređenje sa tržištem i istoriju cene.</small></span><span class="detail-service-arrow"><x-icon name="arrow" /></span></a>

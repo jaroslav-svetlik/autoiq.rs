@@ -75,6 +75,9 @@
 .seller-phone-numbers span { display: block; color: #616e9f; font-size: 11px; }
 .seller-phone-numbers a { display: block; color: #2442ff; font-size: 15px; margin-top: 10px; font-weight: 600; }
 .seller-contact-note { margin-top: 7px; font-size: 10px; color: #616e9f; text-align: center; }
+.external-listing-note { margin-block: 13px; font-size: 12px; line-height: 1.6; color: #616e9f; }
+.external-listing-link { width: 100%; font-size: 13px; }
+.external-listing-panel .seller-avatar .icon { width: 25px; height: 25px; }
 .seller-no-phone { font-size: 12px; color: #616e9f; padding-block: 10px; grid-column: 1 / -1; }
 .detail-services { padding: 9px; display: grid; gap: 10px; }
 .detail-service { display: flex; align-items: center; gap: 12px; padding: 12px 10px; border-radius: 7px; background: linear-gradient(110deg, #eff4ff, #f5f8ff); }

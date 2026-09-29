@@ -5,7 +5,8 @@
         $featured = $listing->is_featured && (! $listing->featured_until || $listing->featured_until->isFuture());
         $new = $listing->published_at?->greaterThan(now()->subDays(7));
         $goodPrice = $listing->price_deviation_percentage !== null && $listing->price_deviation_percentage <= -5;
-        $verified = $listing->dealerProfile?->verified_at !== null;
+        $externalSource = $listing->externalSource;
+        $verified = ! $externalSource && $listing->dealerProfile?->verified_at !== null;
     @endphp
     <article class="listing-card">
         <div class="listing-photo">
@@ -44,7 +45,7 @@
             <div class="listing-bottom">
                 <div class="listing-seller">
                     <x-icon :name="$verified ? 'shield' : 'user'" />
-                    <div><span>{{ $verified ? 'Proveren prodavac' : $listing->seller_type?->label() }}</span><small>AutoIQ procena <b>{{ $listing->autoiq_score }}/100</b></small></div>
+                    <div><span>{{ $externalSource ? 'Izvor: '.$externalSource->sourceLabel() : ($verified ? 'Proveren prodavac' : $listing->seller_type?->label()) }}</span><small>AutoIQ procena <b>{{ $listing->autoiq_score }}/100</b></small></div>
                 </div>
                 <a href="{{ route('listings.show', $listing) }}" wire:navigate class="card-arrow" aria-label="Pogledaj {{ $listing->brand }} {{ $listing->model }}"><x-icon name="arrow" /></a>
             </div>
