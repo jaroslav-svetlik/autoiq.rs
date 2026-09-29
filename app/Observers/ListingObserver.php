@@ -9,15 +9,13 @@ use App\Models\SavedSearch;
 use App\Notifications\NewListingMatchAlert;
 use App\Notifications\PriceDropAlert;
 use App\Services\AutoIqScoreService;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 class ListingObserver
 {
     public function __construct(
         protected AutoIqScoreService $scoreService,
-    ) {
-    }
+    ) {}
 
     public function saving(Listing $listing): void
     {
@@ -68,14 +66,20 @@ class ListingObserver
 
             if ($listing->price < $oldPrice) {
                 $listing->forceFill(['last_price_drop_at' => now()])->saveQuietly();
-                $this->notifyPriceDrop($listing, $oldPrice);
+                if ($listing->status === ListingStatus::Published) {
+                    $this->notifyPriceDrop($listing, $oldPrice);
+                }
             }
         }
 
         if (
             $listing->status === ListingStatus::Published
             && $listing->wasChanged('status')
-            && $listing->getOriginal('status') !== ListingStatus::Published->value
+            && ! in_array($listing->getRawOriginal('status'), [
+                ListingStatus::Published->value,
+                ListingStatus::Paused->value,
+                ListingStatus::Sold->value,
+            ], true)
         ) {
             $this->notifySavedSearches($listing);
         }

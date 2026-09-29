@@ -1,16 +1,21 @@
 import './bootstrap';
 import selectField from './select-field';
 
-const dropdownMenus = () => document.querySelectorAll('details[data-nav-menu], details.quick-range');
+const dropdownSelector = 'details[data-nav-menu], details.quick-range, details[data-listing-menu]';
+const dropdownMenus = () => document.querySelectorAll(dropdownSelector);
 
 document.addEventListener('click', (event) => {
     dropdownMenus().forEach((menu) => {
         if (menu.open && !menu.contains(event.target)) menu.open = false;
+        if (menu.open && menu.hasAttribute('data-listing-menu') && event.target.closest('[data-listing-action]')) {
+            menu.open = false;
+            menu.querySelector('summary')?.focus();
+        }
     });
 });
 
 document.addEventListener('toggle', (event) => {
-    if (!event.target.matches('details[data-nav-menu], details.quick-range') || !event.target.open) return;
+    if (!event.target.matches(dropdownSelector) || !event.target.open) return;
     dropdownMenus().forEach((menu) => { if (menu !== event.target) menu.open = false; });
 }, true);
 
@@ -25,6 +30,21 @@ document.addEventListener('keydown', (event) => {
 
 document.addEventListener('alpine:init', () => {
     window.Alpine.data('selectField', selectField);
+    window.Alpine.data('listingDeletionDialog', () => ({
+        returnFocus: null,
+        init() {
+            this.returnFocus = document.activeElement;
+            this.$el.showModal();
+        },
+        cancel() { this.$wire.cancelListingDeletion(); },
+        destroy() {
+            const returnFocus = this.returnFocus;
+            queueMicrotask(() => {
+                const target = returnFocus?.isConnected ? returnFocus : document.querySelector('[data-my-listings-tab]');
+                target?.focus();
+            });
+        },
+    }));
     window.Alpine.data('listingActions', () => ({
         shareStatus: '',
         showShareLink: false,
@@ -258,7 +278,7 @@ document.addEventListener('alpine:init', () => {
 
 document.addEventListener('livewire:navigated', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    document.querySelectorAll('details[data-nav-menu][open]').forEach((menu) => {
+    document.querySelectorAll('details[data-nav-menu][open], details[data-listing-menu][open]').forEach((menu) => {
         menu.removeAttribute('open');
     });
 

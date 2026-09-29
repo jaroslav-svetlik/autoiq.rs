@@ -53,3 +53,11 @@ The guides inserted inside article content use a compact navigation list with on
 ## Supplied brand logo
 
 `x-brand` uses `public/images/autoiq-logo.webp` in the shared header, footer and error-page header. The user-supplied original artwork was cropped to `(122, 395, 1202, 264)` from the 1448 × 1086 source, resized to 728 × 160 and encoded as lossless WebP (about 67 KiB). Its lettering, gradients and brain symbol are preserved. The displayed width is 182 px in the desktop header and 164 px on mobile and in the footer, with an intrinsic aspect ratio to prevent layout shifts. Multiply blending integrates the original near-white background with the existing light surfaces. The image has descriptive alternative text; the existing home links are retained.
+
+## My Listings management
+
+Editable cards use `x-listing-owner-menu` with Lucide icons, status badges and actions in the upper-right corner. Active listings can be paused or marked as sold; paused listings can be sold or reactivated; sold listings can be reactivated. Only previously published listings can be reactivated, and drafts/rejected listings cannot bypass moderation. Every server action queries the authenticated owner's listings independently of the UI.
+
+The new `paused` enum value uses the existing string status column without a database migration. Existing published scopes, public detail authorization, sitemap and search eligibility hide paused/sold listings. Favorites retain their stored associations but display only published listings. Reactivation preserves the original publication date and does not send another new-listing alert. Hidden listings do not send price-drop alerts.
+
+Deletion keeps the existing soft-delete behavior and uses an in-page native dialog with explicit confirmation, cancellation, Escape and focus restoration. Menus preserve their open state through Livewire updates and close after actions, on outside clicks, Escape or navigation. Feature tests cover owner authorization, allowed transitions, hidden visibility, soft deletion, cancellation and notification behavior; UI checks use a separate local preview account and database.
