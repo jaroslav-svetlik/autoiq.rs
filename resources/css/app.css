@@ -2,6 +2,7 @@
 @import './listing-detail.css';
 @import './select-field.css';
 @import './rich-text-editor.css';
+@import './listing-photo-order.css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';

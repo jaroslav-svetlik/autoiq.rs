@@ -10,9 +10,11 @@ use App\Models\Listing;
 use App\Rules\ListingDescriptionLength;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
+use Livewire\Attributes\Locked;
 use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 use Livewire\WithFileUploads;
 
@@ -61,6 +63,11 @@ class FormPage extends PageComponent
 
     public array $newImages = [];
 
+    #[Locked]
+    public array $imageOrder = [];
+
+    public string $imageOrderAnnouncement = '';
+
     public function mount(?Listing $listing = null): void
     {
         if ($listing) {
@@ -95,6 +102,7 @@ class FormPage extends PageComponent
 
     public function save(): void
     {
+        $this->authorizeListingEdit();
         $this->throttle('listing-save', 10, 60);
 
         try {
@@ -193,11 +201,28 @@ class FormPage extends PageComponent
 
     public function updatedNewImages(): void
     {
+        $this->syncImageOrder();
         $this->validate($this->imageRules(), $this->messages());
+    }
+
+    public function sortImage(string $key, int $position): void
+    {
+        $this->authorizeListingEdit();
+        $this->syncImageOrder();
+
+        $currentPosition = array_search($key, $this->imageOrder, true);
+        abort_if($currentPosition === false, 404);
+        abort_if($position < 0 || $position >= count($this->imageOrder), 422);
+
+        array_splice($this->imageOrder, $currentPosition, 1);
+        array_splice($this->imageOrder, $position, 0, [$key]);
+
+        $this->imageOrderAnnouncement = 'Fotografija je pomerena na mesto '.($position + 1).'. Prva fotografija je naslovna.';
     }
 
     public function deleteImage(int $imageId): void
     {
+        $this->authorizeListingEdit();
         abort_unless($this->listing, 404);
 
         $image = $this->listing->images()->findOrFail($imageId);
@@ -208,6 +233,7 @@ class FormPage extends PageComponent
 
         $image->delete();
         $this->listing->refresh();
+        $this->syncImageOrder();
         $this->resetErrorBag('newImages');
     }
 
@@ -215,6 +241,7 @@ class FormPage extends PageComponent
     {
         unset($this->newImages[$index]);
         $this->newImages = array_values($this->newImages);
+        $this->syncImageOrder();
         $this->resetErrorBag('newImages');
     }
 
@@ -241,25 +268,59 @@ class FormPage extends PageComponent
 
     protected function storeImages(Listing $listing): void
     {
-        $sortOrder = (int) $listing->images()->max('sort_order') + 1;
+        $items = $this->imageItems();
+        $this->syncImageOrder();
 
-        foreach ($this->newImages as $image) {
-            if (! $image instanceof TemporaryUploadedFile) {
-                continue;
+        DB::transaction(function () use ($listing, $items): void {
+            foreach ($this->imageOrder as $position => $key) {
+                $image = $items[$key]['image'];
+
+                if ($items[$key]['existing']) {
+                    $listing->images()->whereKey($image->id)->update(['sort_order' => $position + 1]);
+                } else {
+                    $listing->images()->create([
+                        'path' => $image->store('listings', 'public'),
+                        'alt_text' => $listing->title,
+                        'sort_order' => $position + 1,
+                    ]);
+                }
             }
-
-            $path = $image->store('listings', 'public');
-
-            $listing->images()->create([
-                'path' => $path,
-                'alt_text' => $listing->title,
-                'sort_order' => $sortOrder,
-            ]);
-
-            $sortOrder++;
-        }
+        });
 
         $this->newImages = [];
+    }
+
+    protected function authorizeListingEdit(): void
+    {
+        abort_unless(auth()->check(), 403);
+        abort_if($this->listing && auth()->id() !== $this->listing->user_id && ! auth()->user()->isAdmin(), 403);
+    }
+
+    protected function imageItems(): array
+    {
+        $items = [];
+
+        foreach ($this->listing?->images ?? [] as $image) {
+            $items['existing-'.$image->id] = ['image' => $image, 'existing' => true, 'index' => null];
+        }
+
+        foreach ($this->newImages as $index => $image) {
+            if ($image instanceof TemporaryUploadedFile) {
+                // The upload identity stays stable when another image is removed.
+                $items['new-'.sha1($image->getFilename())] = ['image' => $image, 'existing' => false, 'index' => $index];
+            }
+        }
+
+        return $items;
+    }
+
+    protected function syncImageOrder(): void
+    {
+        $keys = array_keys($this->imageItems());
+        $this->imageOrder = array_values(array_unique([
+            ...array_intersect($this->imageOrder, $keys),
+            ...$keys,
+        ]));
     }
 
     protected function rules(): array
@@ -515,6 +576,7 @@ class FormPage extends PageComponent
     public function render(): View
     {
         $this->clampCurrentStep();
+        $this->syncImageOrder();
 
         return $this->page(view('livewire.pages.listings.form-page', [
             'cities' => config('autoiq.cities'),
@@ -525,6 +587,7 @@ class FormPage extends PageComponent
             'sellerTypes' => config('autoiq.seller_types'),
             'equipmentCatalog' => Listing::equipmentCatalog(),
             'steps' => $this->steps(),
+            'imageItems' => $this->imageItems(),
         ]));
     }
 }

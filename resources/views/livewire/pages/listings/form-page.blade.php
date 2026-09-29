@@ -187,37 +187,44 @@
                         <div class="text-sm text-muted">{{ ($listing?->images->count() ?? 0) + count($newImages) }}/20 fotografija · do 1 MB po slici</div>
                     </div>
 
-                    <div class="mt-6">
-                        <input type="file" wire:model.live="newImages" multiple accept=".jpg,.jpeg,.png,.webp" class="input-shell w-full">
-                        @error('newImages') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
-                        @error('newImages.*') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
+                    <p id="photo-order-help" class="mt-3 text-sm leading-relaxed text-muted">Prevucite fotografije da promenite redosled. Prva fotografija je naslovna na oglasu i u rezultatima pretrage. Redosled se čuva kada sačuvate oglas.</p>
+
+                    <label class="photo-upload-zone mt-5">
+                        <input type="file" wire:model.live="newImages" multiple accept=".jpg,.jpeg,.png,.webp" aria-label="Dodaj fotografije" wire:loading.attr="disabled">
+                        <span class="photo-upload-icon"><x-icon name="camera" /></span>
+                        <span><strong>Dodajte fotografije</strong><span>Prevucite fajlove ovde ili kliknite za izbor · JPG, PNG, WEBP</span></span>
+                        <x-icon name="plus" />
+                    </label>
+                    <div role="status" class="mt-2 text-sm text-muted" wire:loading wire:target="newImages">Fotografije se otpremaju, sačekajte…</div>
+                    @error('newImages') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
+                    @error('newImages.*') <p class="mt-2 text-sm text-rose-700">{{ $message }}</p> @enderror
+
+                    <div class="photo-order-grid mt-5" wire:sort="sortImage" wire:loading.class="pointer-events-none opacity-60" aria-label="Redosled fotografija" aria-describedby="photo-order-help">
+                        @foreach($imageOrder as $position => $key)
+                            @php
+                                $item = $imageItems[$key];
+                                $image = $item['image'];
+                            @endphp
+                            <div class="photo-order-card {{ $position === 0 ? 'is-cover' : '' }}" wire:key="photo-{{ $key }}" wire:sort:item="{{ $key }}">
+                                <div class="photo-order-preview" wire:sort:handle title="Prevucite za promenu redosleda">
+                                    @if($item['existing'] || $image->isPreviewable())
+                                        <img src="{{ $item['existing'] ? $image->url() : $image->temporaryUrl() }}" alt="Fotografija {{ $position + 1 }}" draggable="false">
+                                    @else
+                                        <span class="photo-invalid">Pregled nije dostupan</span>
+                                    @endif
+                                    <span class="photo-order-badge">{{ $position === 0 ? 'Naslovna' : $position + 1 }}</span>
+                                    <span class="photo-drag-hint"><x-icon name="grid" /></span>
+                                    @unless($item['existing']) <span class="photo-new-badge">Nova</span> @endunless
+                                </div>
+                                <div class="photo-order-actions" wire:sort:ignore>
+                                    <button type="button" wire:click="sortImage('{{ $key }}', {{ $position - 1 }})" class="photo-order-button" @disabled($position === 0) wire:loading.attr="disabled" aria-label="Pomeri fotografiju {{ $position + 1 }} ranije" title="Pomeri ranije"><x-icon name="arrow" class="rotate-180" /></button>
+                                    <button type="button" wire:click="sortImage('{{ $key }}', {{ $position + 1 }})" class="photo-order-button" @disabled($loop->last) wire:loading.attr="disabled" aria-label="Pomeri fotografiju {{ $position + 1 }} kasnije" title="Pomeri kasnije"><x-icon name="arrow" /></button>
+                                    <button type="button" wire:click="{{ $item['existing'] ? 'deleteImage('.$image->id.')' : 'removeNewImage('.$item['index'].')' }}" class="photo-order-button photo-remove-button" wire:loading.attr="disabled" aria-label="Ukloni fotografiju {{ $position + 1 }}" title="Ukloni fotografiju"><x-lucide-icon name="trash-2" /></button>
+                                </div>
+                            </div>
+                        @endforeach
                     </div>
-
-                    @if($listing?->images->count())
-                        <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                            @foreach($listing->images as $image)
-                                <div class="panel-soft overflow-hidden">
-                                    <img src="{{ $image->url() }}" alt="{{ $image->alt_text ?: $listing->title }}" class="aspect-[4/3] w-full object-cover">
-                                    <div class="p-3">
-                                        <button type="button" wire:click="deleteImage({{ $image->id }})" class="btn-ghost w-full text-rose-700 hover:text-rose-700">Ukloni sliku</button>
-                                    </div>
-                                </div>
-                            @endforeach
-                        </div>
-                    @endif
-
-                    @if(count($newImages))
-                        <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                            @foreach($newImages as $index => $image)
-                                <div class="panel-soft overflow-hidden">
-                                    <img src="{{ $image->temporaryUrl() }}" alt="Nova fotografija" class="aspect-[4/3] w-full object-cover">
-                                    <div class="p-3">
-                                        <button type="button" wire:click="removeNewImage({{ $index }})" class="btn-ghost w-full text-brand hover:text-brand">Ukloni pre slanja</button>
-                                    </div>
-                                </div>
-                            @endforeach
-                        </div>
-                    @endif
+                    <p class="sr-only" role="status" aria-live="polite">{{ $imageOrderAnnouncement }}</p>
                 </div>
             @endif
 

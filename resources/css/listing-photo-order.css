@@ -1,0 +1,49 @@
+.photo-upload-zone {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 22px 18px;
+    border: 1.5px dashed #bbc9fa;
+    border-radius: 14px;
+    background: #f8faff;
+    color: #2442ff;
+    cursor: pointer;
+}
+.photo-upload-zone:hover, .photo-upload-zone:focus-within { border-color: #2442ff; background: #f0f4ff; }
+.photo-upload-zone input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+.photo-upload-zone input:disabled { cursor: wait; }
+.photo-upload-zone strong { display: block; font-size: 15px; }
+.photo-upload-zone strong + span { display: block; margin-top: 4px; color: #616e9f; font-size: 12px; line-height: 1.5; }
+.photo-upload-zone > .icon { flex-shrink: 0; margin-left: auto; }
+.photo-upload-icon { display: grid; place-items: center; width: 46px; height: 46px; flex-shrink: 0; border-radius: 13px; background: #e9efff; }
+.photo-order-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.photo-order-card { min-width: 0; overflow: hidden; border: 1px solid #e4ebfa; border-radius: 12px; background: white; }
+.photo-order-card.is-cover { border-color: #2442ff; box-shadow: 0 0 0 1px #2442ff; }
+.photo-order-preview { position: relative; aspect-ratio: 4 / 3; background: #f2f6ff; cursor: grab; touch-action: none; user-select: none; }
+.photo-order-preview:active { cursor: grabbing; }
+.photo-order-preview img { width: 100%; height: 100%; object-fit: cover; }
+.photo-order-badge, .photo-new-badge { position: absolute; left: 8px; padding: 4px 8px; border-radius: 6px; font-size: 11px; line-height: 1.4; font-weight: 600; }
+.photo-order-badge { top: 8px; color: #090e49; background: white; }
+.is-cover .photo-order-badge { color: white; background: #2442ff; }
+.photo-new-badge { bottom: 8px; background: #e8faf4; color: #087a5a; }
+.photo-drag-hint { position: absolute; top: 8px; right: 8px; display: grid; place-items: center; width: 27px; height: 27px; border-radius: 6px; color: white; background: #090e4980; }
+.photo-drag-hint .icon { width: 16px; height: 16px; }
+.photo-order-actions { display: flex; gap: 5px; padding: 7px; }
+.photo-order-button { display: grid; place-items: center; min-width: 36px; height: 36px; padding: 6px; color: #2442ff; border-radius: 8px; background: #f2f6ff; cursor: pointer; }
+.photo-order-button .icon { width: 17px; height: 17px; }
+.photo-order-button:hover:not(:disabled) { background: #e4ebff; }
+.photo-order-button:focus-visible { outline: 2px solid #2442ff; outline-offset: 2px; }
+.photo-order-button:disabled { opacity: .3; cursor: default; }
+.photo-remove-button { margin-left: auto; color: #be3455; background: #fff2f5; }
+.photo-remove-button:hover:not(:disabled) { background: #ffe4eb; }
+.photo-order-card.sortable-ghost { opacity: .3; border: 2px dashed #2442ff; }
+.photo-order-card.sortable-drag { box-shadow: 0 12px 32px #090e4926; }
+.photo-invalid { display: grid; place-items: center; height: 100%; padding: 30px 10px; color: #616e9f; font-size: 12px; text-align: center; }
+@media (max-width: 639px) {
+    .photo-order-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .photo-upload-zone { padding: 16px 12px; gap: 10px; }
+    .photo-upload-icon { width: 36px; height: 36px; }
+    .photo-order-actions { gap: 3px; padding: 5px; }
+    .photo-order-button { min-width: 32px; height: 36px; }
+}

@@ -6,6 +6,17 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.192] - 2026-09-30
+
+### Added
+
+- Added drag-and-drop ordering for new and existing listing photos in one gallery, with a clearly marked cover image and accessible move controls.
+- Added a photo drop zone with upload status and preserved ordering when adding or removing photos.
+
+### Changed
+
+- Save the selected photo order with the listing so the first photo is used consistently in search results and the detail gallery.
+
 ## [0.1.191] - 2026-09-30
 
 ### Changed
