@@ -1,8 +1,8 @@
 <img
-    src="{{ asset('images/autoiq-logo-gradient.webp') }}"
+    src="{{ asset('images/autoiq-logo-smart.webp') }}"
     alt="AutoIQ.rs"
-    width="800"
-    height="220"
+    width="960"
+    height="359"
     decoding="async"
     {{ $attributes->class('brand-logo') }}
 >

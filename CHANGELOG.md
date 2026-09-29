@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.191] - 2026-09-30
+
+### Changed
+
+- Replaced the shared logo with the latest supplied car-and-brain wordmark, including its “Pametnije do pravog auta.” slogan.
+- Adjusted header spacing and footer logo sizing for the taller artwork, and removed the previous footer slogan.
+
 ## [0.1.190] - 2026-09-29
 
 ### Changed
