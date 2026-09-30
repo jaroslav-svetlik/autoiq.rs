@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(625, $posts);
+        $this->assertCount(630, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(138, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(139, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'toyota-corsa-ili-honda-domani-limuzine-kada-poreklo-mora-dokazati-odrzavanje'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-bassara-porodicni-van-koji-mora-dokazati-motor-prenos-i-kabinu'));
+        $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-sonica-mali-auto-koji-mora-dokazati-turbo-limariju-i-delove'));
+        $this->assertTrue($posts->contains('slug', 'donje-sidriste-sigurnosnog-pojasa-na-polovnom-autu-kada-pod-trazi-proveru-bezbednosti'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-ekvadora-kada-razlicita-klima-trazi-proveru-porekla-papira-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'toyota-ist-ili-nissan-tiida-latio-kada-oblik-karoserije-ne-sme-zameniti-proveru'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-dignity-limuzina-koja-mora-dokazati-motor-automatik-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-tanto-exe-mali-auto-koji-mora-dokazati-prostor-vrata-i-poreklo'));

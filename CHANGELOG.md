@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.194] - 2026-09-30
+
+### Added
+
+- Added five Serbian Latin used-car buying guides: Toyota Corsa versus Honda Domani, Nissan Bassara, Daihatsu Sonica, lower seat-belt anchorage inspection, and Ecuador import due diligence.
+
 ## [0.1.193] - 2026-09-30
 
 ### Changed
