@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.195] - 2026-10-01
+
+### Added
+
+- Added five Serbian Latin used-car buying guides: Mitsubishi FTO versus Nissan 200SX, Toyota Voltz, Mitsubishi Libero, engine ground-cable inspection, and Laos import due diligence.
+
 ## [0.1.194] - 2026-09-30
 
 ### Added
