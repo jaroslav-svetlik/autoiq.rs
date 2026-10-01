@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(630, $posts);
+        $this->assertCount(635, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(139, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(140, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'mitsubishi-fto-ili-nissan-200sx-kupe-kada-motor-i-zadnji-pogon-traze-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-toyota-voltz-kompakt-koji-mora-dokazati-poreklo-motor-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-libero-karavan-koji-mora-dokazati-motor-pod-i-radnu-proslost'));
+        $this->assertTrue($posts->contains('slug', 'kabl-mase-motora-na-polovnom-autu-kada-mali-spoj-trazi-proveru-paljenja-i-punjenja'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-laosa-kada-tropska-ruta-trazi-proveru-papira-vlage-i-specifikacije'));
         $this->assertTrue($posts->contains('slug', 'toyota-corsa-ili-honda-domani-limuzine-kada-poreklo-mora-dokazati-odrzavanje'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-bassara-porodicni-van-koji-mora-dokazati-motor-prenos-i-kabinu'));
         $this->assertTrue($posts->contains('slug', 'polovni-daihatsu-sonica-mali-auto-koji-mora-dokazati-turbo-limariju-i-delove'));
