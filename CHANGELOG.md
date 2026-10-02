@@ -6,6 +6,13 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.197] - 2026-10-02
+
+### Changed
+
+- Rewrote the existing Nissan Leopard article as a source-checked F31 buying guide covering character, engine choices, practicality and ownership tradeoffs; retained its original URL, publication date and optimized cover.
+- Added regression coverage for editorial transformation, meaningful sections, rendered copy and preservation of the existing article identity and media.
+
 ## [0.1.196] - 2026-10-02
 
 ### Added
