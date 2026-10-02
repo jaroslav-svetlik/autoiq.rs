@@ -13,6 +13,54 @@ class TrendBlogPostSeederTest extends TestCase
 {
     use RefreshDatabase;
 
+    public function test_leopard_rewrite_survives_editorial_transformation_and_preserves_article_identity(): void
+    {
+        Storage::fake('public');
+
+        $slug = 'polovni-nissan-leopard-kupe-koji-mora-dokazati-motor-automatik-i-limariju';
+        $existing = BlogPost::factory()->create([
+            'title' => 'Polovni Nissan Leopard: kupe koji mora dokazati motor, automatik i limariju',
+            'slug' => $slug,
+            'cover_image_path' => 'blog/generated/leopard-existing.webp',
+            'published_at' => now()->subDay(),
+        ]);
+        $publishedAt = $existing->published_at->toISOString();
+
+        $seeder = new TrendBlogPostSeeder;
+        $source = collect((new \ReflectionMethod($seeder, 'currentBatchPosts'))->invoke($seeder))
+            ->firstWhere('slug', $slug);
+        $transformed = (new \ReflectionMethod($seeder, 'professionalizeEditorialVoice'))->invoke($seeder, $source);
+
+        foreach (['title', 'excerpt', 'content', 'highlights', 'tags', 'meta_title', 'meta_description'] as $field) {
+            $this->assertSame($source[$field], $transformed[$field], "Editorial transformation changed {$field}");
+        }
+
+        $this->seed(TrendBlogPostSeeder::class);
+        $this->seed(TrendBlogPostSeeder::class);
+
+        $post = BlogPost::query()->where('slug', $slug)->sole();
+        $this->assertSame($existing->id, $post->id);
+        $this->assertSame($publishedAt, $post->published_at->toISOString());
+        $this->assertSame('blog/generated/leopard-existing.webp', $post->cover_image_path);
+        $this->assertSame($source['content'], $post->content);
+        $this->assertCount(6, $post->contentBlocks()->where('type', 'heading'));
+        $wordCount = count(preg_split('/\s+/u', trim($post->content)));
+        $this->assertGreaterThanOrEqual(700, $wordCount);
+        $this->assertLessThanOrEqual(1100, $wordCount);
+        $this->assertGreaterThan(1, $post->reading_time_minutes);
+        foreach (['F31', 'VG20E', 'VG20DET', 'VG30DE', 'VG30DET', 'Toyota GAZOO', 'Nissan Heritage Collection'] as $detail) {
+            $this->assertStringContainsString($detail, $post->content);
+        }
+        $this->assertStringNotContainsString('Nastavi kada', $post->content);
+
+        $this->get(route('blog.show', $post))
+            ->assertOk()
+            ->assertSee($source['title'])
+            ->assertSee('Dvolitarski V6 i Ultima nisu ista kupovina')
+            ->assertSee('Koji Leopard bih stavio na prvo mesto')
+            ->assertSee('blog/generated/leopard-existing.webp');
+    }
+
     public function test_trend_blog_post_seeder_creates_idempotent_unique_article_catalog(): void
     {
         Storage::fake('public');
