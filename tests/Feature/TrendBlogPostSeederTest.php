@@ -22,11 +22,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(635, $posts);
+        $this->assertCount(640, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(140, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(141, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'honda-ascot-innova-ili-toyota-scepter-limuzine-kada-poreklo-i-automatik-traze-dokaz'));
+        $this->assertTrue($posts->contains('slug', 'polovni-mazda-proceed-levante-terenac-koji-mora-dokazati-pogon-sasiju-i-poreklo'));
+        $this->assertTrue($posts->contains('slug', 'polovni-nissan-leopard-kupe-koji-mora-dokazati-motor-automatik-i-limariju'));
+        $this->assertTrue($posts->contains('slug', 'gumeni-ulosci-zadnjih-uzduznih-ramena-kada-zadnji-trap-trazi-proveru-stabilnosti-i-poda'));
+        $this->assertTrue($posts->contains('slug', 'uvoz-auta-iz-ruande-kada-brdovita-ruta-trazi-proveru-papira-podvozja-i-stanja'));
         $this->assertTrue($posts->contains('slug', 'mitsubishi-fto-ili-nissan-200sx-kupe-kada-motor-i-zadnji-pogon-traze-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-toyota-voltz-kompakt-koji-mora-dokazati-poreklo-motor-i-limariju'));
         $this->assertTrue($posts->contains('slug', 'polovni-mitsubishi-libero-karavan-koji-mora-dokazati-motor-pod-i-radnu-proslost'));
