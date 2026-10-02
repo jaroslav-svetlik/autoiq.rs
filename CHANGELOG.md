@@ -6,6 +6,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.196] - 2026-10-02
+
+### Added
+
+- Added five Serbian Latin used-car buying guides: Honda Ascot Innova versus Toyota Scepter, Mazda Proceed Levante, Nissan Leopard, rear trailing-arm bushings inspection, and Rwanda import due diligence.
+
 ## [0.1.195] - 2026-10-01
 
 ### Added
