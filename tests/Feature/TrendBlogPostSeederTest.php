@@ -70,11 +70,16 @@ class TrendBlogPostSeederTest extends TestCase
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(640, $posts);
+        $this->assertCount(645, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(141, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(142, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'honda-jazz-iii-ili-toyota-verso-s-mali-porodicni-auto-dve-razlicite-ideje'));
+        $this->assertTrue($posts->contains('slug', 'nissan-note-e12-12-dig-s-kada-mali-auto-ima-smisla-uz-pravi-motor-i-istoriju'));
+        $this->assertTrue($posts->contains('slug', 'skoda-yeti-14-tsi-rucni-kada-crossover-vredi-zbog-pregleda-a-ne-zbog-visine'));
+        $this->assertTrue($posts->contains('slug', 'instalacija-petih-vrata-kada-prekid-rada-brisaca-otvara-ozbiljnije-pitanje'));
+        $this->assertTrue($posts->contains('slug', 'polovan-auto-sa-severnoamerickog-trzista-prvo-usaglasenost-tek-onda-cena'));
         $this->assertTrue($posts->contains('slug', 'honda-ascot-innova-ili-toyota-scepter-limuzine-kada-poreklo-i-automatik-traze-dokaz'));
         $this->assertTrue($posts->contains('slug', 'polovni-mazda-proceed-levante-terenac-koji-mora-dokazati-pogon-sasiju-i-poreklo'));
         $this->assertTrue($posts->contains('slug', 'polovni-nissan-leopard-kupe-koji-mora-dokazati-motor-automatik-i-limariju'));
