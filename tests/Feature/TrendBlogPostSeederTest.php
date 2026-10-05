@@ -64,17 +64,31 @@ class TrendBlogPostSeederTest extends TestCase
     public function test_trend_blog_post_seeder_creates_idempotent_unique_article_catalog(): void
     {
         Storage::fake('public');
+        foreach ([
+            'blog/generated/skoda-rapid-spaceback-10-tsi-ili-fiat-tipo-14-dve-mere-porodicnog-hecbeka.webp',
+            'blog/generated/renault-megane-iv-13-tce-140-rucni-benzinac-koji-se-bira-po-istoriji-ne-po-opremi.webp',
+            'blog/generated/peugeot-308-ii-12-puretech-130-rucni-kompakt-koji-trazi-racun-za-odrzavanje.webp',
+            'blog/generated/dot-oznaka-na-gumama-kada-starost-pneumatika-menja-odluku-o-polovnom-autu.webp',
+            'blog/generated/bivsi-operativni-lizing-auto-kada-uredna-flota-vredi-vise-od-niske-kilometraze.webp',
+        ] as $cover) {
+            Storage::disk('public')->put($cover, 'reviewed cover');
+        }
 
         $this->seed(TrendBlogPostSeeder::class);
         $this->seed(TrendBlogPostSeeder::class);
 
         $posts = BlogPost::query()->get();
 
-        $this->assertCount(645, $posts);
+        $this->assertCount(650, $posts);
         $this->assertSame($posts->count(), $posts->pluck('slug')->unique()->count());
         $this->assertSame($posts->count(), $posts->pluck('title')->unique()->count());
         $this->assertSame(1, $posts->where('is_featured', true)->count());
-        $this->assertCount(142, $posts->where('category', 'Poređenje modela'));
+        $this->assertCount(143, $posts->where('category', 'Poređenje modela'));
+        $this->assertTrue($posts->contains('slug', 'skoda-rapid-spaceback-10-tsi-ili-fiat-tipo-14-dve-mere-porodicnog-hecbeka'));
+        $this->assertTrue($posts->contains('slug', 'renault-megane-iv-13-tce-140-rucni-benzinac-koji-se-bira-po-istoriji-ne-po-opremi'));
+        $this->assertTrue($posts->contains('slug', 'peugeot-308-ii-12-puretech-130-rucni-kompakt-koji-trazi-racun-za-odrzavanje'));
+        $this->assertTrue($posts->contains('slug', 'dot-oznaka-na-gumama-kada-starost-pneumatika-menja-odluku-o-polovnom-autu'));
+        $this->assertTrue($posts->contains('slug', 'bivsi-operativni-lizing-auto-kada-uredna-flota-vredi-vise-od-niske-kilometraze'));
         $this->assertTrue($posts->contains('slug', 'honda-jazz-iii-ili-toyota-verso-s-mali-porodicni-auto-dve-razlicite-ideje'));
         $this->assertTrue($posts->contains('slug', 'nissan-note-e12-12-dig-s-kada-mali-auto-ima-smisla-uz-pravi-motor-i-istoriju'));
         $this->assertTrue($posts->contains('slug', 'skoda-yeti-14-tsi-rucni-kada-crossover-vredi-zbog-pregleda-a-ne-zbog-visine'));
