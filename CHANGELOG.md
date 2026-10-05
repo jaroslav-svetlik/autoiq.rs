@@ -1170,6 +1170,12 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - Added five broader blog articles covering a single model, imported cars, diesel city-driving risks, mileage checks, and used electric cars.
 
+## [0.1.199] - 2026-10-05
+
+### Added
+
+- Added five researched used-car articles: Rapid Spaceback vs Tipo, Mégane IV 1.3 TCe, 308 II 1.2 PureTech, DOT tyre inspection and former operational-lease vehicles.
+
 ## [0.1.13] - 2026-04-18
 
 ### Added
