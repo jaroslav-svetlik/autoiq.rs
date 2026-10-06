@@ -53,6 +53,9 @@
             "@php artisan config:clear --ansi",
             "@php artisan test"
         ],
+        "validate-editorial-batch": [
+            "bash scripts/validate-editorial-batch.sh"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
@@ -84,9 +87,6 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
-        },
-        "platform": {
-            "php": "8.4.25"
         }
     },
     "minimum-stability": "stable",
