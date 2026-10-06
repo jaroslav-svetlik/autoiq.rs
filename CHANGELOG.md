@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.200] - 2026-10-06
+
+- Added the daily five-post editorial batch: SX4 S-Cross versus Duster, Mazda 3 BM, Opel Meriva B, A/C compressor inspection, and Euro 5 versus Euro 6 market guidance.
+- Added regression coverage for the expanded 655-post catalog and its five new slugs.
+
 ## [0.1.198] - 2026-10-04
 
 - Added the daily five-post editorial batch: Honda Jazz III versus Toyota Verso-S, Nissan Note E12 DIG-S, Škoda Yeti 1.4 TSI manual, tailgate wiring inspection, and North-American-market import conformity.
