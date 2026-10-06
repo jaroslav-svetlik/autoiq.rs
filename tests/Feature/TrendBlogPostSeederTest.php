@@ -13,6 +13,58 @@ class TrendBlogPostSeederTest extends TestCase
 {
     use RefreshDatabase;
 
+    public function test_october_sixth_repair_survives_transformation_renders_all_paragraphs_and_preserves_identity(): void
+    {
+        Storage::fake('public');
+        $seeder = new TrendBlogPostSeeder;
+        $posts = (new \ReflectionMethod($seeder, 'octoberSixthPosts'))->invoke($seeder);
+        $identities = [];
+        foreach ($posts as $source) {
+            $transformed = (new \ReflectionMethod($seeder, 'professionalizeEditorialVoice'))->invoke($seeder, $source);
+            $this->assertSame($source, $transformed);
+            $existing = BlogPost::factory()->create([
+                'title' => $source['title'], 'slug' => $source['slug'],
+                'content' => 'Previously published short draft.',
+                'cover_image_path' => 'blog/generated/'.$source['slug'].'.webp',
+                'published_at' => '2026-10-06 09:22:53',
+            ]);
+            $identities[$source['slug']] = [$existing->id, $existing->published_at->toISOString(), $existing->cover_image_path];
+        }
+        $this->seed(TrendBlogPostSeeder::class);
+        $this->seed(TrendBlogPostSeeder::class);
+        $this->assertDatabaseCount('blog_posts', 655);
+        foreach ($posts as $source) {
+            $post = BlogPost::query()->where('slug', $source['slug'])->sole();
+            $this->assertSame($identities[$source['slug']], [$post->id, $post->published_at->toISOString(), $post->cover_image_path]);
+            $this->assertSame($source['content'], $post->content);
+            $this->assertCount(5, $post->contentBlocks()->where('type', 'heading'));
+            $response = $this->get(route('blog.show', $post))->assertOk();
+            foreach ($post->contentBlocks() as $block) {
+                $this->assertStringNotContainsString("\n", $block['text']);
+                $response->assertSeeText($block['text']);
+            }
+        }
+    }
+
+    public function test_editorial_gate_rejects_short_copy_and_a_heading_that_swallows_body_text(): void
+    {
+        $posts = (new \ReflectionMethod(new TrendBlogPostSeeder, 'octoberSixthPosts'))->invoke(new TrendBlogPostSeeder);
+        foreach (['short', 'malformed', 'template'] as $defect) {
+            $invalid = $posts;
+            $invalid[0]['content'] = match ($defect) {
+                'short' => 'An incomplete draft must never be published.',
+                'malformed' => preg_replace('/(## [^\n]+)\n\n/', "$1\n", $invalid[0]['content'], 1),
+                default => $invalid[0]['content']."\n\nPregovaraj za jednu potvrđenu stavku.",
+            };
+            try {
+                \App\Support\EditorialBatchValidator::validate($invalid);
+                $this->fail('Editorial gate accepted '.$defect.' copy.');
+            } catch (\InvalidArgumentException $exception) {
+                $this->assertNotEmpty($exception->getMessage());
+            }
+        }
+    }
+
     public function test_leopard_rewrite_survives_editorial_transformation_and_preserves_article_identity(): void
     {
         Storage::fake('public');

@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.201] - 2026-10-06
+
+- Rewrote the five existing October 6 articles with researched, model-specific Serbian editorial copy, corrected generation/transmission distinctions, and separately rendered sections; preserved existing URLs, publication timestamps and WebP covers.
+- Added an enforced five-post/category/word-count/structure gate and regressions that reject truncated drafts, swallowed paragraphs and legacy filler, and verify unchanged editorial transformation and full public rendering.
+
 ## [0.1.200] - 2026-10-06
 
 - Added the daily five-post editorial batch: SX4 S-Cross versus Duster, Mazda 3 BM, Opel Meriva B, A/C compressor inspection, and Euro 5 versus Euro 6 market guidance.
