@@ -19,7 +19,8 @@
         "@tiptap/pm": "3.31.3",
         "@tiptap/starter-kit": "3.31.3"
     },
-    "overrides": {
-        "source-map-js": "1.2.2"
-    }
+  "overrides": {
+    "source-map-js": "1.2.2",
+    "shell-quote": "1.12.0"
+  }
 }
