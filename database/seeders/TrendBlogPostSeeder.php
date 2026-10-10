@@ -9,6 +9,12 @@ use Illuminate\Support\Str;
 
 class TrendBlogPostSeeder extends Seeder
 {
+    /** New reviewed dates use the scoped publisher; the historical catalog stays frozen. */
+    public function reviewedDailyPosts(string $date): array
+    {
+        return \App\Support\ReviewedEditorialBatch::load($date);
+    }
+
     public function run(): void
     {
         foreach ($this->posts() as $index => $post) {

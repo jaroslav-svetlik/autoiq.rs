@@ -21,7 +21,7 @@ class ShowPage extends PageComponent
 
     public function mount(BlogPost $blogPost): void
     {
-        abort_unless($blogPost->published_at && $blogPost->published_at->isPast(), 404);
+        abort_unless($blogPost->published_at && $blogPost->published_at->lte(now()), 404);
 
         $this->blogPost = $blogPost;
     }

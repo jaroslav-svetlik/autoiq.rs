@@ -16,3 +16,11 @@ Read `docs/BLOG_EDITORIAL_PLAYBOOK.md`, including the owner revision of 2026-10-
 ## Scheduled chats
 
 Each scheduled execution runs in its own scheduler-created chat. Do not create another chat or message the previous run. New/changed automations are local standalone cron jobs, not thread-bound heartbeats; preserve schedule/status/model/notifications unless explicitly instructed otherwise. Persist verified progress in existing manifests and automation memory.
+
+## Daily execution after October 10
+
+Read `docs/EDITORIAL_DAILY_WORKFLOW.md`. Missing reviewed daily data or images is work to perform, not a blocker: research, write, test, generate/review covers, release, deploy, publish and verify in this same run. Do not finish after a research manifest or local draft. Only a verified external impediment that cannot safely be resolved in scope permits an incomplete run; report the exact failing command/state and retain resumable progress.
+
+Use dated `database/seeders/data/YYYY-MM-DD.php` with `ReviewedEditorialBatch::load()` and `editorial:publish YYYY-MM-DD`, never append new publication batches to the frozen historical seeder. Keep new/changed tests ignored under `tests/Feature/Local/`; extend and execute them locally for each batch and never stage, commit or push tests. This owner policy overrides older playbook instructions to commit tests.
+
+Success requires exactly five production rows for the actual Europe/Belgrade date and all five publicly visible complete articles, five real WebP covers and sitemap entries. Run `php scripts/verify-editorial-batch.php YYYY-MM-DD` after production media optimization/cache rebuild, and visually inspect the live pages. A previous complete date is not republished; an exact partial batch resumes missing rows only. Never invent or backdate missed batches.
