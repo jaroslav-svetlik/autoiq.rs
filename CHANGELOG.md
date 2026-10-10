@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.202] - 2026-10-10
+
+- Added five reviewed articles covering Corolla sedan versus Mazda3 BP, Civic IX 1.8, Karoq 1.0 TSI, ADAS calibration and used-EV battery evidence.
+- Added a reusable create-only daily publisher with editorial validation, unchanged voice checks, real WebP decoding, a five-per-day guard, a publication lock and persistent affected-row journals.
+- Kept new editorial regressions local and ignored; documented the complete publish-and-verify workflow and automatic resumption requirements.
+- Fixed the article route's publication-time boundary to match the public catalog; added exact visible-block, WebP and sitemap acceptance checks.
+
 ## [0.1.201] - 2026-10-06
 
 - Rewrote the five existing October 6 articles with researched, model-specific Serbian editorial copy, corrected generation/transmission distinctions, and separately rendered sections; preserved existing URLs, publication timestamps and WebP covers.
