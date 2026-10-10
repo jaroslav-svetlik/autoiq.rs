@@ -52,7 +52,7 @@ try {
         foreach ($xpath->query('//article//p | //article//h2 | //article//h3 | //article//summary') as $node) {
             $texts[] = $normalize($node->textContent);
         }
-        $post = new BlogPost($source);
+        $post = new BlogPost(['content' => $source['content']]);
         foreach ($post->contentBlocks() as $block) {
             foreach ($block['type'] === 'faq' ? [$block['question'], $block['answer']] : [$block['text']] as $text) {
                 if (! in_array($normalize($text), $texts, true)) {

@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.203] - 2026-10-10
+
+- Corrected public acceptance verification to render only the model's content field, excluding research-only palette metadata; verified all 95 public body blocks, five WebPs and sitemap entries.
+
 ## [0.1.202] - 2026-10-10
 
 - Added five reviewed articles covering Corolla sedan versus Mazda3 BP, Civic IX 1.8, Karoq 1.0 TSI, ADAS calibration and used-EV battery evidence.
