@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.204] - 2026-10-13
+
+- Added five independently researched articles: Clio V versus Ibiza KJ, manual Yaris XP210, early Micra K14 0.9, wheel-noise diagnosis, and Toyota Provereno versus Relax offer comparison.
+- Reviewed generation-specific cover illustrations and verified complete rendered copy, publication safeguards and private journal behavior with ignored local tests.
+
 ## [0.1.203] - 2026-10-10
 
 - Corrected public acceptance verification to render only the model's content field, excluding research-only palette metadata; verified all 95 public body blocks, five WebPs and sitemap entries.
