@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.205] - 2026-10-14
+
+- Added five researched articles: Sandero III versus i20 BC3, early Scala TSI 95, Swift K12C Dualjet, TPMS warning diagnosis and Euro NCAP ratings in used-car offers.
+- Reviewed five generation-specific or topic-specific editorial covers and verified full rendered content and publication safeguards with ignored local tests.
+- Recorded the owner's requirement that every daily batch must reach actual publication and complete public verification in the same execution.
+
 ## [0.1.204] - 2026-10-13
 
 - Added five independently researched articles: Clio V versus Ibiza KJ, manual Yaris XP210, early Micra K14 0.9, wheel-noise diagnosis, and Toyota Provereno versus Relax offer comparison.

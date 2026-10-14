@@ -19,6 +19,14 @@ Each scheduled execution runs in its own scheduler-created chat. Do not create a
 
 ## Daily execution after October 10
 
+Owner reaffirmation, 2026-10-14: never leave a daily batch as a draft. Completion
+requires the full same-run workflow through actual publication and public
+verification of all five posts and covers. Missing copy, images, tests, source
+data, commits or deployment are steps to execute, not reasons to stop. A final
+response may report incomplete publication only with a verified external
+impediment that cannot safely be resolved in scope, its exact command/state and
+durable resumable evidence. A preparation checkpoint is never a success.
+
 Read `docs/EDITORIAL_DAILY_WORKFLOW.md`. Missing reviewed daily data or images is work to perform, not a blocker: research, write, test, generate/review covers, release, deploy, publish and verify in this same run. Do not finish after a research manifest or local draft. Only a verified external impediment that cannot safely be resolved in scope permits an incomplete run; report the exact failing command/state and retain resumable progress.
 
 Use dated `database/seeders/data/YYYY-MM-DD.php` with `ReviewedEditorialBatch::load()` and `editorial:publish YYYY-MM-DD`, never append new publication batches to the frozen historical seeder. Keep new/changed tests ignored under `tests/Feature/Local/`; extend and execute them locally for each batch and never stage, commit or push tests. This owner policy overrides older playbook instructions to commit tests.
