@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.206] - 2026-10-15
+
+- Added the reviewed five-article daily batch: Kamiq versus Captur II, Tipo sedan 1.4 95, Jazz GK 1.3 i-VTEC, uneven tyre-wear inspection and first-keeper offer analysis.
+- Added five corresponding 1280×720 WebP editorial covers; local publication safeguards remain ignored and uncommitted.
+
 ## [0.1.205] - 2026-10-14
 
 - Added five researched articles: Sandero III versus i20 BC3, early Scala TSI 95, Swift K12C Dualjet, TPMS warning diagnosis and Euro NCAP ratings in used-car offers.
