@@ -201,15 +201,6 @@ Pre sastanka zatraži fotografiju saobraćajne dozvole sa zaštićenim osetljivi
 Kada se istorija ne može dovoljno potvrditi, to nije poziv da se automatski optuži prodavac, ali jeste razlog da se rizik ne predstavi kao poznata činjenica. U tom slučaju nezavisan pregled i realan budžet za početno održavanje dobijaju veću težinu. Kupovina polovnjaka počinje pouzdanim identitetom vozila, a završava se stanjem koje je kupac zaista video i proverio.
 TEXT;
 
-// The legacy seeder must be a no-op over reviewed copy. Avoid its obsolete
-// persona-trigger words rather than accepting its generic substitutions.
-$neutralizePersona = static fn (string $text): string => preg_replace(
-    '/\b(?:kup(?:ac|ci)\p{L}*|vozač\p{L}*|vlasnik\p{L}*|prodav\p{L}*)\b/iu',
-    'pregled',
-    $text,
-);
-[$comparison, $tipo, $jazz, $tire, $market] = array_map($neutralizePersona, [$comparison, $tipo, $jazz, $tire, $market]);
-
 return [
     ['title' => 'Kamiq 1.0 TSI 95 ili Captur II TCe 90: dva mala crossovera, dve praktične računice', 'slug' => 'kamiq-10-tsi-95-ili-captur-ii-tce-90', 'category' => 'Poređenje modela', 'excerpt' => 'Kamiq 1.0 TSI 95 i Captur II TCe 90 nisu ista kupovina: proveri ručni pogon, raspored kabine, stvarnu opremu i dokumentovanu istoriju.', 'content' => $comparison, 'highlights' => ['Kamiq 95 KS i Captur TCe 90 traže potvrdu tačnog motora i prenosa.', 'Prtljažnik, zadnja klupa i ergonomija proveravaju se na konkretnom autu.', 'Prednost ima primerak sa potvrđenim stanjem, ne samo jačim opisom oglasa.'], 'tags' => ['Škoda Kamiq', 'Renault Captur', '1.0 TSI', 'TCe 90', 'poređenje polovnjaka'], 'meta_title' => 'Kamiq 1.0 TSI 95 ili Captur II TCe 90', 'meta_description' => 'Poređenje Kamiqa 1.0 TSI 95 i Captura II TCe 90: motor, ručni menjač, kabina, oprema i pregled polovnjaka.', 'palette' => ['#7f1d1d', '#475569', '#f8fafc']],
     ['title' => 'Fiat Tipo sedan 1.4 95: veliki gepek uz benzinski motor sa jasnim granicama', 'slug' => 'fiat-tipo-sedan-14-95-polovni-vodic', 'category' => 'Kupovina polovnjaka', 'excerpt' => 'Tipo sedan 1.4 95 ima 520 litara prtljažnika i ručni benzinac, ali izvedbu, gepek, podvozje i istoriju treba proveriti kao povezanu celinu.', 'content' => $tipo, 'highlights' => ['1.4 16v ima 95 KS i 127 Nm; nije T-Jet niti automatik.', '520 litara gepeka treba proveriti kroz podnicu, vlagu i poravnanje poklopca.', 'Pregled podvozja i servisni računi odlučuju više od spiska opreme.'], 'tags' => ['Fiat Tipo', '1.4 95', 'sedan', 'ručni menjač', 'polovni vodič'], 'meta_title' => 'Fiat Tipo sedan 1.4 95: polovni vodič', 'meta_description' => 'Vodič za Fiat Tipo sedan 1.4 95: motor, veliki gepek, menjač, oprema, podvozje i provera polovnjaka.', 'palette' => ['#1e3a5f', '#60a5fa', '#eff6ff']],
