@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.207] - 2026-10-16
+
+- Removed the destructive legacy editorial voice substitution and restored the reviewed October 15 wording.
+- Added a locked, hash-checked, journaled repair command scoped only to the five existing October 15 article rows; publication identity and covers remain immutable.
+
 ## [0.1.206] - 2026-10-15
 
 - Added the reviewed five-article daily batch: Kamiq versus Captur II, Tipo sedan 1.4 95, Jazz GK 1.3 i-VTEC, uneven tyre-wear inspection and first-keeper offer analysis.
