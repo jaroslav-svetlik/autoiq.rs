@@ -30,7 +30,7 @@ final class RepairOctoberFifteenthEditorialBatchCommand extends Command
             $posts = ReviewedEditorialBatch::load(self::DATE); EditorialBatchValidator::validate($posts); $bySlug = collect($posts)->keyBy('slug');
             $rows = BlogPost::whereIn('id', array_keys(self::EXPECTED))->orderBy('id')->get();
             if ($rows->count() !== 5 || BlogPost::whereDate('published_at', self::DATE)->count() !== 5) throw new RuntimeException('Unexpected October 15 scope; no repair performed.');
-            foreach ($rows as $row) { $source = $bySlug->get($row->slug); if (! $source || $row->getRawOriginal('published_at') !== '2026-10-15 07:40:04' || $row->cover_image_path !== 'blog/generated/'.$row->slug.'.webp') throw new RuntimeException('Protected identity or media differs: '.$row->id); }
+            foreach ($rows as $row) { $source = $bySlug->get($row->slug); if (! $source || $row->getRawOriginal('published_at') !== '2026-10-15 09:40:04' || $row->cover_image_path !== 'blog/generated/'.$row->slug.'.webp') throw new RuntimeException('Protected identity or media differs: '.$row->id); }
             $pending = $rows->filter(fn (BlogPost $row) => $row->content !== $bySlug[$row->slug]['content']);
             if ($pending->isEmpty()) { $this->line(json_encode(['status' => 'already repaired', 'changed' => 0])); return self::SUCCESS; }
             foreach ($pending as $row) if (hash('sha256', $row->content) !== self::EXPECTED[$row->id]) throw new RuntimeException('Unreviewed concurrent content change: '.$row->id);
