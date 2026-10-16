@@ -67,11 +67,6 @@ class TrendBlogPostSeeder extends Seeder
         if (($post['_reviewed_editorial_batch'] ?? false) === true) {
             return $post;
         }
-        // Reviewed editorial copy is already final. The legacy normalizer used
-        // broad persona-word matches and could replace substantive sentences
-        // with generic filler, so it must remain an exact no-op.
-        return $post;
-
         $names = [
             'Aleksa', 'Aleksandar', 'Aleksandra', 'Ana', 'Bojan', 'Davor',
             'Dejan', 'Dragan', 'Ivan', 'Ivana', 'Jelena', 'Jovan', 'Jovana',
