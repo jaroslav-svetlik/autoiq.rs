@@ -29,7 +29,8 @@ final class ReviewedEditorialBatch
             if (! preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/D', $post['slug'])) {
                 throw new RuntimeException('Unsafe editorial slug: '.$post['slug']);
             }
-            if ($transform->invoke($seeder, $post) !== $post) {
+            $reviewed = $post + ['_reviewed_editorial_batch' => true];
+            if ($transform->invoke($seeder, $reviewed) !== $reviewed) {
                 throw new RuntimeException('Legacy transformation changes reviewed text: '.$post['slug']);
             }
         }

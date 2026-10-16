@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.208] - 2026-10-16
+
+- Mark reviewed daily batches explicitly so their editorial voice is an exact no-op while the frozen legacy catalog remains compatible with its historical migration behavior.
+
 ## [0.1.207] - 2026-10-16
 
 - Removed the destructive legacy editorial voice substitution and restored the reviewed October 15 wording.
