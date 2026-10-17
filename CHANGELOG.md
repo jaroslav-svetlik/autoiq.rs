@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.210] - 2026-10-17
+
+- Added the reviewed October 17 create-only batch: Focus Mk4 versus Ceed CD, i30 PD 1.4 MPI, Mégane IV Grandtour 1.6 SCe, luggage-well water inspection and VIN-first advert review.
+- Added five reviewed 1280×720 WebP editorial covers; local publication regressions remain ignored and uncommitted.
+
 ## [0.1.208] - 2026-10-16
 
 - Mark reviewed daily batches explicitly so their editorial voice is an exact no-op while the frozen legacy catalog remains compatible with its historical migration behavior.
