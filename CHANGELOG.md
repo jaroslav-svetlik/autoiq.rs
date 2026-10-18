@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.211] - 2026-10-18
+
+- Added the reviewed October 18 create-only batch: Astra K versus Auris E180, Astra K 1.4, Note E12 1.2, clutch-pedal diagnosis and comparable-advert analysis.
+- Added five reviewed 1280×720 WebP editorial covers; local publication regressions remain ignored and uncommitted.
+
 ## [0.1.210] - 2026-10-17
 
 - Added the reviewed October 17 create-only batch: Focus Mk4 versus Ceed CD, i30 PD 1.4 MPI, Mégane IV Grandtour 1.6 SCe, luggage-well water inspection and VIN-first advert review.
