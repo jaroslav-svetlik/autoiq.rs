@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.212] - 2026-10-19
+
+- Added the reviewed October 19 create-only batch: Fabia III versus Yaris XP130, Fabia III MPI, Rio YB MPI, VIN identity mismatch and service-history evidence.
+- Added five reviewed 1280×720 WebP editorial covers; local publication regressions remain ignored and uncommitted.
+
 ## [0.1.211] - 2026-10-18
 
 - Added the reviewed October 18 create-only batch: Astra K versus Auris E180, Astra K 1.4, Note E12 1.2, clutch-pedal diagnosis and comparable-advert analysis.
