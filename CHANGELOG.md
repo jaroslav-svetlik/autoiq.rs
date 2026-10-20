@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.213] - 2026-10-20
+
+- Added the reviewed October 20 create-only batch: Fiesta versus Corsa, Clio IV TCe, Jazz GK i-VTEC, tyre-wear inspection and service-history value analysis.
+- Added five reviewed 1280×720 WebP editorial covers; local publication safeguards remain ignored and uncommitted.
+
 ## [0.1.212] - 2026-10-19
 
 - Added the reviewed October 19 create-only batch: Fabia III versus Yaris XP130, Fabia III MPI, Rio YB MPI, VIN identity mismatch and service-history evidence.
