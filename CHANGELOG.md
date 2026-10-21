@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.214] - 2026-10-21
+
+- Added the reviewed October 21 create-only batch: Mazda2 versus Polo, Verso-S, cee’d JD, cabin-moisture inspection and winter-wheel value analysis.
+- Added five reviewed 1280×720 WebP editorial covers; local publication safeguards remain ignored and uncommitted.
+
 ## [0.1.213] - 2026-10-20
 
 - Added the reviewed October 20 create-only batch: Fiesta versus Corsa, Clio IV TCe, Jazz GK i-VTEC, tyre-wear inspection and service-history value analysis.
