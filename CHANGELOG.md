@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.215] - 2026-10-22
+
+- Added the reviewed October 22 create-only batch: Jazz versus Splash, Mégane III, ix20, clutch-symptom inspection and first-owner advert analysis.
+- Added five reviewed 1280×720 WebP editorial covers; local publication safeguards remain ignored and uncommitted.
+
 ## [0.1.214] - 2026-10-21
 
 - Added the reviewed October 21 create-only batch: Mazda2 versus Polo, Verso-S, cee’d JD, cabin-moisture inspection and winter-wheel value analysis.
