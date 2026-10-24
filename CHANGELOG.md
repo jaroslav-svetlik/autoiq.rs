@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.216] - 2026-10-24
+
+- Added the reviewed October 24 create-only batch: 308 versus i30, Auris Valvematic, Rapid MPI, auxiliary-belt inspection and fresh-import advert analysis.
+- Added five reviewed 1280×720 WebP editorial covers; local publication safeguards remain ignored and uncommitted.
+
 ## [0.1.215] - 2026-10-22
 
 - Added the reviewed October 22 create-only batch: Jazz versus Splash, Mégane III, ix20, clutch-symptom inspection and first-owner advert analysis.
