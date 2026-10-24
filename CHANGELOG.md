@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.217] - 2026-10-24
+
+- Updated Livewire and the Socialite phpseclib dependency chain to audited releases required by the production build gate.
+
 ## [0.1.216] - 2026-10-24
 
 - Added the reviewed October 24 create-only batch: 308 versus i30, Auris Valvematic, Rapid MPI, auxiliary-belt inspection and fresh-import advert analysis.
