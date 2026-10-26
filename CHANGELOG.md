@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.218] - 2026-10-26
+
+- Added the reviewed October 26 create-only batch: Panda versus i10, Rio MPI, C-Elysee VTi, VIN mismatch inspection and service-history evidence analysis.
+- Added five reviewed 1280×720 WebP editorial covers. The local Windows runtime now exposes PHP 8.4 to the original Bash gate.
+
 ## [0.1.216] - 2026-10-24
 
 - Added the reviewed October 24 create-only batch: 308 versus i30, Auris Valvematic, Rapid MPI, auxiliary-belt inspection and fresh-import advert analysis.
