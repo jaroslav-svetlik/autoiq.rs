@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.219] - 2026-10-28
+
+- Added the reviewed October 28 create-only batch: Focus versus Astra, Fabia MPI, Adam, paint-thickness inspection and evidence-based advert comparison.
+- Added five reviewed 1280x720 WebP editorial covers; no migration or compatibility change is required.
+
 ## [0.1.218] - 2026-10-26
 
 - Added the reviewed October 26 create-only batch: Panda versus i10, Rio MPI, C-Elysee VTi, VIN mismatch inspection and service-history evidence analysis.
