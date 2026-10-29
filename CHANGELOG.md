@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.220] - 2026-10-29
+
+- Added the reviewed October 29 create-only batch: i20 versus Swift, Tipo 1.4, Mégane III 1.6, cooling-system inspection and first-service evidence analysis.
+- Added five reviewed 1280x720 WebP editorial covers; no migration or compatibility change is required.
+
 ## [0.1.219] - 2026-10-28
 
 - Added the reviewed October 28 create-only batch: Focus versus Astra, Fabia MPI, Adam, paint-thickness inspection and evidence-based advert comparison.
