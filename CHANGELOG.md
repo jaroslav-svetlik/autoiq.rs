@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.221] - 2026-10-29
+
+- Updated the locked Symfony MIME dependency from 8.1.7 to 8.1.10, with its required mbstring polyfill update, to clear the production deployment audit.
+- No application migration or editorial compatibility change is required.
+
 ## [0.1.220] - 2026-10-29
 
 - Added the reviewed October 29 create-only batch: i20 versus Swift, Tipo 1.4, Mégane III 1.6, cooling-system inspection and first-service evidence analysis.
