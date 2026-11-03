@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.222] - 2026-11-03
+
+- Added the reviewed November 3 create-only batch: Verso-S versus Jazz, Mazda2 DJ, Punto Evo, brake inspection and mileage-evidence analysis.
+- Added five visually reviewed 1280x720 WebP editorial covers. No schema migration or compatibility change is required.
+
 ## [0.1.221] - 2026-10-29
 
 - Updated the locked Symfony MIME dependency from 8.1.7 to 8.1.10, with its required mbstring polyfill update, to clear the production deployment audit.
