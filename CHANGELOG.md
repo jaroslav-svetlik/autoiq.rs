@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.223] - 2026-11-03
+
+- Updated the locked development-only `follow-redirects` package from 1.16.1 to 1.16.2 to clear GHSA-mrwp-f3q8-3g9p in the release audit. No application API, schema or migration change is required.
+
 ## [0.1.222] - 2026-11-03
 
 - Added the reviewed November 3 create-only batch: Verso-S versus Jazz, Mazda2 DJ, Punto Evo, brake inspection and mileage-evidence analysis.
