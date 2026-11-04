@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.224] - 2026-11-04
+
+- Added the reviewed November 4 create-only batch: Swift versus Mazda2, Civic IX, Citigo, suspension inspection and evidence-led advert comparison.
+- Added five visually reviewed 1280x720 WebP editorial covers. No schema migration or compatibility change is required.
+
 ## [0.1.223] - 2026-11-03
 
 - Updated the locked development-only `follow-redirects` package from 1.16.1 to 1.16.2 to clear GHSA-mrwp-f3q8-3g9p in the release audit. No application API, schema or migration change is required.
