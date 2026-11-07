@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.225] - 2026-11-07
+
+- Added the reviewed November 7 create-only batch: Golf VII versus cee'd JD, Clio IV TCe, Fiesta Mk7 1.25, manual-transmission inspection and equipment-evidence analysis.
+- Added five visually reviewed 1280x720 WebP editorial covers. No schema migration or compatibility change is required.
+
 ## [0.1.224] - 2026-11-04
 
 - Added the reviewed November 4 create-only batch: Swift versus Mazda2, Civic IX, Citigo, suspension inspection and evidence-led advert comparison.
